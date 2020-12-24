@@ -263,7 +263,7 @@ Plug 'jalvesaq/zotcite', { 'on': [] }
 Plug 'holomorph/vim-freefem'
 call plug#end()
 
-" Init files for specific plugins
+ "Init files for specific plugins
 source ~/.config/nvim/init.autopairs
 source ~/.config/nvim/init.coc-nvim
 source ~/.config/nvim/init.inkscape
