@@ -1,5 +1,8 @@
 # .bashrc
 
+# Temp dir
+export TMPDIR="/tmp"
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -94,3 +97,5 @@ fi
 
 # Python (for local modules)
 export PYTHONPATH="$HOME/Documents/Python/Utilities:$PYTHONPATH"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
