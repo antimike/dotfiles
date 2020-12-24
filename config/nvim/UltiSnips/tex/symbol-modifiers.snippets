@@ -1,0 +1,30 @@
+# Modifiers (hats, overlines, tildes, etc.)
+snippet til "Widetilde" w
+\til{$1}$0
+endsnippet
+
+snippet '([^\s]+)hat' "Hat" wr
+\hat{`!p snip.rv = match.group(1)`}
+endsnippet
+
+snippet '([^\s]+)til' "Tilde" wr
+\til{`!p snip.rv = match.group(1)`}
+endsnippet
+
+# TODO: Finish adding 'hat' macros
+
+# Vector postfix
+snippet "(\\?\w+)(,\.)" "Vector" riA
+\vb{`!p snip.rv=match.group(1)`}
+endsnippet
+
+
+# Unit vector postfix
+snippet "(\\?\w+)(,,)" "Unit vector" riA
+\vu{`!p snip.rv=match.group(1)`}
+endsnippet
+
+# Calligraphic math font
+snippet mcal "Mathcal" wA
+\mathcal{$1}$0
+endsnippet

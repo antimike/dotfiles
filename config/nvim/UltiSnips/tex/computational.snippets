@@ -1,0 +1,76 @@
+# Evaluation of simple expressions using Sympy
+snippet sympy "Sympy block expand" w
+sympy $1 sympy$0
+endsnippet
+
+priority 11
+snippet 'sympy(.*)sympy' "Sympy---evaluate" wr
+`!p
+from sympy import *
+x, y, z, t = symbols('x y z t')
+k, m, n = symbols('k m n', integer=True)
+f, g, h = symbols('f g h', cls=Function)
+init_printing()
+snip.rv = eval('latex(' + match.group(1).replace('\\', '') \
+	.replace('^', '**') \
+	.replace('{', '(') \
+	.replace('}', ')') + ')')
+`
+endsnippet
+
+snippet sagecode "Sage code block" bA
+ \begin{sagesilent}
+    """begin=sage"""
+    $1
+    """end=sage"""
+ \end{sagesilent}
+ $0
+endsnippet
+
+snippet sagedatatable "Programmatically create LaTeX-formatted table filled with data from arrays" bA
+\sagestr{tex.tabularize_data(${1:first_col}, ${2:...}, title=r"${3:Title}", col_titles=[r"${4:First column title}", r"${5:...}"])}
+endsnippet
+
+snippet sageanswer "Result of computation with units" wA
+\sagestr{'{:Lx}'.format(n(${1:ans}.magnitude, digits=${2:3})*$1.units)}$0
+endsnippet
+
+snippet plotsetup "Top-level 'container' code for plot" bA
+${1:plotname} = plot([], axes_labels=[r"$2", r"$3"])
+endsnippet
+
+snippet sagelinregress "Linear regression code in Sage" bA
+${1:regression_params} = stats.linregress(${2:x_vals}, ${3:y_vals})
+${4:linear_func}(${5:x}) = $1.slope*$5 + $1.intercept
+endsnippet
+
+snippet addsagegraph "Code to add graph to existing container" bA
+${1:plotname} += plot(${2:f(x)}, (${3:x}, ${4:x_min}, ${5:x_max}), color='${6:blue}', linestyle='${7:-}')
+endsnippet
+
+snippet addsagescatter "Code to add scatter plot (points) to existing container" bA
+${1:plotname} += points(${2:tuples}, color='${3:blue}')
+endsnippet
+
+snippet adjustsageaxes "Code to adjust axis labels' size" bA
+${1:plotname}.axes_labels_size(${2:1.0})
+endsnippet
+
+snippet sageplot3d "Code to add standalone 3D plot" bA
+$1 = plot3d(${2:f(x, y)}, (x, ${3:-1}, ${4:1}), (y, ${5:-1}, ${6:1}), color='${7:purple}', opacity=${8:0.8}, mesh=${9:True})
+endsnippet
+
+snippet sageevalat "Code to evaluate function at value" bA
+${1:ans} = ${2:f(x)}.subs(${3:x}=${4:val})
+endsnippet
+
+snippet sagepreamble "Sage import block" bA
+import sys
+import numpy as np
+from scipy import stats
+
+sys.path.append('/home/user/Documents/Python/Utilities')
+import latex_utils as tex
+$0
+endsnippet
+

@@ -1,0 +1,8 @@
+log_file: None
+sound_file: beep.mp3
+times:
+  long: 900
+  short: 300
+  snooze: 180
+  test: 6
+  work: 1500

@@ -1,0 +1,21 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+
+" include the following plugins (here using junnegun/vim-plug)
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2'
+
+augroup my_cm_setup
+  autocmd!
+autocmd BufEnter * call ncm2#enable_for_buffer()
+  autocmd Filetype pandoc call ncm2#register_source({
+      \ 'name': 'pandoc',
+      \ 'priority': 8,
+      \ 'scope': ['pandoc'],
+      \ 'mark': 'md',
+      \ 'word_pattern': '\w+',
+      \ 'complete_pattern': ['@'],
+      \ 'on_complete': ['ncm2#on_complete#omni', 'pandoc#completion#Complete'],
+      \ })
+  augroup END

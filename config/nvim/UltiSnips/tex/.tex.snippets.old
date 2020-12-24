@@ -1,0 +1,647 @@
+
+# Today's date
+snippet today "Date" 
+`date +%F`
+endsnippet
+
+# Preamble (pset)
+snippet pset "Preamble (pset)" bA
+\documentclass{pset}
+\usepackage{macros}
+\usepackage[units, chem]{include}
+
+\begin{document}
+
+$0
+
+\end{document}
+endsnippet
+
+# Header
+snippet header "Header" bA
+\author{Michael Haynes}
+\title{$1}
+\date{`date +%F`}
+\maketitle
+$0
+endsnippet
+
+# Item
+snippet ** "Item" bA
+\item $0
+endsnippet
+
+# Environment snippet
+# Expands automatically if "beg" is typed at the beginning of a line
+snippet begin "Environment" bA
+\begin{$1}
+	$2
+\end{$1}
+$0
+endsnippet
+
+# Inline math snippet
+# Expands automatically if "mt" is typed at the beginning of a word
+# Includes logic to determine if content should be followed by a space
+snippet mt "Inline math" wA
+$\displaystyle ${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+	snip.rv = ' '
+else:
+	snip.rv = ''
+`$2
+endsnippet
+
+# Another inline math snippet
+snippet $ "Inline math---traditional" w
+$\displaystyle ${1}$ $2
+endsnippet
+
+priority 10
+# Display math snippet
+# Expands automatically if "mtd" is typed at the beginning of a word
+# Includes period at end of equation
+snippet md "Display math" wA
+\[
+	$1
+.\] $0
+endsnippet
+
+snippet \[ "Display math---literal" bA
+\[
+	$1
+.\] $0
+endsnippet
+
+snippet ds "Displaystyle (visual)" w
+\displaystyle ${VISUAL} $0
+endsnippet
+
+# Greek letters
+
+snippet aa "Lowercase alpha" wA
+\alpha $0
+endsnippet
+
+snippet AA "Uppercase alpha" wA
+\Alpha $0
+endsnippet
+
+snippet bb "Lowercase beta" wA
+\beta $0
+endsnippet 
+
+snippet BB "Uppercase beta" wA
+\Beta $0
+endsnippet
+
+snippet gg "Lowercase gamma" wA
+\gamma $0
+endsnippet 
+
+snippet GG "Uppercase gamma" wA
+\Gamma $0
+endsnippet
+
+# Not automatic because of conflict with physics macro \dd
+snippet dd "Lowercase delta" w
+\delta $0
+endsnippet 
+
+snippet DD "Uppercase delta" wA
+\Delta $0
+endsnippet
+
+# Not automatic bc of conflict with varepsilon
+snippet ee "Lowercase epsilon" w
+\epsilon $0
+endsnippet
+
+snippet eee "Varepsilon" wA
+\varepsilon $0
+endsnippet
+
+snippet ffv "Lowercase varphi" wA
+\varphi $0
+endsnippet
+
+snippet fff "Lowercase phi" wA
+\phi $0
+endsnippet
+
+snippet FFF "Uppercase phi" wA
+\Phi $0
+endsnippet
+
+snippet hh "Lowercase eta" wA
+\eta $0
+endsnippet
+
+snippet iii "Lowercase iota" wA
+\iota $0
+endsnippet
+
+snippet kkk "Lowercase kappa" wA
+\kappa $0
+endsnippet
+
+snippet lll "Lowercase lambda" wA
+\lambda $0
+endsnippet
+
+snippet LLL "Uppercase lambda" wA
+\Lambda $0
+endsnippet
+
+snippet mmm "Lowercase mu" wA
+\mu $0
+endsnippet
+
+snippet nnn "Lowercase nu" wA
+\nu $0
+endsnippet
+
+snippet OOO "Big-O" wA
+\mathcal{O} $0
+endsnippet
+
+snippet ppp "Lowercase pi" wA
+\pi $0
+endsnippet
+
+snippet PPP "Uppercase pi" wA
+\Pi $0
+endsnippet
+
+snippet tht "Lowercase theta" wA
+\theta $0
+endsnippet
+
+snippet THT "Uppercase theta" wA
+\Theta $0
+endsnippet
+
+snippet rrr "Lowercase rho" wA
+\rho $0
+endsnippet
+
+snippet sss "Lowercase sigma" wA
+\sigma $0
+endsnippet
+
+snippet ssv "Lowercase varsigma" wA
+\varsigma $0
+endsnippet
+
+snippet SSS "Uppercase sigma" wA
+\Sigma $0
+endsnippet
+
+snippet ttt "Lowercase tau" wA
+\tau $0
+endsnippet
+
+snippet www "Lowercase omega" wA
+\omega $0
+endsnippet
+
+snippet WWW "Uppercase omega" wA
+\Omega $0
+endsnippet
+
+snippet YYY "Upsilon" wA
+\Upsilon $0
+endsnippet
+
+snippet zzz "Lowercase zeta" wA
+\zeta $0
+endsnippet
+
+snippet xxx "Lowercase xi" wA
+\xi $0
+endsnippet
+
+snippet XXX "Uppercase xi" wA
+\Xi $0
+endsnippet
+
+snippet chch "Lowercase chi" wA
+\chi $0
+endsnippet
+
+
+# Parens, brackets, etc.
+
+snippet p "Parens (visual selection)"
+\left( ${VISUAL} \right) $0
+endsnippet
+
+snippet b "Brackets (visual selection)"
+\left[ ${VISUAL} \right] $0
+endsnippet
+
+snippet br "Braces (visual selection)"
+\left\{ ${VISUAL} \right\} $0
+endsnippet
+
+# Fractions
+
+priority 5
+# Expandable inside any group of letters
+snippet // "Fraction---simple" iA
+\dfrac{$1}{$2}$0
+endsnippet
+
+# TODO: Edit these regexes to fit my use-cases
+#snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)' "Fraction---autocomplete" wrA
+#\dfrac{`!p snip.rv = match.group(1)`}{$1}$0
+#endsnippet
+
+#priority 10
+#snippet '^.*\)/' "Fraction---autocomplete parens" wrA
+#`!p
+#stripped = match.string[:-1]
+#depth = 0
+#i = len(stripped) - 1
+#while True:
+#	#if stripped[i] == ')': depth += 1
+#	#if stripped[i] == '(': depth -= 1
+#	#if depth == 0: break;
+#	#i -= 1
+#snip.rv = stripped[0:i] + "\dfrac{" + stripped[i+1:-1] + "}"
+#`{$1}$0
+#endsnippet
+
+priority 0
+# Fraction using visual selection
+snippet / "Fraction"
+\dfrac{${VISUAL}}{$1}$0
+endsnippet
+
+# Evaluation of simple expressions using Sympy
+snippet sympy "Sympy block expand" w
+sympy $1 sympy$0
+endsnippet
+
+priority 11
+snippet 'sympy(.*)sympy' "Sympy---evaluate" wr
+`!p
+from sympy import *
+x, y, z, t = symbols('x y z t')
+k, m, n = symbols('k m n', integer=True)
+f, g, h = symbols('f g h', cls=Function)
+init_printing()
+snip.rv = eval('latex(' + match.group(1).replace('\\', '') \
+	.replace('^', '**') \
+	.replace('{', '(') \
+	.replace('}', ')') + ')')
+`
+endsnippet
+
+priority 0
+
+# Modifiers (hats, overlines, tildes, etc.)
+snippet til "Widetilde" w
+\til{$1}$0
+endsnippet
+
+snippet '([^\s]+)hat' "Hat" wr
+\hat{`!p snip.rv = match.group(1)`}
+endsnippet
+
+snippet '([^\s]+)til' "Tilde" wr
+\til{`!p snip.rv = match.group(1)`}
+endsnippet
+
+# TODO: Finish adding 'hat' macros
+
+# Vector postfix
+snippet "(\\?\w+)(,\.|\.,)" "Vector" riA
+\vb{`!p snip.rv=match.group(1)`}
+endsnippet
+
+# Arrows
+snippet -> "Short arrow" wA
+\to
+endsnippet
+
+snippet => "Implies" wA
+\Longrightarrow
+endsnippet
+
+snippet iff "Iff" wA
+\Longleftrightarrow
+endsnippet
+
+# Sums and limits
+snippet lim "Lim" w
+\ds \lim_{$1} $0
+endsnippet
+
+snippet sum "Sum" w
+\ds \sum_{$1}^{$2} $0
+endsnippet
+
+# Infinity
+snippet ooo "Infinity" iA
+\infty
+endsnippet
+
+# Delimiters
+snippet (!) "Big parens" iA
+\qty( $1 )$0
+endsnippet
+
+snippet [!] "Big brackets" iA
+\qty[ $1 ]$0
+endsnippet
+
+snippet {!} "Big braces" iA
+\qty\{ $1 \}$0
+endsnippet
+
+# QM stuff
+
+priority 30
+snippet '<(.*)\|(.*)\|(.*)>' "Expectation value" irA
+\mel**{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}{`!p snip.rv = match.group(3)`}
+endsnippet
+
+snippet <||> "Expectation value---tabstop" iA
+\mel**{$1}{$2}{$3}$0
+endsnippet
+
+priority 20
+snippet '<(.*)\|(.*)>' "Braket" irA
+\braket{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}
+endsnippet
+
+snippet '\|(.*)><(.*)\|' "Ketbra" irA
+\ketbra{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}
+endsnippet
+
+snippet <|> "Braket---tabstop" iA
+\braket{$1}{$2}$0
+endsnippet
+
+snippet |><| "Ketbra---tabstop" iA
+\ketbra{$1}{$2}$0
+endsnippet
+
+priority 10
+snippet '<(.*)\|' "Bra" irA
+\bra{`!p snip.rv = match.group(1)`}
+endsnippet
+
+snippet '\|(.*)>' "Ket" irA
+\ket{`!p snip.rv = match.group(1)`}
+endsnippet
+
+snippet <| "Bra---tabstop" iA
+\bra{$1}$0
+endsnippet
+
+snippet |> "Ket---tabstop" iA
+\ket{$1}$0
+endsnippet
+
+# Equation ref snippet
+snippet eqn "Equation ref" wA
+\eqnref{$1} $0
+endsnippet
+
+# Autoref snippet
+# Doesn't expand automatically
+snippet ref "Autoref" w
+\autoref{$1} $0
+endsnippet
+
+# Subscript snippet
+# Automatically formats single-digit subscripts using regex detection
+# Useful for, e.g., matrix elements
+snippet '([A-Za-z])(\d)' "Single-digit subscript" wrA
+`!p snip.rv = match.group(1)`_`!p snip.rv = match.group(2)`
+endsnippet
+
+# Double-digit subscript snippet 
+snippet '([A-Za-z])_(\d\d)' "Double-digit subscript" wrA
+`!p snip.rv = match.group(1)`_{`!p snip.rv = match.group(2)`}
+endsnippet
+
+## General subscript snippet
+## Doesn't expand automatically
+#snippet '([^\s]+)__([^\s]+)' "General subscript" wr
+#`!p snip.rv = match.group(1)`_{`!p snip.rv = match.group(2)`}
+#endsnippet
+
+## General superscript snippet
+## Doesn't expand automatically
+#snippet '([^\s]+)^^([^\s]+)' "General superscript" wr
+#`!p snip.rv = match.group(1)`^{`!p snip.rv = match.group(2)`}
+#endsnippet
+
+# General subscript / superscript snippets (improved)
+snippet __ "General subscript" iA
+_{$1}$0
+endsnippet
+
+snippet ^^ "General superscript" iA
+^{$1}$0
+endsnippet
+
+# Operators
+
+snippet int "Integral" w
+\int $1 $0
+endsnippet
+
+priority 5 
+snippet int_ "Definite integral" wA
+\int_{ $1 }^{ $2 } $3 $0
+endsnippet
+
+priority 10
+snippet int__ "Definite integral with lower limit only" wA
+\int_{ $1 } $2 $0
+endsnippet
+
+snippet oint "Closed integral" w
+\oint $1 $0
+endsnippet
+
+priority 5
+snippet oint_ "Definite closed integral" wA
+\oint{ $1 }^{ $2 } $3 $0
+endsnippet
+
+priority 10
+snippet oint__ "Definite integral with lower limit only" wA
+\oint_{ $1 } $2 $0
+endsnippet
+
+#snippet int() "Integral---parens" wA
+#\displaystyle \int \left( $1 \right) $0
+#endsnippet
+
+#snippet int[] "Integral---brackets" wA
+#\displaystyle \int \left[ $1 \right] $0
+#endsnippet
+
+#snippet int{} "Integral---braces" wA
+#\displaystyle \int \left\{ $1 \right\} $0
+#endsnippet
+
+#snippet oint() "Integral---parens" wA
+#\displaystyle \oint \left( $1 \right) $0
+#endsnippet
+
+#snippet oint[] "Integral---brackets" wA
+#\displaystyle \oint \left[ $1 \right] $0
+#endsnippet
+
+#snippet oint{} "Integral---braces" wA
+#\displaystyle \oint \left\{ $1 \right\} $0
+#endsnippet
+
+## Definite integrals
+
+#snippet int_() "Integral---parens" wA
+#\displaystyle \int_{$1}^{$2} \left( $3 \right) $0
+#endsnippet
+
+#snippet int_[] "Integral---brackets" wA
+#\displaystyle \int_{$1}^{$2} \left[ $3 \right] $0
+#endsnippet
+
+#snippet int_{} "Integral---braces" wA
+#\displaystyle \int_{$1}^{$2} \left\{ $3 \right\} $0
+#endsnippet
+
+#snippet oint_() "Integral---parens" wA
+#\displaystyle \oint_{#1}^{#2} \left( $3 \right) $0
+#endsnippet
+
+#snippet oint_[] "Integral---brackets" wA
+#\displaystyle \oint_{#1}^{#2} \left[ $3 \right] $0
+#endsnippet
+
+#snippet oint_{} "Integral---braces" wA
+#\displaystyle \oint_{#1}^{#2} \left\{ $3 \right\} $0
+#endsnippet
+
+
+# Differentials
+# TODO: Implement these
+
+# Common functions
+# These rely on physics-package macros
+
+# Derivatives
+
+snippet `''` "Prime" iA
+\prime
+endsnippet
+
+snippet `""` "Double prime" iA
+\dprime
+endsnippet
+
+snippet '`(\d+)`' "Higher derivatives (exponent notation)" irA
+^{`!p snip.rv = match.group(1)`}
+endsnippet
+
+# Exponential
+snippet exp() "Exponential---parens" wA
+\exp \left( $1 \right) $0
+endsnippet
+
+snippet exp[] "Exponential---brackets" wA
+\exp \left[ $1 \right] $0
+endsnippet
+
+snippet exp{} "Exponential---braces" wA
+\exp \left\{ $1 \right\} $0
+endsnippet
+
+# Braces (not automatic)
+snippet braces "Big braces" w
+\left\{ $1 \right\} $0
+endsnippet
+
+# Trig
+snippet sin() "Sin---parens" wA
+\sin \left( $1 \right) $0
+endsnippet
+
+snippet sin[] "Sin---brackets" wA
+\sin \left( $1 \right) $0
+endsnippet
+
+snippet sin{} "Sin---braces" wA
+\sin \left\{ $1 \right\} $0
+endsnippet
+
+snippet cos() "cos---parens" wA
+\cos \left( $1 \right) $0
+endsnippet
+
+snippet cos[] "cos---brackets" wA
+\cos \left( $1 \right) $0
+endsnippet
+
+snippet cos{} "cos---braces" wA
+\cos \left\{ $1 \right\} $0
+endsnippet
+
+snippet tan() "tan---parens" wA
+\tan \left( $1 \right) $0
+endsnippet
+
+snippet tan[] "tan---brackets" wA
+\tan \left( $1 \right) $0
+endsnippet
+
+snippet tan{} "tan---braces" wA
+\tan \left\{ $1 \right\} $0
+endsnippet
+
+snippet cot() "cot---parens" wA
+\cot \left( $1 \right) $0
+endsnippet
+
+snippet cot[] "cot---brackets" wA
+\cot \left( $1 \right) $0
+endsnippet
+
+snippet cot{} "cot---braces" wA
+\cot \left\{ $1 \right\} $0
+endsnippet
+
+snippet sec() "sec---parens" wA
+\sec \left( $1 \right) $0
+endsnippet
+
+snippet sec[] "sec---brackets" wA
+\sec \left( $1 \right) $0
+endsnippet
+
+snippet sec{} "sec---braces" wA
+\sec \left\{ $1 \right\} $0
+endsnippet
+
+snippet csc() "csc---parens" wA
+\csc \left( $1 \right) $0
+endsnippet
+
+snippet csc[] "csc---brackets" wA
+\csc \left( $1 \right) $0
+endsnippet
+
+snippet csc{} "csc---braces" wA
+\csc \left\{ $1 \right\} $0
+endsnippet
+
+
+
+
+

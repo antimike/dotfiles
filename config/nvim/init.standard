@@ -1,0 +1,51 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" The following options are suggested in
+" https://vim.fandom.com/wiki/Example_vimrc:
+set nocompatible
+filetype indent plugin on
+syntax on
+" This ensures that linebreaks don't split up words:
+ set linebreak
+" support for multiple files in same window
+set hidden
+" wildcard completion on the vim command-line
+set wildmenu
+" shows partial commands on last screen line
+set showcmd
+" search highlighting
+set hlsearch
+" case-insensitive search except when using capitals
+set ignorecase
+set smartcase
+" allow backspacing over autoindent, line breaks, and start of insert
+set backspace=indent,eol,start
+" autoindents to the current level
+set autoindent
+" stop from always going to first char of a line
+set nostartofline
+" display cursor position on last line of screen
+set ruler
+" always display status line (even if only one window is open)
+set laststatus=2
+" enables 'confirm' dialogue on unsaved changes
+set confirm
+" 'visual bell' indicates something wrong
+"set visualbell
+" reset terminal code for visual bell
+" not sure what this would be used for...
+" set t_vb=
+" enables mouse use for all modes
+set mouse=a
+" set command window height to 2 lines
+set cmdheight=2
+" display line numbers
+set number
+" timeout specs for keycodes / mappings
+" set notimeout ttimeout ttimeoutlen=200
+" use <F11> to toggle 'paste' / 'nopaste' option
+" set pastetoggle=<F11>
+nnoremap <C-M-j> gT
+nnoremap <C-M-k> gt
+nnoremap <Space> :cnext

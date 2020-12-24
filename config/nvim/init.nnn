@@ -1,0 +1,6 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+let g:nnn#set_default_mappings = 0
+
+nnoremap <silent> <leader>nn :NnnPicker<CR>

@@ -1,0 +1,10 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+
+"autocmd BufReadPost *.tex call SyntaxRange#Include('\begin{sagesilent}', '\end{sagesilent}', 'sage', 'NonText')
+"autocmd BufReadPost *.tex call SyntaxRange#Include('\sageplot{', '}', 'sage', 'NonText')
+autocmd BufReadPost *.tex call SyntaxRange#Include('"""begin=sage"""', '"""end=sage"""', 'sage', 'NonText')
+autocmd BufReadPost *.tex call SyntaxRange#Include('%%%begin=sage%%%', '%%%end=sage%%%', 'sage', 'NonText')
+autocmd BufReadPost *.tex call SyntaxRange#Include('"""begin=python"""', '"""end=python"""', 'python', 'NonText')
+autocmd BufReadPost *.tex call SyntaxRange#Include('%%%begin=python%%%', '%%%end=python%%%', 'python', 'NonText')

@@ -1,0 +1,12 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+"let g:notmuch_reader = 'neomutt -f %s'
+let g:notmuch_sendmail = 'msmtp'
+	let g:notmuch_folders = [
+		\ [ 'new', 'tag:inbox and tag:unread' ],
+		\ [ 'inbox', 'tag:inbox' ],
+		\ [ 'unread', 'tag:unread' ],
+		\ [ 'todo', 'tag:todo' ],
+		\ [ 'to-me', 'to:antimike.haynes@colostate.edu or antihaynes@gmail.com and tag:new' ],
+		\ ]

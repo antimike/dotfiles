@@ -1,0 +1,115 @@
+# vim: syntax=mutt
+
+unmailboxes *
+unvirtual-mailboxes *
+
+set from = "Antimike.Haynes@colostate.edu"
+set hostname = "colostate.edu"
+set folder = "~/mail/csu"
+set signature = "~/.mutt/signatures/signature-csu"
+set sendmail = "/usr/bin/msmtp -a csu"
+#set sendmail="tee >(notmuch-deliver -t sent -f Sent) | /usr/bin/msmtp -a csu"            # enables parsing of outgoing mail
+
+virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox AND tag:csu"
+virtual-mailboxes "Sent" "notmuch://?query=tag:sent AND tag:csu"
+virtual-mailboxes "Unread" "notmuch://?query=tag:unread AND tag:csu"
+
+source ~/Documents/'Fall 2020'/.muttrc-csu-virtualfolders
+#source ~/Documents/mail/csu/mutt-aliases
+
+# Alternates
+alternates ^hactar@colostate.edu
+
+set mbox_type = Maildir
+#set spoolfile = "+Inbox"
+set virtual_spoolfile=yes
+set postponed = "+Drafts"
+set record = "+Sent"
+#set mbox = "+/Archives/`date +%Y`"
+save-hook . "+Archives/%[%Y]"
+set trash = "+Trash"
+set imap_check_subscribed=yes
+set imap_list_subscribed=no
+
+bind index,pager <F10> sidebar-toggle-virtual
+
+set pgp_sign_as = "antimike.haynes@colostate.edu"
+
+mailboxes =Inbox
+mailboxes ='AVS Announcements'
+mailboxes =AcadFac
+mailboxes =Admin
+mailboxes =Administrative
+mailboxes ='Advisor Correspondence'
+mailboxes =Announcements
+mailboxes =Archive
+mailboxes =Archives
+mailboxes =Blocked
+#mailboxes ='Brian Jones'
+#mailboxes ='Brian Jones (Phys 121 '
+mailboxes ='CSU Billing'
+mailboxes ='CSU Graduate School'
+mailboxes =Calendar
+mailboxes =Canvas
+mailboxes ='Classical Mechanics (Fall 2019)'
+mailboxes ='Colloquia (Fall 2019)'
+mailboxes =Contacts
+mailboxes ='Conversation History'
+mailboxes ='Deleted Items'
+mailboxes =Drafts
+mailboxes =Fizgrad
+mailboxes =GSC
+mailboxes =GitHub
+mailboxes ='Honor Society'
+mailboxes =Journal
+mailboxes ='Junk Email'
+mailboxes =Later
+mailboxes ='Math Methods (Fall 2019)'
+mailboxes =MathWorks
+mailboxes =Mendeley
+mailboxes =Microsoft
+mailboxes =Notes
+mailboxes =Outbox
+mailboxes =PSA
+mailboxes ='Physics 121 (Fall 2019)'
+mailboxes =Piazza
+mailboxes ='President Announcements'
+mailboxes =Registrar
+mailboxes =Reminders
+mailboxes =Resources
+mailboxes =Scheduling
+mailboxes =Sent
+mailboxes ='Sent Items'
+mailboxes ='Source CSU News'
+mailboxes =Spark
+mailboxes =Tasks
+mailboxes =Trash
+mailboxes ='Vortex Group'
+mailboxes =Wolfram
+mailboxes =Zoom
+
+color status blue default
+
+# Aliases
+
+alias PH142 -group PH142 alamosj@mail.colostate.edu,ranafd@mail.colostate.edu,ybekele3@mail.colostate.edu,jackbish@mail.colostate.edu,cbushby@mail.colostate.edu,rcurtiss@mail.colostate.edu,mattrd@rams.colostate.edu,cwfinley@mail.colostate.edu,calvinh@mail.colostate.edu,hhouth@mail.colostate.edu,mattbh@rams.colostate.edu,ishaank@mail.colostate.edu,jelaskie@mail.colostate.edu,kjm43@mail.colostate.edu,malliett@rams.colostate.edu,danimens@mail.colostate.edu,benmitch@mail.colostate.edu,bmoran3@mail.colostate.edu,peterduy@mail.colostate.edu,sunguyen@rams.colostate.edu,muhamad@mail.colostate.edu,toben@mail.colostate.edu,josh.querry@colostate.edu,mojosulo@mail.colostate.edu,nyzek@rams.colostate.edu,rms103co@mail.colostate.edu,cashsy@mail.colostate.edu,rebecca.shorey@colostate.edu,sprink@mail.colostate.edu,btian@rams.colostate.edu,angelv6@mail.colostate.edu,jacobvan@mail.colostate.edu,jacob.vanarsdale@gmail.com,connorwe@mail.colostate.edu
+
+alias PH341 -group PH341 cmallema@rams.colostate.edu,salobaid@rams.colostate.edu,icast@mail.colostate.edu,seanbcol@rams.colostate.edu,rgunk@rams.colostate.edu,brookieh@rams.colostate.edu,owlgirl@rams.colostate.edu,thefebs@rams.colostate.edu,brndnjk@mail.colostate.edu,liamkoch@mail.colostate.edu,nkozakis@rams.colostate.edu,w45272@rams.colostate.edu,kevploch@mail.colostate.edu,npradhan@rams.colostate.edu,ryan1127@mail.colostate.edu,kyle7sch@mail.colostate.edu,eseefrie@rams.colostate.edu,willsher@rams.colostate.edu,samisosa@mail.colostate.edu,tstephen@rams.colostate.edu,t70@rams.colostate.edu,cdtaylor@rams.colostate.edu,jedidiah@rams.colostate.edu,turnercy@rams.colostate.edu,ctutt@mail.colostate.edu,meggyv@rams.colostate.edu
+
+## Account-specific macros
+
+macro index o "<shell-escape>mbsync csu && /usr/bin/notmuch-hook.sh<enter>" "run mbsync to sync mail for this account"
+
+#macro index,pager J \
+#  "<enter-command>set my_old_resolve=\$resolve noresolve<enter>\
+#  <tag-prefix><clear-flag>n<enter-command>set resolve=\$my_old_resolve<enter>\
+#  <save-message>+csu/junk<enter>" \
+#  "mark as read and move to junk folder"
+#
+#macro index,pager A \
+#  "<save-message>+csu/archive<enter>"  \
+#  "move message to the archive"
+#
+#macro index,pager I \
+#  "<save-message>+csu/INBOX<enter>"  \
+#  "move message to the inbox"

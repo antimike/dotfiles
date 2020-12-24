@@ -1,0 +1,72 @@
+attachment_prefix="~/mail/Attachments"
+# bufferclose_focus_offset=-1
+# bufferlist_statusbar=[{buffer_no}: bufferlist], {input_queue} total messages: {total_messages}
+# bug_on_exit=False
+complete_matching_abook_only=True
+compose_ask_tags=True
+editor_cmd="vim"
+# editor_in_thread=False
+# editor_spawn=False
+envelope_html2txt="pandoc -f html -t markdown"
+envelope_txt2html="pandoc -t html"
+exclude_tags=,
+# hooksfile="~/.config/alot/hooks.py"
+prefer_plaintext=True
+# print_cmd="muttprint"
+# quit_on_last_bclose=False
+# template_dir="$XDG_CONFIG_HOME/alot/templates"
+# terminal_cmd="x-terminal-emulator -e"
+# theme=""
+# themes_dir="$XDG_CONFIG_HOME/alot/themes"
+thread_authors_me="Hactar"
+thread_authors_replace_me=True
+
+[accounts]
+    [[csu]]
+        realname = Michael Haynes
+        address = hactar@colostate.edu
+        #alias_regexp = b.wayne\+.+@wayneenterprises.com
+        #gpg_key = D7D6C5AA
+        sendmail_command = msmtp -a csu -t
+        sent_box = maildir:///home/user/mail/csu/Sent
+        # ~ expansion also works
+        draft_box = maildir://~/mail/csu/Drafts
+      [[[abook]]]
+          #type = shellcommand
+          #ignorecase = True
+	  #regexp = '^([^<]+)\s+(<[^>@]+@[^>\.]+\.[^>]+>)'
+	  #command = notmuch-addrlookup query
+	  command = 'notmuch address --format=json --output=recipients date:1Y.. AND from:my@address.org'
+	  regexp = '\[?{"name": "(?P<name>.*)", "address": "(?P<email>.+)", "name-addr": ".*"}[,\]]?'
+	  shellcommand_external_filtering = False
+
+    [[professional]]
+        realname = Michael Haynes
+        address = antihaynes@gmail.com
+        #aliases = batman@batmobile.org,
+        sendmail_command = msmtp -a professional -t
+	sent_box = maildir:///home/user/mail/professional/Sent
+	#signature = ~/.batman.vcf
+        #signature_as_attachment = True
+	draft_box = maildir://~/mail/professional/Drafts
+      [[[abook]]]
+          type = shellcommand
+          ignorecase = True
+	  regexp = '^([^<]+)\s+(<[^>@]+@[^>\.]+\.[^>]+>)'
+	  command = notmuch-addrlookup query
+	  # Use this for Mutt's native address query (aliases)
+          #regexp = '^(?P<email>[^@]+@[^\t]+)\t+(?P<name>[^\t]+)'
+          #command = abook --mutt-query
+	  # Use this for Google Contacts searching
+	  #command = goobook query
+	  # Custom script (find it on Github)
+	  #command = nottoomuch-addresses.sh
+	  #regexp = \"(?P<name>.+)\"\s*<(?P<email>.*.+?@.+?)>
+	  # 'notmuch' + 'abook' lookup
+	  #command = notmuch_abook.py lookup
+	  #regexp = ^((?P<name>[^(\s+\<)]*)\s+<)?(?P<email>[^@]+?@[^>]+)>?$
+	  # Use these commands for 'notmuch' native address searching
+	  #command = 'notmuch address --format=json --output=recipients date:1Y.. AND from:my@address.org'
+	  #regexp = '\[?{"name": "(?P<name>.*)", "address": "(?P<email>.+)", "name-addr": ".*"}[,\]]?'
+	  #shellcommand_external_filtering = False
+	  #command = 'notmuch address --format=json date:1Y..'

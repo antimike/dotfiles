@@ -1,0 +1,99 @@
+[SpamFilter]
+[KillThreadsFilter]
+[ListMailsFilter]
+
+#This adds a 'sent' tag to ALL sent mail (from all accounts)
+[SentMailsFilter]
+sent_tag = sent
+
+[Filter.1]
+query = 'to:antimike.haynes@colostate.edu OR to:hactar@colostate.edu OR from:antimike.haynes@colostate.edu OR from:hactar@colostate.edu'
+message: CSU emails
+tags = +csu
+
+[Filter.2]
+query = 'to:antihaynes@gmail.com OR from:antihaynes@gmail.com'
+message: Professional emails
+tags = +professional
+
+[Filter.3]
+query = 'to:mathgeek101@gmail.com OR from:mathgeek101@gmail.com'
+message: Personal emails
+tags = +personal
+
+[Filter.4]
+query = 'subject:Quora'
+message: Quora emails
+tags = +quora
+
+[Filter.5]
+query = 'subject:Craigslist'
+message: Craigslist
+tags = +craigslist
+
+[Filter.6]
+query = 'subject:Receipt'
+message: Receipt
+tags = +receipts
+
+[CourseFilter.1]
+instructor = Richard Eykholt 
+emails = Richard.Eykholt@ColoState.EDU
+taglines = thermo,stat mech  
+tag = stat-mech 
+
+[CourseFilter.2]
+instructor = William Fairbank
+emails = fairbank@colostate.edu
+taglines = EM,Jackson 
+tag = em
+
+[CourseFilter.3]
+instructor = Wolfgang Bangerth
+emails = bangerth@colostate.edu
+taglines = FEM,deal.ii
+tag = fem
+
+[CourseFilter.6]
+instructor = Marty Gelfand
+emails = gelfand@rams.colostate.edu,stuart.field@colostate.edu,bangerth@colostate.edu
+tag = research
+
+[CourseFilter.4]
+instructor = Michael Mooney
+emails = Michael.Ryan.Mooney@colostate.edu,mrmooney@colostate.edu,cmallema@rams.colostate.edu,salobaid@rams.colostate.edu,icast@mail.colostate.edu,seanbcol@rams.colostate.edu,rgunk@rams.colostate.edu,brookieh@rams.colostate.edu,owlgirl@rams.colostate.edu,thefebs@rams.colostate.edu,brndnjk@mail.colostate.edu,liamkoch@mail.colostate.edu,nkozakis@rams.colostate.edu,w45272@rams.colostate.edu,kevploch@mail.colostate.edu,npradhan@rams.colostate.edu,ryan1127@mail.colostate.edu,kyle7sch@mail.colostate.edu,eseefrie@rams.colostate.edu,willsher@rams.colostate.edu,samisosa@mail.colostate.edu,Samantha.Sosa@colostate.edu,tstephen@rams.colostate.edu,t70@rams.colostate.edu,cdtaylor@rams.colostate.edu,jedidiah@rams.colostate.edu,turnercy@rams.colostate.edu,ctutt@mail.colostate.edu,meggyv@rams.colostate.edu, Ivan.Castaneda@colostate.edu, Liam.Koch@colostate.edu, Kevin.Plocher@colostate.edu, Ryan.Roessler@colostate.edu, Kyle.Schmer@colostate.edu, Connor.Tuttelman@colostate.edu
+taglines = 341,classical mechanics
+tag = ph341
+
+[CourseFilter.5]
+instructor = Debra Dandaneau
+emails = Debra.Dandaneau@colostate.edu,alamosj@mail.colostate.edu,ranafd@mail.colostate.edu,ybekele3@mail.colostate.edu,jackbish@mail.colostate.edu,cbushby@mail.colostate.edu,rcurtiss@mail.colostate.edu,mattrd@rams.colostate.edu,cwfinley@mail.colostate.edu,calvinh@mail.colostate.edu,hhouth@mail.colostate.edu,mattbh@rams.colostate.edu,ishaank@mail.colostate.edu,jelaskie@mail.colostate.edu,kjm43@mail.colostate.edu,malliett@rams.colostate.edu,danimens@mail.colostate.edu,benmitch@mail.colostate.edu,bmoran3@mail.colostate.edu,peterduy@mail.colostate.edu,sunguyen@rams.colostate.edu,muhamad@mail.colostate.edu,toben@mail.colostate.edu,josh.querry@colostate.edu,mojosulo@mail.colostate.edu,nyzek@rams.colostate.edu,rms103co@mail.colostate.edu,cashsy@mail.colostate.edu,rebecca.shorey@colostate.edu,sprink@mail.colostate.edu,btian@rams.colostate.edu,angelv6@mail.colostate.edu,jacobvan@mail.colostate.edu,jacob.vanarsdale@gmail.com,connorwe@mail.colostate.edu
+taglines = 142
+tag = ph142
+
+#Test filter functionality
+#[Filter.3]
+#message = Debug course tags in afew config 
+#query = 'tag:csu AND (from:"William Fairbank" OR from:"fairbank@colostate.edu" OR subject:"EM" OR subject:"Jackson")  
+#tags = -em1
+
+[InboxFilter]
+
+#[MailMover]
+## This ensures that mbsync won't lose its mind when a piece of mail suddenly gets moved without its knowledge or approval
+#rename = True
+## Folders whose contents will be moved
+#folders = csu/Inbox \
+	#professional/Inbox \
+## Maximum age of mail to be moved, in days
+#max_age = 15
+## CSU account rules:
+#csu/Inbox = 'tag:spam':'csu/Junk Mail' \
+	#'tag:stat-mech':'csu/Stat Mech' \
+	#'tag:em1':'csu/EM1' \
+	#'tag:fem':'csu/FEM' \
+	#'tag:research':'csu/Fall 2020 Research'
+	#'tag:fizgrad':'csu/Fizgrad'
+## Professional account rules:
+#professional/Inbox = 'tag:spam':'professional/[Gmail]All Mail' 
+

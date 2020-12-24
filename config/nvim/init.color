@@ -1,0 +1,42 @@
+set termguicolors
+"colorscheme onedark 
+"colorscheme deus
+"colorscheme focuspoint
+"colorscheme dogrun
+"colorscheme deep-space
+"colorscheme anderson
+"colorscheme Iceberg
+" This one's pretty nice even with transparency
+"colorscheme gruvbox
+" Definitely works with Compton
+"colorscheme gotham
+"colorscheme angr 
+" Really nice
+"colorscheme parsec 
+"colorscheme scheakur 
+"colorscheme jellybeans 
+" Kind of boring but it works
+"colorscheme lucid 
+"colorscheme materialbox 
+" Pretty nice...just wish there were a way of making the background darker
+"colorscheme meta5 
+" Disappointing
+"colorscheme mountaineer 
+"colorscheme nord 
+"colorscheme oceanic-material 
+"colorscheme pink-moon
+" Aw HELL YEAH
+"colorscheme purify 
+" Also amazing
+"colorscheme orbital 
+"colorscheme sierra 
+" Interesting behavior wrt folds
+"colorscheme molokai 
+"colorscheme molokayo 
+" Pretty neat, don't like what it does to NT though
+"colorscheme rdark-terminal2 
+"colorscheme spacecamp 
+"colorscheme wombat
+"colorscheme termschool
+"colorscheme two-firewatch
+colorscheme vividchalk

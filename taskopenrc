@@ -1,0 +1,6 @@
+# ----------
+# TaskOpen config file
+# ----------
+
+EDITOR=nvim
+BROWSER=w3m$FILE>/dev/null

@@ -1,0 +1,8 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+
+" This is new style
+call deoplete#custom#var('omni', 'input_patterns', {
+		\ 'pandoc': '@'
+		\})

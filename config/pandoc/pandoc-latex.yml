@@ -1,0 +1,7 @@
+---
+header-includes: |
+  \usepackage{macros}
+  \usepackage[units, chem]{include}
+  \usepackage{inkscape}
+  \usepackage{pytex-preamble}
+---

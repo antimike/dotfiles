@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "coc-bibtex": ">=1.2.7",
+    "coc-bookmark": ">=1.2.6",
+    "coc-clangd": ">=0.6.0",
+    "coc-cmake": ">=0.0.2",
+    "coc-explorer": ">=0.8.2",
+    "coc-git": ">=1.8.3",
+    "coc-json": ">=1.2.6",
+    "coc-marketplace": ">=1.7.0",
+    "coc-markmap": ">=0.2.5",
+    "coc-python": ">=1.2.12",
+    "coc-ultisnips": ">=1.2.3",
+    "coc-utils": ">=0.0.13",
+    "coc-vimtex": ">=1.0.4",
+    "coc-yaml": ">=1.0.5"
+  }
+}

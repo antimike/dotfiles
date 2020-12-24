@@ -1,0 +1,109 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/user/
+	..
+1600103777
+'b
+	/home/user/bin/
+	..
+1600103777
+'h
+	/home/user/
+	..
+1600103777
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/user
+	Desktop
+1
+d/home/user/Desktop
+	..
+0
+d/home/user
+	Documents
+2
+d/home/user/Documents
+	Fall 2020
+3
+d/home/user/Documents/Fall 2020
+	Physics 341 (Grading)
+5
+d/home/user/Documents/Fall 2020/Physics 341 (Grading)
+	Assignments
+4
+d/home/user/Documents/Fall 2020/Physics 341 (Grading)/Assignments
+	HW1
+1
+d/home/user/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1
+	..
+0
+d/home/user/Documents/Fall 2020/Physics 341 (Grading)/Assignments
+	..
+0
+d/home/user/Documents/Fall 2020/Physics 341 (Grading)
+	..
+0
+d/home/user/Documents/Fall 2020
+	..
+0
+d/home/user
+	mail
+11
+d/home/user/mail
+	..
+0
+d/home/user
+	mail
+11
+d
+
+# Right window history (oldest to newest):
+D/home/user
+	Downloads
+3
+D/home/user/Downloads
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:help
+:help hidden
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+pDownloads
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

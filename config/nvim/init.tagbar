@@ -1,0 +1,5 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+nnoremap <F2> :Tagbar<CR>
+inoremap <F2> <C-o> :Tagbar<CR>

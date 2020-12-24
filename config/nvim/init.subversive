@@ -1,0 +1,19 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" s for substitute
+nmap <c-s> <plug>(SubversiveSubstitute)
+nmap <c-s>s <plug>(SubversiveSubstituteLine)
+"nmap <C-S> <plug>(SubversiveSubstituteToEndOfLine)
+nmap <leader>S <plug>(SubversiveSubstituteToEndOfLine)
+nmap <leader>s <plug>(SubversiveSubstituteRange)
+xmap <leader>s <plug>(SubversiveSubstituteRange)
+
+nmap <leader>ss <plug>(SubversiveSubstituteWordRange)
+
+" Motions
+" ie = inner entire buffer
+onoremap eb :exec "normal! ggVG"<cr>
+
+" iv = current viewable text in the buffer
+onoremap iv :exec "normal! HVL"<cr>

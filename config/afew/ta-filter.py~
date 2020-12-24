@@ -1,0 +1,23 @@
+from afew.filters.BaseFilter  import Filter
+from afew.FilterRegistry import register_filter
+
+# PROPERTY_NAMES = ["Name", "Instructor", "Taglines"]
+
+@register_filter
+class TAFilter(Filter):
+    message = 'Create tags based on course information, including a list of student email addresses'
+
+    def __init__(self, database, instructor='', emails='', tag='', taglines=''):
+        super().__init__(database)
+        self.query = (
+                '(' +
+                'from:/(?i){}/'.format(instructor) +
+                'from:/(?i){}/'.format(email) +
+                ' OR '.join('subject:/(?i){}'.format(tagline) for tagline in taglines.split()) +
+                ')'
+                )
+        self.tag = tag
+
+    def handle_message(self, message):
+        if self.tag:
+ 

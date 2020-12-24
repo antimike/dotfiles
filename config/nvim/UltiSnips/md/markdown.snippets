@@ -1,0 +1,17 @@
+# Today's date
+snippet today "Date" 
+`date +%F`
+endsnippet
+
+# Header
+snippet header "Header" bA
+---
+author: Michael Haynes
+date: `date +$F`
+title: $1
+---
+
+# $1
+
+$0
+endsnippet

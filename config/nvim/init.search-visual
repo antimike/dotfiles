@@ -1,0 +1,16 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" Search visually-selected text
+" Use * or n to go to next match, # or N to go to previous match
+vnoremap <silent> * :<C-u>
+	\let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+	\gvy/<C-R>=&ic?'\c':'\C'<CR><C-R>=substitute(
+	\escape(@",'/\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+	\gBzv:call setreg('"', old_reg, old_regtype)<CR>
+vnoremap <silent> # :<C-U>
+	\let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+	\gvy?<C-R>=&ic?'\c':'\C'<CR><C-R>=substitute(
+	\escape(@",'?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+	\gBzv:call setreg('"', old_reg, old_regtype)<CR>
+

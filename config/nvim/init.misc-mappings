@@ -1,0 +1,14 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+" Virtual line navigation
+nmap <M-j> gj
+nmap <M-k> gk
+vmap <M-j> gj
+vmap <M-k> gk
+imap <M-j> <Esc>gji
+imap <M-k> <Esc>gki
+
+" More convenient way to exit insert mode
+inoremap jl <Esc>
+vnoremap JL <Esc>

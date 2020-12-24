@@ -1,0 +1,18 @@
+" vim:filetype=vim
+" vim:syntax=vim
+" FZF / Notational FZF
+ let g:nv_search_paths = ['~/Documents/Wiki', '~/Documents/Summer 2020', '~/Documents/Fall 2020']
+
+" Zettelkasten stuff:
+let g:zettel_format = "%y%m%d-%H%M-%title-%file_no"
+let g:zettel_options = [{"front_matter" : {"title" : "","date": "", "tags" : ""}, "template" :  "~/Documents/Wiki/zettel-template.md"}, {}, {}]
+let g:zettel_date_format = "%y-%m-%d"
+let g:zettel_default_mappings = 0
+augroup filetype_vimwiki
+	autocmd!
+	autocmd FileType vimwiki imap <silent> [[[ [[<esc><Plug>ZettelSearchMap
+	autocmd FileType vimwiki nmap T <Plug>ZettelYankNameMap
+	autocmd FileType vimwiki xmap z <Plug>ZettelNewSelectedMap
+	autocmd FileType vimwiki nmap gz <Plug>ZettelReplaceFileWithLink
+augroup END
+

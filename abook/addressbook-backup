@@ -1,0 +1,235 @@
+# abook addressbook file
+
+[format]
+program=abook
+version=0.6.1
+
+
+[0]
+name=Field,Stuart
+email=Stuart.Field@ColoState.EDU
+
+[1]
+name=Martin Gelfand
+email=gelfand@rams.colostate.edu
+
+[2]
+name=Richard.Eykholt@ColoState.EDU
+email=Richard.Eykholt@ColoState.EDU
+
+[3]
+name=William Fairbank
+email=fairbank@colostate.edu
+
+[4]
+name=Wolfgang Bangerth
+email=bangerth@colostate.edu
+
+[5]
+name=Michael Mooney
+email=mrmooney@colostate.edu
+
+[6]
+name=Cyrus Turner
+email=turnercy@rams.colostate.edu
+
+[7]
+name=Dandaneau,Dr. D.
+email=Debra.Dandaneau@colostate.edu
+
+[8]
+name=Alleman, Chris
+email=cmallema@rams.colostate.edu
+
+[9]
+name=Alobaid, Sarah
+email=salobaid@rams.colostate.edu
+
+[10]
+name=Castaneda, Ivan
+email=icast@mail.colostate.edu
+
+[11]
+name=Coleman, Sean
+email=seanbcol@rams.colostate.edu
+
+[12]
+name=Gunkelman, Robert
+email=rgunk@rams.colostate.edu
+
+[13]
+name=Hardesty, Brookie
+email=brookieh@rams.colostate.edu
+
+[14]
+name=Inman, Claire
+email=owlgirl@rams.colostate.edu
+
+[15]
+name=Johnson, Spencer
+email=thefebs@rams.colostate.edu
+
+[16]
+name=King, Brendan
+email=brndnjk@mail.colostate.edu
+
+[17]
+name=Koch, Liam
+email=liamkoch@mail.colostate.edu
+
+[18]
+name=Kozakis, Nathan
+email=nkozakis@rams.colostate.edu
+
+[19]
+name=Mingus, Will
+email=w45272@rams.colostate.edu
+
+[20]
+name=Plocher, Kevin
+email=kevploch@mail.colostate.edu
+
+[21]
+name=Pradhan, Naveen
+email=npradhan@rams.colostate.edu
+
+[22]
+name=Roessler, Ryan
+email=ryan1127@mail.colostate.edu
+
+[23]
+name=Schmer, Kyle
+email=kyle7sch@mail.colostate.edu
+
+[24]
+name=Seefried, Ethan
+email=eseefrie@rams.colostate.edu
+
+[25]
+name=Sheridan, Will
+email=willsher@rams.colostate.edu
+
+[26]
+name=Sosa, Sami
+email=samisosa@mail.colostate.edu
+
+[27]
+name=Stephenson, Tanner
+email=tstephen@rams.colostate.edu
+
+[28]
+name=Tang, Zibo
+email=t70@rams.colostate.edu
+
+[29]
+name=Taylor, Connor
+email=cdtaylor@rams.colostate.edu
+
+[30]
+name=Tulu, Jedidiah
+email=jedidiah@rams.colostate.edu
+
+[31]
+name=Turner, Cyrus
+email=turnercy@rams.colostate.edu
+
+[32]
+name=Tuttelman, Connor
+email=ctutt@mail.colostate.edu
+
+[33]
+name=Vildibill, Megan
+email=meggyv@rams.colostate.edu
+
+[34]
+name=Connor Taylor
+email=cdtaylor@rams.colostate.edu
+
+[35]
+name=Michael Haynes
+email=Antimike.Haynes@colostate.edu
+
+[36]
+name=Nathan Kozakis
+email=nkozakis@rams.colostate.edu
+
+[37]
+name=Jedidiah Tulu
+email=jedidiah@rams.colostate.edu
+
+[38]
+name=Brookie Hardesty
+email=brookieh@rams.colostate.edu
+
+[39]
+name=Spencer Johnson
+email=thefebs@rams.colostate.edu
+
+[40]
+name=Naveen Pradhan
+email=npradhan@rams.colostate.edu
+
+[41]
+name=Sean Coleman
+email=seanbcol@rams.colostate.edu
+
+[42]
+name=Castaneda,Ivan
+email=Ivan.Castaneda@colostate.edu
+
+[43]
+name=Plocher,Kevin
+email=Kevin.Plocher@colostate.edu
+
+[44]
+name=Ethan Seefried
+email=eseefrie@rams.colostate.edu
+
+[45]
+name=Megan Vildibill
+email=meggyv@rams.colostate.edu
+
+[46]
+name=Tuttelman,Connor
+email=Connor.Tuttelman@colostate.edu
+
+[47]
+name=Koch,Liam
+email=Liam.Koch@colostate.edu
+
+[48]
+name=Robert Gunkelman
+email=rgunk@rams.colostate.edu
+
+[49]
+name=Tanner Stephenson
+email=tstephen@rams.colostate.edu
+
+[50]
+name=Sarah Alobaid
+email=salobaid@rams.colostate.edu
+
+[51]
+name=Schmer,Kyle
+email=Kyle.Schmer@colostate.edu
+
+[52]
+name=Will Mingus
+email=w45272@rams.colostate.edu
+
+[53]
+name=Sosa,Sami
+email=Samantha.Sosa@colostate.edu
+
+[54]
+name=Will Sheridan
+email=willsher@rams.colostate.edu
+
+[55]
+name=Claire Inman
+email=owlgirl@rams.colostate.edu
+
+[56]
+name=Zibo Tang
+email=t70@rams.colostate.edu
+

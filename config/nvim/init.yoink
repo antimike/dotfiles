@@ -1,0 +1,33 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+"nmap <C-n> <Plug>(YoinkPostPasteSwapBack)
+nmap <C-q> <Plug>(YoinkPostPasteSwapForward)
+
+nmap p <Plug>(YoinkPaste_p)
+nmap P <Plug>(YoinkPaste_P)
+
+nmap [y <Plug>(YoinkRotateBack)
+nmap ]y <Plug>(YoinkRotateForward)
+
+"nmap <c-=><Plug>(YoinkPostPasteToggleFormat)
+
+nmap y <Plug>(YoinkYankPreserveCursorPosition)
+xmap y <Plug>(YoinkYankPreserveCursorPosition)
+
+let g:yoinkSavePersistently = 1
+let g:yoinkIncludeDeleteOperations = 1
+let g:ctrlp_map=''
+nmap <expr><c-p> yoink#canSwap() ? '<Plug>(YoinkPostPasteSwapForward)' : '<Plug>(ctrlp)'
+nmap <expr><c-n> yoink#canSwap() ? '<Plug>(YoinkPostPasteSwapBack)' : '<Plug>(VM-Find-Under)'
+
+  "autocmd User visual_multi_mappings  call MyVmMappings()
+  "function! VM_Start()
+    "nmap <buffer> <C-C> <Esc>
+    "imap <buffer> <C-C> <Esc>
+  "endfunction
+
+  "function! VM_Exit()
+    "nunmap <buffer> <C-C>
+    "iunmap <buffer> <C-C>
+  "endfunction

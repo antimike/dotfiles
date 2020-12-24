@@ -1,0 +1,66 @@
+snippet `' "Prime" iA
+^\prime
+endsnippet
+
+#snippet `'' "Double prime" iA
+#^\dprime
+#endsnippet
+snippet `" "Double prime" iA
+^{\dprime}
+endsnippet
+
+snippet "(\d+)`'" "Higher derivatives (exponent notation)" irA
+^{`!p snip.rv = match.group(1)`}
+endsnippet
+
+snippet "(\\?\w+)(\\\\\.)" "Dot" riA
+\dot{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet "(\\?\w+)(\.\.)" "Dot (alternate)" riA
+\dot{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet "(\\?\w+)(\\\\\.\.)" "Double dot" riA
+\ddot{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet "(\\?\w+)(;;)" "Double dot (alternate)" riA
+\ddot{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet pdv "Partial derivative" wA
+\pdv{$1}{$2} $0
+endsnippet
+
+snippet mpdv "Multiple partial derivative" wA
+\pdv[$1]{$2}{$3} $0
+endsnippet
+
+snippet opdv "Operator partial derivative" wA
+\pdv{$1} $0
+endsnippet
+
+snippet ompdv "Operator multiple partial derivate" wA
+\pdv[$1]{$2} $0
+endsnippet
+
+snippet dv "Ordinary derivative" wA
+\dv{$1}{$2} $0
+endsnippet
+
+snippet mdv "Multiple ordinary derivative" wA
+\dv[$1]{$2}{$3} $0
+endsnippet
+
+snippet odv "Operator normal derivative" wA
+\dv{$1} $0
+endsnippet
+
+snippet omdv "Operator multiple normal derivative" wA
+\dv[$1]{$2} $0
+endsnippet
+
+snippet dd "Differential" wA
+\dd[$1]{$2} $0
+endsnippet

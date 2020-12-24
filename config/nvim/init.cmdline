@@ -1,0 +1,16 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+
+let cmdline_follow_colorscheme = 1
+let cmdline_in_buffer = 0
+let cmdline_external_term_cmd = 'kitty %s &'
+
+" Maps: 'ex' == 'execute'
+let cmdline_map_start          = '<LocalLeader>ex'
+let cmdline_map_send           = '<LocalLeader><Space>'
+let cmdline_map_send_and_stay  = '<LocalLeader>e<Space>'
+"let cmdline_map_source_fun     = '<LocalLeader>f'
+"let cmdline_map_send_paragraph = '<LocalLeader>p'
+let cmdline_map_send_block     = '<LocalLeader>exb'
+let cmdline_map_quit           = '<LocalLeader>exq'

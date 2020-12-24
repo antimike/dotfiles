@@ -1,0 +1,16 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" Starts the Inkscape shortcut manager
+"autocmd BufReadPost *.tex silent exec '!python3 ~/.vim/inkscape-shortcut-manager/main.py > /dev/null 2>&1 &'
+
+autocmd BufReadPost *.tex silent exec '!python3 ~/.vim/inkscape-shortcut-manager/main.py > /dev/null 2>&1 &'
+ 
+" Starts the inkscape file watcher
+autocmd BufReadPost *.tex silent exec '!inkscape-figures watch > /dev/null 2>&1 &'
+
+
+" Maps to work with Gilles Castel's Inkscape filewatcher and shortcut manager
+inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
+"nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > .vim/inkscape.log 2>&1 &'<CR><CR>:redraw!<CR>
+nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>

@@ -1,0 +1,6 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+nnoremap <F2> :Vista!!<CR>
+inoremap <F2> <C-o> :Vista!!<CR>
+

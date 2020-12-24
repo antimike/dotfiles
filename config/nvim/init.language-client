@@ -1,0 +1,34 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+let g:LanguageClient_serverCommands = {
+         \ 'cpp': ['clangd'],
+         \ }
+set formatexpr=LanguageClient#textDocument_rangeFormatting_sync()
+nnoremap <silent> gi <Plug>(lcn-implementation)
+nnoremap <silent> gD <Plug>(lcn-type-definition
+nnoremap <silent> K <Plug>(lcn-hover)
+nnoremap <silent> gd <Plug>(lcn-definition)
+nnoremap <silent> <F3> <Plug>(lcn-rename)
+nnoremap <silent> <leader>L :call LanguageClient#textDocument_codeLens()<CR>
+nnoremap <silent> <leader>Ll :call LanguageClient#handleCodeLensAction()<CR>
+nnoremap <silent> <leader>Ls <Plug>(lcn-symbols)
+nnoremap <silent> <leader>LS :call LanguageClient#workspace_symbol()<CR>
+nnoremap <silent> <leader>Lr <Plug>(lcn-references)
+nnoremap <silent> <leader>La <Plug>(lcn-code-action)
+vnoremap <silent> <leader>La <Plug>(lcn-code-action)
+nnoremap <silent> <leader>Lh <Plug>(lcn-highlight)
+nnoremap <silent> <leader>Lch :call LanguageClient#textDocument_clearDocumentHightlight()<CR>
+nmap <silent><leader>Lcm <Plug>(lcn-menu)
+nmap <silent><leader>Lce <Plug>(lcn-explain-error)
+" Rename - rn => rename
+noremap <leader>rn <Plug>(lcn-rename)
+" Rename - rc => rename camelCase
+noremap <leader>rc :call LanguageClient#textDocument_rename(
+	 \ {'newName': Abolish.camelcase(expand('<cword>'))})<CR>
+" Rename - rs => rename snake_case
+noremap <leader>rs :call LanguageClient#textDocument_rename(
+	 \ {'newName': Abolish.snakecase(expand('<cword>'))})<CR>
+" Rename - ru => rename UPPERCASE
+noremap <leader>ru :call LanguageClient#textDocument_rename(
+	 \ {'newName': Abolish.uppercase(expand('<cword>'))})<CR>

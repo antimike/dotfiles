@@ -1,0 +1,6 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+let g:ctrlp_show_hidden=1
+let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
+                          \ 'undo', 'line', 'changes', 'mixed', 'bookmarkdir']

@@ -1,0 +1,6 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+"nmap <M-d> :CocCommand explorer<CR>
+nnoremap <silent> <M-d> :<C-u><C-r>=printf("CocCommand explorer %s",
+            \ fnameescape(expand('%:p:h')))<CR><CR>

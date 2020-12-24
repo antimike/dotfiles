@@ -1,0 +1,10 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" Spell checking
+" setlocal spell spelllang=en_us
+inoremap <c-y> <c-g>u<Esc>[s1z=`]a<c-g>u
+inoremap <c-u> <c-g>u<Esc>[szG`]a<c-g>u
+" From a StackOverflow post...excludes words containing capitals from
+" spellchecking
+syn match myExCapitalWords +\<\w*[A-Z]\K*\>+ contains=@NoSpell

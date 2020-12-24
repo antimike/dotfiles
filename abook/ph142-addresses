@@ -1,0 +1,139 @@
+# abook addressbook file
+
+[format]
+program=abook
+version=0.6.1
+
+
+[0]
+name=Alamos, Jose
+email=alamosj@mail.colostate.edu
+
+[1]
+name=Aldawood, Rana
+email=ranafd@mail.colostate.edu
+
+[2]
+name=Bekele, Yafet
+email=ybekele3@mail.colostate.edu
+
+[3]
+name=Bishop, Jack
+email=jackbish@mail.colostate.edu
+
+[4]
+name=Bushby, Cameron
+email=cbushby@mail.colostate.edu
+
+[5]
+name=Curtiss, Riley
+email=rcurtiss@mail.colostate.edu
+
+[6]
+name=Drysdale, Matt
+email=mattrd@rams.colostate.edu
+
+[7]
+name=Finley, Connor
+email=cwfinley@mail.colostate.edu
+
+[8]
+name=Hodges, Calvin
+email=calvinh@mail.colostate.edu
+
+[9]
+name=Houth, Heinrich
+email=hhouth@mail.colostate.edu
+
+[10]
+name=Huntingdon, Matthew
+email=mattbh@rams.colostate.edu
+
+[11]
+name=Karandikar, Ishaan
+email=ishaank@mail.colostate.edu
+
+[12]
+name=Laskie, Josh
+email=jelaskie@mail.colostate.edu
+
+[13]
+name=Mahoney, Kaden
+email=kjm43@mail.colostate.edu
+
+[14]
+name=Malliett, Benjamin
+email=malliett@rams.colostate.edu
+
+[15]
+name=Mense, Dani
+email=danimens@mail.colostate.edu
+
+[16]
+name=Mitchell, Ben
+email=benmitch@mail.colostate.edu
+
+[17]
+name=Moran, Bailey
+email=bmoran3@mail.colostate.edu
+
+[18]
+name=Nguyen, Duy
+email=peterduy@mail.colostate.edu
+
+[19]
+name=Nguyen, Su
+email=sunguyen@rams.colostate.edu
+
+[20]
+name=Nugroho, Muhamad
+email=muhamad@mail.colostate.edu
+
+[21]
+name=Obenshain, Teegan
+email=toben@mail.colostate.edu
+
+[22]
+name=Querry, Josh
+email=josh.querry@colostate.edu
+
+[23]
+name=Ridgway, Kevin
+email=mojosulo@mail.colostate.edu
+
+[24]
+name=Rodriguez, Nyzek
+email=nyzek@rams.colostate.edu
+
+[25]
+name=Ruterbories, Sebastian
+email=rms103co@mail.colostate.edu
+
+[26]
+name=Sawaguchi, Cash
+email=cashsy@mail.colostate.edu
+
+[27]
+name=Shorey, Becca
+email=rebecca.shorey@colostate.edu
+
+[28]
+name=Sprinkle, Jacob
+email=sprink@mail.colostate.edu
+
+[29]
+name=Tian, Bingxin
+email=btian@rams.colostate.edu
+
+[30]
+name=Valenzuela-Delgado, Angel
+email=angelv6@mail.colostate.edu
+
+[31]
+name=VanArsdale, Jacob
+email=jacobvan@mail.colostate.edu
+
+[32]
+name=Weimholt, Connor
+email=connorwe@mail.colostate.edu
+

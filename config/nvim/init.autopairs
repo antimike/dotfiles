@@ -1,0 +1,7 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" AutoPairs options
+" Omit `` to allow easier use to Latex keybindings
+let g:AutoPairs = {'(':')', '[':']', '{':'}', '"':'"'}
+
