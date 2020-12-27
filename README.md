@@ -24,19 +24,27 @@
 * ParaView
 * Mayavi
 
+#### Mesh tools
+
+* pexpect
+* tetgen
+* libmshr
+
+### Linear algebra libraries
+* ARPACK
+* PETSc
+* SLEPc
+* HDF5 (libhdf5)
+* MUMPS
+
 ### Extra dependencies
 
 * ADOL-C
-* ARPACK
 * Assimp (assimp-utils)
-* Gmsh
 * GSL (libgsl)
-* HDF5 (libhdf5)
 * METIS
 * NetCDF
 * OpenCASCADE
-* PETSc
-* SLEPc
 * SUNDIALS
 * Trilinos
 
@@ -44,7 +52,6 @@
 
 * fzf
 * silver searcher
-* python-nvim
 * node.js
 
 ## Vim-like applications
@@ -73,6 +80,7 @@
 
 ## Python stuff
 
+* sfepy (simple finite elements for Python)
 * SciPy
 * SymPy
 * Jupyter
@@ -82,6 +90,23 @@
 * Cython
 * Matplotlib
 * iPython
+* python-nvim
+* python3-meshio
+* scikit-umfpack
+* tables (PyTables)
+* igakit (isogeometric analysis)
+* petsc4py
+* mpi4py
+* slepc4py
+* pymetis
+* wxpython (for iPython integration)
+* psutil (memory requirements checking)
+* PyVista (result postprocessing for sfepy)
+* Sphinx (documentation)
+* sphinx-rtd-theme (Read the Docs)
+* numpydoc
+* python3-mshr
+* pexpect
 
 ## Shells / terminals
 
