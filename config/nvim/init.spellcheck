@@ -4,7 +4,37 @@
 " Spell checking
 " setlocal spell spelllang=en_us
 inoremap <c-y> <c-g>u<Esc>[s1z=`]a<c-g>u
+nnoremap <c-y> [s1z=<c-o>
 inoremap <c-u> <c-g>u<Esc>[szG`]a<c-g>u
+nnoremap <c-u> [szG<c-o>
 " From a StackOverflow post...excludes words containing capitals from
 " spellchecking
 syn match myExCapitalWords +\<\w*[A-Z]\K*\>+ contains=@NoSpell
+
+" Suggested by vim-litecorrect Github page
+let user_dict = {
+                        \ 'maybe': ['mabye'],
+                        \ 'medieval': ['medival', 'mediaeval', 'medevil'],
+                        \ 'then': ['hten']
+                        \ }
+augroup litecorrect
+	autocmd!
+	autocmd FileType markdown,mkd call litecorrect#init(user_dict)
+	autocmd FileType textile call litecorrect#init(user_dict)
+augroup END
+
+" Suggested by vim-lexical GitHub page
+"augroup lexical
+  "autocmd!
+  "autocmd FileType markdown,mkd call lexical#init()
+  "autocmd FileType textile call lexical#init()
+  "autocmd FileType text call lexical#init({ 'spell': 0 })
+"augroup END
+
+" Suggested by vim-textobj-quote GitHub page
+augroup textobj_quote
+  autocmd!
+  autocmd FileType markdown call textobj#quote#init()
+  autocmd FileTYpe textile call textobj#quote#init()
+  autocmd FileType text call textobj#quote#init({'educate': 0})
+augroup END

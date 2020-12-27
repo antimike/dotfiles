@@ -12,3 +12,7 @@ imap <M-k> <Esc>gki
 " More convenient way to exit insert mode
 inoremap jl <Esc>
 vnoremap JL <Esc>
+
+" For the vim-wheel plugin
+let g:wheel#map#up   = '<M-S-K>'
+let g:wheel#map#down = '<M-S-J>'

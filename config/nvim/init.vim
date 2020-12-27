@@ -21,8 +21,13 @@ Plug 'ParamagicDev/vim-medic_chalk'
 Plug 'tpope/vim-vividchalk'
 Plug 'joshdick/onedark.vim'
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
+Plug 'reedes/vim-wheel'
+Plug 'reedes/vim-textobj-quote'
+Plug 'reedes/vim-litecorrect'
+"Plug 'reedes/vim-lexical'
 Plug 'ledger/vim-ledger'
 Plug 'FooSoft/vim-argwrap'
 Plug 'vim-scripts/ReplaceWithRegister'
