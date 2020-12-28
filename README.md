@@ -51,8 +51,12 @@
 ## For vim / nvim
 
 * fzf
+* ripgrep
 * silver searcher
 * node.js
+* msgpack
+* neovim-ruby-host (`gem install neovim`)
+* ruby-devel
 
 ## Vim-like applications
 
@@ -63,6 +67,7 @@
 * wego
 * slack-term
 * zathura
+	* xdotool (for forward search)
 * tuir (Reddit)
 * spt (spotify-tui)
 * Vit (GUI for TaskWarrior)
