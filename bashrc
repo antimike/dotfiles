@@ -101,5 +101,6 @@ export PYTHONPATH="$HOME/Documents/Python/Utilities:$PYTHONPATH"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # For screensharing via dedicated AppVM and Qubes RPC
-alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client-vm screenshare my-screenshare"'
+alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client-vm screenshare my-screenshare" &'
 # Screensharing for a particular window / process can be enabled via DISPLAY=:1 <process_name>
+alias share='DISPLAY=:1'
