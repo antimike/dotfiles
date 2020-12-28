@@ -104,3 +104,4 @@ export PYTHONPATH="$HOME/Documents/Python/Utilities:$PYTHONPATH"
 alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client-vm screenshare my-screenshare" &'
 # Screensharing for a particular window / process can be enabled via DISPLAY=:1 <process_name>
 alias share='DISPLAY=:1'
+alias stopshare='sudo fuser 6001/tcp -k'
