@@ -1,0 +1,15 @@
+Xft.antialias:          1
+Xft.hinting:            1
+Xft.rgba:               rgb
+Xft.hintstyle:          hintslight
+Xft.lcdfilter:          lcddefault
+
+!xterm*font: terminus-12
+!xterm*font: *-terminus-*-*-*-14-*
+!xterm*font: XTerm.VT100.font5
+xterm*faceName: Monospace
+xterm*faceSize: 12
+xterm*eightBitInput: false
+xterm*vt100.translations: #override \
+				Ctrl Alt <Key> C: copy-selection(CLIPBOARD) \n\
+				Ctrl Alt <Key> V: insert-selection(CLIPBOARD)
