@@ -77,6 +77,7 @@
 
 * Okular (PDF annotations)
 * sagemath
+* Octave (and dev headers)
 * jmol (3D graphics)
 * jupyter
 * TaskWarrior
