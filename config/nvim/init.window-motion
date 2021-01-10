@@ -20,7 +20,14 @@ nnoremap <silent> <C-k> :call WinMove('k')<CR>
 nnoremap <silent> <C-l> :call WinMove('l')<CR>
 
 " Terminal-mode mappings
+" These don't seem to work
 tnoremap <silent> <M-h> :call WinMove('h')<CR>
 tnoremap <silent> <M-j> :call WinMove('j')<CR>
 tnoremap <silent> <M-k> :call WinMove('k')<CR>
 tnoremap <silent> <M-l> :call WinMove('l')<CR>
+
+" Window resizing
+nnoremap <silent> <M-=> 10<C-W>+
+nnoremap <silent> <M--> 10<C-W>-
+nnoremap <silent> <M-[> 10<C-W><
+nnoremap <silent> <M-]> 10<C-W>>

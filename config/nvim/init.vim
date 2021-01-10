@@ -1,8 +1,8 @@
+let maplocalleader="\\"
 "" vim-plug section
 "" How to disable a plugin:
 "" Option 1: Plug 'random-plugin', { 'on': [] }
 "" Option 2: call remove(g:plugs, 'plugin-name')
-
 call plug#begin('~/.config/nvim/vim-plug')
 
 "" Plugins to consider (i.e., they seem cool but don't have that many GH stars
@@ -312,8 +312,6 @@ source ~/.config/nvim/init.sandwich
 source ~/.config/nvim/init.explorer
 source /home/user/.config/nvim/init.fzf
 source /home/user/.config/nvim/init.clang
+source /home/user/.config/nvim/init.octave
 
 hi clear Conceal
-
-
-

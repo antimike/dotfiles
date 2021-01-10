@@ -6,7 +6,7 @@
 inoremap <c-y> <c-g>u<Esc>[s1z=`]a<c-g>u
 nnoremap <c-y> [s1z=<c-o>
 inoremap <c-u> <c-g>u<Esc>[szG`]a<c-g>u
-nnoremap <c-u> [szG<c-o>
+"nnoremap <c-u> [szG<c-o>   " This was a terrible idea
 " From a StackOverflow post...excludes words containing capitals from
 " spellchecking
 syn match myExCapitalWords +\<\w*[A-Z]\K*\>+ contains=@NoSpell
