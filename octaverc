@@ -1,0 +1,5 @@
+edit mode sync
+edit home .
+EDITOR('nvim > /dev/tty 2>&1 < /dev/tty %s')
+addpath('~/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib')
+
