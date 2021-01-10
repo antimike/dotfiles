@@ -83,6 +83,8 @@
 * TaskWarrior
 * pydoro
 * xclip
+* specific_install (gem):
+	* Needed for pdf-extract
 
 ## Python stuff
 
@@ -133,3 +135,9 @@
 * lazygit
 * tig
 
+## Reference management
+
+* Zotero
+* Papis
+* pdf-extract (gem):
+	* Install from Github source using specific_install
