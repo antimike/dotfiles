@@ -3,14 +3,55 @@
 
 
 let cmdline_follow_colorscheme = 1
-let cmdline_in_buffer = 0
-let cmdline_external_term_cmd = 'kitty %s &'
+let cmdline_in_buffer = 1
+"let cmdline_external_term_cmd = 'kitty %s &'
 
 " Maps: 'ex' == 'execute'
-let cmdline_map_start          = '<LocalLeader>ex'
-let cmdline_map_send           = '<LocalLeader><Space>'
-let cmdline_map_send_and_stay  = '<LocalLeader>e<Space>'
-"let cmdline_map_source_fun     = '<LocalLeader>f'
-"let cmdline_map_send_paragraph = '<LocalLeader>p'
-let cmdline_map_send_block     = '<LocalLeader>exb'
-let cmdline_map_quit           = '<LocalLeader>exq'
+let cmdline_map_start          = '<LocalLeader>R'
+let cmdline_map_send           = '<LocalLeader>Rs'
+let cmdline_map_send_and_stay  = '<LocalLeader>RS'
+let cmdline_map_source_fun     = '<LocalLeader>Rf'
+let cmdline_map_send_paragraph = '<LocalLeader>Rp'
+let cmdline_map_send_block     = '<LocalLeader>Rb'
+let cmdline_map_quit           = '<LocalLeader>Rq'
+let cmdline_app = {}
+let cmdline_app['python'] = 'ipython'
+let cmdline_app['sh'] = 'bash'
+let cmdline_app['sage'] = 'sagemath'
+let cmdline_app['octave'] = 'octave'
+let cmdline_app['tex'] = 'sagemath'
+
+" For neoterm---default terminal positioning
+" Default size is half the current window
+let g:neoterm_default_mod = 'botright'
+nnoremap <Leader>T :Tnew<CR>
+nnoremap <Leader>Tk :Tkill<CR>
+nnoremap <Leader>Tc :Tclear<CR>
+"g:neoterm_automap_keys = '<F4>'
+
+
+" For vim-repl
+" This plugin doesn't seem to work, and its functionality is replicated by
+" vimcmdline anyway
+"nnoremap <leader>R :REPLToggle<CR>
+"nnoremap <leader>E :REPLSendSession<CR>
+let g:repl_program = {
+                        \ 'python': 'ipython',
+                        \ 'sage': 'sagemath',
+                        \ 'tex': 'sagemath',
+                        \ 'octave': 'octave',
+                        \ 'default': 'bash',
+                        \ 'vim': 'vim -e',
+                        \ 'lua': 'lua'
+                        \ }
+let g:repl_exit_commands = {
+                        \ 'python': 'quit()',
+                        \ 'bash': 'exit',
+                        \ 'default': 'exit'
+                        \ }                        
+let g:repl_predefine_python = {
+                        \ 'numpy': 'import numpy as np',
+                        \ 'matplotlib': 'from matplotlib import pyplot as plt',
+                        \ 'pint': 'from pint import UnitRegistry',
+                        \ 'ureg': 'ureg = UnitRegistry()'
+                        \ }                        
