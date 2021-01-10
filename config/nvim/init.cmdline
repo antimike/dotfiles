@@ -13,13 +13,14 @@ let cmdline_map_send_and_stay  = '<LocalLeader>RS'
 let cmdline_map_source_fun     = '<LocalLeader>Rf'
 let cmdline_map_send_paragraph = '<LocalLeader>Rp'
 let cmdline_map_send_block     = '<LocalLeader>Rb'
-let cmdline_map_quit           = '<LocalLeader>Rq'
-let cmdline_app = {}
-let cmdline_app['python'] = 'ipython'
-let cmdline_app['sh'] = 'bash'
-let cmdline_app['sage'] = 'sagemath'
-let cmdline_app['octave'] = 'octave'
-let cmdline_app['tex'] = 'sagemath'
+let cmdline_map_quit       = '<LocalLeader>Rq'
+let cmdline_app            = {}
+let cmdline_app['python']  = 'ipython'
+let cmdline_app['sh']      = 'bash'
+let cmdline_app['sage']    = 'sagemath'
+let cmdline_app['octave']  = 'octave'
+let cmdline_app['tex']     = 'sagemath'
+let cmdline_app['freefem'] = 'octave'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
@@ -28,6 +29,8 @@ nnoremap <Leader>T :Tnew<CR>
 nnoremap <Leader>Tk :Tkill<CR>
 nnoremap <Leader>Tc :Tclear<CR>
 "g:neoterm_automap_keys = '<F4>'
+au BufReadPost,BufNewFile,BufEnter *.edp :Tmap FreeFem++ %<CR>
+au BufReadPost,BufNewFile,BufEnter *.m :Tmap octave %<CR>
 
 
 " For vim-repl

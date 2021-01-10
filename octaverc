@@ -1,5 +1,15 @@
+# vim: filetype=octave
+# vim: syntax=octave
+
 edit mode sync
 edit home .
 EDITOR('nvim > /dev/tty 2>&1 < /dev/tty %s')
+# Loads FreeFEM I/O scripts
 addpath('~/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib')
-
+# Colors the terminal prompt red | green | blue
+# Text value: "octave-gui:\w:#> "
+PS1 ('\[\033[01;31m\]\s:\[\033[01;32m\]\w:\[\033[01;34m\]\#> \[\033[0m\]')
+# Secondary terminal prompt: "> "
+PS2 ('\[\033[01;34m\]> \[\033[0m\]')
+# Prefix for text output by command echos
+PS4 ('\[\033[01;34m\]+ \[\033[0m\]')
