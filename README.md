@@ -141,3 +141,8 @@
 * Papis
 * pdf-extract (gem):
 	* Install from Github source using specific_install
+* go get -u github.com/cgxeiji/scholar
+* JabRef (snap)
+* anystyle-cli (gem)
+* pdftotext
+* bibtexparser (Python)

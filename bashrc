@@ -106,5 +106,6 @@ alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client
 alias share='DISPLAY=:1'
 alias stopshare='sudo fuser 6001/tcp -k'
 
-# Rubygems
+# Rubygems and NPM packages
 export PATH="/home/user/.gem/ruby/bin:$PATH"
+export PATH="/home/user/node_modules:$PATH"
