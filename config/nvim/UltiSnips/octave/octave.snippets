@@ -1,0 +1,11 @@
+snippet freefem "Includes for FreeFEM output parsing" bA
+addpath('/home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib');
+endsnippet
+
+snippet readmesh2d "Read 2D FreeFEM mesh" bA
+[${1:pts}, ${2:bdy_edges}, ${3:tris}, ${4:num_pts}, ${5:num_bdy_edges}, ${6:num_tris}, ${7:labels}] = ffreadmesh('${8:mesh_name}.mesh');
+endsnippet
+
+snippet readmesh3d "Read 3D FreeFEM mesh" bA
+[${1:pts}, ${2:bdy_tris}, ${3:tetra}, ${4:edges}, ${5:quads}, ${6:hexahedra}, ${7:num_pts}, ${8:num_tetra}, ${9:num_bdy_tris}] = ffreadmesh('${10:mesh_name}.mesh');
+endsnippet

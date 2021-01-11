@@ -1,0 +1,152 @@
+global !p
+def fn_with_arg_placeholders(snip):
+    placeholders_amount = int(snip.buffer[snip.line].strip())
+
+    # erase current line
+    snip.buffer[snip.line] = ''
+
+    # create anonymous snippet with expected content and number of tabstops
+    anon_snippet_head = r"func ${1:real} ${2:funcname}("
+    anon_snippet_middle = ', '.join([r"${" + str(2*i + 3) + r":real} $" + str(2*i+4)
+                                    for i in range(placeholders_amount)])
+    anon_snippet_tail = r"""){
+        $""" + str(2*placeholders_amount + 3) + r"""
+}
+        $0"""
+    anon_snippet = anon_snippet_head + anon_snippet_middle + anon_snippet_tail;
+
+    # expand anonymous snippet
+    snip.expand_anon(anon_snippet)
+endglobal
+
+snippet script "Standard script preamble" bA
+load "msh3"
+load "tetgen"
+load "medit"
+load "iovtk"
+load "ffrandom"
+include "/home/user/Source/FreeFEM/freefem-macros/geometry.idp"
+include "/home/user/Source/FreeFEM/freefem-macros/constants.idp"
+include "/home/user/Source/FreeFEM/freefem-macros/vector-analysis.idp"
+include "/home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib.idp"
+include "MeshSurface.idp"
+endsnippet
+
+snippet macro "FreeFEM macro" bA
+macro $1($2) $3 //EOM 
+$0
+endsnippet
+
+snippet shortfunc "FreeFEM func (short version)" bA
+func $1 = $2;
+$0
+endsnippet
+
+post_jump "fn_with_arg_placeholders(snip)"
+snippet 'longfunc(\d)' "FreeFEM func (long version)" brA
+`!p snip.rv = match.group(1)`
+endsnippet
+
+snippet const "Constant" bA
+real $1 = $2;
+$0
+endsnippet
+
+snippet int "Integer constant" bA
+int $1 = $2;
+$0
+endsnippet
+
+snippet squaremesh "Square mesh constructor" wA
+square(${1:nx}, ${2:ny}, 
+	SquareParameterization(
+		${3:x0}, ${4:x1}, 
+		${5:y0}, ${6:y1}
+	)
+)
+endsnippet
+
+snippet extrude "Build layers" wA
+buildlayers(${1:mesh}, ${2:nz}, zbound=[${3:z0}, ${4:z1}], labelmid =${5:labelArray}, labelup = ${6:labelArray}, labeldown = ${7:labelArray})$0
+endsnippet
+
+snippet buildBdMesh "Build boundary mesh" wA
+buildBdMesh($1)$0
+endsnippet
+
+snippet mesh2 "Mesh constructor" bA
+mesh $1 = $2;
+$0
+endsnippet
+
+snippet mesh3 "Mesh constructor" bA
+mesh3 $1 = $2;
+$0
+endsnippet
+
+snippet medit "Medit" wA
+medit(${1:"Medit display title"}, ${2:meshname})$0
+endsnippet
+
+snippet fespace "FESpace constructor" bA
+fespace ${1:Vv3}(${2:meshname}, $3); 
+$0
+endsnippet
+
+snippet int3d "3D mesh integral" wA
+int3d($1)(
+    $2
+)$0
+endsnippet
+
+snippet int2d "2D mesh integral" wA
+int2d($1)(
+    $2
+)$0
+endsnippet
+
+snippet int1d "1D mesh integral" wA
+int1d($1)(
+    $2
+)$0
+endsnippet
+
+snippet savemesh2d "Save mesh to Octave-readable form" bA
+savemesh(${1:meshname}, "${2:mesh_name}.mesh");
+$0
+endsnippet
+
+snippet savefespace "Save FESpace to Octave-readable form" bA
+ffSaveVh(${1:meshname}, ${2:fespace}, "${3:fespace_name}.txt");
+$0
+endsnippet
+
+snippet save2dvector "Save 2D solution data to Octave-readable form" bA
+ffSaveData2(${1:X}, ${2:Y}, "${3:vector_field_name}.txt");
+$0
+endsnippet
+
+snippet save3dvector "Save 3D solution data to Octave-readable form" bA
+ffSaveData3(${1:X}, ${2:Y}, ${3:Z}, "${4:vector_field_name}.txt");
+$0
+endsnippet
+
+snippet savescalar "Save scalar solution to Octave-readable form" bA
+ffSaveData(${1:u}, "${2:scalar_field_name}.txt");
+$0
+endsnippet
+
+snippet plot2dvector "Plot 2D vector field" bA
+plot([${1:X}, ${2:Y}], wait=true);
+$0
+endsnippet
+
+snippet plot3dvector "Plot 3D vector field" bA
+plot([${1:X}, ${2:Y}, ${3:Z}], wait=true);
+$0
+endsnippet
+
+snippet plotscalar "Plot scalar field" bA
+plot(${1:u}, wait=true);
+$0
+endsnippet
