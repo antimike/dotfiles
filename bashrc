@@ -109,3 +109,6 @@ alias stopshare='sudo fuser 6001/tcp -k'
 # Rubygems and NPM packages
 export PATH="/home/user/.gem/ruby/bin:$PATH"
 export PATH="/home/user/node_modules:$PATH"
+
+# Alias for doc-management script
+alias add-paper='/usr/local/bin/bibtex-generator.sh'
