@@ -142,7 +142,7 @@ Plug 'vim-scripts/ShowMarks', { 'on': [] }
 
 Plug 'jiangmiao/auto-pairs', { 'on': [] }
 "Plug 'calendar.vim', { 'on': [] }
-Plug 'rafaqz/citation.vim'
+"Plug 'rafaqz/citation.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/denite.nvim'
@@ -264,7 +264,7 @@ Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'vim-voom/VOom'
-Plug 'jalvesaq/zotcite', { 'on': [] }
+Plug 'jalvesaq/zotcite'
 Plug 'holomorph/vim-freefem'
 call plug#end()
 
@@ -294,7 +294,7 @@ source ~/.config/nvim/init.subversive
 source ~/.config/nvim/init.pandoc
 "source ~/.config/nvim/init.notmuch
 source ~/.config/nvim/init.ctrlp
-source ~/.config/nvim/init.citation
+"source ~/.config/nvim/init.citation
 source ~/.config/nvim/init.window-motion
 source ~/.config/nvim/init.easy-align
 source ~/.config/nvim/init.cmdline
