@@ -29,8 +29,8 @@ nnoremap <Leader>T :Tnew<CR>
 nnoremap <Leader>Tk :Tkill<CR>
 nnoremap <Leader>Tc :Tclear<CR>
 "g:neoterm_automap_keys = '<F4>'
-au BufReadPost,BufNewFile,BufEnter *.edp :Tmap FreeFem++ %<CR>
-au BufReadPost,BufNewFile,BufEnter *.m :Tmap octave %<CR>
+au BufReadPost,BufNewFile,BufEnter *.edp :Tmap FreeFem++ %
+au BufReadPost,BufNewFile,BufEnter *.m :Tmap octave %
 
 
 " For vim-repl
