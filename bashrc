@@ -105,3 +105,7 @@ alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client
 # Screensharing for a particular window / process can be enabled via DISPLAY=:1 <process_name>
 alias share='DISPLAY=:1'
 alias stopshare='sudo fuser 6001/tcp -k'
+
+# Rubygems and NPM packages
+export PATH="/home/user/.gem/ruby/bin:$PATH"
+export PATH="/home/user/node_modules:$PATH"
