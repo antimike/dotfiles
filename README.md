@@ -68,6 +68,7 @@
 * slack-term
 * zathura
 	* xdotool (for forward search)
+  * tabbed (to allow tab viewing)
 * tuir (Reddit)
 * spt (spotify-tui)
 * Vit (GUI for TaskWarrior)
@@ -146,4 +147,13 @@
 * anystyle-cli (gem)
 * pdftotext
 * bibtexparser (Python)
+* pdftitle (Python)
+* pdfx (Python):
+  * Can extract more granular information than the above tools (e.g., just DOI or Arxiv number)
+  * Can also extract and download all PDF references
 
+## Expenses / personal management
+
+* ledger / hledger
+* pem (GNU Personal Expenses Manager)
+* sc / sc-im
