@@ -25,7 +25,7 @@ Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
 Plug 'reedes/vim-wheel'
-Plug 'reedes/vim-textobj-quote'
+"Plug 'reedes/vim-textobj-quote'
 Plug 'reedes/vim-litecorrect'
 "Plug 'reedes/vim-lexical'
 Plug 'ledger/vim-ledger'
@@ -164,7 +164,10 @@ Plug 'preservim/nerdcommenter'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'kevinhwang91/rnvimr'
+" Requires Ranger v >= 1.9.3, which is only available for Fedora >= 33
+" Looks pretty dope though
+"Plug 'kevinhwang91/rnvimr'
+Plug 'rafaqz/ranger.vim'
 Plug 'mcchrish/nnn.vim'
 Plug 'alok/notational-fzf-vim'
 Plug 'powerline/powerline', { 'on': [] }
@@ -274,7 +277,7 @@ source ~/.config/nvim/init.coc-nvim
 source ~/.config/nvim/init.inkscape
 "source ~/.config/nvim/init.manifest
 "source ~/.config/nvim/init.nerdtree
-source ~/.config/nvim/init.ranger
+"source ~/.config/nvim/init.ranger
 "source ~/.config/nvim/init.nnn
 "source ~/.config/nvim/init.old
 "source ~/.config/nvim/init.pathogen

@@ -12,5 +12,5 @@ autocmd BufReadPost *.md call SyntaxRange#Include('```Matlab', '```', 'octave', 
 autocmd BufReadPost *.md call SyntaxRange#Include('```Python', '```', 'python', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Tex', '```', 'tex', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Sage', '```', 'sage', 'NonText')
-autocmd BufReadPost *.md call SyntaxRange#Include('```Freefem', '```', 'Freefem', 'NonText')
-autocmd BufReadPost *.md call SyntaxRange#Include('```Haskell', '```', 'Haskell', 'NonText')
+autocmd BufReadPost *.md call SyntaxRange#Include('```Freefem', '```', 'freefem', 'NonText')
+autocmd BufReadPost *.md call SyntaxRange#Include('```Haskell', '```', 'haskell', 'NonText')
