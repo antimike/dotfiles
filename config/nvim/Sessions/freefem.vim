@@ -1,6 +1,6 @@
 " ~/.dotfiles/config/nvim/Sessions/freefem.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 16 January 2021 at 13:43:11.
+" Created by session.vim 2.13.1 on 16 January 2021 at 19:09:25.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'apprentice' | colorscheme apprentice | endif
+if !exists('g:colors_name') || g:colors_name != 'ayu' | colorscheme ayu | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -27,27 +27,26 @@ badd +120 Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
 badd +1 Source/FreeFEM/london-freefem/README.md
 badd +319 .config/nvim/init.vim
 badd +8 .config/nvim/init.fold
-badd +0 \[coc-explorer]-1
 badd +1 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/ffmatlib/convert_pde_data_3d.m
 badd +1 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/ffmatlib/ffreadmesh.m
 badd +59 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/capacitor_3d.m
-badd +225 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/ffmatlib/ffpdeplot3D.m
+badd +1 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/ffmatlib/ffpdeplot3D.m
 badd +32 Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/capacitor_3d.edp
-badd +0 term://.//492378:/bin/bash;\#neoterm-1
+badd +1 term://.//2195:/bin/bash;\#neoterm-1
 badd +4 Source/FreeFEM/london-freefem/3d/empty-space-plot.edp
 badd +8 Source/FreeFEM/london-freefem/test/plot-boundary-labels.idp
 badd +47 Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
-badd +0 Source/FreeFEM/freefem-examples/poisson3d.edp
-badd +27 Source/FreeFEM/london-freefem/meshes/bowling-pin.edp
+badd +1 Source/FreeFEM/freefem-examples/poisson3d.edp
+badd +28 Source/FreeFEM/london-freefem/meshes/bowling-pin.edp
+badd +0 \[coc-explorer]-1
+badd +0 Source/FreeFEM/\[coc-explorer]-2
+badd +0 term://.//2258:/bin/bash;\#neoterm-1
+badd +0 Source/FreeFEM/london-freefem/\[coc-explorer]-3
 argglobal
 %argdel
 set stal=2
 edit Source/FreeFEM/london-freefem/meshes/bowling-pin.edp
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 wincmd _ | wincmd |
 split
 1wincmd k
@@ -59,23 +58,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 85 + 63) / 126)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 85 + 63) / 126)
-argglobal
-enew
-file \[coc-explorer]-1
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-wincmd w
+exe '1resize ' . ((&lines * 34 + 27) / 54)
+exe '2resize ' . ((&lines * 15 + 27) / 54)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -94,7 +78,7 @@ normal! zt
 normal! 030|
 wincmd w
 argglobal
-if bufexists("term://.//492378:/bin/bash;\#neoterm-1") | buffer term://.//492378:/bin/bash;\#neoterm-1 | else | edit term://.//492378:/bin/bash;\#neoterm-1 | endif
+if bufexists("term://.//2195:/bin/bash;\#neoterm-1") | buffer term://.//2195:/bin/bash;\#neoterm-1 | else | edit term://.//2195:/bin/bash;\#neoterm-1 | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -103,28 +87,21 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 10015 - ((14 * winheight(0) + 7) / 15)
+let s:l = 15 - ((14 * winheight(0) + 7) / 15)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10015
+15
 normal! 0
 wincmd w
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 85 + 63) / 126)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 85 + 63) / 126)
+exe '1resize ' . ((&lines * 34 + 27) / 54)
+exe '2resize ' . ((&lines * 15 + 27) / 54)
 if exists(':tcd') == 2 | tcd ~/Source/FreeFEM/london-freefem/meshes | endif
 tabedit ~/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
 set splitbelow splitright
 wincmd _ | wincmd |
 split
 1wincmd k
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 wincmd w
 set nosplitbelow
 set nosplitright
@@ -134,22 +111,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe '1resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 85 + 63) / 126)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-argglobal
-enew
-file ~/Source/FreeFEM/\[coc-explorer]-2
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-wincmd w
+exe '2resize ' . ((&lines * 15 + 27) / 54)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -171,7 +133,7 @@ normal! zt
 normal! 018|
 wincmd w
 argglobal
-if bufexists("term://.//492378:/bin/bash;\#neoterm-1") | buffer term://.//492378:/bin/bash;\#neoterm-1 | else | edit term://.//492378:/bin/bash;\#neoterm-1 | endif
+if bufexists("term://.//2258:/bin/bash;\#neoterm-1") | buffer term://.//2258:/bin/bash;\#neoterm-1 | else | edit term://.//2258:/bin/bash;\#neoterm-1 | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -180,18 +142,15 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 10015 - ((14 * winheight(0) + 7) / 15)
+let s:l = 15 - ((14 * winheight(0) + 7) / 15)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10015
+15
 normal! 0
 wincmd w
 exe '1resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 85 + 63) / 126)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
+exe '2resize ' . ((&lines * 15 + 27) / 54)
 if exists(':tcd') == 2 | tcd ~/Source/FreeFEM/london-freefem | endif
 tabedit ~/Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/capacitor_3d.edp
 set splitbelow splitright
@@ -250,10 +209,7 @@ tabedit ~/Source/FreeFEM/london-freefem/matlab/release-v2.0/demos/ffmatlib/ffpde
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-wincmd _ | wincmd |
-vsplit
-2wincmd h
-wincmd w
+1wincmd h
 wincmd w
 set nosplitbelow
 set nosplitright
@@ -262,21 +218,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe 'vert 2resize ' . ((&columns * 43 + 63) / 126)
-exe 'vert 3resize ' . ((&columns * 41 + 63) / 126)
-argglobal
-enew
-file ~/Source/FreeFEM/london-freefem/\[coc-explorer]-3
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-wincmd w
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -312,9 +255,8 @@ normal! zt
 11
 normal! 0
 wincmd w
-exe 'vert 1resize ' . ((&columns * 40 + 63) / 126)
-exe 'vert 2resize ' . ((&columns * 43 + 63) / 126)
-exe 'vert 3resize ' . ((&columns * 41 + 63) / 126)
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 if exists(':tcd') == 2 | tcd ~/Source/FreeFEM | endif
 tabedit ~/Source/FreeFEM/freefem-examples/poisson3d.edp
 set splitbelow splitright
@@ -342,7 +284,7 @@ normal! zt
 19
 normal! 0
 if exists(':tcd') == 2 | tcd ~/Source/FreeFEM | endif
-tabnext 2
+tabnext 1
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -360,7 +302,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 2
+tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
