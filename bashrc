@@ -65,6 +65,12 @@ alias mail='cd ~/mail/Attachments && neomutt'
 alias check-mail='/usr/bin/check-mail.sh'
 alias get_oauth_token='/usr/local/bin/get_oauth_token.sh'
 
+# Split-SSH
+SSH_VAULT_VM='keyvault-slave-private'
+if [ "$SSH_VAULT_VM" != "" ]; then
+    export SSH_AUTH_SOCK=~/.SSH_AGENT_$SSH_VAULT_VM
+fi
+
 # PDF readers
 alias mupdf='mupdf-gl'
 #alias termpdf='/home/user/.local/bin/termpdf.py/termpdf.py'
