@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=ssh-agent
+Exec=ssh-agent
+Type=Application
