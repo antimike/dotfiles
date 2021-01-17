@@ -6,13 +6,14 @@ Width 1920=945
 FullScreen=false
 
 [MainWindow]
-Height 1080=1003
-State=AAAA/wAAAAD9AAAAAAAAA7EAAAOuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1080=483
+State=AAAA/wAAAAD9AAAAAAAAA7EAAAEIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=945
 
 [Recent Files]
 File1[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Tulu_Jedidiah HW1.pdf
+File10[$e]=$HOME/Administrative/GS6 Worksheet for Masters (fillable).pdf
 File2[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Kyle_Schmer_Homework 2.pdf
 File3[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Kyle_Schmer_PH341 Problem Set 1.pdf
 File4[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Will_Sheridan_HW1.pdf
@@ -22,6 +23,7 @@ File7[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Megan 
 File8[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Kevin_Plocher_Mechanics Homework 1.pdf
 File9[$e]=$HOME/Documents/Fall 2020/Physics 341 (Grading)/Assignments/HW1/Ryan_Roessler_PH 341 HW 01.pdf
 Name1[$e]=Tulu_Jedidiah HW1.pdf
+Name10[$e]=GS6 Worksheet for Masters (fillable).pdf
 Name2[$e]=Kyle_Schmer_Homework 2.pdf
 Name3[$e]=Kyle_Schmer_PH341 Problem Set 1.pdf
 Name4[$e]=Will_Sheridan_HW1.pdf
