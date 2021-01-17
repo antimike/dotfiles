@@ -42,5 +42,6 @@ set termguicolors
 "colorscheme wombat
 "colorscheme termschool
 "colorscheme two-firewatch
-colorscheme vividchalk
+"colorscheme vividchalk
+colorscheme ayu
 let g:pencil_higher_contrast_ui = 0
