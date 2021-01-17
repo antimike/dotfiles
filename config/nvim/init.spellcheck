@@ -32,9 +32,9 @@ augroup END
 "augroup END
 
 " Suggested by vim-textobj-quote GitHub page
-augroup textobj_quote
-  autocmd!
-  autocmd FileType markdown call textobj#quote#init()
-  autocmd FileTYpe textile call textobj#quote#init()
-  autocmd FileType text call textobj#quote#init({'educate': 0})
-augroup END
+"augroup textobj_quote
+  "autocmd!
+  "autocmd FileType markdown call textobj#quote#init()
+  "autocmd FileTYpe textile call textobj#quote#init()
+  "autocmd FileType text call textobj#quote#init({'educate': 0})
+"augroup END
