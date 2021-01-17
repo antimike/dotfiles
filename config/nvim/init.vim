@@ -117,7 +117,10 @@ Plug 'svermeulen/vim-cutlass'
 Plug 'svermeulen/vim-yoink'
 Plug 'amiorin/vim-project'
 "Plug 'vim-ide'
-Plug 'tpope/vim-obsession'
+"Plug 'tpope/vim-obsession'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-session'
+let g:session_directory='~/.dotfiles/config/nvim/Sessions'
 Plug 'tpope/vim-haystack'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'mox-mox/vim-localsearch'
@@ -313,5 +316,6 @@ source ~/.config/nvim/init.explorer
 source /home/user/.config/nvim/init.fzf
 source /home/user/.config/nvim/init.clang
 source /home/user/.config/nvim/init.octave
+source /home/user/.config/nvim/init.fold
 
 hi clear Conceal
