@@ -58,3 +58,7 @@ export PYTHONPATH="$HOME/Documents/Python/Utilities:$PYTHONPATH"
 # Rubygems and NPM packages
 export PATH="/home/user/.gem/ruby/bin:$PATH"
 export PATH="/home/user/node_modules:$PATH"
+
+/rw/config/rc.local
+# DO NOT DO THIS!!!
+#exec '/rw/config/rc.local'
