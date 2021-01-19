@@ -68,7 +68,7 @@ Plug 'gcmt/taboo.vim'
 "map <C-Tab> :BufMRUNext<CR>
 "map <C-S-Tab> :BufMRUPrev<CR>
 
-"Plug 'jreybert/vimagit', { 'on': [] }
+Plug 'jreybert/vimagit'
 Plug 'sheerun/vim-polyglot'
 let g:polyglot_disabled = ['tex']
 Plug 'Yggdroot/LeaderF'
