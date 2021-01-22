@@ -23,6 +23,13 @@
 * Gnuplot
 * ParaView
 * Mayavi
+* TikzIt:
+  * Graph editor for Tikz diagrams to include in TeX
+* LaTeXDraw
+* diagrams:
+  * Haskell package for declaratively creating and editing vector graphics
+* yEd:
+  * "data --> diagram"-style editor (UML, flowcharts, mind maps, etc.)
 
 #### Mesh tools
 
@@ -121,11 +128,17 @@
 
 * kitty
 * fish
+* zsh
+* oh-my-zsh
 
 ## tex
 
 * Inkscape
 * pandoc
+* Lyx
+* GNU TexMacs
+* HaskInTeX:
+  * Similar to SageTeX for Haskell
 
 ## Dotfiles management
 
