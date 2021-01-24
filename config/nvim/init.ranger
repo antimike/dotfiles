@@ -1,8 +1,10 @@
 " vim:filetype=vim
 " vim:syntax=vim
 
-tnoremap <silent> <M-i> <C-\><C-n>:RnvimrResize<CR>
-tnoremap <silent> <M-a> <C-\><C-n>:RnvimrToggle<CR>
-nnoremap <silent> <M-a> :RnvimrToggle<CR>
-let g:rnvimr_enable_picker = 1
-let g:rnvimr_draw_border = 1
+nnoremap <silent> <M-a> :RangerOpenCurrentFile<CR>
+nnoremap <silent> <M-S-a> :RangerOpenProjectRootDir<CR>
+"tnoremap <silent> <M-i> <C-\><C-n>:RnvimrResize<CR>
+"tnoremap <silent> <M-a> <C-\><C-n>:RnvimrToggle<CR>
+"nnoremap <silent> <M-a> :RnvimrToggle<CR>
+"let g:rnvimr_enable_picker = 1
+"let g:rnvimr_draw_border = 1

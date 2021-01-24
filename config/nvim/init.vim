@@ -169,8 +169,12 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 " Requires Ranger v >= 1.9.3, which is only available for Fedora >= 33
 " Looks pretty dope though
+" EDIT: Tried it on Fedora 33, not very good (especially compared with
+" ranger-explorer)
 "Plug 'kevinhwang91/rnvimr'
-Plug 'rafaqz/ranger.vim'
+"Plug 'rafaqz/ranger.vim'
+Plug 'iberianpig/ranger-explorer.vim'
+"Plug 'vifm/vifm.vim'
 Plug 'mcchrish/nnn.vim'
 Plug 'alok/notational-fzf-vim'
 Plug 'powerline/powerline', { 'on': [] }
@@ -238,6 +242,9 @@ Plug 'tpope/vim-dispatch'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-flagship', { 'on': [] }
+"Dependency for tig-explorer
+Plug 'rbgrouleff/bclose.vim'
+Plug 'iberianpig/tig-explorer.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 "Plug 'xuhdev/vim-latex-live-preview'
@@ -280,7 +287,7 @@ source ~/.config/nvim/init.coc-nvim
 source ~/.config/nvim/init.inkscape
 "source ~/.config/nvim/init.manifest
 "source ~/.config/nvim/init.nerdtree
-"source ~/.config/nvim/init.ranger
+source ~/.config/nvim/init.ranger
 "source ~/.config/nvim/init.nnn
 "source ~/.config/nvim/init.old
 "source ~/.config/nvim/init.pathogen
@@ -320,5 +327,6 @@ source /home/user/.config/nvim/init.fzf
 source /home/user/.config/nvim/init.clang
 source /home/user/.config/nvim/init.octave
 source /home/user/.config/nvim/init.fold
+source /home/user/.config/nvim/init.git
 
 hi clear Conceal
