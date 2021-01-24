@@ -121,9 +121,15 @@
 /RT0
 /RT0Ortho
 /lagrange
-:offset 6
 :help bmark
-:blist
 :bmark TOC
-:q
 :offset 1
+:q
+:goto toc
+:blist
+:toc
+:bmark toc
+:offset 6
+/gauge
+/cotree
+/tree
