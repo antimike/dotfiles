@@ -1,0 +1,7 @@
+" vim: filetype=vim
+" vim: syntax=vim
+" Mappings for: vimagit, flog, tig, GitV
+
+nnoremap <M-g> :TigOpenCurrentFile<CR>
+nnoremap <M-S-g> :TigOpenProjectRootDir<CR>
+nnoremap <M-b> :TigBlame<CR>
