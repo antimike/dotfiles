@@ -30,6 +30,8 @@
   * Haskell package for declaratively creating and editing vector graphics
 * yEd:
   * "data --> diagram"-style editor (UML, flowcharts, mind maps, etc.)
+* blender:
+  * 3D modeling, animations, and postprocessing
 
 #### Mesh tools
 
