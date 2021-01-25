@@ -59,6 +59,9 @@ export PYTHONPATH="$HOME/Documents/Python/Utilities:$PYTHONPATH"
 export PATH="/home/user/.gem/ruby/bin:$PATH"
 export PATH="/home/user/node_modules:$PATH"
 
+# Bash aliases
+source ~/.bashrc
+
 /rw/config/rc.local
 # DO NOT DO THIS!!!
 #exec '/rw/config/rc.local'
