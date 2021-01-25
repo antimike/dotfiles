@@ -36,7 +36,6 @@
 /normal
 /function
 /on(
-/constraint
 /include
 /include "
 /.idp
@@ -71,7 +70,6 @@
 /ffmedit
 /edge0
 /conform
-/varf
 /discrete problem
 /penalty
 /savemesh2d
@@ -120,16 +118,30 @@
 /raviart
 /RT0
 /RT0Ortho
-/lagrange
 :help bmark
 :bmark TOC
 :offset 1
-:q
 :goto toc
-:blist
 :toc
 :bmark toc
 :offset 6
 /gauge
 /cotree
 /tree
+/injective
+/RT03
+/varf
+:bmark Dirichlet tgv
+:bmark Dirichlet-tgv
+/constraint
+/block
+/block matrix
+/multiplier
+/rt0
+/lagrange
+:bmark Lagrange
+/tgv=tgv
+:bmark Dirichlet-condition-penalization
+:blist
+:qa
+:q
