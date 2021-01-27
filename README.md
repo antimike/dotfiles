@@ -32,6 +32,8 @@
   * "data --> diagram"-style editor (UML, flowcharts, mind maps, etc.)
 * Grace / Xmgrace:
   * WSIWYG graphing / plotting tool
+* Xfig:
+  * Old-school Linux tool for basic vector graphics
 
 #### Mesh tools
 
