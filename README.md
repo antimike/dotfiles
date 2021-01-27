@@ -30,6 +30,8 @@
   * Haskell package for declaratively creating and editing vector graphics
 * yEd:
   * "data --> diagram"-style editor (UML, flowcharts, mind maps, etc.)
+* Grace / Xmgrace:
+  * WSIWYG graphing / plotting tool
 
 #### Mesh tools
 
