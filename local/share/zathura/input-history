@@ -116,7 +116,6 @@
 :offset 3
 /lagrange multip
 /raviart
-/RT0
 /RT0Ortho
 :help bmark
 :bmark TOC
@@ -129,7 +128,6 @@
 /cotree
 /tree
 /injective
-/RT03
 /varf
 :bmark Dirichlet tgv
 :bmark Dirichlet-tgv
@@ -145,3 +143,11 @@
 :blist
 :qa
 :q
+/rt1
+/RT03
+:bmark Vectorial_Element_Dirichlet_Conditions
+/RT0
+/RT13d
+/RT3
+/edge03
+/.region(
