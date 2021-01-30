@@ -1,4 +1,4 @@
-# TOTRY
+## TOTRY
 
 ## Browsers
 
@@ -7,6 +7,10 @@
 				* Stores history as tree (!)
 * Uzbl:
 				* Modular / UNIX-philosophy-based browsing system
+
+## Editors
+
+* joe
 
 ## Vim plugins
 
@@ -27,5 +31,11 @@
 ## Org stuff
 
 * Remind (calendar / notification system)
+* TuDu:
+				* Todo / Kanban CLI with nice ncurses front-end
 * Taskell:
 				* CLI kanban board / task manager
+
+## Random
+
+* imv ([image](image.md) viewer for tiling WMs)
