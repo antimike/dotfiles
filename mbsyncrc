@@ -1,31 +1,33 @@
+# vim:filetype=conf
+# vim:syntax=conf
 ##########
-IMAPAccount professional
-Host imap.gmail.com
-Port 993
-User antihaynes@gmail.com
-#PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/professional-appkey.gpg"
-SSLType IMAPS
-AuthMechs LOGIN
-#UseIMAPS yes
+#IMAPAccount professional
+#Host imap.gmail.com
+#Port 993
+#User antihaynes@gmail.com
+##PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
+#PassCmd "gpg -q --no-tty --batch -d ~/professional-appkey.gpg"
+#SSLType IMAPS
+#AuthMechs LOGIN
+##UseIMAPS yes
 
-IMAPStore professional-remote
-Account professional
+#IMAPStore professional-remote
+#Account professional
 
-MaildirStore professional-local
-Subfolders Verbatim
-Path ~/mail/professional/
-Inbox ~/mail/professional/Inbox
+#MaildirStore professional-local
+#Subfolders Verbatim
+#Path ~/mail/professional/
+#Inbox ~/mail/professional/Inbox
 
-Channel professional
-Master :professional-remote:
-Slave :professional-local:
-#Patterns * !Archives !Lists
-Patterns *
+#Channel professional
+#Master :professional-remote:
+#Slave :professional-local:
+##Patterns * !Archives !Lists
+#Patterns *
 
-Create Both
-#Expunge Both
-SyncState *
+#Create Both
+##Expunge Both
+#SyncState *
 
 # Need to use separate channel for each synced mailbox?
 
@@ -59,33 +61,33 @@ Create Both
 SyncState *
 
 ##########
-IMAPAccount personal
-Host imap.gmail.com
-Port 993
-User mathgeek101@gmail.com
-#PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-personal-appkey.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/personal-appkey.gpg"
-SSLType IMAPS
-AuthMechs LOGIN
-#UseIMAPS yes
+#IMAPAccount personal
+#Host imap.gmail.com
+#Port 993
+#User mathgeek101@gmail.com
+##PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-personal-appkey.gpg"
+#PassCmd "gpg -q --no-tty --batch -d ~/personal-appkey.gpg"
+#SSLType IMAPS
+#AuthMechs LOGIN
+##UseIMAPS yes
 
-IMAPStore personal-remote
-Account personal
+#IMAPStore personal-remote
+#Account personal
 
-MaildirStore personal-local
-Subfolders Verbatim
-Path ~/mail/personal/
-Inbox ~/mail/personal/Inbox
+#MaildirStore personal-local
+#Subfolders Verbatim
+#Path ~/mail/personal/
+#Inbox ~/mail/personal/Inbox
 
-Channel personal
-Master :personal-remote:
-Slave :personal-local:
-#Patterns * !Archives !Lists
-Patterns *
+#Channel personal
+#Master :personal-remote:
+#Slave :personal-local:
+##Patterns * !Archives !Lists
+#Patterns *
 
-Create Both
-#Expunge Both
-SyncState *
+#Create Both
+##Expunge Both
+#SyncState *
 
-# Need to use separate channel for each synced mailbox?
+## Need to use separate channel for each synced mailbox?
 

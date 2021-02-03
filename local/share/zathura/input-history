@@ -124,7 +124,6 @@
 :help bmark
 :bmark TOC
 :offset 1
-:q
 :goto toc
 :blist
 :toc
@@ -133,3 +132,4 @@
 /gauge
 /cotree
 /tree
+:q
