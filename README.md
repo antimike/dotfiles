@@ -34,6 +34,10 @@
   * WSIWYG graphing / plotting tool
 * Xfig:
   * Old-school Linux tool for basic vector graphics
+* KTikz:
+  * KDE editor for Tikz
+* TikzEdt:
+  * WYSIWYG editor for Tikz
 
 #### Mesh tools
 
