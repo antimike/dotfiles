@@ -1,0 +1,9 @@
+" vim:filetype=vim
+" vim:syntax=vim
+
+let $FZF_DEFAULT_COMMAND='find .'
+inoremap <silent> <M-o> <C-o>:Files %:p:h<CR>
+nnoremap <silent> <M-o> :Files %:p:h<CR>
+tnoremap <silent> <M-o> <C-\><C-n>:Files %:p:h<CR>
+"inoremap <M-A> :Ag %:p:h
+"nnoremap <M-A> :Ag %:p:h
