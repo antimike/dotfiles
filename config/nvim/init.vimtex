@@ -48,3 +48,7 @@ nnoremap <localleader>lt :call vimtex#fzf#run()<cr>
 
 "au BufReadPost *.tex nnoremap <silent><leader>sx call CompileSage()
 
+" Disable custom warnings based on regexp
+let g:vimtex_quickfix_ignore_filters = [
+			\ 'Package etex',
+			\]
