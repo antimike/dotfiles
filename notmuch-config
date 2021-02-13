@@ -11,7 +11,7 @@
 # configured here named ".notmuch".
 #
 [database]
-path=/home/user/mail
+path=/home/hactar/mail
 
 # User configuration
 #

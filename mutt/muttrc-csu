@@ -1,5 +1,5 @@
-# vim: filetype=muttrc
-# vim: syntax=muttrc
+# vim: filetype=mutt
+# vim: syntax=mutt
 
 unmailboxes *
 unvirtual-mailboxes *
