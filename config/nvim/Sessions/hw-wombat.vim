@@ -1,6 +1,6 @@
-" ~/.dotfiles/config/nvim/Sessions/hw.vim:
+" ~/.dotfiles/config/nvim/Sessions/hw-wombat.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 26 February 2021 at 11:08:11.
+" Created by session.vim 2.13.1 on 26 February 2021 at 17:35:15.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'gruvbox' | colorscheme gruvbox | endif
+if !exists('g:colors_name') || g:colors_name != 'wombat256mod' | colorscheme wombat256mod | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -23,18 +23,22 @@ endif
 set shortmess=aoO
 badd +241 HW3.tex
 badd +38 term://.//205864:/usr/bin/zsh;\#neoterm-1
-badd +8 ~/Documents/Python/Utilities/latex_utils.py
+badd +68 ~/Documents/Python/Utilities/latex_utils.py
 badd +1 ~/.dotfiles/config/nvim/UltiSnips/tex/figures.snippets
 badd +30 ~/.dotfiles/config/nvim/UltiSnips/tex/computational.snippets
 badd +5 ~/.dotfiles/config/nvim/init.syntax-range
-badd +104 HW3.sage
+badd +10 HW3.sage
 badd +15 term://.//205982:sage
 badd +1 ~/.dotfiles/config/nvim/init.vim
-badd +0 term://.//224336:sage
-badd +0 ~/Documents/Spring-2021/EM_II/Assignments/HW2/HW2.tex
+badd +44 term://.//313063:sage
+badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW2/HW2.tex
 badd +17 Element.sage
-badd +0 term://.//278266:/usr/bin/zsh;\#neoterm-1
-badd +0 Element.sage.py
+badd +1 term://.//278266:/usr/bin/zsh;\#neoterm-1
+badd +1 Element.sage.py
+badd +7 Analysis/Element.py
+badd +1 ~/Documents/Python/Utilities/latex_serializer.py
+badd +0 term://.//314263:sage
+badd +8 Analysis/notes.md
 argglobal
 %argdel
 set stal=2
@@ -56,12 +60,12 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 241 - ((8 * winheight(0) + 8) / 17)
+let s:l = 152 - ((145 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-241
-normal! 07|
+152
+normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW2/HW2.tex
 set splitbelow splitright
@@ -81,14 +85,14 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 7 - ((6 * winheight(0) + 8) / 17)
+let s:l = 7 - ((6 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 7
 normal! 0
 if exists(':tcd') == 2 | tcd ~/Documents/Spring-2021/EM_II/Assignments | endif
-tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW3/Element.sage.py
+tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW3/HW3.sage
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -101,8 +105,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 97 + 59) / 118)
-exe 'vert 2resize ' . ((&columns * 20 + 59) / 118)
+exe 'vert 1resize ' . ((&columns * 148 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 89 + 119) / 238)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -112,18 +116,20 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-7
+1
 silent! normal! zo
-let s:l = 6 - ((5 * winheight(0) + 8) / 17)
+6
+silent! normal! zo
+let s:l = 10 - ((9 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-6
+10
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
 argglobal
-if bufexists("term://.//224336:sage") | buffer term://.//224336:sage | else | edit term://.//224336:sage | endif
+if bufexists("term://.//314263:sage") | buffer term://.//314263:sage | else | edit term://.//314263:sage | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -132,16 +138,53 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 434 - ((12 * winheight(0) + 8) / 17)
+let s:l = 83 - ((43 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-434
-normal! 02|
+83
+normal! 05|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 97 + 59) / 118)
-exe 'vert 2resize ' . ((&columns * 20 + 59) / 118)
+exe 'vert 1resize ' . ((&columns * 148 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 89 + 119) / 238)
+if exists(':tcd') == 2 | tcd ~/Documents/Spring-2021/EM_II/Assignments | endif
+tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/notes.md
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=expr
+setlocal fde=VimwikiFoldListLevel(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+5
+silent! normal! zo
+11
+silent! normal! zo
+20
+silent! normal! zo
+24
+silent! normal! zo
+26
+silent! normal! zo
+let s:l = 12 - ((11 * winheight(0) + 22) / 44)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+12
+normal! 0
+lcd ~/Documents/Spring-2021
+if exists(':tcd') == 2 | tcd ~/Documents/Spring-2021/EM_II/Assignments | endif
 tabedit ~/Documents/Python/Utilities/latex_utils.py
 set splitbelow splitright
 set nosplitbelow
@@ -172,13 +215,12 @@ silent! normal! zo
 silent! normal! zo
 74
 silent! normal! zo
-let s:l = 9 - ((8 * winheight(0) + 8) / 17)
+let s:l = 68 - ((35 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 018|
-lcd ~/.dotfiles/config/nvim
+68
+normal! 0
 if exists(':tcd') == 2 | tcd ~/.dotfiles/config/nvim | endif
 tabedit ~/.dotfiles/config/nvim/init.vim
 set splitbelow splitright
@@ -199,14 +241,14 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 106 - ((8 * winheight(0) + 8) / 17)
+let s:l = 106 - ((21 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 106
 normal! 041|
 if exists(':tcd') == 2 | tcd ~/.dotfiles/config/nvim | endif
-tabnext 4
+tabnext 5
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -224,7 +266,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 4
+tabnext 5
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
