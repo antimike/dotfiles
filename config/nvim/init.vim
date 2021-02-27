@@ -105,7 +105,7 @@ Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'vim-python/python-syntax'
 Plug 'tmhedberg/SimpylFold'
 Plug 'jeetsukumaran/vim-pythonsense'
-Plug 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim', { 'on': [] }
 Plug 'petRUShka/vim-sage'
 Plug 'tpope/vim-capslock'
 Plug 'tpope/vim-unimpaired'
