@@ -17,9 +17,9 @@ let cmdline_map_quit       = '<leader>Rq'
 let cmdline_app            = {}
 let cmdline_app['python']  = 'ipython'
 let cmdline_app['sh']      = 'zsh'
-let cmdline_app['sage']    = 'sagemath'
+let cmdline_app['sage']    = 'sage'
 let cmdline_app['octave']  = 'octave'
-let cmdline_app['tex']     = 'sagemath'
+let cmdline_app['tex']     = 'sage'
 let cmdline_app['freefem'] = 'octave'
 
 " For neoterm---default terminal positioning
