@@ -1,6 +1,6 @@
-" ~/.dotfiles/config/nvim/Sessions/hw.vim:
+" ~/.dotfiles/config/nvim/Sessions/hw-gruvbox.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 26 February 2021 at 11:08:11.
+" Created by session.vim 2.13.1 on 26 February 2021 at 11:12:23.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -23,7 +23,7 @@ endif
 set shortmess=aoO
 badd +241 HW3.tex
 badd +38 term://.//205864:/usr/bin/zsh;\#neoterm-1
-badd +8 ~/Documents/Python/Utilities/latex_utils.py
+badd +65 ~/Documents/Python/Utilities/latex_utils.py
 badd +1 ~/.dotfiles/config/nvim/UltiSnips/tex/figures.snippets
 badd +30 ~/.dotfiles/config/nvim/UltiSnips/tex/computational.snippets
 badd +5 ~/.dotfiles/config/nvim/init.syntax-range
@@ -172,12 +172,12 @@ silent! normal! zo
 silent! normal! zo
 74
 silent! normal! zo
-let s:l = 9 - ((8 * winheight(0) + 8) / 17)
+let s:l = 62 - ((6 * winheight(0) + 8) / 17)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 018|
+62
+normal! 0
 lcd ~/.dotfiles/config/nvim
 if exists(':tcd') == 2 | tcd ~/.dotfiles/config/nvim | endif
 tabedit ~/.dotfiles/config/nvim/init.vim

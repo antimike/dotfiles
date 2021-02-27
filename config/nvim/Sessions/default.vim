@@ -1,6 +1,6 @@
 " ~/.dotfiles/config/nvim/Sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 05 February 2021 at 15:17:59.
+" Created by session.vim 2.13.1 on 25 February 2021 at 14:15:24.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,22 +21,18 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +30 Documents/Spring\ 2021/EM_II/Notes/02012021/02012021.tex
-badd +1 .dotfiles/config/nvim/UltiSnips/tex/exp.snippets
-badd +4 .dotfiles/config/nvim/UltiSnips/tex/symbol-modifiers.snippets
-badd +11 .dotfiles/config/nvim/UltiSnips/tex/special-chars.snippets
-badd +111 Documents/Spring\ 2021/Seminar/02012021/02012021.tex
-badd +75 Documents/Spring\ 2021/EM_II/Assignments/HW2/HW2.tex
-badd +159 texmf/tex/latex/local/local/pset.cls
-badd +1 texmf/tex/latex/local/local/include.sty
-badd +53 .config/nvim/init.vimtex
-badd +0 .config/nvim/vim-plug/vimtex/doc/vimtex.txt
+badd +31 Documents/Spring-2021/EM_II/Assignments/HW3/HW3.tex
+badd +0 term://.//163676:/usr/bin/zsh;\#neoterm-1
+badd +0 Documents/Python/Utilities/latex_utils.py
 argglobal
 %argdel
-$argadd Documents/Spring\ 2021/EM_II/Notes/02012021/02012021.tex
 set stal=2
-edit Documents/Spring\ 2021/EM_II/Assignments/HW2/HW2.tex
+edit Documents/Spring-2021/EM_II/Assignments/HW3/HW3.tex
 set splitbelow splitright
+wincmd _ | wincmd |
+split
+1wincmd k
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -44,6 +40,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe '1resize ' . ((&lines * 28 + 20) / 41)
+exe '2resize ' . ((&lines * 9 + 20) / 41)
 argglobal
 setlocal fdm=expr
 setlocal fde=vimtex#fold#level(v:lnum)
@@ -55,69 +53,16 @@ setlocal fdn=20
 setlocal fen
 14
 silent! normal! zo
-16
-silent! normal! zo
-18
-silent! normal! zo
-19
-silent! normal! zo
-22
-silent! normal! zo
-32
-silent! normal! zo
-40
-silent! normal! zo
-46
-silent! normal! zo
-53
-silent! normal! zo
-57
-silent! normal! zo
-63
-silent! normal! zo
-69
-silent! normal! zo
-let s:l = 75 - ((14 * winheight(0) + 17) / 35)
+let s:l = 31 - ((13 * winheight(0) + 14) / 28)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-75
-normal! 0
-tabedit .config/nvim/vim-plug/vimtex/doc/vimtex.txt
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
+31
+normal! 011|
+lcd ~/Documents/Python/Utilities
+wincmd w
 argglobal
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-silent! normal! zE
-let s:l = 1932 - ((3 * winheight(0) + 7) / 14)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1932
-normal! 0
-tabedit .config/nvim/init.vimtex
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
+if bufexists("term://.//163676:/usr/bin/zsh;\#neoterm-1") | buffer term://.//163676:/usr/bin/zsh;\#neoterm-1 | else | edit term://.//163676:/usr/bin/zsh;\#neoterm-1 | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -126,14 +71,42 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let s:l = 53 - ((12 * winheight(0) + 7) / 14)
+let s:l = 208 - ((8 * winheight(0) + 4) / 9)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-53
-normal! 06|
-tabnext 1
+208
+normal! 05|
+lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
+wincmd w
+exe '1resize ' . ((&lines * 28 + 20) / 41)
+exe '2resize ' . ((&lines * 9 + 20) / 41)
+tabedit ~/Documents/Python/Utilities/latex_utils.py
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=expr
+setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 18) / 37)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
+lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
+tabnext 2
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -151,7 +124,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 1
+tabnext 2
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
