@@ -16,3 +16,11 @@ vnoremap JL <Esc>
 " For the vim-wheel plugin
 let g:wheel#map#up   = '<M-S-K>'
 let g:wheel#map#down = '<M-S-J>'
+
+" For ALE (linter)
+nmap <silent> <C-]> <Plug>(ale_next)
+nmap <silent> <C-[> <Plug>(ale_previous)
+nmap <silent> ]E <Plug>(ale_next_error)
+nmap <silent> [E <Plug>(ale_previous_error)
+nmap <silent> ]w <Plug>(ale_next_warning)
+nmap <silent> [w <Plug>(ale_previous_warning)
