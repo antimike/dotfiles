@@ -176,7 +176,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'iberianpig/ranger-explorer.vim'
 "Plug 'vifm/vifm.vim'
 Plug 'mcchrish/nnn.vim'
-Plug 'alok/notational-fzf-vim'
+"Plug 'alok/notational-fzf-vim'
 Plug 'powerline/powerline', { 'on': [] }
 "Plug 'syntastic'
 Plug 'godlygeek/tabular'
