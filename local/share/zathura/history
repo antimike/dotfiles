@@ -309,17 +309,29 @@ pages-per-row=1
 first-page-column=1:2
 position-x=0.61036639857015196
 position-y=0.72095316054003022
-time=1612371924
+time=1613489669
 jumplist=0 0.5 0.5 0 0.46694907150547582 0.3443629898206152 
 
-[/home/hactar/Documents/Papis-Imports/677dcdea4cf8f4403542133cd2d9bde3-frederic-hecht/freefem-documentation.pdf]
+[/home/hactar/Documents/spring-2021/EM_II/Assignments/HW2/HW2_vimtex.pdf]
+page=8
+offset=0
+scale=1.2486527777777778
+rotate=0
+pages-per-row=1
+first-page-column=1:2
+position-x=0.5
+position-y=0.76737149035884045
+time=1614219239
+jumplist=0 0.5 0.055555555555555552 0 0.49960818161162213 0.93675142206177253 8 0.38963360142984804 0.93130547337278058 8 0.5 0.94444444444444442 6 0.61036639857015196 0.6437638988452008 9 0.5 0.94999999999999996 
+
+[/home/hactar/Documents/spring-2021/EM_II/Assignments/HW3/HW3_vimtex.pdf]
 page=0
 offset=0
 scale=0.9229797979797979
 rotate=0
 pages-per-row=1
 first-page-column=1:2
-position-x=0.5
-position-y=0.0014718440543247991
-time=1613237000
-jumplist=
+position-x=0.40442477876106198
+position-y=0.5
+time=1614300359
+jumplist=0 0.5 0.5 0 0.49960814424193889 0.85368213388654923 
