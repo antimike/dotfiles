@@ -108,3 +108,4 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.shell-aliases
 source /rw/config/rc.local
+export EDITOR=nvim
