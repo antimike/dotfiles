@@ -42,17 +42,19 @@ au BufReadPost,BufNewFile,BufEnter *.m :Tmap cd %:p:h; octave %
 "nnoremap <leader>E :REPLSendSession<CR>
 let g:repl_program = {
                         \ 'python': 'ipython',
-                        \ 'sage': 'sagemath',
-                        \ 'tex': 'sagemath',
+                        \ 'sage': 'sage',
+                        \ 'tex': 'sage',
                         \ 'octave': 'octave',
                         \ 'default': 'bash',
                         \ 'vim': 'vim -e',
-                        \ 'lua': 'lua'
+                        \ 'lua': 'lua',
+                        \ 'haskell', 'ghci-color'
                         \ }
 let g:repl_exit_commands = {
                         \ 'python': 'quit()',
                         \ 'bash': 'exit',
-                        \ 'default': 'exit'
+                        \ 'default': 'exit',
+                        \ 'haskell': 'quit'
                         \ }                        
 let g:repl_predefine_python = {
                         \ 'numpy': 'import numpy as np',
