@@ -14,3 +14,4 @@ git clone https://github.com/denysdovhan/spaceship-prompt.git /home/hactar/.oh-m
 ln -s /home/hactar/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme /home/hactar/.oh-my-zsh/custom/themes/spaceship.zsh-theme 
 sudo apt-get install zsh-syntax-highlighting -y
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/hactar/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+pip3 install pylint
