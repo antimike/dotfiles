@@ -325,10 +325,11 @@ source ~/.config/nvim/init.misc-mappings
 "source ~/.config/nvim/init.language-client
 source ~/.config/nvim/init.sandwich
 source ~/.config/nvim/init.explorer
-source /home/user/.config/nvim/init.fzf
-source /home/user/.config/nvim/init.clang
-source /home/user/.config/nvim/init.octave
-source /home/user/.config/nvim/init.fold
-source /home/user/.config/nvim/init.git
+source ~/.config/nvim/init.fzf
+source ~/.config/nvim/init.clang
+source ~/.config/nvim/init.octave
+source ~/.config/nvim/init.fold
+source ~/.config/nvim/init.git
+source ~/.config/nvim/init.haskell
 
 hi clear Conceal
