@@ -107,5 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.shell-aliases
-source /rw/config/rc.local
+source ~/.local.config
+source ~/.local-aliases.sh
+#source /rw/config/rc.local
 export EDITOR=nvim
