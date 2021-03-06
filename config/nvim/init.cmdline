@@ -45,14 +45,14 @@ let g:repl_program = {
                         \ 'sage': 'sage',
                         \ 'tex': 'sage',
                         \ 'octave': 'octave',
-                        \ 'default': 'bash',
+                        \ 'default': 'zsh',
                         \ 'vim': 'vim -e',
                         \ 'lua': 'lua',
                         \ 'haskell': 'ghci-color'
                         \ }
 let g:repl_exit_commands = {
                         \ 'python': 'quit()',
-                        \ 'bash': 'exit',
+                        \ 'zsh': 'exit',
                         \ 'default': 'exit',
                         \ 'haskell': 'quit'
                         \ }                        
