@@ -24,6 +24,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
+Plug 'bitc/vim-hdevtools'
 Plug 'reedes/vim-wheel'
 "Plug 'reedes/vim-textobj-quote'
 Plug 'reedes/vim-litecorrect'
