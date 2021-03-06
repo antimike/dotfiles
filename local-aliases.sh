@@ -1,1 +1,1 @@
-alias log-installed='!! >> "$INSTALLED"'
+alias log-installed='echo "!!" >> "$INSTALLED"'
