@@ -329,5 +329,6 @@ source ~/.config/nvim/init.clang
 source ~/.config/nvim/init.octave
 source ~/.config/nvim/init.fold
 source ~/.config/nvim/init.git
+source ~/.config/nvim/init.haskell
 
 hi clear Conceal
