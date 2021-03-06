@@ -48,7 +48,7 @@ let g:repl_program = {
                         \ 'default': 'bash',
                         \ 'vim': 'vim -e',
                         \ 'lua': 'lua',
-                        \ 'haskell', 'ghci-color'
+                        \ 'haskell': 'ghci-color'
                         \ }
 let g:repl_exit_commands = {
                         \ 'python': 'quit()',
