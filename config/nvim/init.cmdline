@@ -13,14 +13,15 @@ let cmdline_map_send_and_stay  = '<leader>RS'
 let cmdline_map_source_fun     = '<leader>Rf'
 let cmdline_map_send_paragraph = '<leader>Rp'
 let cmdline_map_send_block     = '<leader>Rb'
-let cmdline_map_quit       = '<leader>Rq'
-let cmdline_app            = {}
-let cmdline_app['python']  = 'ipython'
-let cmdline_app['sh']      = 'zsh'
-let cmdline_app['sage']    = 'sagemath'
-let cmdline_app['octave']  = 'octave'
-let cmdline_app['tex']     = 'sagemath'
-let cmdline_app['freefem'] = 'octave'
+let cmdline_map_quit           = '<leader>Rq'
+let cmdline_app                = {}
+let cmdline_app['python']      = 'ipython'
+let cmdline_app['sh']          = 'zsh'
+let cmdline_app['sage']        = 'sage'
+let cmdline_app['sage.python'] = 'sage'
+let cmdline_app['octave']      = 'octave'
+let cmdline_app['tex']         = 'sage'
+let cmdline_app['freefem']     = 'octave'
 let cmdline_app['haskell']     = 'ghci-color'
 
 " For neoterm---default terminal positioning
