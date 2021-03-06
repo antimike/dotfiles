@@ -7,3 +7,10 @@
 # This one's correct, but OMFG was it annoying to write
 alias log-installed="tail -n2 ~/.zsh_history | sed -n '1p' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//' >> $INSTALLED"
 alias remove-history-prefix="sed 's/^:\s\+[0-9]\+:[0-9]\+;//'"
+
+# Terminal applications
+alias stack-overflow='socli'
+alias reddit='tuir'
+alias spotify='spt'
+alias wikipedia='wikit'
+alias weather='wego'
