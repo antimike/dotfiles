@@ -1,9 +1,12 @@
+source ~/.shell-aliases
+source ~/.local.config
+source ~/.local-aliases.sh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/user/.oh-my-zsh"
-
+# UPDATE: This is defined in ~/.local.config
+#
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -106,5 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Necessary for ~/local-aliases.sh to work properly, as it relies on hisotry expanion
+unsetopt HIST_VERIFY
 source ~/.shell-aliases
 source /rw/config/rc.local
