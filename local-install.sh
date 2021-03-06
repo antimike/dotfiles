@@ -15,3 +15,4 @@ ln -s /home/hactar/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme
 sudo apt-get install zsh-syntax-highlighting -y
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/hactar/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 pip3 install pylint
+sudo apt-get install python-jedi python3-jedi -y
