@@ -21,6 +21,7 @@ let cmdline_app['sage']    = 'sagemath'
 let cmdline_app['octave']  = 'octave'
 let cmdline_app['tex']     = 'sagemath'
 let cmdline_app['freefem'] = 'octave'
+let cmdline_app['haskell']     = 'ghci-color'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
