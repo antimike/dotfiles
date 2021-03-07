@@ -1,0 +1,7 @@
+bind branch n !@git branch %(prompt)
+bind branch d !?@git branch -d %(branch)
+bind refs	d	?git sparse-checkout disable
+bind main = !?git commit --fixup=%(commit)
+bind main R !?git rebase --autosquash -i %(commit)
+bind main a !?git commit --amend
+bind status a !?git commit --amend
