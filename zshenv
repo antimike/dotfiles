@@ -17,3 +17,7 @@ export PATH
 # Text editor: NVim
 export EDITOR=nvim
 export VISUAL=nvim
+
+# SSH
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
