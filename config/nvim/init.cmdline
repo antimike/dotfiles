@@ -17,6 +17,7 @@ let cmdline_map_quit           = '<leader>Rq'
 let cmdline_app                = {}
 let cmdline_app['python']      = 'ipython'
 let cmdline_app['sh']          = 'zsh'
+let cmdline_app['zsh']         = 'zsh'
 let cmdline_app['sage']        = 'sage'
 let cmdline_app['sage.python'] = 'sage'
 let cmdline_app['octave']      = 'octave'
