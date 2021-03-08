@@ -1,3 +1,6 @@
 [submodule "kitty-themes"]
 	path = tag-terminal/kitty-themes
 	url = git@github.com:dexpota/kitty-themes.git
+[submodule "tag-tex/tex/latex/local/local"]
+	path = tag-tex/texmf/tex/latex/local/local
+	url = https://github.com/antimike/tex
