@@ -11,10 +11,6 @@ source ~/.mutt/muttrc-bindings
 # Folders
 source ~/.mutt/muttrc-directory
 
-# Notmuch (virtual folders)
-source ~/.mutt/muttrc-notmuch
-#source ~/.mutt/muttrc-virtual-mailboxes
-
 # Sane defaults
 source ~/.mutt/muttrc-standard
 
@@ -30,6 +26,12 @@ source ~/.mutt/muttrc-identity
 
 # Start on CSU account
 source ~/.mutt/muttrc-csu
+
+# Notmuch (virtual folders)
+# Must be sourced in account RC files---see notes in, e.g., muttrc-csu
+# TODO: Refactor this so it doesn't suck
+#source ~/.mutt/muttrc-notmuch
+#source ~/.mutt/muttrc-virtual-mailboxes
 
 # Crypto
 #source ~/.mutt/muttrc-crypto

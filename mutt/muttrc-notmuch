@@ -1,6 +1,6 @@
 # notmuch
-set nm_default_url="notmuch:///home/user/mail" # path to the maildir
-set virtual_spoolfile=yes                          # enable virtual folders
+set nm_default_uri="notmuch:///home/$USER/mail" # path to the maildir
+#set virtual_spoolfile=yes                          # enable virtual folders
 set nm_exclude_tags = "deleted,spam,archived,junk"
 set nm_record = yes
 set nm_record_tags = "-inbox,archive,me"

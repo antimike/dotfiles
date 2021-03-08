@@ -11,11 +11,15 @@ set signature = "~/.mutt/signatures/signature-csu"
 set sendmail = "/usr/bin/msmtp -a csu"
 #set sendmail="tee >(notmuch-deliver -t sent -f Sent) | /usr/bin/msmtp -a csu"            # enables parsing of outgoing mail
 
+# Must be sourced *after* 'set folder' but *before* 'virtual-mailboxes'
+source ~/.mutt/muttrc-notmuch
+set virtual_spoolfile=yes
+
 virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox AND tag:csu"
 virtual-mailboxes "Sent" "notmuch://?query=tag:sent AND tag:csu"
 virtual-mailboxes "Unread" "notmuch://?query=tag:unread AND tag:csu"
 
-source ~/Documents/'Fall 2020'/.muttrc-csu-virtualfolders
+#source ~/Documents/'Fall 2020'/.muttrc-csu-virtualfolders
 #source ~/Documents/mail/csu/mutt-aliases
 
 # Alternates
@@ -23,7 +27,6 @@ alternates ^hactar@colostate.edu
 
 set mbox_type = Maildir
 #set spoolfile = "+Inbox"
-set virtual_spoolfile=yes
 set postponed = "+Drafts"
 set record = "+Sent"
 #set mbox = "+/Archives/`date +%Y`"
