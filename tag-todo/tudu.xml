@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
+<todo>
+	<todo done="no" collapse="no">
+		<title>Welcome to "tudu"</title>
+		<text>"tudu" is a tool to manage "to do" lists.
+</text>
+	</todo>
+</todo>
