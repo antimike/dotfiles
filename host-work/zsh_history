@@ -1181,3 +1181,13 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615196065:0;ls | grep -U
 : 1615196068:0;ranger
 : 1615196095:0;rcdn -t -U
+: 1615197662:0;ranger
+: 1615197700:0;rcup -B work -t tex
+: 1615197768:0;rcup -t tex -o
+: 1615197786:0;rcup -B work -t tex
+: 1615197901:0;ranger
+: 1615198279:0;git submodule status
+: 1615198407:0;git mv tag-tex/tex/latex/local/local tag-tex/texmf/tex/latex/local
+: 1615198412:0;git submodule status
+: 1615198445:0;rcup -B work -t tex
+: 1615198476:0;tig
