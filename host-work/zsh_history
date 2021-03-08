@@ -1,0 +1,1183 @@
+: 1610864451:0;nvim /etc/bashrc
+: 1610865306:0;powerline -v
+: 1610865324:0;sudo dnf install powerline-fonts -y
+: 1610905019:0;nvim ~/.zshrc
+: 1610905128:0;mkrc ~/.zshrc
+: 1610905139:0;ranger
+: 1610905211:0;nvim ~/.zshrc
+: 1610906116:0;theme
+: 1610906211:0;ranger
+: 1610906247:0;echo "$ZSH"
+: 1610906391:0;ranger
+: 1610906458:0;echo "$ZSH_CUSTOM"
+: 1610906823:0;git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+: 1610906842:0;ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+: 1610907030:0;ranger
+: 1610910289:0;nvim
+: 1610910972:0;src
+: 1610910983:0;src ~/.zshrc
+: 1610910989:0;source ~/.zshrc
+: 1610911072:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1610911086:0;src
+: 1610911099:0;source ~/.zshrc
+: 1610911130:0;nvim ~/.zshrc
+: 1610911149:0;src ~/.zsh
+: 1610911166:0;source ~/.zshrc
+: 1610911200:0;cd ~/
+: 1610911352:0;cd ~/Documents
+: 1610911360:0;cd Bash
+: 1610911387:0;cd ~/.dotfiles
+: 1610911390:0;git status
+: 1610911421:0;theme bira
+: 1610911431:0;theme robbyrussell
+: 1610911439:0;git status
+: 1610911450:0;cls
+: 1610911487:0;git add install.sh; git commit -m "Added 'install.sh' to keep track of dependencies / install commands"
+: 1610911534:0;git add *.cmdline; git commit -m "Changed cmdline mappings from <localleader> to <leader>"
+: 1610911555:0;git add config/nvim/init.cmdline; git commit -m "Changed cmdline mappings from <localleader> to <leader>"
+: 1610911563:0;git add zshrc
+: 1610911572:0;git commit -m "Added themes / plugins to zshrc"
+: 1610911575:0;git push
+: 1610911694:0;ls
+: 1610911713:0;mail
+: 1610911780:0;nvim ~/.zshrc.pre-oh-my-zsh
+: 1610911841:0;mail
+: 1610911851:0;ranger
+: 1610912297:0;echo $FZF_DEFAULT_COMMAND
+: 1610912326:0;echo $QUBES_GPG_DOMAIN
+: 1610912348:0;echo $DEALII_ROOT
+: 1610912374:0;cd .dotfiles
+: 1610912377:0;git status
+: 1610912386:0;git add calcurse/*
+: 1610912390:0;git commit -m "Calcurse stuff"
+: 1610912398:0;git add config/nvim/init.color
+: 1610912408:0;git commit -m "Changed default colorscheme to 'ayu'"
+: 1610912424:0;ls -a 
+: 1610912436:0;mv .shell-aliases shell-aliases
+: 1610912449:0;nvim zshrc
+: 1610912479:0;rcup shell-aliases
+: 1610912489:0;ls -a ~ | grep -i alias
+: 1610912498:0;src
+: 1610912522:0;nvim zshenv
+: 1610912560:0;src
+: 1610912569:0;theme
+: 1610912575:0;themes
+: 1610912598:0;git status
+: 1610912615:0;git add shell-aliases zshenv zshrc
+: 1610912667:0;git commit -m "Removed /etc/bashrc from zshenv (was causing issues bc of 'shopt'); added aliases to 'shell-aliases' and sourced from zshrc"
+: 1610912678:0;git add config/nvim/Sessions
+: 1610912680:0;git status
+: 1610912689:0;git commit -m "Added 'config' session"
+: 1610912693:0;git push
+: 1610912736:0;/rw/config/rc.local
+: 1610912738:0;git push
+: 1610912769:0;nvim zshenv
+: 1610912840:0;/rc
+: 1610912858:0;/rw
+: 1610912859:0;ls
+: 1610912884:0;exec '/rw/config/rc.local'
+: 1610912913:0;src
+: 1610913509:0;git status
+: 1610913513:0;cd .dotfiles
+: 1610913515:0;git status
+: 1610913520:0;nvim zshenv
+: 1610913592:0;source ~/.zshenv
+: 1610913600:0;git status
+: 1610913634:0;git add .; git commit -m "Added /rw/config/rc.local to 'zshenv'"
+: 1610913636:0;git push
+: 1610913646:0;src
+: 1610913650:0;git push
+: 1610913671:0;/rw/config/rc.local
+: 1610913672:0;git push
+: 1610913689:0;mail
+: 1610914603:0;calcurse
+: 1610916112:0;pip3 install httplib2 --user
+: 1610916966:0;sudo find / -name "*calcurse-caldav*"
+: 1610917067:0;git status
+: 1610917159:0;ls -a | grep -i gpg
+: 1610917648:0;cd QubesIncoming
+: 1610917652:0;cd keyvault-slave-private
+: 1610917653:0;ls
+: 1610917682:0;mv calcurse_clientid.gpg ~/.calcurse_clientid.gpg; mv calcurse_clientsecret.gpg ~/.calcurse_clientsecret.gpg
+: 1610917724:0;cd ~/.calcurse
+: 1610917725:0;ls
+: 1610917742:0;mkdir caldav
+: 1610917751:0;touch config
+: 1610917755:0;nvim config
+: 1610917813:0;qubes-gpg-client -h
+: 1610917869:0;ls -a ~ | grep -i cal
+: 1610917890:0;qubes-gpg-client -d ~/.calcurse_clientid.gpg
+: 1610918168:0;man calcurse-caldav
+: 1610918175:0;calcurse-caldav -h
+: 1610918597:0;calcurse-caldav --init=two-way
+: 1610918621:0;ranger
+: 1610918702:0;echo /home/user/.calcurse
+: 1610918714:0;echo /home/user/.calcurse/config
+: 1610918809:0;calcurse-caldav --init=two-way
+: 1610918980:0;calcurse-caldav -h
+: 1610919058:0;ranger
+: 1610919611:0;cd ~/Documents/Bash
+: 1610919636:0;nvim update-calendar.sh
+: 1610919761:0;qubes-gpg-client -d ~/.calcurse/caldav/calcurse_config.gpg -o ~/.calcurse/caldav/config
+: 1610919785:0;qubes-gpg-client -d ~/.calcurse/caldav/calcurse_config.gpg > ~/.calcurse/caldav/config
+: 1610919816:0;calcurse-caldav --init=two-way
+: 1610919977:0;ranger
+: 1610920070:0;qubes-gpg-client -d ~/.calcurse/caldav/calcurse_config.gpg > ~/.calcurse/caldav/config
+: 1610920077:0;calcurse-caldav --init=two-way
+: 1610920238:0;calcurse-caldav --init=two-way --authcode '?code=4/0AY0e-g67zPzxaeeFyMhMRBuoZ9DKbu5j2t1qsW4s3AgwDLTZpKxB4oBus7PNMCv_1gD-5w&scope=https://www.googleapis.com/auth/calendar'
+: 1610920386:0;calcurse-caldav --init=two-way
+: 1610920465:0;calcurse-caldav --init=two-way --authcode '?code=4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw'
+: 1610920479:0;calcurse-caldav --init=two-way --authcode '?code=4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw#'
+: 1610920529:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw'
+: 1610920590:0;calcurse-caldav --init=two-way
+: 1610920639:0;calcurse-caldav
+: 1610920656:0;calcurse-caldav --init=two-way
+: 1610920725:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw&scope=https://www.googleapis.com/auth/calendar'
+: 1610920738:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw'
+: 1610920780:0;rm ~/.calcurse/caldav/oauth2_cred
+: 1610920793:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw&scope=https://www.googleapis.com/auth/calendar'
+: 1610920803:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g5QfQQzSLR-aaU_iRgkvxG4f4MzZYXX3cw3yfK56Xp9nE9Uex1Dn5Kh-zLhVa-hdw'
+: 1610920807:0;calcurse-caldav --init=two-way
+: 1610920843:0;calcurse-caldav --init=two-way --authcode '4/0AY0e-g4-knyXVF_3jglZDG1ob5F7k1tgjLRbImTFbXXGNk4NYcyYxSTO7Tak3VRfBd7SkA'
+: 1610920904:0;rm ~/.calcurse/caldav/config
+: 1610920907:0;rm ~/.calcurse/caldav/oauth2_cred
+: 1610920919:0;git status
+: 1610920950:0;git add .; git commit -m "Added 'update-calendar.sh'; right now it's just a record of commands run while attempting to get CalDav synchronization working"
+: 1610920954:0;git push
+: 1610922497:0;mkrc ./caldav
+: 1610922502:0;cd ~/.dotfiles
+: 1610922504:0;git status
+: 1610922538:0;ls -a calcurse/caldav
+: 1610922546:0;git add .
+: 1610922548:0;git status
+: 1610922567:0;git commit -m "Added GPG-encrypted config file for calcurse-caldav"
+: 1610922569:0;git push
+: 1610983659:0;ranger
+: 1611002724:0;nvim
+: 1611005287:0;ranger
+: 1611005385:0;papis add ~/Downloads/CREUSE-DULAR-NICAISE-2018.pdf \\
+--set author "Emmanuel Creuse" \\
+--set year 2018 \\
+--set title "About the gauge conditions arising in Finite Element magnetostatic problems" \\
+--set tags "fem magnetostatics gauge"
+: 1611005398:0;cd ~/D/P
+: 1611005408:0;cd D/P
+: 1611005411:0;D/P
+: 1611005420:0;Doc*/Pap*
+: 1611005430:0;Doc*/Papis*
+: 1611005435:0;git status
+: 1611005455:0;git add .; git commit -m "Added paper on gauge conditions in FEM magnetostatics"
+: 1611005457:0;git push
+: 1611005470:0;git pull
+: 1611005495:0;git push
+: 1611006986:0;screenshare
+: 1611006996:0;share papis open
+: 1611011177:0;stopshare
+: 1611039031:0;calcurse
+: 1611039139:0;mail
+: 1611084691:0;ranger
+: 1611085063:0;mail
+: 1611088769:0;cd ~/.dotfiles
+: 1611088771:0;git status
+: 1611088795:0;git add .; git commit -m "Added Calcurse appts for spring 2021 academic schedule"
+: 1611088798:0;git push
+: 1611088813:0;cd ~/D/B
+: 1611088825:0;~/Documents/Ba
+: 1611088833:0;~/Documents/Bash
+: 1611088838:0;git status
+: 1611088841:0;git pull
+: 1611088857:0;cd ~/Documents/Papis-Imports
+: 1611088859:0;git status
+: 1611088862:0;git pull
+: 1611092713:0;theme
+: 1611092724:0;mail
+: 1611092743:0;calcurse
+: 1611092770:0;nvim .zshrc
+: 1611092830:0;ssh-add -L
+: 1611092853:0;source /rw/config/qubes-firewall-user-script
+: 1611092881:0;source /rw/config/rc.local
+: 1611092887:0;ssh-add -L
+: 1611093406:0;nvim
+: 1611112890:0;ps aux | grep -i guake
+: 1611114298:0;ssh-add -L
+: 1611114306:0;ranger
+: 1611114314:0;spotify
+: 1611155049:0;sudo dnf install --upgrade kitty
+: 1611155221:0;sudo dnf update kitty
+: 1611155235:0;kitty -v
+: 1611159121:0;cd ..
+: 1611159142:0;cd ..; git init
+: 1611162080:0;cd ~/.dotfiles
+: 1611162082:0;git status
+: 1611162090:0;tig
+: 1611162138:0;git add calcurse; git commit -m "Added Calcurse appts"
+: 1611162150:0;git add zshrc; git commit -m "Modified random themes list"
+: 1611162187:0;git submodule add git@github.com:dexpota/kitty-themes.git
+: 1611162242:0;nvim
+: 1611162367:0;git status
+: 1611162379:0;git add .; git commit -m "Added 'kitty-themes' submodule"
+: 1611162424:0;git push
+: 1611162443:0;cd kitty-themes
+: 1611162445:0;ls | grep -i ayu
+: 1611162451:0;ls | grep after
+: 1611162454:0;ls
+: 1611162460:0;cd themes; ls | grep ayu
+: 1611162560:0;mail
+: 1611162663:0;calcurse
+: 1611162765:0;mail
+: 1611163227:0;calcurse
+: 1611163249:0;mail
+: 1611164316:0;sudo dnf install lxappearance -y
+: 1611193784:0;cd ~/Documents/Spring\ 2021/EM_II
+: 1611193789:0;git status
+: 1611193810:0;git add .
+: 1611193815:0;git commit -m "First commit"
+: 1611193912:0;git branch -M main
+: 1611193968:0;git remote add origin git@github.com:antimike/spring-2021.git
+: 1611193971:0;git remote -v
+: 1611193979:0;git push -u origin main
+: 1611201241:0;nvim ~/.zshenv
+: 1611249156:0;ranger
+: 1611249733:0;notmuch tag from:Echo +echo-360
+: 1611249746:0;notmuch tag -h
+: 1611249772:0;notmuch tag --help
+: 1611249789:0;notmuch tag +echo-360 from:Echo
+: 1611257403:0;sudo dnf install lyx -y
+: 1611257463:0;dnf search mathcha
+: 1611258139:0;lyx
+: 1611258208:0;dnf search texmacs
+: 1611258239:0;sudo dnf install TeXmacs -y
+: 1611259606:0;dnf search yumex
+: 1611259623:0;dnf search yum
+: 1611259662:0;dnf search dnfdragora
+: 1611259720:0;sudo dnf install dnfdragora -y
+: 1611260124:0;dnfdragora
+: 1611260379:0;marktext
+: 1611260393:0;texmacs
+: 1611273482:0;dnfdragora -h
+: 1611273496:0;dnfdragora --ncurses
+: 1611276659:0;ipython
+: 1611325229:0;sudo dnf install 'tex(pstricks)' 'tex(pstricks-add)' 'tex(pst-grad)' 'tex(pst-plot)' 'tex(geometry)' 'tex(pst-tools)' -y
+: 1611325281:0;sudo dnf install 'tex(pstricks.sty)' 'tex(pstricks-add.sty)' 'tex(pst-grad.sty)' 'tex(pst-plot.sty)' 'tex(geometry.sty)' 'tex(pst-tools.sty)' -y
+: 1611325298:0;dnf search latexdraw
+: 1611325306:0;dnf search latex draw
+: 1611325437:0;dnf search tikzit
+: 1611325487:0;sudo dnf install tikzit -y
+: 1611325544:0;tikzit
+: 1611326190:0;dnf search yEd
+: 1611326207:0;dnf search yEd graph
+: 1611331189:0;papis git pull
+: 1611331282:0;ranger
+: 1611331384:0;papis add ~/QubesIncoming/dropbox/Quantum_Chaos_StatMech.pdf \\
+--set author "Liao, Yunxiang and Vikram, Amit and Galitsky, Victor" \\
+--set year 2020 \\
+--set title "Many-body level statistics of single-particle quantum chaos" \\
+--set tags "stat-mech chaos ergodicity"
+: 1611331409:0;papis open
+: 1611331439:0;papis git commit -m "Added paper on quantum chaos and foundations of stat mech"
+: 1611331459:0;papis git commit -a -m "Added paper on quantum chaos and foundations of stat mech"
+: 1611331470:0;papis git add .
+: 1611331475:0;papis git status
+: 1611331488:0;papis git commit -m "Added paper on quantum chaos and foundations of stat mech"
+: 1611331502:0;papis git commit
+: 1611331519:0;papis git push
+: 1611379266:0;mail
+: 1611379326:0;ipython
+: 1611379333:0;mail
+: 1611379418:0;ssh-add -L
+: 1611379560:0;sudo dnf clean all
+: 1611379579:0;sudo dnf --releasever=33 distro-sync --best --allowerasing
+: 1611381723:0;source ~/.bashrc
+: 1611381729:0;mail
+: 1611389536:0;sudo dnf --releasever=33 distro-sync --best --allowerasing
+: 1611422555:0;ls ~/.config/autostart
+: 1611422593:0;rm ~/.config/autostart/org.gnome.Terminal.desktop\~ ~/.config/autostart/joplin.desktop\~ ~/.config/autostart/cherrytree.desktop\~
+: 1611422598:0;ls ~/.config/autostart
+: 1611422613:0;ssh-add -L
+: 1611424445:0;ranger -v
+: 1611424448:0;ranger --version
+: 1611424457:0;sudo dnf install --upgrade ranger
+: 1611424503:0;cat /etc/fedora-release
+: 1611424525:0;kitty -v
+: 1611424564:0;nvim
+: 1611424598:0;pip3 install pynvim --user
+: 1611424603:0;nvim
+: 1611424691:0;export NVIM_PYTHON_LOG_FILE=~/nvim-python.log
+: 1611424698:0;echo $NVIM_PYTHON_LOG_FILE
+: 1611424704:0;nvim
+: 1611424728:0;vim ~/nvim-python.log_py3_script
+: 1611424770:0;task -v
+: 1611424786:0;pip3 install tasklib --user
+: 1611424791:0;nvim
+: 1611424832:0;cat ~/nvim-python.log
+: 1611424856:0;nvim
+: 1611424932:0;nvim > nvim-output.log 2>nvim-output.log
+: 1611424947:0;cat nvim-output.log
+: 1611424969:0;ls
+: 1611424997:0;nvim 2>nvim-output.log
+: 1611425016:0;cat nvim-output.log
+: 1611425074:0;echo $NVIM_PYTHON_LOG_FILE
+: 1611425223:0;sudo dnf update --refresh
+: 1611425248:0;sudo dnf remove newsboat
+: 1611425302:0;sudo dnf remove bat fish meson ninja ripgrep -y
+: 1611425400:0;sudo dnf intsall ripgrep -y
+: 1611425411:0;sudo dnf install ripgrep -y
+: 1611425498:0;sudo dnf reinstall neovim -y
+: 1611425570:0;nvim
+: 1611425639:0;pip2 install neovim
+: 1611425680:0;pip install neovim && pip3 install neovim && pip install --upgrade neovim && pip3 install --upgrade neovim
+: 1611425701:0;nvim -u NORC
+: 1611425748:0;pip install pynvim --user
+: 1611425754:0;python --version
+: 1611425758:0;python2 --version
+: 1611425779:0;pip install pip2 --user
+: 1611425789:0;which pip
+: 1611425799:0;which python
+: 1611425813:0;dnf search pip2
+: 1611426063:0;sudo dnf update --best --allowerasing
+: 1611426109:0;sudo find / -name "*pip2.7*"
+: 1611426924:0;sudo rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/URPMS-GPG-PUBLICKEY-Fedora
+: 1611426956:0;sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/17/unitedrpms-$\(rpm -E %fedora)-17.fc$(rpm -E %fedora).noarch.rpm
+: 1611427044:0;sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/17/unitedrpms-$(rpm -E %fedora)-17.fc$(rpm -E %fedora).noarch.rpm
+: 1611427089:0;sudo dnf install python2-pip -y
+: 1611427154:0;pip2 install pynvim --user
+: 1611427159:0;nvim
+: 1611427187:0;gem install neovim
+: 1611427249:0;nvim
+: 1611427376:0;gem pristine rb-libsvm --version 1.4.4
+: 1611427403:0;gem pristine sqlite3 --version 1.4.2
+: 1611427440:0;gem pristine unf_ext --version 0.0.7.7
+: 1611427455:0;gem pristine wapiti --version 1.0.7
+: 1611427475:0;gem pristine wapiti --version 0.1.10.8.1
+: 1611427496:0;gem pristine wapiti --version 0.1.10.8.1, latest: 0.8.1
+: 1611427533:0;gem pristine wapiti --version 0.1.1
+: 1611427562:0;gem update neovim
+: 1611427634:0;dnf search latexmk
+: 1611427687:0;mail
+: 1611427704:0;calcurse
+: 1611427715:0;ipython
+: 1611427815:0;pip3 install neovim-remote --user
+: 1611427996:0;nvim
+: 1611428200:0;pip3 install ueberzug --user
+: 1611524441:0;dnf search uzbl
+: 1611524598:0;dnf search nyxt
+: 1611524604:0;dnf search next
+: 1611524638:0;dnf search next browser
+: 1611524700:0;dnf search cream
+: 1611524741:0;dnf search jumanji
+: 1611524779:0;dnf search luakit
+: 1611524866:0;vifm
+: 1611525140:0;nvim
+: 1611525603:0;dnf search tig
+: 1611525609:0;tig
+: 1611526226:0;nvim
+: 1611527695:0;rcup ~/.dotfiles/config/nvim/init.git
+: 1611527715:0;ls ~/.config/nvim | grep -i git
+: 1611527728:0;ls ~/.dotfiles/config/nvim | grep git
+: 1611527738:0;cd .dotfiles
+: 1611527744:0;rcup config/nvim/init.git
+: 1611527757:0;ls ~/.config/nvim | grep git
+: 1611527767:0;nvim
+: 1611528329:0;git status
+: 1611528338:0;git add .
+: 1611528345:0;git commit -m "Vim sessions"
+: 1611528348:0;git push
+: 1611528358:0;git pull
+: 1611528378:0;git push
+: 1611533925:0;lf
+: 1611533929:0;dnf search lf
+: 1611534073:0;dnf search julia
+: 1611534083:0;sudo dnf install julia -y
+: 1611534235:0;julia
+: 1611534451:0;dnf search siren
+: 1611534469:0;dnf search pms
+: 1611534490:0;dnf search cmus
+: 1611534555:0;dnf search pipedial
+: 1611534562:0;dnf search sentaku
+: 1611534582:0;dnf search taskell
+: 1611534592:0;dnf search vnote
+: 1611534605:0;dnf search athame
+: 1611534612:0;dnf search blender
+: 1611534625:0;sudo dnf install blender -y
+: 1611542320:0;sudo find / -name "pset.cls"
+: 1611545885:0;dnf search imv
+: 1611545897:0;sudo dnf install imv -y
+: 1611545994:0;dnf search astroid
+: 1611546039:0;dnf search cypht
+: 1611546076:0;dnf search surf
+: 1611586993:0;dnf search notifymuch
+: 1611587001:0;pip3 install notifymuch --user
+: 1611587024:0;pip3 install notmuch_abook --user
+: 1611587045:0;pip2 install notmuch_abook --user
+: 1611587515:0;afew
+: 1611587520:0;alot
+: 1611590412:0;nvim
+: 1611690208:0;ipython
+: 1611690224:0;mail
+: 1611690936:0;share papis open
+: 1611690940:0;pip3 install papis --user
+: 1611690957:0;screenshare &
+: 1611690961:0;screenshare
+: 1611691304:0;dnf search boopy
+: 1611691322:0;pip3 install papis --user
+: 1611691335:0;ranger
+: 1611692344:0;papis open
+: 1611717278:0;rsync -v
+: 1611717986:0;ssh hactar@192.168.8.188
+: 1611718020:0;sftp hactar@192.168.8.188
+: 1611720189:0;ls ~/QubesIncoming/keyvault-slave-private
+: 1611720312:0;ssh root@192.168.8.188
+: 1611720337:0;ssh hactar@192.168.8.188
+: 1611722175:0;sftp hactar@192.168.8.188
+: 1611723405:0;ranger
+: 1611766754:0;dnf search edraw
+: 1611766959:0;dnf search grace
+: 1611767042:0;sudo dnf install grace -y
+: 1611767254:0;git status
+: 1611767265:0;git add .; git commit -m "Calcurse appointments"
+: 1611767276:0;nvim README.md
+: 1611767370:0;pwd
+: 1611767376:0;git status
+: 1611767394:0;git add EM_II/01252021/
+: 1611767406:0;git commit -m "EM notes for 01252021"
+: 1611767413:0;git status
+: 1611767452:0;git add PH142; git commit -m "Added PH142 directory and sub-directories for each lab section with SC sheets for seating assignments"
+: 1611767454:0;git status
+: 1611767476:0;git add Seminar/01252021/; git commit -m "Seminar notes for 01252021"
+: 1611767478:0;git status
+: 1611767495:0;git add EM_II/01272021/; git commit -m "EM notes for 01272021"
+: 1611767497:0;git status
+: 1611767508:0;git add Spring_2021_TA_Schedule_v0.4.pdf; git commit -m "Added TA schedule"
+: 1611767511:0;git status
+: 1611767527:0;git push
+: 1611767599:0;man grace
+: 1611767617:0;grace -h
+: 1611767622:0;xmgrace
+: 1611767791:0;git pull
+: 1611767801:0;git push
+: 1611768189:0;dnf search xfig
+: 1611768196:0;sudo dnf install xfig -y
+: 1611768245:0;dnf search geogebra
+: 1611769238:0;ls -a ~ | grep -i ipe
+: 1611769243:0;ls ~/.ipe
+: 1611769806:0;mkdir -p ~/.ipe/ipelets
+: 1611769834:0;mv ~/QubesIncoming/untrusted/*.lua ~/.ipe/ipelets
+: 1611769839:0;ls ~/.ipe/ipelets
+: 1611769849:0;mkrc ~/.ipe/ipelets
+: 1611769853:0;git status
+: 1611769860:0;git add ipe
+: 1611769861:0;git status
+: 1611769881:0;git unstage README.md
+: 1611769914:0;git commit -m "Added Xfig to README; added 'ipelets' directory and two lua scripts"
+: 1611769916:0;git push
+: 1611770026:0;xfig
+: 1611770484:0;dnf search jfig
+: 1611770748:0;tikzit -h
+: 1611772545:0;dnf search gclc
+: 1611772561:0;dnf search jpic
+: 1611772593:0;dnf search ktikz
+: 1611772815:0;dnf search texcad
+: 1611773080:0;dnf search tikzedt
+: 1611790094:0;ranger
+: 1611792437:0;notmuch tag +sent to:Gelfand
+: 1611792534:0;notmuch tag +research to:Gelfand
+: 1611792952:0;notmuch 8jp0rro
+: 1611793002:0;notmuch new
+: 1611793029:0;afew -h
+: 1611793037:0;afew -v
+: 1611793040:0;afew --version
+: 1611793051:0;dnf search afew
+: 1611793058:0;pip3 install afew --user
+: 1611793065:0;notmuch new
+: 1611793075:0;pip3 install notifymuch --user
+: 1611793081:0;dnf search notifymuch
+: 1611793123:0;sudo find / -name "*notifymuch*"
+: 1611793192:0;ls /usr/local/src/notifymuch
+: 1611793204:0;pip3 install /usr/local/src/notifymuch --user
+: 1611793209:0;notmuch new
+: 1611793460:0;ranger
+: 1611690217:0;calcurse
+: 1611806494:0;mail
+: 1611806747:0;ipython
+: 1611806750:0;calcurse
+: 1611806752:0;mail
+: 1611807215:0;papis open
+: 1611819782:0;nvim
+: 1611836343:0;qvm-copy ~/Documents/Spring\ 2021/EM_II/Assignments/HW1/*.pdf
+: 1611855860:0;screenshare
+: 1611855865:0;share typora &
+: 1611856023:0;cat ~/.bashrc | grep screen
+: 1611856211:0;share zathura ~/QubesIncoming/dropbox/Equation\ sheet_full\ EP2.pdf
+: 1611856242:0;share zathura
+: 1611856255:0;share zathura 
+: 1611856313:0;share firefox &
+: 1611894495:0;stopshare
+: 1611894501:0;dnf search insync
+: 1611894878:0;dnf search onedrive
+: 1611984491:0;ipython
+: 1611984496:0;calcurse
+: 1611984499:0;mail
+: 1611984913:0;nvim ~/.dotfiles/README.md
+: 1611984973:0;git status
+: 1611984977:0;git pull
+: 1611985138:0;dnf search vipaint
+: 1611985366:0;dnf search sxiv
+: 1611986748:0;dnf search meld
+: 1611986757:0;sudo dnf install meld -y
+: 1611987886:0;dnf search sxiv
+: 1611987898:0;sudo dnf install sxiv -y
+: 1611988001:0;sudo dnf install imv -y
+: 1611988092:0;ranger
+: 1612142592:0;dnf search browsh
+: 1612142605:0;dnf search netsurf
+: 1612144464:0;npm search hermit
+: 1612146890:0;ranger
+: 1612329731:0;sudo dnf install 'tex(autonum.sty)' -y
+: 1612331729:0;nvim
+: 1612364578:0;~/Documents/Spring\ 2021/EM_II
+: 1612364581:0;git status
+: 1612364613:0;ranger
+: 1612364629:0;tig
+: 1612365046:0;git push
+: 1612381495:0;ls -a ~/mail/csu
+: 1612381508:0;ls -a ~/mail/csu | grep notnuch
+: 1612381515:0;ls -a ~/mail/csu | grep not
+: 1612381831:0;sftp http://192.168.8.188
+: 1612381868:0;sftp hactar@192.168.8.188
+: 1612382055:0;ls ~/mail
+: 1612382692:0;ls -a ~/mail
+: 1612403502:0;sftp hactar@192.168.8.188
+: 1612403535:0;ls -a ~/mail
+: 1612403954:0;nvim
+: 1612404617:0;cd ~/Documents/Spring\ 2021
+: 1612404620:0;git status
+: 1612404622:0;git pull
+: 1612447930:0;git status
+: 1612448077:0;git add .
+: 1612448078:0;git status
+: 1612448090:0;git commit -m "Started EM HW2"
+: 1612448093:0;git push
+: 1612564461:0;nvim
+: 1612564468:0;mail
+: 1612564470:0;calcurse
+: 1612564480:0;nvim
+: 1612647814:0;screenshare
+: 1612647823:0;share kitty &
+: 1612647866:0;nvim
+: 1612647885:0;stopshare
+: 1612652447:0;screenshare
+: 1612652450:0;share kitty
+: 1612652455:0;nvim
+: 1612652466:0;stopshare
+: 1612652534:0;git status
+: 1612652543:0;git add calcurse
+: 1612652549:0;git commit -m "Calcurse stuff"
+: 1612652555:0;tig
+: 1612652734:0;git push
+: 1612652745:0;git pull
+: 1612652797:0;tig
+: 1612653339:0;git push
+: 1612653394:0;cd ~/Documents/Spring\ 2021
+: 1612653398:0;git status
+: 1612653400:0;git pull
+: 1612654668:0;nvim
+: 1612657165:0;ranger
+: 1612658085:0;cd ~/Documents/Spring\ 2021
+: 1612658091:0;git branch
+: 1612658103:0;git branch -l
+: 1612658106:0;git branch -h
+: 1612658123:0;git branch -l
+: 1612658137:0;git pull
+: 1612658171:0;git branch -r
+: 1612658231:0;tig
+: 1612658354:0;ranger
+: 1612658460:0;tig
+: 1612658537:0;git merge ph142-l15-seating-issues
+: 1612658608:0;git status
+: 1612658610:0;git push
+: 1612658640:0;ranger
+: 1612852248:0;cd ~/Documents/Spring\ 2021
+: 1612852249:0;ls
+: 1612852252:0;git status
+: 1612852261:0;git add EM_II
+: 1612852266:0;git status
+: 1612852286:0;git commit -m "EM II notes for 02/08/2021"
+: 1612852292:0;tig
+: 1612852341:0;git push
+: 1612887209:0;git status
+: 1612887216:0;cd ~/.dotfiles/calcurse
+: 1612887217:0;ls
+: 1612887221:0;cd notes; ls
+: 1612914627:0;ranger
+: 1612921062:0;dnf search brave
+: 1612972064:0;zoom-client
+: 1613014020:0;ranger
+: 1613050454:0;git status
+: 1613050487:0;git commit -a -m "Added recurring appointment with Marty"
+: 1613050501:0;cd ~/Documents/Spring\ 2021
+: 1613050503:0;git status
+: 1613050513:0;git add EM_II/Notes
+: 1613050528:0;git commit -m "EM II notes for 02/10/2021"
+: 1613050531:0;git status
+: 1613050541:0;git add EM_II/Assignments/
+: 1613050554:0;git commit -m "Started HW3"
+: 1613050560:0;git status
+: 1613050562:0;git push
+: 1613050582:0;git pull
+: 1613050607:0;git status
+: 1613050610:0;git push
+: 1613152606:0;papis open
+: 1613170296:0;ranger
+: 1613170794:0;dnf search xkcd
+: 1613171446:0;dnf search asciio
+: 1613175436:0;gem install doing
+: 1613175742:0;doing config
+: 1613175796:0;doing now researching TUI apps
+: 1613177164:0;sudo dnf install bat -y
+: 1613177285:0;dnf search tre-command
+: 1613177391:0;pip3 install gita --user
+: 1613177407:0;gita
+: 1613177410:0;gita ll
+: 1613177462:0;gita add ~/.dotfiles
+: 1613177478:0;gita add ~/Documents/Spring\ 2021
+: 1613177502:0;gita add ~/Documents/Bash
+: 1613177529:0;gita add ~/Documents/Papis-Imports
+: 1613177551:0;gita add ~/Documents/Papers
+: 1613177558:0;gita ll
+: 1613187580:0;ranger
+: 1613335146:0;doing now fixing screenshare VM
+: 1613335150:0;doing -h
+: 1613335167:0;doing currently
+: 1613336561:0;screenshare
+: 1613336569:0;share kitty &
+: 1613336576:0;ls
+: 1613336604:0;stopshare
+: 1613336622:0;doing -h
+: 1613336639:0;doing done
+: 1613336660:0;doing now responding to emails and grading ph142
+: 1613434645:0;dnf search bonsai
+: 1613434654:0;sudo -v
+: 1613434657:0;sudo --version
+: 1613434734:0;sudo dnf update
+: 1613435005:0;dnf search asciiquarium
+: 1613435017:0;sudo dnf install asciiquarium -y
+: 1613440220:0;asciiquarium
+: 1613440228:0;asciiquarium -h
+: 1613440240:0;man asciiquarium
+: 1613440249:0;asciiquarium --help
+: 1613490285:0;gita ll
+: 1613490319:0;cd ~/Documents/Spring\ 2021
+: 1613490320:0;tig
+: 1613490421:0;git push
+: 1613541185:0;dnf search vim-gtk
+: 1613541393:0;ranger
+: 1613592930:0;tig
+: 1613593005:0;git pull
+: 1613593010:0;git push
+: 1613659753:0;mail
+: 1613659793:0;calcurse
+: 1613659807:0;nvim
+: 1613669518:0;ls /usr/local/bin | grep share
+: 1613669530:0;cat ~/.zshrc | grep share
+: 1613669545:0;cat ~/.bashrc | grep share
+: 1613669701:0;sudo find / -name "my-screenshare*"
+: 1613761939:0;ipython
+: 1613963403:0;nvim
+: 1613963419:0;mail
+: 1613963440:0;calcurse
+: 1614034852:0;nvim
+: 1614142685:0;ranger
+: 1614166535:0;gita ll
+: 1614166551:0;cd ~/Documents/Spring\ 2021
+: 1614166554:0;tig
+: 1614166712:0;git push
+: 1614166720:0;git pull
+: 1614203949:0;Documents/Spring\ 2021
+: 1614203953:0;git status
+: 1614203957:0;git pull
+: 1614213032:0;ranger
+: 1614213229:0;gita ll
+: 1614213244:0;gita add ~/Documents/Spring-2021
+: 1614213247:0;gita ll
+: 1614213258:0;gita push Spring-2021
+: 1614260652:0;gita pull Spring-2021
+: 1614260874:0;nvim
+: 1614260961:0;ranger
+: 1614270532:0;sage
+: 1614270607:0;ranger
+: 1614270886:0;pip3 install pint --user
+: 1614271111:0;dnf search periodic
+: 1614271433:0;dnf search gperiodic
+: 1614271446:0;dnf search periodic
+: 1614271874:0;pip3 install mendeleev --user
+: 1614271970:0;dnf search periodic
+: 1614272958:0;ipython
+: 1614284977:0;sage
+: 1614286354:0;nvim
+: 1614286545:0;sage
+: 1614299384:0;gita ll
+: 1614299389:0;gita status Spring-2021
+: 1614299415:0;gita super status Spring-2021
+: 1614299425:0;gita super Spring-2021 status
+: 1614299437:0;gita push Spring-2021
+: 1614310686:0;gita pull Spring-2021
+: 1614310720:0;gita super tig Spring-2021
+: 1614310744:0;gita status Spring-2021
+: 1614310752:0;gita super Spring-2021 status
+: 1614310773:0;cd Documents/Spring-2021
+: 1614310776:0;tig
+: 1614310806:0;git pull
+: 1614310815:0;nvim
+: 1614310842:0;sage
+: 1614316117:0;nvim
+: 1614337919:0;gita pull Spring-2021
+: 1614337927:0;gita push Spring-2021
+: 1614358978:0;ranger
+: 1614362111:0;sage --preparse /home/user/Documents/Spring-2021/EM_II/Assignments/HW3/Element.sage
+: 1614362253:0;gita add ~/Documents/Python
+: 1614362408:0;gita push Python
+: 1614362534:0;gita super Python remote
+: 1614362540:0;gita super Python remote -h
+: 1614362553:0;gita super Python remote get-url
+: 1614362568:0;gita super Python remote get-url --all origin
+: 1614362628:0;gita super Python remote -v
+: 1614362660:0;gita super Python remote set-url origin git@github.com:antimike/Physics_Python.git
+: 1614362674:0;gita super Python remote -v
+: 1614362687:0;gita push Python
+: 1614362706:0;ranger
+: 1614363754:0;sage --preparse /home/user/Documents/Spring-2021/EM_II/Assignments/HW3/Element.sage
+: 1614366808:0;gita push Python
+: 1614370780:0;sage --preparse /home/user/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/Element.sage
+: 1614382698:0;nvim
+: 1614385900:0;gita ll
+: 1614385912:0;gita super .dotfiles status
+: 1614386123:0;git status
+: 1614386125:0;git push
+: 1614386137:0;cd ~/.dotfiles
+: 1614386140:0;tig
+: 1614386338:0;git pull
+: 1614386343:0;git push
+: 1614386350:0;gita ll
+: 1614386359:0;gita push Python
+: 1614472476:0;nvim
+: 1614487359:0;sage --preparse /home/user/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/Element.sage
+: 1614495968:0;ranger
+: 1614501087:0;sage
+: 1614503504:0;gita ll
+: 1614503524:0;gita push .dotfiles Python Spring-2021
+: 1614503535:0;gita ll
+: 1614552172:0;nvim
+: 1614561767:0;sudo dnf install 'tex(multirow.sty)' -y
+: 1614567885:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1614568085:0;dnf search singular
+: 1614568113:0;sudo dnf install Singular-devel Singular -y
+: 1614568511:0;sage
+: 1614568714:0;ipython --no-autoindent
+: 1614569279:0;sage
+: 1614605724:0;gita ll
+: 1614605731:0;gita push
+: 1614605737:0;gita push all
+: 1614605750:0;gita push Python Spring-2021
+: 1614605760:0;gita ll
+: 1614627013:0;ipython
+: 1614645534:0;gita ll
+: 1614645543:0;gita push Python Spring-2021
+: 1614645552:0;gita ll
+: 1614681719:0;gita push Python Spring-2021
+: 1614712176:0;nvim
+: 1614716524:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1614731072:0;gita ll
+: 1614731082:0;gita push Python Spring-2021
+: 1614735491:0;gita push Spring-2021 Python
+: 1614735507:0;gita pull Spring-2021
+: 1614735520:0;gita push Spring-2021
+: 1614771804:0;gita ll
+: 1614771818:0;gita push Python
+: 1614771830:0;gita super status Python
+: 1614804634:0;nvim
+: 1614809041:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1614937058:0;sudo find / -name "*tigrc"
+: 1614937089:0;cat /etc/tigrc
+: 1614937102:0;cat /etc/tigrc | grep bind
+: 1614937126:0;echo 'bind branch n !@git branch %(prompt)\
+bind branch d !?@git branch -d %(branch)' > ~/.tigrc
+: 1614937131:0;nvim ~/.tigrc
+: 1614937167:0;mkrc ~/.tigrc
+: 1614937169:0;tig
+: 1614937258:0;cat /etc/tigrc | grep prompt
+: 1614937389:0;nvim
+: 1614937684:0;ranger
+: 1614937723:0;cd ~/Documents/Python
+: 1614937726:0;git status
+: 1614937758:0;tig
+: 1614937899:0;git checkout master
+: 1614937911:0;ranger
+: 1614937963:0;git sparse-checkout list
+: 1614938001:0;git sparse-checkout disable
+: 1614938004:0;tig
+: 1614938021:0;ranger
+: 1614938031:0;git sparse-checkout disable
+: 1614938033:0;ranger
+: 1614938121:0;tig
+: 1614938195:0;git checkout unit-testing
+: 1614938208:0;git checkout unit_testing
+: 1614938516:0;git sparse-checkout disable
+: 1614938519:0;git status
+: 1614938555:0;tig
+: 1614938575:0;ranger
+: 1614938594:0;git checkout master
+: 1614938607:0;git --version
+: 1614938710:0;git checkout unit_testing; git sparse-checkout disable
+: 1614938714:0;ranger
+: 1614938731:0;nvim ~/.tigrc
+: 1614938771:0;tig
+: 1614938783:0;ranger
+: 1614938795:0;tig
+: 1614938809:0;ranger
+: 1614938819:0;nvim ~/.tigrc
+: 1614938844:0;nvim /etc/tigrc
+: 1614938924:0;tig
+: 1614938974:0;git sparse-checkout disable
+: 1614938984:0;nvim ~/.tigrc
+: 1614939172:0;tig
+: 1614939313:0;nvim
+: 1614942292:0;git push
+: 1614942315:0;git push --set-upstream origin unit_testing
+: 1614943354:0;gita ll
+: 1614943385:0;gita super Python push --all origin
+: 1614943397:0;gita ll
+: 1614945206:0;sage --preparse /home/user/Documents/Python/Utilities/table.sage
+: 1614947553:0;gita ll
+: 1614947641:0;gita super Python git push --all origin
+: 1614947649:0;gita super Python push --all origin
+: 1614947664:0;gita super Spring-2021 push --all origin
+: 1614947676:0;gita ll
+: 1614947699:0;gita super status .dotfiles
+: 1615080961:0;gita add ~/texmf/tex/latex/local/local/
+: 1615080975:0;gita ls
+: 1615080984:0;gita -h
+: 1615080998:0;gita rename -h
+: 1615081007:0;gita rename local tex
+: 1615081015:0;gita rename .dotfiles dotfiles
+: 1615081022:0;gita rename Papis-Imports papis
+: 1615081030:0;gita rename Spring-2021 spring-2021
+: 1615081038:0;gita rename Python python
+: 1615081040:0;gita ls
+: 1615081044:0;gita rename Bash bash
+: 1615081047:0;gita ll
+: 1615081064:0;gita super tex status
+: 1615081074:0;gita shell tex tig
+: 1615081087:0;gita cd tex
+: 1615081115:0;gita stat -h
+: 1615081129:0;gita shell -h
+: 1615081154:0;gita shell tex cd .
+: 1615081177:0;gita shell tex echo pwd
+: 1615081203:0;gita shell tex tig
+: 1615081212:0;gita python tig
+: 1615081222:0;gita shell python tig
+: 1615082486:0;nvim
+: 1615083656:0;tig
+: 1615083868:0;nvim
+: 1615084742:0;gita ll
+: 1615084755:0;gita push dotfiles tex
+: 1615084787:0;gita ll
+: 1615084819:0;gita super tex remote -v
+: 1615084905:0;gita super tex remote set-url origin git@github.com:antimike/tex.git
+: 1615084909:0;gita super tex remote -v
+: 1615084919:0;gita pull tex
+: 1615084928:0;gita push tex python dotfiles
+: 1615084957:0;gita super python push --set-upstream origin em-hw3-finish
+: 1615086017:0;sftp 10.84.68.193
+: 1615086063:0;sftp hactar@10.84.68.193
+: 1615086162:0;ranger
+: 1615087222:0;git remote -v
+: 1615088893:0;dnf search yubi
+: 1615110621:0;gpg --import ~/QubesIncoming/keyvault-slave-private/yubikey_public.asc
+: 1615110634:0;gpg --list-keys
+: 1615110652:0;gpg --list-secret-keys
+: 1615111140:0;sftp hactar@10.84.68.193
+: 1615117364:0;gita ll
+: 1615117376:0;gita fetch dotfiles
+: 1615117389:0;gita pull dotfiles
+: 1615117435:0;~/.dotfiles
+: 1615117437:0;tig
+: 1615117676:0;ls ~/.dotfiles | grep git
+: 1615117681:0;cat ~/.dotfiles/gitconfig
+: 1615118591:0;nvim
+: 1615119261:0;cat ~/.dotfiles/zshenv | grep SSH
+: 1615119376:0;ranger
+: 1615119411:0;cd /home/user/.oh-my-zsh
+: 1615119783:0;ls ~/.dotfiles | grep local
+: 1615119816:0;rcup local-aliases.sh local-install.sh local.config
+: 1615119827:0;ls -a ~ | grep local
+: 1615119837:0;ls -la ~ | grep local
+: 1615119915:0;dnf search cabal
+: 1615119961:0;sudo dnf install cabal-install -y
+: 1615120083:0;cabal update
+: 1615120126:0;git clone https://github.com/rhysd/ghci-color ~/Source/ghci-color
+: 1615120137:0;cabal update
+: 1615120156:0;cabal install hdevtools HsColour
+: 1615120192:0;cabal install hdevtools hscolour
+: 1615120243:0;sudo ln -s ~/Source/ghci-color/ghci-color /usr/local/bin/ghci-color
+: 1615120262:0;dnf search hugs
+: 1615120275:0;dnf search hugs98
+: 1615120286:0;sudo dnf install hugs98 -y
+: 1615120371:0;stack install stylish-haskell
+: 1615121473:0;stack install hdevtools 
+: 1615123480:0;notmuch dump --gzip --output=notmuch_dumpfile
+: 1615123509:0;sftp hactar@10.84.68.193
+: 1615124829:0;cat ~/.mbsync | grep csu
+: 1615124842:0;cat ~/.mbsyncrc | grep csu
+: 1615125724:0;cd .dotfiles
+: 1615125729:0;cd ~/.dotfiles
+: 1615125731:0;ranger
+: 1615125840:0;tig
+: 1615125887:0;git push
+: 1615126157:0;cd /var/spool/cron/
+: 1615126169:0;crontab -l
+: 1615126193:0;crontab -l >> $INSTALLED
+: 1615126200:0;echo $INSTALLED
+: 1615126206:0;source ~/.zshrc
+: 1615126210:0;echo $INSTALLED
+: 1615126220:0;crontab -l >> $INSTALLED
+: 1615173954:0;gita pull
+: 1615173981:0;gita fetch
+: 1615174004:0;tig
+: 1615174536:0;git clean -e '!*.orig' --dry-run
+: 1615174609:0;git clean --dry-run
+: 1615174741:0;git ls -e '!*.orig'
+: 1615174797:0;git ls-files -e '!*.orig'
+: 1615174832:0;git clean '*.orig' --dry-run
+: 1615174844:0;git clean '*.orig'
+: 1615174857:0;git clean '*.orig' -f
+: 1615174860:0;git status
+: 1615174868:0;git clean -f
+: 1615174872:0;git status
+: 1615174877:0;git push
+: 1615175513:0;echo $USER
+: 1615175558:0;echo $HOSTNAME
+: 1615176326:0;rcup -h
+: 1615176351:0;man rcup
+: 1615177073:0;ranger
+: 1615177176:0;rcup -t mail
+: 1615177330:0;mkrc -B work man rcup
+: 1615177358:0;man rcup
+: 1615177380:0;rcup -B work rcrc
+: 1615177408:0;ls -la ~ | grep rcrc
+: 1615177422:0;rm ~/.rcrc
+: 1615177441:0;mv ~/.dotfiles/rcrc ~/.rcrc
+: 1615177455:0;mkrc -B work ~/.rcrc
+: 1615177510:0;ls -la ~ | grep local-ali
+: 1615177955:0;tig
+: 1615179267:0;git clean --dry-run
+: 1615179290:0;git status
+: 1615179301:0;git clean --dry-run
+: 1615179307:0;git clean -r --dry-run
+: 1615179316:0;git clean -d --dry-run
+: 1615179366:0;git clean "host-*" --dry-run
+: 1615179372:0;git clean "host-*" -f
+: 1615179379:0;git clean "tag-*" --dry-run
+: 1615179384:0;git clean "tag-*" -f
+: 1615179392:0;tig
+: 1615181249:0;rcdn config/firejail
+: 1615181369:0;rcdn config/autostart
+: 1615181379:0;rcup -B work config/autostart
+: 1615181385:0;ls ~/.config/autostart
+: 1615181877:0;tig
+: 1615182022:0;lsrc newsboat
+: 1615182032:0;lsrc -t work
+: 1615182085:0;lsrc -t terminal
+: 1615182130:0;rcdn newsboat/node_modules -t extras
+: 1615182139:0;rcdn newsboat/node_modules
+: 1615182159:0;ls ~/.newsboat/node_modules
+: 1615182172:0;ls ~/.newsboat/node_modules/ansi-escapes
+: 1615182192:0;rm ~/.newsboat/node_modules
+: 1615182199:0;rm -r ~/.newsboat/node_modules
+: 1615182231:0;mv ~/.dotfiles/tag-extras/newsboat/node_modules ~/.newsboat
+: 1615182251:0;tig
+: 1615182293:0;git add tag-extras/newsboat/
+: 1615182295:0;git status
+: 1615182359:0;git add .
+: 1615182360:0;git status
+: 1615182388:0;git commit -m "First-pass restructuring of repo into 'tags' and 'hosts'"
+: 1615182421:0;rcup gitconfig -t git
+: 1615182432:0;rcup -t git
+: 1615182483:0;rcup -t git gitconfig tigrc
+: 1615182492:0;ls -la ~ | grep git
+: 1615182515:0;git commit -m "First-pass restructuring of repo into 'tags' and 'hosts'"
+: 1615182519:0;tig
+: 1615182601:0;nvim ~/.rcrc
+: 1615182669:0;tig
+: 1615182701:0;ranger
+: 1615182729:0;git status
+: 1615182743:0;ranger
+: 1615182817:0;tig
+: 1615182850:0;ranger
+: 1615182862:0;tig
+: 1615182870:0;ranger
+: 1615182878:0;rcdn
+: 1615183014:0;cat ~/.rcrc
+: 1615183048:0;find . -name "rcrc"
+: 1615183112:0;tig
+: 1615183131:0;ranger
+: 1615183159:0;ls -la ~ | grep rcrc
+: 1615183167:0;rm ~/.rcrc
+: 1615183189:0;nvim ~/.rcrc
+: 1615183583:0;mkrc -B work ~/.rcrc
+: 1615183639:0;rcup -B work
+: 1615183650:0;nvim
+: 1615183780:0;pip3 install pynvim --user
+: 1615183794:0;pip3 install --upgrade pynvim --user
+: 1615183852:0;pip2 install --upgrade pynvim --user
+: 1615183874:0;dnf install --upgrade fzf -y
+: 1615183961:0;dnf upgrade fzf -y
+: 1615183966:0;sudo dnf upgrade fzf -y
+: 1615183988:0;nvim
+: 1615184175:0;nvi
+: 1615184178:0;nvim
+: 1615184710:0;tig
+: 1615184783:0;ranger
+: 1615185037:0;mail
+: 1615185099:0;nvim
+: 1615185262:0;tig
+: 1615185322:0;rcdn config/nvim/Sessions
+: 1615185331:0;ls ~/.config/nvim | grep Session
+: 1615185342:0;ls ~/.config/nvim/Sessions
+: 1615185395:0;rm ~/.config/nvim/Sessions/freefem.vim.lock ~/.config/nvim/Sessions/hw-gruvbox.vim.lock
+: 1615185470:0;mv ~/.dotfiles/tag-nvim/config/nvim/Sessions/ ~/.config/nvim/Sessions
+: 1615185482:0;ls ~/.config/nvim/Sessions
+: 1615185510:0;mv ~/.config/nvim/Sessions/Sessions ~/.config/nvim/
+: 1615185541:0;mv ~/.config/nvim/Sessions/Sessions ~/.config/nvim/UltiSnips
+: 1615185572:0;mv ~/.config/nvim/Sessions/config.vim.lock ~/.config/nvim/UltiSnips/Sessions
+: 1615185582:0;rm -r ~/.config/nvim/Sessions
+: 1615185595:0;mv ~/.config/nvim/UltiSnips/Sessions ~/.config/nvim/
+: 1615185604:0;mkrc -B work ~/.config/nvim/Sessions
+: 1615185609:0;ranger
+: 1615185731:0;rcdn config/pianobar/state
+: 1615185763:0;mv ~/.dotfiles/tag-extras/config/pianobar/state ~/.config/pianobar
+: 1615185779:0;mkrc -B work ~/.config/pianobar/state
+: 1615185873:0;rcdn config/autostart
+: 1615185887:0;mv ~/.dotfiles/config/autostart ~/.config/
+: 1615185905:0;mkrc -B work ~/.config/autostart
+: 1615185979:0;rcdn local/share/zathura/history local/share/zathura/input-history
+: 1615186027:0;mv ~/.dotfiles/local/share/zathura/history ~/.dotfiles/local/share/zathura/input-history ~/.local/share/zathura
+: 1615186068:0;mkrc -B work ~/.local/share/zathura/history ~/.local/share/zathura/input-history
+: 1615186206:0;rcdn config/coc/extensions/package.json
+: 1615186232:0;mv ~/.dotfiles/tag-nvim/config/coc/extensions/package.json ~/.config/coc/extensions
+: 1615186266:0;rm -r ~/.dotfiles/tag-nvim/config/coc
+: 1615186287:0;mkrc -B work ~/.config/coc/extensions/package.json
+: 1615186342:0;tig
+: 1615186668:0;rcdn config/nvim/Sessions/config.vim
+: 1615186695:0;rm -r ~/.dotfiles/config/nvim
+: 1615186707:0;rcdn config/extensions
+: 1615186721:0;rm -r config/extensions
+: 1615186731:0;rm -r config
+: 1615186750:0;ls -la ~ | grep diary
+: 1615186754:0;rm -r diary
+: 1615186789:0;rcup -B work config/nvim/Sessions
+: 1615186801:0;ls -la ~/.config/nvim/Sessions
+: 1615186915:0;cd ~/Administrative
+: 1615186916:0;git status
+: 1615186919:0;git init
+: 1615186924:0;git add .
+: 1615186930:0;git commit -m "First commit"
+: 1615187204:0;dnf search git gcrypt
+: 1615187217:0;sudo dnf install git-remote-gcrypt -y
+: 1615187271:0;log-installed
+: 1615187401:0;echo $INSTALLED
+: 1615187481:0;ranger
+: 1615187948:0;git config --global hub.protocol ssh
+: 1615188329:0;hub create -p --remote-name cryptremote csu-admin
+: 1615188370:0;ssh-add -l
+: 1615188445:0;hub create -p --remote-name=cryptremote csu-admin
+: 1615188472:0;cat ~/.gitconfig
+: 1615189715:0;qubes-gpg-client --list-secret-keys --keyid-format 0xshort
+: 1615190182:0;mv ~/QubesIncoming/keyvault-slave-private/github_pat.asc ~/.dotfiles
+: 1615190236:0;mkrc github_pat.asc
+: 1615190257:0;rcup github_pat.asc
+: 1615190265:0;ls -la ~ | grep github
+: 1615191044:0;rsync -v
+: 1615191294:0;ls -a
+: 1615191298:0;cd .git; ls
+: 1615191304:0;nvim config
+: 1615191379:0;qubes-gpg-client --list-secret-keys --keyid-format 0xshort
+: 1615191418:0;qubes-gpg-client --list-secret-keys
+: 1615191600:0;git config gcrypt.participants AEB43E83657EFBEDB5D61B2862716B9F210A3233
+: 1615191608:0;cd ..
+: 1615191612:0;git config gcrypt.participants AEB43E83657EFBEDB5D61B2862716B9F210A3233
+: 1615191661:0;cat ~/.gitconfig | grep sign
+: 1615191673:0;cat ~/.gitconfig
+: 1615191715:0;git config --global user.signingkey AEB43E83657EFBEDB5D61B2862716B9F210A3233
+: 1615191723:0;cat ~/.gitconfig
+: 1615191794:0;cd ..
+: 1615192236:0;ranger
+: 1615192341:0;ls -la ~ | grep shell
+: 1615192526:0;git init --bare ~/gcrypt/Administrative
+: 1615192598:0;git remote add cryptremote gcrypt::~/gcrypt/Administrative
+: 1615192610:0;git remote -v
+: 1615192625:0;git push --all
+: 1615192670:0;git push cryptremote master
+: 1615192776:0;gpg --card-status
+: 1615192827:0;ls ~/gcrypt/Administrative
+: 1615192886:0;git config gpg.program gpg
+: 1615192896:0;cat ~/.gitconfig | grep gpg
+: 1615192940:0;gpg --card-status
+: 1615192953:0;git push cryptremote master
+: 1615193000:0;rm ~/gcrypt/Administrative
+: 1615193009:0;rm -r ~/gcrypt/Administrative
+: 1615193025:0;git init --bare ~/gcrypt/Administrative
+: 1615193034:0;git push cryptremote master
+: 1615193082:0;rm -r ~/gcrypt/Administrative
+: 1615193086:0;git init --bare ~/gcrypt/Administrative
+: 1615193097:0;cat .git/config
+: 1615193109:0;nvim .git/config
+: 1615193142:0;git remote add cryptremote gcrypt::~/gcrypt/Administrative
+: 1615193149:0;git push cryptremote master
+: 1615193195:0;cd ~/gcrypt/Administrative
+: 1615193205:0;ls
+: 1615193211:0;ranger
+: 1615193332:0;git remote add origin gcrypt::git@github.com:antimike/csu-admin.git
+: 1615193343:0;git push origin master
+: 1615193400:0;gita ll
+: 1615193509:0;mkrc /home/user/texmf/tex/latex/local/local/
+: 1615193523:0;ls /home/user/texmf/tex/latex/local/local/
+: 1615193667:0;ls /home/user/texmf/tex/latex/local
+: 1615193676:0;ranger
+: 1615193708:0;rcup texmf
+: 1615193711:0;ranger
+: 1615193772:0;cd ~
+: 1615193775:0;ranger
+: 1615193857:0;mkrc -B work ~/.bash_history ~/.bash_logout ~/.bash_profile
+: 1615193953:0;mkrc ~/.calcurse_clientid.gpg ~/.calcurse_clientsecret.gpg
+: 1615193977:0;mkrc -t todo ~/.doingrc
+: 1615193990:0;ls ~/.dotfiles/tag-todo
+: 1615194049:0;mkrc ~/.mail-csu.gpg ~/.mail-professional-appkey.gpg ~/.mail-professional.gpg
+: 1615194091:0;mkrc -B ~/.mbsync.log ~/.msmtp.log ~/.mupdf.history ~/.NERDTreeBookmarks
+: 1615194131:0;mkrc -B ~/.mbsync.log
+: 1615194184:0;ls ~/.dotfiles | grep tag
+: 1615194209:0;mkrc -B work -t viewers ~/.sc_history 
+: 1615194225:0;mkrc -B work ~/.sc_history
+: 1615194270:0;mkrc -t todo ~/.timetrap.db ~/.tudu.xml
+: 1615194310:0;mkrc -t vim ~/.vim*
+: 1615194564:0;cd ~/.dotfiles
+: 1615194565:0;tig
+: 1615194625:0;ls | grep vim
+: 1615194632:0;rcdn -t vim
+: 1615195154:0;ranger
+: 1615195367:0;mkrc -t vim ~/.vimrc*
+: 1615195406:0;mkrc -B work ~/.viminfo
+: 1615195467:0;mkrc -B work ~/.zsh_history
+: 1615195506:0;mkrc ~/csu-password.gpg ~/csu_gpg_pubkey_ascii.gpg
+: 1615195589:0;ranger
+: 1615195751:0;mkrc -h
+: 1615195757:0;mkrc --help
+: 1615195762:0;man mkrc
+: 1615195813:0;mkrc -U -t todo ~/doing.md ~/doing.md~
+: 1615195881:0;mkrc -U ~/pandora-password.gpg ~/pandora-password.mathgeek101.gpg
+: 1615195951:0;mkrc -U ~/personal-appkey-master.gpg ~/personal-appkey.gpg ~/professional-appkey.gpg ~/professional-password.gpg
+: 1615195987:0;mkrc -U ~/pushbullet-api-key-local.gpg ~/pushbullet-api-key.gpg
+: 1615196033:0;mkrc -t -U ~/what_was_i_doing.md
+: 1615196053:0;ls | grep what
+: 1615196065:0;ls | grep -U
+: 1615196068:0;ranger
+: 1615196095:0;rcdn -t -U

@@ -1,0 +1,1333 @@
+top
+pip search deal ii
+cd /usr/dealii-9.2.0
+cd /usr/lib/dealii-9.2.0
+ls
+ranger
+cd /usr/lib/dealii-9.2.0/contrib/python-bindings
+sudo cmake .
+sudo make PyDealII
+sudo cmake PyDealII
+ranger
+mail
+ranger
+calcurse
+mkrc ~/.sage/init.sage
+nvim
+timetrap
+timetrap display
+timetrap out --at 11/24/2020 23:30
+timetrap out --at '11/24/2020 23:30'
+timetrap display
+timetrap sheet
+timetrap sheet research
+timetrap in "Playing with Stuart's FreeFEM code"
+git status
+cd .git
+ls
+cd ..
+rm -r .git
+rm -r .git -y
+sudo rm -r .git
+git status
+git init
+ls -a | grep -i git
+nvim .gitignore
+dnf search rcm
+sudo dnf install rcm -y
+sudo rm -r .git
+mkdir ~/.dotfiles && cd .dotfiles && git init
+mkrc ~/.config/nvim/init.vim
+ls
+cd config
+ls
+cd nvim
+ls
+mkrc ~/.config/nvim/init.*
+ls
+nvim
+mkrc ~/.config/nvim/UltiSnips
+mkrc ~/.config/nvim/spell
+mkrc ~/.config/nvim/coc-settings.json
+mkrc ~/.config/kitty
+mkrc ~/.config/fish
+mkrc ~/.config/dunst
+mkrc ~/.config/extensions/package.json
+mkrc ~/.config/coc/extensions/package.json
+mkrc ~/.config/alot
+mkrc ~/.config/afew
+mkrc ~/.config/firejail
+mkrc ~/.config/notifymuch
+mkrc ~/.config/pandoc
+mkrc ~/.config/papis
+mkrc ~/.config/ParaView
+mkrc ~/.config/pianobar
+mkrc ~/.config/pyradio
+mkrc ~/.config/ranger
+mkrc ~/.config/rofi
+mkrc ~/.config/slack-term
+spotify-tui
+tui
+tig
+reddit
+spotify-tui
+spotify
+man spotify-tui
+spt
+vim ~/.bashrc
+mkrc ~/.config/spotify-tui
+mkrc ~/.config/tuir
+mkrc ~/.config/vifm
+mkrc ~/.config/vimiv
+mkrc ~/.config/zathura
+mkrc ~/.config/okularrc
+mkrc ~/.config/okularpartrc
+mkrc ~/.abook
+mkrc ~/.calcurse
+mkrc ~/.mutt/muttrc*
+mkrc ~/.mutt/templates ~/.mutt/signatures
+cd ~/.dotfiles
+cd .mutt
+cd mutt
+ls
+cd signatures
+ls
+ls -a
+cd ../templates; ls -a
+mkrc ~/.mutt/personal-folders.txt
+mkrc ~/.newsboat
+rcdn ~/.newsboat/cache.db
+rcdn --help
+cd ~/.dotfiles/newsboat
+ls
+rcdn newsboat/cache.db
+ls
+mv cache.db ~/.newsboat
+ls
+rcdn newsboat/history.cmdline newsboat/history.search
+rcdn newsboat/queue
+mv history.cmdline history.search queue ~/.newsboat
+mkrc ~/.stack/config.yaml
+mkrc ~/.vit
+mkrc ~/.w3m
+mkrc ~/.weechat/*.conf
+mkrc ~/.weechat/python
+mkrc ~/.bashrc
+mkrc ~/.emacs
+mkrc ~/.gitconfig
+mkrc ~/.mailcap
+mkrc ~/.mbsyncrc
+mkrc ~/.msmtprc
+mkrc ~/.notmuch-config
+mkrc ~/.pomorc
+mkrc ~/.procmailrc
+mkrc ~/.pydoro.ini
+mkrc ~/.taskopenrc
+mkrc ~/.taskrc
+mkrc ~/.urlview
+mkrc ~/.wegorc
+sudo find / -name "pset.cls"
+cd ~/texmf/tex/latex/local/local/
+ls
+git status
+git init
+git add .
+git status
+git commit -m "First commit"
+cd ~/.dotfiles
+git status
+git add .
+git status
+git commit -m "First commit"
+git branch -M master
+git remote add origin https://github.com/antimike/dotfiles.git
+git push -u origin master
+git status
+cd ~/texmf/tex/latex/local/local/
+git branch -M main
+git remote add origin https://github.com/antimike/tex.git
+git push -u origin main
+cd ~/.dotfiles
+git pull
+git status
+git add .
+git commit -m "Uninstalled coc-utils (coc.nvim extension)"
+git pull
+nvim
+git sync
+timetrap out
+nvim
+. ~/.bashrc
+echo $PYTHONPATH
+nvim
+ranger
+nvim
+nvim
+sudo find / -name "*saved*"
+cd /rw/home/user/snap/zoom-client
+ls
+cd 118
+ls
+cd Doc*
+ls
+cd Zoom
+ls
+cd ../..
+ls
+cd ..
+ls
+cd common
+ls
+cd ../current; ls
+cd Doc*
+ls
+cd Zoom; ls
+cd ../..
+cd ..
+sudo find / -name "*97224722373*"
+dnf search freefem++
+FreeFem++ -v
+nvim
+nvim .bashrc
+cd .dotfiles
+git status
+git add .
+git pull
+git status
+git commit -m "Added bash alias for screensharing via Qubes-RPC / dedicated AppVM"
+git push
+papis open
+share papis open
+exit
+share papis open
+source ~/.bashrc
+screenshare
+nvim ~/.bashrc
+source ~/.bashrc
+screenshare
+DISPLAY=:1 kitty
+DISPLAY=:1 xterm
+DISPLAY=:1 zathura
+DISPLAY=:1 kitty
+nvim ~/.bashrc
+source ~/.bashrc
+share xterm
+share terminal
+share gterm
+share uxterm
+cd .dotfiles
+git status
+nvim bashrc
+git add .
+git commit -m "Added another 'screenshare' alias to .bashrc"
+git push
+share papis open
+share firefox
+screenshare
+share firefox
+netstat
+sudo netstat -plnt
+sudo fuser 6001/tcp
+sudo fuser 6001/tcp -k
+echo "sudo fuser 6001/tcp -k" | sudo tee /usr/local/bin/stopshare.sh
+cd /usr/local/bin
+ls
+echo "alias stopshare='sudo fuser 6001/tcp -k'" >> ~/.bashrc
+nvim ~/.bashrc
+cd ~/.dotfiles; git status
+git add .
+git commit -m "Added Calcurse appointment; added 'stopshare' alias to .bashrc"
+git pull
+git push
+calcurse --help
+cd mail
+ls
+ls Attach*
+cd Attach*
+calcurse -i calendar-invite.ical
+share firefox
+screenshare
+share firefox
+stopshare
+timetrap sheet
+timetrap display
+timetrap out --at "12/27/2020 22:00"
+timetrap display
+dnf search moby
+dnf search thesaurus
+cd .dotfiles
+git status
+git add .
+git commit -m "Added vim-colors-pencil, vim-textobj-quote, vim-wheel, and vim-litecorrect"
+git push
+timetrap sheet
+timetrap in
+cd ~/Source
+ls ~
+cd ~/Doc*
+ls
+cd Source
+ranger
+cd ~/Research/FEM
+cd ~/Research
+ls
+cd FreeFEM
+ls
+git status
+git init
+nvim .gitignore
+git status
+git add .
+git commit -m "First commit; excluded all graphics (*.eps) and text (*.txt) files"
+git branch -M main
+git remote add origin https://github.com/antimike/london-freefem.git
+git push -u origin main
+papis open
+calcurse
+ranger
+mail
+ranger
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+papis help
+papis --help
+papis list 'carneiro'
+papis list 'carneiro vortex lines'
+papis addto 'carneiro vortex lines' -f ~/Research/Papers/Found*/Carneiro_Brandt_Vortex_SC_Films.pdf --confirm --link
+papis addto 'carneiro vortex lines' -f ~/Research/Papers/Found*/Carneiro_Brandt_Vortex_SC_Films.pdf --link
+papis addto --link 'carneiro vortex lines' -f ~/Research/Papers/Found*/Carneiro_Brandt_Vortex_SC_Films.pdf
+papis addto 'carneiro vortex lines' -f ~/Research/Papers/Found*/Carneiro_Brandt_Vortex_SC_Films.pdf
+papis open 'carneiro'
+papis open 'cordier'
+screenshare
+share papis open
+papis share
+stopshare
+papis open
+timetrap sheet
+timetrap display
+timetrap out --at "01/02/2021 22:00"
+timetrap in --at "01/03/2021 12:00"
+timetrap out --at "01/03/2021 17:00"
+timetrap sheet research
+timetrap in --at "01/03/2021 18:00"
+timetrap out --at 01/04/2021 10:30"
+timetrap out --at "01/04/2021 10:30"
+timetrap sheet meetings
+timetrap in --at "01/04/2021 10:30" Prepping for meeting with Marty and Stuart at 11
+timetrap out --at "01/04/2021 1:30" Meeting ended after long discussion re uniqueness of solutions to London eqns in various formulations
+timetrap out --at "01/04/2021 1:30"
+timetrap display
+papis open
+papis add --help
+papis add --list-importers
+papis add --help
+cd Research/Papers
+s
+ls
+papis add 1999_First_Cordier.pdf --set author 'Christophe Cordier' --set title 'A 3-D Finite Element Formulation for Calculating Meissner Currents in Superconductors' --set year 1999 --set tags 'superconductors FEM meissner'
+papis open
+zotero-snap
+zotero-snap -h
+zotero-snap --headless -h
+man zotero
+man zotero-snap
+timetrap sheet
+timetrap sheet cmt
+timetrap in
+nvim
+calcurse
+cd .dotfiles
+git status
+git commit -m "Added pdf_extract and dependencies to README.md; added gem executable directory to PATH"
+git add .
+git commit -m "Added pdf_extract and dependencies to README.md; added gem executable directory to PATH"
+git push
+git pull
+rcup config/nvim/init.octave
+rcup config/nvim/UltiSnips/freefem
+rcup config/nvim/UltiSnips
+nvim
+git push
+pdf_extract -h
+sudo find / -name "*pdf_extract*"
+nvim ~/.bashrc
+cd .gem
+ls -a | grep -i gem
+cd ~/.gem
+cd ruby
+cd bin
+ls
+date
+date + '/home/user/Research/Papers/bibtex-generator.shs'
+date + "/home/user/Research/Papers/bibtex-generator.shs"
+date + '/home/user/Research/Papers/bibtex-generator.shs'
+date + '/home/user/Research/Papers/bibtex-generator.shr'
+date + '%s'
+now = $(date + '%s')
+now=$(date + '%s')
+now=$(date + '%m/%d/%y')
+dnf search exif
+dnf search cb2
+pdf-extract -h
+gem install pdf-extract
+ruby --version
+exception_fail’
+ 2232 |     SWIG_exception_fail(SWIG_ArgError(res1), Ruby_Format_TypeError( "", "svm_parameter *","degree", 1, self ));
+      |     ^~~~~~~~~~~~~~~~~~~
+libsvm_wrap.cxx:1378:83: error: format not a string literal and no format arguments [-Werror=format-security]
+ 1378 | #define SWIG_Error(code, msg)              rb_raise(SWIG_Ruby_ErrorType(code), msg)
+      |                                                                                   ^
+libsvm_wrap.cxx:1778:45: note: in expansion of macro ‘SWIG_Error’
+ 1778 | #define SWIG_exception_fail(code, msg) do { SWIG_Error(code, msg); SWIG_fail; } while(0)
+      |                                             ^~~~~~~~~~
+libsvm_wrap.cxx:2237:5: note: in expansion of macro ‘SWIG_exception_fail’
+ 2237 |     SWIG_exception_fail(SWIG_ArgError(ecode2), Ruby_Format_TypeError( "", "int","degree", 2, argv[0] ));
+      |     ^~~~~~~~~~~~~~~~~~~
+libsvm_wrap.cxx: In function ‘VALUE _wrap_svm_parameter_degree_get(int, VALUE*, VALUE)’:
+libsvm_wrap.cxx:1378:83: error: format not a string literal and no format arguments [-Werror=format-security]
+ 1378 | #define SWIG_Error(code, msg)              rb_raise(SWIG_Ruby_ErrorType(code), msg)
+      |                                                                                   ^
+gem install specific_install
+gem specific_install -l https://gitlab.com/crossref/pdfextract
+cd Research
+ls
+cd Papers
+ls
+pdf_extract extract --references 1999_First_Cordier.pdf
+echo "/home/user/.gem/ruby/bin" >> ~/.bashrc
+nvim ~/.bashrc
+source ~/.bashrc
+pdf-extract -h
+pdf-extract extract --references 1999*.pdf
+pdf-extract extract-bib --resolved_references 1999_First_Cordier.pdf
+pdf-extract extract --references --titles 1999_First_Cordier.pdf
+pdf-extract --settings
+pdf-extract settings
+pdf-extract extract --references --titles --set reference_flex:0.25 1999_First_Cordier.pdf
+pdf-extract extract --references --titles --set reference_flex:0.35 1999_First_Cordier.pdf
+pdf-extract extract --references --titles --set reference_flex:0.65 1999_First_Cordier.pdf
+pdf-extract extract --references --titles --set reference_flex:0.85 1999_First_Cordier.pdf
+go get -u github.com/cgxeiji/scholar
+npm search zotero-cli
+npm install zotero-cli
+npm install -g npm
+zotero-cli -h
+npm start zotero-cli
+npm zotero-cli
+npm install zotero-cli
+zotero-cli
+sudo find / -name "zotero-cli.js"
+echo "/home/user/node_modules/zotero-cli/bin" >> ~/.bashrc
+nvim ~/.bashrc
+source ~/.bashrc
+zotero-cli
+cd ~/node_modules
+ls
+:q
+nvim ~/.bashrc
+source ~/.bashrc
+zotero-cli
+./zotero-cli
+cd zotero-cli
+ls
+cd bin
+ls
+./zotero-cli.js
+./zotero-cli.js -h
+ls
+cd ..
+ls
+nvim README.md
+cd docs
+ls
+nvim CO*.md
+dnf search jabref
+dnf search jab ref
+dnf search jab
+dnf search JabRef
+snap search jabref
+snap install jabref
+jabref -h
+jabref -n -h
+jabref -n -i ~/Research/Papers/1999_First_Cordier.pdf -o ~/Research/Papers/test-import.bib
+zotero-snap -h
+mendeley -v
+Mendeley-Desktop -v
+ls /usr/bin | grep -i Mend
+ls /usr/local/bin | grep -i Mend
+ls /usr/local | grep -i app
+ls /usr/local
+jabref -n --fetch
+jabref -n -f
+jabref -n -f "A 3-D Finite Element Formulation for Calculating Meissner Currents in Superconductors"
+jabref -n -f='Crossref:Cordier superconductors'
+jabref -n -f='Crossref:A 3-D Finite Element Formulation for Calculating Meissner Currents in Superconductors' -o test-search-results.txt
+mv test-search-results.txt ~/Research/Papers
+gem install anystyle-cli
+anystyle -h
+pdftotext -v
+jabref -n -f -h
+jabref -n -f='Crossref:A 3-D finite element formulation for calculating Meissner currents in superconductors' -o test-search-results.json
+mv test-search-results.json ~/Research/Papers
+pip3 install bibtexparser
+cd ~/Research
+cd Papers
+ipython
+man ln
+abook -h
+abook add -h
+abook add-email
+abook --add-email
+abook
+abook --mut-query 'berger'
+abook --mutt-query 'berger'
+pip3 install pdftitle --user
+ssh-keygen -t ed25519 "Antimike.Haynes@colostate.edu"
+ssh-keygen -t ed25519 -C "Antimike.Haynes@colostate.edu"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+cd .dotfiles
+git remote set-url origin git@github.com:antimike/dotfiles.git
+git remote -v
+cd ~/Doc*/Bash*
+git remote -v
+git remote set-url origin git@github.com:antimike/bash-scripts.git
+git remote -v
+cd ~/Doc*/Papis*
+git remote -v
+git remove set-url origin git@github.com:antimike/papis-library.git
+git remote set-url origin git@github.com:antimike/papis-library.git
+git remote -v
+cd ~/.pubs
+git remote -v
+git remote set-url origin git@github.com:antimike/pubs-library.git
+git remote -v
+git pull
+cd ~/.dotfiles
+git pull
+git remote -v
+git pull
+cd ~/Doc*/Bash
+git pull
+ranger
+pip3 search tabbed
+nvim
+ranger
+papis open
+ranger
+papis open
+ranger
+share uxterm &
+ranger
+share zathura ~/QubesIncoming/untrusted/Dark_Matter_Higgs_Portal.pdf 
+nvim
+cd .dotfiles; git status
+git add *.snippets
+git status
+git commit -m "Added/modified some TeX snippets"
+git add calcurse/apts
+git commit -m "Calcurse apts"
+git add README.md; git commit -m "Added Octave to list of dependencies"
+git pull
+git status
+git push
+spt
+ranger
+sudo dnf install octave octave-devel -y
+sage
+papis open
+python3
+mail
+cd ~/Doc*/Bash
+git status
+git push
+ranger
+sudo dnf install --upgrade ranger -y
+sudo dnf update ranger -y
+ranger -v
+ranger --version
+dnf search tabbed
+sudo dnf install tabbed -y
+tabbed -h
+pdf-extract -h
+pdf-extract help
+pdf-extract extract -h
+man pdf-extract
+manual pdf-extract
+anystyle -h
+cd /usr/local/bin
+ls | grep -i bib
+cd ~
+bibtex-generator.sh
+sudo chmod +x /usr/local/bin/bibtex-generator.sh
+cd /usr/local/bin
+ls -ln
+setup.sh
+dnf search cermine
+dnf search maven
+pip3 install pdfx --user
+pdfx -h
+pdfx ~/Downloads/neu_330534.pdf 
+pdfx ~/Downloads/neu_330534.pdf -v
+pdfx -v ~/Downloads/neu_330534.pdf
+zathura ~/Downloads/neu_330534.pdf 
+screenshare
+share uxterm
+ranger
+cd ~/Doc*/Pap*
+cd ~/Doc*
+cd Papis*
+git status
+git pull
+papis open
+papis papis oopen
+papis open schneebeli
+papis -h
+papis --cc
+papis open
+papis export -h
+ls -a ~ | grep -i pap
+ls -a ~ | grep -i pa
+ls -a ~
+pubs --import -h
+pubs import ~/Documents/Papis-Imports/library.bib 
+papis export Monk -o ~/mail/Attachments/Peter_Monk_EM_FEM_presentation.pdf
+ranger
+papis export Monk --folder -o ~/mail/Attachments/
+papis export Monk --folder -o ~/mail/Attachments/Monk_Presentation
+ranger
+papis explore
+papis export
+papis export --folder -o ~/mail/Attachments/Pantz Pantz
+papis open Pantz
+papis open fem
+papis export --folder -o ~/mail/Attachments/Schneebeli Schneebeli
+papis open fem
+papis export --folder -o ~/mail/Attachments/Suzuki Suzuki
+papis open fem
+papis open
+papis export Monk --folder -o ~/mail/Attachments/Monk
+ranger
+papis open
+dnf search pem
+sudo dnf install pem -y
+pem -h
+pem
+ranger
+. /tmp/cmdline_1610427765_user/lines.sh
+ls -l ~/QubesIncoming/untrusted/Dark_Matter_Higgs_Portal.pdf
+ls -l '~/QubesIncoming/untrusted/Dark_Matter_Higgs_Portal.pdf'
+. /tmp/cmdline_1610427765_user/lines.sh
+aaaaaa
+. /tmp/cmdline_1610427765_user/lines.sh
+cd ~/QubesIncoming/untrusted/
+ls
+bibtex-generator
+bibtex-generator.sh
+~/Documents/Bash/bibtex-generator.sh 
+pdftitle -v
+ls -l "boopy"
+setup.sh --mime-type
+jabref -h
+jabref -f -h
+help jabref
+ranger
+cd Doc*/Bash
+nvim
+git pull ~/.dotfiles
+git status
+pwd
+cd ~/.dotfiles
+git status
+pip3 update jedi
+pip3 install jedi --user
+pip3 install --upgrade jedi --user
+./setup.sh
+cd ~/Documents/Bash*/setup.sh
+~/Documents/Bash*/setup.sh
+ranger
+rnager
+ranger
+ls
+cd Research/Papers
+ls
+anystyle find 1999_First_Cordier.pdf
+anystyle parse 1999_First_Cordier.pdf
+anystyle check 1999_First_Cordier.pdf
+anystyle -f bib find 1999_First_Cordier.pdf
+anystyle --no-layout find 1999_First_Cordier.pdf
+anystyle find --no-layout 1999_First_Cordier.pdf
+anystyle find --no-layout 1999_First_Cordier.pdf > test-anystyle-ref-extraction.json
+ranger
+anystyle -h
+anystyle parse test-search-results.bib
+anystyle parse test-search-results.bib | python3 -c "import sys,json; print json.load(sys.stdin)[0]"
+anystyle parse test-search-results.bib | python3 -c "import sys,json; print(json.load(sys.stdin)[0])"
+anystyle parse test-search-results.bib | python3 -c "import sys,json; print(json.load(sys.stdin)[1])"
+anystyle parse test-search-results.bib | python3 -c "import sys,json; print(json.load(sys.stdin)[2])"
+anystyle -h
+jabref -n -f='Crossref:Cordier, Flament'
+jabref -n -f='Crossref:Cordier, Flament' -o test-search-results-cordier.json
+ranger
+jabref -n -f='Crossref:Cordier, Flament' -o test-search-results-cordier.json,json
+ranger
+jabref -n -f='Crossref:Cordier, Flament' -o test-search-results-cordier.json,JSON
+ranger
+jabref -n -f='Crossref:Cordier, Flament' -o test-search-results-cordier.bib; \python3 -c "import sys, bibtexparser as parser; load('test-search-results-cordier.bib')
+nvim bibtex-generator.sh
+sudo chmod +x bibtex-generator.sh
+bibtex-generator.sh "Cordier, Flament superconductors"
+./bibtex-generator.sh "Cordier, Flament superconductors"
+ranger
+./bibtex-generator.sh "Cordier, Flament superconductors"
+ranger
+./bibtex-generator.sh "Cordier, Flament superconductors"
+ranger
+sed s/@/+/g test_script.bib
+sed s/{,/{id,/g test_script.bib
+ranger
+cat test_script.bib | sed s/{,/{id,/g
+ls
+./bibtex-generator.sh "Cordier, Flament superconductors"
+ranger
+./bibtex-generator.sh "Cordier, Flament superconductors"
+nvim bibtex-gener*.sh
+date + "%s"
+date + '%s'
+now=$(date '+%s')
+printf "%s\n" $now
+nvim bibtex*.sh
+bibtex*.sh "Cordier, Flament superconductors"
+./bibtex*.sh "Cordier, Flament superconductors"
+nvim bibtex*.sh
+./bibtex*.sh "Cordier, Flament superconductors" ./1999_First_Cordier.pdf
+ranger
+papis add -h
+ls
+papis add --confirm --from bibtex test_script.bib
+papis add --confirm --file-path ./1999_First_Cordier.pdf --from bibtex test_script.bib
+papis add --confirm --file-name ./1999_First_Cordier.pdf --from bibtex test_script.bib
+nvim *.sh
+*.sh "Cordier, Flament superconductors" ./1999_First_Cordier.pdf
+./*.sh "Cordier, Flament superconductors" ./1999_First_Cordier.pdf
+nvim *.sh
+./*.sh "Cordier, Flament superconductors" ./1999_First_Cordier.pdf
+./*.sh "Cordier" ./1999_First_Cordier.pdf
+nvim *.sh
+./*.sh "Cordier" ./1999_First_Cordier.pdf
+nvim *.sh
+./*.sh "Cordier" ./1999_First_Cordier.pdf
+ranger
+nvim *.sh
+jabref -f='Crossref:Cordier' -o cordier-test.bib
+ranger
+./*.sh "Cordier" ./1999_First_Cordier.pdf
+nvim *.sh
+./*.sh "Cordier" ./1999_First_Cordier.pdf
+ranger
+papis add --confirm --file-name ./1999_First_Cordier.pdf --from bibtex ./1610333656-mod.bib 
+nvim *.sh
+./*.sh "Cordier, Flament" ./1999_First_Cordier.pdf Cordier1999
+ranger
+./*.sh "2
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 9, NO. 1, MARCH 1999
+A 3-D Finite Element Formulation for Calculating
+ls
+./*sh "2
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 9, NO. 1, MARCH 1999
+A 3-D Finite Element Formulation for Calculating
+Meissner Currents in Superconductors" ./1999_First_Cordier.pdf Cordier1999Meissner
+./*sh "2
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 9, NO. 1, MARCH 1999
+A 3-D Finite Element Formulation for Calculating
+Meissner Currents in Superconductors" ./1999_First_Cordier.pdf Cordier1999Meissner
+papis open
+nvim *.sh
+papis rm
+./*sh "2
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 9, NO. 1, MARCH 1999
+A 3-D Finite Element Formulation for Calculating
+Meissner Currents in Superconductors" ./1999_First_Cordier.pdf Cordier1999Meissner
+papis open
+nvim *.sh
+./*sh "2
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 9, NO. 1, MARCH 1999
+A 3-D Finite Element Formulation for Calculating
+Meissner Currents in Superconductors" ./1999_First_Cordier.pdf Cordier1999Meissner
+nvim *.sh
+papis git status
+papis git init
+papis git add .
+papis git status
+papis git commit -m "First commit"
+papis git commit
+papis git branch -M main
+papis git remote add origin https://github.com/antimike/papis-library.git
+papis git push -u origin main
+nvim *.sh
+cd ~/Source
+cd /usr/local
+ls
+cd bin; ls
+ranger
+cd ~/Research/Papers
+ls | grep -i *.sh
+mv bibtex-generator.sh ~/Doc*/Bash
+cd ~/Doc*/Bash
+git status
+git add notmuch-hook.sh unfucker.sh unfuckme.sh
+git commit -m "Catchup commit"
+git status
+git add .
+git commit -m "Added bibtex-generator.sh for semi-automatic reference management"
+git branch -M main
+git remote add origin https://github.com/antimike/bash-scripts.git
+git push -u origin main
+nvim setup.sh
+sudo chmod +x ./setup.sh
+./setup.sh
+nvim setup.sh
+./setup.sh
+man ln
+nvim setup.sh
+./setup.sh
+nvim setup.sh
+./setup.sh
+ls /usr/local/bin | grep -i bib
+git status
+ls
+cd bin
+ls
+ls ..
+cd ..
+ls
+ranger
+rm bin
+ls
+ranger
+ls /usr/local/bin
+git status
+git add .; git commit -m "Added setup script to create symlinks in /usr/local/bin"
+git push
+cd ~/.dotfiles
+git status
+git add */zathurarc
+git status
+git commit -m "Modified zathurarc to paste text to clipboard by default"
+nvim ~/.bashrc
+git add . "Added more document-management dependencies to README.md; exported node-modules directory to PATH in bashrc"
+git add .; git commit -m "Added more document-management dependencies to README.md; exported node-modules directory to PATH in bashrc"
+git push
+git pull
+source ~/.bashrc
+git status
+git pull
+cd ~/Doc*/Papis*
+git status
+git pull
+cd ~
+git clone https://github.com/antimike/pubs-library.git ~/.pubs
+pip3 install pubs --user
+cd .dotfiles
+rcup pubsrc
+ranger
+cd ~/Doc*/Bash*
+git status
+git pull
+./setup.sh
+touch update-repos.sh
+nvim update*.sh
+calcurse
+nvim
+sage
+python3
+nvim
+. /tmp/cmdline_1610844440_user/lines.sh
+cat /etc/qubes-rpc/qubes.SshAgent
+. /tmp/cmdline_1610844440_user/lines.sh
+cat /etc/qubes-rpc/qubes.SshAgent
+exit
+echo -e "# Split SSH config\nSSH_VAULT_VM='keyvault-slave-private'\nif [ \"\$SSH_VAULT_VM\" != \"\" ]; then\nexport SSH_SOCK=~/.SSH_AGENT_\$SSH_VAULT_VM\nrm -f \"\$SSH_SOCK\"\nsudo -u user /bin/sh -c \"umask 177 && ncat -k -l -U '\$SSH_SOCK' -c 'qrexec-client-vm \$SSH_VAULT_VM qubes.SshAgent' &\"\nfi"
+exit
+mail
+cd .dotfiles
+git status
+git add README.md
+git commit -m "Added some budgeting / personal expenses software"
+git add calcurse*
+git commit -m "Calcurse stuff"
+git add config/okularrc
+git commit -m "Auto-generated Okular config changes"
+git status
+git add .
+git commit -m "Eliminated some problematic autocommands in vim config"
+git push
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+echo "line1\nline2"
+var="line1\nline2"
+echo -e $var
+echo -e "line1\nline2"
+echo -e "This is a \"quoted string\""
+cat /etc/os-release
+uname -r
+cat /etc/os-release | grep -i NAME
+cat /etc/*release | grep "^ID="
+uname -s
+uname -m
+ls /etc/Fedora*
+ls /etc | grep -i Fedora
+echo -e "\`boopy\`"
+echo "\$boopy"
+echo -e "\$boopy"
+echo -e "#"
+echo -e "!"
+echo -e "/bin/sh"
+echo -e "#!"
+echo -e "#\!/"
+ls /rw/config | grep -i local
+sudo vim /rw/config/rc.local
+cd .dotfiles
+git status
+git add .; git commit -m "Added split-SSH stuff"
+git push
+cd ~/Documents/Bash/
+git status
+git add .; git commit -m "Added split-SSH setup scripts"
+git push
+cd ~/.dotfiles
+git pull
+sudo chmod +x /home/user/Documents/Bash/split-ssh.sh
+%
+sudo chmod /home/user/Documents/Bash/split-ssh-setup-client.sh
+sudo chmod +x /home/user/Documents/Bash/split-ssh-setup-client.sh
+./split-ssh-setup-client.sh
+sudo chmod +x /rw/config/rc.local
+dnf search nmap-ncat
+dnf search openssh-askpass
+sudo dnf install nmap-ncat openssh-askpass -y
+nvim ~/.config/autostart/ssh-agent.desktop
+cd ~/.config/autostart/
+ls
+ranger
+mkrc ssh-agent.desktop
+ls
+ranger
+cd ~/.config/autostart/
+ls
+ls -a
+ssh-add -L
+ssh-agent
+source ~/.bashrc
+ssh-add -L
+cd /rw/config/
+ls
+./rc.local
+ssh-add -L
+cd ~/.dotfiles
+rcup config/nvim
+ls ~/.config/nvim | grep -i fold
+ls config/autostart
+cd config
+git pull
+ls | grep -i auto
+git pull
+cd ..
+rcup config/autostart
+cd config/autostart/
+ls
+rcup -h
+rcm -h
+man rcm
+ls
+rcdn ssh-add.desktop
+ls
+cd ../..
+rcdn config/autostart/ssh-add.desktop 
+ls config/autostart/
+rm ssh-add.desktop
+ls
+rm config/autostart/ssh-add.desktop 
+git status
+git add .
+git commit -m "Replaced 'ssh-add.desktop' with 'ssh-agent.desktop' (calls /rw/config/rc.local on startup; calls ssh-agent instead of ssh-add)"
+git push
+echo $ZSH_CUSTOM
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+pwd
+ls -a | grep -i bash
+nvim .bash_profiles
+nvim .bash_profile
+ls -a | grep -i prof
+cd .dotfiles
+git pull
+rcup zshrc zshrc.zni zshenv
+sudo dnf install zsh -y
+git pull
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd /usr/bin/env
+zsh
+pip3 install pygments
+sudo find / -name "*fzf*"
+cd /usr/bin/fzf
+cd /usr/share/fzf
+ls
+echo "$SHELL"
+ps -p $$
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
+passwd
+sudo passwd
+sudo bash
+chsh $(which zsh)
+chsh -s $(which zsh)
+echo $SHELL
+echo -p $$
+dnf search hub
+dnf search hub-2.14
+dnf search hub-2
+sudo dnf install hub -y
+dnf search bc gnu
+sudo dnf install bc -y
+calcurse
+mail
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
