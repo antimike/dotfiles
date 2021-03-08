@@ -4,13 +4,6 @@ unmailboxes *
 unvirtual-mailboxes *
 #source ~/.mutt/muttrc-virtual-mailboxes
 
-virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox AND tag:personal"
-virtual-mailboxes "Archive" "notmuch://?query=tag:archive AND tag:personal"
-virtual-mailboxes "Sent" "notmuch://?query=tag:sent AND tag:personal"
-virtual-mailboxes "Newsletters" "notmuch://?query=tag:newsletters AND tag:personal"
-virtual-mailboxes "Unread" "notmuch://?query=tag:unread AND tag:personal"
-virtual-mailboxes "Starred"   "notmuch://?query=tag:* AND tag:personal"
-
 set from = "mathgeek101@gmail.com"
 set hostname = "gmail.com"
 set folder = "~/mail/personal"
@@ -18,9 +11,19 @@ set signature = "~/.mutt/signatures/signature-personal"
 set sendmail = "/usr/bin/msmtp -a personal"
 #set sendmail="tee >(notmuch-deliver -t sent -f Sent) | /usr/bin/msmtp -a personal"            # enables parsing of outgoing mail
 
+# Must be sourced *after* 'set folder' but *before* 'virtual-mailboxes'
+source ~/.mutt/muttrc-notmuch
 #set spoolfile = "+Inbox"
 set virtual_spoolfile=yes
 #set postponed = "+Drafts"
+
+virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox AND tag:personal"
+virtual-mailboxes "Archive" "notmuch://?query=tag:archive AND tag:personal"
+virtual-mailboxes "Sent" "notmuch://?query=tag:sent AND tag:personal"
+virtual-mailboxes "Newsletters" "notmuch://?query=tag:newsletters AND tag:personal"
+virtual-mailboxes "Unread" "notmuch://?query=tag:unread AND tag:personal"
+virtual-mailboxes "Starred"   "notmuch://?query=tag:* AND tag:personal"
+
 set record = "+Sent"
 #set mbox = "+Archives/`date +%Y`"
 #save-hook . "+Archives/%[%Y]"
