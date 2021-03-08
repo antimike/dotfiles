@@ -1,13 +1,13 @@
-bind branch n !@git branch %(prompt Branch name: )
+bind branch n !@git branch %(prompt)
 bind branch d !?@git branch -d %(branch)
 bind refs	d	?git sparse-checkout disable
 bind main = !?git commit --fixup=%(commit)
 bind main R !?git rebase --autosquash -i %(commit)
 bind main a !?git commit --amend
 bind status a !?git commit --amend
-bind status S !?git stash save --kep-index %(prompt Stash name: )
+bind status S !?git stash save --kep-index %(prompt)
 bind status D !@?rm %(file)
-bind main T !@git tag %(prompt Tag: ) %(commit)
+bind main T !@git tag %(prompt) %(commit)
 bind status P !git push origin
 bind generic 9 !@sh -c "git show -s --format=%s %(commit) | xclip -sel clip"
 bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
