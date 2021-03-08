@@ -1,0 +1,4 @@
+" pathogen package manager:
+
+execute pathogen#interpose('bundle/vimtex')
+execute pathogen#interpose('bundle/ultisnips')

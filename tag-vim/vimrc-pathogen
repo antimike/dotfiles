@@ -1,0 +1,19 @@
+" pathogen package manager:
+
+let g:pathogen_disabled = []
+
+call add(g:pathogen_disabled, 'coc-snippets')
+call add(g:pathogen_disabled, 'coc.nvim')
+call add(g:pathogen_disabled, 'CRefVim')
+call add(g:pathogen_disabled, 'ShowMarks') 
+call add(g:pathogen_disabled, 'vdebug')
+call add(g:pathogen_disabled, 'vim-gutentags')
+call add(g:pathogen_disabled, 'vebugger')
+call add(g:pathogen_disabled, 'vimfiler.vim') 
+call add(g:pathogen_disabled, 'YouCompleteMe')
+call add(g:pathogen_disabled, 'vim-build-tools-wrapper')
+"call add(g:pathogen_disabled, 'unite.vim') 
+call add(g:pathogen_disabled, 'zotcite') 
+
+execute pathogen#infect()
+
