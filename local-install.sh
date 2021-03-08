@@ -30,3 +30,5 @@ sudo apt-get install yubikey-personalization-gui libpam-yubico libpam-u2f -y
 sudo apt-get install libfido2-0 libfido2-1 libfido2-udev -y
 sudo apt-get install pcscd scdaemon gnupg2 pcsc-tools -y
 echo reader-port "Yubico Yubikey 4 OTP+U2F+CCID 00 00" > ~/.gnupg/scdaemon.conf
+sudo apt-get install i3xrocks-battery -y
+regolith-look refresh
