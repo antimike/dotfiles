@@ -5,7 +5,7 @@ bind main = !?git commit --fixup=%(commit)
 bind main R !?git rebase --autosquash -i %(commit)
 bind main a !?git commit --amend
 bind status a !?git commit --amend
-bind status S !?git stash save --kep-index %(prompt)
+bind status S !?git stash save --keep-index %(prompt)
 bind status D !@?rm %(file)
 bind main T !@git tag %(prompt) %(commit)
 bind status P !git push origin
