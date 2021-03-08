@@ -14,3 +14,4 @@ stack install hdevtools
 # RCM
 # Makes hostname-specific RC file for RCM itself
 mkrc -B work .rcrc
+sudo dnf install git-remote-gcrypt -y
