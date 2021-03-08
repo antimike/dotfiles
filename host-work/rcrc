@@ -1,0 +1,7 @@
+COPY_ALWAYS=""
+DOTFILES_DIRS="/home/user/.dotfiles"
+EXCLUDES="github_recovery_codes.asc install.sh README.md TOTRY.md"
+HOSTNAME="work"
+TAGS="compute emacs extras git graphics library mail nvim qubes terminal todo viewers"
+SYMLINK_DIRS="texmf"
+UNDOTTED="texmf"
