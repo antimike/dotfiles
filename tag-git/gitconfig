@@ -17,3 +17,7 @@ vtag = !git tag -v `git describe`
 	cmd = vim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
 [mergetool]
 	keepBackup = false
+[commit]
+	gpgSign = false
+[tag]
+	gpgSign = true
