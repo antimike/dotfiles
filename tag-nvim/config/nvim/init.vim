@@ -24,6 +24,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
+Plug 'whiteinge/diffconflicts'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'bitc/vim-hdevtools'
 Plug 'reedes/vim-wheel'
