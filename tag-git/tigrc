@@ -7,7 +7,7 @@ bind main a !?git commit --amend
 bind status a !?git commit --amend
 bind status S !?git stash save --keep-index "%(prompt Stash name: )"
 bind status D !@?rm %(file)
-bind main T !@git tag -a "%(prompt Tag: )" %(commit)
+bind reflog T !@git tag -a "%(prompt Tag: )" %(commit)
 bind status P !?git push %(remote)
 bind generic 9 !@sh -c "git show -s --format=%s %(commit) | xclip -sel clip"
 bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
