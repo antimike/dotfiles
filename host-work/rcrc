@@ -1,6 +1,6 @@
 COPY_ALWAYS=""
 DOTFILES_DIRS="/home/user/.dotfiles"
-EXCLUDES="github_recovery_codes.asc install.sh README.md TOTRY.md"
+EXCLUDES="github_recovery_codes.asc install.sh README.md TOTRY.md taskell.md"
 HOSTNAME="work"
 TAGS="compute emacs extras git graphics library mail nvim qubes terminal todo viewers tex"
 SYMLINK_DIRS="texmf"
