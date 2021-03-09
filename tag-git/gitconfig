@@ -10,9 +10,10 @@ program = qubes-gpg-client-wrapper
 stag = "!id=`git rev-parse --verify HEAD`; git tag -s Mike_${id:0:8} -m \"Tag for commit $id\""
 vtag = !git tag -v `git describe`
 [merge]
-	tool = vimdiff
 	tool = diffconflicts
 [hub]
 	protocol = ssh
 [mergetool "diffconflicts"]
 	cmd = vim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+	keepBackup = false
