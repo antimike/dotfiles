@@ -51,6 +51,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-peekaboo'
 Plug 'honza/vim-snippets'
 Plug 'Yilin-Yang/vim-markbar'
+Plug 'kshenoy/vim-signature'
 " Git branch viewer---updated GitV
 Plug 'rbong/vim-flog'
 "Plug 'bling/vim-bufferline'
