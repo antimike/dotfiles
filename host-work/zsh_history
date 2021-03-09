@@ -1191,3 +1191,225 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615198412:0;git submodule status
 : 1615198445:0;rcup -B work -t tex
 : 1615198476:0;tig
+: 1615198657:0;git push --set-upstream origin work
+: 1615198669:0;gita ll
+: 1615198680:0;gita fetch
+: 1615198691:0;gita pull
+: 1615198716:0;gita push
+: 1615198729:0;gita ll
+: 1615198751:0;tig
+: 1615198832:0;gita add ~/Administrative
+: 1615198926:0;gita add ~/Documents/Fall\ 2019 ~/Documents/Fall\ 2020
+: 1615198939:0;gita rename Fall\ 2019 fall-2019
+: 1615198953:0;gita rename Fall\ 2020 fall-2020
+: 1615198960:0;gita ll
+: 1615198976:0;gita super fall-2020 remote -v
+: 1615199077:0;git super fall-2020 remote add origin git@github.com:antimike/fall-2020.git
+: 1615199092:0;gita super fall-2020 remote add origin git@github.com:antimike/fall-2020.git
+: 1615199101:0;gita super fall-2020 remote -v
+: 1615199118:0;gita super fall-2020 branch -M main
+: 1615199140:0;gita super fall-2020 branch
+: 1615199152:0;gita super fall-2020 status
+: 1615199165:0;gita super fall-2020 add .
+: 1615199185:0;cd ~/Documents/Fall\ 2020
+: 1615199187:0;git status
+: 1615199198:0;git add .
+: 1615199214:0;git add Colloquia/
+: 1615199218:0;ls Colloquia
+: 1615199240:0;cd Colloquia
+: 1615199243:0;git status
+: 1615199286:0;tig
+: 1615199304:0;ls -la | grep git
+: 1615199313:0;rm -r .git
+: 1615199316:0;git status
+: 1615199321:0;cd ..
+: 1615199326:0;cd EM
+: 1615199328:0;git status
+: 1615199334:0;rm -r .git
+: 1615199346:0;rm -r .git -f
+: 1615199356:0;cd ../Stat\ Mech
+: 1615199357:0;git status
+: 1615199365:0;git rm -r .git -f
+: 1615199376:0;git status
+: 1615199385:0;ls -a | grep git
+: 1615199388:0;rm -r .git
+: 1615199391:0;cd ..
+: 1615199394:0;ls
+: 1615199399:0;cd FEM
+: 1615199401:0;git status
+: 1615199405:0;rm -r .git
+: 1615199409:0;rm -r .git -f
+: 1615199412:0;cd ..
+: 1615199412:0;ls
+: 1615199422:0;cd Physics\ 142\ \(TA\)
+: 1615199431:0;rm -r .git -f
+: 1615199440:0;cd ../Physics\ 341\ \(Grading\)
+: 1615199442:0;rm -r .git -f
+: 1615199448:0;cd ../diary
+: 1615199451:0;rm -r .git -f
+: 1615199458:0;cd ..
+: 1615199466:0;git status
+: 1615199469:0;git add .
+: 1615199511:0;rm -r .git -f
+: 1615199515:0;git status
+: 1615199596:0;git init
+: 1615199603:0;git add Colloquia/
+: 1615199606:0;git add diary/
+: 1615199609:0;git add EM
+: 1615199633:0;git add FEM
+: 1615199639:0;git add Physics\ 142\ \(TA\)
+: 1615199691:0;git add Physics\ 341\ \(Grading\)
+: 1615199729:0;git add Stat\ Mech/
+: 1615199737:0;git add .
+: 1615199740:0;git status
+: 1615199757:0;git commit -m "First commit---consolidated all individual class repos"
+: 1615199761:0;git remote -v
+: 1615199783:0;git remove add origin git@github.com:antimike/fall-2020.git
+: 1615199794:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615199803:0;git branch -M main
+: 1615199810:0;git push -u origin main
+: 1615199915:0;cd ~/Documents/Spring\ 2020
+: 1615199917:0;git status
+: 1615199924:0;ranger
+: 1615199990:0;git init
+: 1615200035:0;git rm Physics\ 341\ \(Grading\)/Assignments/Midterm1/submissions.zip
+: 1615200042:0;git status
+: 1615200114:0;git commit -m "Deleted large file (submissions.zip from PH341 Midterm 1)"
+: 1615200124:0;git push
+: 1615200144:0;git push -u origin main
+: 1615200165:0;git add Administrative/
+: 1615200171:0;git add CMT/
+: 1615200176:0;git add Lasers/
+: 1615200181:0;git add Seminars/
+: 1615200185:0;git add Quantum/
+: 1615200188:0;git add Repo/
+: 1615200191:0;git add .
+: 1615200202:0;git commit -m "First commit---consolidated individual class repos"
+: 1615200219:0;git remote add origin git@github.com:antimike/spring-2020.git
+: 1615200224:0;git branch -M main
+: 1615200227:0;git push -u origin main
+: 1615200247:0;ranger
+: 1615200262:0;gita add ~/Documents/Spring\ 2020
+: 1615200272:0;gita rename Spring\ 2020 spring-2020
+: 1615200276:0;gita ll
+: 1615200296:0;ranger
+: 1615200372:0;rm -r .git -f
+: 1615200416:0;git init
+: 1615200430:0;nvim .gitignore
+: 1615200446:0;tig
+: 1615200472:0;git add directory.md
+: 1615200479:0;git commit -m "Added 'directory.md'"
+: 1615200481:0;tig
+: 1615200581:0;nvim
+: 1615200835:0;git status
+: 1615200842:0;tig
+: 1615200856:0;git add .
+: 1615200906:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615200912:0;git branch -M main
+: 1615200925:0;git push -u origin main
+: 1615200941:0;git status
+: 1615200966:0;git commit -m "Added all other files from Fall 2020 except large mp4 and zip files in gitignore"
+: 1615200970:0;git push
+: 1615201102:0;nvim .gitignore
+: 1615201143:0;rm -r .git -f
+: 1615201146:0;git init
+: 1615201157:0;git status
+: 1615201162:0;git add .
+: 1615201179:0;rm -r .git -f
+: 1615201330:0;git init
+: 1615201343:0;git add Colloquia/
+: 1615201349:0;git add diary/ FEM
+: 1615201355:0;git add Physics\ 14
+: 1615201358:0;git add Physics\ 142\ \(TA\)
+: 1615201362:0;git add EM
+: 1615201376:0;git status | grep mp4
+: 1615201379:0;tig
+: 1615201408:0;git commit -m "Added half the files from fall 2020 (issues with previous attempts concerning filesize)"
+: 1615201431:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615201437:0;git branch -M main
+: 1615201442:0;git push -u origin main
+: 1615201584:0;git push -u --force origin master
+: 1615201603:0;git push -u --force origin main
+: 1615201629:0;git status
+: 1615201643:0;git add Physics\ 341\ \(Grading\)
+: 1615201655:0;tig
+: 1615201676:0;git push
+: 1615201687:0;git commit -m "Added PH341 files"
+: 1615201689:0;git push
+: 1615201740:0;git add Stat\ Mech/
+: 1615201746:0;git push
+: 1615201753:0;git commit -m "Added Stat Mech files"
+: 1615201755:0;git push
+: 1615201783:0;git add .
+: 1615201791:0;git commit -m "Added all remaining files from Fall 2020"
+: 1615201799:0;git status
+: 1615201800:0;git push
+: 1615201818:0;gita add ~/Documents/Wiki
+: 1615201860:0;cd ../Wiki
+: 1615201862:0;git status
+: 1615201864:0;git add .
+: 1615201870:0;git commit -m "Catchup commit (pre-push)"
+: 1615201875:0;git origin -v
+: 1615201880:0;git remote -v
+: 1615201889:0;git remote add origin git@github.com:antimike/work-wiki.git
+: 1615201893:0;git branch -M main
+: 1615201900:0;git push -u origin main
+: 1615201914:0;gita ll
+: 1615201923:0;gita rename Wiki wiki
+: 1615201981:0;gita add ~/Research/London-Staged-Solver
+: 1615201989:0;gita add ~/Research/London-FEM-solver
+: 1615202020:0;gita rename London-Staged-Solver london-staged
+: 1615202031:0;gita rename London-FEM-solver london-fem
+: 1615202035:0;gita ll
+: 1615201194:857;ranger
+: 1615202315:0;dnf search yubi
+: 1615202340:0;dnf search authenticator
+: 1615202349:0;dnf search authenticator yubi
+: 1615202356:0;snap search yubico
+: 1615202543:0;cd ~/.dotfiles
+: 1615202545:0;git push
+: 1615255719:0;git config --global merge.tool diffconflicts
+: 1615255779:0;git config --global mergetool.diffconflicts.cmd 'vim -c DiffConflicts "$MERGED" "$BASE" "$LOCAL" "$REMOTE"'
+: 1615255791:0;--global mergetool.keepBackup false
+: 1615255805:0;git config --global mergetool.keepBackup false
+: 1615255819:0;nvim
+: 1615258368:0;systemctl status pcscd
+: 1615265267:0;cabal update
+: 1615265286:0;cabal install taskell
+: 1615267892:0;taskell
+: 1615269550:0;git config --global commit.gpgsign true
+: 1615269728:0;echo "$(tty)"
+: 1615270233:0;tig
+: 1615270247:0;cd ~/.dotfiles
+: 1615270249:0;tig
+: 1615270609:0;git config --global tag.gpgSign = true
+: 1615270617:0;tig
+: 1615270694:0;git status
+: 1615270704:0;git diff tag-git/gitconfig
+: 1615270745:0;git config --global tag.gpgSign true
+: 1615270748:0;git diff tag-git/gitconfig
+: 1615270802:0;git config --global tag.gpgSign false
+: 1615270805:0;tig
+: 1615270823:0;git config --global tag.gpgSign true
+: 1615270846:0;git config --global commit.gpgSign false
+: 1615270849:0;tig
+: 1615272735:0;gpg --card-status
+: 1615272764:0;git show
+: 1615272830:0;tig
+: 1615273191:0;git show v1.0
+: 1615273266:0;git tag
+: 1615273333:0;git verify-tag V1.0
+: 1615273369:0;gita ll
+: 1615273379:0;gita status work
+: 1615273383:0;gita super work status
+: 1615273388:0;gita ll
+: 1615273396:0;gita super dotfiles status
+: 1615273778:0;cd ~/.config/taskell
+: 1615273780:0;ranger
+: 1615273880:0;mkrc -t todo ~/.config/taskell
+: 1615273890:0;taskell
+: 1615274051:0;echo "cabal install taskell" >> $INSTALLED
+: 1615274203:0;git tag -d V1.0
+: 1615274231:0;git push origin :refs/tags/V1.0
+: 1615274244:0;git status
+: 1615274255:0;tig
