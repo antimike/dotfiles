@@ -1,16 +1,18 @@
-bind branch n !@git branch %(prompt)
+bind branch n !@git branch "%(prompt Branch name: )"
 bind branch d !?@git branch -d %(branch)
 bind refs	d	?git sparse-checkout disable
 bind main = !?git commit --fixup=%(commit)
 bind main R !?git rebase --autosquash -i %(commit)
 bind main a !?git commit --amend
 bind status a !?git commit --amend
-bind status S !?git stash save --keep-index %(prompt)
+bind status S !?git stash save --keep-index "%(prompt Stash name: )"
 bind status D !@?rm %(file)
-bind main T !@git tag %(prompt) %(commit)
-bind status P !git push origin
+bind main T !@git tag -a "%(prompt Tag: )" %(commit)
+bind status P !?git push %(remote)
 bind generic 9 !@sh -c "git show -s --format=%s %(commit) | xclip -sel clip"
 bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
 bind tree <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
-bind main ! !git revert %(commit)
+bind main ! !?git revert %(commit)
 bind generic T !git notes edit %(commit)
+bind refs P !?git push origin %(tag)
+bind refs <Ctrl-P> !?git push -u "%(prompt Upstream branch: )" %(branch)
