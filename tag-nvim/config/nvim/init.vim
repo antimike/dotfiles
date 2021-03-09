@@ -25,6 +25,7 @@ Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
 Plug 'whiteinge/diffconflicts'
+Plug 'sjl/gundo.vim'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'bitc/vim-hdevtools'
 Plug 'reedes/vim-wheel'
