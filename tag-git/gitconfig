@@ -21,3 +21,5 @@ vtag = !git tag -v `git describe`
 	gpgSign = false
 [tag]
 	gpgSign = true
+[core]
+	editor = nvim
