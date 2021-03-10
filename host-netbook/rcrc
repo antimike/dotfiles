@@ -1,5 +1,5 @@
 COPY_ALWAYS=""
-DOTFILES_DIRS="/home/user/.dotfiles"
+DOTFILES_DIRS="/home/hactar/.dotfiles"
 EXCLUDES="github_recovery_codes.asc install.sh README.md TOTRY.md host-specific.md"
 HOSTNAME="netbook"
 TAGS="compute emacs extras git graphics library mail nvim terminal todo viewers tex debian"
