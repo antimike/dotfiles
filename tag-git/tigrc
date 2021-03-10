@@ -10,8 +10,8 @@ bind status D !@?rm %(file)
 bind reflog T !@git tag -a "%(prompt Tag: )" -m "%(prompt Comment: )" %(commit)
 bind status P !?git push %(remote)
 bind generic 9 !@sh -c "git show -s --format=%s %(commit) | xclip -sel clip"
-bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
-bind tree <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
+bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && nvim .gitignore"
+bind tree <Ctrl-r> !sh -c "echo %(file) >> .gitignore && nvim .gitignore"
 bind main ! !?git revert %(commit)
 bind generic T !git notes edit %(commit) 
 bind refs P !?git push origin %(tag)
