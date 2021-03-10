@@ -32,10 +32,15 @@
 c.InteractiveShellApp.exec_lines = []
 c.InteractiveShellApp.exec_lines.append('from pint import UnitRegistry')
 c.InteractiveShellApp.exec_lines.append('import uncertainties')
+c.InteractiveShellApp.exec_lines.append('import numpy as np')
+c.InteractiveShellApp.exec_lines.append('import scipy as sp')
+c.InteractiveShellApp.exec_lines.append('import matplotlib as mpl')
 c.InteractiveShellApp.exec_lines.append('_ = UnitRegistry()')
 c.InteractiveShellApp.exec_lines.append('%load_ext autoreload')
 c.InteractiveShellApp.exec_lines.append('%autoreload 2')
-c.InteractiveShellApp.exec_lines.append('print "Warning: disable autoreload in ipython_config.py to improve performance." ')
+c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in ipython_config.py to improve performance.")')
+c.InteractiveShellApp.exec_lines.append('print("Auto-loaded modules: NumPy (np), SymPy (sp), MatPlotLib (mpl), Pint, Uncertainties")')
+c.InteractiveShellApp.exec_lines.append('print("Pint UnitRegistry is available under variable name \'_\'.")')
 
 ## A list of dotted module names of IPython extensions to load.
 #c.InteractiveShellApp.extensions = []
@@ -53,28 +58,28 @@ c.InteractiveShellApp.exec_lines.append('print "Warning: disable autoreload in i
 
 ## Should variables loaded at startup (by startup files, exec_lines, etc.) be
 #  hidden from tools like %who?
-#c.InteractiveShellApp.hide_initial_ns = True
+c.InteractiveShellApp.hide_initial_ns = False
 
 ## If True, IPython will not add the current working directory to sys.path. When
 #  False, the current working directory is added to sys.path, allowing imports of
 #  modules defined in the current directory.
 c.InteractiveShellApp.ignore_cwd = False
 
-## Configure matplotlib for interactive use with the default matplotlib backend.
-#c.InteractiveShellApp.matplotlib = None
+# Configure matplotlib for interactive use with the default matplotlib backend.
+# c.InteractiveShellApp.matplotlib = None
 
 ## Run the module as a script.
 #c.InteractiveShellApp.module_to_run = ''
 
-## Pre-load matplotlib and numpy for interactive use, selecting a particular
-#  matplotlib backend and loop integration.
-#c.InteractiveShellApp.pylab = None
+# Pre-load matplotlib and numpy for interactive use, selecting a particular
+ # matplotlib backend and loop integration.
+# c.InteractiveShellApp.pylab = None
 
 ## If true, IPython will populate the user namespace with numpy, pylab, etc. and
 #  an ``import *`` is done from numpy and pylab, when using pylab mode.
 #  
 #  When False, pylab mode should not import any names into the user namespace.
-c.InteractiveShellApp.pylab_import_all = True
+# c.InteractiveShellApp.pylab_import_all = True
 
 ## Reraise exceptions encountered loading IPython extensions?
 #c.InteractiveShellApp.reraise_ipython_extension_failures = False
