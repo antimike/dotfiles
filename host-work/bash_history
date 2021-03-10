@@ -1331,3 +1331,123 @@ exec /usr/lib64/sagemath/local/bin/sage "$@"
 #!/usr/bin/bash -i
 source /usr/lib64/sagemath/local/bin/sage-env
 exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+git rm --cached **/*.aux *latexmk *.log *.sout *.synctex *.gz *.scmd
+git rm --cached **/*.aux **/*latexmk **/*.log **/*.sout **/*.synctex **/*.gz **/*.scmd
+git rm --cached **/*.aux **/*latexmk **/*.sout **/*.synctex **/*.gz **/*.scmd

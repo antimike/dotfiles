@@ -1413,3 +1413,94 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615274231:0;git push origin :refs/tags/V1.0
 : 1615274244:0;git status
 : 1615274255:0;tig
+: 1615274336:0;git tag V1.0
+: 1615274504:0;git tag
+: 1615274515:0;git tag V1.0
+: 1615274630:0;git tag
+: 1615274654:0;git status
+: 1615274681:0;mv taskell.md ~/Documents/Spring\ 2021
+: 1615274685:0;taskell
+: 1615274781:0;tig
+: 1615275034:0;qubes-gpg-client --card-status
+: 1615275044:0;qubes-gpg-client --list-secret-keys
+: 1615275062:0;qubes-gpg-client --list-secret-keys --keyid-format 0xshort
+: 1615275118:0;echo "Hi there" | qubes-gpg-client -a -e -r 0x210AA3233 | qubes-gpg-client -d
+: 1615275146:0;echo "Hi there" | qubes-gpg-client -a -e -r 0x210A3233 | qubes-gpg-client -d
+: 1615276387:0;gpg --card-status
+: 1615276486:0;cd ~/.dot
+: 1615276491:0;~/.dotfiles
+: 1615276494:0;git tag
+: 1615276496:0;tig
+: 1615276568:0;gita ll
+: 1615348242:0;git fetch origin
+: 1615348248:0;git pull
+: 1615352171:0;tig
+: 1615352190:0;ipython
+: 1615352312:0;ipython --TerminalInteractiveShell.editing_mode=vi
+: 1615352358:0;ipython profile create
+: 1615352379:0;nvim ~/.ipython/profile_default/ipython_kernel_config.py
+: 1615352519:0;ipython
+: 1615352527:0;ranger
+: 1615352596:0;mkrc -B work ~/.ipython/profile_default/history.sqlite
+: 1615352631:0;mkrc -t compute ~/.ipython/profile_default/ipython_config
+: 1615352648:0;mkrc -t compute ~/.ipython/profile_default/ipython_config.py
+: 1615352659:0;mkrc -t compute ~/.ipython/profile_default/ipython_kernel_config.py
+: 1615353429:0;pip3 install uncertainties --user
+: 1615353440:0;ipython
+: 1615355240:0;tig
+: 1615355425:0;ipython
+: 1615355442:0;nvim
+: 1615355477:0;ipython
+: 1615355989:0;dnf search guake
+: 1615356003:0;snap search guake
+: 1615356263:0;tig
+: 1615356304:0;git push
+: 1615356348:0;nvim
+: 1615365242:0;dnf search pydb
+: 1615365266:0;pip3 install pydbgp --user
+: 1615368126:0;sage --preparse /home/user/Documents/Python/Utilities/table.sage
+: 1615373062:0;echo $EDITOR
+: 1615373149:0;git config --global core.editor nvim
+: 1615373156:0;tig
+: 1615373338:0;~/Documents/Spring\ 2021
+: 1615373350:0;~/Documents/Spring-2021
+: 1615373353:0;tig
+: 1615373418:0;cat ~/.gitconfig
+: 1615373450:0;git config core.editor
+: 1615373481:0;git config -e
+: 1615373515:0;git config --global -e
+: 1615373536:0;git config --global core.editor vim
+: 1615373538:0;git config --global -e
+: 1615373550:0;git config --global core.editor nvim
+: 1615373554:0;git config --global -e
+: 1615373798:0;nvim ~/.tigrc
+: 1615373844:0;git -e .gitignore
+: 1615374161:0;git ignore --help
+: 1615374167:0;git --help
+: 1615374176:0;git --help | grep ign
+: 1615374266:0;tig
+: 1615374747:0;nvim ~/.tigrc
+: 1615374793:0;tig
+: 1615374925:0;git status
+: 1615374941:0;git add .gitignore
+: 1615374947:0;git status
+: 1615374981:0;git commit -m "Added .gitignore with extensions for TeX barf files"
+: 1615374985:0;ti9g
+: 1615374987:0;tig
+: 1615375118:0;ranger
+: 1615375236:0;git rm --cached *.log *.aux *latexmk *.scmd *.sout *.gz *.synctex.gz
+: 1615375245:0;git status
+: 1615375267:0;git rm --cached /**/*.log
+: 1615375376:0;git rm --cached /**.log
+: 1615375388:0;git rm --cached **.log
+: 1615375406:0;git rm --cached **/*.log
+: 1615375424:0;nvim .gitignore
+: 1615375946:0;git status
+: 1615375964:0;nvim .gitignore
+: 1615376008:0;git status
+: 1615376013:0;ranger
+: 1615376029:0;tig
+: 1615376347:0;git push
+: 1615376374:0;tig
+: 1615376421:0;gita ll
+: 1615376429:0;tig
