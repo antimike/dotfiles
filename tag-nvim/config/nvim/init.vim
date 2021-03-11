@@ -27,6 +27,7 @@ Plug 'reedes/vim-colors-pencil'
 Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
 Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'puremourning/vimspector'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 Plug 'whiteinge/diffconflicts'
 Plug 'sjl/gundo.vim'
 Plug 'neovimhaskell/haskell-vim'
