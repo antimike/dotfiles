@@ -24,6 +24,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
+Plug 'puremourning/vimspector'
 Plug 'whiteinge/diffconflicts'
 Plug 'sjl/gundo.vim'
 Plug 'neovimhaskell/haskell-vim'
@@ -336,5 +337,6 @@ source ~/.config/nvim/init.octave
 source ~/.config/nvim/init.fold
 source ~/.config/nvim/init.git
 source ~/.config/nvim/init.haskell
+source ~/.config/nvim/init.vimspector
 
 hi clear Conceal
