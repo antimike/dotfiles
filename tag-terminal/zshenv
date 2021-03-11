@@ -60,7 +60,7 @@ export PATH="/home/user/.gem/ruby/bin:$PATH"
 export PATH="/home/user/node_modules:$PATH"
 
 # Bash aliases
-source ~/.bashrc
+#source ~/.bashrc
 
 /rw/config/rc.local
 # DO NOT DO THIS!!!
