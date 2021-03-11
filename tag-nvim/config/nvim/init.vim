@@ -24,6 +24,8 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
+Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
+Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'puremourning/vimspector'
 Plug 'whiteinge/diffconflicts'
 Plug 'sjl/gundo.vim'
