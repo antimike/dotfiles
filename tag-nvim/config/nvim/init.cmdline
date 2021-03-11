@@ -41,24 +41,24 @@ au BufReadPost,BufNewFile,BufEnter *.m :Tmap cd %:p:h; octave %
 " vimcmdline anyway
 "nnoremap <leader>R :REPLToggle<CR>
 "nnoremap <leader>E :REPLSendSession<CR>
-let g:repl_program = {
-                        \ 'python': 'ipython',
-                        \ 'sage': 'sage',
-                        \ 'tex': 'sage',
-                        \ 'octave': 'octave',
-                        \ 'default': 'zsh',
-                        \ 'vim': 'vim -e',
-                        \ 'lua': 'lua'
-                        \ }
-let g:repl_exit_commands = {
-                        \ 'python': 'quit()',
-                        \ 'zsh': 'exit',
-                        \ 'default': 'exit',
-                        \ 'haskell': 'quit'
-                        \ }                        
-let g:repl_predefine_python = {
-                        \ 'numpy': 'import numpy as np',
-                        \ 'matplotlib': 'from matplotlib import pyplot as plt',
-                        \ 'pint': 'from pint import UnitRegistry',
-                        \ 'ureg': 'ureg = UnitRegistry()'
-                        \ }                        
+"let g:repl_program = {
+                        "\ 'python': 'ipython',
+                        "\ 'sage': 'sage',
+                        "\ 'tex': 'sage',
+                        "\ 'octave': 'octave',
+                        "\ 'default': 'zsh',
+                        "\ 'vim': 'vim -e',
+                        "\ 'lua': 'lua'
+                        "\ }
+"let g:repl_exit_commands = {
+                        "\ 'python': 'quit()',
+                        "\ 'zsh': 'exit',
+                        "\ 'default': 'exit',
+                        "\ 'haskell': 'quit'
+                        "\ }                        
+"let g:repl_predefine_python = {
+                        "\ 'numpy': 'import numpy as np',
+                        "\ 'matplotlib': 'from matplotlib import pyplot as plt',
+                        "\ 'pint': 'from pint import UnitRegistry',
+                        "\ 'ureg': 'ureg = UnitRegistry()'
+                        "\ }                        
