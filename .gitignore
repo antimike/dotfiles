@@ -1,3 +1,7 @@
 *.swp
 repos.json
 *.lock
+host-work/venv/lib/**
+host-work/venv/lib64
+host-work/venv/bin/**
+host-work/venv/lib64
