@@ -1504,3 +1504,93 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615376374:0;tig
 : 1615376421:0;gita ll
 : 1615376429:0;tig
+: 1615376466:0;gita ll
+: 1615376901:0;tig
+: 1615377177:0;nvim .gitignore
+: 1615377407:0;git status
+: 1615377413:0;tig
+: 1615377465:0;git push
+: 1615377482:0;gita ll
+: 1615441787:0;julia
+: 1615443668:0;pip3 install doq --user && pip2 install doq --user
+: 1615443679:0;log-installed
+: 1615443814:0;nvim
+: 1615444015:0;python3 -m venv ./venv
+: 1615444026:0;./venv/bin/pip3 install doq
+: 1615444036:0;which doq
+: 1615444051:0;ls | grep venv
+: 1615444054:0;ranger
+: 1615444156:0;mv venv host-work
+: 1615444178:0;ranger
+: 1615444306:0;rcup -B work venv
+: 1615444447:0;rcdn -B work venv
+: 1615444452:0;nvim
+: 1615444540:0;rcup -B work venv
+: 1615444548:0;tig
+: 1615444770:0;git push
+: 1615445118:0;nvim
+: 1615445237:0;dnf search pydbg
+: 1615445498:0;nvim --version
+: 1615446331:0;dnf search uivonim
+: 1615446339:0;dnf search oni2
+: 1615446589:0;nvim
+: 1615449720:0;nvim ~/.zshenv
+: 1615449860:0;ls ~/.config/nvim | grep spector
+: 1615449875:0;mkrc -t nvim ~/.config/nvim/init.vimspector
+: 1615449962:0;top
+: 1615450005:0;kill 2182492
+: 1615450578:0;gita fetch dotfiles
+: 1615450590:0;gita super dotfiles fetch origin
+: 1615450598:0;gita pull dotfiles
+: 1615451448:0;ag --help
+: 1615451468:0;ag --list-file-types | grep md
+: 1615451475:0;ag --md markbar
+: 1615451481:0;ls
+: 1615451491:0;ag markbar
+: 1615451533:0;ag --help | grep hidden
+: 1615451562:0;ag -t --hidden markbar
+: 1615451631:0;cd ~/.dotfiles
+: 1615451633:0;tig
+: 1615452413:0;nvim
+: 1615454770:0;ls ~/.config/nvim/vim-plug/vimspector
+: 1615454784:0;cd ~/.config/nvim/vim-plug/vimspector
+: 1615454797:0;cd configurations
+: 1615454798:0;ls
+: 1615454801:0;cd linux
+: 1615454801:0;ls
+: 1615454804:0;ls _all
+: 1615454811:0;cd ../..
+: 1615454824:0;ranger
+: 1615454976:0;cd tests
+: 1615454986:0;ls | grep vimrc
+: 1615455020:0;nvim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'"
+: 1615455129:0;nvim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ./python/Test_ExpandReferencesInDict.py
+: 1615455189:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ./python/Test_ExpandReferencesInDict.py
+: 1615455247:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ../support/test/python/simple_python
+: 1615455402:0;ranger
+: 1615455464:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ../support/test/python/simple_python
+: 1615456003:0;cd ~/Source
+: 1615456011:0;git clone https://github.com/vim/vim
+: 1615456091:0;CFLAGS='-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer' \\
+    ./configure --prefix=$(pwd)/root \\
+                --with-features=huge \\
+                --enable-python3interp \\
+                --enable-terminal  \\
+                --enable-fail-if-missing
+: 1615456097:0;cd vim
+: 1615456100:0;CFLAGS='-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer' \\
+    ./configure --prefix=$(pwd)/root \\
+                --with-features=huge \\
+                --enable-python3interp \\
+                --enable-terminal  \\
+                --enable-fail-if-missing
+: 1615456116:0;make
+: 1615456149:0;make install
+: 1615456178:0;ls
+: 1615456183:0;cd src/testdir
+: 1615456226:0;VIMRUNTIME=../../runtime ../vim -f -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_python3.vim
+: 1615456551:0;cd ..
+: 1615456565:0;nvim .vimspector.json
+: 1615456855:0;nvim .
+: 1615458729:0;cd ~/.dotfiles
+: 1615458730:0;tig
