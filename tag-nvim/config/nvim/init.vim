@@ -39,7 +39,7 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'navicore/vissort.vim'
 Plug 'christoomey/vim-sort-motion'
 Plug 'kassio/neoterm'
-Plug 'sillybun/vim-repl'
+"Plug 'sillybun/vim-repl'
 Plug 'papis/papis-vim'
 "Plug 'felipec/notmuch-vim'
 "Plug 'guyzmo/notmuch-abook'
@@ -49,8 +49,9 @@ Plug 'vim-pandoc/vim-rmarkdown'
 Plug 'machakann/vim-sandwich'
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-peekaboo'
+"Snippet repo for various languages
 Plug 'honza/vim-snippets'
-Plug 'Yilin-Yang/vim-markbar'
+"Plug 'Yilin-Yang/vim-markbar'
 Plug 'kshenoy/vim-signature'
 " Git branch viewer---updated GitV
 Plug 'rbong/vim-flog'
@@ -58,7 +59,7 @@ Plug 'rbong/vim-flog'
 Plug 'tomtom/quickfixsigns_vim'
 Plug 'jmcantrell/vim-virtualenv'
 " Allows named tabs
-Plug 'gcmt/taboo.vim'
+"Plug 'gcmt/taboo.vim'
 
 "" Maintains a most-recently-used buffer stack
 "Plug 'mildred/vim-bufmru'
@@ -192,7 +193,7 @@ Plug 'mbbill/undotree'
 "Omitting in favor of Denite
 "Plug 'Shougo/unite.vim'
 Plug 'vim-scripts/utl.vim'
-Plug 'vim-vdebug/vdebug'
+"Plug 'vim-vdebug/vdebug'
 Plug 'inkarkat/vim-SyntaxRange'
 
 " Completion managers
@@ -241,10 +242,10 @@ Plug 'ryanoasis/vim-devicons'
 "nmap <leader>9 <Plug>BuffetSwitch(9)
 "nmap <leader>0 <Plug>BuffetSwitch(10)
 
-Plug 'LucHermitte/vim-build-tools-wrapper'
+"Plug 'LucHermitte/vim-build-tools-wrapper'
 Plug 'LucHermitte/lh-vim-lib'
 "Plug 'vim-ctrlspace/vim-ctrlspace'
-Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-dispatch', { 'on': [] }
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-flagship', { 'on': [] }
@@ -273,7 +274,7 @@ Plug 'mhinz/vim-startify'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'blindFS/vim-taskwarrior'
 "Plug 'sodapopcan/vim-twiggy'
-Plug 'idanarye/vim-vebugger'
+"Plug 'idanarye/vim-vebugger'
 Plug 'mg979/vim-visual-multi'
 Plug 'michal-h21/vim-zettel'
 "Plug 'Shougo/vimfiler.vim', { 'on': [] }
