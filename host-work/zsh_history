@@ -1633,3 +1633,10 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615539338:0;tig
 : 1615539477:0;nvim
 : 1615539505:0;rcdn -t firefox
+: 1615549871:1;gita ll
+: 1615549890:11;tig
+: 1615549933:0;git add tag-firefox
+: 1615549943:1;git commit -m "Firefox history for host-work"
+: 1615549984:21;rcup -B work -S venv -S mozilla
+: 1615550011:0;source ~/.zshrc
+: 1615550015:0;tig
