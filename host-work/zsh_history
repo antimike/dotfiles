@@ -1604,3 +1604,32 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615484609:0;share firefox
 : 1615484620:0;share kitty
 : 1615484643:0;share firefox
+: 1615535773:0;firefox -P
+: 1615535834:0;tig
+: 1615536057:0;ranger
+: 1615536869:0;qvm-copy /rw/config/rc.local
+: 1615536904:0;ranger
+: 1615537328:0;mkrc -t qubes /rw/config/rc.local
+: 1615537491:0;ls -a ~ | grep gpg
+: 1615537623:0;rcdn *.gpg *.asc
+: 1615537712:0;rcup -t crypto
+: 1615537823:0;tig
+: 1615538712:0;cd ~/.dotfiles
+: 1615538714:0;ranger
+: 1615538776:0;git status
+: 1615538921:0;git reset
+: 1615538943:0;git status
+: 1615538949:0;tig
+: 1615539156:0;git status
+: 1615539171:0;tig
+: 1615539229:0;git add tag-crypto
+: 1615539233:0;git status
+: 1615539248:0;git commit -m "Migrated appkeys, passwords, etc. into 'tag-crypto'"
+: 1615539251:0;git status
+: 1615539285:0;git add .gitignore
+: 1615539301:0;git commit -m "Added .gitignore rule for Firefox telemetry files"
+: 1615539310:0;git add tag-firefox
+: 1615539334:0;git commit -m "Added 'tag-firefox' for Firefox profiles and related stuff"
+: 1615539338:0;tig
+: 1615539477:0;nvim
+: 1615539505:0;rcdn -t firefox
