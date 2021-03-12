@@ -14,7 +14,7 @@ api-0954f67e.duosecurity.com:HSTS	0	18639	1642030321974,1,0,2
 warehouse-camo.ingress.cmh1.psfhosted.org:HSTS	10	18698	1647063785603,1,1,2
 api.convertkit.com:HSTS	0	18471	1611463087509,1,0,2
 cisco.demdex.net:HSTS	0	18639	1642030194188,1,1,2
-www.google.com^firstPartyDomain=google-b-1-d.search.suggestions.mozilla:HSTS	52	18698	1647077963436,1,0,2
+www.google.com^firstPartyDomain=google-b-1-d.search.suggestions.mozilla:HSTS	52	18698	1647078489206,1,0,2
 web.physics.indiana.edu:HSTS	0	18617	1671602460656,1,0,2
 matrix.to:HSTS	2	18506	1630518351932,1,1,2
 rspa.royalsocietypublishing.org:HSTS	0	18472	1611561029623,1,0,2
@@ -411,9 +411,9 @@ player.vimeo.com:HSTS	0	18671	1644713323509,1,1,2
 idp.springer.com:HSTS	1	18478	1628102200640,1,1,2
 cdn.speedcurve.com:HSTS	3	18677	1626261113205,1,0,2
 shivama205.medium.com:HSTS	0	18684	1629931275272,1,1,2
-api.github.com:HSTS	44	18698	1647077939089,1,1,2
+api.github.com:HSTS	44	18698	1647078492445,1,1,2
 cdn.vox-cdn.com:HSTS	1	18515	1631303960296,1,0,2
-github.com:HSTS	91	18698	1647077938840,1,1,2
+github.com:HSTS	91	18698	1647078489909,1,1,2
 pr.ybp.yahoo.com:HSTS	12	18698	1647068186535,1,0,2
 sandeepmathew.wordpress.com:HSTS	1	18670	1628723200855,1,0,2
 jill.fc.yahoo.com:HSTS	0	18688	1630267602619,1,0,2
@@ -573,7 +573,7 @@ c1-excel-15.cdn.office.net:HSTS	0	18646	1642619137094,1,0,2
 people-pa.clients6.google.com:HSTS	1	18537	1612557828984,1,1,2
 repo.zotero.org:HSTS	95	18698	1647077933396,1,1,2
 s.adzmath.com:HSTS	11	18693	1646657028461,1,1,2
-addons.cdn.mozilla.net:HSTS	11	18698	1647077831694,1,1,2
+addons.cdn.mozilla.net:HSTS	11	18698	1647078075984,1,1,2
 use.typekit.net:HSTS	19	18698	1647068771344,1,1,2
 support.zoom.us:HSTS	0	18501	1598806102223,1,0,2
 p44-keyvalueservice.icloud.com:HSTS	0	18498	1629819536399,1,1,2
@@ -731,7 +731,7 @@ wren.condenastdigital.com:HSTS	0	18472	1611781113586,1,0,2
 secure.na.tnspayments.com:HSTS	1	18478	1628036716661,1,1,2
 bos-v4.pops.fastly-insights.com:HSTS	0	18502	1598677151621,1,1,2
 support.google.com:HSTS	2	18512	1631033289695,1,1,2
-collector.githubapp.com:HSTS	44	18698	2246680457950,1,0,2
+collector.githubapp.com:HSTS	44	18698	2246681010171,1,0,2
 at.cbsi.com:HSTS	3	18639	1610493118017,1,0,2
 pipenv-fork.readthedocs.io:HSTS	0	18426	1623614203539,1,1,2
 meta.wikimedia.org:HSTS	6	18681	1720480478404,1,1,2
@@ -745,7 +745,7 @@ www.annualreviews.org:HSTS	0	18472	1611568986210,1,0,2
 pixel.spotify.com:HSTS	0	18693	1646649887056,1,0,2
 preferences.atlassian.com:HSTS	0	18503	1661752977824,1,0,2
 chat-pa.clients6.google.com:HSTS	1	18537	1612558889234,1,1,2
-events.apester.com:HSTS	0	18698	1647078070350,1,0,2
+events.apester.com:HSTS	0	18698	1647078460521,1,0,2
 js.hsforms.net:HSTS	0	18426	1623614135084,1,1,2
 cdn.apple-cloudkit.com:HSTS	0	18498	1629819570435,1,1,2
 c0.wp.com:HSTS	8	18698	1631093969581,1,0,2
@@ -872,7 +872,7 @@ mscom.demdex.net:HSTS	34	18697	1646987922295,1,1,2
 mel-v4.pops.fastly-insights.com:HSTS	0	18498	1598377774971,1,1,2
 developer.mozilla.org:HSTS	0	18496	1661149223746,1,0,2
 marketplace.visualstudio.com:HSTS	0	18471	1627447945650,1,1,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	143	18698	1647056845919,1,1,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	143	18698	1647078447035,1,1,2
 newsletter.linuxbabe.com:HSTS	1	18460	1626464417894,1,1,2
 urs.cnet.com:HSTS	0	18639	1642028818115,1,1,2
 a3716-15959608.cluster39.canvas-user-content.com:HSTS	0	18502	1630170409402,1,0,2
@@ -914,7 +914,7 @@ royalsocietypublishing.org:HSTS	0	18698	1631063551055,1,0,2
 checkout.paypal.com:HSTS	3	18691	1646453904848,1,0,2
 amcdn.msftauth.net:HSTS	1	18646	1642619135749,1,1,2
 a.fsdn.com:HSTS	4	18516	1630958932438,1,0,2
-github.githubassets.com:HSTS	11	18698	1647077932604,1,0,2
+github.githubassets.com:HSTS	11	18698	1647078491192,1,0,2
 maa-v4.pops.fastly-insights.com:HSTS	1	18507	1599165637599,1,1,2
 track.hubspot.com:HSTS	4	18680	1645568594643,1,1,2
 www.linkedin.com:HSTS	0	18513	1602192221797,1,0,2
@@ -984,7 +984,7 @@ connect.scroll.com:HSTS	1	18677	1676839388119,1,1,2
 waf.io:HSTS	0	18472	1627589094055,1,1,2
 cdn.vidible.tv:HSTS	0	18688	1630267574697,1,0,2
 wdc-v4.pops.fastly-insights.com:HSTS	2	18512	1599554079858,1,1,2
-avatars.githubusercontent.com:HSTS	10	18698	1647099670287,1,0,2
+avatars.githubusercontent.com:HSTS	10	18698	1647100089916,1,0,2
 a.disquscdn.com:HSTS	0	18697	1615442453505,1,1,2
 sourceforge.net:HSTS	15	18539	1630983901255,1,0,2
 pdk-v4.pops.fastly-insights.com:HSTS	1	18512	1599554077403,1,1,2
