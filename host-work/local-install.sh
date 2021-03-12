@@ -17,3 +17,4 @@ mkrc -B work .rcrc
 sudo dnf install git-remote-gcrypt -y
 cabal install taskell
 pip3 install doq --user && pip2 install doq --user
+pip3 install buku --user
