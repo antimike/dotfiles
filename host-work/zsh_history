@@ -1594,3 +1594,13 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615456855:0;nvim .
 : 1615458729:0;cd ~/.dotfiles
 : 1615458730:0;tig
+: 1615473322:0;gita ll
+: 1615473337:0;cd ~/Documents/Python
+: 1615473339:0;cd Utilities
+: 1615473343:0;git status
+: 1615473353:0;ranger
+: 1615483061:0;nvim
+: 1615484605:0;screenshare
+: 1615484609:0;share firefox
+: 1615484620:0;share kitty
+: 1615484643:0;share firefox
