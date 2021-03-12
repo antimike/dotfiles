@@ -6,3 +6,4 @@ host-work/venv/lib64
 host-work/venv/bin/**
 host-work/venv/lib64
 tag-firefox/mozilla/firefox/499ynfff.default-release/datareporting/**
+tag-firefox/mozilla/firefox/499ynfff.default-release/crashes/store.json.mozlz4
