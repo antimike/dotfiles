@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# This script will be executed at every VM startup, you can place your own
+# custom commands here. This includes overriding some configuration in /etc,
+# starting services etc.
+
+# Example for overriding the whole CUPS configuration:
+#  rm -rf /etc/cups
+#  ln -s /rw/config/cups /etc/cups
+#  systemctl --no-block restart cups
+# Split SSH config
+SSH_VAULT_VM='keyvault-slave-private'
+if [ "$SSH_VAULT_VM" != "" ]; then
+	export SSH_SOCK=~/.SSH_AGENT_$SSH_VAULT_VM
+	rm -f "$SSH_SOCK"
+	sudo -u user /bin/sh -c "umask 177 && ncat -k -l -U '$SSH_SOCK' -c 'qrexec-client-vm $SSH_VAULT_VM qubes.SshAgent' &"
+fi
