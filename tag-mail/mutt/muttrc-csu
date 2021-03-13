@@ -7,7 +7,7 @@ unvirtual-mailboxes *
 set from = "Antimike.Haynes@colostate.edu"
 set hostname = "colostate.edu"
 set folder = "~/mail/csu"
-set signature = "~/.mutt/signatures/signature-csu"
+set signature = "~/.mutt/signatures/csu"
 set sendmail = "/usr/bin/msmtp -a csu"
 #set sendmail="tee >(notmuch-deliver -t sent -f Sent) | /usr/bin/msmtp -a csu"            # enables parsing of outgoing mail
 
