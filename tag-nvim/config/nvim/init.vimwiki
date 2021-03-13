@@ -57,5 +57,6 @@ let g:vimwiki_toc_link_format = 1
 "let g:vimwiki_folding = 'list'
 let g:vimwiki_markdown_link_ext = 1
 let g:vimwiki_auto_header = 1
+let g:vimwiki_filetypes = ['markdown', 'pandoc']
 
 "nmap <C-S-Space> <Plug>VimwikiToggleListItem
