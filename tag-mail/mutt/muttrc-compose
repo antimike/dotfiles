@@ -47,3 +47,6 @@ macro compose ,m \
 <enter-command>unset pipe_decode<enter>a^U/tmp/msg.txt\n^Da^U/tmp/msg.html\n^D^T^Utext/html; charset=utf-8\n=DTT&d^U\n" \
 "Convert markdown gfm to HTML and plain" 
 
+# Macro: Convert Markdown to HTML and replace text as email attachment
+macro compose \e5 "F pandoc -s -f markdown -t html \ny^T^Utext/html; charset=utf-8\n"
+set wait_key=no
