@@ -4,7 +4,7 @@ Host imap.gmail.com
 Port 993
 User antihaynes@gmail.com
 #PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/professional-appkey.gpg"
+PassCmd "gpg -q --no-tty --batch -d ~/.professional-appkey.gpg"
 SSLType IMAPS
 AuthMechs LOGIN
 #UseIMAPS yes
@@ -36,7 +36,7 @@ Host outlook.office365.com
 Port 143
 User hactar@colostate.edu
 #PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-csu.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/csu-password.gpg"
+PassCmd "gpg -q --no-tty --batch -d ~/.csu-password.gpg"
 SSLType STARTTLS
 AuthMechs LOGIN
 
@@ -64,7 +64,7 @@ Host imap.gmail.com
 Port 993
 User mathgeek101@gmail.com
 #PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-personal-appkey.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/personal-appkey.gpg"
+PassCmd "gpg -q --no-tty --batch -d ~/.personal-appkey.gpg"
 SSLType IMAPS
 AuthMechs LOGIN
 #UseIMAPS yes
