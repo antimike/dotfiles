@@ -1,0 +1,116 @@
+Date: Sat, 27 Feb 2021 16:54:40 -0700
+From: "Haynes,Michael" <Antimike.Haynes@colostate.edu>
+To: "Fairbank Jr,William" <William.Fairbank@colostate.edu>
+Subject: Re: your homework
+References: <f3678284-44fd-3341-d786-41526e55dc1f@colostate.edu>
+ <20210226171109.hguqre5vmv6b6w5d@colostate.edu>
+ <DC16E093-A2BB-43BD-889F-9B15083EF5B8@colostate.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <DC16E093-A2BB-43BD-889F-9B15083EF5B8@colostate.edu>
+X-Mutt-References: <DC16E093-A2BB-43BD-889F-9B15083EF5B8@colostate.edu>
+X-Mutt-Fcc: =Sent
+
+Bill---
+
+Thank you.  It is pretty amazing how well such a simple model agrees
+with experimental data, though I imagine it works less well for
+transition metals with more complicated electronic structures.
+
+One of the main ways in which the data differs from the idealized
+version is that the "oscillator strengths" f_j clearly do not obey the
+sum rule in Jackson, suggesting some thermal
+detuning factor (as you pointed out).  Is there 
+
+the dominant
+collective modes among nearest-neighbor electrons (or something similar)
+rather than individual electronic modes.
+
+On 26.02.2021 11:15, Fairbank Jr,William wrote:
+>Hi Michael, this is great.  I accept them late.  Don’t over stress trying to catch up immediately.  I am well aware that these times have been very stressful for graduate students.
+>
+>Your ideas about the reflectivity are interesting.  I think to some degree the vibrations are included phenomenological in the Lorentz Drude model as the damping coeffs gammai which give broadening of the absorption peaks.  In this case I think it is dephasing of the oscillating dipoles due to thermal vibrations that leads to the broadening in solids.  In metals it could also be thermal motions of electrons.  The constants given in the paper are just a fit to the experimental data available at the time.  But they indicate the location of some bound states in the metal.
+>
+>Interesting!
+>
+>Bill
+>
+>Sent from my iPhone
+>
+>> On Feb 26, 2021, at 10:13 AM, Haynes,Michael <Antimike.Haynes@colostate.edu> wrote:
+>>
+>> ﻿Bill---
+>>
+>> First of all, thanks for your patience and persistence.  I apologize for
+>> keeeping you in the dark for so long.
+>>
+>> I just sent an email to Marty explaining my situation and recent lack of
+>> communication, which I will forward to you.  Essentially, I reached a
+>> kind of "stress event horizon" this last week and a half, beyond which
+>> my constant worrying about deadlines prevented my from actually
+>> achieving anything of substance to confront them.
+>>
+>> I finished my write-up of Assignment 2 yesterday, and although the
+>> deadline is long past, I've attached a copy and would appreciate any
+>> feedback if you have time to take a look at it.  I haven't looked at
+>> your solution, but the algebraic form of the (exact) reflectivity and
+>> phase angle are simple enough that I wonder if there's an easier way of
+>> deriving them---they can be written in terms of two different types of
+>> averages of |n|^2.  Not sure if this is a typical way of writing the
+>> result, but it seemed suggestive of a deeper mechanism to me.
+>>
+>> I'm currently working on HW3---I have already solved the problem, but
+>> the write-up is taking some time due to the amount of code I ended up
+>> writing (and tweaking the graphics, which is always time-consuming).  I
+>> probably went a little bit overboard, but it's an interesting problem.
+>> If you're open to this idea, then I think this assignment might be a
+>> good opportunity to do a little bit of extra work to make up for the
+>> lateness---there are some interesting deviations in my plots of R vs.
+>> lambda compared to what I found online, particularly in the
+>> low-wavelength domain, and although the qualitative behavior is right it
+>> could be worth exploring further.
+>>
+>> For instance, one thought that occurred to me is that thermal and
+>> statistical effects due to lattice vibrational modes should be relevant
+>> at wavelengths above the microwave scale, and that these could have an
+>> effect on the observed value of n in the optical range.  Another obvious
+>> extension would be to plot the predicted reflectivities of all the
+>> metals given in the handout you provided, and compare the results to
+>> tabulated values.
+>>
+>> My thought is that HW4 and HW5 likely won't take as much time to
+>> write up.  I hope to have them to you by Sunday.
+>>
+>> Let me know what you think---thanks again for keeping in touch.
+>> ~~Mike
+>>
+>>> On 25.02.2021 18:15, William Fairbank wrote:
+>>> Hi Michael,
+>>>
+>>> It is very nice to have you in PH642 and to get your insightful
+>>> questions and comments.
+>>>
+>>> I hope you are doing well.   I am concerned about your lack of
+>>> assignment submissions after Assignment 1.  I sent you emails on Feb.
+>>> 9 and Feb. 23, and, to my knowledge, you have not responded. It is OK
+>>> if you have chosen not to try to complete the class and are just
+>>> auditing it effectively.  I am fine with that. Eventually, if you want
+>>> to complete a PhD degree here, you need to complete this class, unless
+>>> you are granted some kind of unusual exemption.  I am sure you are
+>>> aware of that.  Are you keeping your academic and research advisors
+>>> current regarding your plans?
+>>>
+>>> It is not too late to start submitting assignments, and I will accept
+>>> some late ones.  But eventually there will be a break point where too
+>>> many zeroes will degrade your grade significantly.  It would be
+>>> helpful if I had some idea of what your thinking is or if you are
+>>> experiencing special difficulties that merit accommodation.
+>>>
+>>> Cheers!
+>>>
+>>> Bill
+>>>
+>>>
+>> <PH642_HW2.pdf>

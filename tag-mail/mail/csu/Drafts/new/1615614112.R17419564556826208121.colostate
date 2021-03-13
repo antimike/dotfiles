@@ -1,0 +1,103 @@
+Date: Fri, 12 Mar 2021 22:41:52 -0700
+From: Michael Haynes <Antimike.Haynes@colostate.edu>
+To: Keegan Barker via Canvas Notifications <reply+1f1e6e9716025be8-3716~240852664-1615499295@notifications.canvaslms.com>
+Subject: Re: Keegan Barker (2021SP-PH-142-L20: Physics for Scientists and
+ Engineers II (GT-SC1) - Lab) just sent you a message in Canvas.
+References: <010001782342fbb7-d543c033-2eda-44c3-a550-8e9eaf883617-000000@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Disposition: inline
+In-Reply-To: <010001782342fbb7-d543c033-2eda-44c3-a550-8e9eaf883617-000000@email.amazonses.com>
+X-Mutt-References: <010001782342fbb7-d543c033-2eda-44c3-a550-8e9eaf883617-000000@email.amazonses.com>
+X-Mutt-Fcc: =Sent
+
+My answers are potentially very different depending on which coil
+experiment you're referring to---the "Helmholtz coil" (i.e., the
+large-ish copper coil you drove with 2 amps and measured the axial field
+of) or the smaller, "fun-sized" coil encased in yellow plastic, which we
+had hooked up to a galvanometer.
+
+The right-hand rule is relevant to both experiments (as it is to
+everything magnetic), but in the case of the Helmholtz coil it doesn't
+matter as much as the *magnitude* of the magnetic field, as measured by
+the Hall probe in the iPad.
+
+The experiment with the smaller coil and the galvanometer is more complicated to think
+through, but the reasons for this are only partly due to the right-hand
+rule.  Here's a summary of the observations you need to make to really
+"get" this experiment:
+
+1. The galvanometer measures current, in some units we don't really care
+about.  What matters is the *direction* of current flow as indicated by
+the galvanometer's needle.  The first thing you need to figure out,
+therefore, is what a "positive" reading on the meter means in terms of
+current flowing through the coil.  This is something that can only be
+determined by physically examining the wiring on your specific setup; if
+you didn't write down the results or don't remember, don't worry about
+it, but do make a note of that fact in the report.
+
+2. The very first thing you probably noticed with this experiment is
+that the needle jumps when the bar magnet is brought close to the coil,
+and then "settles down" again when the bar magnet is either moved away
+or allowed to come to rest.  Given that the meter measures current, this
+tells you that the bar magnet is inducing an electrical current to flow
+in the coil when it is in motion near the coil.  The next logical
+question to ask is therefore "which way does the induced current flow
+when I move the north/south pole up/down through the coil?"
+
+3. At this point, you can start thinking about the right-hand rule:  Say
+you determined from steps (1) and (2) that
+the induced current flows counterclockwise (when viewed from above) when
+the north pole of the magnet is brought upward through the coil from
+below.  (This is not necessarily the case, just an example of the kind
+of thing you *might have* observed.)  The right-hand rule can then be
+used to determine the direction of the magnetic field *produced by the
+induced current*---as always, "counterclockwise" === "positive," so in
+my made-up example the induced current would produce a B-field pointing
+upward.
+
+4. Now, finally, comes the interesting part: Comparing 
+	
+	(a) the direction of "increasing bar magnet field" as you move
+	the bar through the coil with 
+
+	(b) the direction of the *induced*
+	field.
+
+As you'll learn next week in lecture, this phenomenon is called magnetic
+induction, and the specific point illustrated in (4) is called Lenz's
+Law. 
+Induction is both awesome---it's the principle behind motors, generators,
+and transformers, without which there would be no way to transport
+electrical power over large distances---and confusing.
+Since you hadn't discussed it at all in lecture when you did the lab,
+I'm not expecting a perfect explanation, just something that shows
+you've (a) taken all or most of the observations noted above, and (b)
+done your best to interpret them in light of what you knew then about
+magnetic fields.
+
+On 11.03.2021 21:48, Keegan Barker wrote:
+>
+>  Subject: Coil portion of Lab
+>
+>Good afternoon, Michael,
+>
+>This is Keegan Barker from physics 2 lab. I remember talking to you about the coil experiment and my explanation had something to do with the right hand rule. I remember you saying that was incorrect but I don't really remember your reasoning and or explanation of what is happening. I know its a bit late but I was wondering if you could send a brief explanation or even link to a video that explains it.
+>
+>Thank you.
+>
+>Keegan Barker
+>
+>  You can reply to this message in Canvas by replying directly to this email, or by clicking this link: https://colostate.instructure.com/conversations/6563312.  If you need to include an attachment, please log in to Canvas and reply through the Inbox.
+>
+>
+>
+>
+>
+>
+>
+>          ________________________________________
+>
+>          You received this email because you are participating in one or more classes using Canvas.  To change or turn off email notifications, visit:
+>https://colostate.instructure.com/profile/communication
+>
