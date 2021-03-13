@@ -74,16 +74,7 @@ macro index,pager O "<shell-escape>check-mail -a<enter>" "run mbsync to sync all
 bind  index,pager    a   group-reply
 macro index,pager    dd  "<delete-message><sync-mailbox>"                                 "move message to trash"
 macro index,pager    dat "<delete-thread><sync-mailbox>"                                  "move thread to trash"
-# Markdown --> HTML emails via Pandoc
-macro compose m \
-"<enter-command>set pipe_decode<enter>\
-<pipe-message>pandoc -f markdown -t plain -o /tmp/msg.txt<enter>\
-<pipe-message>pandoc -s -f markdown -o /tmp/msg.html --template ~/.mutt/templates/email.html<enter>\
-<enter-command>unset pipe_decode<enter>\
-<attach-file>/tmp/msg.txt<enter>\
-<attach-file>/tmp/msg.html<enter>\
-<tag-entry><previous-entry><tag-entry><group-alternatives>" \
-"Convert markdown to HTML5 and plaintext alternative content types"
+
 macro index,pager    ss  ":macro browser \\015 \"\<select-entry\>\<sync-mailbox\>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015\"\015:macro browser q \"<exit>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015\"\015<save-message>?"                                                                                                                                     "save message to a mailbox"
 macro index          sat ":macro browser \\015 \"\<select-entry\>\<sync-mailbox\>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015\"\015:macro browser q \"<exit>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015'q<untag-pattern>.\\015\"\015<mark-message>q<enter><untag-pattern>.<enter><tag-thread><tag-prefix-cond><save-message>?"                                    "save thread to a mailbox"
 macro index          \;s ":macro browser \\015 \"\<select-entry\>\<sync-mailbox\>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015\"\015:macro browser q \"<exit>:bind browser \\\\015 select-entry\\015:bind browser q exit\\015\"\015<tag-prefix-cond><save-message>?"                                                                                                                    "save tagged messages to a mailbox"
