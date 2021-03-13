@@ -15,6 +15,6 @@ application/pdf; qvm-open-in-dvm %s
 
 
 #text/html; qvm-open-in-dvm %s
-text/html; w3m -I %{charset} -T text/html; copiousoutput;
+text/html; w3m -I %{charset} -T text/html -dump; copiousoutput;
 
 
