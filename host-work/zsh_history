@@ -1640,3 +1640,77 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615549984:21;rcup -B work -S venv -S mozilla
 : 1615550011:0;source ~/.zshrc
 : 1615550015:0;tig
+: 1615621403:0;git status
+: 1615621430:0;gita add ./tag-tex/texmf/tex/latex/local/local
+: 1615621434:0;gita ll
+: 1615621456:0;gita rename local tex-subrepo
+: 1615621464:0;gita super tex-subrepo status
+: 1615621486:0;gita super tex-subrepo restore .
+: 1615621492:0;gita super tex-subrepo status
+: 1615621497:0;tig
+: 1615622022:0;ranger
+: 1615622527:0;mail
+: 1615622546:0;ranger
+: 1615622958:0;mkrc -S Drafts -t mail ~/mail/csu/Drafts
+: 1615622981:0;ls | grep Drafts
+: 1615622984:0;ranger
+: 1615623005:0;rcdn mail
+: 1615623012:0;ranger
+: 1615623056:0;rcup -t mail -S Drafts
+: 1615623074:0;rcup -B host-work -t mail -S drafts
+: 1615623099:0;rcup -B host-work -t mail -S Drafts
+: 1615623105:0;ranger
+: 1615623213:0;rcdn -t mail mail
+: 1615623222:0;rcup -t mail mail
+: 1615623227:0;ranger
+: 1615623244:0;git status
+: 1615623250:0;git add tag-firefox
+: 1615623253:0;git status
+: 1615623286:0;git commit -m "host-work: Firefox profiles updates"
+: 1615623288:0;git status
+: 1615623300:0;git add tag-mail mail
+: 1615623302:0;tig
+: 1615623386:0;pip3 install pandoc-eqnos --user
+: 1615623393:0;log-installed
+: 1615624095:0;nvim /tmp/markdown-test.md
+: 1615624439:0;nvim
+: 1615624478:0;nvim /tmp/markdown-test.md
+: 1615625295:0;ls ~/.config/nvim/UltiSnips/md
+: 1615625329:0;rcup -t nvim config/nvim/UltiSnips/tex/context.snippets
+: 1615625457:0;nvim /tmp/markdown-test.md
+: 1615625735:0;rcdn -t nvim config/nvim/UltiSnips/md
+: 1615625761:0;rcup -t nvim config/nvim/UltiSnips/markdown
+: 1615625770:0;nvim /tmp/markdown-test.md
+: 1615627253:0;rcup -t mail mutt/signatures
+: 1615627258:0;ls ~/.mutt/signatures
+: 1615627387:0;rcup -t mail mutt/templates/email
+: 1615627390:0;ranger
+: 1615627423:0;nvim
+: 1615627427:0;ranger
+: 1615627456:0;mail
+: 1615628296:0;nvim /tmp/markdown-test.md
+: 1615628401:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615628612:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 --mathjax -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615628673:0;xdg-open /tmp/markdown-test.html
+: 1615628700:0;nvim /tmp/markdown-test.md
+: 1615628711:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 --mathjax -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615629506:0;ranger
+: 1615629555:0;tig
+: 1615629789:0;mkrc -t crypto
+: 1615629819:0;ranger
+: 1615630253:0;mail
+: 1615636983:0;ranger
+: 1615637031:0;mkrc -t mail mutt/templates/email.html5
+: 1615637044:0;rcup -t mail mutt/templates/email.html5
+: 1615637046:0;ranger
+: 1615637353:0;mail
+: 1615637554:0;vimdiff ~/.mutt/templates/email.html5 ~/.mutt/templates/email-revised.html5
+: 1615637622:0;nvim
+: 1615637679:0;nvim -d ~/.mutt/templates/email.html5 ~/.mutt/templates/email-revised.html5
+: 1615637858:0;mail
+: 1615638652:0;sudo chmod +x ~/Documents/Bash/convert-markdown-to-html5.sh
+: 1615638680:0;alias mth=~/Documents/Bash/convert-markdown-to-html5.sh
+: 1615638725:0;mth /tmp/markdown-test.md
+: 1615638748:0;xdg-open /tmp/msg.html
+: 1615638773:0;nvim /tmp/markdown-test.md
+: 1615638835:0;tig
