@@ -1,4 +1,4 @@
-source ~/.shell-aliases
+#source ~/.shell-aliases
 source ~/.local.config
 source ~/.local-aliases.sh
 # If you come from bash you might have to change your $PATH.
