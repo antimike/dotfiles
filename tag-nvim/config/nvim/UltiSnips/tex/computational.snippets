@@ -68,6 +68,10 @@ snippet sagepreamble "Sage import block" bA
 import sys
 import numpy as np
 from scipy import stats
+from matplotlib import rc
+
+rc('text', usetex=True)
+rc('text.latex', preamble=r"\usepackage{siunitx}")
 
 sys.path.append('/home/user/Documents/Python/Utilities')
 import latex_utils as tex
