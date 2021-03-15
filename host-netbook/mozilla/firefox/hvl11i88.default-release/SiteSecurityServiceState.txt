@@ -65,7 +65,6 @@ a3716-10506688.cluster39.canvas-user-content.com:HSTS	13	18272	1610268904329,1,0
 use.typekit.net:HSTS	44	18542	1633492857513,1,1,2
 adv-r.hadley.nz:HSTS	8	18469	1616285997747,1,0,2
 a2.adform.net:HSTS	1	18362	1618081684005,1,1,2
-stackoverflow.com^partitionKey=%28http%2Cstackoverflow.com%29:HSTS	0	18701	1631321218047,1,0,2
 dwgyu36up6iuz.cloudfront.net:HSTS	3	18417	1591862903769,1,0,2
 elsevier.demdex.net:HSTS	12	18462	1626723872324,1,1,2
 payments.google.com:HSTS	2	18376	1619227344062,1,1,2
@@ -93,14 +92,14 @@ adobe.demdex.net:HSTS	8	18469	1627292028567,1,1,2
 us04web.zoom.us:HSTS	1	18353	1617317438228,1,0,2
 support.mozilla.org:HSTS	7	18551	1626725846583,1,0,2
 connect.facebook.net^partitionKey=%28http%2Cfreethoughtblogs.com%29:HSTS	6	18695	1646852386591,1,1,2
-firefox.settings.services.mozilla.com:HSTS	264	18701	1647304540271,1,0,2
+firefox.settings.services.mozilla.com:HSTS	264	18701	1647308169337,1,0,2
 sassysensations.com:HSTS	9	18627	1617341351005,1,0,2
 ton.twimg.com:HSTS	12	18422	2222862819430,1,0,2
 readthedocs.org:HSTS	23	18661	1643901639916,1,0,2
 addons-pa.clients6.google.com:HSTS	3	18303	1592282198640,1,1,2
 www.googletagmanager.com:HSTS	101	18671	1644776321713,1,1,2
 services.addons.mozilla.org:HSTS	201	18700	1647295166541,1,0,2
-www.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	2	18700	1631315022808,1,1,2
+www.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	3	18701	1631323328944,1,1,2
 canvas.colostate.edu:HSTS	100	18667	1644425719457,1,1,2
 cdn.districtm.io:HSTS	45	18671	1644772620961,1,1,2
 verizonwireless.demdex.net:HSTS	4	18469	1627289197222,1,1,2
@@ -133,6 +132,7 @@ api8731.d41.co:HSTS	7	18650	1642917534460,1,1,2
 webcms3.colostate.edu:HSTS	83	18415	1622675090634,1,0,2
 www.google-analytics.com^partitionKey=%28http%2Cinstructure.com%29:HSTS	1	18679	1624832955695,1,1,2
 unpkg.com:HSTS	10	18661	1643901676670,1,1,2
+readthedocs.org^partitionKey=%28http%2Cpython.org%29:HSTS	0	18701	1647308276735,1,0,2
 wikimedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS	3	18695	1721712644741,1,1,2
 askubuntu.com:HSTS	16	18652	1627139919382,1,0,2
 zoomus.zendesk.com:HSTS	10	18386	1620138681597,1,0,2
@@ -288,7 +288,7 @@ zoom.us:HSTS	23	18443	1625079949985,1,0,2
 a1859010085.cdn.optimizely.com:HSTS	1	18551	1618584514584,1,0,2
 b.config.skype.com:HSTS	32	18443	1625065508314,1,1,2
 duckduckgo.com:HSTS	3	18469	1627285634551,1,0,2
-www.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	12	18701	1647305216862,1,0,2
+www.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	12	18701	1647309910870,1,0,2
 sso.canvaslms.com:HSTS	85	18671	1644772467791,1,0,2
 dmp.adform.net:HSTS	6	18652	1643124453435,1,1,2
 customer.api.drift.com:HSTS	5	18399	1621283561192,1,1,2
@@ -460,7 +460,7 @@ static.xx.fbcdn.net:HSTS	1	18405	1621733817472,1,1,2
 cdnjs.cloudflare.com^partitionKey=%28http%2Camericanaddictioncenters.org%29:HSTS	0	18679	1629726872873,1,0,2
 lhr-v4.pops.fastly-insights.com^partitionKey=%28http%2Cfandom.com%29:HSTS	0	18693	1615246510220,1,1,2
 camo.githubusercontent.com:HSTS	16	18650	1642925189335,1,1,2
-github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	9	18701	1647305645734,1,1,2
+github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	9	18701	1647309977424,1,1,2
 ag.gbc.criteo.com^partitionKey=%28http%2Csciencing.com%29:HSTS	0	18695	1646862969287,1,0,2
 dcinfos-cache.abtasty.com^partitionKey=%28http%2Camericanaddictioncenters.org%29:HSTS	0	18679	1645482868709,1,1,2
 book.your.vet:HSTS	0	18379	1619584951013,1,0,2
@@ -903,7 +903,7 @@ docs.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	18693	1630667594866,
 a3716-14882416.cluster39.canvas-user-content.com:HSTS	0	18370	1618709175511,1,0,2
 a3716-15349879.cluster39.canvas-user-content.com:HSTS	0	18397	1621114543485,1,0,2
 www.google-analytics.com^partitionKey=%28http%2Cdevdungeon.com%29:HSTS	0	18695	1626210260213,1,1,2
-spocs.getpocket.com:HSTS	260	18701	1678840593584,1,0,2
+spocs.getpocket.com:HSTS	260	18701	1678844813187,1,0,2
 normandy.cdn.mozilla.net:HSTS	233	18700	1647294907163,1,0,2
 pixel.tapad.com^partitionKey=%28http%2Csagemath.org%29:HSTS	0	18695	1646860045619,1,0,2
 cdn.datacamp.com:HSTS	5	18341	1600276491644,1,1,2
