@@ -33,13 +33,14 @@ c.InteractiveShellApp.exec_lines = []
 c.InteractiveShellApp.exec_lines.append('from pint import UnitRegistry')
 c.InteractiveShellApp.exec_lines.append('import uncertainties')
 c.InteractiveShellApp.exec_lines.append('import numpy as np')
-c.InteractiveShellApp.exec_lines.append('import scipy as sp')
+c.InteractiveShellApp.exec_lines.append('import scipy')
+c.InteractiveShellApp.exec_lines.append('import sympy as sp')
 c.InteractiveShellApp.exec_lines.append('import matplotlib as mpl')
 c.InteractiveShellApp.exec_lines.append('_ = UnitRegistry()')
 c.InteractiveShellApp.exec_lines.append('%load_ext autoreload')
 c.InteractiveShellApp.exec_lines.append('%autoreload 2')
 c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in ipython_config.py to improve performance.")')
-c.InteractiveShellApp.exec_lines.append('print("Auto-loaded modules: NumPy (np), SymPy (sp), MatPlotLib (mpl), Pint, Uncertainties")')
+c.InteractiveShellApp.exec_lines.append('print("Auto-loaded modules: NumPy (np), SymPy (sp), SciPy, MatPlotLib (mpl), Pint, Uncertainties")')
 c.InteractiveShellApp.exec_lines.append('print("Pint UnitRegistry is available under variable name \'_\'.")')
 
 ## A list of dotted module names of IPython extensions to load.
