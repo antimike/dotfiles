@@ -1714,3 +1714,219 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615638748:0;xdg-open /tmp/msg.html
 : 1615638773:0;nvim /tmp/markdown-test.md
 : 1615638835:0;tig
+: 1615639141:0;gita ll
+: 1615639149:0;git status
+: 1615639153:0;git push
+: 1615639173:0;gita add ~/Documents/Bash
+: 1615639182:0;gita super bash status
+: 1615639189:0;gita super bash add .
+: 1615639212:0;gita super bash commit -m "Added one-liner used in Mutt config to convert Markdown to HTML5"
+: 1615639217:0;gita push bash
+: 1615639222:0;gita ll
+: 1615639230:0;gita push
+: 1615639236:0;gita push all
+: 1615775796:0;nvim
+: 1615776828:0;gita super spring-2021 status
+: 1615776840:0;gita super python status
+: 1615777421:0;gita super spring-2021 restore
+: 1615777426:0;gita super spring-2021 restore .
+: 1615777433:0;gita super spring-2021 status
+: 1615777459:0;cd ~/Documents/Spring\ 2021
+: 1615777463:0;cd ~/Documents/Spring-2021
+: 1615777467:0;ranger
+: 1615777516:0;tig
+: 1615782876:0;ranger
+: 1615790625:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1615792190:0;mail
+: 1615792221:0;gita ll
+: 1615792231:0;gita super dotfiles fetch origin
+: 1615792240:0;gita pull
+: 1615792432:0;gita super dotfiles pull
+: 1615792441:0;gita super python pull
+: 1615796007:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1615796463:0;git status
+: 1615797647:0;sage --preparse /home/user/Documents/Python/Utilities/table.sage
+: 1615805962:0;sage --preparse /home/user/Documents/Python/Utilities/element.sage
+: 1615812096:0;qvm-copy ~/Documents/Spring-2021/EM_II/Assignments/HW3/HW3.pdf
+: 1615813850:0;calcurse
+: 1615819963:0;nvim
+: 1615820319:0;ranger
+: 1615891800:0;ipython
+: 1615891867:0;cd ~/.dotfiles
+: 1615891870:0;ranger
+: 1615892072:0;ipython
+: 1615892254:0;~/.venv/bin/activate
+: 1615892269:0;sudo chmod +x ~/.venv/bin/activate
+: 1615892271:0;~/.venv/bin/activate
+: 1615892276:0;which python
+: 1615892280:0;which pip
+: 1615892283:0;which pip3
+: 1615892289:0;deactivate
+: 1615892300:0;source ~/.venv/bin/activate
+: 1615892303:0;which python
+: 1615892307:0;which python3
+: 1615892310:0;which pip3
+: 1615892334:0;cat ~/.venv/bin/activate
+: 1615892369:0;echo $VIRTUAL_ENV
+: 1615892378:0;cd $VIRTUAL_ENV
+: 1615892409:0;deactivate
+: 1615892417:0;python -m venv ~/.venv
+: 1615892427:0;rm ~/.venv
+: 1615892433:0;python -m venv ~/.venv
+: 1615892457:0;rm -r ~/.dotfiles/host-work/venv
+: 1615892485:0;mkrc -B work -S venv ~/.venv
+: 1615892508:0;mkrc -B work ~/.venv
+: 1615892520:0;ls -la ~ | grep venv
+: 1615892529:0;ranger
+: 1615892558:0;tig
+: 1615892569:0;gita super dotfiles status
+: 1615892618:0;source ~/.venv/bin/activate
+: 1615892621:0;which python
+: 1615892625:0;which pip
+: 1615892627:0;which pip3
+: 1615892635:0;pip3 install scipy
+: 1615892733:0;pip3 install --upgrade pip
+: 1615892756:0;pip3 install numpy sympy pint mendeleev
+: 1615892795:0;ipython
+: 1615892828:0;pip3 install uncertainties matplotlib
+: 1615892840:0;ipython
+: 1615893151:0;nvim
+: 1615909436:0;ipython
+: 1615909473:0;nvim
+: 1615909481:0;mail
+: 1615909658:0;nvim
+: 1615909711:0;ranger
+: 1615932714:0;papis add ~/QubesIncoming/dropbox/Bessel_functions_pure_imaginary_order.pdf \\
+--set author "T. M. Dunster" \\
+--set year 1990 \\
+--set title "BESSEL FUNCTIONS OF PURELY IMAGINARY ORDER, WITH AN APPLICATION TO SECOND-ORDER LINEAR DIFFERENTIAL EQUATIONS HAVING A LARGE PARAMETER" \\
+--set tags "odes special-functions math"
+: 1615932726:0;papis open
+: 1615937092:0;nvim
+: 1615984566:0;ipython
+: 1615984571:0;ranger
+: 1615984573:0;mail
+: 1615984580:0;calcurse
+: 1615984596:0;gita push python
+: 1615985586:0;mail
+: 1615990136:0;screenshare
+: 1615990146:0;share firefox &
+: 1616000169:0;convert --help
+: 1616000310:0;cd ~/Documents/Spring-2021
+: 1616000330:0;cd EM_II
+: 1616000332:0;cd Midterm
+: 1616000363:0;convert "*.jpg" PH642_Midterm_Haynes.pdf
+: 1616000650:0;stopshare
+: 1616003131:0;nvim
+: 1616003951:0;gita super spring-2021 status
+: 1616023701:0;sage
+: 1616073574:0;ipython
+: 1616073579:0;sage
+: 1616073604:0;ranger
+: 1616073607:0;mail
+: 1616073617:0;calcurse
+: 1616073664:0;nvim
+: 1616094790:0;gita super tex remote -v
+: 1616094811:0;gita super python remote -v
+: 1616094869:0;gita super tex remote set-url origin git@github.com:antimike/tex.git
+: 1616094875:0;gita super tex remote -v
+: 1616131369:0;ranger
+: 1616133433:0;vim
+: 1616133460:0;vim -u
+: 1616133549:0;vim
+: 1616166216:0;nvim
+: 1616183845:0;Documents/Spring-2021
+: 1616183847:0;tig
+: 1616183865:0;../Python
+: 1616183867:0;tig
+: 1616186418:0;papis search -h
+: 1616186421:0;papis -h
+: 1616186433:0;papis open
+: 1616186453:0;ranger
+: 1616186569:0;papis add ~/Documents/References/physics.pdf \\
+--author "Sergio C. de la Barrera" \\
+--year 2012 \\
+--title "The `physics` package" \\
+--tags "latex physics macros"
+: 1616186631:0;papis add ~/Documents/References/physics.pdf \\
+--author "Sergio C. de la Barrera" \\
+--year 2012 \\
+--title "The 'physics' package" \\
+--tags "latex physics macros"
+: 1616186659:0;papis add ~/Documents/References/physics.pdf \\
+--set author "Sergio C. de la Barrera" \\
+--set year 2012 \\
+--set title "The 'physics' package" \\
+--set tags "latex physics macros"
+: 1616186676:0;gita super papis status
+: 1616186686:0;papis open
+: 1616186703:0;cd ~/Documents/Papis-Imports
+: 1616186706:0;tig
+: 1616186775:0;gita ll
+: 1616186788:0;gita super dotfiles status
+: 1616186816:0;gita super dotfiles add tag-firefox/mozilla
+: 1616186856:0;gita super dotfiles commit -m "Firefox updates for host-work"
+: 1616186865:0;gita push dotfiles
+: 1616186876:0;gita super dotfiles status
+: 1616186918:0;man git
+: 1616186968:0;git submodule update
+: 1616187003:0;gita super dotfiles submodule update
+: 1616187011:0;gita super dotfiles status
+: 1616187032:0;gita super dotfiles add tag-mail
+: 1616187036:0;gita super dotfiles status
+: 1616187055:0;gita super dotfiles commit -m "csu email drafts"
+: 1616187076:0;gita super dotfiles add tag-todo
+: 1616187079:0;gita super dotfiles status
+: 1616187094:0;gita super dotfiles commit -m "Added Calcurse appointment"
+: 1616187099:0;gita super dotfiles status
+: 1616187131:0;gita super dotfiles add host-work/venv
+: 1616187151:0;gita super dotfiles commit -m "Added some Venv packages"
+: 1616187565:0;man papis
+: 1616187685:0;papis add ~/Documents/References/mathtools.pdf \\
+--set author "Hogholm, Morten and Madsen, Lars" \\
+--set year 2021 \\
+--set title "The 'mathtools' package" \\
+--tags "latex math manual"
+: 1616187700:0;papis add ~/Documents/References/mathtools.pdf \\
+--set author "Hogholm, Morten and Madsen, Lars" \\
+--set year 2021 \\
+--set title "The 'mathtools' package" \\
+--set tags "latex math manual"
+: 1616192529:0;ranger
+: 1616194896:0;dnf search tilix
+: 1616194993:0;dnf search edex-ui
+: 1616194997:0;dnf search edex
+: 1616195004:0;dnf search edex ui
+: 1616195013:0;dnf search DEX
+: 1616195021:0;dnf search DEX-UI
+: 1616212644:0;gita ll
+: 1616212652:0;tig
+: 1616212661:0;gita super dotfiles status
+: 1616212680:0;gita ll
+: 1616212689:0;gita super spring-2021 status
+: 1616212709:0;cd ~/Documents/Spring-2021
+: 1616212710:0;tig
+: 1616212796:0;git fetch origin
+: 1616212803:0;git pull
+: 1616212822:0;git push
+: 1616269301:0;nvim
+: 1616316135:0;cd ~/.dotfiles/tag-tex
+: 1616316140:0;cd
+: 1616316141:0;ls
+: 1616316149:0;cd ~/.dotfiles/tag-tex
+: 1616316150:0;ls
+: 1616316155:0;cd texmf
+: 1616316157:0;git status
+: 1616316163:0;ls
+: 1616316165:0;cd tex
+: 1616316167:0;ls
+: 1616316171:0;cd latex; ls
+: 1616316174:0;cd local; ls
+: 1616316179:0;git status
+: 1616316200:0;git checkout main
+: 1616352011:0;nvim
+: 1616358594:0;ls -a ~ | grep you
+: 1616360866:0;read -h
+: 1616360870:0;man read
+: 1616364215:0;cd ~/.dotfiles
+: 1616364222:0;tig

@@ -142,7 +142,6 @@
 :bmark Dirichlet-condition-penalization
 :blist
 :qa
-:q
 /rt1
 /RT03
 :bmark Vectorial_Element_Dirichlet_Conditions
@@ -151,3 +150,13 @@
 /RT3
 /edge03
 /.region(
+/table
+/8.31
+/see R
+/cutoff
+/impedance of the
+/mqty
+:q
+/rcases
+/abs
+/rcases*
