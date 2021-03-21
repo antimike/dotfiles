@@ -9,9 +9,30 @@ snippet stack "Stackrel" w
 \stackrel{$1}{$2}
 endsnippet
 
-snippet cases "Cases environment" bA
+snippet cases "Display-style cases environment" bA
 \begin{dcases}
 	$1
 \end{dcases}
+$0
+endsnippet
+
+snippet rcases "Display-style cases environment with right brace" bA
+\begin{drcases}
+	$1
+\end{drcases}
+$0
+endsnippet
+
+snippet *cases "Display-style cases environment, text-roman font in second column" bA
+\begin{dcases*}
+	$1
+\end{dcases*}
+$0
+endsnippet
+
+snippet *rcases "Display-style cases environment with right brace, text-roman font in second column" bA
+\begin{drcases*}
+	$1
+\end{drcases*}
 $0
 endsnippet
