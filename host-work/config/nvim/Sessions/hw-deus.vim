@@ -1,6 +1,6 @@
 " ~/.config/nvim/Sessions/hw-deus.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 11 March 2021 at 21:34:34.
+" Created by session.vim 2.13.1 on 14 March 2021 at 20:43:44.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'deus' | colorscheme deus | endif
+if !exists('g:colors_name') || g:colors_name != 'molokai' | colorscheme molokai | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -21,13 +21,13 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +148 HW3.tex
+badd +1 HW3.tex
 badd +38 term://.//205864:/usr/bin/zsh;\#neoterm-1
 badd +1 ~/Documents/Python/Utilities/latex_utils.py
 badd +27 ~/.dotfiles/config/nvim/UltiSnips/tex/figures.snippets
 badd +30 ~/.dotfiles/config/nvim/UltiSnips/tex/computational.snippets
 badd +13 ~/.dotfiles/config/nvim/init.syntax-range
-badd +166 HW3.sage
+badd +157 HW3.sage
 badd +15 term://.//205982:sage
 badd +1 ~/.dotfiles/config/nvim/init.vim
 badd +44 term://.//313063:sage
@@ -38,12 +38,12 @@ badd +1 Element.sage.py
 badd +7 Analysis/Element.py
 badd +1 ~/Documents/Python/Utilities/latex_serializer.py
 badd +44 term://.//331014:sage
-badd +101 Analysis/notes.md
-badd +19 term://.//421770:sage
+badd +100 Analysis/notes.md
 badd +1 Analysis/Element.sage
 badd +62 ~/.dotfiles/config/nvim/init.coc-nvim
 badd +1 ~/.dotfiles/config/nvim/init.misc-mappings
-badd +1 ~/.config/nvim/vim-plug/ale/doc/ale.txt
+badd +3194 ~/.config/nvim/vim-plug/ale/doc/ale.txt
+badd +19 term://.//421770:sage
 badd +3 ~/.dotfiles/config/nvim/init.explorer
 badd +46 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/include.sty
 badd +54 ~/Documents/Python/Utilities/latex_serializer.sage
@@ -51,17 +51,16 @@ badd +1 term://.//472358:/usr/bin/zsh;\#neoterm-1
 badd +326 term://.//483770:/usr/bin/zsh;\#neoterm-2
 badd +1 ~/Documents/Python/Utilities/sandbox.sage
 badd +82 ~/Documents/Spring-2021/EM_II/Notes/03012021/03012021.tex
-badd +236 ~/Documents/Python/Utilities/functional_base_classes.py
-badd +37 ~/Documents/Spring-2021/Seminar/03012021/03012021.tex
-badd +1 __vista__
-badd +1 ~/Documents/Spring-2021/__vista__
 badd +49 term://.//702047:ipython
+badd +236 ~/Documents/Python/Utilities/functional_base_classes.py
 badd +37 term://.//701955:sage
+badd +37 ~/Documents/Spring-2021/Seminar/03012021/03012021.tex
+badd +1 ~/Documents/Spring-2021/__vista__
 badd +1 term://.//706239:/usr/bin/zsh;\#neoterm-1
 badd +25 ~/Documents/Python/Utilities/abstractions/base_classes.py
 badd +46 term://.//774675:ipython
 badd +3 ~/Documents/Wiki/journal/2021-03-03.wiki
-badd +127 ~/Documents/Python/Utilities/abstractions/decorators.py
+badd +1 ~/Documents/Python/Utilities/abstractions/decorators.py
 badd +8 ~/Documents/Python/Utilities/abstractions/random_functions.py
 badd +49 term://.//1994183:sage
 badd +133 ~/Documents/Python/Utilities/table.sage
@@ -71,12 +70,13 @@ badd +51 ~/Documents/Python/Utilities/integer_map.py
 badd +1 ~/Documents/Wiki/journal/2021-03-05.wiki
 badd +49 term://.//893005:ipython
 badd +49 term://.//1994426:ipython
-badd +0 term://.//2000032:ipython
-badd +0 ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
-badd +0 term://.//2023032:/usr/bin/zsh;\#neoterm-1
+badd +1 term://.//4890:ipython
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
+badd +1 term://.//2023032:/usr/bin/zsh;\#neoterm-1
 badd +6 HW3.sagetex.sout
-badd +0 term://.//2052792:sage
-badd +0 ~/Documents/Wiki/journal/2021-03-11.wiki
+badd +1 term://.//4770:sage
+badd +1 ~/Documents/Wiki/journal/2021-03-11.wiki
+badd +31 ~/.dotfiles/tag-nvim/config/nvim/init.vim
 argglobal
 %argdel
 set stal=2
@@ -93,8 +93,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 200 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 37 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 179 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 30 + 105) / 210)
 argglobal
 setlocal fdm=expr
 setlocal fde=vimtex#fold#level(v:lnum)
@@ -104,16 +104,17 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 161 - ((153 * winheight(0) + 14) / 28)
+let s:l = 324 - ((323 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-161
+324
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
 argglobal
-if bufexists("~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__") | buffer ~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__ | else | edit ~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__ | endif
+enew
+file ~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__
 setlocal fdm=expr
 setlocal fde=vista#fold#Expr()
 setlocal fmr={{{,}}}
@@ -122,16 +123,10 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 1 - ((0 * winheight(0) + 14) / 28)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1
-normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 200 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 37 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 179 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 30 + 105) / 210)
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW3/HW3.sage
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -145,8 +140,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -160,66 +155,38 @@ setlocal fen
 silent! normal! zo
 10
 silent! normal! zo
-38
+40
 silent! normal! zo
 42
 silent! normal! zo
-46
+52
 silent! normal! zo
-53
-silent! normal! zo
-64
+62
 silent! normal! zo
 67
 silent! normal! zo
-72
+71
+silent! normal! zo
+74
 silent! normal! zo
 75
 silent! normal! zo
-41
+78
 silent! normal! zo
-43
-silent! normal! zo
-53
-silent! normal! zo
-63
-silent! normal! zo
-68
-silent! normal! zo
-72
-silent! normal! zo
-75
-silent! normal! zo
-76
-silent! normal! zo
-79
-silent! normal! zo
-84
-silent! normal! zo
-87
+82
 silent! normal! zo
 89
 silent! normal! zo
-96
-silent! normal! zo
-107
-silent! normal! zo
-110
-silent! normal! zo
-115
-silent! normal! zo
-118
-silent! normal! zo
-let s:l = 166 - ((25 * winheight(0) + 14) / 28)
+let s:l = 157 - ((30 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-166
+157
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
 argglobal
-if bufexists("term://.//2052792:sage") | buffer term://.//2052792:sage | else | edit term://.//2052792:sage | endif
+if bufexists("term://.//4770:sage") | buffer term://.//4770:sage | else | edit term://.//4770:sage | endif
 setlocal fdm=expr
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -228,16 +195,16 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 187 - ((27 * winheight(0) + 14) / 28)
+let s:l = 50 - ((49 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-187
+50
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 tabedit ~/Documents/Python/Utilities/abstractions/decorators.py
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -251,8 +218,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -310,7 +277,7 @@ silent! normal! zo
 silent! normal! zo
 104
 silent! normal! zo
-let s:l = 123 - ((22 * winheight(0) + 14) / 28)
+let s:l = 123 - ((39 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -318,7 +285,7 @@ normal! zt
 normal! 0
 wincmd w
 argglobal
-if bufexists("term://.//2000032:ipython") | buffer term://.//2000032:ipython | else | edit term://.//2000032:ipython | endif
+if bufexists("term://.//4890:ipython") | buffer term://.//4890:ipython | else | edit term://.//4890:ipython | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -327,15 +294,16 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 49 - ((27 * winheight(0) + 14) / 28)
+let s:l = 49 - ((48 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 49
 normal! 0
+lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 104 + 105) / 210)
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Python/Utilities/table.sage
 set splitbelow splitright
@@ -391,20 +359,15 @@ silent! normal! zo
 silent! normal! zo
 205
 silent! normal! zo
-let s:l = 138 - ((17 * winheight(0) + 14) / 28)
+let s:l = 138 - ((30 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 138
 normal! 024|
-lcd ~/Documents/Python
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/notes.md
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -412,8 +375,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 207 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 30 + 119) / 238)
 argglobal
 setlocal fdm=expr
 setlocal fde=VimwikiFoldListLevel(v:lnum)
@@ -437,33 +398,12 @@ silent! normal! zo
 silent! normal! zo
 84
 silent! normal! zo
-let s:l = 111 - ((1 * winheight(0) + 14) / 28)
+let s:l = 4 - ((3 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-111
+4
 normal! 0
-wincmd w
-argglobal
-if bufexists("~/Documents/Spring-2021/__vista__") | buffer ~/Documents/Spring-2021/__vista__ | else | edit ~/Documents/Spring-2021/__vista__ | endif
-setlocal fdm=expr
-setlocal fde=vista#fold#Expr()
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-let s:l = 1 - ((0 * winheight(0) + 14) / 28)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1
-normal! 0
-lcd ~/Documents/Spring-2021
-wincmd w
-exe 'vert 1resize ' . ((&columns * 207 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 30 + 119) / 238)
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Python/Utilities/latex_utils.py
 set splitbelow splitright
@@ -539,65 +479,12 @@ silent! normal! zo
 silent! normal! zo
 169
 normal! zc
-let s:l = 4 - ((2 * winheight(0) + 14) / 28)
+let s:l = 4 - ((3 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 4
 normal! 0
-if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabedit ~/.dotfiles/config/nvim/init.misc-mappings
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
-argglobal
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 14) / 28)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1
-normal! 0
-wincmd w
-argglobal
-if bufexists("~/.config/nvim/vim-plug/ale/doc/ale.txt") | buffer ~/.config/nvim/vim-plug/ale/doc/ale.txt | else | edit ~/.config/nvim/vim-plug/ale/doc/ale.txt | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-silent! normal! zE
-let s:l = 3194 - ((15 * winheight(0) + 14) / 28)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-3194
-normal! 0
-wincmd w
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Wiki/journal/2021-03-05.wiki
 set splitbelow splitright
@@ -617,7 +504,7 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 13 - ((7 * winheight(0) + 14) / 28)
+let s:l = 13 - ((12 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -642,14 +529,14 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 6 - ((5 * winheight(0) + 14) / 28)
+let s:l = 5 - ((4 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-6
+5
 normal! 0
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabnext 9
+tabnext 2
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -667,7 +554,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 9
+tabnext 2
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
