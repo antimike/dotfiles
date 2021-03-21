@@ -25,9 +25,9 @@ snippet eref "Eqref (auto-expands)" wA
 \eqref{$1} $0
 endsnippet
 
-snippet '(\w+)\s+cref' "Cleveref; correctly fills preceding space with ~" rw
+snippet '(\w+)?\s+cref' "Cleveref; correctly fills preceding space with ~" rw
 `!p 
-snip.rv = match.group(1):=prev + r"~" if not prev == '' else ''
+snip.rv = prev + r"~" if (prev := match.group(1)) else ''
 `\cref{$1}$0
 endsnippet
 
