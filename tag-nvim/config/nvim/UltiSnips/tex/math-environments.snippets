@@ -1,3 +1,52 @@
+global !p
+def iterate_args(snip):
+    """
+    Structure of an input snippet:
+    > beginning
+    > num_args
+    > delimiter
+    > end
+    """
+    first = snip.snippet_start[0]
+    last = snip.snippet_end[0]
+
+    def line_bounds(line_index, line):
+        if line_index == first:
+            return slice(snip.snippet_start[1], len(line))
+        elif line_index == last:
+            return slice(0, snip.snippet_end[1])
+        else:
+            return slice(0, len(line))
+
+    def substitute_text(text):
+        # TODO Fix bug in case first == last
+        text[0] = snip.buffer[first][:snip.snippet_start[1]] + text[0]
+        snip.buffer[last] = text[-1] + snip.buffer[last][snip.snippet_end[1] + 1:]
+        snip.buffer = snip.buffer[:first] \
+            + text[:-1] \
+            + snip.buffer[last:]
+
+    text = [
+        l[line_bounds(i + first, l)]
+        for (i, l) in enumerate(snip.buffer[first:last + 1])
+    ]
+
+
+    def get_digits(s):
+        return int(''.join(filter(str.isdigit, s)))
+
+    start = text[0]
+    num_args = get_digits(text[1])
+    delim = text[2]
+    end = text[3]
+
+    #anon = start + delim + delim.join([r"$" + str(j) for j in range(num_args)]) + delim + end
+
+    #substitute_text([str(first) + ', ' + str(last)])
+    snip.buffer = [str(first) + ', ' + str(last)]
+    #snip.expand_anon(anon)
+endglobal
+
 # Inline math snippet
 # Expands automatically if "mt" is typed at the beginning of a word
 # Includes logic to determine if content should be followed by a space
