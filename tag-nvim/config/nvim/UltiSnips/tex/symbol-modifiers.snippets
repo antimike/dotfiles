@@ -3,6 +3,10 @@ snippet til "Widetilde" w
 \til{$1}$0
 endsnippet
 
+snippet hat "Widetilde" w
+\hat{$1}$0
+endsnippet
+
 snippet '([^\s]+)hat' "Hat" wr
 \hat{`!p snip.rv = match.group(1)`}
 endsnippet
@@ -15,13 +19,24 @@ endsnippet
 
 # Vector postfix
 snippet "(\\?\w+)(,\.)" "Vector" riA
-\vb{`!p snip.rv=match.group(1)`}
+`!p 
+cmd = r"\vb"
+if "\\" in match.group(1):
+	cmd += r"*"
+cmd += r"{" + match.group(1) + r"}"
+snip.rv=cmd
+`
 endsnippet
-
 
 # Unit vector postfix
 snippet "(\\?\w+)(,,)" "Unit vector" riA
-\vu{`!p snip.rv=match.group(1)`}
+`!p 
+cmd = r"\vu"
+if "\\" in match.group(1):
+	cmd += r"*"
+cmd += r"{" + match.group(1) + r"}"
+snip.rv=cmd
+`
 endsnippet
 
 # Calligraphic math font
