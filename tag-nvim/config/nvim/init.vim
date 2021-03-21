@@ -28,6 +28,7 @@ Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
 Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'puremourning/vimspector'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
+let g:pydocstring_enable_mapping=0
 Plug 'whiteinge/diffconflicts'
 Plug 'sjl/gundo.vim'
 Plug 'neovimhaskell/haskell-vim'
