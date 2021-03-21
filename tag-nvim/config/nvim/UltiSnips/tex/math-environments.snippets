@@ -88,3 +88,41 @@ snippet ds "Displaystyle (visual)" w
 \displaystyle ${VISUAL} $0
 endsnippet
 
+priority 0
+
+snippet (matrix "Paren-delimited matrix (no row specification)" w
+\mqty($1)$0
+endsnippet
+
+snippet [matrix "Bracket-delimited matrix (no row specification)" w
+\mqty[$1]$0
+endsnippet
+
+snippet {matrix "Brace-delimited matrix (no row specification)" w
+\mqty\{$1\}$0
+endsnippet
+
+priority 5
+
+#post_jump "iterate_args(snip)"
+post_jump "snip.buffer = ['hey there']"
+snippet '{matrix(\d)' "Brace-delimited matrix (rows specified)" wAr
+\mqty\{
+`!p snip.rv = match.group(1)`
+\\\\
+} 
+endsnippet
+
+post_jump "iterate_args(snip)"
+snippet '\(matrix(\d)' "Paren-delimited matrix (rows specified)" wAr
+\mqty(
+`!p snip.rv = match.group(1)`
+\\\\
+) 
+endsnippet
+
+snippet '\[matrix(\d)' "Bracket-delimited matrix (rows specified)" wAr
+\mqty[$1 `!p snip.rv = ' '.join("\\\\"*int(match.group(1)))` ]$0
+endsnippet
+
+
