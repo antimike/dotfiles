@@ -1,3 +1,9 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
 # Equation ref snippet
 snippet \eqn "Equation ref" wA
 \eqnref{$1} $0
@@ -9,6 +15,7 @@ snippet ref "Autoref" w
 \autoref{$1} $0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet nn "Nonumber" wA
 \nonumber
 endsnippet
@@ -31,6 +38,7 @@ snip.rv = prev + r"~" if (prev := match.group(1)) else ''
 `\cref{$1}$0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet tg "Tag" wA
 \tag{$1}$0
 endsnippet

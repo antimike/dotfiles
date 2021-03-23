@@ -1,7 +1,15 @@
-snippet \_ "Underbrace" wA
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet \_ "Underbrace" wAe
 \underbrace{${VISUAL}$1}_{$2}
 endsnippet
 
+context "utils.is_math_mode()"
 # TODO: Add better linebreak detection using Python interpolation
 # See vimcasts.org/episodes/ultisnips-visual-placeholder and
 # vimcasts.org/episodes/ultisnips-python-interpolation
@@ -9,6 +17,7 @@ snippet stack "Stackrel" w
 \stackrel{$1}{$2}
 endsnippet
 
+context "utils.is_math_mode()"
 snippet cases "Display-style cases environment" bA
 \begin{dcases}
 	$1
@@ -16,6 +25,7 @@ snippet cases "Display-style cases environment" bA
 $0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet rcases "Display-style cases environment with right brace" bA
 \begin{drcases}
 	$1
@@ -23,6 +33,7 @@ snippet rcases "Display-style cases environment with right brace" bA
 $0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet *cases "Display-style cases environment, text-roman font in second column" bA
 \begin{dcases*}
 	$1
@@ -30,6 +41,7 @@ snippet *cases "Display-style cases environment, text-roman font in second colum
 $0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet *rcases "Display-style cases environment with right brace, text-roman font in second column" bA
 \begin{drcases*}
 	$1

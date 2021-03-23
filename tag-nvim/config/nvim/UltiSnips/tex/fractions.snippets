@@ -1,7 +1,14 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
 # Fractions
 
 priority 5
 # Expandable inside any group of letters
+context "utils.is_math_mode()"
 snippet // "Fraction---simple" iA
 \dfrac{$1}{$2}$0
 endsnippet
@@ -28,6 +35,7 @@ endsnippet
 
 priority 0
 # Fraction using visual selection
+context "utils.is_math_mode()"
 snippet // "Fraction" iA
 \dfrac{${VISUAL}}{$1}$0
 endsnippet

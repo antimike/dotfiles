@@ -1,16 +1,10 @@
-# Exponential
-#snippet exp() "Exponential---parens" wA
-#\exp \left( $1 \right) $0
-#endsnippet
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
 
-#snippet exp[] "Exponential---brackets" wA
-#\exp \left[ $1 \right] $0
-#endsnippet
-
-#snippet exp{} "Exponential---braces" wA
-#\exp \left\{ $1 \right\} $0
-#endsnippet
-
+context "utils.is_math_mode()"
 snippet exp "Exponential---parens (delimiters can be adjusted)" w
 \exp \left( $1 \right) $0
 endsnippet

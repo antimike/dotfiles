@@ -1,16 +1,26 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
 # Modifiers (hats, overlines, tildes, etc.)
+context "utils.is_math_mode()"
 snippet til "Widetilde" w
 \til{$1}$0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet hat "Widetilde" w
 \hat{$1}$0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet '([^\s]+)hat' "Hat" wr
 \hat{`!p snip.rv = match.group(1)`}
 endsnippet
 
+context "utils.is_math_mode()"
 snippet '([^\s]+)til' "Tilde" wr
 \til{`!p snip.rv = match.group(1)`}
 endsnippet
@@ -18,6 +28,7 @@ endsnippet
 # TODO: Finish adding 'hat' macros
 
 # Vector postfix
+context "utils.is_math_mode()"
 snippet "(\\?\w+)(,\.)" "Vector" riA
 `!p 
 cmd = r"\vb"
@@ -28,6 +39,7 @@ snip.rv=cmd
 `
 endsnippet
 
+context "utils.is_math_mode()"
 # Unit vector postfix
 snippet "(\\?\w+)(,,)" "Unit vector" riA
 `!p 
@@ -39,6 +51,7 @@ snip.rv=cmd
 `
 endsnippet
 
+context "utils.is_math_mode()"
 # Calligraphic math font
 snippet mcal "Mathcal" wA
 \mathcal{$1}$0
