@@ -1,47 +1,65 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
 snippet == "Equivalence" wA
 \equiv
 endsnippet
 
+context "utils.is_math_mode()"
 snippet ~= "Simeq" wA
 \simeq
 endsnippet
 
+context "utils.is_math_mode()"
 snippet ~~ "Sim" wA
 \sim
 endsnippet
 
+context "utils.is_math_mode()"
 snippet =~ "Approx" wA
 \approx
 endsnippet
 
+context "utils.is_math_mode()"
 snippet != "Neq" wA
 \neq
 endsnippet
 
+context "utils.is_math_mode()"
 snippet >= "Geq" wA
 \geq
 endsnippet
 
+context "utils.is_math_mode()"
 snippet <= "Leq" wA
 \leq
 endsnippet
 
+context "utils.is_math_mode()"
 snippet << "Much less than" wA
 \ll
 endsnippet
 
+context "utils.is_math_mode()"
 snippet >> "Much greater than" wA
 \gg
 endsnippet
 
+context "utils.is_math_mode()"
 snippet := "Defined to be" wA
 \coloneqq
 endsnippet
 
+context "utils.is_math_mode()"
 snippet +- "Plus / minus" wA
 \pm
 endsnippet
 
+context "utils.is_math_mode()"
 snippet -+ "Minus / plus" wA
 \mp
 endsnippet

@@ -1,11 +1,15 @@
-snippet num "Generalized 'number' snippet" w
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet num "Generalized 'number' snippet" wA
 \SI{$1}{$2}$0
 endsnippet
 
-snippet '(\d*\.?\d+)e(-?\d+)' "Scientific notation" wr
-\SI{`!p snip.rv = match.group(1)`e`!p snip.rv = match.group(2)`}{$1}$0
-endsnippet
-
-snippet '(\d*\.?\d+)u' "Units" wr
+context "utils.is_math_mode()"
+snippet '(\d*\.?\d+(e-?\d+\.?\d+)?)u' "Units and scientific notation" wrA
 \SI{`!p snip.rv = match.group(1)`}{$1}$0
 endsnippet

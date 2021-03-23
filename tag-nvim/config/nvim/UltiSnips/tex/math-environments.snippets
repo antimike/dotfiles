@@ -1,3 +1,9 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
 # Inline math snippet
 # Expands automatically if "mt" is typed at the beginning of a word
 # Includes logic to determine if content should be followed by a space
@@ -35,6 +41,7 @@ snippet \[ "Display math---literal" bA
 $0
 endsnippet
 
+context "utils.is_math_mode()"
 snippet ds "Displaystyle (visual)" w
 \displaystyle ${VISUAL} $0
 endsnippet
