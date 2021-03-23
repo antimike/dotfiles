@@ -1930,3 +1930,321 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1616360870:0;man read
 : 1616364215:0;cd ~/.dotfiles
 : 1616364222:0;tig
+: 1616370955:0;papis open
+: 1616460049:0;ranger
+: 1616460068:0;papis open
+: 1616460191:0;papis add ~/QubesIncoming/dropbox/sagetex.pdf \\
+--set author "Drake, Dan" \\
+--set year 2020 \\
+--set title "The SageTeX Package" \\
+--set tags "latex python sage manual reference"
+: 1616460217:0;papis open sage
+: 1616462759:0;dnf search jq
+: 1616462787:0;sudo dnf install jq -y
+: 1616465572:0;log-installed
+: 1616467658:0;man papis
+: 1616467696:0;nvim
+: 1616468737:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team"
+: 1616468779:0;papis open
+: 1616468807:0;gita shell papis status
+: 1616468830:0;gita super papis status
+: 1616468850:0;cd ~/QubesIncoming/dropbox
+: 1616468862:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team"
+: 1616468959:0;papis open
+: 1616468972:0;gita super papis status
+: 1616469015:0;ranger
+: 1616469317:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual: Coding Theory" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual: Python Technicalities" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual: Cryptography" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual: Data Structures" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual: Databases" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual: Diophantine Approximation" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual: Sage's Doctesting Framework" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual: Euclidean Spaces and Vector Calculus" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual: Games" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual: Graph Theory" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual: Cell Complexes and their Homology" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual: Hyperbolic Geometry" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual: Symbolic Logic" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual: Manifolds" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual: Utilities" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual: Quadratic Forms" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual: Differential Geometry of Curves and Surfaces" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+
+: 1616469411:0;papis open
+: 1616469504:0;papis open]
+: 1616469510:0;papis open
+: 1616469717:0;gita super papis status
+: 1616469738:0;cd ~/Documents/Papis-Imports
+: 1616469740:0;tig
+: 1616471057:0;gita push
+: 1616471063:0;gita push spring-2021
+: 1616471075:0;gita super status spring-2021
+: 1616471086:0;cd ~/Documents/Spring-2021
+: 1616471087:0;tig
+: 1616471205:0;gita super status python
+: 1616471213:0;gita super python status
+: 1616471235:0;gita super python add .
+: 1616471257:0;gita super python commit -m "Added 'snippet_utils.py' for snippet development and tests directory"
+: 1616471263:0;gita push python
+: 1616471270:0;gita push papis
+: 1616471277:0;gita super papis status
+: 1616522885:0;nvim
+: 1616522938:0;ranger
+: 1616525003:0;pip3 install vim --user
+: 1616525010:0;pip install vim --user
+: 1616525018:0;pip3 install nvim --user
+: 1616526158:0;nvim
+: 1616534544:0;~/.dotfiles
+: 1616534545:0;tig

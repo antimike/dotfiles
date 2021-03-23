@@ -155,8 +155,12 @@
 /see R
 /cutoff
 /impedance of the
-/mqty
-:q
 /rcases
 /abs
 /rcases*
+/mqty
+/sageblock
+/units
+/pint
+/latex
+:q
