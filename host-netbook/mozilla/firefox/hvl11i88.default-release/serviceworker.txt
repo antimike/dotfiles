@@ -83,11 +83,11 @@ false
 https://www.acns.colostate.edu/
 https://www.acns.colostate.edu/wp-content/themes/csu-theme/sw.js
 true
-{9be95cb6-1f04-46a4-92f2-9dda31bd1f7e}
+{6120becf-7023-412e-99df-21f4613fd541}
 0
-1587082017354180
-1587082018765654
-1587076728982250
+1616424274862805
+1616425159914406
+1616423681633123
 #
 
 https://www.office.com/
