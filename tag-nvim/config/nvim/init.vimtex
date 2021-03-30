@@ -52,3 +52,6 @@ nnoremap <localleader>lt :call vimtex#fzf#run()<cr>
 let g:vimtex_quickfix_ignore_filters = [
 			\ 'Package etex',
 			\]
+
+au BufReadPost *.tex nmap <leader>au vie:s/\v\&\s*(\=\|\\coloneq\|\<\|\>\|\\simeq\|\\approx)/\1/g<CR>
+au BufReadPost *.tex nmap <leader>aa vie:s/\v([^\&\s]*\|^\s*)(\=\|\\coloneq\|\<\|\>\|\\simeq\|\\approx)/\1\&\2/g<CR>
