@@ -38,6 +38,12 @@ snip.rv = prev + r"~" if (prev := match.group(1)) else ''
 `\cref{$1}$0
 endsnippet
 
+snippet '([\w,]+)?\s+eqref' "Eqref; correctly fills preceding space with ~" rw
+`!p 
+snip.rv = prev + r"~" if (prev := match.group(1)) else ''
+`\eqref{$1}$0
+endsnippet
+
 context "utils.is_math_mode()"
 snippet tg "Tag" wA
 \tag{$1}$0
