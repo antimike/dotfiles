@@ -14,37 +14,33 @@ context "utils.is_math_mode()"
 # See vimcasts.org/episodes/ultisnips-visual-placeholder and
 # vimcasts.org/episodes/ultisnips-python-interpolation
 snippet stack "Stackrel" w
-\stackrel{$1}{$2}
+\stackrel{$1}{$2}$0
 endsnippet
 
 context "utils.is_math_mode()"
 snippet cases "Display-style cases environment" bA
 \begin{dcases}
 	$1
-\end{dcases}
-$0
+\end{dcases}$0
 endsnippet
 
 context "utils.is_math_mode()"
 snippet rcases "Display-style cases environment with right brace" bA
 \begin{drcases}
 	$1
-\end{drcases}
-$0
+\end{drcases}$0
 endsnippet
 
 context "utils.is_math_mode()"
 snippet *cases "Display-style cases environment, text-roman font in second column" bA
 \begin{dcases*}
 	$1
-\end{dcases*}
-$0
+\end{dcases*}$0
 endsnippet
 
 context "utils.is_math_mode()"
 snippet *rcases "Display-style cases environment with right brace, text-roman font in second column" bA
 \begin{drcases*}
 	$1
-\end{drcases*}
-$0
+\end{drcases*}$0
 endsnippet
