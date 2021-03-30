@@ -1,4 +1,3 @@
-/3d
 /cube
 /Curl
 /macro Grad
@@ -29,7 +28,6 @@
 /meshS
 /intS
 /intL
-/line integral
 /Nt
 /the dirichlet conditions are implemented
 /normal velocity
@@ -99,7 +97,6 @@
 /ravi
 /p23d
 /vector
-/plot
 /plot3d
 /interpolate3
 /interpolate
@@ -158,9 +155,78 @@
 /rcases
 /abs
 /rcases*
-/mqty
 /sageblock
 /units
 /pint
 /latex
+/mqty
+/\{
+/qty
+/dcases
+/displaystyle
+/dfrac
+/frac
+/euclidean
+/scalar
+/number_v
+/embedding
+/map
+/chart
+/plot
+/diff_map
+/cylindrical
+/jmol
+/3d
+/green
+/composition
+/transition_map
+/polar(
+/coord_change
+/dot(
+/frame
+/e_phi
+/vector_frame
+/vector frame
+/EuclideanSpace(p
+/<r,ph
+/vector_frame(
+/restrict
+/form
+/stokes
+/inte
+/integ
+/integr
+/flux
+/line integral
+/integra
+/paramet
+/curve
+/tangent
+/parameterization
+/parametrizatiuon
+/parametrization
+/tangent vector
+/volume
+/surface
+/product
+/cartesian product
+/cylinder
+/product topology
+/product space
+/space
+/ambient
+/bounda
+/vector_field(
+/integral
+/subm
+/embed
+/boundary
+/submanifold
+/numerical
+/metric comp
+/compati
+/structure equ
+/underbracket
+/underbrace
 :q
+/quick quad
