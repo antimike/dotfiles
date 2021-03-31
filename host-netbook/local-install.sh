@@ -34,3 +34,5 @@ sudo apt-get install i3xrocks-battery -y
 regolith-look refresh
 curl -fsSl https://raw.githubusercontent.com/tridactyl/native_messenger/master/installers/install.sh -o /tmp/trinativeinstall.sh && sh /tmp/trinativeinstall.sh 1.21.0
 sudo apt-get install python3-venv -y
+pip3 install papis-scihub --user
+sudo apt-get install jq -y
