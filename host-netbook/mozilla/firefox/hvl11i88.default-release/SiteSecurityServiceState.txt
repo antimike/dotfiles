@@ -93,14 +93,14 @@ adobe.demdex.net:HSTS	8	18469	1627292028567,1,1,2
 us04web.zoom.us:HSTS	1	18353	1617317438228,1,0,2
 support.mozilla.org:HSTS	7	18551	1626725846583,1,0,2
 connect.facebook.net^partitionKey=%28http%2Cfreethoughtblogs.com%29:HSTS	6	18695	1646852386591,1,1,2
-firefox.settings.services.mozilla.com:HSTS	273	18717	1648739764170,1,0,2
+firefox.settings.services.mozilla.com:HSTS	273	18717	1648743684809,1,0,2
 sassysensations.com:HSTS	9	18627	1617341351005,1,0,2
 ton.twimg.com:HSTS	12	18422	2222862819430,1,0,2
 readthedocs.org:HSTS	23	18661	1643901639916,1,0,2
 www.futurelearn.com:HSTS	4	18383	1618414325306,1,1,2
 addons-pa.clients6.google.com:HSTS	3	18303	1592282198640,1,1,2
 www.googletagmanager.com:HSTS	101	18671	1644776321713,1,1,2
-services.addons.mozilla.org:HSTS	206	18716	1648655456593,1,0,2
+services.addons.mozilla.org:HSTS	207	18717	1648743803756,1,0,2
 www.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	3	18701	1631326613350,1,1,2
 canvas.colostate.edu:HSTS	100	18667	1644425719457,1,1,2
 cdn.districtm.io:HSTS	45	18671	1644772620961,1,1,2
@@ -135,7 +135,7 @@ unpkg.com:HSTS	10	18661	1643901676670,1,1,2
 r.skimresources.com:HSTS	86	18671	1644772544772,1,0,2
 wikimedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS	5	18709	1722899740929,1,1,2
 askubuntu.com:HSTS	16	18652	1627139919382,1,0,2
-normandy.cdn.mozilla.net:HSTS	242	18717	1648742421405,1,0,2
+normandy.cdn.mozilla.net:HSTS	242	18717	1648743202360,1,0,2
 zoomus.zendesk.com:HSTS	10	18386	1620138681597,1,0,2
 tour.eplay.com:HSTS	18	18576	1668047394838,1,0,2
 github-atom-io-herokuapp-com.freetls.fastly.net:HSTS	3	18339	1616097503493,1,1,2
@@ -196,7 +196,7 @@ softwareengineering.stackexchange.com:HSTS	3	18355	1588465776060,1,0,2
 www.youtube.com^partitionKey=%28http%2Cfreethoughtblogs.com%29:HSTS	9	18702	1647434297023,1,0,2
 piggybedspreads.com:HSTS	2	18392	1589237073708,1,0,2
 getpocket.com:HSTS	10	18521	1656739993246,1,0,2
-versioncheck-bg.addons.mozilla.org:HSTS	58	18716	1617119756804,1,0,2
+versioncheck-bg.addons.mozilla.org:HSTS	59	18717	1617208104716,1,0,2
 piwik.documentfoundation.org:HSTS	2	18312	1613775068188,1,1,2
 sdfestaticassets-us-east-1.sciencedirectassets.com:HSTS	8	18443	1596216474796,1,0,2
 polyfill.twitchsvc.net:HSTS	1	18373	1618962786861,1,1,2
@@ -244,7 +244,7 @@ cdn.speedcurve.com:HSTS	3	18396	1605253518629,1,0,2
 inst-fs-iad-prod.inscloudgate.net^partitionKey=%28http%2Cinscloudgate.net%29:HSTS	0	18716	1648655787054,1,0,2
 a3716-6210530.cluster39.canvas-user-content.com:HSTS	1	18370	1618716087010,1,0,2
 www.python.org:HSTS	3	18320	1645920483745,1,1,2
-location.services.mozilla.com:HSTS	35	18710	1648092476626,1,1,2
+location.services.mozilla.com:HSTS	36	18717	1648743444234,1,1,2
 api.github.com:HSTS	38	18671	1644772805724,1,1,2
 cdn.vox-cdn.com:HSTS	3	18455	1626105479351,1,0,2
 github.com:HSTS	65	18692	1646605402276,1,1,2
@@ -292,7 +292,7 @@ zoom.us:HSTS	23	18443	1625079949985,1,0,2
 a1859010085.cdn.optimizely.com:HSTS	1	18551	1618584514584,1,0,2
 b.config.skype.com:HSTS	32	18443	1625065508314,1,1,2
 duckduckgo.com:HSTS	3	18469	1627285634551,1,0,2
-www.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	19	18717	1648740468380,1,0,2
+www.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	19	18717	1648743575935,1,0,2
 a3716-14097180.cluster39.canvas-user-content.com:HSTS	1	18411	1622250498428,1,0,2
 a3716-12294433.cluster39.canvas-user-content.com:HSTS	3	18397	1621117061700,1,0,2
 mem.gfx.ms:HSTS	9	18425	1623524181860,1,1,2
@@ -520,7 +520,7 @@ knowledge.digicert.com:HSTS	0	18380	1603812805619,1,1,2
 mc.yandex.md:HSTS	1	18469	1627281505767,1,0,2
 map2.craigslist.org:HSTS	15	18443	1593622589036,1,0,2
 connect.facebook.net^partitionKey=%28http%2Cfugoes.xyz%29:HSTS	0	18694	1646705722869,1,1,2
-aus5.mozilla.org:HSTS	208	18716	1648655456878,1,0,2
+aus5.mozilla.org:HSTS	209	18717	1648743804778,1,0,2
 gs.dailymail.co.uk:HSTS	1	18405	1747878454619,1,0,2
 productreviews.shopifycdn.com:HSTS	2	18394	1652320349058,1,1,2
 www.veracrypt.fr:HSTS	0	18443	1625061555239,1,1,2
@@ -855,7 +855,7 @@ s1038638438.t.eloqua.com:HSTS	0	18241	1607637013693,1,0,2
 js.stripe.com:HSTS	8	18404	1621727035523,1,1,2
 phy.princeton.edu:HSTS	1	18272	1610271229530,1,0,2
 a3716-11107844.cluster39.canvas-user-content.com:HSTS	6	18397	1621108774320,1,0,2
-www.googletagmanager.com^partitionKey=%28http%2Cgit-scm.com%29:HSTS	1	18699	1647138848716,1,1,2
+www.googletagmanager.com^partitionKey=%28http%2Cgit-scm.com%29:HSTS	2	18717	1648743579633,1,1,2
 invcontent.zendesk.com:HSTS	1	18351	1585793499182,1,0,2
 support.desmos.com:HSTS	0	18302	1581556148819,1,0,2
 marlin-prod.literatumonline.com:HSTS	0	18342	1600819626519,1,0,2
@@ -903,7 +903,7 @@ docs.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	18693	1630667594866,
 a3716-14882416.cluster39.canvas-user-content.com:HSTS	0	18370	1618709175511,1,0,2
 pixel.advertising.com:HSTS	85	18652	1643124454737,1,0,2
 www.google-analytics.com^partitionKey=%28http%2Cdevdungeon.com%29:HSTS	0	18695	1626210260213,1,1,2
-spocs.getpocket.com:HSTS	269	18717	1680278157834,1,0,2
+spocs.getpocket.com:HSTS	269	18717	1680280257627,1,0,2
 a3716-14882583.cluster39.canvas-user-content.com:HSTS	0	18370	1618709353285,1,0,2
 pixel.tapad.com^partitionKey=%28http%2Csagemath.org%29:HSTS	0	18695	1646860045619,1,0,2
 cdn.datacamp.com:HSTS	5	18341	1600276491644,1,1,2
@@ -1015,7 +1015,7 @@ wiley.grapeshot.co.uk:HSTS	0	18241	1733777101485,1,0,2
 secureservercdn.net:HSTS	0	18232	1575261784805,1,0,2
 149366088.v2.pressablecdn.com:HSTS	0	18650	1626933150579,1,0,2
 upload.wikimedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS	7	18709	1722899741292,1,1,2
-classify-client.services.mozilla.com:HSTS	40	18717	1648742421585,1,0,2
+classify-client.services.mozilla.com:HSTS	40	18717	1648743202575,1,0,2
 a3716-15353072.cluster39.canvas-user-content.com:HSTS	0	18397	1621110919997,1,0,2
 www.amazon.com:HSTS	21	18628	1656968811834,1,1,2
 a16180790160.cdn.optimizely.com:HSTS	8	18417	1607020333517,1,0,2
