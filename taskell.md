@@ -1,10 +1,12 @@
 ## To Do
 
 - Migrate 'work' structure to branch 'master'
+- Fix Mutt Papis macro (possibly requires writing Papis plugin)
 
 ## Doing
 
 - Figure out Markdown <--> Mutt integration
+    * [ ] Research how to get Outlook to display HTML first (instead of text)
 
 ## Done
 
