@@ -63,3 +63,9 @@ macro compose ,l \
 # Macro: Convert Markdown to HTML and replace text as email attachment
 macro compose \e5 "F pandoc -s -f markdown -t html \ny^T^Utext/html; charset=utf-8\n"
 set wait_key=no
+
+macro attach,compose ,p \
+"<enter-command>unset wait_key<enter>\
+<shell-escape>rm -f /tmp/paper.pdf<enter>\
+<shell-escape>papis export --file -o /tmp/paper.pdf<enter>\
+<attach-file>/tmp/paper.pdf<enter>\
