@@ -228,5 +228,8 @@
 /structure equ
 /underbracket
 /underbrace
-:q
 /quick quad
+/spherical
+/harmonic
+/spherical harmonic
+:q
