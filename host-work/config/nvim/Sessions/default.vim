@@ -1,6 +1,6 @@
 " ~/.config/nvim/Sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 29 March 2021 at 17:06:19.
+" Created by session.vim 2.13.1 on 01 April 2021 at 01:19:07.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -36,7 +36,10 @@ badd +17 Element.sage
 badd +1 term://.//278266:/usr/bin/zsh;\#neoterm-1
 badd +1 Element.sage.py
 badd +49 ~/Documents/Spring-2021/EM_II/Notes/03292021/03292021.tex
-badd +345 ~/Documents/Spring-2021/Seminar/03292021/03292021.tex
+badd +335 ~/Documents/Spring-2021/Seminar/03292021/03292021.tex
+badd +1 ~/Documents/Spring-2021/Seminar/Anna_Heggestuen/masters_talk_03302021
+badd +247 ~/Documents/Spring-2021/Seminar/Anna_Heggestuen/masters_talk_03302021.tex
+badd +25 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/math-environments.snippets
 argglobal
 %argdel
 set stal=2
@@ -72,14 +75,14 @@ silent! normal! zo
 silent! normal! zo
 55
 silent! normal! zo
-let s:l = 49 - ((11 * winheight(0) + 11) / 23)
+let s:l = 49 - ((7 * winheight(0) + 7) / 15)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 49
 normal! 02|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
-tabedit ~/Documents/Spring-2021/Seminar/03292021/03292021.tex
+tabedit ~/Documents/Spring-2021/Seminar/Anna_Heggestuen/masters_talk_03302021.tex
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -97,222 +100,177 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-50
+14
+silent! normal! zo
+16
+silent! normal! zo
+21
+silent! normal! zo
+23
+silent! normal! zo
+24
+silent! normal! zo
+25
+silent! normal! zo
+29
+silent! normal! zo
+30
+silent! normal! zo
+38
+silent! normal! zo
+40
+silent! normal! zo
+43
+silent! normal! zo
+44
 silent! normal! zo
 51
 silent! normal! zo
-59
+53
 silent! normal! zo
-62
+55
+silent! normal! zo
+56
+silent! normal! zo
+63
+silent! normal! zo
+65
 silent! normal! zo
 67
 silent! normal! zo
 68
 silent! normal! zo
-69
+73
 silent! normal! zo
-76
-silent! normal! zo
-80
-silent! normal! zo
-81
+74
 silent! normal! zo
 84
 silent! normal! zo
-85
+86
 silent! normal! zo
-88
+92
 silent! normal! zo
-89
-silent! normal! zo
-95
+94
 silent! normal! zo
 96
+silent! normal! zo
+97
 silent! normal! zo
 100
 silent! normal! zo
 101
 silent! normal! zo
+106
+silent! normal! zo
 107
 silent! normal! zo
-108
+112
 silent! normal! zo
 113
 silent! normal! zo
-114
-silent! normal! zo
-118
+120
 silent! normal! zo
 122
 silent! normal! zo
+123
+silent! normal! zo
 124
 silent! normal! zo
-133
+129
+silent! normal! zo
+130
 silent! normal! zo
 134
 silent! normal! zo
-136
+135
 silent! normal! zo
-137
+141
 silent! normal! zo
-143
+142
 silent! normal! zo
-144
+146
 silent! normal! zo
-149
+147
 silent! normal! zo
 150
+silent! normal! zo
+151
 silent! normal! zo
 158
 silent! normal! zo
 160
 silent! normal! zo
-161
-silent! normal! zo
-162
-silent! normal! zo
-166
-silent! normal! zo
 167
 silent! normal! zo
-171
+169
 silent! normal! zo
-170
+172
 silent! normal! zo
-171
-silent! normal! zo
-177
+173
 silent! normal! zo
 179
 silent! normal! zo
-180
-silent! normal! zo
 181
 silent! normal! zo
-184
+186
 silent! normal! zo
-185
+188
 silent! normal! zo
-191
+193
 silent! normal! zo
-192
-silent! normal! zo
-199
-silent! normal! zo
-200
+195
 silent! normal! zo
 207
 silent! normal! zo
 209
 silent! normal! zo
-210
+213
 silent! normal! zo
-211
+217
 silent! normal! zo
-214
+222
 silent! normal! zo
-215
+226
 silent! normal! zo
-220
-silent! normal! zo
-221
-silent! normal! zo
-227
-silent! normal! zo
-228
-silent! normal! zo
-232
-silent! normal! zo
-233
-silent! normal! zo
-242
-silent! normal! zo
-243
-silent! normal! zo
-244
-silent! normal! zo
-248
-silent! normal! zo
-247
-silent! normal! zo
-248
+230
 silent! normal! zo
 240
 silent! normal! zo
 242
 silent! normal! zo
-243
-silent! normal! zo
-244
-silent! normal! zo
-247
-silent! normal! zo
-248
-silent! normal! zo
-257
-silent! normal! zo
-257
-silent! normal! zo
-259
-silent! normal! zo
-260
-silent! normal! zo
-261
-silent! normal! zo
-264
-silent! normal! zo
-265
-silent! normal! zo
-273
-silent! normal! zo
-274
-silent! normal! zo
-275
-silent! normal! zo
-276
-silent! normal! zo
-281
-silent! normal! zo
-283
-silent! normal! zo
-286
-silent! normal! zo
-287
-silent! normal! zo
-293
-silent! normal! zo
-295
-silent! normal! zo
-299
-silent! normal! zo
-304
-silent! normal! zo
-305
-silent! normal! zo
-311
-silent! normal! zo
-312
-silent! normal! zo
-314
-silent! normal! zo
-319
-silent! normal! zo
-323
-silent! normal! zo
-324
-silent! normal! zo
-333
-silent! normal! zo
-337
-silent! normal! zo
-let s:l = 345 - ((13 * winheight(0) + 7) / 15)
+let s:l = 247 - ((12 * winheight(0) + 8) / 16)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-345
+247
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
-tabnext 2
+tabedit ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/math-environments.snippets
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 25 - ((16 * winheight(0) + 17) / 35)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+25
+normal! 039|
+lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
+tabnext 3
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -330,7 +288,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 2
+tabnext 3
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
