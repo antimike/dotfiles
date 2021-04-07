@@ -27,6 +27,14 @@ snippet 1. "New inline numbered list" w
 $0
 endsnippet
 
+snippet 1) "New inline numbered list with parens" w
+
+\begin{enumerate*}[label=(\arabic*)]
+\item $1
+\end{enumerate*}
+$0
+endsnippet
+
 snippet a. "New lettered list" bA
 \begin{enumerate}[label=(\alph*)]
 \item $1

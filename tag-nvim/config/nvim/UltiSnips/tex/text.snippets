@@ -4,6 +4,14 @@ sys.path.append('/home/user/Documents/Python/Utilities')
 import snippet_utils as utils
 endglobal
 
+snippet " "Begin TeX-style quotes" i
+``$1''$0
+endsnippet
+
+snippet '"([^"]+)"' "Matched quotes (TeX)" riA
+`!p snip.rv = "\`\`" + match.group(1) + "''"`
+endsnippet
+
 snippet em "Italics" i
 \emph{$1}$0
 endsnippet
