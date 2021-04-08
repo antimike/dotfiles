@@ -5,3 +5,5 @@ sudo dnf install 'tex(stackengine.sty)' -y
 pip3 install papis-scihub --user
 sudo dnf install 'tex(tabls.sty)' -y
 sudo dnf install 'tex(xypic.sty)' -y
+pip3 install jupytext --user
+pip install jupyterlab --user
