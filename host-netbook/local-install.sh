@@ -36,3 +36,5 @@ curl -fsSl https://raw.githubusercontent.com/tridactyl/native_messenger/master/i
 sudo apt-get install python3-venv -y
 pip3 install papis-scihub --user
 sudo apt-get install jq -y
+pip3 install jupytext --user
+pip3 install jupyterlab --user
