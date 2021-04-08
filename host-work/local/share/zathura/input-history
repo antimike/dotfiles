@@ -219,7 +219,6 @@
 /vector_field(
 /integral
 /subm
-/embed
 /boundary
 /submanifold
 /numerical
@@ -233,4 +232,10 @@
 /harmonic
 /spherical harmonic
 /:q
+/levi-civita
+/levi
+/civita
+/lie
+/Lie
+/embed
 :q
