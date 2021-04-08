@@ -14,3 +14,5 @@ autocmd BufReadPost *.md call SyntaxRange#Include('```Tex', '```', 'tex', 'NonTe
 autocmd BufReadPost *.md call SyntaxRange#Include('```Sage', '```', 'sage', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Freefem', '```', 'freefem', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Haskell', '```', 'haskell', 'NonText')
+autocmd FileType markdown call SyntaxRange#Include('```python', '```', 'python', 'NonText')
+autocmd FileType markdown call SyntaxRange#Include('```sage', '```', 'sage', 'NonText')
