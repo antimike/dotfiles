@@ -3,6 +3,7 @@ let maplocalleader="\\"
 "" How to disable a plugin:
 "" Option 1: Plug 'random-plugin', { 'on': [] }
 "" Option 2: call remove(g:plugs, 'plugin-name')
+packadd vimball
 call plug#begin('~/.config/nvim/vim-plug')
 
 "" Plugins to consider (i.e., they seem cool but don't have that many GH stars
