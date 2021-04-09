@@ -539,3 +539,13 @@ false
 1615160824104216
 1615160823824368
 #
+
+https://forums.freebsd.org/
+https://forums.freebsd.org/service_worker.js
+true
+{63951f23-87ff-4334-96cd-7f2a5f2bff10}
+0
+1617308715437971
+1617308715441008
+1617308714989151
+#
