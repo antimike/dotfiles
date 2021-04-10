@@ -16,3 +16,15 @@ autocmd BufReadPost *.md call SyntaxRange#Include('```Freefem', '```', 'freefem'
 autocmd BufReadPost *.md call SyntaxRange#Include('```Haskell', '```', 'haskell', 'NonText')
 autocmd FileType markdown call SyntaxRange#Include('```python', '```', 'python', 'NonText')
 autocmd FileType markdown call SyntaxRange#Include('```sage', '```', 'sage', 'NonText')
+let g:markdown_fenced_languages = ['python', 'sage', 'bash=sh', 'octave', 'freefem']
+
+" For InlineEdit
+let g:inline_edit_patterns = [
+      \ 	{
+      \ 		'main_filetype':		'tex',
+      \ 		'sub_filetype':		'sage',
+      \ 		'indent_adjustment': 0,
+      \ 		'start':    '"""begin=sage"""',
+      \ 		'end':      '"""end=sage"""'
+      \   }
+      \]
