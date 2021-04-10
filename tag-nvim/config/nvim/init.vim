@@ -24,7 +24,8 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
-Plug 'goerz/jupytext.vim'
+Plug 'AndrewRadev/inline_edit.vim'
+Plug 'amiorin/vim-fenced-code-blocks', { 'for': ['markdown'] } 
 Plug 'goerz/jupytext.vim' 
 Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
 Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
