@@ -25,6 +25,7 @@ Plug 'reedes/vim-colors-pencil'
 
 "" New plugins
 Plug 'goerz/jupytext.vim'
+Plug 'goerz/jupytext.vim' 
 Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
 Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'puremourning/vimspector'
@@ -194,6 +195,7 @@ Plug 'alok/notational-fzf-vim'
 Plug 'powerline/powerline', { 'on': [] }
 "Plug 'syntastic'
 Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 Plug 'tools-life/taskwiki'
 Plug 'edkolev/tmuxline.vim'
 Plug 'mbbill/undotree'
