@@ -24,6 +24,7 @@ let cmdline_app['octave']      = 'octave'
 let cmdline_app['tex']         = 'sage'
 let cmdline_app['freefem']     = 'octave'
 let cmdline_app['haskell']     = 'ghci-color'
+let cmdline_app['markdown']    = 'ipython'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
