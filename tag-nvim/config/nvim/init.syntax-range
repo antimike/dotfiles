@@ -14,9 +14,12 @@ autocmd BufReadPost *.md call SyntaxRange#Include('```Tex', '```', 'tex', 'NonTe
 autocmd BufReadPost *.md call SyntaxRange#Include('```Sage', '```', 'sage', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Freefem', '```', 'freefem', 'NonText')
 autocmd BufReadPost *.md call SyntaxRange#Include('```Haskell', '```', 'haskell', 'NonText')
+autocmd FileType markdown call SyntaxRange#Include('$$', '$$', 'tex', 'NonText')
 autocmd FileType markdown call SyntaxRange#Include('```python', '```', 'python', 'NonText')
 autocmd FileType markdown call SyntaxRange#Include('```sage', '```', 'sage', 'NonText')
-let g:markdown_fenced_languages = ['python', 'sage', 'bash=sh', 'octave', 'freefem']
+let g:markdown_fenced_languages = ['python', 'sage', 'bash=sh', 'octave', 'freefem', 'tex']
+
+autocmd FileType markdown :set foldlevelstart=99
 
 " For InlineEdit
 let g:inline_edit_patterns = [
@@ -26,5 +29,12 @@ let g:inline_edit_patterns = [
       \ 		'indent_adjustment': 0,
       \ 		'start':    '"""begin=sage"""',
       \ 		'end':      '"""end=sage"""'
+      \   },
+      \   {
+      \     'main_filetype':  'markdown',
+      \     'sub_filetype':   'tex',
+      \     'indent_adjustment':    0,
+      \     'start':          '$$',
+      \     'end':            '$$'
       \   }
       \]
