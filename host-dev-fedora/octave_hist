@@ -1,0 +1,49 @@
+exit
+# Octave 5.1.0, Mon Jan 04 21:13:07 2021 MST <user@dev-fedora>
+exit
+# Octave 5.1.0, Sat Jan 09 15:57:28 2021 MST <user@dev-fedora>
+exit
+# Octave 5.1.0, Sat Jan 09 17:44:59 2021 MST <user@dev-fedora>
+addpath(~/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib)
+addpath('~/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/ffmatlib')
+exit
+# Octave 5.1.0, Sat Jan 09 17:48:43 2021 MST <user@dev-fedora>
+pwd
+cd ../freefem*
+cd ../freefem_matlab_octave_plot-public/release-v2.0
+ls
+cd demos; ls
+capacitor_3d.m
+PS1 ('\[\033[01;31m\]\s:\#> \[\033[0m\]')
+exit
+# Octave 5.1.0, Sat Jan 09 18:32:25 2021 MST <user@dev-fedora>
+version
+ls
+cd ..
+exit
+# Octave 5.1.0, Sat Jan 09 18:33:34 2021 MST <user@dev-fedora>
+cd ..
+ls
+cd freefem_matlab_octave_plot-public
+ls
+cd release-v2.0
+ls
+cd demos
+ls
+run capacitor_2d.m
+exit
+# Octave 5.1.0, Sat Jan 09 18:40:53 2021 MST <user@dev-fedora>
+exit
+# Octave 5.1.0, Sat Jan 09 18:42:06 2021 MST <user@dev-fedora>
+exit
+# Octave 5.1.0, Sat Jan 09 18:42:25 2021 MST <user@dev-fedora>
+exit
+# Octave 5.1.0, Sat Jan 16 13:43:16 2021 MST <user@dev-fedora>
+addpath('../../matlab/release-v2.0/demos/ffmatlib');
+cd 3d/empty-space
+addpath('../../matlab/release-v2.0/demos/ffmatlib');
+clear all;
+source("/tmp/cmdline_1610914867_user/lines.m");
+source("/tmp/cmdline_1610914867_user/lines.m");
+exit
+# Octave 5.1.0, Sun Jan 17 18:16:09 2021 MST <user@dev-fedora>

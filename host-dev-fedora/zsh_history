@@ -626,3 +626,9 @@
 : 1618278576:0;rcup -B dev-fedora mozilla
 : 1618278610:0;git status
 : 1618278613:0;tig
+: 1618278909:0;mkrc -B dev-fedora ~/.octave_hist
+: 1618278919:0;ls tag-compute
+: 1618278937:0;mkrc -B dev-fedora ~/.python_history
+: 1618278975:0;mkrc -B dev-fedora ~/.yarnrc ~/.zsh-history
+: 1618278997:0;git status
+: 1618279003:0;git add .
