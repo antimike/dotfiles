@@ -23,10 +23,6 @@ export VISUAL=nvim
 #export PATH="/usr/local/bin/todo:$PATH"
 #export TODOTXT_DEFAULT_ACTION=ls
 
-# `deal.ii` aliases
-export PATH="/usr/lib/dealii-9.2.0/installation_no_gsl:$PATH"
-export DEALII_ROOT="/usr/lib/dealii-9.2.0"
-
 # Qubes Split-GPG
 export QUBES_GPG_DOMAIN=keyvault-slave-private
 

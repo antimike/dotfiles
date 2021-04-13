@@ -639,3 +639,248 @@
 : 1618279479:0;cat ~/.gitconfig
 : 1618279509:0;ranger
 : 1618279548:0;git mergetool
+: 1618279582:0;git merge dev-fedora
+: 1618279589:0;git status
+: 1618279598:0;git add tag-git
+: 1618279635:0;git commit -m "Merged branch dev-fedora into branch work"
+: 1618279642:0;ranger
+: 1618279650:0;git status
+: 1618279659:0;git push
+: 1618279711:0;cd nerd-fonts
+: 1618279713:0;ls
+: 1618279730:0;sudo chmod +x ./install.sh
+: 1618279736:0;./install.sh
+: 1618279785:0;nvim
+: 1618280726:0;git status
+: 1618280728:0;git pull
+: 1618280962:0;git status
+: 1618282495:0;dnf search jupyter
+: 1618282508:0;pip3 install jupyterlab jupytext --user
+: 1618282628:0;pip3 install jupyter --user
+: 1618282649:0;echo $INSTALLED
+: 1618282667:0;ranger
+: 1618282715:0;pip3 install scipy matplotlib --user
+: 1618282729:0;pip3 install scihub --user
+: 1618282734:0;gita ll
+: 1618282860:0;dnf search fenics
+: 1618283061:0;python --version
+: 1618283072:0;dnf search tcl
+: 1618283133:0;sudo dnf install tcl tclx-devel -y
+: 1618283236:0;log-installed
+: 1618283249:0;cmake -v
+: 1618283253:0;cmake --version
+: 1618283265:0;dnf search xmu
+: 1618283282:0;sudo dnf install libXmu libXmu-devel -y
+: 1618283289:0;log-installed
+: 1618283295:0;dnf search libglu
+: 1618283314:0;sudo dnf install mesa-libGLU mesa-libGLU-devel -y
+: 1618283320:0;log-installed
+: 1618283328:0;dnf search liblapacke
+: 1618283335:0;dnf search lapack
+: 1618283362:0;sudo dnf install lapack lapack-devel -y
+: 1618283367:0;log-installed
+: 1618283387:0;sudo dnf install python3-distutils -y
+: 1618283404:0;dnf search python3-dev
+: 1618283412:0;sudo dnf install python3-devel -y
+: 1618283419:0;log-installed
+: 1618283435:0;sudo dnf install tk-devel -y
+: 1618283458:0;dnf search lapacke
+: 1618283581:0;cd ~/Source
+: 1618283583:0;ls
+: 1618283601:0;cd ngsolve-src
+: 1618283614:0;git submodule status
+: 1618283620:0;git submodule update
+: 1618283629:0;cd external_dependencies/netgen
+: 1618283630:0;ls
+: 1618283632:0;git status
+: 1618283636:0;cd ../..
+: 1618283665:0;cd ../ngsolve-build
+: 1618283667:0;ls
+: 1618283670:0;cd ..
+: 1618283672:0;ls | grep ng
+: 1618283694:0;ls /usr/local/bin
+: 1618283712:0;echo $DEALII_ROOT
+: 1618283748:0;ls /usr/local/lib/dealii-9.2.0
+: 1618283774:0;nvim ~/.local.config
+: 1618283797:0;nvim
+: 1618284022:0;echo $NGSOLVE_ROOT
+: 1618284041:0;cd $NGSOLVE_ROOT
+: 1618284057:0;ls
+: 1618284065:0;cd ngsolve-build
+: 1618284137:0;nvim ~/.local.config
+: 1618284220:0;cd $NGSOLVE_BUILD
+: 1618284254:0;cmake -DCMAKE_INSTALL_PREFIX=${NGSOLVE_ROOT} ${NGSOLVE_SRC}
+: 1618284288:0;sudo make
+: 1618284350:0;cd ..
+: 1618284356:0;rm -r ngsolve-build
+: 1618284365:0;rm -r ngsolve-build -f
+: 1618284372:0;sudo rm -r ngsolve-build -f
+: 1618284381:0;mkdir ngsolve-build
+: 1618284386:0;cd ngsolve-build
+: 1618284426:0;cmake -DCMAKE_INSTALL_PREFIX=${NGSOLVE_ROOT} ${NGSOLVE_SRC}
+: 1618284430:0;sudo make
+: 1618284716:0;ranger
+: 1618284795:0;buku -h | grep cache
+: 1618284808:0;buku -h | grep copy
+: 1618284813:0;buku -h | grep url
+: 1618284835:0;buku -o ngsolve
+: 1618284841:0;buku ngsolve
+: 1618285160:0;pip3 install ipywidgets --user
+: 1618285164:0;log-installed
+: 1618285182:0;jupyter nbextension install --py widgetsnbextension
+: 1618285190:0;sudo jupyter nbextension install --py widgetsnbextension
+: 1618285204:0;log-installed
+: 1618285230:0;jupyter nbextension enable --py widgetsnbextension
+: 1618285247:0;sudo jupyter nbextension install --user --py ngsolve
+: 1618285321:0;unzip -h
+: 1618285384:0;ls
+: 1618285392:0;cd ..
+: 1618285393:0;ls
+: 1618285436:0;sudo find / -name "i-tutorials*"
+: 1618285517:0;mkdir ngsolve-tutorials
+: 1618285529:0;unzip i-tutorials.zip -d /home/user/Source/ngsolve-tutorials
+: 1618285534:0;cd ngsolve-tutorials
+: 1618285535:0;ls
+: 1618285538:0;cd docs
+: 1618285540:0;ls
+: 1618285558:0;cd html
+: 1618285559:0;ls
+: 1618285561:0;ranger
+: 1618286096:0;cd ..
+: 1618286103:0;git clone https://github.com/Airini/FEECa
+: 1618286114:0;log-installed
+: 1618286136:0;cabal -h
+: 1618286148:0;ls
+: 1618286153:0;cd FEECa
+: 1618286165:0;dnf search libblas
+: 1618286178:0;dnf search blas-dev
+: 1618286190:0;sudo dnf install blas-devel -y
+: 1618300791:0;sudo make install
+: 1618300818:0;nvim ~/.local.config
+: 1618301056:0;cd ..
+: 1618301061:0;cd ~/Source
+: 1618301067:0;cd FEECa
+: 1618301068:0;ls
+: 1618301077:0;cabal install --only-dependencies
+: 1618301105:0;cabal update
+: 1618301155:0;cabal install --only-dependencies
+: 1618301345:0;cabal configure
+: 1618301355:0;cabal install
+: 1618301401:0;cabal install --reorder-goals --only-dependencies
+: 1618301435:0;cabal --reorder-goals configure
+: 1618301449:0;cabal --reorder-goals install
+: 1618301564:0;ranger
+: 1618301590:0;ls -la | grep cabal
+: 1618301608:0;cat feeca.cabal | grep build-depends
+: 1618301678:0;cabal --reorder-goals install -v
+: 1618301700:0;cabal --reorder-goals install -v > cabal_output
+: 1618301711:0;nvim cabal_output
+: 1618301997:0;ghc -v
+: 1618302018:0;stack install
+: 1618302288:0;cabal install
+: 1618302301:0;stack install --only-dependencies
+: 1618302306:0;stack install
+: 1618302324:0;stack install > stack-output
+: 1618302328:0;nvim stack-output
+: 1618311920:0;dnf search pybind
+: 1618311946:0;sudo dnf install python3-pybind11 pybind11-devel -y
+: 1618311989:0;log-installed
+: 1618311999:0;pip3 install fenics-ffc --upgrade --user
+: 1618312008:0;log-installed
+: 1618312038:0;FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
+: 1618312061:0;echo $FENICS_VERSION
+: 1618312114:0;cd ..
+: 1618312132:0;git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/dolfin
+: 1618312186:0;git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/mshr
+: 1618312233:0;mkdir dolfin/build && cd dolfin/build
+: 1618312240:0;ranger
+: 1618312254:0;cmake ..
+: 1618312295:0;make install
+: 1618312512:0;source ~/.local.config
+: 1618312523:0;echo $DOLFIN_ROOT
+: 1618312542:0;source ~/.local.config
+: 1618312544:0;echo $DOLFIN_ROOT
+: 1618312581:0;sudo cmake -DCMAKE_INSTALL_PREFIX=$DOLFIN_ROOT ..
+: 1618312607:0;sudo make install
+: 1618312643:0;make install
+: 1618312654:0;ls .. | grep install
+: 1618312686:0;cd ..
+: 1618312688:0;ls
+: 1618312710:0;ls $DOLFIN_ROOT
+: 1618312726:0;sudo mkdir /usr/local/lib/dolfin-install
+: 1618312731:0;cd build
+: 1618312737:0;sudo make install
+: 1618312751:0;ls -la | grep cmake
+: 1618312757:0;cd ..
+: 1618312767:0;sudo rm -r build -f
+: 1618312771:0;ls -la | grep cmake
+: 1618312776:0;mkdir build
+: 1618312778:0;cd build
+: 1618312807:0;cmake -DCMAKE_INSTALL_PREFIX=$DOLFIN_ROOT ..
+: 1618312821:0;sudo make install
+: 1618312838:0;make install
+: 1618312857:0;sudo pip3 install fenics-ffc --upgrade
+: 1618312864:0;log-installed
+: 1618312869:0;sudo make install
+: 1618313113:0;netgen
+: 1618313147:0;source ~/.local.config
+: 1618313150:0;netgen
+: 1618313406:0;source ~/.local.config
+: 1618313418:0;ls $NETGEN_DEMO_DIR
+: 1618313433:0;netgen
+: 1618313634:0;jupyter nbextension install --user --py ngsolve
+: 1618313651:0;log-installed
+: 1618313661:0;jupyter nbextension enable ngsolve --user --py
+: 1618313665:0;log-installed
+: 1618313701:0;ls $NETGEN_TUTORIAL_DIR
+: 1618313721:0;ls $NETGEN_TUTORIAL_DIR/docs/html/jupyter-files/unit-1.1-poisson
+: 1618313754:0;jupyter notebook $NETGEN_TUTORIAL_DIR/docs/html/jupyter-files/unit-1.1-poisson/poisson.ipynb
+: 1618314032:0;ranger
+: 1618314104:0;git apply ../0001-Add-missing-algorithm-include-for-std-min_element-co.patch
+: 1618314109:0;git status
+: 1618314153:0;cd ..
+: 1618314158:0;git apply 0001-Add-missing-algorithm-include-for-std-min_element-co.patch
+: 1618314161:0;git status
+: 1618314168:0;cd build
+: 1618314175:0;sudo make install
+: 1618314260:0;buku --suggest -a https://bitbucket.org/fenics-project/dolfin/issues/1115/compile-error-min_element-is-not-member-of fix, patch, FENICS, software -c "Thread with a patch for an annoying compilation issue in FENICS"
+: 1618314416:0;nvim
+: 1618315518:0;gita super dotfiles status
+: 1618315624:0;gita super dotfiles add host-dev-fedora/mozilla
+: 1618315627:0;gita super dotfiles status
+: 1618315646:0;gita super dotfiles commit -m "host-dev-fedora: Firefox updates"
+: 1618315648:0;gita super dotfiles status
+: 1618315665:0;gita super dotfiles add host-dev-fedora/local-install.sh
+: 1618315695:0;gita super dotfiles commit -m "host-dev-fedora: Installed dependencies for ngsolve, dolfin, and related stuff (FEM libraries)"
+: 1618315714:0;gita super dotfiles add tag-nvim
+: 1618315781:0;gita super dotfiles commit -m "Added syntax-range delimiters for TeX syntax (double-$) and some fold aucmds for editing Jupyter notebook files"
+: 1618315788:0;gita super dotfiles status
+: 1618315805:0;gita super dotfiles add host-dev-fedora/local.config
+: 1618315839:0;gita super dotfiles commit -m "host-dev-fedora: Exported shell variables for ngsolve and dolfin installations in local.config"
+: 1618315845:0;gita super dotfiles status
+: 1618315874:0;gita super dotfiles add tag-firefox
+: 1618315892:0;gita super dotfiles commit -m "Added some bookmarks for Dolfin/NGSolve documentation"
+: 1618315941:0;cat ~/.dotfiles/host-dev-fedora/rcrc | grep symlink
+: 1618315948:0;cat ~/.dotfiles/host-dev-fedora/rcrc | grep SYMLINK
+: 1618315968:0;ranger
+: 1618315981:0;cd ~/.dotfiles
+: 1618316003:0;mkrc -B dev-fedora ~/.config/nvim/Sessions/jupyter.vim
+: 1618316006:0;ranger
+: 1618316026:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316035:0;rcup -B dev-fedora config/nvim/Sessions
+: 1618316039:0;ranger
+: 1618316070:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316085:0;ranger
+: 1618316105:0;nvim
+: 1618316172:0;ranger
+: 1618316206:0;rcup -B dev-fedora config/nvim/
+: 1618316210:0;ranger
+: 1618316233:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316258:0;rcup -B dev-fedora -S config/nvim/Sessions
+: 1618316302:0;ranger
+: 1618316364:0;git status
+: 1618316386:0;git add host-dev-fedora/mozilla
+: 1618316388:0;git status
+: 1618316399:0;git commit -m "host-dev-fedora: Firefox updates"
+: 1618316402:0;git status
+: 1618316411:0;tig
