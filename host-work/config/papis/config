@@ -1,0 +1,19 @@
+[papers]
+dir = ~/Documents/Papis-Imports
+opentool = zathura
+editor = nvim
+file-browser = ranger
+
+[settings]
+default-library = papers
+
+[tui]
+editmode = vi
+move_down_key = c-j
+move_up_key = c-k
+focus_command_line_key = :
+edit_document_key = c-e
+open_document_key = c-l
+go_top_key = c-u
+go_bottom_key = c-d
+
