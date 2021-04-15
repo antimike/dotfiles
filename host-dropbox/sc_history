@@ -1,0 +1,9 @@
+pullcopy 
+rs
+sort [range "criteria"] A0:'b
+sort [range "criteria"] 
+"Email Address"
+\Email Address
+\"Email Address"
+label B1 = "Email Address"
+put ["dest" range] "
