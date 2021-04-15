@@ -1,0 +1,37 @@
+snippet figure "Basic figure environment" bA
+\begin{figure}[ht]
+	\centering
+	$1
+	\caption{$2}
+	\label{$3}
+\end{figure}
+$0
+endsnippet
+
+snippet subfig "Horizontally-aligned subfigure environment" bA
+\begin{subfigure}{${1:.45}\textwidth}
+	\centering
+	\sbox$2{$3}%
+	$3
+	\caption{$4}
+	\label{$5}
+\end{subfigure}\hfill%
+endsnippet
+
+snippet 'trimsubfig(\d+)' "sbox-based trim parameters for a subfigure" riA
+clip, trim={$1\wd`!p snip.rv = match.group(1)`} {$2\ht`!p snip.rv = match.group(1)`} {$3\wd`!p snip.rv = match.group(1)`} {$4\ht`!p snip.rv = match.group(1)`}, scale=$5
+endsnippet
+
+snippet sageplot "Sageplot command" wA
+\sageplot[$1]{$2}
+endsnippet
+
+snippet
+\begin{table}[ht]
+\centering
+$1
+\caption{$2}
+\label{$3}
+\end{table}
+$0
+endsnippet
