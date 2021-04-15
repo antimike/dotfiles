@@ -137,3 +137,12 @@
 : 1618466140:0;tig
 : 1618466245:0;mkrc -B dropbox ~/.bash_history ~/.bash_logout ~/.bash_profile ~/.sc_history ~/.zsh_history
 : 1618466263:0;tig
+: 1618466312:0;pip3 install gita --user
+: 1618466341:0;gita add ~/.dotfiles
+: 1618466347:0;gita rename .dotfiles dotfiles
+: 1618466378:0;nvim
+: 1618466522:0;rcdn config/nvim/init.vim
+: 1618466564:0;cp tag-nvim/config/nvim/init.vim ~/.config/nvim
+: 1618466581:0;mkrc -B dropbox ~/.config/nvim/init.vim
+: 1618466735:0;rcup -B dropbox config/nvim/plugins.vim
+: 1618467371:0;tig
