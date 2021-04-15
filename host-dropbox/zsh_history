@@ -1,0 +1,139 @@
+: 1618460274:0;ranger
+: 1618460344:0;echo $ZSH_CUSTOM
+: 1618460357:0;ls -la ~/.oh-my-zsh
+: 1618460578:0;guake -h
+: 1618460583:0;guake -h | grep pref
+: 1618460599:0;guake --restore-preferences=/home/user/.dotfiles/host-dropbox/guake-preferences
+: 1618460686:0;echo $SSH_AUTH_SOCK
+: 1618460722:0;cat ~/.qubes_agents.sh
+: 1618460742:0;rcdn -B host-dropbox
+: 1618460750:0;rcdn -B dropbox
+: 1618460762:0;rcup -B dropbox
+: 1618460774:0;ls ~/.config/nvim
+: 1618460786:0;cat ~/.rcrc
+: 1618460820:0;ls -la ~ | grep zsh
+: 1618460860:0;rcup
+: 1618460883:0;ls | grep mail
+: 1618460887:0;ls ~ | grep mail
+: 1618460893:0;rcdn
+: 1618460908:0;ls ~ | grep mail
+: 1618460914:0;ls ~/mail
+: 1618460971:0;rcup -B dropbox
+: 1618460976:0;ls ~ | grep tex
+: 1618460983:0;ls -la | grep tex
+: 1618460991:0;ls -la ~ | grep tex
+: 1618461021:0;rcup -B dropbox
+: 1618461063:0;man git
+: 1618461080:0;man git submodule
+: 1618461100:0;git submodule update --init --recursive
+: 1618461140:0;nvim
+: 1618461145:0;sudo dnf install neovim
+: 1618461157:0;pip3 install nvim --user
+: 1618461167:0;pip3 install neovim --user
+: 1618461182:0;pip2 install neovim
+: 1618461189:0;pip install neovim --user
+: 1618461203:0;which pip
+: 1618461210:0;pip --version
+: 1618461239:0;ls /usr/lib/python2.7/site-packages | grep pip
+: 1618461251:0;python2
+: 1618461305:0;which pip3
+: 1618461308:0;which pip2
+: 1618461330:0;sudo find / -name "pip2"
+: 1618461342:0;ruby
+: 1618461360:0;cd /usr/lib/python2.7
+: 1618461362:0;ls
+: 1618461365:0;cd site-packages
+: 1618461366:0;ls
+: 1618461425:0;ls /usr/bin | grep pip
+: 1618461439:0;ls -la /usr/bin
+: 1618461442:0;ls -la /usr/bin | grep pip
+: 1618461448:0;which pip
+: 1618461452:0;pip --version
+: 1618461471:0;ls -la /usr/local/bin | grep pip
+: 1618461505:0;dnf search pip2
+: 1618461510:0;dnf search pip
+: 1618461518:0;dnf search python pip
+: 1618461589:0;sudo find / -name "get-pip*"
+: 1618461778:0;dnf search python2-pip
+: 1618461792:0;dnf search python2
+: 1618461845:0;sudo rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/URPMS-GPG-PUBLICKEY-Fedora
+: 1618461861:0;sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/17/unitedrpms-$\(rpm -E %fedora)-17.fc$(rpm -E %fedora).noarch.rpm
+: 1618461920:0;bash
+: 1618461950:0;dnf search python2-pip
+: 1618463016:0;sudo dnf install python2-pip -y
+: 1618464211:0;ls -la ~ | grep rcrc
+: 1618464436:0;which pip2
+: 1618464440:0;pip2 install neovim --user
+: 1618464448:0;nvim
+: 1618464460:0;ranger
+: 1618464590:0;dnf search fzf
+: 1618464599:0;echo $INSTALLED
+: 1618464608:0;ls -la ~/.local-install.sh
+: 1618464617:0;sudo dnf install fzf -y
+: 1618464629:0;log-installed
+: 1618464683:0;ranger
+: 1618464750:0;curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1618464770:0;nvim
+: 1618464806:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+: 1618464817:0;nvim
+: 1618465054:0;sudo dnf install npm nodejs -y
+: 1618465069:0;dnf search ripgrep
+: 1618465078:0;log-installed
+: 1618465083:0;sudo dnf install ripgrep -y
+: 1618465090:0;ruby --version
+: 1618465096:0;log-installed
+: 1618465103:0;sudo gem install neovim
+: 1618465110:0;log-installed
+: 1618465121:0;pip3 install pynvim --upgrade --user
+: 1618465132:0;pip2 install pynvim --upgrade --user
+: 1618465143:0;nvim
+: 1618465187:0;dnf search latexmk
+: 1618465195:0;sudo dnf install latexmk -y
+: 1618465207:0;log-installed
+: 1618465211:0;dnf search xdotool
+: 1618465216:0;sudo dnf install xdotool -y
+: 1618465226:0;log-installed
+: 1618465246:0;sudo gem pristine wapiti --version 1.0.7
+: 1618465272:0;sudo gem update neovim
+: 1618465281:0;gem install neovim
+: 1618465287:0;gem update neovim
+: 1618465304:0;npm install -g neovim
+: 1618465373:0;man npm
+: 1618465398:0;npm install neovim
+: 1618465431:0;sudo npm install -g neovim -y
+: 1618465440:0;log-installed
+: 1618465452:0;nvim
+: 1618465473:0;ls -la ~ | grep viminfo
+: 1618465488:0;cd ~/.dotfiles
+: 1618465500:0;mkrc -B dropbox ~/.viminfo
+: 1618465533:0;ranger
+: 1618465591:0;mkrc -B dropbox ~/.config/nvim/Sessions
+: 1618465604:0;ls host-dropbox/config/nvim/Sessions
+: 1618465608:0;ranger
+: 1618465628:0;rcdn -B dropbox config/nvim/Sessions
+: 1618465642:0;rcup -B dropbox config/nvim
+: 1618465647:0;ranger
+: 1618465679:0;rcdn -B dropbox config/nvim
+: 1618465692:0;rcdn -B dropbox config/nvim/Ses
+: 1618465697:0;ranger
+: 1618465727:0;rcup -B dropbox config/nvim/Sessions
+: 1618465730:0;ranger
+: 1618465746:0;rcdn -B dropbox config/nvim/Sessions
+: 1618465751:0;rcup -B dropbox config
+: 1618465755:0;ranger
+: 1618465790:0;cat ~/.rcrc | grep LINK
+: 1618465799:0;nvim ~/.rcrc
+: 1618465849:0;rcdn -B dropbox config/nvim/Sessions
+: 1618465856:0;rcup -B dropbox config/nvim
+: 1618465860:0;ranger
+: 1618465883:0;tig
+: 1618466001:0;git push --set-upstream origin dropbox-config
+: 1618466058:0;mv ~/.mozilla/firefox/j98cpdtw.default-release ~/.dotfiles/host-dropbox
+: 1618466061:0;ranger
+: 1618466094:0;cd ~/.dotfiles
+: 1618466123:0;rcup -B dropbox mozilla/firefox
+: 1618466140:0;tig
+: 1618466245:0;mkrc -B dropbox ~/.bash_history ~/.bash_logout ~/.bash_profile ~/.sc_history ~/.zsh_history
+: 1618466263:0;tig

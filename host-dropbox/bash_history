@@ -1,0 +1,1002 @@
+vim ./*carneiro*.txt
+vim carneiro-refs.txt
+pdftotext -h
+pdftotext --help
+man pdftotext
+pdftotext -f 7 -l 7 -layout *carneiro*.pdf
+ls
+vim carneiro*.txt
+anystyle --verbose find carneiro-brandt.txt
+vim carneiro-brandt.txt
+rm *carneiro*.txt
+pdftotext -f 7 -l 7 *carneiro*.pdf
+vim *carneiro*.txt
+anystyle --verbose find ./*carneiro*.txt
+vim *carneiro*.txt
+anystyle --verbose find ./*carneiro*.txt
+vim *carneiro*.txt
+anystyle --verbose find ./*carneiro*.txt
+cp ./*carneiro*.txt carneiro-test.txt
+vim carneiro-test.txt
+anystyle --verbose find ./*test.txt
+vim *test.txt
+anystyle --verbose find ./*test.txt
+vim *test.txt
+anystyle --verbose find ./*test.txt
+vim *brandt.txt
+anystyle --verbose find *brandt.txt
+dnf search cermine
+snap search cermine
+dnf search pdf-extract
+gem install pdf-extract
+sudo dnf install gcc-c++
+gem install pdf-extract
+pdf-extract --help
+dnf search pdfx
+pip search pdfx
+easy_install --version
+sudo easy_install pdfx
+pdfx --version
+pdfx -v ./*brandt.pdf
+ls
+dnf search pdfextract
+snap search pdfextract
+dnf search pdf*extract*
+dnf search *pdf*extract*
+gem install pdf-extract
+cd ~/Downloads; ls
+sha1sum *.jar
+md5sum *.jar
+./*.jar
+qvm-open-in-dvm *.jar
+java -cp cermine-impl-1.13-jar-with-dependencies.jar pl.edu.icm.cermine.ContentExtractor ./*brandt.pdf
+java -cp cermine-impl-1.13-jar-with-dependencies.jar pl.edu.icm.cermine.ContentExtractor -path ./*brandt.pdf
+mktemp --dryrun
+mktemp --dry-run
+mktemp --dry-run $var; echo $var
+mktemp --dry-run > $var; echo $var
+$var='hi there'
+$var="Hi there"
+export $var="Hi there"
+export $var = "Hi there"
+export $var = 'Hi'
+var="Hi there"
+echo $var
+var=$(mktemp --dry-run)
+echo $var
+TEMPDIR=$(mktemp)
+cd $TEMPDIR
+rm $TEMPDIR
+mktemp -d --dry-run
+TEMPDIR=$(mktemp -d)
+cd $TEMPDIR
+cd ~/Downloads
+rm -R $TEMPDIR
+ls
+"$(dirname ./Doc*)/$(basename ./Doc*)"
+echo "$(dirname ./Doc*)/$(basename ./Doc*)"
+touch -h
+touch --help
+touch ./Doc* -c
+ls
+echo $(sed -i 's/old/new/g' "old string")
+echo $(sed -i 's/old/new/g' $(echo "old string"))
+echo $(sed -i 's/old/new/g' <<< "old string")
+echo $(sed 's/old/new/g' <<< "old string")
+t
+t do 9
+snap list
+zotero
+zettlr --version
+snap zotero
+snap help
+snap refresh
+snap start zotero
+sudo snap start zotero
+sudo snap start zotero-snap
+zotero-snap
+dnf into gtk3
+yum info gtk3
+yum install gtk3
+sudo yum install gtk3
+zotero-snap
+cd Downloads
+ls
+qvm-copy ./Zettlr*.rpm
+cd /usr/local/bin; ls | grep -i sanit
+qvm-copy /usr/local/bin/sanitize*.sh /usr/local/bin/extract*.sh
+cd ~/Downloads
+qvm-copy cermine*.jar
+sudo find / -name "*.jar"
+cd /usr/share
+ls | grep -i java
+cd java
+ls
+mv ~/Downloads/*cermine*.jar /usr/share/java
+sudo mv ~/Downloads/*cermine*.jar /usr/share/java
+sudo vim /usr/local/bin/extract-refs.sh
+qvm-copy /usr/local/bin/extract-refs.sh
+cd ~/Documents/Sum*/Res*
+ls
+cd Lon*
+ls
+extract-refs *Proz*.pdf prozorov-refs.bib
+sudo vim /usr/local/bin/extract*.sh
+sudo vim /usr/local/bin/sanitize*.sh
+sudo mv /usr/local/bin/sanitize-filename-input-arg.sh /usr/local/bin/sanitize-filename-output-arg.sh
+vim ~/.bashrc
+. ~/.bashrc
+sudo vim /usr/local/bin/sanitize-filename-input-arg.sh
+t
+zotero-snap
+snap refresh
+snap install zotero
+snap install zotero-snap
+snap uninstall zotero-snap
+snap remove zotero-snap
+snap install zotero-snap
+zotero-snap
+qubes-snapd-helper --version
+ls -l /
+ls --help
+ls -h
+ls -l -L /
+ls -la
+ls -la /
+cd /tmp
+ls
+t do 4
+t "(C) Finish installing 'maximal' `deal.ii` lib in dev-gpu-fedora-29"
+t add "(C) Finish installing 'maximal' deal.ii lib in dev-gpu-fedora-29"
+t "(A) Add CUDA optimization to demo code (meeting)"
+t add "(A) Add CUDA optimization to demo code (meeting)"
+cd Downloads;ls
+mv Zettlr*.rmp cermine-impl* Software
+mv ./Zettlr*.rpm ./cermine* Software
+mv ./Zettlr*.rpm Software
+ls
+cd Software; ls
+task
+task 1 start
+dnf search atom
+cd Downloads/Software
+ls
+ls | grep -i atom
+curl -s https://packagecloud.io/install/repositories/AtomEditor/atom/script.rpm.sh > atom-rpm-install-script.sh
+vim atom-rpm-install-script.sh
+sudo bash atom-rpm-install-script.sh
+dnf search atom
+dnf search atom-1.49
+yum search atom-1.49
+dnf search AtomEditor
+dnf repolist
+dnf list available AtomEditor_atom
+dnf list --help
+dnf list --available --repo AtomEditor_atom
+dnf list --repo AtomEditor_atom
+dnf list --help
+dnf --repo AtomEditor_atom list 
+dnf --repo=AtomEditor_atom list 
+dnf --repo="AtomEditor_atom" search atom
+dnf --repo="fedora" search atom
+dnf --repo="AtomEditor_atom" search atom
+sudo dnf install yum
+cd ..
+ls
+qvm-copy atom*.rpm
+mv *.rpm Software
+t
+task
+snap stop zoom-client
+sudo snap stop zoom-client
+sudo killall zoom-client
+snap start zoom-client
+sudo snap start zoom-client
+zoom-client
+cd ~/.vim
+ls
+cd bundle
+ls
+git clone https://github.com/tpope/vim-fugitive
+git clone https://github.com/airblade/vim-gitgutter
+git clone https://github.com/itchyny/lightline.vim
+git clone https://github.com/vim-airline/vim-airline
+git clone https://github.com/mbbill/undotree
+git clone github.com/preservim/nerdtree
+git clone https://github.com/preservim/nerdtree
+git clone https://github.com/preservim/nerdcommenter.git
+https://github.com/mg979/vim-visual-multi
+git clone https://github.com/mg979/vim-visual-multi
+git clone https://github.com/tpope/vim-surround
+git clone https://github.com/vim-syntastic/syntastic
+git clone https://github.com/jiangmiao/auto-pairs
+git clone https://github.com/godlygeek/tabular
+python3 --version
+pip3 install msgpack --user
+git clone https://github.com/vim-ctrlspace/vim-ctrlspace
+git clone https://github.com/tpope/vim-eunuch
+git clone https://github.com/frazrepo/vim-rainbow
+git clone https://github.com/editorconfig/editorconfig-vim
+git clone https://github.com/edkolev/tmuxline.vim
+dnf search tmux
+sudo dnf install tmux
+ls
+cd ~; ls -a | grep -i bash
+vim .bash_history
+tmux close-window
+tmux new-window
+vim
+exit
+cd ~/.vim/bundle
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin
+git clone https://github.com/powerline/powerline
+qvm-copy ~/*vim*
+qvm-copy ~/.vim ~/.vimrc
+ls -a ~ | grep -i vim
+ls ~/.vimwiki
+rm -r ~/.vimwiki
+vim ~/.task/hooks/*modify*
+exit
+mkdir .vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd .vim; ls
+cd autoload
+ls
+cd ..
+ls -a
+vim .vimrc
+cd ~/.vim/bundle && git clone https://github.com/tpope/vim-sensible.git
+ls
+pip install tasklib
+pip3 install tasklib --user
+vim ../../.vimrc
+git clone https://github.com/vimwiki/vimwiki.git
+ls
+vim
+ls
+rm -r vimwiki
+ls
+git clone https://github.com/vimwiki/vimwiki --branch dev
+sudo pip3 install --upgrade -r requirements.txt
+git clone https://github.com/tbabej/taskwiki
+vim
+ls
+vim
+git clone https://github.com/powerman/vim-plugin-AnsiEsc
+git clone https://github.com/majutsushi/tagbar
+git clone https://github.com/farseer90718/vim-taskwarrior
+task
+task commands
+vim
+taskwiki
+vim ~/.bashrc
+cd ~/Doc*
+ls
+vim Summer
+vim 'Summer\'
+rm Summer 'Summer\'
+cd 'Summer 2020'
+ls
+vim SummerTasks.tsk
+vim SummerTasks.wiki
+task
+vim SummerTasks.wiki
+task urgency+
+task priority-
+task +Research
+task project:Research
+task project+
+vim Summer*.wiki
+task
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+task
+vim Summer*.wiki
+task
+vim Summer*.wiki
+task
+vim Summer*.wiki
+task
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+vim ~/.vimrc
+vim Summer*.wiki
+task
+task 13 done
+task 14 done
+task
+task 13 done
+timew summary
+cd ~
+qvm-copy ./.vim*
+cd Doc*/Sum*
+ls
+vim SummerTasks.wiki
+dnf search ctags
+sudo dnf install ctags ctags-etags global-ctags
+vim SummerTasks.wiki
+dnf search gvim
+dnf search vim
+vim --version
+vim
+task
+tmux new
+vim ~/.vimrc
+dnf search python3-pyqt5
+dnf search python3-poppler-qt5
+sudo dnf install python3-pyqt5 python3-poppler-qt5
+sudo dnf install python3-pyqt5-sip python3-poppler-qt5
+cd .vim; ls
+cd bundle
+ls
+git clone https://github.com/jalvesaq/zotcite
+ls
+vim
+cd ~/Doc*/Sum*
+ls
+mv SummerTasks.wiki Research/Notes/todo.md
+vim
+ls
+vim 2
+cd Research/Notes
+ls
+vim
+task
+vim
+task
+timew
+timew summary
+vim
+vim ~/.vimrc
+qvm-copy ~/.vimrc
+task
+t
+t add "(A) Email Kristen re: paycheck @correspondence"
+t add "(A) Email Qubes mailing list re: RAM issues in dev-gpu-fedora-29 @correspondence +Research"
+t do 11
+t
+t add "(B) Download paper from Stuart's 'Papers for Mac' library +Research"
+t do 10
+t
+t add "(A) Finish building maximal `deal.ii` environment +Research @software"
+t add "(A) Finish building maximal deal.ii environment +Research @software"
+t -h
+t rm 8
+t add "(C) Build deal.ii documentation in dev-gpu-fedora-29 +Research @software"
+t add "(C) Backup Qubes @admin"
+t
+cd Downloads; ls
+mv ./*.pdf ~/Doc*/Sum*/Research/Unfiled*
+ls
+t do 10
+ls
+t
+t -h
+t dp 8
+t
+t -h
+t pri 8 C
+t
+t dp 9
+t pri 9 C
+t
+task 
+task help
+timew
+task
+timew
+timew :ids
+timew summary :ids
+timew help
+timew delete @1
+timew summary
+cd /usr/share/doc; ls
+cd /usr/share/doc; ls | grep -i time
+cd timew; ls
+cd ext; ls
+cp on-modify.timewarrior ~/.task.hooks
+cd ~/.task.hooks; ls
+cd ~/.task; ls
+cd ~; ls
+ls -a
+rm .task.hooks
+cp /usr/share/doc/timew/ext/on-modify ~/.task/hooks
+cp /usr/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks
+cd ~/.task/hooks; ls
+task
+timew
+t
+task add Implement vector Poisson and London solver in deal.ii tag:deal.ii project:Research priority:H
+task add Lasers PSET 5 project:Spring-2020 tag:pset tag:lasers
+task add Reply to Bob tag:correspondence priority:H
+task add Reply to James tag:correspondence priority:M
+task add Backup Qubes priority:L tag:admin
+task add Finish building maximal deal.ii environment tag:deal.ii project:Research tag:software
+task add Add CUDA optimizations to Poisson solver tag:deal.ii project:Research priority:M
+task
+task add CMT PSET 1 priority:H project:Spring-2020 tag:pset tag:cmt
+task
+task 2 modify priority:H
+task
+task add Read core FEM papers project:Research tag:reading tag:notes
+task 9 modify priority:M
+task add Create repo for deal.ii code and share with Marty and Stuart project:Research priority:L
+task
+task 1 modify due:tomorrow
+task
+task add Register for Fall 2020 classes project:Fall-2020 priority:H
+task
+task add Work through core deal.ii examples project:Research.Notes priority:M tag:notes
+task
+task help
+task commands
+task
+timew
+ls
+vim on-modify*
+sudo chmod +x on-modify*
+ls
+task
+zoom-snap
+zoom-snap-client
+zoom
+snap list
+zoom-client
+~/.bashrc
+vim ~/.bashrc
+. ~/.bashrc
+twiki
+cd /user
+ls
+vim ~/.bashrc
+. ~/.bashrc
+twiki
+cd ~/Documents; ls
+cd ~; ls -a
+mkdir .vimwiki
+cd .vimwiki; vim wiki
+mv wiki frontpage.wiki
+vim frontpage.wiki
+task
+tmux new
+cd /usr/bin
+ls | grep -i tmux
+cd $VIM
+echo $VIM
+cd /usr/share/vim
+ls
+cd vim82
+ls
+cd ftplugin
+ls
+ls | grep -i latex
+cls
+cd ../..
+ls
+sudo find . -name "*latex*"
+sudo find -r . -name "*latex*"
+sudo find . -name "latex"
+sudo find . -name "xs"
+sudo find / -name "latex"
+cd ~/.vim
+ls
+cd bundle; ls | grep latex
+cd vim-latex
+ls
+cd ftplugin; ls
+cd latex-suite; ls
+cd packages; ls
+vim exmpl
+cd /usr/share/texlive/texmf-dist/tex/latex; ls
+cd /home/user/texmf/tex/latex/local; ls
+:q
+tmux close
+exit
+cd ~/.vim/bundle
+git clone https://github.com/itchyny/calendar.vim
+git clone https://github.com/vim-scripts/DrawIt
+vim
+git clone https://github.com/vimoutliner/vimoutliner
+vim
+git clone https://github.com/SirVer/ultisnips
+ls
+cd /usr/share; ls | grep -i tex
+cd texmf; ls
+ls -a
+cd ../texlive; ls
+kpsewhich physics.sty
+cd /usr/share/texlive/texmf-dist/tex/latex
+ls
+kpsewhich pset
+kpsewhich pset.sty
+kpsewhich pset.cls
+echo "/usr/share/texlive/texmf-dist/tex/latex" | xclip -sel clip
+exit
+cd ~/.vim/bundle
+git clone https://github.com/VOID001/graph-easy-vim
+vim
+dnf search graph-easy
+sudo dnf install perl-Graph-Easy
+git clone https://github.com/xuhdev/vim-latex-live-preview
+vim
+git clone https://github.com/vim-latex/vim-latex
+vim
+exit
+vim
+exit
+tmux new
+exit
+vim
+exit
+zarota --version
+zathura --version
+sudo find / --name "zathura"
+sudo find / -name "zathura"
+sudo find / -name zathura
+cd ~; ls -a
+cd .config; ls
+cd Men*
+ls
+cd *.conf
+vim *.conf
+exit
+vim ~/.bashrc
+exit
+sudo find / -name "*link-handler.sh"
+gsettings get org.gnome.desktop.interface gtk-theme
+. ~/.bashrc
+echo $MENDELEY_DIR
+cd $MENDELEY_DIR
+ls
+cd share; ls
+mkdir themes
+ls
+ln -s ./themes/$MENDELEY_THEME $MENDELEY_DIR/share/themes/$GTK_THEME
+cd themes; ls
+rm Adwaita-dark
+ls
+ln -s /usr/share/themes/$MENDELEY_THEME $MENDELEY_DIR/share/themes/$GTK_THEME
+ls $MENDELEY_DIR
+cd bin; ls
+cd ../share
+cd ../../bin
+ls
+cd ~/local/bin; ls
+cd ~
+ls
+cd .local
+ls
+cd bin; ls
+cd /usr/local/bin; ls
+cd $MENDELEY_DIR/bin
+ls
+./install-mendeley*.sh
+sudo find / -name "mendeleydesktop"
+sudo find / -name "*enedley*.bin"
+sudo find / -name "*endeley*.bin"
+sudo find / -name "Mendeley*.bin"
+cd ~/.local/share
+ls
+ls -la
+cd /usr/local/bin; ls
+vim mendeley
+sudo vim mendeley
+sudo chmod +x mendeley
+./mendeley
+. ~/.bashrc
+./mendeley
+exit
+cd ~/.config
+ls
+cd Men*
+ls
+vim *.conf
+qthelper
+qt-helper
+cd ..; vim Qt*.conf
+gsettings
+gsettings get org.gnome.desktop.interface gtk-theme
+cd ~/.mendeley
+cd ~; ls -a
+sudo find / -name "mendeley"
+vim /usr/bin/*endeley*.desktop
+cd /usr/share/applications
+ls | grep -i mendel
+ls | grep -i endel
+ls
+cd /usr/local/share
+ls
+cd applications; ls | grep -i endel
+ls
+sudo find / -name "*endeley*"
+cd ~/.local
+ls
+cd bin
+cd Mendel*
+ls
+cd ..
+cd share
+ls
+cd Men*
+ls
+cd Men*
+ls
+sudo find . -name "*link-handler.sh"
+sudo find / -name "*link-handler.sh"
+cd /usr/bin/mendel*/bin
+ls
+vim install-mendeley-*.sh
+tmux new
+exit
+lynx google.com
+exit
+lynx google.com
+sudo dnf install lynx
+vim
+exit
+cd ~/.vim
+ls
+cd bundle; ls
+vim ~/.vimrc
+cd *preview
+ls
+vim ~/.vimrc
+zathura
+vim ~/.vimrc
+qvm-copy ~/*vim*
+qvm-copy ~/.vim ~/.vimrc
+dnf search zathura
+sudo dnf install zathura-plugins-all
+ls
+vim
+cd ~/.vim/bundle
+ls
+exit
+exit
+dnf search polybar
+dndf search qubes
+dnf search qubes
+dnf search qubes-polybar
+vim packages
+exit
+dnf search x11
+dnf search x11proto
+exit
+vim
+exit
+cd Qubes*
+ls
+cd dom0
+ls
+cd backgrounds
+ls
+cd xfce; ls
+xdg-open qubes-smoke.svg
+xdg-open qubes-sea.svg
+cd ../tiles; ls
+xdg-open All-Good*.jpg
+ranger
+exit
+tmux new
+snap refresh
+zoom-client
+qubes-snapd-helper
+sudo dnf install qubes-snapd-helper
+snap remove zoom-client
+snap install zoom-client
+snap refresh
+tmux new
+pactl -- set-sink-volume 0 80%
+wget -qO - https://gist.githubusercontent.com/kelleyk/6beba22586ac0c40aa30/raw/aeaddaf6250d7d7971bb064ee1d61b888feaae72/compton.conf > ~/Downloads/compton_kellyk.conf
+vim ~/Down*/compton*.conf
+wget -qO - https://raw.githubusercontent.com/mohabaks/dotfiles/f5bdc9ebb193b93a75a09b2ebf27a36c0f3da8dc/config/Qubes-os/i3-settings-qubes/qubes-i3status > ~/Downloads/qubes_i3_status.sh
+wget -qO - https://raw.githubusercontent.com/mohabaks/dotfiles/f5bdc9ebb193b93a75a09b2ebf27a36c0f3da8dc/config/Qubes-os/i3-settings-qubes/qubes-i3-xdg-autostart > ~/Downloads/qubes_i3_xdg_autostart.sh
+wget -qO - https://raw.githubusercontent.com/mohabaks/dotfiles/f5bdc9ebb193b93a75a09b2ebf27a36c0f3da8dc/config/Qubes-os/i3-settings-qubes/qubes-i3-sensible-terminal > ~/Downloads/qubes_i3_sensible_terminal.sh
+lspci
+vim
+cd /home/user/texmf/tex/latex/local
+ls
+cd /usr/share/texlive/texmf-dist/tex/latex
+ls
+qvm-copy /home/user/texmf/tex/latex/local/ /usr/share/texlive/texmf-dist/tex/latex/
+cd boondox
+ls
+cd ../misc; ls
+pavucontrol
+alpine --version
+cd ~; ls -a | grep -i pine
+vim .pinerc
+alpine --help | less
+alpine
+fff
+vim
+mutt --version
+sudo dnf install mutt
+curl -fsSl https://raw.githubusercontent.com/tridactyl/tridactyl/master/native/install.sh -o ~/Downloads/trinativeinstall.sh
+bash trinativeinstall.sh
+curl -fsSl https://raw.githubusercontent.com/tridactyl/tridactyl/master/native/install.sh -o /tmp/trinativeinstall.sh && bash /tmp/trinativeinstall.sh 1.20.1
+terminal -e vim
+terminal --version
+gterm --version
+dnf search gnome terminal
+gnome-terminal --help
+gnome-terminal vim test
+gnome-terminal -e vim
+gnome-terminal -e vim test.text
+dnf search kitty
+man compton
+sudo dnf install cyrus-sasl-plain
+dnf search davmail
+dnf search mbsync
+dnf search msmtp
+sudo dnf install isync msmtp
+gvim
+touch /home/user/.mutt/muttrc
+cd ~; ls | grep -i mutt
+mutt --version
+mkdir .mutt
+sudo find / -name "*mailcap*"
+kitty --version
+sudo dnf install kitty
+ :exit
+zoom-client
+snap refresh
+zoom-client
+killall zoom-client
+snap remove zoom-client
+snap install zoom-client
+zoom-client
+snap search teams
+snap search teams | grep -i microsoft
+snap install teams-for-linux
+teams-for-linux
+qubes-snapd-helper --version
+sudo dnf install qubes-snapd-helper
+zoom-client
+cd /var/lib/snapd/snap/bin
+ls
+./teams-for-linux
+cd ~; ls -a
+qvm-copy .vim .viminfo .vimrc .bashrc
+vim .vimrc
+ranger
+exit
+cd Downloads; ls
+ranger
+tmux new
+vim
+exit
+cd ~/.vim/bundle
+ls
+cd ~; ls -a
+ls -a | grep -i vim
+vim V20 2>&1 | tee vim.log
+vim vim.log
+ranger
+exit
+tmux new
+exit
+mutt
+exit
+tmux new
+exit
+tmux new
+vim
+exit
+tmux new
+tmux new
+man sc
+sc
+pwd
+cd Documents/Fall*/Physics*
+cd Doc*/Fall*
+ls
+cd *142*
+alamosj@mail.colostate.edu;ranafd@mail.colostate.edu;ybekele3@mail.colostate.edu;jackbish@mail.colostate.edu;cbushby@mail.colostate.edu;rcurtiss@mail.colostate.edu;mattrd@rams.colostate.edu;cwfinley@mail.colostate.edu;calvinh@mail.colostate.edu;hhouth@mail.colostate.edu;mattbh@rams.colostate.edu;ishaank@mail.colostate.edu;jelaskie@mail.colostate.edu;kjm43@mail.colostate.edu;malliett@rams.colostate.edu;danimens@mail.colostate.edu;benmitch@mail.colostate.edu;bmoran3@mail.colostate.edu;peterduy@mail.colostate.edu;sunguyen@rams.colostate.edu;muhamad@mail.colostate.edu;toben@mail.colostate.edu;mojosulo@mail.colostate.edu;nyzek@rams.colostate.edu;sbories@mail.colostate.edu;cashsy@mail.colostate.edu;rms103co@mail.colostate.edu;sprink@mail.colostate.edu;btian@rams.colostate.edu;angelv6@mail.colostate.edu;jacobvan@mail.colostate.edu;connorwe@mail.colostate.edu > R10-emails.csv
+echo "alamosj@mail.colostate.edu;ranafd@mail.colostate.edu;ybekele3@mail.colostate.edu;jackbish@mail.colostate.edu;cbushby@mail.colostate.edu;rcurtiss@mail.colostate.edu;mattrd@rams.colostate.edu;cwfinley@mail.colostate.edu;calvinh@mail.colostate.edu;hhouth@mail.colostate.edu;mattbh@rams.colostate.edu;ishaank@mail.colostate.edu;jelaskie@mail.colostate.edu;kjm43@mail.colostate.edu;malliett@rams.colostate.edu;danimens@mail.colostate.edu;benmitch@mail.colostate.edu;bmoran3@mail.colostate.edu;peterduy@mail.colostate.edu;sunguyen@rams.colostate.edu;muhamad@mail.colostate.edu;toben@mail.colostate.edu;mojosulo@mail.colostate.edu;nyzek@rams.colostate.edu;sbories@mail.colostate.edu;cashsy@mail.colostate.edu;rms103co@mail.colostate.edu;sprink@mail.colostate.edu;btian@rams.colostate.edu;angelv6@mail.colostate.edu;jacobvan@mail.colostate.edu;connorwe@mail.colostate.edu" > R10-emails.csv
+sc R10-emails.csv
+vim R10-emails.csv
+cd ../..
+cd Spring
+cd Spring*
+ls
+cd Summer*
+cd Lasers
+ls
+sc Electronics_Lab_Data.ods
+pip3 install csvkit --user
+cd ~/Doc*/Fall*/*142*
+ls
+mv R10* R10-emails.txt
+psc -k -d; R10-emails.txt > R10-emails.sc
+psc -k -d';' R10-emails.txt > R10-emails.sc
+psc -k -d ';' R10-emails.txt > R10-emails.sc
+psc -k -d\; R10-emails.txt > R10-emails.sc
+cat R10-emails.txt | sed 's/;/,/g' > R10-emails.csv
+psc -k -d, R10-emails.csv > R10-emails.sc
+psc -k -d , R10-emails.csv > R10-emails.sc
+cat R10-emails.csv | psc -k -d, > R10-emails.sc
+sc R10-emails.sc
+exit
+kitty
+fish
+exit
+fish
+exit
+ls -a
+ranger
+vim
+vim
+exit
+cd /Doc*/Fall*/*142*
+ls
+cd Doc*/Fall*/*142*
+ls
+sc R10-emails.sc
+qvm-copy R10-emails.sc
+ls
+exit
+sudo dnf install sc visidata
+sc
+man sc
+exit
+ranger
+exit
+exit
+ranger
+exit
+python
+exit
+sudo touch /usr/share/applications/sc-im.desktop
+sudo vim /usr/share/applications/sc-im.desktop
+eixt
+exit
+vim
+exit
+sc-im --help
+ranger ~/Documents
+ranger
+exit
+mutt
+tmux new
+killall thunderbird
+ranger
+dnf copr enable mguessan/davmail
+sudo dnf copr enable mguessan/davmail
+ls -a | grep -i mb
+vim .mbsyncrc
+vim
+ranger
+sudo dnf install neomutt isync
+dnf search neomutt
+sudo dnf install mutt
+vim
+mbsync professional
+vim
+ranger
+dnf search wtf
+ranger
+sudo find -name "*.ctd"
+ranger
+cd /tmp
+ls | grep -i gpg
+vim personal-gpg-pubkey.gpg
+cat personal-gpg-pubkey.gpg
+cat personal-gpg-pubkey.gpg | xclip -sel c
+read appkey 
+echo "$appkey" | qubes-gpg-client -e mathgeek101@gmail.com
+echo "$appkey" | qubes-gpg-client -e
+gpg --help
+exit
+dnf search xournal
+sudo dnf install xournal
+cd Dropbox
+qubes-gpg-client --export-key mathgeek101@gmail.com
+gpg --help
+qubes-gpg-client --export -a mathgeek101@gmail.com > /tmp/personal-gpg-pubkey.gpg
+tmux new
+gpg --help
+gpg -e --help
+qubes-gpg-client -e "$(echo $appkey)" mathgeek101@gmail.com
+qubes-gpg-client -e "boopy"
+qubes-gpg-client --encrypt "boopy"
+qubes-gpg-client --encrypt mathgeek101@gmail.com
+qubes-gpg-client --encrypt mathgeek101@gmail.com "goddamnit"
+gpg --list-keys
+gpg --list-secret-keys
+gpg -e "goddamnit"
+gpg -e "$(echo $appkey)" -r devel@kali.org
+echo $appkey | qubes-gpg-client -r mathgeek101@gmail.com
+echo $appkey | gpg -r devel@kali.org
+echo $appkey | gpg -er devel@kali.org
+echo $appkey | qubes-gpg-client -er mathgeek101@gmail.com
+echo $appkey | qubes-gpg-client -e -r mathgeek101@gmail.com
+qubes-gpg-client -e -r mathgeek101@gmail.com "$(echo $appkey)"
+echo "$appkey" | qubes-gpg-client -e -A -r mathgeek101@gmail.com
+echo "$appkey" | qubes-gpg-client -e -r mathgeek101@gmail.com
+echo "$appkey" | qubes-gpg-client -e mathgeek101@gmail.com
+echo "$appkey" | qubes-gpg-client -e
+echo "$appkey" | qubes-gpg-client -e -i -
+dropbox
+dropbox start
+dropbox start -i
+dropbox
+cd /usr/share/applications
+ls
+ls | grep -i drop
+vim dropbox.desktop
+dropbox start -i
+dropbox --help
+ranger
+cd ~/Downloads
+ls | grep -i spotify
+sha512sum -c spotifyd-linux-full.sha512 spotifyd-linux-full.tar.gz
+sha512sum -c spotifyd-linux-full.tar.gz spotifyd-linux-full.sha512
+aplay -L
+qvm-copy spotifyd-linux-full.tar.gz
+ranger
+newsboat
+ranger
+sudo dnf install newsboat
+newsboat
+podboat
+pip search newsboat
+pip3 search newsboat
+ranger
+dnf search imagemagick
+sudo dnf install ImageMagick -y
+cd Qubes*
+cd dev
+ls
+convert EM_Midterm_P1_1.jpg EM_Midterm_P1_2.jpg EM_Midterm_P2_1.jpg EM_Midterm_P2_2.jpg EM_Midterm_P3_1.jpg EM_Midterm_P3_2.jpg EM_Midterm_P3_3.jpg EM_Midterm_P3_4.jpg EM_Midterm.pdf
+ranger
+mplayer --version
+ranger
+pdfshuffler -v
+pip3 install pyPdf --user
+pdfshufffler
+pdfshuffler
+sudo dnf --releasever=29 install pyPdf
+sudo dnf --releasever=29 install pyPdf -y
+sudo dnf --releasever=29 install pyPdf -y -C
+sudo dnf --releasever=29 install pyPdf -y 
+pdfshuffler
+ranger
+cd .dotfiles
+share firefox
+cd .dotfiles
+papis open
+sudo find / -name "*Carn*"
+ranger
+sudo find / -name "dropbox.desktop"
+cd /usr/share/applications
+ls -a | grep -i dropbox
+ls -a | grep -i mozilla
+ls -a | grep -i mendeley
+ls -a | grep -i joplin
+ls -a | grep -i cherrytree
+ls -a | grep -i org.gnome
+ls -a | grep -i org.gnome.Terminal
+ls -a | grep -i zettlr
+chsh -s $(which zsh)
+sudo passwd user
+dnf search passwd
+sudo dnf install passwd -y
+sudo passwd user
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/17/unitedrpms-$(rpm -E %fedora)-17.fc$(rpm -E %fedora).noarch.rpm
+exit
