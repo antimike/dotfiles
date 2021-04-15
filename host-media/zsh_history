@@ -1,0 +1,83 @@
+: 1618463555:0;echo $ZSH_CUSTOM
+: 1618463672:0;ranger
+: 1618463839:0;ls $ZSH_CUSTOM/themes | grep space
+: 1618463845:0;ls $ZSH_CUSTOM/themes | grep prompt
+: 1618463851:0;ls / | grep themes
+: 1618463856:0;cd /themes
+: 1618463857:0;ls
+: 1618463892:0;sudo rm -r /themes
+: 1618463896:0;cd ~
+: 1618463900:0;sudo rm -r /themes
+: 1618463935:0;nvim ~/.dotfiles/install.sh
+: 1618464077:0;ls -la ~/.oh-my-zsh/custom/themes | grep space
+: 1618464129:0;ranger
+: 1618464164:0;git status
+: 1618464172:0;tig
+: 1618464262:0;git push
+: 1618464284:0;nvim
+: 1618464292:0;pip3 install nvim --user
+: 1618464303:0;pip3 install neovim --user
+: 1618464313:0;pip3 install pynvim --user
+: 1618464365:0;apt search msgpack
+: 1618464380:0;sudo apt-get install python-neovim --user
+: 1618464388:0;sudo apt-get install python-neovim -y
+: 1618464400:0;sudo apt-get install python3-neovim -y
+: 1618464422:0;pip2
+: 1618464428:0;pip2 install neovim --user
+: 1618464892:0;pip3 install pynvim --upgrade --user
+: 1618464903:0;pip2 install pynvim --upgrade --user
+: 1618464918:0;gem install neovim
+: 1618464925:0;sudo gem install neovim
+: 1618464957:0;nvim
+: 1618466318:0;pip3 install gita --user
+: 1618466325:0;gita add ~/.dotfiles
+: 1618466332:0;gita rename .dotfiles dotfiles
+: 1618467535:0;nvim
+: 1618467573:0;ranger
+: 1618468703:0;svn --help
+: 1618468707:0;apt search svn
+: 1618468718:0;sudo apt-get install svn -y
+: 1618468738:0;sudo apt-get install subversion -y
+: 1618468822:0;ranger
+: 1618468833:0;cd ~/Source
+: 1618468840:0;svn checkout https://github.com/ryanoasis/nerd-fonts/trunk/master/patched-fonts/Iosevka/Regular/complete
+: 1618468906:0;svn ls https://github.com/ryanoasis/nerd-fonts
+: 1618468922:0;svn ls https://github.com/ryanoasis/nerd-fonts/trunk
+: 1618468947:0;svn ls https://github.com/ryanoasis/nerd-fonts/trunk | master
+: 1618468953:0;svn ls https://github.com/ryanoasis/nerd-fonts/trunk | grep master
+: 1618468987:0;svn checkout https://github.com/ryanoasis/nerd-fonts/trunk/patched-fonts/Iosevka/Regular/complete
+: 1618469067:0;cd complete
+: 1618469069:0;ls
+: 1618469076:0;fc-cache -h
+: 1618469088:0;sudo fc-cache .
+: 1618469146:0;ls
+: 1618469194:0;sudo find /usr -name "*font*"
+: 1618469227:0;ls /usr/share/fonts
+: 1618469271:0;sudo cp .* /usr/share/fonts
+: 1618469280:0;ls /usr/share/fonts
+: 1618469287:0;ls
+: 1618469302:0;cp *.ttf /usr/share/fonts
+: 1618469307:0;sudo cp *.ttf /usr/share/fonts
+: 1618469312:0;sudo fc-cache
+: 1618469372:0;sudo find /usr/share -name "*iosevka*"
+: 1618469378:0;ls /usr/share/fonts
+: 1618469518:0;sudo fc-cache -v -f
+: 1618469532:0;fontconfig -h
+: 1618469535:0;man fontconfig
+: 1618469546:0;fc-list
+: 1618469550:0;fc-list | grep ios
+: 1618469556:0;fc-list | grep nerd
+: 1618469559:0;fc-list | grep erd
+: 1618469623:0;ls /usr/local/share/fonts
+: 1618469630:0;ls ~/.fonts.conf
+: 1618469640:0;cat ~/.fonts.conf
+: 1618469647:0;cat ~/.fonts.conf | grep sev
+: 1618469683:0;guake -h | grep restart
+: 1618469688:0;guake -h | grep kill
+: 1618469733:0;cd ~/.dotfiles
+: 1618469756:0;rcdn config/nvim/init.vim
+: 1618469783:0;cp tag-nvim/config/nvim/init.vim ~/.config/nvim
+: 1618469798:0;mkrc -B media ~/.config/nvim/init.vim
+: 1618469895:0;rcup -B media config/nvim/plugins.vim
+: 1618469993:0;mkrc -B media ~/.bash_history ~/.bash_logout ~/.viminfo ~/.zsh_history
+: 1618470022:0;tig

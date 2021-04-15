@@ -17,8 +17,8 @@ include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
 
 refresh-on-startup	yes
 
-html-renderer		"w3m -dump -T text/html"
-pager			"w3m %f"
+# html-renderer		"w3m -dump -T text/html"
+# pager			"w3m %f"
 external-url-viewer	"w3m"
 browser			"w3m"
 
@@ -199,7 +199,12 @@ history-limit 100
 podcast-auto-enqueue no
 player "mpv"
 download-path "~/Podcasts"
-podlist-format "%4i %u %-20S %F"
+bind-key p pb-purge
+bind-key d pb-mark-as-finished
+bind-key P pb-play
+bind-key D pb-delete
+bind-key L pb-download
+# podlist-format "%4i %u %-20S %F"
 
 # ----------------------------
 # Bookmarks
