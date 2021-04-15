@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=ssh-agent
+Exec=/rw/config/rc.local; ssh-agent
+Type=Application
