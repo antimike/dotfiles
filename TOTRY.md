@@ -16,6 +16,7 @@
 
 * netranger
 * dirvish.vim
+* ervandew/supertab
 
 ## Terminals / shells
 

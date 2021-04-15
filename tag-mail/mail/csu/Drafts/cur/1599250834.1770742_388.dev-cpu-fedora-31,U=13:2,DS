@@ -1,0 +1,56 @@
+FCC: imap://Antimike.Haynes@outlook.office365.com/Sent
+X-Identity-Key: id2
+X-Account-Key: account3
+Reply-To: Antimike.Haynes@colostate.edu
+To: Wolfgang Bangerth <bangerth@colostate.edu>
+From: Michael Haynes <Antimike.Haynes@colostate.edu>
+Subject: Numerical methods / PDEs class today
+X-Enigmail-Draft-Status: N11100
+Organization: Colorado State University
+Message-ID: <ce1cd834-7923-2b50-dfc8-ae816c52ef43@colostate.edu>
+Date: Sat, 29 Aug 2020 18:33:15 -0600
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=4
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.5.0
+Content-Type: multipart/encrypted;
+ protocol="application/pgp-encrypted";
+ boundary="Vhro57dO0NEn9ojtxyzfrtXqlxp4Oti7D"
+MIME-Version: 1.0
+X-TUID: cPxPRS//9J84
+
+--Vhro57dO0NEn9ojtxyzfrtXqlxp4Oti7D
+Content-Type: application/pgp-encrypted
+Content-Description: PGP/MIME version identification
+
+Version: 1
+
+--Vhro57dO0NEn9ojtxyzfrtXqlxp4Oti7D
+Content-Type: application/octet-stream; name="encrypted.asc"
+Content-Description: OpenPGP encrypted message
+Content-Disposition: inline; filename="encrypted.asc"
+
+-----BEGIN PGP MESSAGE-----
+
+hQGMA+TQIspc8OymAQv/QNYLTAg4Lj0PQR3L0L7APgvO9UDZjbuVa0vB6J1hMLIL
+fcaMDkBB11bRVJHylOdoLlr93PUC0gf+CGW0yLyr0MfzThzuN9d/wyF8bPfXDwvS
+YNIyZVmQnszR4j9UlMmye2p+Wn6xaaMk4WFd9fkxkH1uSMA2scHjd8n28fLHYUQq
+FaUgpENo8PVTutO3iY03S6AsWF6PNeIQu00eD0PYrnuJmw1Z0ABCU7+Fpv8o8xSi
+Y6b8X3A+QuhGgAhZfzG8iPP9caI46j6Sn5+1psJVyYqkIBEYTiJ1cJYnBmWej19z
+QPBlYisUOgyB5OyYadc1H4DjZ4Fz8av+FkK6wAeLD/+YLegVsoJSxLLPTTXC/JNI
+y2C1YsGUA1tmgLWXk//T4qRoTBIgQ3wdeMCgxerR1XkqwirTa2WhR46mBubXyWWC
+POshBpYBmvt9xgj/uOvQ8MzlZ34cJzoJqKfHqsbkFZ2hl6SqTPRzYu8sz4yn0Iqz
+0nrMH1KRB+Ws58HE8lYN0sDxASbEhsnzZMuouyvi6q+M7ZkFFovaf1mao3ETobfB
+1jOomFZk4JTskocaO8KrmFxpLdDT4EDTODRpHsZMhSLnM8ZE76axy0plU+YEDO08
+fNQa3ThV1yK6Kc36j6qp/zk0lqF/5AAx5E1VYQhspA9I9pcBHfYUV1cuT2aQwKE+
+5PRZHzgeyRCjAe3J0tpAqvll4dnsnTE9x6TYTkd1o+kJ/rWvmtprRUasdu5ou/hl
+2TcX4GGofyi9dT0gkVA/sNorgsIj/OYpSEuEgcLp0sFLIS4EJSSS+h0P3QnAoG8L
+P8WwJVNdLeO0b97kZcZffYGDIk+j1FIinIUsmtw1ctxkXBciFFBZyyr0VVWSkXgV
+OQ63ZACQmy6/y5JINLA9umZTz9oa5Bk+t+erITAippU2jJi7R+LcVxNjlUtZpPux
+vtrExkL8xqwxQo+xtL9OkjxoA2jKb704KL3oyA2xKxenyeqht/iLY6SJyZ2SuPjY
+oSjv/F8v+aCYUIUxa4NrjccS/d/GP4Zc69I65bTAR5rEhsDShnGXYxUspC2e1Sri
+kdVJnAuHbnQYf2AsiRKxGslVpA==
+=QiQZ
+-----END PGP MESSAGE-----
+
+--Vhro57dO0NEn9ojtxyzfrtXqlxp4Oti7D--

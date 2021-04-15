@@ -1,0 +1,7 @@
+" For vim-latex
+let g:tex_flavor = 'latex'
+" let user_packages = '/home/user/texmf/tex/latex/local/'
+" let ctan_packages = '/usr/share/texlive/texmf-dist/tex/latex/'
+" let g:Tex_TEXINPUTS = [user_packages, ctan_packages]
+let g:Tex_TEXINPUTS = '/usr/share/texlive/texmf-dist/tex/**,/home/user/texmf/tex/latex/**'
+let g:livepreview_previewer = 'zathura'

@@ -1,0 +1,4 @@
+" AutoPairs options
+" Omit `` to allow easier use to Latex keybindings
+let g:AutoPairs = {'(':')', '[':']', '{':'}', '"':'"'}
+

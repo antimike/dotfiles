@@ -1,0 +1,132 @@
+# Today's date
+snippet today "Date" 
+`date +%F`
+endsnippet
+
+snippet preamble "Standard preamble" bA
+\documentclass{$1}
+\usepackage{macros}
+\usepackage[units, chem]{include}
+\usepackage{inkscape}
+\crefname{enumi}{}{}
+
+\begin{document}
+
+$0 
+
+\end{document}
+endsnippet
+
+# Preamble and header (pset)
+snippet pset "Preamble (pset)" bA
+\documentclass{pset}
+\usepackage{macros}
+\usepackage[units, chem]{include}
+\usepackage{inkscape}
+\crefname{enumi}{}{}
+
+\begin{document}
+
+\author{Michael Haynes}
+\psettitle{$1}[$2]
+\date{\today}
+\maketitle
+
+$0
+
+\end{document}
+endsnippet
+
+# Preamble and header (notes)
+snippet notes "Preamble (notes)" bA
+\documentclass{notes}
+\usepackage{macros}
+\usepackage[units, chem]{include}
+\usepackage{inkscape}
+\crefname{enumi}{}{}
+
+\begin{document}
+
+\author{Michael Haynes}
+\notestitle{$1}[$2]
+\date{`date +%F`}
+\maketitle
+
+$0
+
+\end{document}
+endsnippet
+
+# Header
+snippet header "Header" bA
+\author{Michael Haynes}
+\title{$1}
+\date{`date +%F`}
+\maketitle
+$0
+endsnippet
+
+# Environment snippet
+# Expands automatically if "beg" is typed at the beginning of a line
+# TODO Add regex support for 'section title' --> '\section{Title}', etc.
+snippet begin "Environment" bA
+\begin{$1}$2
+	$3
+\end{$1}
+$0
+endsnippet
+
+snippet section "Section" bA
+\section{$1}
+	$0
+endsnippet
+
+snippet *section "Starred section (unnumbered)" bA
+\section*{$1}
+	$0
+endsnippet
+
+snippet subsect "Subsection" bA
+\subsection{$1}
+	$0
+endsnippet
+
+snippet *subsect "Starred subsection" bA
+\subsection*{$1}
+	$0
+endsnippet
+
+snippet *subsubsect "Starred subsubsection" bA
+\subsubsection*{$1}
+	$0
+endsnippet
+
+snippet subsubsect "Subsubsection" bA
+\subsubsection{$1}
+	$0
+endsnippet
+
+
+# Problem environment snippet
+# Separate from environment snippet because options are tricky to remember
+# TODO: Replace with a regex-based implementation to detect secondary title / problem part list, if applicable
+snippet problem "Problem environment" bA
+\begin{problem}[$1]
+$2
+
+\end{problem}
+$0
+endsnippet
+
+snippet part "Problem part" b
+\problempart
+$0
+endsnippet
+
+snippet statement "Problem statement" b
+\begin{problemstatement}
+$1
+\end{problemstatement}
+
+$0
+endsnippet

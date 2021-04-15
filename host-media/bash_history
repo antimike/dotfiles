@@ -1,0 +1,209 @@
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+apt search curl
+sudo apt-get install curl -y
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+newsboat
+podboat
+ranger
+pip3 search tuir
+pip3 install tuir --user
+tuir
+nvim .bashrc
+source .bashrc
+tuir
+lynx
+pip3 search pyradio
+pip3 install pyradio --user
+pyradio
+pip3 search pynvim
+pip3 install pynvim --user
+pip3 search wikit
+pip3 install wikit --user
+wikit jesus
+cmus
+pip3 search wego
+pip3 search papis
+pip3 install papis papis-scihub papis-zotero papis-rofi --user
+ranger
+cls
+clear
+sudo mv ~/Qubes*/*contrib* /usr/share/doc/newsboat
+cd ~/Qubes*
+ls
+sudo mv ~/Qubes*/dev/*contrib* /usr/share/doc/newsboat
+ranger
+sudo find ~ -n "stations.csv"
+sudo find ~ -name "stations.csv"
+ranger
+man podboat
+podboat
+newsboat
+cd /usr/share/doc/newsboat
+cd contrib
+ls
+cd examples
+ls
+newsboat
+pianobar
+source ~/.bashrc
+pianobar
+cat ~/config/pianobar/pandora-password.mathgeek101.gpg
+pianobar
+cat ~/.config/pianobar/pandora-password.mathgeek101.gpg
+cat ~/.config/pianobar/pandora-password.mathgeek101.gpg | qubes-gpg-client -q -d
+cat ~/.config/pianobar/pandora-password.mathgeek101.gpg | qubes-gpg-client -d | qubes-gpg-client -e -r mathgeek101@gmail.com
+source ~/.bashrc
+pianobar
+pyradio
+ranger
+apt search fzf
+apt search silver searcher
+nvim
+apt search taskwarrior
+sudo apt-get install taskwarrior -y
+sudo apt-get install npm -y
+sudo apt-get install fzf ripgrep -y
+nvim
+nvim --version
+pip3 install vimiv --user
+apt search qt5
+sudo apt-get install qt5
+pianobar
+pyradio
+cmus
+man cmus
+newsboat
+sudo vim /etc/fuse.conf
+ranger
+apt search rhythmbox
+sudo apt-get install rhythmbox rhythmbox-plugins
+cd ..
+ls
+cd afc*
+ls
+ranger
+cd ~/Qubes*/untrusted
+ls
+sudo chmod +x mount-iphone.sh
+./mount-iphone.sh mount
+gio -h
+rhythmbox
+ranger
+rhythmbox &
+systemctl status usbmuxd
+idevicepair pair
+rhythmbox
+cd afc://
+ranger
+cd ~/.gvfs
+cd /run/user/1000/gvfs/afc:*
+gvfs-mount host=8119fd0127442b972d1a94ede11e9ee64e37d170,port=3
+ranger
+w3m
+w3m google.com
+man w3m
+w3m -v
+lynx
+pydoro
+pip3 search pydoro
+pip3 install pydoro --user
+pydoro
+pyradio
+pianobar
+newsboat
+cd Qubes*
+ls
+cd dev
+ls
+cd ../untrusted; ls
+cd /usr/share/doc/newsboat
+ls
+sudo find / -name "*inkpot*"
+sudo find / -name "colorschemes"
+ls
+cd examples; ls
+sudo tar -xzf ./config.gz
+sudo tar -x ./config.gz
+sudo tar -xf ./config.gz
+sudo cp ~/Qubes*/dev/contrib /usr/share/doc/newsboat
+sudo cp -r ~/Qubes*/dev/contrib /usr/share/doc/newsboat
+newsboat
+apt search alacritty
+apt-get search alacritty
+apt search steam
+pianobar
+pyradio
+newsboat
+pianobar
+newsboat
+man podboat
+man newsboat
+podboat
+podboat
+ranger
+echo 'image/*; display %s' > ~/.mailcap
+vim ~/.mailcap
+apt search vimiv
+pip3 search vimiv
+pip3 install --user vimiv
+pip3 search pyqt
+apt search Qt5
+pip3 search pyqt5
+pip3 install pyqt5 --user
+pip install pyqt5 --user
+pip3 install pyqt5 --user
+pip3 install vimiv
+ranger
+pyradio
+pyradio -s ~/.config/pyradio/stations.csv
+ranger
+pyradio -h
+ranger
+pyradio
+pianobar
+newsboat
+podboat
+pianobar
+pyradio
+newsboat
+sudo apt-get install pdfshuffler
+pdfshuffler
+fish
+pdfshuffler
+man pdfshuffler
+sudo apt-get install pdfshuffler
+ranger
+FreeFem++ -v
+pianobar
+pyradio
+apt search freefem
+sudo apt-get install freefem freefem++ freefem-examples -y
+ranger
+pianobar
+newsboat
+pianobar
+spotify
+spotify-tui
+tui
+tuir
+vim .bashrc
+echo "alias spotify='spt'" >> ~/.bashrc
+echo "alias reddit='tuir'" >> ~/.bashrc
+source ~/.bashrc
+spotify
+apt search spt
+pip search spotify
+pip3 install spotify-tuir --user
+pip3 install spotify-tui --user
+newsboat
+pianobar
+apt search guake
+sudo apt-get install guake -y
+cd QubesIncoming/dom0/
+ls -a
+mv .zshrc ~
+newsboat
+spotifyd
+exit

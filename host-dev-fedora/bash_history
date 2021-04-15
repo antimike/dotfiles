@@ -1,0 +1,1027 @@
+sudo dnf install hdf5-devel
+dnf search petsc
+sudo dnf install petsc-devel
+nvim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+vim ~/.config/nvim/init.vim
+nvim
+pip search pynvim
+pip install pynvim --user
+nvim
+dnf search node
+sudo dnf install nodejs
+nvim
+export NVIM_PYTHON_LOG_FILE=~/nvim-python-log.log
+nvim
+vim NVIM_PYTHON_LOG_FILE
+vim ~/nvim-python-log.log
+echo $NVIM_PYTHON_LOG_FILE
+nvim
+dnf search fzf
+sudo dnf install fzf -y
+dnf search ag
+dnf search silversearcher
+dnf search silver
+sudo dnf install the_silver_searcher -y
+nvim
+ranger
+cd Downloads
+ls
+gunzip -h
+gunzip dealii-9.2.0.tar.gz
+ls
+tar -h
+tar --help
+sudo tar xf dealii-9.2.0.tar -C /usr/local
+cd /usr/local
+ls
+cd lib
+ls
+cd ..
+cd dealii-9.2.0
+ls
+mkdir build
+sudo mkdir build
+cd build
+ls
+cd ..; ls
+rm -r build
+sudo rm -r build
+cd ..
+cd deal*
+sudo mkdir build
+cd build
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ../deal.II
+sudo dnf install cmake -y
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ../deal.II
+cd ..; ls
+cd build
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ../source
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ..
+ls
+cd ..; sudo rm -r build; sudo mkdir build; cd build
+ls
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ..
+dnf search make
+dnf search gcc
+sudo dnf install gcc
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ..
+ls
+cd *Files
+ls
+nvim *Error.log
+sudo dnf install g++ -y
+cd ..
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib ..
+sudo make --jobs=2 install
+sudo make --jobs=1 install
+sudo make test
+cd ..
+ls
+cd source; ls
+cd contrib/python-bindings
+ls
+cd ..; ls
+cd contrib
+ls
+cd python-bindings
+ls
+sudo cmake .
+sudo make .
+sudo make test
+cd source
+sudo cmake .
+ls
+sudo make test
+sudo make
+sudo make all
+python
+ls
+nvim __init.py__
+sudo dnf install freefem++ -y
+git status
+git clone https://github.com/antimike/dotfiles
+sudo dnf install rcm -y
+ls -a | grep -i dot
+cd .dotfiles
+sudo rm -r dotfiles
+git clone https://github.com/antimike/dotfiles ~/.dotfiles
+cd .dotfiles
+rcup
+pip3 install pylint -y
+pip3 install pylint --user
+pip3 install pynvim --user
+vim README.md
+sudo dnf install clang cmake graphviz doxygen gdb kdbg -y
+sudo dnf install povray gnuplot paraview mayavi2 -y
+dnf search mayavi
+dnf search vtk
+sudo dnf install povray vtk-devel gnuplot paraview mayavi -y
+dnf search mayavi
+sudo dnf install povray vtk-devel gnuplot paraview Mayavi -y
+tar -xvf dealii-9.2.0.tar
+cd Source; tar -xvf dealii-9.2.0.tar
+ranger
+sudo dnf install povray vtk-devel gnuplot paraview Mayavi -y
+dnf search pexpect
+sudo dnf install python3-pexpect -y
+dnf search tetgen
+dnf search mshr
+sudo dnf install tetgen tetgen-devel arpack-devel petsc-devel slepc-devel hdf5-devel -y
+dnf search slepc
+dnf search slep
+dnf search hdf5
+dnf search mumps
+dnf search adolc
+dnf search adol
+dnf search assimp
+dnf search gsl
+dnf search metis
+dnf search netcdf
+dnf search cascade
+dnf search sundials
+dnf search trilinos
+sudo dnf install tetgen tetgen-devel arpack arpack-devel petsc petsc-devel hdf5 hdf5-devel MUMPS MUMPS-devel assimp assimp-devel gsl gsl-devel metis metis-devel netcdf netcdf-devel opencascade opencascade-devel sundials sundials-devel -y
+dnf search opencascade
+sudo dnf install tetgen tetgen-devel arpack arpack-devel petsc petsc-devel hdf5 hdf5-devel MUMPS MUMPS-devel assimp assimp-devel gsl gsl-devel metis metis-devel netcdf netcdf-devel opencascade-visualization opencascade-draw opencascade-modeling opencascade-devel sundials sundials-devel -y
+dnf search fzf
+dnf search silver searcher
+sudo dnf install fzf the_silver_searcher ripgrep node.js npm -y
+dnf search node js
+sudo dnf install fzf the_silver_searcher ripgrep nodejs npm -y
+dnf search vimiv
+sudo dnf install vimiv w3m newsboat zathura vit sc -y
+dnf search taskwarrior
+sudo dnf install task vit sagemath xclip -y
+dnf search jmol
+dnf search jupyter
+sudo dnf install jmol python3-jupyter-core -y
+pip3 install scipy --user
+pip3 install sympy jupyter nose pandas numpy cython matplotlib ipython python-nvim --user
+pip3 install pynvim --user
+pip3 install scikit-umfpack --user
+pip install scikit-umfpack --user
+pip3 install tables --user
+pip install tables --user
+pip3 install petsc4py slepc4py --user
+pip install mpi4py --user
+pip install pymetis --user
+pip3 install wxpython psutil pyvista sphinx sphinx-rtd-theme numpydoc mshr --user
+sudo dnf install inkscape lazygit tig pandoc -y
+sudo dnf install inkscape\ tig pandoc -y
+sudo dnf install inkscape tig pandoc -y
+sudo dnf install fish -y
+pip3 install pandas pydoro --user
+pip3 install sfepy --user
+dnf search sfepy
+cd .dotfiles/config/nvim
+ls
+cd ..
+ls | grep -i coc
+cd coc
+ls
+ranger
+dnf search pynvim
+pip3 install pynvim --user
+pip install pynvim --user
+dnf search msgpack
+sudo dnf install msgpack msgpack-devel -y
+dnf search uberzug
+pip3 install uberzug --user
+dnf search xdotool
+sudo dnf install xdotool -y
+pip install pynvim --user
+pip2 install pynvim --user
+gem install neovim
+dnf search ruby-dev
+sudo dnf install ruby-devel -y
+gem install neovim
+npm install -g neovim
+npm install --user neovim
+nvim
+cd .dotfiles
+git status
+nvim .gitignore
+git status
+lazygit
+tig
+tig --help
+git add .
+git commit -m "Added .gitignore; added some nvim dependencies to README; removed coc.yaml from coc.nvim package.json"
+git push
+cd .dotfiles; vim README.md
+nvim README.md
+nvim
+git pull
+ranger
+cd Source; ls
+cd dealii-9.2.0
+cd ..; mkdir build; cd build
+cmake cmake -DDEAL_II_COMPONENT_DOCUMENTATION=ON -DCMAKE_INSTALL_PREFIX=/usr/local/lib/dealii-9.2.0 ../dealii-9.2.0
+make --jobs=2 documentation
+sudo make --jobs=2 documentation
+sudo make --jobs=2 install
+sudo make test
+FreeFem++ meshing_sandbox.edp
+:call WinMove('j')
+FreeFem++ meshing_sandbox.edp
+nvim
+cd .dotfiles
+git pull
+git status
+git pull
+source ~/.bashrc
+stopshare
+sudo apt-get install psmisc -y
+cd ~/Source
+ls
+mkdir FreeFEM
+cd FreeFEM
+ls
+git clone https://github.com/antimike/freefem-examples
+ls
+cd freefem-examples
+ls
+cd Magnet*
+ls
+FreeFem++ steady*
+ranger
+cd Magnet*
+FreeFem++ empty_space.edp
+:call WinMove('k')
+ranger
+ls
+FreeFem++ *empty*.edp
+share FreeFem++ *empty*.edp
+share uxterm
+ls
+nvim
+dnf search mmg
+sudo dnf install mmg mmg-devel
+dnf search msh
+gmsh
+sudo dnf install gmsh gmsh-devel -y
+man FreeFem++
+FreeFem++ --help
+cd ~/Source/Free*
+lazygit
+apt search lazygit
+dnf search lazygit
+git status
+cd Examples
+ls
+cd freefem-examples
+ls
+git status
+git add .
+git status
+git reset Magnetostatics/*.vtu
+echo "*.vtu" >> .gitignore
+git status
+git add .
+git commit -m "Completed 'empty-space' magnetostatics .edp script with notes and TODOs"
+git push
+screenshare
+share uxterm &
+ranger
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+nvim
+exit
+ls
+FreeFem++ london*.edp
+share FreeFem++ london*.edp
+python3
+nvim
+cd Source/Free*
+ls
+share zathura FreeFEM-doc*.pdf &
+share zathura FreeFEM-TetGen-Tutorial.pdf &
+share zathura FreeFem-Tet*.pdf &
+stopshare
+nvim
+ranger
+cd .dotfiles
+rcup config/nvim/init.octave
+cd ~/.config/nvim
+ls | grep -i oct
+ls
+nvim
+octave
+cd Source
+ls
+cd FreeFEM/examples
+cd FreeFEM
+ls
+cd freefem-examples
+git status
+git commit -m "Added london-equation-simple.edp; modified empty_space.edp"
+git push
+git status
+git add .; git commit -m "Added descriptions of exterior domain, SC slab, and SC slab with hole"
+git push
+git status
+git add .; git commit -m "Tested and commented out non-compiling code"
+git push
+git pull
+git push
+git status
+git add .
+git commit -m "Finished describing geometry (slab without hole); began problem description in terms of variational forms (varf)"
+git status
+git add .; git commit -m "Finished implementing all but the boundary conditions for the simple example of a slab without hole.  The BCs apparently cannot be added using the on(...) function, and will have to be treated as constraints (through, e.g., Lagrange multipliers)."
+git push
+screenshare
+ipython
+cd .dotfiles/config/nvim
+ls
+rcup init.octave
+:q
+FreeFem++ /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_2d.edp
+ranger
+ls
+cd Magnet*
+ls
+FreeFem++ empty_space.edp
+sudo find / -name "ffmatlib.idp"
+sudo find / -name "*ffmatlib*"
+dnf search ffmatlib
+ls
+cd Magnet*
+ls
+FreeFem++ empty_space.edp
+ls
+FreeFem++ london-equation-simple.edp
+git status
+git add .
+ls
+FreeFem++ london*.edp
+ls
+cd Magnet*
+ls
+FreeFem++ steady_state_*.edp
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/Magnetostatics/empty_space.edp
+FreeFem++ /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_3d.edp
+share uxterm
+share xterm &
+stopshare
+share uxterm &
+screenshare
+share uxterm
+ranger
+ls
+cd Source
+ls
+unzip freefem_matlab_*.zip
+ls
+ranger
+cd freefem_matlab*
+cd freefem_matlab_octave_plot-public
+ls
+cd release-v2.0
+ls
+cd demos
+ls
+cd ffmatlib
+mkoctfile --mex -Wall fftri2gridfast.c
+mkoctfile --mex -Wall fftet2gridfast.c
+ls
+ranger
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/Magnetostatics/empty_space.edp<CR>
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/Magnetostatics/empty_space.edp
+~/Source/FreeFEM/
+~/Source/bash-scripts/setup.sh
+ls /usr/local/bin
+cd ~/.dotfiles
+git status
+git add .; git commit -m "Added nvim mappings for resizing windows; tuned easy-align mappings"
+git push
+git pull
+git status
+git push
+git pull
+ranger
+nvim ~/.octaverc
+cd ~/Source
+cd FreeFEM
+ls
+cd freefem-examples
+cd ..
+git status
+ls
+cd freefem-macros
+git init
+git status
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/antimike/freefem-macros.git
+git push -u origin main
+ranger
+cd ../*examples
+git status
+ranger
+papis export --all --format bibtex --out ~/Documents/Papis-Imports/library.bib
+snap install jabref
+./setup.sh
+./sync-libraries.sh
+papis open
+sudo find ~/Documents -name "*1308*.pdf"
+jabref -n -f='Crossref:On Klein's Icosahedral Solution of the Quintic, Oliver Nash' -o quintic.bib
+jabref -n -f="Crossref:On Klein's Icosahedral Solution of the Quintic, Oliver Nash" -o quintic.bib
+nvim quintic.bib
+papis add --confirm --from bibtex quintic.bib --from pdf /home/user/Documents/Papis-Imports/e94ceb1cfcdee7243ff07642ea101279/1308.0955.pdf
+papis add /home/user/Documents/Papis-Imports/e94ceb1cfcdee7243ff07642ea101279/1308.0955.pdf --confirm --from bibtex quintic.bib
+papis open
+nvim quintic.bib
+papis add --confirm --from bibtex quintic.bib /home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+nvim quintic.bib
+papis add --confirm --from bibtex quintic.bib /home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+nvim quintic.bib
+papis add --confirm --from bibtex quintic.bib /home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+papis open
+/home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+find ~/Doc* -name "*1308*.pdf"
+papis add /home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+/home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62d
+papis add /home/user/Documents/Papis-Imports/6fe03b485a8f61f0f8e4d2d65f62dc38/1308.0955.pdf --from bibtex quintic.bib --confirm
+papis open
+papis rm
+papis open quintic
+rm quintic.bib
+papis rm
+papis open
+jabref -f="Crossref:Electrodynamics of the Superconducting State, London" -o london.bib
+nvim london.bib
+rm london.bib
+
+find ~/Doc* -name "*london-super*.pdf"
+papis add /home/user/Documents/Papis-Imports/b92ebf7cbf34ec557a2f90a06adbe82d/london-superpotential-pages.pdf --set author 'London' --set tags 'textbook superconductors london-eqns' \
+papis add /home/user/Documents/Papis-Imports/b92ebf7cbf34ec557a2f90a06adbe82d/london-superpotential-pages.pdf --set author 'Heinz London' --set tags 'textbook superconductors london-eqns' --set title "Electrodynamics of the Superconducting State"
+papis open london
+papis rm
+papis open
+papis rm
+papis open
+find ~/Doc* -name "*londonthoughts*.pdf
+find ~/Doc* -name "*londonthoughts*.pdf"
+papis add /home/user/Documents/Papis-Imports/24cea8088b16b56f0a92d1057b62147d/londonthoughts.pdf --set author "Marty Gelfand" --set date "09/25/2020" --set tags "note london-eqns email" --set title "Resolving the London Equation Quandry" --confirm
+papis rm
+papis open
+pubs import ~/.dotfiles/library.bib
+find ~/Doc* -name "*10.5555*"
+pubs import ~/.dotfiles/library.bib
+pubs import -h
+pubs import -i ~/.dotfiles/library.bib
+cd .pubs
+git status
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/antimike/pubs-library.git
+git push -u origin main
+pubs -h
+cd ~
+ls -a | grep -i pubs
+mkrc ~/.pubsrc
+nvim ~/.pubsrc
+pubs open
+pubs doc open
+pubs -h
+pubs websearch "Cordier superconductor"
+pubs -i
+pubs -I
+pubs list
+pubs -h
+pubs doc -I
+pubs doc open -I
+pubs -I doc open
+man pubs
+pip3 search xapers
+pip3 install xapers
+pip install xapers
+pwd
+cd ~/Source/bash*
+./sync-libraries.sh
+cd ~/Source/bas*
+ls
+nvim bib*.sh
+nvim
+pubs git status
+pubs git commit
+pubs git add .
+pubs git commit
+pubs git commit -m "Updated caches"
+pubs git push
+cd ~/.dotfiles
+git status
+git add README.md config/nvim/init.citation config/nvim/init.vim
+git commit -m "Added bibtex source for coc.nvim in init.citation"
+git add library.bib; git commit -m "Added library.bib (pubs / papis library summary)"
+git add pubsrc; git commit -m "Added rc file for Pubs (reference management)"
+git push
+cd ~/Source/bash*
+git status
+git add .
+git commit -m "Fixed bibtex-generator.sh; added export-papis.sh and import-pubs.sh for convenience"
+git push
+pip install pubs --user
+pubs init
+pubs import /home/user/Documents/Papis-Imports/library.bib
+ranger
+papis edit 10.1145
+papis edit
+papis rm
+papis edit 10.555
+papis edit
+papis rm
+papis edit Bejan, Adrian and Lorente
+papis edit "Bejan, Adrian and Lorente"
+papis edit "Perceptual neural organization"
+papis edit "Consistent concepts of self-organization"
+papis edit "An alternative formulation of the magnetostatic"
+papis edit "Trust transitivity in Social Networks"
+papis edit "A defect in dempster-shafer theory"
+papis edit "Audun and Pope"
+papis edit "assumptions behind dempster's rule"
+papis edit "Audun"
+papis edit "Cascading dynamics in complex"
+papis edit ?Trust and Trustworthy"
+papis edit "Trust and Trustworthy"
+papis edit "Ries, Sebastian"
+ranger
+papis open
+share papis open
+dwm
+nvim
+octave /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/bdcoloring.m
+octave /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_2d.m
+share octave /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_2d.m
+nvim
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/london-equation-simple.edp
+FreeFem++ /home/user/Source/FreeFEM/[coc-explorer]-1
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/london-equation-simple.edp
+share papis open
+nvim
+cd ~/.dotfiles
+rcup config/nvim/Sessions
+ranger
+rcup config/nvim
+ranger
+cd ~/.config/nvim
+mkrc init.fold
+ranger
+cd ~/Source/FreeFEM/london-freefem/
+git status
+git add .; git commit -m "Zoom meeting catchup"
+git push
+cd ..; ls
+cd *examples
+git push
+stopshare
+cd ../*london*
+git status
+git add .
+git status
+git commit -m "Deleted old files"
+git submodule add https://github.com/samplemaker/freefem_matlab_octave_plot matlab
+git status
+git push
+git status
+git add .; git add -m "Committing changes from yesterday"
+git add .; git commit -m "Committing changes from yesterday"
+git status
+git submodule add https://github.com/antimike/freefem-macros macros
+git add .
+git commit -m "Deleted 'macros' directory so I can add it back as a submodule"
+git submodule add https://github.com/antimike/freefem-macros macros
+git status
+git add .; git commit -m "Added 'macros' submodule"
+git status
+git push
+git status
+find ~ -name "*session*"
+ranger
+papis add ~/Downloads/medit_manual.pdf --set author "Pascal Frey" --set year 2006 --set title "MEDIT: An interactive Mesh visualization Software" --set tags "medit fem manual software"
+dnf search medit
+git status
+git push
+dnf search freefem3d
+dnf search ff3d
+cd ../*examples*
+ls
+git status
+cd ../*london*
+git status
+git push
+go get -u github.com/cgxeiji/scholar
+sudo dnf install gcc-go -y
+go get -u github.com/cgxeiji/scholar
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+pwd
+cd /home/user/Source/FreeFEM/london-freefem/3d
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+ls
+medit empty-space-applied-field.sol
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/poisson3d.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/bowling-pin.edp
+cd /home/user/Source/FreeFEM/london-freefem/meshes
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/bowling-pin.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+nvim
+sudo find / -name "empty_space.msh"
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/Magnetostatics/empty_space.edp
+sudo find / -name "empty_space.msh"
+FreeFem++ /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_3d.edp
+octave /home/user/Source/freefem_matlab_octave_plot-public/release-v2.0/demos/capacitor_3d.m
+FreeFem++ /home/user/Source/FreeFEM/freefem-examples/Magnetostatics/empty_space.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/london-equation-simple.edp
+FreeFem++ /home/user/Source/FreeFEM/freefem-macros/vector-analysis.idp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/london-equation-simple.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/mesh-generator.edp
+sudo find / -name "slab_in_cube.mesh"
+pwd
+cd /home/user/Source/FreeFEM/london-freefem
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/mesh-generator.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+pwd
+cd /home/user/Source/FreeFEM/london-freefem/3d
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+pwd
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/london-equation-simple.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/test/plot-boundary-labels.idp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+pwd
+cd %:p:h
+cd /home/user/Source/FreeFEM/london-freefem/meshes
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+pwd
+cd /home/user/Source/FreeFEM/london-freefem/3d
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+nvim
+cd .dotfiles
+git pull
+xrdb -merge ~/.Xresources
+rcup
+xrdb -merge ~/.Xresources
+xterm
+nvim
+cd Source
+cd ~/Source
+ls
+cd Free*
+ls
+git clone https://github.com/antimike/london-freefem
+ls
+ranger
+octave
+cd ~/Source/FreeFEM
+ls
+share zathura *TetGen*.pdf &
+gnome-terminal
+share gnome-terminal &
+share papis open
+stopshare
+dnf search octave
+sudo dnf install octave octave-devel -y
+sage
+dnf search ngsolve
+python3 --version
+dnf search tcl
+dnf search tk-devel
+sudo dnf install tcl-devel tk-devel -y
+dnf search xmu-dev
+sudo dnf install libXmu-devel -y
+dnf search libglu
+dnf search liblapacke
+dnf search lapacke
+dnf search liblapack
+dnf search LAPACK
+sudo dnf install mesa-libGLU mesa-libGLU-devel lapack lapack-devel -y
+cd Source
+ls
+git clone https://github.com/NGSolve/ngsolve.git ngsolve-src
+cd ngsolve-src
+git submodule update --init --recursive
+mkdir ../ngsolve-build
+ls /usr/local/lib
+sudo mkdir /usr/local/lib/ngsolve-install
+cd ../ngsolve-build
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib/ngsolve-install ../ngsolve-src
+cd ..
+cd *FEM*
+ls
+cd london-freefem
+git status
+git push
+cd ~/.dotfiles
+git status
+git pull
+cd /usr/local
+ls
+cd bin; ls
+git status
+cd ~/Source; ls
+cd bash*
+git status
+git pull
+nvim bibtex-generator
+nvim
+bibtex-generator.sh ~/Source/FreeFEM/Finite_Element_Methods_for_Maxwells_Equations_\]_Peter_Monk\,_University_of_Delaware.pdf 
+./bibtex-generator.sh ~/Source/FreeFEM/Finite_Element_Methods_for_Maxwells_Equations_\]_Peter_Monk\,_University_of_Delaware.pdf 
+papis add ~/Source/FreeFEM/Finite_Element_Methods_for_Maxwells_Equations_\]_Peter_Monk\,_University_of_Delaware.pdf --set author "Monk, Peter" --set title "Finite Element Methods for Maxwell's Equations" --set tags "slides"
+papis open
+./bibtex-generator.sh ~/Source/FreeFEM/nedelec.pdf 
+pip3 install pdftitle --user
+./bibtex-generator.sh ~/Source/FreeFEM/nedelec.pdf 
+papis add ~/Source/FreeFEM/nedelec.pdf --author "Anna Schneebeli" --year 2003 --title "An H(curl; Omega)-conforming FEM: Nedelec's elements of first type" --tags "deal.ii report"
+papis add ~/Source/FreeFEM/nedelec.pdf --set author "Anna Schneebeli" --set year 2003 --set title "An H(curl; Omega)-conforming FEM: Nedelec's elements of first type" --set tags "deal.ii report"
+papis add ~/Source/FreeFEM/FreeFem++-tutorial-1.pdf --set author "Atsushi Suzuki" --set year 2016 --set tags "slides freefem" --set title "Finite element programming by FreeFem++"
+papis open bonsen
+./bibtex-generator.sh ~/Source/FreeFEM/BachelorThesis_TobiasBonsen.pdf 
+papis add ~/Source/FreeFEM/BachelorThesis_TobiasBonsen.pdf --set author "Tobias Bonsen" --set year 2017 --set title "Numerical simulations for type II superconductors" --set subtitle "Finite Element Methods for the time-dependent Ginzburg-Landau equations" --set tags "fem ginzburg-landau superconductors"
+papis add ~/Source/FreeFEM/UPMCInitiationFreeFem.pdf --set author "O. Pantz" --set title "An Introduction to FreeFem++" --set year 2011 --set tags "freefem fem slides"
+papis add ~/Source/FreeFEM/FreeFEM-documentation.pdf --set author "Frederic Hecht" --set year 2020 --set title "FreeFEM Documentation" --set subtitle "Release 4.6" --set tags "freefem fem"
+ls | grep -i pap
+cat export-papis.sh
+./export-papis.sh
+ls -a ~ | grep -i pap
+ls -a
+ls -a | grep -i pa
+cd ~/Doc*
+cd Pap*
+git status
+git add .
+git commit -m "Added FreeFEM references and tutorials"
+git push
+cd ~/Source/FreeFEM/freefem-macros/
+git status
+git push
+papis add ~/Downloads/Maxwell_FEM_Notes.pdf --set author "R. Rook" --set title "Notes on solving Maxwell equations, part I, finite elements method using vector elements" --set year 2011 --set tags "fem maxwell"
+papis add ~/Downloads/dealii_Assembling_Matrices.pdf --set author "Wolfgang Bangerth" --set title "Assembling matrices in deal.II" --set year 2002 --set tags "deal.ii fem"
+papis add ~/Downloads/CutFEM_Dirichlet_Neumann_unfitted_meshes.pdf --set author Alexei Lozinski \
+papis add ~/Downloads/CutFEM_Dirichlet_Neumann_unfitted_meshes.pdf --set author "Alexei Lozinski" --set title "CutFEM without cutting the mesh cells: a new way to impose Dirichlet and Neumann boundary conditions on unfitted meshes" --set year 2019 --set tags "fem cutfem dirichlet neumann"
+cd ~/Documents/Papis-Imports/
+git status
+git add .
+git commit -m "Added some more FEM references relevant to RT, Nedelec elements and Maxwell equations"
+git push
+screenshare
+share papis open &
+kill 411897
+share uxterm &
+vim -e
+ipython
+ranger
+nvim
+cd .dotfiles
+cd ..
+mkrc ~/.octaverc
+cd .dotfiles
+git status
+git add config/nvim/init.octave octaverc
+git commit -m "Added rc and nvim init files for GNU Octave"
+git add .
+git commit -m "Added / changed mappings for vimcmdline, neoterm, and vim-repl"
+git push
+dnf search tetview
+git status
+git add .
+git commit -m "Added some color to Octave command prompt; added filetype autocommands to init.cmdline"
+git push
+sudo find / -name "*.idp"
+man FreeFem++
+FreeFem++ -h
+git status
+cd config/nvim/Ultisnips
+cd config/nvim
+cd Ulti*
+ls
+rcup freefem
+ranger
+cd ~/.dotfiles
+rcup config/nvim/UltiSnips/freefem
+ranger
+pip3 install tasklib --user
+pip3 install mayavi --user
+dnf search qubes-snapd-helper
+sudo dnf install qubes-snapd-helper -y
+snap search zotero
+snap install zotero-snap
+pip3 install papis --user
+cd ~/Source
+ls
+git clone https://github.com/antimike/bash-scripts.git
+cd bash-scripts
+ls
+sudo ./setup.sh
+nvim setup.sh
+sudo ./setup.sh
+ls
+ranger
+git status
+git add .; git commit -m "Cloned in dev-fedora; improved setup script"
+git push
+ls
+nvim ~/.bashrc
+cd ~/.dotfiles
+git status
+git add */UltiSnips/*
+git status
+git commit -m "Added more freefem and octave snippets"
+git add *.syntax-range; git commit -m "Added syntax-range detection for various languages in .md files"
+git add "*.cmdline"; git commit -m "Refined cmdline mappings"
+git add .
+git commit -m "Disabled citation.vim and associated init script"
+git pull
+git push
+cd ~/Documents
+papis
+ranger
+git clone https://github.com/antimike/papis-library Papis-Imports
+papis open
+nvim ~/.bashrc
+cd ~/.dotfiles
+git status
+nvim
+git push
+source ~/.bashrc
+dnf search poppler-qt5
+sudo dnf install poppler-qt5 poppler-qt5-devel
+snap search zotero
+snap install zotero-snap
+nvim
+screenshare
+share uxterm &
+stopshare
+screenshare
+share uxterm &
+stopshare
+share uxterm &
+screenshare
+share uxterm &
+papis open cordier
+share uxterm &
+share zathura &
+papis open
+stopshare
+pip3 install papis-rofi --user
+stopshare
+rofi -v
+papis-rofi
+papis rofi
+papis -s picktool rofi open
+papis rofi
+ranger
+nvim
+papis open
+papis
+papis open
+cd ~/Source/bash-scripts/
+git status
+git pull
+sudo chmod +x split-ssh-setup-client.sh
+sudo chmod +x split-ssh-setup-template.sh
+./split-ssh-setup-template.sh
+cd ~/.dotfiles
+git status
+nvim config/nvim/init.vim
+git add .
+git status
+git commit -m "Added vim-session stuff (including new directory to store session metadata); modified library.bib"
+git pull
+git status
+git push
+cd ~/Source/bash-scripts/
+ls | grep -i ssh
+sudo chmod +x split-ssh-setup-client.sh
+nvim ./split-ssh-setup-client.sh
+cat /rw/config/rc.local
+./split-ssh-setup-client.sh
+ssh-add -L
+ssh-add
+nvim ~/.bashrc
+cat /etc/qubes-rpc/qubes.SshAgent
+sudo chmod +x /rw/config/rc.local
+ssh-add -L
+eval `ssh-agent -s`
+ssh-add -L
+/rw/config/rc.local
+cat ~/.SSH_AGENT_keyvault-slave-private 
+ssh-add -L
+ssh-add Antimike.Haynes@colostate.edu
+cd /etc/qubes-rpc
+ls
+vim qubes.SshAgent
+vim qubes.Gpg
+cd ~/Source
+git clone https://github.com/henn/qubes-app-split-ssh
+echo $SSH_AUTH_SOCK
+source ~/.bashrc
+echo $SSH_AUTH_SOCK
+ssh-add -L
+ssh -L
+ssh-add -L
+cd /etc/qubes-rpc
+nvim ~/.config/autostart/ssh-add.desktop
+touch ~/.config/autostart/ssh-add.desktop
+touch ~/.dotfiles/config/autostart/ssh-add.desktop
+ranger
+mkdir ~/.config/autostart
+touch ~/.config/autostart/ssh-add.desktop
+nvim ~/.config/autostart/ssh-add.desktop
+mkrc ~/.config/autostart/ssh-add.desktop
+mv ~/.config/autostart/ssh-add.desktop ~/.config/autostart/ssh-agent.desktop
+nvim ~/.config/autostart/ssh-agent.desktop 
+papis open
+sudo dnf install zsh -y
+zsh
+ls -a | grep -i hist
+ls -a | grep -i zsh
+nvim .axhrc.zni
+nvim .zshrc.zni
+touch ~/.zshenv
+mkrc ~/.zshenv ~/.zshrc
+mkrc ~/.zshrc.zni
+ls -a | grep -i bash
+nvim .bash_profile
+ls -a | grep -i fzf
+dnf search powerline
+powerline -v
+sudo dnf install powerline-fonts -y
+sudo dnf install hub -y
+cd ~/.dotfiles
+git pull
+zsh
+sudo chsh -s $(which zsh)
+sudo bash
+dnf search util-linux
+sudo dnf install util-linux util-linux-user -y
+sudo bash
+dnf search passwd
+sudo dnf install passwd
+sudo bash
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+ssh-add -L
+ssh-agent -s
+source ~/.bashrc
+ssh-add -L
+echo $echo $SSH_AUTH_SOCK
+echo $echo $SSH_VAULT_VM
+ssh-add
+ssh-agent
+ssh-add -L
+echo $SSH_AUTH_SOCK
+source ~/.bashrc
+ssh-add -L
+echo $SSH_VAULT_VM
+/rw/config/rc.local 
+ssh-add -L
+cd ~/.dotfiles
+git remote -u
+git remote -v
+git remote set-url origin git@github.com:antimike/dotfiles.git
+git remote -v
+git pull
+git status
+git add config/autostart
+git commit -m "Added 'config/autostart'"
+git push
+git pull
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/test/interpolate.edp
+FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space-cordier-formulation.edp
+pwd
+git status
+git push
+zsh
+cd /home/user/Source/FreeFEM/london-freefem/2d; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/2d/marty_current_carrying_wire.edp
+cd /home/user/Source/FreeFEM/london-freefem/2d; FreeFem++ /home/user/Source/FreeFEM/london-freefem/2d/marty_current_carrying_wire.edp
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner; FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation.edp
+share papis open
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner
+share FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation-Lagrange.edp
+cd /home/user/Source/FreeFEM/london-freefem/2d; FreeFem++ /home/user/Source/FreeFEM/london-freefem/2d/marty_2d_magnetostatics_bc_test.edp
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner; FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation-Lagrange.edp
+share FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner
+pwd
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation-Lagrange.edp
+pwd
+cd /home/user/Source/FreeFEM/london-freefem/meshes; T share FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+share FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+cd /home/user/Source/FreeFEM/london-freefem/meshes; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation-Lagrange.edp
+cd /home/user/Source/FreeFEM/london-freefem/meshes; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+cd /home/user/Source/FreeFEM/london-freefem/3d/meissner; share FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/meissner/meissner-B-formulation-Lagrange.edp
+git push
+git pull

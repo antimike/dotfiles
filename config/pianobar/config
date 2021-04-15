@@ -1,2 +1,0 @@
-user = mathgeek101@gmail.com
-password_command = gpg --no-tty -q -d ~/pandora-password.gpg

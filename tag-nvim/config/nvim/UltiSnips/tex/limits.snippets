@@ -1,0 +1,10 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet lim "Lim" w
+\ds \lim_{$1} $0
+endsnippet

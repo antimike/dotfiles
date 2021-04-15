@@ -10,7 +10,3 @@ stack install stylish-haskell
 # NOTE: Doesn't work with either Stack or Cabal.  Investigate
 stack install hdevtools 
 */5 8-20 * * 1-5 killall mbsync &>/dev/null; mbsync -a -V 2>&1 >> ~/.mbsync.log; /usr/bin/notmuch-hook.sh
-
-# RCM
-# Makes hostname-specific RC file for RCM itself
-mkrc -B work .rcrc

@@ -1,0 +1,65 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet == "Equivalence" iA
+\equiv
+endsnippet
+
+context "utils.is_math_mode()"
+snippet ~= "Simeq" iA
+\simeq
+endsnippet
+
+context "utils.is_math_mode()"
+snippet ~~ "Sim" iA
+\sim
+endsnippet
+
+context "utils.is_math_mode()"
+snippet =~ "Approx" iA
+\approx
+endsnippet
+
+context "utils.is_math_mode()"
+snippet != "Neq" iA
+\neq
+endsnippet
+
+context "utils.is_math_mode()"
+snippet >= "Geq" iA
+\geq
+endsnippet
+
+context "utils.is_math_mode()"
+snippet <= "Leq" iA
+\leq
+endsnippet
+
+context "utils.is_math_mode()"
+snippet << "Much less than" iA
+\ll
+endsnippet
+
+context "utils.is_math_mode()"
+snippet >> "Much greater than" iA
+\gg
+endsnippet
+
+context "utils.is_math_mode()"
+snippet := "Defined to be" iA
+\coloneqq
+endsnippet
+
+context "utils.is_math_mode()"
+snippet +- "Plus / minus" iA
+\pm
+endsnippet
+
+context "utils.is_math_mode()"
+snippet -+ "Minus / plus" iA
+\mp
+endsnippet

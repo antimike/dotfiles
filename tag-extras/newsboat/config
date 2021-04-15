@@ -1,0 +1,227 @@
+# Colorscheme
+
+# Best so far
+include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
+
+# Plain but acceptable
+#include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
+
+# Similar to Afew colorscheme
+#include /usr/share/doc/newsboat/contrib/colorschemes/nord
+
+# Second-best
+#include /usr/share/doc/newsboat/contrib/colorschemes/kinda-maia
+
+# Very red
+#include /usr/share/doc/newsboat/contrib/colorschemes/schleichfahrt
+
+refresh-on-startup	yes
+
+# html-renderer		"w3m -dump -T text/html"
+# pager			"w3m %f"
+external-url-viewer	"w3m"
+browser			"w3m"
+
+# ============================
+# KEY BINDINGS
+# ============================
+
+# ----------------------------
+# Unbind useless keys
+# ----------------------------
+
+unbind-key UP
+unbind-key RIGHT
+unbind-key DOWN
+unbind-key LEFT
+
+unbind-key PPAGE
+unbind-key NPAGE
+
+unbind-key HOME
+unbind-key END
+
+unbind-key g
+unbind-key A
+unbind-key C
+unbind-key G
+unbind-key ^G
+unbind-key ^K
+unbind-key ^L
+unbind-key ^V
+
+# ----------------------------
+# Simple bindings
+# ----------------------------
+
+# Main options
+bind-key ? help
+bind-key / open-search
+bind-key : cmdline
+
+bind-key l open
+bind-key w save
+bind-key Z quit
+
+# Navigation
+bind-key k up
+bind-key j down
+bind-key ^B pageup
+bind-key ^F pagedown
+
+bind-key J next
+bind-key K prev
+bind-key z random-unread
+bind-key n next-unread
+bind-key p prev-unread
+bind-key N next-feed
+bind-key P prev-feed
+bind-key ^N next-unread-feed
+bind-key ^P prev-unread-feed
+
+bind-key v view-dialogs
+bind-key ^I next-dialog
+bind-key ^O prev-dialog
+bind-key x close-dialog
+
+bind-key 0 home
+bind-key $ end
+bind-key r reload
+bind-key R reload-all
+
+bind-key o open-in-browser
+bind-key O open-in-browser-and-mark-read
+
+# URLs
+#bind-key "#" goto-url
+bind-key u show-urls
+bind-key E edit-urls
+bind-key ^R reload-urls
+
+# Marks, filters and tags
+bind-key b bookmark
+
+bind-key m mark-feed-read
+bind-key M mark-all-feeds-read
+
+bind-key f select-filter
+bind-key F set-filter
+bind-key ^C clear-filter
+
+bind-key t set-tag
+bind-key T clear-tag
+
+# Toggle
+bind-key ^U toggle-source-view
+bind-key ^A toggle-article-read
+bind-key ^S toggle-show-read-feeds
+
+# Misc.
+bind-key s sort
+bind-key S rev-sort
+
+bind-key D delete-article
+bind-key ^D purge-deleted
+
+bind-key e enqueue
+bind-key ^E edit-flags
+
+bind-key F5 redraw
+bind-key | pipe-to
+
+# ----------------------------
+# Macros
+# ----------------------------
+
+# macro <macro key> <command list>
+
+
+
+
+
+# ============================
+# RSS CONTENT
+# ============================
+
+# ----------------------------
+# Feeds
+# ----------------------------
+
+opml-url ""
+
+always-download n/a
+download-retries 1
+download-full-page no
+download-timeout 30
+max-download-speed 0
+
+show-read-feeds yes
+feed-sort-order none
+feedlist-format "%4i %n %11u %t"
+always-display-description false
+goto-next-feed yes
+
+auto-reload yes
+suppress-first-reload no
+reload-time 30
+reload-only-visible-feeds no
+reload-threads 2
+
+refresh-on-startup yes
+prepopulate-query-feeds yes
+cleanup-on-quit yes
+
+# ----------------------------
+# Articles
+# ----------------------------
+
+save-path "~/Articles"
+
+ignore-article "*" "title =~ \"Windows\""
+ignore-article "*" "title =~ \"Mac\""
+ignore-mode download
+
+show-read-articles yes
+keep-articles-days 0
+reset-unread-on-update n/a
+datetime-format "%b %d"
+goto-first-unread no
+mark-as-read-on-hover no
+display-article-progress yes
+article-sort-order date-asc
+articlelist-format "%4i %f %D %6L %?T?;%-17T; ?%t"
+delete-read-articles-on-quit no
+
+max-items 0
+# highlight-article n/a
+history-limit 100
+
+podcast-auto-enqueue no
+player "mpv"
+download-path "~/Podcasts"
+bind-key p pb-purge
+bind-key d pb-mark-as-finished
+bind-key P pb-play
+bind-key D pb-delete
+bind-key L pb-download
+# podlist-format "%4i %u %-20S %F"
+
+# ----------------------------
+# Bookmarks
+# ----------------------------
+
+bookmark-cmd ""
+bookmark-interactive no
+bookmark-autopilot no
+
+# ----------------------------
+# Filters
+# ----------------------------
+
+#define-filter "Feeds about GNU/Linux" "tags # \"linux\""
+#define-filter "Feeds about Arch" "tags # \"arch\""
+#define-filter "Feeds about Debian" "tags # \"debian\""
+#define-filter "Feeds about Red Hat" "tags # \"redhat\""
+#define-filter "Feeds about science" "tags # \"science\""
+#define-filter "Feeds about technology" "tags # \"tech\""
+#define-filter "Feeds about global affairs" "tags # \"global\""

@@ -1,0 +1,87 @@
+snippet * "New list" b
+\begin{itemize}
+\item $1
+\end{itemize}
+$0
+endsnippet
+
+snippet :: "New description list" bA
+\begin{description}
+\item[$1] $2
+\end{description}
+$0
+endsnippet
+
+snippet 1. "New numbered list" bA
+\begin{enumerate}
+\item $1
+\end{enumerate}
+$0
+endsnippet
+
+snippet 1. "New inline numbered list" w
+
+\begin{enumerate*}
+\item $1
+\end{enumerate*}
+$0
+endsnippet
+
+snippet 1) "New inline numbered list with parens" w
+
+\begin{enumerate*}[label=(\arabic*)]
+\item $1
+\end{enumerate*}
+$0
+endsnippet
+
+snippet a. "New lettered list" bA
+\begin{enumerate}[label=(\alph*)]
+\item $1
+\end{enumerate}
+$0
+endsnippet
+
+snippet a. "New inline lettered list" w
+
+\begin{enumerate*}[label=(\alph*)]
+$1
+\end{enumerate*}
+$0
+endsnippet
+
+snippet i. "New Roman-numeral (lowercase) list" bA
+\begin{enumerate}[label=(\roman*)]
+\item $1
+\end{enumerate}
+$0
+endsnippet
+
+snippet i. "New Roman-numeral (lowercase) inline list" w
+\begin{enumerate*}[label=(\roman*)]
+\item $1
+\end{enumerate*}
+$0
+endsnippet
+
+snippet I. "New Roman-numeral (uppercase) list" bA
+\begin{enumerate}[label=(\Roman*)]
+\item $1
+\end{enumerate}
+$0
+endsnippet
+
+snippet I. "New Roman-numeral (uppercase) inline list" w
+\begin{enumerate*}[label=(\Roman*)]
+\item $1
+\end{enumerate*}
+$0
+endsnippet
+
+snippet ** "Item" bA
+\item $0
+endsnippet
+
+snippet *: "New titled item" bA
+\item[$1] $0
+endsnippet

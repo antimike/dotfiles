@@ -1,0 +1,886 @@
+: 1610864516:0;ls
+: 1610864518:0;ls -a
+: 1610864540:0;cd ..; ls | grep -i zsh
+: 1610864560:0;ls -a | grep -i zsh
+: 1610864571:0;cd .oh-my-zsh
+: 1610864573:0;ls
+: 1610864621:0;nvim README.md
+: 1610913769:0;nvim install.sh
+: 1610913802:0;git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+: 1610913807:0;ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+: 1610913813:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1610913831:0;sudo dnf install hub -y
+: 1610913869:0;src
+: 1610913875:0;echo $SHELL
+: 1610913883:0;sudo chsh $(which zsh)
+: 1610913894:0;sudo chsh -s $(which zsh)
+: 1610913925:0;dnf search chsh
+: 1610913934:0;exit
+: 1610914527:0;cat /rw/config/rc.local
+: 1610914566:0;cd .dotfiles
+: 1610914571:0;git pull
+: 1610914627:0;papis open
+: 1610914866:0;nvim
+: 1610926838:0;git push
+: 1610926853:0;cd Source
+: 1610926866:0;cd freefem
+: 1610926871:0;cd FreeFEM
+: 1610926872:0;ls
+: 1610926880:0;cd london-freefem
+: 1610926883:0;git status
+: 1610926887:0;git push
+: 1610926904:0;source /rw/config/rc.local
+: 1610926908:0;git push
+: 1610926919:0;ssh-add -L
+: 1610926946:0;git push
+: 1610927416:0;cd ~/.dotfiles
+: 1610927418:0;git pull
+: 1610927431:0;cd FEM
+: 1610927444:0;cd ~/S/F
+: 1610927454:0;cd ~/Source/FreeFEM/london-freefem
+: 1610927456:0;git pull
+: 1610927459:0;git push
+: 1610927560:0;git remote show origin
+: 1610927605:0;git remote -v
+: 1610927633:0;git remote set-url origin git@github.com:antimike/london-freefem.git
+: 1610927636:0;git remote -v
+: 1610927640:0;git push
+: 1610930280:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space/empty-space-cordier-formulation.edp
+: 1610930349:0;pwd
+: 1610931356:0;cd %:p:h
+: 1610931365:0;cd /home/user/Source/FreeFEM/london-freefem/3d/empty-space
+: 1610931370:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space/empty-space-cordier-formulation.edp
+: 1610931572:0;pwd
+: 1610931575:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space/empty-space-cordier-formulation.edp
+: 1610931849:0;cd /home/user/Source/FreeFEM/london-freefem/meshes
+: 1610931886:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/meshes/slab-in-cube.edp
+: 1610931939:0;cd /home/user/Source/FreeFEM/london-freefem/3d/empty-space
+: 1610931944:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/3d/empty-space/empty-space-cordier-formulation.edp
+: 1610932263:0;pwd
+: 1610932529:0;octave /home/user/Source/FreeFEM/london-freefem/3d/empty-space/empty-space-cordier-formulation.m
+: 1610983695:0;ranger
+: 1610984726:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/Btests.edp
+: 1610988652:0;cd /home/user/Source/FreeFEM/london-freefem
+: 1610988879:0;:papis open fem
+: 1610988884:0;papis open fem
+: 1610989261:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/2d/marty_current_carrying_wire.edp
+: 1610989516:0;pwd
+: 1610989826:0;cd /home/user/Source/FreeFEM/london-freefem/2d
+: 1610989830:0;FreeFem++ /home/user/Source/FreeFEM/london-freefem/2d/marty_current_carrying_wire.edp
+: 1610990838:0;2d
+: 1610990846:0;ls | grep -i ppm
+: 1610990870:0;convert ffglut_0000.ppm B_filled_contours.png
+: 1610990876:0;ls | grep -i fill
+: 1610990885:0;vimiv B_filled_contours.png
+: 1610991232:0;git status
+: 1610991235:0;git push
+: 1611002102:0;share gnome-terminal
+: 1611002110:0;screenshare
+: 1611002122:0;~/.dotfiles
+: 1611002130:0;nvim zshrc
+: 1611002144:0;nvim shell-aliases
+: 1611002158:0;rcup shell-aliases
+: 1611002164:0;ls ~ | grep -i shell
+: 1611002175:0;run-help grep
+: 1611002191:0;ls -a ~ | grep -i shell
+: 1611002197:0;src
+: 1611002218:0;source ~/.zshrc
+: 1611002221:0;screenshare
+: 1611002228:0;source ~/.shell-aliases
+: 1611002231:0;screenshare
+: 1611002237:0;share gnome-terminal
+: 1611002255:0;share gnome-terminal &
+: 1611002304:0;cat ~/.shell-aliases | grep -i share
+: 1611002337:0;DISPLAY=:1 (gnome-terminal) &
+: 1611002346:0;DISPLAY=:1 gnome-terminal
+: 1611002364:0;share kitty &
+: 1611002378:0;nvim
+: 1611002476:0;papis open
+: 1611002492:0;share papis open
+: 1611002500:0;source ~/.shell-aliases
+: 1611002503:0;share papis open
+: 1611011165:0;stopshare
+: 1611019798:0;nvim
+: 1611020445:0;papis open
+: 1611020470:0;papis
+: 1611020472:0;ls
+: 1611020477:0;cd Documents
+: 1611020482:0;Papis
+: 1611020487:0;cd Papis-Imports
+: 1611020491:0;git pull
+: 1611020532:0;papis open
+: 1611020636:0;run-help paps
+: 1611020681:0;paps
+: 1611020696:0;papis open
+: 1611020783:0;git status
+: 1611020811:0;git add .; git commit -m "Added `medit` user manual"
+: 1611020819:0;git push
+: 1611020828:0;src
+: 1611020834:0;source ~/.shell-aliases
+: 1611020836:0;git push
+: 1611020853:0;source /rw/config/rc.local
+: 1611020855:0;git push
+: 1611020870:0;git remote -v
+: 1611020970:0;git remote set-url origin git@github.com:antimike/papis-library
+: 1611020974:0;git remote -v
+: 1611020982:0;git push
+: 1611021022:0;papis open
+: 1611021060:0;papis -h
+: 1611021070:0;papis --cc
+: 1611021076:0;papis open
+: 1611031879:0;nvim
+: 1611079832:0;ipython
+: 1611088990:0;cd ~/.local
+: 1611088991:0;ls
+: 1611088994:0;cd share
+: 1611088994:0;ls
+: 1611088998:0;cd zathura
+: 1611088999:0;ls
+: 1611089007:0;cd ..
+: 1611089012:0;mkrc zathura
+: 1611089014:0;ls
+: 1611089026:0;ranger
+: 1611089035:0;mkrc ./zathura
+: 1611089037:0;ls
+: 1611089057:0;ls ~/.dotfiles | grep -i local
+: 1611089068:0;ls ~/.dotfiles/local/share
+: 1611089073:0;cd zathura
+: 1611089073:0;ls
+: 1611089079:0;cd zath
+: 1611089083:0;cd zathura
+: 1611089084:0;ls
+: 1611089092:0;cd ..
+: 1611089095:0;ranger
+: 1611089124:0;ls -ln
+: 1611089135:0;cd zathura
+: 1611089138:0;ls -ln
+: 1611089141:0;cd ..
+: 1611089165:0;ls -ln ~/.dotfiles/local/share/zathura
+: 1611089197:0;rm ./zathura
+: 1611089201:0;rm -r ./zathura
+: 1611089214:0;rm -r ~/.dotfiles/local/share/zathura/zathura
+: 1611089217:0;ls -ln
+: 1611090408:0;cd .dotfiles
+: 1611090410:0;git status
+: 1611090437:0;git add config/nvim/*
+: 1611090462:0;git commit -m "Modified cmdline mappings, saved session, and added 'vimagit' plugin"
+: 1611090470:0;git add config/ParaView
+: 1611090472:0;git status
+: 1611090487:0;git commit -m "Automatic changes to ParaView init file"
+: 1611090492:0;git add local/
+: 1611090494:0;git status
+: 1611090512:0;git commit -m "Added Zathura history files (bookmarks, jumplist, etc.)"
+: 1611090514:0;git push
+: 1611092979:0;nvim
+: 1611093204:0;papis open
+: 1611112838:0;sudo dnf install guake -y
+: 1611163679:0;cd .dotfiles
+: 1611163685:0;git status
+: 1611163705:0;git commit -m "Added some Zathura bookmarks"
+: 1611163708:0;git pull
+: 1611163732:0;git push
+: 1611163780:0;git submodule init
+: 1611163785:0;git submodule update
+: 1611163962:0;git status
+: 1611164003:0;git commit -a "Added some Zathura bookmarks"
+: 1611164019:0;git commit -a -m "Added some Zathura bookmarks"
+: 1611164024:0;git push
+: 1611164051:0;cd .dotfiles
+: 1611164053:0;git status
+: 1611164298:0;sudo dnf install lxappearance -y
+: 1611164735:0;ls -a ~ | grep gua
+: 1611164742:0;la -a ~ | grep rc
+: 1611164759:0;ls ~/.config | grep gua
+: 1611164767:0;ls ~/.config/guake
+: 1611164773:0;ls -a ~/.config/guake
+: 1611164787:0;lxappearance
+: 1611196258:0;papis open
+: 1611197011:0;ranger
+: 1611197149:0;papis add ~/QubesIncoming/dropbox/Tree_Cotree_Gauge.pdf \\
+--set author "John B. Manges and Zoltan J. Cendes" \\
+--set title "A Generalized Tree-Cotree Gauge for Magnetic Field Computation" \\
+--set year 1995 \\
+--set tags "magnetostatics fem gauge maxwell"
+: 1611197195:0;~/Documents/Papis-Imports
+: 1611197197:0;git status
+: 1611197221:0;git commit -a -m "Added paper on tree-cotree gauge (FEM for magnetostatics)"
+: 1611197239:0;git add .
+: 1611197247:0;git commit -a -m "Added paper on tree-cotree gauge (FEM for magnetostatics)"
+: 1611197254:0;git push
+: 1611255020:0;papis -h
+: 1611255039:0;papis
+: 1611255047:0;papis rofi
+: 1611255060:0;papis rofi -h
+: 1611255072:0;papis rofi quaternion
+: 1611255091:0;papis open
+: 1611283915:0;cat ~/.config/papis/config
+: 1611284053:0;papis add ~/Downloads/ACDR19.pdf \\
+--set author "Alonso Rodriguez, Ana and Camano, Jessica and de Los santos, Eduardo and Rapetti, Francesca" \\
+--set title "A tree-cotree splitting for the construction of divergence-free finite elements: the high-order case" \\
+--set tags "fem nedelec raviart-thomas tree-cotree gauge" \\
+--set year 2019
+: 1611284062:0;git status
+: 1611284065:0;git add -a
+: 1611284089:0;git add .; git commit -m "Added paper on 'tree-cotree' gauging for FEM vectorial problems"
+: 1611284093:0;git push
+: 1611284587:0;ranger
+: 1611284689:0;papis add ~/QubesIncoming/dropbox/Vector_Finite_Elements_Waveguides.pdf \\
+--set author "Lee, Seung-Cheol" \\
+--set title "Hierarchical Vector Finite Elements for Analyzing Waveguiding Structures"
+: 1611284713:0;papis open
+: 1611284943:0;papis add ~/QubesIncoming/dropbox/FEM_3D_Eddy_Currents.pdf \\
+--set author "Albanese, R. and Rubinacci, G." \\
+--set title "Solution of Three-Dimensional Eddy Current Problems by Integral and Differential Methods" \\
+--set year 1988 \\
+--set tags "fem tree-cotree gauge"
+: 1611285024:0;git add .; git commit -m "Added papers on 3D eddy current problems and vector finite elements in waveguide problems; related to tree-cotree gauging"
+: 1611285027:0;git push
+: 1611285749:0;papis add ~/QubesIncoming/dropbox/EM_hp-FEM.pdf \\
+--set author "Demkowicz, L. and Vardapetyan, L." \\
+--set year 1997 \\
+--set title "Modeling of electromagnetic absorption/scattering problems using hp-adaptive finite elements" \\
+--set tags "fem lagrange-multipliers gauge maxwell"
+: 1611285793:0;git add .; git commit -m "Added paper on EM absorption and scattering hp-FEM methods (info on Lagrange multipliers re: gauge fixing)"
+: 1611285795:0;git push
+: 1611286071:0;papis add ~/Downloads/maxwell \\
+--set author "Schoeberl, Joachim" \\
+--set year 2009 \\
+--set title "Numerical Methods for Maxwell Equations" \\
+--set tags "maxwell fem gauge lagrange-multiplier"
+: 1611286115:0;git add .; git commit -m "Added report/survey on numerical methods for Maxwell equations (info on gauging via Lagrange multipliers / mixed formulation)"
+: 1611286117:0;git push
+: 1611286140:0;papis open maxwell
+: 1611286156:0;papis open
+: 1611286187:0;git status
+: 1611286190:0;papis open
+: 1611286230:0;papis add ~/Downloads/maxwell.pdf \\
+--set author "Schoeberl, Joachim" \\
+--set year 2009 \\
+--set title "Numerical Methods for Maxwell Equations" \\
+--set tags "maxwell fem gauge lagrange-multiplier"
+: 1611286359:0;papis open
+: 1611286392:0;papis -h
+: 1611286429:0;papis rm
+: 1611286449:0;papis open
+: 1611286458:0;git status
+: 1611286468:0;git add .; git commit -m "Fixed filename error"
+: 1611286470:0;git push
+: 1611286589:0;papis open freefem
+: 1611327767:0;git status
+: 1611327777:0;git commit -a
+: 1611327797:0;git push
+: 1611327805:0;git pull
+: 1611327827:0;git push
+: 1611331848:0;papis open cordier
+: 1611334577:0;nvim
+: 1611337903:0;screenshare
+: 1611337924:0;cat ~/.zshrc | grep screen
+: 1611337930:0;cat ~/.zshrc | grep alias
+: 1611337944:0;cat ~/.bashrc | grep alias
+: 1611337954:0;nvim ~/.zshrc
+: 1611337973:0;cat ~/.zshenv | grep alias
+: 1611337983:0;nvim ~/.zshenv
+: 1611338021:0;source ~/.bashrc
+: 1611338026:0;screenshare
+: 1611338032:0;share kitty &
+: 1611338043:0;nvim
+: 1611342600:0;exit
+: 1611371836:0;sudo dnf clean all
+: 1611371855:0;sudo dnf --releasever=33 distro-sync --best --allowerasing -y
+: 1611379503:0;ssh-add -L
+: 1611379588:0;sudo dnf clean all
+: 1611379603:0;sudo dnf --releasever=33 distro-sync --allowerasing
+: 1611379615:0;ps aux | grep 2086
+: 1611387854:0;sudo dnf --releasever=33 distro-sync --allowerasing
+: 1611422729:0;ssh-add -L
+: 1611425093:0;nvim
+: 1611425104:0;pip3 install pynvim --user
+: 1611425109:0;nvim
+: 1611425213:0;dnf update --refresh
+: 1611425217:0;sudo dnf update --refresh
+: 1611425291:0;sudo dnf remove fish newsboat ripgrep -y
+: 1611425328:0;cmake -gh
+: 1611425344:0;sudo dnf update nvim
+: 1611425357:0;sudo dnf update neovim -y
+: 1611425376:0;sudo dnf update --refresh
+: 1611425506:0;sudo dnf reinstall neovim -y
+: 1611425553:0;sudo dnf install ripgrep -y
+: 1611425557:0;nvim
+: 1611425840:0;dnf search pip2
+: 1611425913:0;dnf search pip2 -C
+: 1611426035:0;sudo dnf update --best --allowerasing
+: 1611426129:0;sudo find / -name "*pip2*"
+: 1611426176:0;dnf search python pip
+: 1611426212:0;sudo dnf install python-pip-wheel -y
+: 1611426226:0;pip install pip2
+: 1611426273:0;sudo dnf install python2 -y
+: 1611426288:0;command -v pip
+: 1611426340:0;python -m pip --version
+: 1611426546:0;python2 -m pip install pynvim --user
+: 1611426620:0;sudo dnf install python2 -y
+: 1611426629:0;dnf search python2-pip
+: 1611426638:0;pip3 install python2-pip --user
+: 1611426903:0;sudo rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/URPMS-GPG-PUBLICKEY-Fedora
+: 1611427081:0;sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/17/unitedrpms-$(rpm -E %fedora)-17.fc$(rpm -E %fedora).noarch.rpm
+: 1611427121:0;sudo dnf install python2-pip -y
+: 1611427198:0;pip2 install pynvim --user
+: 1611427203:0;gem install neovim
+: 1611427211:0;nvim
+: 1611427305:0;npm install -g neovim
+: 1611427319:0;sudo npm install -g neovim
+: 1611427412:0;nvim
+: 1611427607:0;dnf search latexmk
+: 1611427668:0;sudo dnf install latexmk -y
+: 1611427756:0;dnf search neovim-remote
+: 1611427801:0;pip3 install neovim-remote --user
+: 1611427830:0;nvim
+: 1611534638:0;sudo dnf install blender -y
+: 1611534651:0;cd ~/.dotfiles
+: 1611534652:0;git pull
+: 1611534667:0;git status
+: 1611534675:0;tig
+: 1611534783:0;sudo dnf install julia -y
+: 1611534954:0;rcup config/nvim/init.git
+: 1611534962:0;ls ~/.config/nvim | grep git
+: 1611534966:0;nvim
+: 1611534985:0;nvim README.md
+: 1611535044:0;blender
+: 1611535306:0;nvim TOTRY.md
+: 1611535423:0;dnf search uzbl
+: 1611535483:0;dnf search wyrd
+: 1611535488:0;dnf search remind
+: 1611536783:0;dnf search cgdb
+: 1611536801:0;sudo dnf install cgdb
+: 1611536869:0;dnf search termite
+: 1611536941:0;sudo dnf enable skidnik/termite
+: 1611536950:0;sudo dnf copr enable skidnik/termite
+: 1611536959:0;sudo dnf install termite -y
+: 1611537016:0;termite
+: 1611537232:0;dnf search vipaint
+: 1611537243:0;dnf search stig
+: 1611537265:0;dnf search vlrtt
+: 1611537275:0;dnf search termshark
+: 1611537287:0;dnf search vchatter
+: 1611537298:0;dnf search pineapple-tracker
+: 1611537303:0;dnf search pineapple
+: 1611537311:0;dnf search cointop
+: 1611537659:0;sudo dnf install tudu -y
+: 1611537774:0;dnf search tudu
+: 1611538170:0;dnf search herrie
+: 1611538256:0;apt search vimb
+: 1611538261:0;dnf search vimb
+: 1611538287:0;dnf search luakit
+: 1611538392:0;sudo dnf install joe -y
+: 1611539172:0;dnf search remind calendar
+: 1611539179:0;dnf search wyrd
+: 1611542296:0;sudo find / -name "include.sty"
+: 1611545903:0;sudo dnf install imv -y
+: 1611690758:0;screenshare
+: 1611690767:0;share kitty &
+: 1611690775:0;share papis open
+: 1611690792:0;pip3 install papis --user
+: 1611690804:0;share papis open
+: 1611690840:0;nvim
+: 1611697733:0;cd ~/Source/FreeFEM/london-freefem/meshes
+: 1611697734:0;ls
+: 1611716496:0;stopshare
+: 1611936790:0;nvim
+: 1611937597:0;papis open
+: 1611942917:0;screeenshare
+: 1611942941:0;screenshare
+: 1611942947:0;share kitty
+: 1611942953:0;nvim
+: 1611943137:0;top
+: 1611944922:0;stopshare
+: 1611984759:0;nvim
+: 1611985061:0;nvim README.md
+: 1611985608:0;cd .dotfiles
+: 1611985611:0;git pull
+: 1611985672:0;tig
+: 1611985914:0;dnf search bc
+: 1611985923:0;dnf search bc merge
+: 1611986161:0;dnf search magit
+: 1611986172:0;dnf search ungit
+: 1611986239:0;dnf search bcompare
+: 1611986245:0;dnf search git merge
+: 1611986292:0;dnf search beyond compare
+: 1611986546:0;git-mergetool -h
+: 1611986556:0;man git-mergetool
+: 1611986691:0;git config merge.tool
+: 1611986763:0;sudo dnf install meld -y
+: 1611986870:0;dnf search vimdiff
+: 1611986874:0;vimdiff -h
+: 1611986894:0;git config --global merge.tool vimdiff
+: 1611987619:0;git pull
+: 1611987625:0;git push
+: 1611987978:0;sudo dnf install sxiv -y
+: 1611987985:0;dnf search imv
+: 1611987992:0;sudo dnf install imv -y
+: 1612281105:0;nim
+: 1612281115:0;dnf search nim
+: 1612281120:0;nvim
+: 1612282561:0;papis open
+: 1612282886:0;cd ~/Source/FreeFEM/london-freefem
+: 1612282888:0;git status
+: 1612295538:0;nvim
+: 1612295692:0;screenshare
+: 1612295698:0;share kitty &
+: 1612295720:0;nvim
+: 1612295792:0;share papis open
+: 1612299620:0;stopshare
+: 1612379423:0;cd ~/Source/FreeFEM/london-freefem
+: 1612379425:0;git status
+: 1612379427:0;tig
+: 1612379612:0;git push
+: 1612379694:0;nvim
+: 1612380145:0;ls -a ~ | grep tig
+: 1612380154:0;ls -a ~/.config | grep tig
+: 1612380162:0;cat ~/.gitconfig
+: 1612381136:0;ls -a ~ | grep abook
+: 1613153849:0;nvim
+: 1613177178:0;sudo dnf install bat -y
+: 1613177582:0;pip3 install gita --user
+: 1613177595:0;gita add ~/Source/FreeFEM
+: 1613177601:0;gita add ~/Source/FreeFEM/london-freefem
+: 1613177615:0;gita add ~/Source/FreeFEM/freefem-macros
+: 1613177623:0;gita add ~/Source/FreeFEM/freefem-examples
+: 1613177633:0;gita add ~/.dotfiles
+: 1613177640:0;gita add ~/Documents/Papis-Imports
+: 1613177655:0;git ll
+: 1613177659:0;gita ll
+: 1613434750:0;sudo dnf update
+: 1613659990:0;pip3 install gita --user
+: 1613659993:0;gita ll
+: 1617684268:0;ranger
+: 1618271652:0;ngsolve -h
+: 1618271659:0;netgen -h
+: 1618271711:0;sudo dnf install stack cabal -y
+: 1618271717:0;dnf search cabal
+: 1618271801:0;sudo dnf install haskell-platform -y
+: 1618271869:0;cd ~/.dotfiles
+: 1618271871:0;tig
+: 1618271906:0;pip3 install gita --user
+: 1618271911:0;gita ll
+: 1618271921:0;gita rename .dotfiles dotfiles
+: 1618271956:0;gita super dotfiles remote -v
+: 1618271967:0;gita super dotfiles fetch origin
+: 1618272021:0;gita super dotfiles pull
+: 1618272032:0;gita super dotfiles status
+: 1618272137:0;cd ~/.dotfiles
+: 1618272145:0;ls | grep README
+: 1618272179:0;rm README_BACKUP* README_BASE* README_LOCAL*
+: 1618272182:0;ls | grep README
+: 1618272191:0;rm README_REMOTE*
+: 1618272196:0;rm README.md.orig
+: 1618272198:0;ls | grep README
+: 1618272202:0;git status
+: 1618272354:0;git pull
+: 1618272437:0;git branch -h
+: 1618272492:0;git checkout -h | grep new
+: 1618272506:0;git checkout -b dev-fedora
+: 1618272526:0;git push -u origin/dev-fedora
+: 1618272553:0;git push
+: 1618272565:0;git push --set-upstream origin dev-fedora
+: 1618272610:0;git status
+: 1618272673:0;ranger
+: 1618272767:0;rm -r kitty-themes
+: 1618272770:0;git add .
+: 1618272772:0;git status
+: 1618272792:0;ranger
+: 1618272884:0;git status
+: 1618272889:0;git add .
+: 1618272891:0;git status
+: 1618272932:0;git commit -m "First commit to dev-fedora branch: Created host-dev-fedora dir, added 'local' subdir with Zathura history"
+: 1618273211:0;git checkout master gitconfig
+: 1618273217:0;ls | grep git
+: 1618273223:0;cat gitconfig
+: 1618273249:0;ls -la ~ | grep git
+: 1618273257:0;git commit -m "First commit to dev-fedora branch: Created host-dev-fedora dir, added 'local' subdir with Zathura history"
+: 1618273262:0;git push
+: 1618273627:0;git status
+: 1618273651:0;git checkout master local-install.sh
+: 1618273662:0;git checkout master local-aliases.sh
+: 1618273684:0;git status
+: 1618273710:0;git commit -m "Checkout out local-aliases.sh and local-install.sh from branch master"
+: 1618273723:0;git add .
+: 1618273725:0;git status
+: 1618273755:0;git commit -m "Added rcrc file for host-dev-fedora; deleted local/bin/afew from host-dev-fedora's directory"
+: 1618273758:0;git status
+: 1618273764:0;git checkout master
+: 1618273780:0;rcdn
+: 1618273917:0;ipython
+: 1618273940:0;git checkout dev-fedora
+: 1618273965:0;rcup -h | grep host
+: 1618273971:0;man rcup\
+: 1618273972:0;man rcup
+: 1618273987:0;rcup -B dev-fedora
+: 1618273998:0;ls -la ~ | grep git
+: 1618274038:0;rm .gitconfig
+: 1618274052:0;mv gitconfig gitconfig~
+: 1618274058:0;rcdn
+: 1618274067:0;rcup -B dev-fedora
+: 1618274072:0;ls -la ~ | grep git
+: 1618274116:0;man rcup
+: 1618274157:0;ls -la ~ | grep rcrc
+: 1618274180:0;ls -la ~/.config/nvim
+: 1618274254:0;rcdn
+: 1618274267:0;rm gitconfig~
+: 1618274284:0;rcup -B host-dev-fedora
+: 1618274293:0;ls -la ~ | grep git
+: 1618274317:0;rcdn
+: 1618274323:0;rcup -B 'dev-fedora'
+: 1618274327:0;ls -la ~ | grep git
+: 1618274343:0;ls -la ~/.config/nvim
+: 1618274371:0;rcdn
+: 1618274415:0;mv host-dev-fedora/rcrc ~/.rcrc
+: 1618274430:0;mkrc -B dev-fedora ~/.rcrc
+: 1618274437:0;ls dev-fedora | grep rc
+: 1618274454:0;ls host-dev-fedora | grep rc
+: 1618274464:0;rcup -B dev-fedora
+: 1618274490:0;git status
+: 1618274512:0;ls -la ~ | grep git
+: 1618274533:0;ls -la ~/.config/nvim
+: 1618274544:0;ls -la ~/.config/nvim/UltiSnips
+: 1618274550:0;ls -la ~/.config/nvim/UltiSnips/tex
+: 1618274574:0;ls -la ~ | grep tex
+: 1618274604:0;ls -la | grep module
+: 1618274615:0;cd tag-tex/texmf
+: 1618274622:0;cd tex/latex/local/local
+: 1618274625:0;git status
+: 1618274637:0;ls
+: 1618274645:0;cd ~/.dotfiles
+: 1618274661:0;git submodule status
+: 1618274669:0;git submodule update
+: 1618274674:0;git submodule status
+: 1618274678:0;ranger
+: 1618274715:0;git submodule --init --recursive
+: 1618274766:0;cd tag-tex/texmf/tex/latex/local/local
+: 1618274775:0;git pull
+: 1618274786:0;git submodule update
+: 1618274800:0;cd ~/.dotfiles
+: 1618274807:0;git submodule status
+: 1618274824:0;git submodule init --recursive
+: 1618274852:0;git submodule update --init --recursive
+: 1618274857:0;ranger
+: 1618274901:0;git status
+: 1618274906:0;git add .
+: 1618274919:0;git commit -m "Deleted extra gitconfig file and rcup'd the one in tag-git"
+: 1618275165:0;mkrc -B dev-fedora ~/.bash_history ~/.bash_logout ~/.bash_profile ~/.viminfo ~/.zsh_history
+: 1618275193:0;rcdn local-aliases.sh local-install.sh local.config
+: 1618275256:0;ls -la ~ | grep cabal
+: 1618275306:0;rcup -B dev-fedora local-aliases.sh local-install.sh local.config
+: 1618275325:0;ls -la ~ | grep local-
+: 1618275357:0;ls -la ~/.config/nvim/Sessions
+: 1618275402:0;mkrc -B dev-fedora ~/.config/nvim/Sessions
+: 1618275517:0;mkdir ~/.config/nvim/Sessions
+: 1618275526:0;ranger
+: 1618275669:0;man mkrc
+: 1618275733:0;mkrc -S ~/.config/nvim/Sessions
+: 1618275769:0;ls -la ~/.config/nvim | grep Session
+: 1618275883:0;mkrc -B dev-fedora ~/.config/nvim/Sessions/config.vim
+: 1618275947:0;mkrc -B dev-fedora ~/.ipython/profile_default/history.sqlite
+: 1618275997:0;mkrc -B dev-fedora ~/.local/share/zathura/bookmarks ~/.local/share/zathura/history
+: 1618276081:0;mkrc -B dev-fedora ~/.config/coc/extensions/package.json
+: 1618276129:0;buku -h
+: 1618276137:0;dnf search buku
+: 1618276145:0;sudo dnf install buku -y
+: 1618276245:0;buku -i ~/.local/share/buku/bookmarks.db
+: 1618276295:0;echo $ZSH
+: 1618276821:0;ranger
+: 1618277114:0;cd Source
+: 1618277118:0;cd ~/Source
+: 1618277124:0;ls
+: 1618277149:0;git clone https://github.com/SamHH/bukubrow-host
+: 1618277166:0;sudo dnf install cargo -y
+: 1618277190:0;ranger
+: 1618277329:0;cd ~/.config/coc/extensions
+: 1618277330:0;ls
+: 1618277333:0;yarn
+: 1618277369:0;ls
+: 1618277377:0;cd ..
+: 1618277378:0;ls
+: 1618277399:0;ls -a
+: 1618277410:0;ls -a extensions
+: 1618277418:0;cat extensions/package.json
+: 1618277508:0;ls
+: 1618277515:0;cd bukubrow-host
+: 1618277520:0;cargo build --release
+: 1618277678:0;sudo ln -s target/release/bukubrow /usr/local/bin
+: 1618277691:0;which bukubrow
+: 1618277702:0;ls -la /usr/local/bin | grep buku
+: 1618277714:0;sudo rm /usr/local/bin/bukubrow
+: 1618277752:0;sudo ln -s /home/user/Source/bukubrow-host/target/release/bukubrow /usr/local/bin
+: 1618277755:0;which bukubrow
+: 1618277763:0;bukubrow --install-firefox
+: 1618277795:0;ranger
+: 1618277902:0;dnf search fonts-powerline
+: 1618277907:0;dnf search powerline
+: 1618277926:0;cd ~/Source
+: 1618277931:0;ls | grep font
+: 1618277947:0;git clone https://github.com/ryanoasis/nerd-fonts
+: 1618278183:0;mkrc -B dev-fedora -S ~/.mozilla/firefox/7kxx98mp.shared/bookmarkbackups/
+: 1618278222:0;ls -la ~/.mozilla/firefox/7kxx98mp.shared | grep book
+: 1618278273:0;man mkrc
+: 1618278509:0;mkrc -B dev-fedora ~/.mozilla/firefox/7kxx98mp.shared
+: 1618278541:0;rcdn -B dev-fedora mozilla
+: 1618278576:0;rcup -B dev-fedora mozilla
+: 1618278610:0;git status
+: 1618278613:0;tig
+: 1618278909:0;mkrc -B dev-fedora ~/.octave_hist
+: 1618278919:0;ls tag-compute
+: 1618278937:0;mkrc -B dev-fedora ~/.python_history
+: 1618278975:0;mkrc -B dev-fedora ~/.yarnrc ~/.zsh-history
+: 1618278997:0;git status
+: 1618279003:0;git add .
+: 1618279336:0;git mergetool
+: 1618279381:0;nvim
+: 1618279410:0;git mergetool
+: 1618279428:0;dnf search diffconflict
+: 1618279479:0;cat ~/.gitconfig
+: 1618279509:0;ranger
+: 1618279548:0;git mergetool
+: 1618279582:0;git merge dev-fedora
+: 1618279589:0;git status
+: 1618279598:0;git add tag-git
+: 1618279635:0;git commit -m "Merged branch dev-fedora into branch work"
+: 1618279642:0;ranger
+: 1618279650:0;git status
+: 1618279659:0;git push
+: 1618279711:0;cd nerd-fonts
+: 1618279713:0;ls
+: 1618279730:0;sudo chmod +x ./install.sh
+: 1618279736:0;./install.sh
+: 1618279785:0;nvim
+: 1618280726:0;git status
+: 1618280728:0;git pull
+: 1618280962:0;git status
+: 1618282495:0;dnf search jupyter
+: 1618282508:0;pip3 install jupyterlab jupytext --user
+: 1618282628:0;pip3 install jupyter --user
+: 1618282649:0;echo $INSTALLED
+: 1618282667:0;ranger
+: 1618282715:0;pip3 install scipy matplotlib --user
+: 1618282729:0;pip3 install scihub --user
+: 1618282734:0;gita ll
+: 1618282860:0;dnf search fenics
+: 1618283061:0;python --version
+: 1618283072:0;dnf search tcl
+: 1618283133:0;sudo dnf install tcl tclx-devel -y
+: 1618283236:0;log-installed
+: 1618283249:0;cmake -v
+: 1618283253:0;cmake --version
+: 1618283265:0;dnf search xmu
+: 1618283282:0;sudo dnf install libXmu libXmu-devel -y
+: 1618283289:0;log-installed
+: 1618283295:0;dnf search libglu
+: 1618283314:0;sudo dnf install mesa-libGLU mesa-libGLU-devel -y
+: 1618283320:0;log-installed
+: 1618283328:0;dnf search liblapacke
+: 1618283335:0;dnf search lapack
+: 1618283362:0;sudo dnf install lapack lapack-devel -y
+: 1618283367:0;log-installed
+: 1618283387:0;sudo dnf install python3-distutils -y
+: 1618283404:0;dnf search python3-dev
+: 1618283412:0;sudo dnf install python3-devel -y
+: 1618283419:0;log-installed
+: 1618283435:0;sudo dnf install tk-devel -y
+: 1618283458:0;dnf search lapacke
+: 1618283581:0;cd ~/Source
+: 1618283583:0;ls
+: 1618283601:0;cd ngsolve-src
+: 1618283614:0;git submodule status
+: 1618283620:0;git submodule update
+: 1618283629:0;cd external_dependencies/netgen
+: 1618283630:0;ls
+: 1618283632:0;git status
+: 1618283636:0;cd ../..
+: 1618283665:0;cd ../ngsolve-build
+: 1618283667:0;ls
+: 1618283670:0;cd ..
+: 1618283672:0;ls | grep ng
+: 1618283694:0;ls /usr/local/bin
+: 1618283712:0;echo $DEALII_ROOT
+: 1618283748:0;ls /usr/local/lib/dealii-9.2.0
+: 1618283774:0;nvim ~/.local.config
+: 1618283797:0;nvim
+: 1618284022:0;echo $NGSOLVE_ROOT
+: 1618284041:0;cd $NGSOLVE_ROOT
+: 1618284057:0;ls
+: 1618284065:0;cd ngsolve-build
+: 1618284137:0;nvim ~/.local.config
+: 1618284220:0;cd $NGSOLVE_BUILD
+: 1618284254:0;cmake -DCMAKE_INSTALL_PREFIX=${NGSOLVE_ROOT} ${NGSOLVE_SRC}
+: 1618284288:0;sudo make
+: 1618284350:0;cd ..
+: 1618284356:0;rm -r ngsolve-build
+: 1618284365:0;rm -r ngsolve-build -f
+: 1618284372:0;sudo rm -r ngsolve-build -f
+: 1618284381:0;mkdir ngsolve-build
+: 1618284386:0;cd ngsolve-build
+: 1618284426:0;cmake -DCMAKE_INSTALL_PREFIX=${NGSOLVE_ROOT} ${NGSOLVE_SRC}
+: 1618284430:0;sudo make
+: 1618284716:0;ranger
+: 1618284795:0;buku -h | grep cache
+: 1618284808:0;buku -h | grep copy
+: 1618284813:0;buku -h | grep url
+: 1618284835:0;buku -o ngsolve
+: 1618284841:0;buku ngsolve
+: 1618285160:0;pip3 install ipywidgets --user
+: 1618285164:0;log-installed
+: 1618285182:0;jupyter nbextension install --py widgetsnbextension
+: 1618285190:0;sudo jupyter nbextension install --py widgetsnbextension
+: 1618285204:0;log-installed
+: 1618285230:0;jupyter nbextension enable --py widgetsnbextension
+: 1618285247:0;sudo jupyter nbextension install --user --py ngsolve
+: 1618285321:0;unzip -h
+: 1618285384:0;ls
+: 1618285392:0;cd ..
+: 1618285393:0;ls
+: 1618285436:0;sudo find / -name "i-tutorials*"
+: 1618285517:0;mkdir ngsolve-tutorials
+: 1618285529:0;unzip i-tutorials.zip -d /home/user/Source/ngsolve-tutorials
+: 1618285534:0;cd ngsolve-tutorials
+: 1618285535:0;ls
+: 1618285538:0;cd docs
+: 1618285540:0;ls
+: 1618285558:0;cd html
+: 1618285559:0;ls
+: 1618285561:0;ranger
+: 1618286096:0;cd ..
+: 1618286103:0;git clone https://github.com/Airini/FEECa
+: 1618286114:0;log-installed
+: 1618286136:0;cabal -h
+: 1618286148:0;ls
+: 1618286153:0;cd FEECa
+: 1618286165:0;dnf search libblas
+: 1618286178:0;dnf search blas-dev
+: 1618286190:0;sudo dnf install blas-devel -y
+: 1618300791:0;sudo make install
+: 1618300818:0;nvim ~/.local.config
+: 1618301056:0;cd ..
+: 1618301061:0;cd ~/Source
+: 1618301067:0;cd FEECa
+: 1618301068:0;ls
+: 1618301077:0;cabal install --only-dependencies
+: 1618301105:0;cabal update
+: 1618301155:0;cabal install --only-dependencies
+: 1618301345:0;cabal configure
+: 1618301355:0;cabal install
+: 1618301401:0;cabal install --reorder-goals --only-dependencies
+: 1618301435:0;cabal --reorder-goals configure
+: 1618301449:0;cabal --reorder-goals install
+: 1618301564:0;ranger
+: 1618301590:0;ls -la | grep cabal
+: 1618301608:0;cat feeca.cabal | grep build-depends
+: 1618301678:0;cabal --reorder-goals install -v
+: 1618301700:0;cabal --reorder-goals install -v > cabal_output
+: 1618301711:0;nvim cabal_output
+: 1618301997:0;ghc -v
+: 1618302018:0;stack install
+: 1618302288:0;cabal install
+: 1618302301:0;stack install --only-dependencies
+: 1618302306:0;stack install
+: 1618302324:0;stack install > stack-output
+: 1618302328:0;nvim stack-output
+: 1618311920:0;dnf search pybind
+: 1618311946:0;sudo dnf install python3-pybind11 pybind11-devel -y
+: 1618311989:0;log-installed
+: 1618311999:0;pip3 install fenics-ffc --upgrade --user
+: 1618312008:0;log-installed
+: 1618312038:0;FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
+: 1618312061:0;echo $FENICS_VERSION
+: 1618312114:0;cd ..
+: 1618312132:0;git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/dolfin
+: 1618312186:0;git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/mshr
+: 1618312233:0;mkdir dolfin/build && cd dolfin/build
+: 1618312240:0;ranger
+: 1618312254:0;cmake ..
+: 1618312295:0;make install
+: 1618312512:0;source ~/.local.config
+: 1618312523:0;echo $DOLFIN_ROOT
+: 1618312542:0;source ~/.local.config
+: 1618312544:0;echo $DOLFIN_ROOT
+: 1618312581:0;sudo cmake -DCMAKE_INSTALL_PREFIX=$DOLFIN_ROOT ..
+: 1618312607:0;sudo make install
+: 1618312643:0;make install
+: 1618312654:0;ls .. | grep install
+: 1618312686:0;cd ..
+: 1618312688:0;ls
+: 1618312710:0;ls $DOLFIN_ROOT
+: 1618312726:0;sudo mkdir /usr/local/lib/dolfin-install
+: 1618312731:0;cd build
+: 1618312737:0;sudo make install
+: 1618312751:0;ls -la | grep cmake
+: 1618312757:0;cd ..
+: 1618312767:0;sudo rm -r build -f
+: 1618312771:0;ls -la | grep cmake
+: 1618312776:0;mkdir build
+: 1618312778:0;cd build
+: 1618312807:0;cmake -DCMAKE_INSTALL_PREFIX=$DOLFIN_ROOT ..
+: 1618312821:0;sudo make install
+: 1618312838:0;make install
+: 1618312857:0;sudo pip3 install fenics-ffc --upgrade
+: 1618312864:0;log-installed
+: 1618312869:0;sudo make install
+: 1618313113:0;netgen
+: 1618313147:0;source ~/.local.config
+: 1618313150:0;netgen
+: 1618313406:0;source ~/.local.config
+: 1618313418:0;ls $NETGEN_DEMO_DIR
+: 1618313433:0;netgen
+: 1618313634:0;jupyter nbextension install --user --py ngsolve
+: 1618313651:0;log-installed
+: 1618313661:0;jupyter nbextension enable ngsolve --user --py
+: 1618313665:0;log-installed
+: 1618313701:0;ls $NETGEN_TUTORIAL_DIR
+: 1618313721:0;ls $NETGEN_TUTORIAL_DIR/docs/html/jupyter-files/unit-1.1-poisson
+: 1618313754:0;jupyter notebook $NETGEN_TUTORIAL_DIR/docs/html/jupyter-files/unit-1.1-poisson/poisson.ipynb
+: 1618314032:0;ranger
+: 1618314104:0;git apply ../0001-Add-missing-algorithm-include-for-std-min_element-co.patch
+: 1618314109:0;git status
+: 1618314153:0;cd ..
+: 1618314158:0;git apply 0001-Add-missing-algorithm-include-for-std-min_element-co.patch
+: 1618314161:0;git status
+: 1618314168:0;cd build
+: 1618314175:0;sudo make install
+: 1618314260:0;buku --suggest -a https://bitbucket.org/fenics-project/dolfin/issues/1115/compile-error-min_element-is-not-member-of fix, patch, FENICS, software -c "Thread with a patch for an annoying compilation issue in FENICS"
+: 1618314416:0;nvim
+: 1618315518:0;gita super dotfiles status
+: 1618315624:0;gita super dotfiles add host-dev-fedora/mozilla
+: 1618315627:0;gita super dotfiles status
+: 1618315646:0;gita super dotfiles commit -m "host-dev-fedora: Firefox updates"
+: 1618315648:0;gita super dotfiles status
+: 1618315665:0;gita super dotfiles add host-dev-fedora/local-install.sh
+: 1618315695:0;gita super dotfiles commit -m "host-dev-fedora: Installed dependencies for ngsolve, dolfin, and related stuff (FEM libraries)"
+: 1618315714:0;gita super dotfiles add tag-nvim
+: 1618315781:0;gita super dotfiles commit -m "Added syntax-range delimiters for TeX syntax (double-$) and some fold aucmds for editing Jupyter notebook files"
+: 1618315788:0;gita super dotfiles status
+: 1618315805:0;gita super dotfiles add host-dev-fedora/local.config
+: 1618315839:0;gita super dotfiles commit -m "host-dev-fedora: Exported shell variables for ngsolve and dolfin installations in local.config"
+: 1618315845:0;gita super dotfiles status
+: 1618315874:0;gita super dotfiles add tag-firefox
+: 1618315892:0;gita super dotfiles commit -m "Added some bookmarks for Dolfin/NGSolve documentation"
+: 1618315941:0;cat ~/.dotfiles/host-dev-fedora/rcrc | grep symlink
+: 1618315948:0;cat ~/.dotfiles/host-dev-fedora/rcrc | grep SYMLINK
+: 1618315968:0;ranger
+: 1618315981:0;cd ~/.dotfiles
+: 1618316003:0;mkrc -B dev-fedora ~/.config/nvim/Sessions/jupyter.vim
+: 1618316006:0;ranger
+: 1618316026:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316035:0;rcup -B dev-fedora config/nvim/Sessions
+: 1618316039:0;ranger
+: 1618316070:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316085:0;ranger
+: 1618316105:0;nvim
+: 1618316172:0;ranger
+: 1618316206:0;rcup -B dev-fedora config/nvim/
+: 1618316210:0;ranger
+: 1618316233:0;rcdn -B dev-fedora config/nvim/Sessions
+: 1618316258:0;rcup -B dev-fedora -S config/nvim/Sessions
+: 1618316302:0;ranger
+: 1618316364:0;git status
+: 1618316386:0;git add host-dev-fedora/mozilla
+: 1618316388:0;git status
+: 1618316399:0;git commit -m "host-dev-fedora: Firefox updates"
+: 1618316402:0;git status
+: 1618316411:0;tig

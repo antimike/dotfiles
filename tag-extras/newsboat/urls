@@ -1,0 +1,35 @@
+https://rss.nytimes.com/services/xml/rss/nyt/Science.xml science newspaper nyt
+https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml tech newspaper nyt
+https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml politics newspaper nyt
+https://en.wikipedia.org/w/api.php?hidebots=1&hidecategorization=1&hideWikibase=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=rss random fun wiki
+https://america.aljazeera.com/content/ajam/articles.rss world aljazeera
+https://feeds.bbci.co.uk/news/world/rss.xml world bbc
+https://feeds.bbci.co.uk/news/rss.xml world bbc
+https://rss.politico.com/congress.xml politics politico
+https://rss.politico.com/defense.xml politics politico
+https://rss.politico.com/politics.xml politics politico
+https://rss.politico.com/economy.xml politics economy politico
+https://rss.politico.com/healthcare.xml politics healthcare politico
+http://feeds.feedburner.com/vfdotcomrss?fmt=xml misc opinion vanityfair
+https://feeds.npr.org/344098539/podcast.xml npr podcast fun
+https://feeds.npr.org/510298/podcast.xml npr podcast ted misc
+https://feeds.npr.org/381444908/podcast.xml npr podcast culture misc
+https://feeds.npr.org/510310/podcast.xml npr politics podcast
+https://feeds.npr.org/510289/podcast.xml npr economy podcast
+https://podcasts.files.bbci.co.uk/p002w6r2.rss bbc world podcast tech science
+https://podcasts.files.bbci.co.uk/p02nq0gn.rss bbc world news podcast globalnews
+https://podcasts.files.bbci.co.uk/p002vsnk.rss bbc world news podcast newshour
+https://rss.art19.com/the-argument podcast nyt debate politics
+http://feeds.wnyc.org/caught-podcast justics podcast
+https://feeds.megaphone.fm/decoderring culture podcast fun
+https://feeds.megaphone.fm/ESP5480008395 theranos stories podcast
+https://feeds.publicradio.org/public_feeds/in-the-dark/rss/rss justice podcast stories
+http://thebutterflyeffect.audible.libsynpro.com/rss podcast justice socialmedia
+https://feeds.megaphone.fm/the-rewatchables culture fun movies podcast
+https://feeds.npr.org/510333/podcast.xml podcast history politics npr
+https://feeds.buzzsprout.com/1112270.rss history podcast 
+https://xkcd.com/rss.xml random webcomic
+
+
+
+

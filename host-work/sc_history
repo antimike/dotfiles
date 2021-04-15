@@ -1,0 +1,61 @@
+color 4 = @cyan;@yellow
+color [range color#] 
+copy [dest_range src_range] 
+color [range color#] 
+color [range color#] A0:AC0 4
+color 4 = @cyan;@yellow
+color [range color#] A1:AC1 4
+goto [v] Section
+goto [v] "Section"
+label A0 = "My Students
+sort [range "criteria"] B2:AD265 "-$f"
+put ["dest" range] "my-students.sc" 'a:'b
+put ["dest" range] "my-students.sc" B0:AD34
+goto [v] B34
+goto [v] Email
+goto [v] "Email"
+put ["dest" range] "
+get ["source"] "R10-emails.sc"
+merge ["source"] "R10-emails.sc"
+goto [v] "Mitch"
+goto [v] "Moran"
+goto [v] "Calvin"
+goto [v] "Finley"
+goto [v] "Muhamad"
+goto [v] "Sulo"
+goto [v] "Duy"
+goto [v] "Peter"
+goto [v] "Duy"
+goto [v] "Curtiss"
+goto [v] "Tian"
+goto [v] "Guyen"
+goto [v] "Sun"
+goto [v] "Bushby"
+goto [v] "Dan"
+goto [v] "Houth"
+goto [v] "Jack"
+goto [v] "Jacob"
+goto [v] "Shaank"
+goto [v] "Prink"
+goto [v] "prink"
+put ["dest" range] "
+goto [v] "Cash"
+goto [v] "Rana"
+goto [v] "aank"
+goto [v] "Laskie"
+goto [v] "Malliet"
+goto [v] "Matt"
+goto [v] "mojo"
+goto [v] "nyzek"
+goto [v] "sun"
+goto [v] "toben"
+goto [v] "Angel"
+goto [v] "Bekele"
+put ["dest" range] "
+sort [range "criteria"] E0:AC265 "-$e"
+put ["dest" range] "
+put ["dest" range] "initial-gradebook.sc"
+rightstring B24 = "josh.querry@colostate.edu"
+rightstring B29 = "rebecca.shorey@colostate.edu"
+put ["dest" range] "
+set color

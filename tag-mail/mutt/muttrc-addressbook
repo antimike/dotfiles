@@ -1,0 +1,8 @@
+# when composing emails, use this command to get addresses from
+# the addressbook with khard first, and everything else from mu index
+#set query_command = "( khard email --parsable '%s' | sed -n '1!p'; mu cfind --format=mutt-ab '%s' )"
+#set query_command="abook --mutt-query '%s'"
+#set query_command="notmuch-addrlookup '%s'"
+set query_command="abook --mutt-query '%s'"
+macro index,pager A "<pipe-message>abook --add-email-quiet<return>" "Add sender address to abook"
+bind editor	<Tab>	complete-query

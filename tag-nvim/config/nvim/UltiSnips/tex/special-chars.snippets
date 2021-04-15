@@ -1,0 +1,21 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+# Infinity
+snippet ooo "Infinity" iA
+\infty
+endsnippet
+
+context "utils.is_math_mode()"
+snippet || "Parallel" iA
+\parallel
+endsnippet
+
+context "utils.is_math_mode()"
+snippet _|_ "Perpendicular" iA
+\perp
+endsnippet

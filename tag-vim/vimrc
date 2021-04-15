@@ -1,0 +1,28 @@
+let g:localvimrc_enable = 1
+
+source ~/.vimrc-pathogen
+
+source ~/.vimrc-autopairs
+"source ~/.vimrc-coc
+"source ~/.vimrc-manifest
+source ~/.vimrc-nerdtree
+source ~/.vimrc-pathogen
+source ~/.vimrc-search-visual
+source ~/.vimrc-spellcheck
+source ~/.vimrc-standard
+source ~/.vimrc-ultisnips
+source ~/.vimrc-vim-latex
+source ~/.vimrc-vimtex
+source ~/.vimrc-vimwiki
+source ~/.vimrc-zettel
+source ~/.vimrc-inkscape
+source ~/.vimrc-surround
+source ~/.vimrc-citation
+source ~/.vimrc-unite
+source ~/.vimrc-ctrlp
+source ~/.vimrc-pandoc
+source ~/.vimrc-notmuch
+
+" This ensures that linebreaks don't split up words:
+ set linebreak
+

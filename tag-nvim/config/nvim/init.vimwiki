@@ -1,0 +1,14 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" wiki stuff
+let g:vimwiki_folding='list'
+let g:taskwiki_sort_orders={"urgency": "urgency-", "due": "due-", "project": "project+", "end": "end-"}
+let g:taskwiki_markup_syntax = "markdown"
+let g:vimwiki_toc_link_format = 1
+"let g:vimwiki_folding = 'list'
+let g:vimwiki_markdown_link_ext = 1
+let g:vimwiki_auto_header = 1
+let g:vimwiki_filetypes = ['markdown', 'pandoc']
+
+"nmap <C-S-Space> <Plug>VimwikiToggleListItem

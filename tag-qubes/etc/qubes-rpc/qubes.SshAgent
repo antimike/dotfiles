@@ -1,0 +1,5 @@
+#!/bin/sh
+# Qubes Split SSH script
+# For template VMs
+notify-send "[`qubesdb-read /name`] SSH agent access from: $QREXEC_REMOTE_DOMAIN"
+ncat -U $SSH_AUTH_SOCK

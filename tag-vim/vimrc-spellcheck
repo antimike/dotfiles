@@ -1,0 +1,3 @@
+" Spell checking
+"setlocal spell spelllang=en_us
+inoremap <c-l> <c-g>u<Esc>[s1z=`]a<c-g>u

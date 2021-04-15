@@ -1,0 +1,7 @@
+COPY_ALWAYS=""
+DOTFILES_DIRS="/home/user/.dotfiles"
+EXCLUDES="github_recovery_codes.asc install.sh README.md TOTRY.md taskell.md guake-preferences rc.local qubes.SshAgent"
+HOSTNAME="media"
+TAGS="extras git nvim qubes terminal"
+SYMLINK_DIRS=""
+UNDOTTED=""

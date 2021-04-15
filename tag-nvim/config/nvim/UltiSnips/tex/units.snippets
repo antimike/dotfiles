@@ -1,0 +1,15 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet num "Generalized 'number' snippet" wA
+\SI{$1}{$2}$0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet '(\d*\.?\d+(e-?\d+\.?\d+)?)u' "Units and scientific notation" wrA
+\SI{`!p snip.rv = match.group(1)`}{$1}$0
+endsnippet

@@ -1,0 +1,77 @@
+# muttrc file for professional account
+
+unmailboxes *
+unvirtual-mailboxes *
+#source ~/.mutt/muttrc-virtual-mailboxes
+
+set from = "antihaynes@gmail.com"
+set hostname = "gmail.com"
+set folder = "~/mail/professional"
+set signature = "~/.mutt/signatures/signature-professional"
+set sendmail = "/usr/bin/msmtp -a professional"
+#set sendmail="tee >(notmuch-deliver -t sent -f Sent) | /usr/bin/msmtp -a professional"            # enables parsing of outgoing mail
+
+# Must be sourced *after* 'set folder' but *before* 'virtual-mailboxes'
+source ~/.mutt/muttrc-notmuch
+#set spoolfile = "+Inbox"
+set virtual_spoolfile=yes
+#set postponed = "+Drafts"
+
+virtual-mailboxes "Inbox" "notmuch://?query=tag:inbox AND tag:professional"
+virtual-mailboxes "Archive" "notmuch://?query=tag:archive AND tag:professional"
+virtual-mailboxes "Sent" "notmuch://?query=tag:sent AND tag:professional"
+virtual-mailboxes "Newsletters" "notmuch://?query=tag:newsletters AND tag:professional"
+virtual-mailboxes "Unread" "notmuch://?query=tag:unread AND tag:professional"
+virtual-mailboxes "Starred"   "notmuch://?query=tag:* AND tag:professional"
+
+set record = "+Sent"
+#set mbox = "+Archives/`date +%Y`"
+#save-hook . "+Archives/%[%Y]"
+#set trash = "+Trash"
+set imap_check_subscribed=yes
+set imap_list_subscribed=no
+
+set pgp_sign_as = "antihaynes@gmail.com"
+
+mailboxes =Inbox
+mailboxes =Craigslist
+mailboxes =DataCamp
+mailboxes =Dentist
+mailboxes =Glassdoor
+mailboxes =Google
+mailboxes ="Happy Lucky's Teahouse"
+mailboxes =Inbox
+mailboxes =LinkedIn
+mailboxes ='Mpls Jr Devs'
+mailboxes =NYT
+mailboxes =Notes
+mailboxes ='Prime Storage'
+mailboxes =Progressive
+mailboxes =Qt
+mailboxes =Qubes
+mailboxes =Quora
+mailboxes =Receipts
+mailboxes ='Sent Messages'
+mailboxes =Trash
+#mailboxes =[Gmail]
+mailboxes ='[Gmail]All Mail'
+
+color status green default
+
+## Account-specific macros
+
+macro index o "<shell-escape>check-mail professional<enter>" "run mbsync to sync mail for this account"
+
+#macro index,pager J \
+  #"<enter-command>set my_old_resolve=\$resolve noresolve<enter>\
+  #<tag-prefix><clear-flag>n<enter-command>set resolve=\$my_old_resolve<enter>\
+  #<save-message>+professional/junk<enter>" \
+  #"mark as read and move to junk folder"
+
+#macro index,pager A \
+  #"<save-message>+professional/archive<enter>"  \
+  #"move message to the archive"
+
+#macro index,pager I \
+  #"<save-message>+professional/INBOX<enter>"  \
+  #"move message to the inbox"

@@ -1,0 +1,57 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+snippet " "Begin TeX-style quotes" i
+``$1''$0
+endsnippet
+
+snippet '"([^"]+)"' "Matched quotes (TeX)" riA
+`!p snip.rv = "\`\`" + match.group(1) + "''"`
+endsnippet
+
+snippet em "Italics" i
+\emph{$1}$0
+endsnippet
+
+snippet `it "Italics (visual selection)"
+\emph{${VISUAL}}$0
+endsnippet
+
+snippet bd "Bold" i
+\textbf{$1}$0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet tx "Text in math mode" wA
+\tx{$1}$0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet intx "Intertext" bA
+\intertext{$1}$0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet ctx "Center-justified text (mathtools)" wA
+\mathclap{$1} $0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet ltx "Left-justified text (mathtools)" wA
+\mathllap{$1} $0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet rtx "Right-justified text (mathtools)" wA
+\mathrlap{$1} $0
+endsnippet
+
+snippet quote "Blockquote" bA
+\begin{quote}
+	$1
+\end{quote}
+$0
+endsnippet

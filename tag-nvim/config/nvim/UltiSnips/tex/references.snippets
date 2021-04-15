@@ -1,0 +1,56 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+# Equation ref snippet
+snippet \eqn "Equation ref" wA
+\eqnref{$1} $0
+endsnippet
+
+# Autoref snippet
+# Doesn't expand automatically
+snippet ref "Autoref" w
+\autoref{$1} $0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet nn "Nonumber" wA
+\nonumber
+endsnippet
+
+snippet lb "Label" wA
+\label{$1} $0
+endsnippet
+
+snippet aref "Autoref (auto-expands)" wA
+\autoref{$1} $0
+endsnippet
+
+snippet eref "Eqref (auto-expands)" wA
+\eqref{$1} $0
+endsnippet
+
+snippet '([\w,]+)?\s+autoref' "Cleveref; correctly fills preceding space with ~" rw
+`!p 
+snip.rv = prev + r"~" if (prev := match.group(1)) else ''
+`\autoref{$1}$0
+endsnippet
+
+snippet '([\w,]+)?\s+cref' "Cleveref; correctly fills preceding space with ~" rw
+`!p 
+snip.rv = prev + r"~" if (prev := match.group(1)) else ''
+`\cref{$1}$0
+endsnippet
+
+snippet '([\w,]+)?\s+eqref' "Eqref; correctly fills preceding space with ~" rw
+`!p 
+snip.rv = prev + r"~" if (prev := match.group(1)) else ''
+`\eqref{$1}$0
+endsnippet
+
+context "utils.is_math_mode()"
+snippet tg "Tag" wA
+\tag{$1}$0
+endsnippet

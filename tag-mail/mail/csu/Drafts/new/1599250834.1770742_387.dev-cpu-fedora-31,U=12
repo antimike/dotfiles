@@ -1,0 +1,80 @@
+FCC: imap://Antimike.Haynes@outlook.office365.com/Sent
+X-Identity-Key: id2
+X-Account-Key: account3
+Reply-To: Antimike.Haynes@colostate.edu
+Subject: Re: Meeting at 1
+To: Martin Gelfand <gelfand@rams.colostate.edu>
+References: <6f00ca63-ba9c-4ad3-8f8a-84c02b97f86d@Spark>
+ <4e113fed-43e8-4904-8326-690cc19a34c5@Spark>
+ <CAD96xmAMab5wz0WUTfe=eOVq4shnt=GB8zh5bp5oQBk_Fhu-Dw@mail.gmail.com>
+From: Michael Haynes <Antimike.Haynes@colostate.edu>
+X-Enigmail-Draft-Status: N11100
+Organization: Colorado State University
+Message-ID: <ffdfa317-4fee-8d6b-1819-ef1656978e8f@colostate.edu>
+Date: Tue, 18 Aug 2020 16:35:03 -0600
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=4
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101
+ Thunderbird/68.5.0
+In-Reply-To: <CAD96xmAMab5wz0WUTfe=eOVq4shnt=GB8zh5bp5oQBk_Fhu-Dw@mail.gmail.com>
+Content-Type: multipart/encrypted;
+ protocol="application/pgp-encrypted";
+ boundary="w4DjbfsSCgxHPBzAYLI04aloi4vS6pih0"
+MIME-Version: 1.0
+X-TUID: NOdSAlpHZ0Lb
+
+--w4DjbfsSCgxHPBzAYLI04aloi4vS6pih0
+Content-Type: application/pgp-encrypted
+Content-Description: PGP/MIME version identification
+
+Version: 1
+
+--w4DjbfsSCgxHPBzAYLI04aloi4vS6pih0
+Content-Type: application/octet-stream; name="encrypted.asc"
+Content-Description: OpenPGP encrypted message
+Content-Disposition: inline; filename="encrypted.asc"
+
+-----BEGIN PGP MESSAGE-----
+
+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
+=TLIQ
+-----END PGP MESSAGE-----
+
+--w4DjbfsSCgxHPBzAYLI04aloi4vS6pih0--

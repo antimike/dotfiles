@@ -1,0 +1,41 @@
+global !p
+import sys
+sys.path.append('$PYTHON_REPO/Utilities')
+import snippet_utils as utils
+endglobal
+
+# Fractions
+
+priority 5
+# Expandable inside any group of letters
+context "utils.is_math_mode()"
+snippet // "Fraction---simple" iA
+\dfrac{$1}{$2}$0
+endsnippet
+
+# TODO: Edit these regexes to fit my use-cases
+#snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)' "Fraction---autocomplete" wrA
+#\dfrac{`!p snip.rv = match.group(1)`}{$1}$0
+#endsnippet
+
+#priority 10
+#snippet '^.*\)/' "Fraction---autocomplete parens" wrA
+#`!p
+#stripped = match.string[:-1]
+#depth = 0
+#i = len(stripped) - 1
+#while True:
+#	#if stripped[i] == ')': depth += 1
+#	#if stripped[i] == '(': depth -= 1
+#	#if depth == 0: break;
+#	#i -= 1
+#snip.rv = stripped[0:i] + "\dfrac{" + stripped[i+1:-1] + "}"
+#`{$1}$0
+#endsnippet
+
+priority 0
+# Fraction using visual selection
+context "utils.is_math_mode()"
+snippet // "Fraction" iA
+\dfrac{${VISUAL}}{$1}$0
+endsnippet
