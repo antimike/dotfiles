@@ -15,31 +15,10 @@ alias spotify='spt'
 alias wikipedia='wikit'
 alias weather='wego'
 alias slack='~/go/bin/slack-term'
-
-# Signal
-alias signal='/usr/local/bin/signal.sh'
-alias signal-cli='~/.local/src/signal-cli/build/install/signal-cli/bin/signal-cli -u +19524268758 daemon &'
-alias signald='/usr/local/bin/signald.sh'
-
-# Joplin
-alias jterm='/usr/local/bin/joplin-terminal-launcher.sh'
-
-# Spreadsheet stuff
-alias sc-open='/usr/local/bin/sc-open.sh'
-
-# Mail
-alias mail='cd ~/mail/Attachments && neomutt'
-alias check-mail='/usr/bin/check-mail.sh'
-alias get_oauth_token='/usr/local/bin/get_oauth_token.sh'
+alias youtube='mpsyt'
+alias radio='pyradio -s ~/.config/pyradio/stations.csv'
+alias pandora='pianobar'
+alias news='newsboat'
 
 # PDF readers
 alias mupdf='mupdf-gl'
-
-# For screensharing via dedicated AppVM and Qubes RPC
-alias screenshare='sudo socat TCP-LISTEN:6001,reuseaddr,fork EXEC:"qrexec-client-vm screenshare my-screenshare" &'
-# Screensharing for a particular window / process can be enabled via DISPLAY=:1 <process_name>
-alias share='DISPLAY=:1'
-alias stopshare='sudo fuser 6001/tcp -k'
-
-# Alias for doc-management script
-alias add-paper='/usr/local/bin/bibtex-generator.sh'
