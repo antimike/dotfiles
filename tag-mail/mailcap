@@ -15,6 +15,9 @@ application/pdf; qvm-open-in-dvm %s
 
 
 #text/html; qvm-open-in-dvm %s
-text/html; w3m -I %{charset} -T text/html; copiousoutput;
+text/html; w3m -I %{charset} -T text/html -dump; copiousoutput;
+
+# Order to show multipart attachments:
+alternative_order  text/html text/plain text/enriched
 
 

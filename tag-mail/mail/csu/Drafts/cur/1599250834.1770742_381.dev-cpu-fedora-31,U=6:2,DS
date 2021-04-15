@@ -1,0 +1,407 @@
+From: "Haynes,Michael" <Antimike.Haynes@colostate.edu>
+To: "Toki,Walter" <Walter.Toki@ColoState.EDU>
+Subject: Re: Question on optimizing 2 data sets for hypothesis testing
+Thread-Topic: Question on optimizing 2 data sets for hypothesis testing
+Thread-Index:
+	AQHWKCUxNDOgjSSwNkWHytg7jjB+JKikxA0AgAAtLICAC3xXAIAAuRUAgAB6NCWAAS1zgIACIs/AgAYGIh4=
+Date: Tue, 26 May 2020 15:22:31 -0600
+Message-ID:
+	<MWHPR07MB3502F0B847092797544EE829E6B00@MWHPR07MB3502.namprd07.prod.outlook.com>
+References:
+	<DM6PR07MB6956A0E9B3EC6F91F56F9318F6A30@DM6PR07MB6956.namprd07.prod.outlook.com>
+ <CAMeh9b1s5-XkTCcBB7R-DwBc2RuprMf_ToCxT-g9xb3q5v1giA@mail.gmail.com>
+ <CAMeh9b33TJYcGuwj989JtPqh0XjdTfmPYjfQZK+wfUyYVsvjTg@mail.gmail.com>
+ <DM6PR07MB695683F074AD4FDF4CB346BEF6BE0@DM6PR07MB6956.namprd07.prod.outlook.com>,<CAMeh9b25DxRi9QJL7f2tOr+W6-dpT6sJCSxauM3-qHHpXvjZAA@mail.gmail.com>,<DM6PR07MB695632574B0C6B482FAD724BF6B60@DM6PR07MB6956.namprd07.prod.outlook.com>,<MWHPR07MB350291C78DAF156360D01012E6B60@MWHPR07MB3502.namprd07.prod.outlook.com>,<DM6PR07MB6956576A814FA596CBB8693BF6B70@DM6PR07MB6956.namprd07.prod.outlook.com>,<MWHPR07MB3502885051C7F3443DD6622EE6B50@MWHPR07MB3502.namprd07.prod.outlook.com>
+In-Reply-To:
+	<MWHPR07MB3502885051C7F3443DD6622EE6B50@MWHPR07MB3502.namprd07.prod.outlook.com>
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-TUID: yafVzm8i04KX
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Haynes,Michael &lt;An=
+timike.Haynes@colostate.edu&gt;<br>
+<b>Sent:</b> Friday, May 22, 2020 7:23 PM<br>
+<b>To:</b> Toki,Walter &lt;Walter.Toki@ColoState.EDU&gt;<br>
+<b>Subject:</b> Re: Question on optimizing 2 data sets for hypothesis testi=
+ng</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+Sounds good--thanks.</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12p=
+t; color:rgb(0,0,0)">
+~~Mike<br>
+</div>
+<div id=3D"x_appendonsend"></div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Toki,Walter &lt;Wal=
+ter.Toki@ColoState.EDU&gt;<br>
+<b>Sent:</b> Thursday, May 21, 2020 10:45 AM<br>
+<b>To:</b> Haynes,Michael &lt;Antimike.Haynes@colostate.edu&gt;<br>
+<b>Cc:</b> Toki,Walter &lt;Walter.Toki@ColoState.EDU&gt;<br>
+<b>Subject:</b> Re: Question on optimizing 2 data sets for hypothesis testi=
+ng</font>
+<div>&nbsp;</div>
+</div>
+<div class=3D"x_BodyFragment"><font size=3D"2"><span style=3D"font-size:11p=
+t">
+<div class=3D"x_PlainText">Hi Mike<br>
+<br>
+I think it will take a few more days. I believe this can be <br>
+written down as multiple convolution integrals. And perhaps<br>
+it can be generalized for any joint probability distribution functions<br>
+(ex. poisson or gaussian) in terms of N dimensions. For the <br>
+Skellam case it is N=3D2 and p-value boundary is a line. <br>
+<br>
+I will write it up on ppt, so it is more clear.<br>
+<br>
+walter<br>
+<br>
+________________________________________<br>
+From: Haynes,Michael &lt;Antimike.Haynes@colostate.edu&gt;<br>
+Sent: Wednesday, May 20, 2020 4:47 PM<br>
+To: Toki,Walter<br>
+Subject: Re: Question on optimizing 2 data sets for hypothesis testing<br>
+<br>
+Hi Walter--<br>
+<br>
+Replying just to you to avoid spamming Wen.&nbsp; Would you mind sharing th=
+e code / plan for the simulation with me?&nbsp; I'm curious to see how you'=
+re approaching this.<br>
+<br>
+~~Mike<br>
+________________________________<br>
+From: Toki,Walter &lt;Walter.Toki@ColoState.EDU&gt;<br>
+Sent: Wednesday, May 20, 2020 9:29 AM<br>
+To: Rick Zhou &lt;rickzhouwen@gmail.com&gt;<br>
+Cc: Haynes,Michael &lt;Antimike.Haynes@colostate.edu&gt;<br>
+Subject: Re: Question on optimizing 2 data sets for hypothesis testing<br>
+<br>
+Hi Wen<br>
+<br>
+since I finished my grades yesterday,&nbsp; I will have more time to think =
+about these questions.<br>
+I am formulating steps for a simple monte carlo/simulation to make the idea=
+ more clear.<br>
+<br>
+best regards<br>
+Walter<br>
+<br>
+________________________________________<br>
+From: Rick Zhou &lt;rickzhouwen@gmail.com&gt;<br>
+Sent: Tuesday, May 19, 2020 10:27 PM<br>
+To: Toki,Walter<br>
+Cc: Haynes,Michael<br>
+Subject: Re: Question on optimizing 2 data sets for hypothesis testing<br>
+<br>
+Hi, Walter<br>
+<br>
+Sorry for the late reply. I was trying to formulate your problem in a more =
+mathematical statistical way in the last week. I will reply with more detai=
+ls later this week. (I should let you know I am working on this earlier, so=
+rry for that).<br>
+<br>
+Take care,<br>
+<br>
+best<br>
+<br>
+Wen<br>
+<br>
+<br>
+----------------------------------------------------------------<br>
+Wen Zhou, Ph.D.<br>
+Assistant Professor of Statistics<br>
+Department of Statistics<br>
+Colorado State University<br>
+<br>
+216 Statistics Building<br>
+Colorado State University<br>
+Fort Collins, CO 80523-1877<br>
+Tel: 970-491-1306<br>
+<a href=3D"http://www.stat.colostate.edu/~riczw/">http://www.stat.colostate=
+.edu/~riczw/</a><br>
+<br>
+<br>
+On Tue, May 12, 2020 at 3:03 PM Toki,Walter &lt;Walter.Toki@colostate.edu&l=
+t;mailto:Walter.Toki@colostate.edu&gt;&gt; wrote:<br>
+Hi Wen<br>
+<br>
+On the question of the criterion. Our idea was to test the &quot;null hypot=
+hesis&quot; that<br>
+neutrino and antineutrino oscillation probabilities are the same.<br>
+<br>
+In our experiment neutrino/antineutrino energies are fixed and the distance=
+<br>
+travelled is fixed. So we are treating this as a counting experiment and<br=
+>
+not a measurement as a probability distribution as a function of energy E<b=
+r>
+and/or of distance L. And we only count the total number of neutrinos and<b=
+r>
+the total number of antineutrinos. In the physics theory, the oscillations<=
+br>
+depend on L/E, but no experiments has measured this dependence yet.<br>
+This is explained at <a href=3D"https://nam01.safelinks.protection.outlook.=
+com/?url=3Dhttps%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeutrino_oscillation&amp=
+;amp;data=3D02%7C01%7CAntimike.Haynes%40colostate.edu%7C22eacf3293744cd8016=
+e08d7fda66ea5%7Cafb58802ff7a4bb1ab21367ff2ecfc8b%7C0%7C0%7C6372567635676491=
+23&amp;amp;sdata=3DGL7PtYnCnI%2FgEDDMHajAJtUHmoHqFjTrFvACPHhI%2FhM%3D&amp;a=
+mp;reserved=3D0&lt;https://nam01.safelinks.protection.outlook.com/?url=3Dht=
+tps%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeutrino_oscillation&amp;amp;data=3D0=
+2%7C01%7CAntimike.Haynes%40colostate.edu%7C22eacf3293744cd8016e08d7fda66ea5=
+%7Cafb58802ff7a4bb1ab21367ff2ecfc8b%7C0%7C0%7C637256763567654119&amp;amp;sd=
+ata=3D%2F6gpAuTgXKh3sZinrGMz5ELwf%2FMnba1JQrhvJQpIT1U%3D&amp;amp;reserved=
+=3D0&lt;https://nam01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2=
+Fen.wikipedia.org%2Fwiki%2FNeutrino_oscillation&amp;amp;data=3D02%7C01%7CAn=
+timike.Haynes%40colostate.edu%7C22eacf3293744cd8016e08d7fda66ea5%7Cafb58802=
+ff7a4bb1ab21367ff2ecfc8b%7C0%7C0%7C637256763567654119&amp;amp;sdata=3D%2F6g=
+pAuTgXKh3sZinrGMz5ELwf%2FMnba1JQrhvJQpIT1U%3D&amp;amp;reserved=3D0">
+https://nam01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fen.wiki=
+pedia.org%2Fwiki%2FNeutrino_oscillation&amp;amp;data=3D02%7C01%7CAntimike.H=
+aynes%40colostate.edu%7C22eacf3293744cd8016e08d7fda66ea5%7Cafb58802ff7a4bb1=
+ab21367ff2ecfc8b%7C0%7C0%7C637256763567649123&amp;amp;sdata=3DGL7PtYnCnI%2F=
+gEDDMHajAJtUHmoHqFjTrFvACPHhI%2FhM%3D&amp;amp;reserved=3D0&lt;https://nam01=
+.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fen.wikipedia.org%2Fw=
+iki%2FNeutrino_oscillation&amp;amp;data=3D02%7C01%7CAntimike.Haynes%40colos=
+tate.edu%7C22eacf3293744cd8016e08d7fda66ea5%7Cafb58802ff7a4bb1ab21367ff2ecf=
+c8b%7C0%7C0%7C637256763567654119&amp;amp;sdata=3D%2F6gpAuTgXKh3sZinrGMz5ELw=
+f%2FMnba1JQrhvJQpIT1U%3D&amp;amp;reserved=3D0&lt;https://nam01.safelinks.pr=
+otection.outlook.com/?url=3Dhttps%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeutrin=
+o_oscillation&amp;amp;data=3D02%7C01%7CAntimike.Haynes%40colostate.edu%7C22=
+eacf3293744cd8016e08d7fda66ea5%7Cafb58802ff7a4bb1ab21367ff2ecfc8b%7C0%7C0%7=
+C637256763567654119&amp;amp;sdata=3D%2F6gpAuTgXKh3sZinrGMz5ELwf%2FMnba1JQrh=
+vJQpIT1U%3D&amp;amp;reserved=3D0</a>&gt;&gt;<br>
+in the plots for Muon neutrino oscillations (long and short range, black li=
+nes).<br>
+Our experiment measures one point at L/E=3D500 km/GeV.<br>
+<br>
+Assuming we only count number of oscillated neutrinos and the number of<br>
+oscillated antineutrinos, then the null hypothesis is the probability that<=
+br>
+nu_mu ( muon type neutrino) -&gt; nu_e (electron type neutrino)<br>
+equals the probability that<br>
+antinu_mu ( muon type antineutrino) -&gt; antinu_e (electron type antineutr=
+ino).<br>
+This null hypothesis, that neutrino and antineutrino oscillations are the s=
+ame<br>
+is what we want to test.<br>
+<br>
+If we had initially 1000 nu_mu events we would expect ~50 oscillated nu eve=
+nts.<br>
+and&nbsp; if we had initially 1000 antinu_mu events we would expect&nbsp; ~=
+50 oscillated antinu events,<br>
+if the null hypothesis is correct. This is all for the same fixed L and E v=
+alues. If we measured<br>
+50 and 50 events, then p-value will be 50% and the null hypothesis is NOT<b=
+r>
+excluded.<br>
+<br>
+Now if our experiment found 65 oscillated nu events and 35 antinu<br>
+events, the probability of this happening under the null hypothesis<br>
+using the Skellam distribution for 65-35=3D30 is about 0.162%. So using the=
+<br>
+Fisher&nbsp; significance test, we would say the null hypothesis is exclude=
+d with<br>
+a p-value of 0.162%.<br>
+<br>
+If we had used a different amount neutrino events (ex. 500) and<br>
+antineutrino events (ex. 1500), then the &quot;most likely&quot; p-value wo=
+uld have<br>
+been smaller. So using the Fisher significance test we could say the null h=
+ypothesis is<br>
+excluded with a p-value 0f .129%.<br>
+<br>
+This is the main idea. Note we could not use a Komogorov-Smirnov test since=
+ we do<br>
+not measure the oscillation rates as function of energy or distance.<br>
+<br>
+Does this make sense? In the real experiment, T2K, the evidence roughly sho=
+ws that<br>
+prob(numu-&gt;nue) =3D ~6.5% and prob(antinumu-&gt;antinue)=3D~3.5%.&nbsp; =
+The null<br>
+hypothesis predicts, prob(numu-&gt;nue) =3Dprob(antinumu-&gt;antinue)=3D~5%=
+<br>
+In the next few years T2K and other experiments will add more data and chec=
+k if the<br>
+null hypothesis is excluded. Note that our null hypothesis fixed the probab=
+ilities to 5%.<br>
+A slightly different approach is used if the null hypothesis is<br>
+prob(numu-&gt;nue) =3Dprob(antinumu-&gt;antinue) without specifying that th=
+is is fixed at 5%.<br>
+<br>
+best regards<br>
+Walter<br>
+<br>
+<br>
+<br>
+<br>
+________________________________________<br>
+From: Rick Zhou &lt;rickzhouwen@gmail.com&lt;mailto:rickzhouwen@gmail.com&g=
+t;&gt;<br>
+Sent: Tuesday, May 12, 2020 12:21 PM<br>
+To: Toki,Walter<br>
+Cc: Haynes,Michael<br>
+Subject: Re: Question on optimizing 2 data sets for hypothesis testing<br>
+<br>
+Hi, Walter<br>
+<br>
+A different way to do your problem is the following:<br>
+<br>
+Instead assuming the data coming from Poisson, which is stringent, one is e=
+ssentially trying to test the following hypothesis: F_a=3DF_n, where F_a an=
+d F_n are the true distribution of antineutrio and neutrino, for example. T=
+his hypothesis is much broader as
+ it covers infinitely many orders of moments and their functionals. Testing=
+ the equality of two probability distribution function (in low dimension) i=
+s very studied in statistics, for example, using Kolmogorov-smirnov statist=
+ics, crame von Mise, Anderson-Darling,
+ scan statistics, energy statistics etc. You can easily use the data from, =
+for example, neutrino, to estimate its empirical distribution; then evaluat=
+e the estimated empirical distribution on the data of anti-neutrino (basica=
+lly transform data from anti-neutrino
+ using the cdf of neutrino); and test whether the transformed data followin=
+g a uniform distribution on [0,1]. For this type of hypothesis, the optimal=
+ity and sequential test are know. The optimality is well-documented (there =
+exists optimal test for certain
+ alternatives).<br>
+<br>
+Hopefully this is useful?<br>
+<br>
+Wen<br>
+<br>
+<br>
+----------------------------------------------------------------<br>
+Wen Zhou, Ph.D.<br>
+Assistant Professor of Statistics<br>
+Department of Statistics<br>
+Colorado State University<br>
+<br>
+216 Statistics Building<br>
+Colorado State University<br>
+Fort Collins, CO 80523-1877<br>
+Tel: 970-491-1306<br>
+<a href=3D"http://www.stat.colostate.edu/~riczw/">http://www.stat.colostate=
+.edu/~riczw/</a><br>
+<br>
+<br>
+On Tue, May 12, 2020 at 12:18 AM Rick Zhou &lt;rickzhouwen@gmail.com&lt;mai=
+lto:rickzhouwen@gmail.com&gt;&lt;mailto:rickzhouwen@gmail.com&lt;mailto:ric=
+kzhouwen@gmail.com&gt;&gt;&gt; wrote:<br>
+Hi, Walter<br>
+<br>
+Sorry for the late reply. I have read a little bit into details of your pap=
+er and the note. The short answer is yes, back to 1970s, people have consid=
+er sequential design to gradually collect data until one can reject the hyp=
+othesis of interest or one can confidently
+ claim that no matter how many more to be collected, the null will fail to =
+be rejected. Here, optimizing a hypothesis test is a little bit ambiguous i=
+n your note. A test always has two part of error, Type 1 and Type 2 (false =
+rejection and false acceptance,
+ which are equivalent to the sensitivity and specificity in engineering). I=
+n general, there are no ways to optimize a test unless one specify which pa=
+rt you want to optimize? Smallest Type 1 or smallest Type 2 errors? From de=
+cision theoretic point of view,
+ yes, you can optimize both of them simultaneously; but under a more specia=
+l framework, like Bayes risk or minimax risk or Neyman-Pearson risk.<br>
+<br>
+I would be happy to help; but my first question is &quot;what do you mean b=
+y optimizing&quot;? What criterion are you referring to as the objective to=
+ be &quot;optimize&quot;. Notice that p-value is NOT a valid criterion, and=
+ one should not compare two p-values. A smaller p-value
+ not necessarily imply optimality at all. For hypothesis testing, optimalit=
+y must be defined (rigorously) based on 1) what is the null world? 2) what =
+is the potential alternative world? (some alternative is harder than others=
+) 3) what is the data model (if
+ the data model is wrong, then will your test or sampling procedure be robu=
+st?) 4) What is the limit of the test, for how small the signal your test w=
+ill fail (all test will fail, and some have smaller lower bound; statistica=
+lly the optimal bound of signal-to-noise
+ ratio is known for some problems).<br>
+<br>
+I guess my comments are too theoretical, but the basic answer is &quot;yes,=
+ we can do it&quot;; and we need to first define &quot;what does this optim=
+ality mean&quot;? I think your model is clear, Poisson (robust or not is a =
+separate issue).<br>
+<br>
+I would be happy to chat with you more on this. Take care.<br>
+<br>
+Wen<br>
+<br>
+<br>
+<br>
+----------------------------------------------------------------<br>
+Wen Zhou, Ph.D.<br>
+Assistant Professor of Statistics<br>
+Department of Statistics<br>
+Colorado State University<br>
+<br>
+216 Statistics Building<br>
+Colorado State University<br>
+Fort Collins, CO 80523-1877<br>
+Tel: 970-491-1306<br>
+<a href=3D"http://www.stat.colostate.edu/~riczw/">http://www.stat.colostate=
+.edu/~riczw/</a><br>
+<br>
+<br>
+On Sat, May 9, 2020 at 10:24 AM Toki,Walter &lt;Walter.Toki@colostate.edu&l=
+t;mailto:Walter.Toki@colostate.edu&gt;&lt;mailto:Walter.Toki@colostate.edu&=
+lt;mailto:Walter.Toki@colostate.edu&gt;&gt;&gt; wrote:<br>
+Hi Wen<br>
+<br>
+Working with grad student, Michael Haynes, we looked<br>
+at a scheme to optimize testing a hypothesis that<br>
+neutrino and antineutrino oscillations are the same.<br>
+This measurement requires measuring 2 separate data sets,<br>
+neutrino oscillations and antineutrino oscillations.<br>
+We are interested to adjust the amount of neutrino<br>
+data running and the amount of antineutrino running<br>
+to optimize the p-value on the test hypothesis based on inital data results=
+.<br>
+Part of the ideas arise from a Nucl. Inst. and Meth.<br>
+publication that is attached. Now, we have a short<br>
+note with plots that outline the idea.<br>
+<br>
+Perhaps these ideas have been already studied in statistics?<br>
+If you have time, we would be interested to get<br>
+your feedback on this note when you have time. Or<br>
+perhaps there is someone else in the statistics dept<br>
+who might be interested.<br>
+<br>
+best regards<br>
+Walter<br>
+</div>
+</span></font></div>
+</div>
+</body>
+</html>

@@ -12,7 +12,7 @@ set reply_to                         # reply to Reply to: field
 set reverse_name                     # reply as whomever it was to
 set include                          # include message in replies
 set forward_quote                    # include message in forwards
-set editor = "nvim"
+set editor = "nvim -c ':set textwidth=0'"
 set text_flowed
 unset sig_dashes                     # no dashes before sig
 unset mime_forward                   # forward attachments as part of body
@@ -38,3 +38,34 @@ set pager_stop
 set menu_scroll
 set tilde
 unset markers
+
+macro compose ,p \
+"<enter-command>unset wait_key<enter>\
+<shell-escape>rm -f /tmp/paper.pdf<enter>\
+<shell-escape>papis export --file -o /tmp/paper.pdf<enter>\
+<attach-file>/tmp/paper.pdf<enter>\
+
+# Macro: Convert Markdown to HTML, and attach both text and HTML as text/multipart
+macro compose ,m \
+"<enter-command>set pipe_decode<enter>\
+<pipe-message>pandoc -f markdown -t plain -o /tmp/msg.txt<enter>\
+<pipe-message>pandoc -s -f markdown --filter pandoc-eqnos -t html5 --mathjax -o /tmp/msg.html --resource-path ~/.mutt/templates --template email-revised<enter>\
+<enter-command>unset pipe_decode<enter>\
+<attach-file>/tmp/msg.txt<enter>\
+<attach-file>/tmp/msg.html<enter>\
+<tag-entry><previous-entry><tag-entry><group-alternatives>"
+#"Convert markdown to HTML and plain" 
+
+macro compose ,l \
+"<enter-command>set pipe_decode<enter>\
+<pipe-message>pandoc -f latex -t plain -o /tmp/msg.txt<enter>\
+<pipe-message>pandoc -s -f latex -t html5 --mathjax -o /tmp/msg.html --resource-path ~/.mutt/templates --template email-revised<enter>\
+<enter-command>unset pipe_decode<enter>\
+<attach-file>/tmp/msg.txt<enter>\
+<attach-file>/tmp/msg.html<enter>\
+<tag-entry><previous-entry><tag-entry><group-alternatives>"
+#"Convert LaTeX to HTML and plain" 
+
+# Macro: Convert Markdown to HTML and replace text as email attachment
+macro compose \e5 "F pandoc -s -f markdown -t html \ny^T^Utext/html; charset=utf-8\n"
+set wait_key=no

@@ -1,6 +1,6 @@
-" ~/.dotfiles/config/nvim/Sessions/config.vim:
+" ~/.config/nvim/Sessions/config.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 06 March 2021 at 19:24:15.
+" Created by session.vim 2.13.1 on 11 March 2021 at 22:17:11.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'ayu' | colorscheme ayu | endif
+if !exists('g:colors_name') || g:colors_name != 'deus' | colorscheme deus | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -21,68 +21,12 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +845 config/kitty/kitty.conf
-badd +1 config/nvim/init.vim
-badd +1 ~/texmf/tex/latex/local/local/pset.cls
-badd +5 tigrc
+badd +27 tag-nvim/config/nvim/init.vim
+badd +0 host-work/rcrc
 argglobal
 %argdel
 set stal=2
-edit config/kitty/kitty.conf
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
-argglobal
-setlocal fdm=marker
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-556
-silent! normal! zo
-let s:l = 845 - ((181 * winheight(0) + 8) / 17)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-845
-normal! 0
-lcd ~/
-wincmd w
-argglobal
-if bufexists("~/.dotfiles/config/nvim/init.vim") | buffer ~/.dotfiles/config/nvim/init.vim | else | edit ~/.dotfiles/config/nvim/init.vim | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 7 - ((2 * winheight(0) + 8) / 17)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-7
-normal! 0
-wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
-tabedit ~/texmf/tex/latex/local/local/pset.cls
+edit tag-nvim/config/nvim/init.vim
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -101,14 +45,39 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 7 - ((4 * winheight(0) + 8) / 17)
+let s:l = 27 - ((24 * winheight(0) + 14) / 28)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-7
-normal! 0
-lcd ~/.dotfiles
-tabedit ~/.dotfiles/tigrc
+27
+normal! 030|
+tabnew
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+if bufexists("~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt") | buffer ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | else | edit ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+silent! normal! zE
+let s:l = 267 - ((1 * winheight(0) + 14) / 29)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+267
+normal! 059|
+tabedit host-work/rcrc
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -127,14 +96,13 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 5 - ((4 * winheight(0) + 8) / 17)
+let s:l = 6 - ((5 * winheight(0) + 14) / 29)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-5
-normal! 011|
-lcd ~/.dotfiles
-tabnext 3
+6
+normal! 024|
+tabnext 1
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -152,7 +120,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 3
+tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')

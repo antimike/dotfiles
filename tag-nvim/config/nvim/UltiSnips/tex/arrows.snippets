@@ -1,20 +1,31 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
 # Arrows
 snippet -> "Short arrow" wA
 \to
 endsnippet
 
+context "utils.is_math_mode()"
 snippet => "Implies" wA
 \Longrightarrow
 endsnippet
 
+context "utils.is_math_mode()"
 snippet iff "Iff" wA
 \Longleftrightarrow
 endsnippet
 
+context "utils.is_math_mode()"
 snippet --> "Right-arrow" wA
 \longrightarrow
 endsnippet
 
+context "utils.is_math_mode()"
 snippet <-- "Left arrow" wA
 \longleftarrow
 endsnippet

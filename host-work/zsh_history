@@ -1191,3 +1191,1068 @@ bind branch d !?@git branch -d %(branch)' > ~/.tigrc
 : 1615198412:0;git submodule status
 : 1615198445:0;rcup -B work -t tex
 : 1615198476:0;tig
+: 1615198657:0;git push --set-upstream origin work
+: 1615198669:0;gita ll
+: 1615198680:0;gita fetch
+: 1615198691:0;gita pull
+: 1615198716:0;gita push
+: 1615198729:0;gita ll
+: 1615198751:0;tig
+: 1615198832:0;gita add ~/Administrative
+: 1615198926:0;gita add ~/Documents/Fall\ 2019 ~/Documents/Fall\ 2020
+: 1615198939:0;gita rename Fall\ 2019 fall-2019
+: 1615198953:0;gita rename Fall\ 2020 fall-2020
+: 1615198960:0;gita ll
+: 1615198976:0;gita super fall-2020 remote -v
+: 1615199077:0;git super fall-2020 remote add origin git@github.com:antimike/fall-2020.git
+: 1615199092:0;gita super fall-2020 remote add origin git@github.com:antimike/fall-2020.git
+: 1615199101:0;gita super fall-2020 remote -v
+: 1615199118:0;gita super fall-2020 branch -M main
+: 1615199140:0;gita super fall-2020 branch
+: 1615199152:0;gita super fall-2020 status
+: 1615199165:0;gita super fall-2020 add .
+: 1615199185:0;cd ~/Documents/Fall\ 2020
+: 1615199187:0;git status
+: 1615199198:0;git add .
+: 1615199214:0;git add Colloquia/
+: 1615199218:0;ls Colloquia
+: 1615199240:0;cd Colloquia
+: 1615199243:0;git status
+: 1615199286:0;tig
+: 1615199304:0;ls -la | grep git
+: 1615199313:0;rm -r .git
+: 1615199316:0;git status
+: 1615199321:0;cd ..
+: 1615199326:0;cd EM
+: 1615199328:0;git status
+: 1615199334:0;rm -r .git
+: 1615199346:0;rm -r .git -f
+: 1615199356:0;cd ../Stat\ Mech
+: 1615199357:0;git status
+: 1615199365:0;git rm -r .git -f
+: 1615199376:0;git status
+: 1615199385:0;ls -a | grep git
+: 1615199388:0;rm -r .git
+: 1615199391:0;cd ..
+: 1615199394:0;ls
+: 1615199399:0;cd FEM
+: 1615199401:0;git status
+: 1615199405:0;rm -r .git
+: 1615199409:0;rm -r .git -f
+: 1615199412:0;cd ..
+: 1615199412:0;ls
+: 1615199422:0;cd Physics\ 142\ \(TA\)
+: 1615199431:0;rm -r .git -f
+: 1615199440:0;cd ../Physics\ 341\ \(Grading\)
+: 1615199442:0;rm -r .git -f
+: 1615199448:0;cd ../diary
+: 1615199451:0;rm -r .git -f
+: 1615199458:0;cd ..
+: 1615199466:0;git status
+: 1615199469:0;git add .
+: 1615199511:0;rm -r .git -f
+: 1615199515:0;git status
+: 1615199596:0;git init
+: 1615199603:0;git add Colloquia/
+: 1615199606:0;git add diary/
+: 1615199609:0;git add EM
+: 1615199633:0;git add FEM
+: 1615199639:0;git add Physics\ 142\ \(TA\)
+: 1615199691:0;git add Physics\ 341\ \(Grading\)
+: 1615199729:0;git add Stat\ Mech/
+: 1615199737:0;git add .
+: 1615199740:0;git status
+: 1615199757:0;git commit -m "First commit---consolidated all individual class repos"
+: 1615199761:0;git remote -v
+: 1615199783:0;git remove add origin git@github.com:antimike/fall-2020.git
+: 1615199794:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615199803:0;git branch -M main
+: 1615199810:0;git push -u origin main
+: 1615199915:0;cd ~/Documents/Spring\ 2020
+: 1615199917:0;git status
+: 1615199924:0;ranger
+: 1615199990:0;git init
+: 1615200035:0;git rm Physics\ 341\ \(Grading\)/Assignments/Midterm1/submissions.zip
+: 1615200042:0;git status
+: 1615200114:0;git commit -m "Deleted large file (submissions.zip from PH341 Midterm 1)"
+: 1615200124:0;git push
+: 1615200144:0;git push -u origin main
+: 1615200165:0;git add Administrative/
+: 1615200171:0;git add CMT/
+: 1615200176:0;git add Lasers/
+: 1615200181:0;git add Seminars/
+: 1615200185:0;git add Quantum/
+: 1615200188:0;git add Repo/
+: 1615200191:0;git add .
+: 1615200202:0;git commit -m "First commit---consolidated individual class repos"
+: 1615200219:0;git remote add origin git@github.com:antimike/spring-2020.git
+: 1615200224:0;git branch -M main
+: 1615200227:0;git push -u origin main
+: 1615200247:0;ranger
+: 1615200262:0;gita add ~/Documents/Spring\ 2020
+: 1615200272:0;gita rename Spring\ 2020 spring-2020
+: 1615200276:0;gita ll
+: 1615200296:0;ranger
+: 1615200372:0;rm -r .git -f
+: 1615200416:0;git init
+: 1615200430:0;nvim .gitignore
+: 1615200446:0;tig
+: 1615200472:0;git add directory.md
+: 1615200479:0;git commit -m "Added 'directory.md'"
+: 1615200481:0;tig
+: 1615200581:0;nvim
+: 1615200835:0;git status
+: 1615200842:0;tig
+: 1615200856:0;git add .
+: 1615200906:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615200912:0;git branch -M main
+: 1615200925:0;git push -u origin main
+: 1615200941:0;git status
+: 1615200966:0;git commit -m "Added all other files from Fall 2020 except large mp4 and zip files in gitignore"
+: 1615200970:0;git push
+: 1615201102:0;nvim .gitignore
+: 1615201143:0;rm -r .git -f
+: 1615201146:0;git init
+: 1615201157:0;git status
+: 1615201162:0;git add .
+: 1615201179:0;rm -r .git -f
+: 1615201330:0;git init
+: 1615201343:0;git add Colloquia/
+: 1615201349:0;git add diary/ FEM
+: 1615201355:0;git add Physics\ 14
+: 1615201358:0;git add Physics\ 142\ \(TA\)
+: 1615201362:0;git add EM
+: 1615201376:0;git status | grep mp4
+: 1615201379:0;tig
+: 1615201408:0;git commit -m "Added half the files from fall 2020 (issues with previous attempts concerning filesize)"
+: 1615201431:0;git remote add origin git@github.com:antimike/fall-2020.git
+: 1615201437:0;git branch -M main
+: 1615201442:0;git push -u origin main
+: 1615201584:0;git push -u --force origin master
+: 1615201603:0;git push -u --force origin main
+: 1615201629:0;git status
+: 1615201643:0;git add Physics\ 341\ \(Grading\)
+: 1615201655:0;tig
+: 1615201676:0;git push
+: 1615201687:0;git commit -m "Added PH341 files"
+: 1615201689:0;git push
+: 1615201740:0;git add Stat\ Mech/
+: 1615201746:0;git push
+: 1615201753:0;git commit -m "Added Stat Mech files"
+: 1615201755:0;git push
+: 1615201783:0;git add .
+: 1615201791:0;git commit -m "Added all remaining files from Fall 2020"
+: 1615201799:0;git status
+: 1615201800:0;git push
+: 1615201818:0;gita add ~/Documents/Wiki
+: 1615201860:0;cd ../Wiki
+: 1615201862:0;git status
+: 1615201864:0;git add .
+: 1615201870:0;git commit -m "Catchup commit (pre-push)"
+: 1615201875:0;git origin -v
+: 1615201880:0;git remote -v
+: 1615201889:0;git remote add origin git@github.com:antimike/work-wiki.git
+: 1615201893:0;git branch -M main
+: 1615201900:0;git push -u origin main
+: 1615201914:0;gita ll
+: 1615201923:0;gita rename Wiki wiki
+: 1615201981:0;gita add ~/Research/London-Staged-Solver
+: 1615201989:0;gita add ~/Research/London-FEM-solver
+: 1615202020:0;gita rename London-Staged-Solver london-staged
+: 1615202031:0;gita rename London-FEM-solver london-fem
+: 1615202035:0;gita ll
+: 1615201194:857;ranger
+: 1615202315:0;dnf search yubi
+: 1615202340:0;dnf search authenticator
+: 1615202349:0;dnf search authenticator yubi
+: 1615202356:0;snap search yubico
+: 1615202543:0;cd ~/.dotfiles
+: 1615202545:0;git push
+: 1615255719:0;git config --global merge.tool diffconflicts
+: 1615255779:0;git config --global mergetool.diffconflicts.cmd 'vim -c DiffConflicts "$MERGED" "$BASE" "$LOCAL" "$REMOTE"'
+: 1615255791:0;--global mergetool.keepBackup false
+: 1615255805:0;git config --global mergetool.keepBackup false
+: 1615255819:0;nvim
+: 1615258368:0;systemctl status pcscd
+: 1615265267:0;cabal update
+: 1615265286:0;cabal install taskell
+: 1615267892:0;taskell
+: 1615269550:0;git config --global commit.gpgsign true
+: 1615269728:0;echo "$(tty)"
+: 1615270233:0;tig
+: 1615270247:0;cd ~/.dotfiles
+: 1615270249:0;tig
+: 1615270609:0;git config --global tag.gpgSign = true
+: 1615270617:0;tig
+: 1615270694:0;git status
+: 1615270704:0;git diff tag-git/gitconfig
+: 1615270745:0;git config --global tag.gpgSign true
+: 1615270748:0;git diff tag-git/gitconfig
+: 1615270802:0;git config --global tag.gpgSign false
+: 1615270805:0;tig
+: 1615270823:0;git config --global tag.gpgSign true
+: 1615270846:0;git config --global commit.gpgSign false
+: 1615270849:0;tig
+: 1615272735:0;gpg --card-status
+: 1615272764:0;git show
+: 1615272830:0;tig
+: 1615273191:0;git show v1.0
+: 1615273266:0;git tag
+: 1615273333:0;git verify-tag V1.0
+: 1615273369:0;gita ll
+: 1615273379:0;gita status work
+: 1615273383:0;gita super work status
+: 1615273388:0;gita ll
+: 1615273396:0;gita super dotfiles status
+: 1615273778:0;cd ~/.config/taskell
+: 1615273780:0;ranger
+: 1615273880:0;mkrc -t todo ~/.config/taskell
+: 1615273890:0;taskell
+: 1615274051:0;echo "cabal install taskell" >> $INSTALLED
+: 1615274203:0;git tag -d V1.0
+: 1615274231:0;git push origin :refs/tags/V1.0
+: 1615274244:0;git status
+: 1615274255:0;tig
+: 1615274336:0;git tag V1.0
+: 1615274504:0;git tag
+: 1615274515:0;git tag V1.0
+: 1615274630:0;git tag
+: 1615274654:0;git status
+: 1615274681:0;mv taskell.md ~/Documents/Spring\ 2021
+: 1615274685:0;taskell
+: 1615274781:0;tig
+: 1615275034:0;qubes-gpg-client --card-status
+: 1615275044:0;qubes-gpg-client --list-secret-keys
+: 1615275062:0;qubes-gpg-client --list-secret-keys --keyid-format 0xshort
+: 1615275118:0;echo "Hi there" | qubes-gpg-client -a -e -r 0x210AA3233 | qubes-gpg-client -d
+: 1615275146:0;echo "Hi there" | qubes-gpg-client -a -e -r 0x210A3233 | qubes-gpg-client -d
+: 1615276387:0;gpg --card-status
+: 1615276486:0;cd ~/.dot
+: 1615276491:0;~/.dotfiles
+: 1615276494:0;git tag
+: 1615276496:0;tig
+: 1615276568:0;gita ll
+: 1615348242:0;git fetch origin
+: 1615348248:0;git pull
+: 1615352171:0;tig
+: 1615352190:0;ipython
+: 1615352312:0;ipython --TerminalInteractiveShell.editing_mode=vi
+: 1615352358:0;ipython profile create
+: 1615352379:0;nvim ~/.ipython/profile_default/ipython_kernel_config.py
+: 1615352519:0;ipython
+: 1615352527:0;ranger
+: 1615352596:0;mkrc -B work ~/.ipython/profile_default/history.sqlite
+: 1615352631:0;mkrc -t compute ~/.ipython/profile_default/ipython_config
+: 1615352648:0;mkrc -t compute ~/.ipython/profile_default/ipython_config.py
+: 1615352659:0;mkrc -t compute ~/.ipython/profile_default/ipython_kernel_config.py
+: 1615353429:0;pip3 install uncertainties --user
+: 1615353440:0;ipython
+: 1615355240:0;tig
+: 1615355425:0;ipython
+: 1615355442:0;nvim
+: 1615355477:0;ipython
+: 1615355989:0;dnf search guake
+: 1615356003:0;snap search guake
+: 1615356263:0;tig
+: 1615356304:0;git push
+: 1615356348:0;nvim
+: 1615365242:0;dnf search pydb
+: 1615365266:0;pip3 install pydbgp --user
+: 1615368126:0;sage --preparse /home/user/Documents/Python/Utilities/table.sage
+: 1615373062:0;echo $EDITOR
+: 1615373149:0;git config --global core.editor nvim
+: 1615373156:0;tig
+: 1615373338:0;~/Documents/Spring\ 2021
+: 1615373350:0;~/Documents/Spring-2021
+: 1615373353:0;tig
+: 1615373418:0;cat ~/.gitconfig
+: 1615373450:0;git config core.editor
+: 1615373481:0;git config -e
+: 1615373515:0;git config --global -e
+: 1615373536:0;git config --global core.editor vim
+: 1615373538:0;git config --global -e
+: 1615373550:0;git config --global core.editor nvim
+: 1615373554:0;git config --global -e
+: 1615373798:0;nvim ~/.tigrc
+: 1615373844:0;git -e .gitignore
+: 1615374161:0;git ignore --help
+: 1615374167:0;git --help
+: 1615374176:0;git --help | grep ign
+: 1615374266:0;tig
+: 1615374747:0;nvim ~/.tigrc
+: 1615374793:0;tig
+: 1615374925:0;git status
+: 1615374941:0;git add .gitignore
+: 1615374947:0;git status
+: 1615374981:0;git commit -m "Added .gitignore with extensions for TeX barf files"
+: 1615374985:0;ti9g
+: 1615374987:0;tig
+: 1615375118:0;ranger
+: 1615375236:0;git rm --cached *.log *.aux *latexmk *.scmd *.sout *.gz *.synctex.gz
+: 1615375245:0;git status
+: 1615375267:0;git rm --cached /**/*.log
+: 1615375376:0;git rm --cached /**.log
+: 1615375388:0;git rm --cached **.log
+: 1615375406:0;git rm --cached **/*.log
+: 1615375424:0;nvim .gitignore
+: 1615375946:0;git status
+: 1615375964:0;nvim .gitignore
+: 1615376008:0;git status
+: 1615376013:0;ranger
+: 1615376029:0;tig
+: 1615376347:0;git push
+: 1615376374:0;tig
+: 1615376421:0;gita ll
+: 1615376429:0;tig
+: 1615376466:0;gita ll
+: 1615376901:0;tig
+: 1615377177:0;nvim .gitignore
+: 1615377407:0;git status
+: 1615377413:0;tig
+: 1615377465:0;git push
+: 1615377482:0;gita ll
+: 1615441787:0;julia
+: 1615443668:0;pip3 install doq --user && pip2 install doq --user
+: 1615443679:0;log-installed
+: 1615443814:0;nvim
+: 1615444015:0;python3 -m venv ./venv
+: 1615444026:0;./venv/bin/pip3 install doq
+: 1615444036:0;which doq
+: 1615444051:0;ls | grep venv
+: 1615444054:0;ranger
+: 1615444156:0;mv venv host-work
+: 1615444178:0;ranger
+: 1615444306:0;rcup -B work venv
+: 1615444447:0;rcdn -B work venv
+: 1615444452:0;nvim
+: 1615444540:0;rcup -B work venv
+: 1615444548:0;tig
+: 1615444770:0;git push
+: 1615445118:0;nvim
+: 1615445237:0;dnf search pydbg
+: 1615445498:0;nvim --version
+: 1615446331:0;dnf search uivonim
+: 1615446339:0;dnf search oni2
+: 1615446589:0;nvim
+: 1615449720:0;nvim ~/.zshenv
+: 1615449860:0;ls ~/.config/nvim | grep spector
+: 1615449875:0;mkrc -t nvim ~/.config/nvim/init.vimspector
+: 1615449962:0;top
+: 1615450005:0;kill 2182492
+: 1615450578:0;gita fetch dotfiles
+: 1615450590:0;gita super dotfiles fetch origin
+: 1615450598:0;gita pull dotfiles
+: 1615451448:0;ag --help
+: 1615451468:0;ag --list-file-types | grep md
+: 1615451475:0;ag --md markbar
+: 1615451481:0;ls
+: 1615451491:0;ag markbar
+: 1615451533:0;ag --help | grep hidden
+: 1615451562:0;ag -t --hidden markbar
+: 1615451631:0;cd ~/.dotfiles
+: 1615451633:0;tig
+: 1615452413:0;nvim
+: 1615454770:0;ls ~/.config/nvim/vim-plug/vimspector
+: 1615454784:0;cd ~/.config/nvim/vim-plug/vimspector
+: 1615454797:0;cd configurations
+: 1615454798:0;ls
+: 1615454801:0;cd linux
+: 1615454801:0;ls
+: 1615454804:0;ls _all
+: 1615454811:0;cd ../..
+: 1615454824:0;ranger
+: 1615454976:0;cd tests
+: 1615454986:0;ls | grep vimrc
+: 1615455020:0;nvim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'"
+: 1615455129:0;nvim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ./python/Test_ExpandReferencesInDict.py
+: 1615455189:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ./python/Test_ExpandReferencesInDict.py
+: 1615455247:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ../support/test/python/simple_python
+: 1615455402:0;ranger
+: 1615455464:0;vim -Nu ./vimrc --cmd "let g:vimspector_enable_mappings='HUMAN'" ../support/test/python/simple_python
+: 1615456003:0;cd ~/Source
+: 1615456011:0;git clone https://github.com/vim/vim
+: 1615456091:0;CFLAGS='-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer' \\
+    ./configure --prefix=$(pwd)/root \\
+                --with-features=huge \\
+                --enable-python3interp \\
+                --enable-terminal  \\
+                --enable-fail-if-missing
+: 1615456097:0;cd vim
+: 1615456100:0;CFLAGS='-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer' \\
+    ./configure --prefix=$(pwd)/root \\
+                --with-features=huge \\
+                --enable-python3interp \\
+                --enable-terminal  \\
+                --enable-fail-if-missing
+: 1615456116:0;make
+: 1615456149:0;make install
+: 1615456178:0;ls
+: 1615456183:0;cd src/testdir
+: 1615456226:0;VIMRUNTIME=../../runtime ../vim -f -u unix.vim -U NONE --noplugin --not-a-term -S runtest.vim test_python3.vim
+: 1615456551:0;cd ..
+: 1615456565:0;nvim .vimspector.json
+: 1615456855:0;nvim .
+: 1615458729:0;cd ~/.dotfiles
+: 1615458730:0;tig
+: 1615473322:0;gita ll
+: 1615473337:0;cd ~/Documents/Python
+: 1615473339:0;cd Utilities
+: 1615473343:0;git status
+: 1615473353:0;ranger
+: 1615483061:0;nvim
+: 1615484605:0;screenshare
+: 1615484609:0;share firefox
+: 1615484620:0;share kitty
+: 1615484643:0;share firefox
+: 1615535773:0;firefox -P
+: 1615535834:0;tig
+: 1615536057:0;ranger
+: 1615536869:0;qvm-copy /rw/config/rc.local
+: 1615536904:0;ranger
+: 1615537328:0;mkrc -t qubes /rw/config/rc.local
+: 1615537491:0;ls -a ~ | grep gpg
+: 1615537623:0;rcdn *.gpg *.asc
+: 1615537712:0;rcup -t crypto
+: 1615537823:0;tig
+: 1615538712:0;cd ~/.dotfiles
+: 1615538714:0;ranger
+: 1615538776:0;git status
+: 1615538921:0;git reset
+: 1615538943:0;git status
+: 1615538949:0;tig
+: 1615539156:0;git status
+: 1615539171:0;tig
+: 1615539229:0;git add tag-crypto
+: 1615539233:0;git status
+: 1615539248:0;git commit -m "Migrated appkeys, passwords, etc. into 'tag-crypto'"
+: 1615539251:0;git status
+: 1615539285:0;git add .gitignore
+: 1615539301:0;git commit -m "Added .gitignore rule for Firefox telemetry files"
+: 1615539310:0;git add tag-firefox
+: 1615539334:0;git commit -m "Added 'tag-firefox' for Firefox profiles and related stuff"
+: 1615539338:0;tig
+: 1615539477:0;nvim
+: 1615539505:0;rcdn -t firefox
+: 1615549871:1;gita ll
+: 1615549890:11;tig
+: 1615549933:0;git add tag-firefox
+: 1615549943:1;git commit -m "Firefox history for host-work"
+: 1615549984:21;rcup -B work -S venv -S mozilla
+: 1615550011:0;source ~/.zshrc
+: 1615550015:0;tig
+: 1615621403:0;git status
+: 1615621430:0;gita add ./tag-tex/texmf/tex/latex/local/local
+: 1615621434:0;gita ll
+: 1615621456:0;gita rename local tex-subrepo
+: 1615621464:0;gita super tex-subrepo status
+: 1615621486:0;gita super tex-subrepo restore .
+: 1615621492:0;gita super tex-subrepo status
+: 1615621497:0;tig
+: 1615622022:0;ranger
+: 1615622527:0;mail
+: 1615622546:0;ranger
+: 1615622958:0;mkrc -S Drafts -t mail ~/mail/csu/Drafts
+: 1615622981:0;ls | grep Drafts
+: 1615622984:0;ranger
+: 1615623005:0;rcdn mail
+: 1615623012:0;ranger
+: 1615623056:0;rcup -t mail -S Drafts
+: 1615623074:0;rcup -B host-work -t mail -S drafts
+: 1615623099:0;rcup -B host-work -t mail -S Drafts
+: 1615623105:0;ranger
+: 1615623213:0;rcdn -t mail mail
+: 1615623222:0;rcup -t mail mail
+: 1615623227:0;ranger
+: 1615623244:0;git status
+: 1615623250:0;git add tag-firefox
+: 1615623253:0;git status
+: 1615623286:0;git commit -m "host-work: Firefox profiles updates"
+: 1615623288:0;git status
+: 1615623300:0;git add tag-mail mail
+: 1615623302:0;tig
+: 1615623386:0;pip3 install pandoc-eqnos --user
+: 1615623393:0;log-installed
+: 1615624095:0;nvim /tmp/markdown-test.md
+: 1615624439:0;nvim
+: 1615624478:0;nvim /tmp/markdown-test.md
+: 1615625295:0;ls ~/.config/nvim/UltiSnips/md
+: 1615625329:0;rcup -t nvim config/nvim/UltiSnips/tex/context.snippets
+: 1615625457:0;nvim /tmp/markdown-test.md
+: 1615625735:0;rcdn -t nvim config/nvim/UltiSnips/md
+: 1615625761:0;rcup -t nvim config/nvim/UltiSnips/markdown
+: 1615625770:0;nvim /tmp/markdown-test.md
+: 1615627253:0;rcup -t mail mutt/signatures
+: 1615627258:0;ls ~/.mutt/signatures
+: 1615627387:0;rcup -t mail mutt/templates/email
+: 1615627390:0;ranger
+: 1615627423:0;nvim
+: 1615627427:0;ranger
+: 1615627456:0;mail
+: 1615628296:0;nvim /tmp/markdown-test.md
+: 1615628401:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615628612:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 --mathjax -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615628673:0;xdg-open /tmp/markdown-test.html
+: 1615628700:0;nvim /tmp/markdown-test.md
+: 1615628711:0;pandoc -s -f markdown --filter pandoc-eqnos -t html5 --mathjax -o /tmp/markdown-test.html /tmp/markdown-test.md
+: 1615629506:0;ranger
+: 1615629555:0;tig
+: 1615629789:0;mkrc -t crypto
+: 1615629819:0;ranger
+: 1615630253:0;mail
+: 1615636983:0;ranger
+: 1615637031:0;mkrc -t mail mutt/templates/email.html5
+: 1615637044:0;rcup -t mail mutt/templates/email.html5
+: 1615637046:0;ranger
+: 1615637353:0;mail
+: 1615637554:0;vimdiff ~/.mutt/templates/email.html5 ~/.mutt/templates/email-revised.html5
+: 1615637622:0;nvim
+: 1615637679:0;nvim -d ~/.mutt/templates/email.html5 ~/.mutt/templates/email-revised.html5
+: 1615637858:0;mail
+: 1615638652:0;sudo chmod +x ~/Documents/Bash/convert-markdown-to-html5.sh
+: 1615638680:0;alias mth=~/Documents/Bash/convert-markdown-to-html5.sh
+: 1615638725:0;mth /tmp/markdown-test.md
+: 1615638748:0;xdg-open /tmp/msg.html
+: 1615638773:0;nvim /tmp/markdown-test.md
+: 1615638835:0;tig
+: 1615639141:0;gita ll
+: 1615639149:0;git status
+: 1615639153:0;git push
+: 1615639173:0;gita add ~/Documents/Bash
+: 1615639182:0;gita super bash status
+: 1615639189:0;gita super bash add .
+: 1615639212:0;gita super bash commit -m "Added one-liner used in Mutt config to convert Markdown to HTML5"
+: 1615639217:0;gita push bash
+: 1615639222:0;gita ll
+: 1615639230:0;gita push
+: 1615639236:0;gita push all
+: 1615775796:0;nvim
+: 1615776828:0;gita super spring-2021 status
+: 1615776840:0;gita super python status
+: 1615777421:0;gita super spring-2021 restore
+: 1615777426:0;gita super spring-2021 restore .
+: 1615777433:0;gita super spring-2021 status
+: 1615777459:0;cd ~/Documents/Spring\ 2021
+: 1615777463:0;cd ~/Documents/Spring-2021
+: 1615777467:0;ranger
+: 1615777516:0;tig
+: 1615782876:0;ranger
+: 1615790625:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1615792190:0;mail
+: 1615792221:0;gita ll
+: 1615792231:0;gita super dotfiles fetch origin
+: 1615792240:0;gita pull
+: 1615792432:0;gita super dotfiles pull
+: 1615792441:0;gita super python pull
+: 1615796007:0;sage --preparse /home/user/Documents/Python/Utilities/latex_serializer.sage
+: 1615796463:0;git status
+: 1615797647:0;sage --preparse /home/user/Documents/Python/Utilities/table.sage
+: 1615805962:0;sage --preparse /home/user/Documents/Python/Utilities/element.sage
+: 1615812096:0;qvm-copy ~/Documents/Spring-2021/EM_II/Assignments/HW3/HW3.pdf
+: 1615813850:0;calcurse
+: 1615819963:0;nvim
+: 1615820319:0;ranger
+: 1615891800:0;ipython
+: 1615891867:0;cd ~/.dotfiles
+: 1615891870:0;ranger
+: 1615892072:0;ipython
+: 1615892254:0;~/.venv/bin/activate
+: 1615892269:0;sudo chmod +x ~/.venv/bin/activate
+: 1615892271:0;~/.venv/bin/activate
+: 1615892276:0;which python
+: 1615892280:0;which pip
+: 1615892283:0;which pip3
+: 1615892289:0;deactivate
+: 1615892300:0;source ~/.venv/bin/activate
+: 1615892303:0;which python
+: 1615892307:0;which python3
+: 1615892310:0;which pip3
+: 1615892334:0;cat ~/.venv/bin/activate
+: 1615892369:0;echo $VIRTUAL_ENV
+: 1615892378:0;cd $VIRTUAL_ENV
+: 1615892409:0;deactivate
+: 1615892417:0;python -m venv ~/.venv
+: 1615892427:0;rm ~/.venv
+: 1615892433:0;python -m venv ~/.venv
+: 1615892457:0;rm -r ~/.dotfiles/host-work/venv
+: 1615892485:0;mkrc -B work -S venv ~/.venv
+: 1615892508:0;mkrc -B work ~/.venv
+: 1615892520:0;ls -la ~ | grep venv
+: 1615892529:0;ranger
+: 1615892558:0;tig
+: 1615892569:0;gita super dotfiles status
+: 1615892618:0;source ~/.venv/bin/activate
+: 1615892621:0;which python
+: 1615892625:0;which pip
+: 1615892627:0;which pip3
+: 1615892635:0;pip3 install scipy
+: 1615892733:0;pip3 install --upgrade pip
+: 1615892756:0;pip3 install numpy sympy pint mendeleev
+: 1615892795:0;ipython
+: 1615892828:0;pip3 install uncertainties matplotlib
+: 1615892840:0;ipython
+: 1615893151:0;nvim
+: 1615909436:0;ipython
+: 1615909473:0;nvim
+: 1615909481:0;mail
+: 1615909658:0;nvim
+: 1615909711:0;ranger
+: 1615932714:0;papis add ~/QubesIncoming/dropbox/Bessel_functions_pure_imaginary_order.pdf \\
+--set author "T. M. Dunster" \\
+--set year 1990 \\
+--set title "BESSEL FUNCTIONS OF PURELY IMAGINARY ORDER, WITH AN APPLICATION TO SECOND-ORDER LINEAR DIFFERENTIAL EQUATIONS HAVING A LARGE PARAMETER" \\
+--set tags "odes special-functions math"
+: 1615932726:0;papis open
+: 1615937092:0;nvim
+: 1615984566:0;ipython
+: 1615984571:0;ranger
+: 1615984573:0;mail
+: 1615984580:0;calcurse
+: 1615984596:0;gita push python
+: 1615985586:0;mail
+: 1615990136:0;screenshare
+: 1615990146:0;share firefox &
+: 1616000169:0;convert --help
+: 1616000310:0;cd ~/Documents/Spring-2021
+: 1616000330:0;cd EM_II
+: 1616000332:0;cd Midterm
+: 1616000363:0;convert "*.jpg" PH642_Midterm_Haynes.pdf
+: 1616000650:0;stopshare
+: 1616003131:0;nvim
+: 1616003951:0;gita super spring-2021 status
+: 1616023701:0;sage
+: 1616073574:0;ipython
+: 1616073579:0;sage
+: 1616073604:0;ranger
+: 1616073607:0;mail
+: 1616073617:0;calcurse
+: 1616073664:0;nvim
+: 1616094790:0;gita super tex remote -v
+: 1616094811:0;gita super python remote -v
+: 1616094869:0;gita super tex remote set-url origin git@github.com:antimike/tex.git
+: 1616094875:0;gita super tex remote -v
+: 1616131369:0;ranger
+: 1616133433:0;vim
+: 1616133460:0;vim -u
+: 1616133549:0;vim
+: 1616166216:0;nvim
+: 1616183845:0;Documents/Spring-2021
+: 1616183847:0;tig
+: 1616183865:0;../Python
+: 1616183867:0;tig
+: 1616186418:0;papis search -h
+: 1616186421:0;papis -h
+: 1616186433:0;papis open
+: 1616186453:0;ranger
+: 1616186569:0;papis add ~/Documents/References/physics.pdf \\
+--author "Sergio C. de la Barrera" \\
+--year 2012 \\
+--title "The `physics` package" \\
+--tags "latex physics macros"
+: 1616186631:0;papis add ~/Documents/References/physics.pdf \\
+--author "Sergio C. de la Barrera" \\
+--year 2012 \\
+--title "The 'physics' package" \\
+--tags "latex physics macros"
+: 1616186659:0;papis add ~/Documents/References/physics.pdf \\
+--set author "Sergio C. de la Barrera" \\
+--set year 2012 \\
+--set title "The 'physics' package" \\
+--set tags "latex physics macros"
+: 1616186676:0;gita super papis status
+: 1616186686:0;papis open
+: 1616186703:0;cd ~/Documents/Papis-Imports
+: 1616186706:0;tig
+: 1616186775:0;gita ll
+: 1616186788:0;gita super dotfiles status
+: 1616186816:0;gita super dotfiles add tag-firefox/mozilla
+: 1616186856:0;gita super dotfiles commit -m "Firefox updates for host-work"
+: 1616186865:0;gita push dotfiles
+: 1616186876:0;gita super dotfiles status
+: 1616186918:0;man git
+: 1616186968:0;git submodule update
+: 1616187003:0;gita super dotfiles submodule update
+: 1616187011:0;gita super dotfiles status
+: 1616187032:0;gita super dotfiles add tag-mail
+: 1616187036:0;gita super dotfiles status
+: 1616187055:0;gita super dotfiles commit -m "csu email drafts"
+: 1616187076:0;gita super dotfiles add tag-todo
+: 1616187079:0;gita super dotfiles status
+: 1616187094:0;gita super dotfiles commit -m "Added Calcurse appointment"
+: 1616187099:0;gita super dotfiles status
+: 1616187131:0;gita super dotfiles add host-work/venv
+: 1616187151:0;gita super dotfiles commit -m "Added some Venv packages"
+: 1616187565:0;man papis
+: 1616187685:0;papis add ~/Documents/References/mathtools.pdf \\
+--set author "Hogholm, Morten and Madsen, Lars" \\
+--set year 2021 \\
+--set title "The 'mathtools' package" \\
+--tags "latex math manual"
+: 1616187700:0;papis add ~/Documents/References/mathtools.pdf \\
+--set author "Hogholm, Morten and Madsen, Lars" \\
+--set year 2021 \\
+--set title "The 'mathtools' package" \\
+--set tags "latex math manual"
+: 1616192529:0;ranger
+: 1616194896:0;dnf search tilix
+: 1616194993:0;dnf search edex-ui
+: 1616194997:0;dnf search edex
+: 1616195004:0;dnf search edex ui
+: 1616195013:0;dnf search DEX
+: 1616195021:0;dnf search DEX-UI
+: 1616212644:0;gita ll
+: 1616212652:0;tig
+: 1616212661:0;gita super dotfiles status
+: 1616212680:0;gita ll
+: 1616212689:0;gita super spring-2021 status
+: 1616212709:0;cd ~/Documents/Spring-2021
+: 1616212710:0;tig
+: 1616212796:0;git fetch origin
+: 1616212803:0;git pull
+: 1616212822:0;git push
+: 1616269301:0;nvim
+: 1616316135:0;cd ~/.dotfiles/tag-tex
+: 1616316140:0;cd
+: 1616316141:0;ls
+: 1616316149:0;cd ~/.dotfiles/tag-tex
+: 1616316150:0;ls
+: 1616316155:0;cd texmf
+: 1616316157:0;git status
+: 1616316163:0;ls
+: 1616316165:0;cd tex
+: 1616316167:0;ls
+: 1616316171:0;cd latex; ls
+: 1616316174:0;cd local; ls
+: 1616316179:0;git status
+: 1616316200:0;git checkout main
+: 1616352011:0;nvim
+: 1616358594:0;ls -a ~ | grep you
+: 1616360866:0;read -h
+: 1616360870:0;man read
+: 1616364215:0;cd ~/.dotfiles
+: 1616364222:0;tig
+: 1616370955:0;papis open
+: 1616460049:0;ranger
+: 1616460068:0;papis open
+: 1616460191:0;papis add ~/QubesIncoming/dropbox/sagetex.pdf \\
+--set author "Drake, Dan" \\
+--set year 2020 \\
+--set title "The SageTeX Package" \\
+--set tags "latex python sage manual reference"
+: 1616460217:0;papis open sage
+: 1616462759:0;dnf search jq
+: 1616462787:0;sudo dnf install jq -y
+: 1616465572:0;log-installed
+: 1616467658:0;man papis
+: 1616467696:0;nvim
+: 1616468737:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team"
+: 1616468779:0;papis open
+: 1616468807:0;gita shell papis status
+: 1616468830:0;gita super papis status
+: 1616468850:0;cd ~/QubesIncoming/dropbox
+: 1616468862:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual:" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team"
+: 1616468959:0;papis open
+: 1616468972:0;gita super papis status
+: 1616469015:0;ranger
+: 1616469317:0;papis add ./arithmetic_curves.pdf \\
+--set title "Sage 9.2 Reference Manual: Elliptic Curves" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./coding.pdf \\
+--set title "Sage 9.2 Reference Manual: Coding Theory" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cpython.pdf \\
+--set title "Sage 9.2 Reference Manual: Python Technicalities" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./cryptography.pdf \\
+--set title "Sage 9.2 Reference Manual: Cryptography" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./data_structures.pdf \\
+--set title "Sage 9.2 Reference Manual: Data Structures" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./databases.pdf \\
+--set title "Sage 9.2 Reference Manual: Databases" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./diophantine_approximation.pdf \\
+--set title "Sage 9.2 Reference Manual: Diophantine Approximation" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./doctest.pdf \\
+--set title "Sage 9.2 Reference Manual: Sage's Doctesting Framework" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./euclidean_spaces.pdf \\
+--set title "Sage 9.2 Reference Manual: Euclidean Spaces and Vector Calculus" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./games.pdf \\
+--set title "Sage 9.2 Reference Manual: Games" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./graphs.pdf \\
+--set title "Sage 9.2 Reference Manual: Graph Theory" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./homology.pdf \\
+--set title "Sage 9.2 Reference Manual: Cell Complexes and their Homology" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./hyperbolic_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual: Hyperbolic Geometry" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./logic.pdf \\
+--set title "Sage 9.2 Reference Manual: Symbolic Logic" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./manifolds.pdf \\
+--set title "Sage 9.2 Reference Manual: Manifolds" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./misc.pdf \\
+--set title "Sage 9.2 Reference Manual: Utilities" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./quadratic_forms.pdf \\
+--set title "Sage 9.2 Reference Manual: Quadratic Forms" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+papis add ./riemannian_geometry.pdf \\
+--set title "Sage 9.2 Reference Manual: Differential Geometry of Curves and Surfaces" \\
+--set tags "sage math reference manual" \\
+--set year 2020 \\
+--set author "The Sage Development Team" \\
+
+: 1616469411:0;papis open
+: 1616469504:0;papis open]
+: 1616469510:0;papis open
+: 1616469717:0;gita super papis status
+: 1616469738:0;cd ~/Documents/Papis-Imports
+: 1616469740:0;tig
+: 1616471057:0;gita push
+: 1616471063:0;gita push spring-2021
+: 1616471075:0;gita super status spring-2021
+: 1616471086:0;cd ~/Documents/Spring-2021
+: 1616471087:0;tig
+: 1616471205:0;gita super status python
+: 1616471213:0;gita super python status
+: 1616471235:0;gita super python add .
+: 1616471257:0;gita super python commit -m "Added 'snippet_utils.py' for snippet development and tests directory"
+: 1616471263:0;gita push python
+: 1616471270:0;gita push papis
+: 1616471277:0;gita super papis status
+: 1616522885:0;nvim
+: 1616522938:0;ranger
+: 1616525003:0;pip3 install vim --user
+: 1616525010:0;pip install vim --user
+: 1616525018:0;pip3 install nvim --user
+: 1616526158:0;nvim
+: 1616534544:0;~/.dotfiles
+: 1616534545:0;tig
+: 1616630377:0;nvim
+: 1616639352:0;papis open
+: 1616662726:0;gita ll
+: 1616702478:0;papis open sage
+: 1616816049:0;top
+: 1616816657:0;ranger
+: 1616873776:0;nvim
+: 1616875148:0;top

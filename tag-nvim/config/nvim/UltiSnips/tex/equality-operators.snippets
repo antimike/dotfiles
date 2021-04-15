@@ -1,47 +1,65 @@
-snippet == "Equivalence" wA
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
+snippet == "Equivalence" iA
 \equiv
 endsnippet
 
-snippet ~= "Simeq" wA
+context "utils.is_math_mode()"
+snippet ~= "Simeq" iA
 \simeq
 endsnippet
 
-snippet ~~ "Sim" wA
+context "utils.is_math_mode()"
+snippet ~~ "Sim" iA
 \sim
 endsnippet
 
-snippet =~ "Approx" wA
+context "utils.is_math_mode()"
+snippet =~ "Approx" iA
 \approx
 endsnippet
 
-snippet != "Neq" wA
+context "utils.is_math_mode()"
+snippet != "Neq" iA
 \neq
 endsnippet
 
-snippet >= "Geq" wA
+context "utils.is_math_mode()"
+snippet >= "Geq" iA
 \geq
 endsnippet
 
-snippet <= "Leq" wA
+context "utils.is_math_mode()"
+snippet <= "Leq" iA
 \leq
 endsnippet
 
-snippet << "Much less than" wA
+context "utils.is_math_mode()"
+snippet << "Much less than" iA
 \ll
 endsnippet
 
-snippet >> "Much greater than" wA
+context "utils.is_math_mode()"
+snippet >> "Much greater than" iA
 \gg
 endsnippet
 
-snippet := "Defined to be" wA
+context "utils.is_math_mode()"
+snippet := "Defined to be" iA
 \coloneqq
 endsnippet
 
-snippet +- "Plus / minus" wA
+context "utils.is_math_mode()"
+snippet +- "Plus / minus" iA
 \pm
 endsnippet
 
-snippet -+ "Minus / plus" wA
+context "utils.is_math_mode()"
+snippet -+ "Minus / plus" iA
 \mp
 endsnippet

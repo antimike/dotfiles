@@ -24,6 +24,7 @@ let cmdline_app['octave']      = 'octave'
 let cmdline_app['tex']         = 'sage'
 let cmdline_app['freefem']     = 'octave'
 let cmdline_app['haskell']     = 'ghci-color'
+let cmdline_app['markdown']    = 'ipython'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
@@ -35,30 +36,46 @@ nnoremap <Leader>Tc :Tclear<CR>
 au BufReadPost,BufNewFile,BufEnter *.edp :Tmap cd %:p:h; FreeFem++ %
 au BufReadPost,BufNewFile,BufEnter *.m :Tmap cd %:p:h; octave %
 
+" For vim-slime and vim-ipython-cell
+let      g:slime_target = 'neovim'
+let      g:slime_python_ipython = 1
+nnoremap <Leader>P :SlimeSend1 ipython<CR>
+nnoremap <Leader>E :IPythonCellRun<CR>
+nnoremap <Leader>Eb :IPythonCellRunTime<CR>
+nnoremap <Leader>e :IPythonCellExecuteCell<CR>
+nnoremap <Leader>en :IPythonCellExecuteCellJump<CR>
+nnoremap <Leader>ed :IPythonCellClear<CR>
+nnoremap <Leader>Ex :IPythonCellClose<CR>
+nnoremap <Leader>nc :IPythonCellNextCell<CR>
+nnoremap <Leader>pc :IPythonCellNextCell<CR>
+nmap     <Leader>el :SlimeLineSend
+xmap     <Leader>el :SlimeRegionSend
+nnoremap <Leader>Q :IPythonCellRestart<CR>
+
 
 " For vim-repl
 " This plugin doesn't seem to work, and its functionality is replicated by
 " vimcmdline anyway
 "nnoremap <leader>R :REPLToggle<CR>
 "nnoremap <leader>E :REPLSendSession<CR>
-let g:repl_program = {
-                        \ 'python': 'ipython',
-                        \ 'sage': 'sage',
-                        \ 'tex': 'sage',
-                        \ 'octave': 'octave',
-                        \ 'default': 'zsh',
-                        \ 'vim': 'vim -e',
-                        \ 'lua': 'lua'
-                        \ }
-let g:repl_exit_commands = {
-                        \ 'python': 'quit()',
-                        \ 'zsh': 'exit',
-                        \ 'default': 'exit',
-                        \ 'haskell': 'quit'
-                        \ }                        
-let g:repl_predefine_python = {
-                        \ 'numpy': 'import numpy as np',
-                        \ 'matplotlib': 'from matplotlib import pyplot as plt',
-                        \ 'pint': 'from pint import UnitRegistry',
-                        \ 'ureg': 'ureg = UnitRegistry()'
-                        \ }                        
+"let g:repl_program = {
+                        "\ 'python': 'ipython',
+                        "\ 'sage': 'sage',
+                        "\ 'tex': 'sage',
+                        "\ 'octave': 'octave',
+                        "\ 'default': 'zsh',
+                        "\ 'vim': 'vim -e',
+                        "\ 'lua': 'lua'
+                        "\ }
+"let g:repl_exit_commands = {
+                        "\ 'python': 'quit()',
+                        "\ 'zsh': 'exit',
+                        "\ 'default': 'exit',
+                        "\ 'haskell': 'quit'
+                        "\ }                        
+"let g:repl_predefine_python = {
+                        "\ 'numpy': 'import numpy as np',
+                        "\ 'matplotlib': 'from matplotlib import pyplot as plt',
+                        "\ 'pint': 'from pint import UnitRegistry',
+                        "\ 'ureg': 'ureg = UnitRegistry()'
+                        "\ }                        

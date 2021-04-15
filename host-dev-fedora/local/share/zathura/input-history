@@ -1,0 +1,161 @@
+/3d
+/cube
+/Curl
+/macro Grad
+/macro Curl
+/macro Div
+/Dirichlet
+/model problem
+/dirichlet
+/magneti
+/magnet
+/adaptmesh
+/adaptmesh3
+/buildDmesh
+/mmg
+/adapt
+/export
+/Gamma
+/switch
+/domain
+/holelist
+/truc
+/trunc
+/regionlist
+/attribute
+/neumann
+/surface integral
+/intl
+/meshS
+/intS
+/intL
+/line integral
+/Nt
+/the dirichlet conditions are implemented
+/normal velocity
+/normal
+/function
+/on(
+/include
+/include "
+/.idp
+/ExtractDof
+/func
+/func 
+/streamline
+/ffmatlib
+/array
+/int[real]
+/real[int]
+/func real[
+/func real[int]
+/real[int] &
+/exception
+/throw
+/assert
+/default
+/arctan
+/external
+:help offset
+:help
+/Edge03d
+/finite element
+/square3
+/SurfaceHex
+/inhomogeneous
+/homogen
+/inhomogen
+/tgv
+/solver=
+/ffmedit
+/edge0
+/conform
+/discrete problem
+/penalty
+/savemesh2d
+/load mesh
+/loadm
+/single point
+/point
+/readmesh
+/int2d
+/int1d
+/void
+/endmacro
+/projection
+/medit(
+/loadsol
+/nedelec
+/savesol
+/vector field
+/keyboard
+/freefem
+/vtk
+/slic
+/maya
+/ned
+/nedel
+/lagrangian
+/ravi
+/p23d
+/vector
+/plot
+/plot3d
+/interpolate3
+/interpolate
+/sub mesh
+/trunc(
+/submesh
+/tetg
+/savevtk
+/savemesh
+/medit
+/save
+/isoline
+/plot(
+:offset 3
+/lagrange multip
+/raviart
+/RT0Ortho
+:help bmark
+:bmark TOC
+:offset 1
+:goto toc
+:toc
+:bmark toc
+/gauge
+/cotree
+/tree
+/injective
+/varf
+:bmark Dirichlet tgv
+:bmark Dirichlet-tgv
+/constraint
+/block
+/block matrix
+/rt0
+/lagrange
+:bmark Lagrange
+/tgv=tgv
+:bmark Dirichlet-condition-penalization
+:blist
+:qa
+/rt1
+/RT03
+:bmark Vectorial_Element_Dirichlet_Conditions
+/RT0
+/RT13d
+/RT3
+/edge03
+/.region(
+/multiplier
+/solver=CG
+/CUDA
+/petsc
+:offset 6
+:bmark PETSC
+/cuda
+/gpu
+/GPU
+:Q
+:q

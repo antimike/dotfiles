@@ -7,12 +7,12 @@ bind main a !?git commit --amend
 bind status a !?git commit --amend
 bind status S !?git stash save --keep-index "%(prompt Stash name: )"
 bind status D !@?rm %(file)
-bind main T !@git tag -a "%(prompt Tag: )" %(commit)
+bind reflog T !@git tag -a "%(prompt Tag: )" -m "%(prompt Comment: )" %(commit)
 bind status P !?git push %(remote)
 bind generic 9 !@sh -c "git show -s --format=%s %(commit) | xclip -sel clip"
-bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
-bind tree <Ctrl-r> !sh -c "echo %(file) >> .gitignore && vim .gitignore"
+bind status <Ctrl-r> !sh -c "echo %(file) >> .gitignore && nvim .gitignore"
+bind tree <Ctrl-r> !sh -c "echo %(file) >> .gitignore && nvim .gitignore"
 bind main ! !?git revert %(commit)
-bind generic T !git notes edit %(commit)
+bind generic T !git notes edit %(commit) 
 bind refs P !?git push origin %(tag)
 bind refs <Ctrl-P> !?git push -u "%(prompt Upstream branch: )" %(branch)

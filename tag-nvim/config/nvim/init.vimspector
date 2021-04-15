@@ -1,0 +1,13 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+let g:vimspector_enable_mappings = 'HUMAN'
+" The default (F12) conflicts with i3 mapping (Guake for dom0)
+nmap <Leader>vo <Plug>VimspectorStepOut
+nnoremap <Leader>vd :VimspectorReset<CR>
+" for normal mode - the word under the cursor
+nmap <Leader>vi <Plug>VimspectorBalloonEval
+" for visual mode, the visually selected text
+xmap <Leader>vi <Plug>VimspectorBalloonEval
+nnoremap <Leader>vw :VimspectorWatch 
+nnoremap <Leader>ve :VimspectorEval 

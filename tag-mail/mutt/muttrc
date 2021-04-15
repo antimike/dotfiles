@@ -14,6 +14,8 @@ source ~/.mutt/muttrc-directory
 # Sane defaults
 source ~/.mutt/muttrc-standard
 
+source ~/.mutt/muttrc-compose
+
 # View Options
 source ~/.mutt/muttrc-view
 source ~/.mutt/muttrc-custom-tag-colors-example

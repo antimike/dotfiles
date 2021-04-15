@@ -1,0 +1,104 @@
+From: Michael Haynes <Antimike.Haynes@colostate.edu>
+To: Michael Mooney <mrmooney@colostate.edu>
+Subject: Re: Typo in HW5 solutions; possible case of cheating
+References: <20201103230606.pctql2ll4d3c3me6@colostate.edu>
+ <86f5b91c-c1bc-8904-d695-ccdbd5c4d10d@colostate.edu>
+ <20201105072307.hgqg675vpfpnnmov@colostate.edu>
+ <3d91628b-404b-902d-87b1-9f337d07aea0@colostate.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <3d91628b-404b-902d-87b1-9f337d07aea0@colostate.edu>
+X-Mutt-References: <3d91628b-404b-902d-87b1-9f337d07aea0@colostate.edu>
+X-Mutt-Fcc: =Sent
+
+Sure---I'll send over a draft email sometime today.  I'm currently
+working on other stuff, so it'll likely be sometime in the afternoon.
+
+~~Mike
+
+On 05.11.2020 07:10, Michael Mooney wrote:
+>Thanks for informing me, Mike.  Can you give Liam a warning by email?  
+>Just mention you noticed similarity to existing solutions, and that 
+>next time you will take off points?  Please feel free to run the email 
+>by me first if you'd like.
+>
+>Thanks,
+>Mike M.
+>
+>
+>
+>On 11/5/20 12:23 AM, Michael Haynes wrote:
+>>Thanks---that all seems reasonable.
+>>
+>>FYI, at least one other student (Liam Koch) seems to have found the same
+>>solution Brookie used (or made precisely the same mistake, which seems
+>>unlikely).  I've given both Liam and Brookie 70/100 on the problem but
+>>otherwise haven't commented.
+>>
+>>~~Mike
+>>
+>>On 03.11.2020 22:13, Michael Mooney wrote:
+>>>Hi Mike,
+>>>
+>>>Thanks for this catch - I double-checked and you correct; I will 
+>>>make this fix soon and repost the solutions to Canvas.  Reminder 
+>>>that I take these problems, and solutions, from two different 
+>>>texts - Taylor and Thornton&Marion.  I rewrite the problems in 
+>>>LaTeX to give the students the feeling that I am creating the 
+>>>problems from scratch (as I do for exam problems), sometimes 
+>>>adding in additional hints myself - however, some of them may have 
+>>>figured it out from the typesetting of the solutions (no way I 
+>>>have time to rewrite all of the solutions myself), or from 
+>>>Googling.  So, even though I posted the solutions after Brookie 
+>>>turned in her homework, it's possible she found this solution 
+>>>online.
+>>>
+>>>She sounded like she has been having a hard time lately (issues 
+>>>with family and other things).  I think we overlook this one. If 
+>>>it happens again, we should give her a warning and possibly zero 
+>>>credit for the problem she cheated on.  If it happens yet again, 
+>>>then we consider further discipline.
+>>>
+>>>As for other students collaborating on answers - this is fully 
+>>>allowed, as long as they write them up themselves.  This is very 
+>>>hard to regulate of course.  I think unless there is obvious 
+>>>cheating, we may have to turn a blind eye to it.  The exams will 
+>>>accurately reflect their capabilities, as long as we don't make it 
+>>>as long as last time.  In the meantime, I appreciate you 
+>>>identifying areas that they particularly struggle with.  It will 
+>>>help me provide review material for the upcoming exam.  Though, in 
+>>>this case, it looks like they were just not very careful in 
+>>>including all complications of the problem.  That in itself is a 
+>>>lesson, though.
+>>>
+>>>Best,
+>>>Mike M.
+>>>
+>>>
+>>>
+>>>On 11/3/20 4:06 PM, Michael Haynes wrote:
+>>>>Hi Michael---
+>>>>
+>>>>I noticed that your solution to P2 on Assignment 5 has a typo: a
+>>>>prefactor of (m/r) multiplied by the second group of terms in the
+>>>>Lagrangian that should be (m/2).
+>>>>Ordinarily I would consider this a pretty minor issue, but 
+>>>>unfortunately
+>>>>I've encountered one submission so far that exactly duplicates 
+>>>>this typo
+>>>>and is almost identical to the official solution in other respects as
+>>>>well.  It was also submitted 10 hours after the deadline (i.e., 
+>>>>at 10 pm
+>>>>on 10/28)---had you posted the solutions by then?
+>>>>
+>>>>The suspect HW is Brookie Hardesty's if you want to take a look. On a
+>>>>related note, many of the solutions to P4 seem to be essentially
+>>>>identical---i.e., featuring basically the same diagram, notation, and
+>>>>mistakes, notably a failure to include the constant upward acceleration
+>>>>specified in the problem (despite labeling it in the diagram). Not sure
+>>>>what you want to do about this---I'm keeping a tally of which students'
+>>>>solutions are involved.
+>>>>
+>>>>~~Mike

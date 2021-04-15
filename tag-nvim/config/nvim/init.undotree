@@ -1,5 +1,5 @@
 " vim: syntax=vim
 " vim: filetype=vim
 
-nnoremap <F9> :GundoToggle<cr>
+nnoremap <M-S-u> :GundoToggle<cr>
 nnoremap <M-u> :UndotreeToggle<cr>

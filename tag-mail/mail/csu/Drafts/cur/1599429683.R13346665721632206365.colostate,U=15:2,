@@ -1,0 +1,276 @@
+Received: from BN6PR07MB2817.namprd07.prod.outlook.com (2603:10b6:802:21::18)
+ by SN6PR07MB5120.namprd07.prod.outlook.com with HTTPS via
+ SN1PR12CA0083.NAMPRD12.PROD.OUTLOOK.COM; Fri, 4 Sep 2020 21:45:44 +0000
+Received: from SN4PR0501CA0058.namprd05.prod.outlook.com
+ (2603:10b6:803:41::35) by BN6PR07MB2817.namprd07.prod.outlook.com
+ (2603:10b6:404:40::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15; Fri, 4 Sep
+ 2020 21:45:41 +0000
+Received: from SN1NAM01FT062.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:803:41:cafe::59) by SN4PR0501CA0058.outlook.office365.com
+ (2603:10b6:803:41::35) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3370.10 via Frontend
+ Transport; Fri, 4 Sep 2020 21:45:41 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.38.187)
+ smtp.mailfrom=amazonses.com; colostate.edu; dkim=pass (signature was
+ verified) header.d=instructure.com;colostate.edu; dmarc=bestguesspass
+ action=none header.from=instructure.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of amazonses.com designates
+ 54.240.38.187 as permitted sender) receiver=protection.outlook.com;
+ client-ip=54.240.38.187; helo=a38-187.smtp-out.amazonses.com;
+Received: from a38-187.smtp-out.amazonses.com (54.240.38.187) by
+ SN1NAM01FT062.mail.protection.outlook.com (10.152.64.78) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3348.17 via Frontend Transport; Fri, 4 Sep 2020 21:45:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=y7zfoddabga3x7oj4jymsn5pbtxlasym; d=instructure.com;
+	t=1599255940;
+	h=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=83hFFdpyK0g3538BfyY/UeuGIcWnAqY25Ab/5t8mfY4=;
+	b=Ee23bQwghTt3lACXKgzaDJFy8JFdpJgx1BFxJY2PxEO6zTiQonUfBdXZGose5kvR
+	50kkku11KEpOY22dCb4Ix1XmIiX/ZU8BqgaSwM0AKQ2PPsa1TesX1sI2AWdsGJ3WWzw
+	8Tbkdz1A8PGtiE+GAit4iEIgte7efcltzWk77y5k=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1599255940;
+	h=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=83hFFdpyK0g3538BfyY/UeuGIcWnAqY25Ab/5t8mfY4=;
+	b=eUhG+oZ1/wvqKwVWJqyaREI9z1HKlpugh3SX6dGc3L6HqIInAzgmdSWvnkizzoko
+	Nt6AqMcfcK7pApmyfhKfLyf/oGz6RnQhTOicRIMymwxoD00fcnziJiefRGgB8me7j2/
+	uTVALSIE0GbiXDGddFHuFVni32ovMkWki3kWQpTs=
+X-On-bounce-route-to: notification-service-failures-prod
+Date: Fri, 4 Sep 2020 21:45:40 +0000
+From: "2020FA-PH-641-001: Electromagnetism I" <notifications@instructure.com>
+Reply-To: reply+d48db44e904fb02c-3716~188034829-1599255939@notifications.canvaslms.com
+To: Antimike.Haynes@colostate.edu
+Message-ID: <010001745b150bdb-44abe8a8-8bf4-4621-98fe-616dec457df2-000000@email.amazonses.com>
+Subject: Zoom recording for lecture 6 9-4-2020: 2020FA-PH-641-001:
+ Electromagnetism I
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5f52b583e73a1_56c6a9f95c594a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Auto-Submitted: auto-generated
+X-SES-Outgoing: 2020.09.04-54.240.38.187
+Feedback-ID: 1.us-east-1.6bnAGrq+H33YQMZ/rl7AdPgJjS+jB1rbcCIER0hXfVM=:AmazonSES
+Return-Path:
+ 010001745b150bdb-44abe8a8-8bf4-4621-98fe-616dec457df2-000000@amazonses.com
+X-MS-Exchange-Organization-ExpirationStartTime: 04 Sep 2020 21:45:41.1389
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 5efbd1f2-37a0-46aa-63f3-08d8511bde79
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: afb58802-ff7a-4bb1-ab21-367ff2ecfc8b:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ SN1NAM01FT062.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 5efbd1f2-37a0-46aa-63f3-08d8511bde79
+X-MS-TrafficTypeDiagnostic: BN6PR07MB2817:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Oob-TLC-OOBClassifiers: OLM:1079;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:1;
+X-Forefront-Antispam-Report:
+ CIP:54.240.38.187;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:a38-187.smtp-out.amazonses.com;PTR:a38-187.smtp-out.amazonses.com;CAT:NONE;SFS:(4636009)(286005)(34756004)(7596003)(79850400001)(966005)(336012)(36736006)(7636003)(33964004)(1096003)(6506007)(83170400001)(83380400001)(356005)(9686003)(6512007)(26005)(8676002)(166002)(956004)(42882007)(71280400001)(6486002)(6916009)(131040200001)(43580500001);DIR:INB;
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Sep 2020 21:45:41.0279
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5efbd1f2-37a0-46aa-63f3-08d8511bde79
+X-MS-Exchange-CrossTenant-Id: afb58802-ff7a-4bb1-ab21-367ff2ecfc8b
+X-MS-Exchange-CrossTenant-AuthSource:
+ SN1NAM01FT062.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN6PR07MB2817
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.0950187
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3348.016
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(20160514016)(750128)(520011016)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?TVJRYWkxaEVNWitaM01nbGJXbTNmODJGWGVrQWFOOE5GZGxNRFF5cWx4QW9l?=
+ =?utf-8?B?RnVrYW9SNi9JYWp2cFhhVTVDb0lmYzk3cWFza1BjL1BwNGJEUmZJbVkxRm5W?=
+ =?utf-8?B?Rndid2JkQVp5TWFGKy96Um4xZkJhRHZEV1c1Q3F6THlzNDZZU1hjOE5OeVdm?=
+ =?utf-8?B?b25uNFpWRTNQYmdiSXdxMHZQYnN5eFY0dmdVcjF6YnUyUlE2VHhwUFlZRmI5?=
+ =?utf-8?B?WW9wMG11YStOQjFqU09pTjF6MlB5MnVSVFJ3ZmFzVGZWeWs3UG13VnBub09B?=
+ =?utf-8?B?a1dNS3N4MkFyTEs1QlhucnNPZ01qazRaNTQ4dlo1N2hjN0t0M3hMdlczRmtr?=
+ =?utf-8?B?UG5paWxFaUFjSnpzTTFSWXRGeXRlQ3h3TUkwbVBIaWEvMndQNSs1ZHNZd1JE?=
+ =?utf-8?B?K01wQ3lLcTltTThYMGpJVmxGTnNDY0xQRkMxb21kRkd5MFpiSDNGdmFoR2x3?=
+ =?utf-8?B?VU1ENklxRmFvbU44YUNmNlRVUlFRSlcrN0dxazd5Mk1CckF0WWZoQk9zcnJL?=
+ =?utf-8?B?anFyKzJidStvWjlmMUZzMmFxRlN2L3hTMlZLUklWSGdKYkRkWWQ5YWdRRUpT?=
+ =?utf-8?B?WWZWWG9ZRXBEODhwQmlyai9NN2NqRnE0YkQ0OTlMOWpqZElCaXVVc1pJVExt?=
+ =?utf-8?B?em1OTW9nbFRiUDBtMXJwRytsY2t5TXM0OVV2Ry9oSCtGV3YzMTdBblhuSnZW?=
+ =?utf-8?B?cmE1RExXYTFndldXQThJZGhaeXpZSkpid1ZRbUp5QTliVDVqSk1BcUtyZUN3?=
+ =?utf-8?B?VEpwSVRnUncyNXNzaHdvK3JZVU8yTi9FQWV2VFJVZGxmOUlSWkE0OUdncTVi?=
+ =?utf-8?B?QUtnTWxvTitseEZPb3BZWXFwVXAwTFpHbitpZWxaZ0UwRXMvTVZlZUVZbS9l?=
+ =?utf-8?B?bmFpS056L0R2MGN0MzRFSG92VWdRakFGNUJsc3c2YkhVS3JxaHJ0M3F4bEZv?=
+ =?utf-8?B?c3FwcFptRWl0SG0vOHFWaG5teDZYNzVlR2ZoR2lkeVE4RVV0VTFuZG9uMVBF?=
+ =?utf-8?B?UHAxMlY2aWxKemY2MEk3VndTYmJia1dNNUE4SEE4TVZiMGJDUmRrakZPN2dG?=
+ =?utf-8?B?VVdZL1U0RnJUcG44c1BITitYbU11RXFRWTVVNEZpSWF5WEsxdFFzMlVkWWVh?=
+ =?utf-8?B?UDNSNVVlU0o3aDBnbXBTSmF3Y3B0VElQbVdjVVBPNXlERUE1d1U5NDUzZnNU?=
+ =?utf-8?B?ZWtXQ0U5RzVzUTVmZUR1YUFYYlR6YTlZUUV2ZXcremNSUS82a2NVOHgrMlFR?=
+ =?utf-8?B?VG9BRnVHOFk3S2ZMZEFITW5uQ29pemYzWWFwVnNrakJnV2J1b0tRaFRLZEdz?=
+ =?utf-8?B?bXdZWWluR21rNVRNUzlFRzEzMXdiUS9Kc1dZbTdVN1dNQTFUajRqUmwxUnQ4?=
+ =?utf-8?B?bVhkak1Od1JUcjZCZGVLWEVDQnlETGNUVStsLzQ4UyszcG5nRGRYaFd3Q3Ny?=
+ =?utf-8?B?ZERCV1k0ZU1oVnBqY1oyRjJkb1ZlUk1QbzJIMU55b1BObC9pSDh0OE5BWE5s?=
+ =?utf-8?B?ZE9ZMk5PNGJQMmNhNm5tVGx1eVJWUThHcCtvSXlsbnVFWG1ldUxDQzlRV2Iz?=
+ =?utf-8?B?bFRON0JheTd2OXNad3RoV3VnVHpER1gyUHdRcEtiS0xXTS9ZLzBDaEczTi9Y?=
+ =?utf-8?B?TVRWQysrS3lMNUM0TEcxOGpPRmdVQ1FuTlp1ZHU1OGQ5WHZmc0plaTd2NUtC?=
+ =?utf-8?B?Q05Ja0VGcFoxQUI5bjJVRWpkcW5oc1JhUlJIbUhnVmx6d0ZuTC81bVFaRC9P?=
+ =?utf-8?B?U0Fpd0YxUW8yMWRCQU1VWW04TVBMNnVKeVVHUC9GSTlmK3Y1cmdKbjFBTjlV?=
+ =?utf-8?B?UVJZZ3ROc1N6VU1LTEVpZmppdm5BRWxrZ3lrdmI3YjVKR2lIaXJoSk1DOGxD?=
+ =?utf-8?B?K2l6RlRkcG5wNjRrZVhxSC9yVFpodkZmSWlDaUFVUUtjZ3FsNm1HUDlRS2lX?=
+ =?utf-8?B?bEtaMGVhUGc4blJBMEZKd0hoNHZ0ZkRWMkZHUWR2YWhIazlJcGNoRDluc0F5?=
+ =?utf-8?B?K1FRbkc1WXE2WDJyaHU3aE5iZ2d5UElqS0U4dW5JYk1qOGlhSVZrWjZJUVlY?=
+ =?utf-8?B?U2hzMGVRRGZnTUlyMFV5Z1BQcHh3SEdXL1JYUT09?=
+MIME-Version: 1.0
+X-TUID: Ldaa0qgNF7M3
+Content-Length: 5364
+
+----==_mimepart_5f52b583e73a1_56c6a9f95c594a8
+Content-Type: text/plain;
+ charset=UTF-8
+
+          https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F4bZQe1bcYKHwDhVLNiRXlv_RVBY2GUPSfczdVatb6BzpauCb6lnLTN8eTwmDFOOG.v9a02ai2Rjp6eeaI&amp;data=02%7C01%7CAntimike.Haynes%40colostate.edu%7C5efbd1f237a046aa63f308d8511bde79%7Cafb58802ff7a4bb1ab21367ff2ecfc8b%7C0%7C0%7C637348527439457206&amp;sdata=MDRAL76sVWUIlMRTnDh%2FpA5qI%2FH68mz8lFjpilYJ8uA%3D&amp;reserved=0
+
+
+https://colostate.instructure.com/courses/106314/announcements/949784
+
+
+
+
+
+
+          ________________________________________
+
+          You received this email because you are participating in one or more classes using Canvas.  To change or turn off email notifications, visit:
+https://colostate.instructure.com/profile/communication
+
+
+----==_mimepart_5f52b583e73a1_56c6a9f95c594a8
+Content-Type: text/html;
+ charset=UTF-8
+
+<!DOCTYPE html><html dir="ltr" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width">
+  
+  <style type="text/css">
+/*
+Changes to font size (14->16) for smaller screens
+table[class=body] is the only selector that works for all vendors
+*/
+@media only screen and (max-width: 620px) {
+  table[class=body] p,
+  table[class=body] ul,
+  table[class=body] ol,
+  table[class=body] td,
+  table[class=body] span,
+  table[class=body] a {
+    font-size: 16px !important;
+  }
+  /* remove padding for mobile so no gray shows */
+  table[class=body] .bodycell {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  /* reduce padding from 20->10 for mobile */
+  table[class=body] .maincell {
+    padding: 10px !important;
+  }
+}
+/*
+ExternalClass fixes Outlook.com / Hotmail emails
+*/
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: 100%;
+  }
+}
+  </style>
+</head>
+<!--
+background: white (could be gray)
+default sans serif fonts, 14px, 1.3, #444444
+vendor prefixes for Outlook (-ms) and iOS (-webkit)
+Margin is capitalized to fix Outlook.com
+-->
+<body class="" style="background-color:#ffffff; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; color: #444444; line-height:1.3; Margin:0; padding:0; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%;">
+
+  <!-- body: background table (if body has a color, this should match) -->
+  <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse:separate; background-color:#ffffff; width:100%; box-sizing:border-box; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+    <tr>
+      <!-- width and max-width so it can scale for mobile -->
+      <td class="bodycell" style="max-width:600px; width:100%; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; vertical-align:top; display:block; box-sizing:border-box; padding:10px; Margin:0 auto !important;">
+
+<!-- for older versions of Outlook that don't support max-width -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td>
+<![endif]-->
+
+        <!-- main: white box for content -->
+        <table class="main" style="background:#fff; width:100%; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="maincell" style="font-family:sans-serif; font-size:14px; vertical-align:top; box-sizing:border-box; padding:20px;">
+
+                    
+<p><span>https://zoom.us/rec/share/4bZQe1bcYKHwDhVLNiRXlv_RVBY2GUPSfczdVatb6BzpauCb6lnLTN8eTwmDFOOG.v9a02ai2Rjp6eeaI </span></p>
+
+
+
+            </td>
+          </tr>
+        </table>
+        <!-- /.main -->
+
+        <!-- logo: branding -->
+        <table class="logo" style="width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="logocell" style="text-align:center; vertical-align:top; box-sizing:border-box; padding:10px;">
+              <img src="https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png" alt="">
+            </td>
+          </tr>
+        </table>
+        <!-- /.logo -->
+
+        <!-- footer: gray text below main -->
+        <table class="footer" style="width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="footercell" style="font-family:sans-serif; font-size:14px; vertical-align:top; color:#a8b9c6; font-size:12px; text-align:center; padding:10px; box-sizing:border-box; ">
+
+                <a href="https://colostate.instructure.com/courses/106314/announcements/949784">
+    View announcement
+  </a> &nbsp;|&nbsp;
+
+              <a href="https://colostate.instructure.com/profile/communication" style="white-space: nowrap;">Update your notification settings</a>
+
+            </td>
+          </tr>
+        </table>
+        <!-- /.footer -->
+
+<!--[if (gte mso 9)|(IE)]>
+</td></tr></table>
+<![endif]-->
+
+      </td>
+    </tr>
+  </table>
+  <!-- /.body -->
+
+</body>
+</html>
+
+----==_mimepart_5f52b583e73a1_56c6a9f95c594a8--

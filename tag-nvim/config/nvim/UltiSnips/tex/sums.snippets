@@ -1,3 +1,10 @@
+global !p
+import sys
+sys.path.append('/home/user/Documents/Python/Utilities')
+import snippet_utils as utils
+endglobal
+
+context "utils.is_math_mode()"
 snippet sum "Sum" w
-\ds \sum_{$1}^{$2} $0
+\displaystyle \sum_{$1}^{$2} $0
 endsnippet

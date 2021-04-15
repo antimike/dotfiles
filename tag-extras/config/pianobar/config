@@ -1,2 +1,2 @@
 user = mathgeek101@gmail.com
-password_command = gpg --no-tty -q -d ~/pandora-password.gpg
+password_command = cat ~/.config/pianobar/pandora-password.mathgeek101.gpg | qubes-gpg-client -q -d 

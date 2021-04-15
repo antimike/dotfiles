@@ -7,3 +7,4 @@ repos.json
 /**/venv/lib64
 /**/mozilla/firefox/499ynfff.default-release/datareporting/**
 /**/mozilla/firefox/499ynfff.default-release/crashes/store.json.mozlz4
+tag-viewers/w3m/cookie
