@@ -18,11 +18,10 @@ Path ~/mail/professional/
 Inbox ~/mail/professional/Inbox
 
 Channel professional
-Master :professional-remote:
-Slave :professional-local:
+Far :professional-remote:
+Near :professional-local:
 #Patterns * !Archives !Lists
 Patterns *
-
 Create Both
 #Expunge Both
 SyncState *
@@ -49,11 +48,10 @@ Path ~/mail/csu/
 Inbox ~/mail/csu/Inbox
 
 Channel csu
-Master :csu-remote:
-Slave :csu-local:
+Far :csu-remote:
+Near :csu-local:
 #Patterns * !Archives
 Pattern %
-
 Create Both
 #Expunge Both
 SyncState *
@@ -78,11 +76,10 @@ Path ~/mail/personal/
 Inbox ~/mail/personal/Inbox
 
 Channel personal
-Master :personal-remote:
-Slave :personal-local:
+Far :personal-remote:
+Near :personal-local:
 #Patterns * !Archives !Lists
 Patterns *
-
 Create Both
 #Expunge Both
 SyncState *
