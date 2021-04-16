@@ -81,3 +81,72 @@
 : 1618469895:0;rcup -B media config/nvim/plugins.vim
 : 1618469993:0;mkrc -B media ~/.bash_history ~/.bash_logout ~/.viminfo ~/.zsh_history
 : 1618470022:0;tig
+: 1618470425:0;cd ~/.dotfiles
+: 1618470426:0;git pull
+: 1618470477:0;ranger
+: 1618470537:0;ls -la ~/.config/nvim | grep plugins
+: 1618470556:0;nvim host-media/config/nvim/plugins.vim
+: 1618471022:0;nvim
+: 1618471320:0;fc-list | grep Io
+: 1618471351:0;mkdir ~/.fonts
+: 1618471357:0;cd Source
+: 1618471359:0;ls
+: 1618471363:0;cd complete; ls
+: 1618471377:0;cp *.ttf ~/.fonts
+: 1618471482:0;sudo fc-cache -f -v
+: 1618471531:0;fc-list | grep Io
+: 1618471702:0;youtube
+: 1618471749:0;pyradio -s ~/.config/pyradio/stations.csv
+: 1618471758:0;pianobar
+: 1618471777:0;newsboat
+: 1618471799:0;ranger
+: 1618471908:0;mpsyt
+: 1618471999:0;reddit
+: 1618472074:0;cd ~/.dotfiles
+: 1618472105:0;ls -lsha ~ | grep font
+: 1618472143:0;ls -lsha ~/Source
+: 1618472173:0;du -h ~ | grep font
+: 1618472199:0;ranger
+: 1618472288:0;du -h ~/Source/complete
+: 1618472356:0;cd ~/.dotfiles
+: 1618472357:0;tig
+: 1618472388:0;sudo apt-get install tig -y
+: 1618472394:0;tig
+: 1618474544:0;git pull
+: 1618545440:0;pyradio
+: 1618545454:0;pyradio -s ~/.config/pyradio/stations.csv
+: 1618545459:0;pianobar
+: 1618545528:0;youtube
+: 1618545548:0;cat ~/.local.config 
+: 1618545577:0;nvim ~/.local.config
+: 1618545619:0;ls -la ~ | grep local.config
+: 1618545629:0;ranger
+: 1618545656:0;ls -la ~ | grep alias
+: 1618545663:0;youtube
+: 1618545680:0;man youtube
+: 1618545686:0;mpsyt
+: 1618545697:0;reddit
+: 1618545708:0;news
+: 1618545720:0;weather
+: 1618545727:0;stack-verflow
+: 1618545732:0;stack-overflow
+: 1618545763:0;pip3 install socli --user
+: 1618545768:0;log-installed
+: 1618545802:0;ranger
+: 1618545816:0;mpsyt
+: 1618545826:0;reddit
+: 1618545854:0;newsboat
+: 1618545861:0;stack-overflow
+: 1618545869:0;reddit
+: 1618545900:0;pip3 install mps --user
+: 1618545920:0;cd ~/.dotfiles
+: 1618545922:0;git sstatus
+: 1618545926:0;git status
+: 1618545941:0;tig
+: 1618545975:0;git pull
+: 1618546028:0;git fetch origin
+: 1618546043:0;git status
+: 1618546055:0;rcdn -B media zsh_history
+: 1618546069:0;sudo apt-get install rcm -y
+: 1618546112:0;ls -a ~ | grep rcrc
+: 1618546127:0;rcdn -B media zsh_history

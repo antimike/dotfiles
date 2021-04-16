@@ -884,3 +884,24 @@
 : 1618316399:0;git commit -m "host-dev-fedora: Firefox updates"
 : 1618316402:0;git status
 : 1618316411:0;tig
+: 1618316459:0;gita ll
+: 1618316477:0;gita add ~/Source/FEECa
+: 1618316489:0;gita add ~/Source/ngsolve-src
+: 1618316513:0;gita add ~/Source/bash-scripts
+: 1618316521:0;gita add ~/Source
+: 1618316539:0;gita add ~/Source/ngsolve-tutorials
+: 1618316558:0;gita add ~/Source/qubes-app-split-ssh
+: 1618316566:0;gita add ~/Source/dolfin
+: 1618316572:0;gita add ~/Source/bukubrow-host
+: 1618316581:0;gita add ~/Source/dealii-9.2.0
+: 1618316593:0;gita add ~/Source/docs
+: 1618316603:0;gita add ~/Source/freefem_matlab_octave_plot-public
+: 1618316611:0;gita add ~/Source/nerd-fonts
+: 1618316641:0;gita add ~/Source/FreeFEM/freefem-examples
+: 1618316644:0;gita ll
+: 1618316715:0;rm ~/QubesIncoming/untrusted/bookmarks.db
+: 1618316753:0;buku -i ~/QubesIncoming/untrusted/bookmarks.db
+: 1618316764:0;tig
+: 1618318145:0;dnf check-update
+: 1618318241:0;sudo dnf upgrade
+: 1618450417:0;nvim
