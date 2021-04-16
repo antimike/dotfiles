@@ -143,3 +143,10 @@
 : 1618545922:0;git sstatus
 : 1618545926:0;git status
 : 1618545941:0;tig
+: 1618545975:0;git pull
+: 1618546028:0;git fetch origin
+: 1618546043:0;git status
+: 1618546055:0;rcdn -B media zsh_history
+: 1618546069:0;sudo apt-get install rcm -y
+: 1618546112:0;ls -a ~ | grep rcrc
+: 1618546127:0;rcdn -B media zsh_history
