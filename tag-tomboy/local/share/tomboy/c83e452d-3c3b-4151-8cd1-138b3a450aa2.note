@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Note-Takers to Evaluate</title>
+  <text xml:space="preserve"><note-content version="0.1">Note-Takers to Evaluate
+
+Here's a list of note-taking / mind-mapping solutions currently being evaluated:
+
+<list><list-item dir="ltr"><link:internal>Zim</link:internal>
+</list-item><list-item dir="ltr">Joplin
+</list-item><list-item dir="ltr">CherryTree
+</list-item><list-item dir="ltr"><link:internal>Tomboy</link:internal>
+</list-item><list-item dir="ltr">MindMappers:
+<list><list-item dir="ltr">Labyrinth
+</list-item><list-item dir="ltr">Vym</list-item></list></list-item></list></note-content></text>
+  <last-change-date>2020-07-12T10:53:13.2991830-06:00</last-change-date>
+  <last-metadata-change-date>2020-07-12T10:54:34.9018220-06:00</last-metadata-change-date>
+  <create-date>2020-07-12T10:52:18.9313380-06:00</create-date>
+  <cursor-position>137</cursor-position>
+  <selection-bound-position>137</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>
