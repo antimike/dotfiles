@@ -1,10 +1,10 @@
 *.swp
 repos.json
 *.lock
-host-work/venv/lib/**
-host-work/venv/lib64
-host-work/venv/bin/**
-host-work/venv/lib64
-tag-firefox/mozilla/firefox/499ynfff.default-release/datareporting/**
-tag-firefox/mozilla/firefox/499ynfff.default-release/crashes/store.json.mozlz4
+/**/venv/lib/**
+/**/venv/lib64
+/**/venv/bin/**
+/**/venv/lib64
+/**/mozilla/firefox/499ynfff.default-release/datareporting/**
+/**/mozilla/firefox/499ynfff.default-release/crashes/store.json.mozlz4
 tag-viewers/w3m/cookie
