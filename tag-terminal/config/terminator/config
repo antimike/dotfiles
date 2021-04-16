@@ -1,0 +1,42 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+  broadcast_all = <Primary><Shift><Alt>a
+  broadcast_group = <Primary><Shift><Alt>g
+  broadcast_off = <Primary><Shift><Alt>o
+  edit_tab_title = <Primary><Shift>r
+  edit_terminal_title = <Primary><Shift><Alt>x
+  edit_window_title = <Primary><Shift><Alt>w
+  go_down = <Primary><Shift>j
+  go_left = <Primary>bracketleft
+  go_right = <Primary>bracketright
+  go_up = <Primary><Shift>k
+  move_tab_left = <Primary><Shift><Alt>h
+  move_tab_right = <Primary><Shift><Alt>l
+  next_tab = <Primary><Shift>l
+  page_down = <Primary><Shift>f
+  page_down_half = <Primary><Shift>d
+  page_up = <Primary><Shift>b
+  page_up_half = <Primary><Shift>u
+  prev_tab = <Primary><Shift>h
+  resize_down = <Primary><Shift>parenleft
+  resize_left = <Primary><Alt><Super>bracketleft
+  resize_right = <Primary><Alt><Super>bracketright
+  resize_up = <Primary><Shift>f
+  search = <Primary><Shift>question
+  split_horiz = <Primary><Shift><Alt>k
+  split_vert = <Primary><Alt>bracketright
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    font = Iosevka Term Medium 10
+    use_system_font = False

@@ -1,6 +1,6 @@
 " vim: syntax=vim
 " vim: filetype=vim
 
-nnoremap <M-s> <Plug>CtrlSFPrompt
+nnoremap <M-s> :CtrlSF<space>
 vnoremap <M-s> <Plug>CtrlSFWordExec
 nnoremap <M-S> :CtrlSFToggle<CR>
