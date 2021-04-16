@@ -1,0 +1,6 @@
+2021-01-23 01:12:57		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2021-01-23 01:12:57		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2021-01-23 01:12:57		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2021-01-23 01:12:57		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2021-01-23 01:12:58		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2021-01-23 01:13:02		fifo: pipe closed
