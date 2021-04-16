@@ -1,0 +1,27 @@
+CS_LAST_WORKSPACE: Inkscape plugin
+CS_WORKSPACE_BEGIN: Inkscape plugin
+edit main.py
+edit styles.py
+edit config.py
+edit constants.py
+edit vim.py
+edit normal.py
+edit /home/user/.vimrc-inkscape
+edit rofi.py
+edit config.py
+tabnext
+edit config.py
+tabnext
+edit rofi.py
+tabnext
+edit /home/user/Documents/Fall\ 2020/Physics\ 341\ (Grading)/09042020/09042020.tex
+badd +43 normal.py
+badd +106 main.py
+badd +87 styles.py
+badd +42 config.py
+badd +1 constants.py
+badd +15 vim.py
+badd +1 text.py
+badd +1 __pycache__/constants.cpython-37.pyc
+badd +18 rofi.py
+CS_WORKSPACE_END: Inkscape plugin

@@ -2256,3 +2256,33 @@ papis add ./riemannian_geometry.pdf \\
 : 1616816657:0;ranger
 : 1616873776:0;nvim
 : 1616875148:0;top
+: 1618486668:0;ranger
+: 1618486739:0;clipit --help
+: 1618486762:0;mkrc -t terminal ~/.config/clipit
+: 1618486794:0;du ~/.config/coc
+: 1618486801:0;du -h ~/.config/coc
+: 1618486867:0;man rcm
+: 1618487179:0;ranger
+: 1618487419:0;git submodule add ~/.config/nvim/inkscape-shortcut-manager tag-nvim/config/nvim
+: 1618487435:0;git submodule add ~/.config/nvim/inkscape-shortcut-manager tag-nvim/config/nvim/inkscape-shortcut-manager
+: 1618487471:0;gita super inkscape status
+: 1618487495:0;gita ll
+: 1618487616:0;ln -s ~/Source/vim-plug ~/.dotfiles/host-work/config/nvim/vim-plug
+: 1618487667:0;rcup -B work config/nvim
+: 1618487696:0;ranger
+: 1618487726:0;ls -la ~ | grep rcrc
+: 1618487736:0;rcdn -B work config/nvim
+: 1618487769:0;rm -r ~/.config/nvim
+: 1618487794:0;rm -rf ~/.config/nvim
+: 1618487803:0;sudo rm -rf ~/.config/nvim
+: 1618487815:0;rcup -B work config/nvim
+: 1618487826:0;rcup -B work config
+: 1618487882:0;rcup -B work -t nvim
+: 1618488394:0;sudo find ~ -name "plug.vim"
+: 1618488421:0;nvim
+: 1618488520:0;ranger
+: 1618488599:0;du -h ~/.local/share/nvim/site/autoload
+: 1618488622:0;du -h ~/.local/share/nvim/site/autoload/plug.vim
+: 1618488658:0;mkrc -t nvim ~/.local/share/nvim/site/autoload
+: 1618488721:0;rcdn -t library
+: 1618490118:0;tig
