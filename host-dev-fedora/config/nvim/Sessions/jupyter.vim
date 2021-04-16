@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-dev-fedora/config/nvim/Sessions/jupyter.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 14 April 2021 at 19:33:57.
+" Created by session.vim 2.13.1 on 15 April 2021 at 06:56:33.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -38,8 +38,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 52 + 52) / 105)
-exe 'vert 2resize ' . ((&columns * 52 + 52) / 105)
+exe 'vert 1resize ' . ((&columns * 95 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -55,7 +55,7 @@ if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 22
-normal! 01|
+normal! 0
 lcd ~/Source/ngsolve-tutorials/docs/html/jupyter-files/unit-1.1-poisson
 wincmd w
 argglobal
@@ -68,17 +68,17 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 44 - ((6 * winheight(0) + 25) / 51)
+let s:l = 52 - ((14 * winheight(0) + 25) / 51)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-44
+52
 normal! 0
 lcd ~/Source/ngsolve-tutorials/docs/html/jupyter-files/unit-1.1-poisson
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 52 + 52) / 105)
-exe 'vert 2resize ' . ((&columns * 52 + 52) / 105)
+exe 'vert 1resize ' . ((&columns * 95 + 105) / 210)
+exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
