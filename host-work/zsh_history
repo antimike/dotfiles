@@ -2286,3 +2286,6 @@ papis add ./riemannian_geometry.pdf \\
 : 1618488658:0;mkrc -t nvim ~/.local/share/nvim/site/autoload
 : 1618488721:0;rcdn -t library
 : 1618490118:0;tig
+: 1618491230:0;ranger
+: 1618491264:0;git status
+: 1618491269:0;git push

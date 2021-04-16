@@ -1,6 +1,6 @@
-" ~/.config/nvim/Sessions/notes.vim:
+" ~/.dotfiles/host-work/config/nvim/Sessions/notes.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 13 April 2021 at 06:28:28.
+" Created by session.vim 2.13.1 on 15 April 2021 at 06:57:25.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,7 +16,7 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex
+cd 
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -40,12 +40,17 @@ badd +10 ~/Documents/Spring-2021/Seminar/03292021/03292021.tex
 badd +354 ~/.config/nvim/vim-plug/vim-sandwich/doc/sandwich.txt
 badd +253 ~/Documents/Spring-2021/Seminar/04052021/04052021.tex
 badd +1 ~/Documents/Spring-2021/PH142/review_session_5.md
-badd +34 ~/.dotfiles/tag-nvim/config/nvim/init.vim
-badd +4 theorems.snippets
+badd +43 ~/.dotfiles/tag-nvim/config/nvim/init.vim
+badd +7 theorems.snippets
 badd +19 ~/.dotfiles/tag-nvim/config/nvim/init.syntax-range
-badd +1 ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
+badd +2 ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
 badd +59 ~/.config/nvim/vim-plug/SimpylFold/doc/SimpylFold.txt
 badd +353 ~/.config/nvim/vim-plug/inline_edit.vim/doc/inline_edit.txt
+badd +166 ~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt
+badd +0 ~/.dotfiles/tag-terminal/zshrc
+badd +4 ~/.dotfiles/tag-nvim/config/nvim/init.ctrlsf
+badd +5 ~/.dotfiles/tag-library/config/papis/config
+badd +0 ~/.dotfiles/tag-nvim/config/nvim/init.vimwiki
 argglobal
 %argdel
 set stal=2
@@ -81,7 +86,7 @@ silent! normal! zo
 silent! normal! zo
 55
 silent! normal! zo
-let s:l = 49 - ((20 * winheight(0) + 19) / 38)
+let s:l = 49 - ((17 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -266,14 +271,14 @@ silent! normal! zo
 silent! normal! zo
 277
 silent! normal! zo
-let s:l = 253 - ((19 * winheight(0) + 19) / 38)
+let s:l = 253 - ((17 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 253
 normal! 08|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
-tabedit ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
+tabedit ~/.dotfiles/tag-terminal/zshrc
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -292,14 +297,14 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 19) / 38)
+let s:l = 62 - ((3 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-2
+62
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
-tabedit ~/.dotfiles/tag-nvim/config/nvim/init.vim
+tabedit ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/theorems.snippets
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -312,28 +317,26 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 argglobal
-setlocal fdm=manual
+setlocal fdm=syntax
 setlocal fde=0
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let s:l = 34 - ((12 * winheight(0) + 7) / 14)
+let s:l = 7 - ((6 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-34
+7
 normal! 0
-lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
 argglobal
-if bufexists("~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt") | buffer ~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt | else | edit ~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt | endif
+if bufexists("~/.dotfiles/tag-nvim/config/nvim/init.vimwiki") | buffer ~/.dotfiles/tag-nvim/config/nvim/init.vimwiki | else | edit ~/.dotfiles/tag-nvim/config/nvim/init.vimwiki | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -343,17 +346,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 167 - ((3 * winheight(0) + 7) / 14)
+let s:l = 9 - ((7 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-167
-normal! 020|
-lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
+9
+normal! 0
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 tabnext 4
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
