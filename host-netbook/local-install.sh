@@ -39,3 +39,8 @@ sudo apt-get install jq -y
 pip3 install jupytext --user
 pip3 install jupyterlab --user
 pip3 install buku --user
+sudo apt-get install bison -y
+sudo apt-get install ncurses-base ncurses-bin ncurses-term ncurses-doc -y
+sudo apt-get install libncurses5-dev libncursesw5-dev libxml2-dev libzip-dev pkg-config -y
+sudo apt-get install libsodium-dev -y
+sudo apt-get install libconfig-dev libcurl4-openssl-dev libqrencode-dev libopenal-dev libalut-dev libnotify-dev python3-dev asciidoc -y
