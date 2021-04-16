@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/em2-hw6.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 April 2021 at 06:31:03.
+" Created by session.vim 2.13.1 on 15 April 2021 at 06:56:25.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -42,7 +42,7 @@ badd +4 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/notes.md
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/Element.sage
 badd +62 ~/.dotfiles/config/nvim/init.coc-nvim
 badd +1 ~/.dotfiles/config/nvim/init.misc-mappings
-badd +3194 ~/.config/nvim/vim-plug/ale/doc/ale.txt
+badd +3194 ~/Source/vim-plug/ale/doc/ale.txt
 badd +19 term://.//421770:sage
 badd +3 ~/.dotfiles/config/nvim/init.explorer
 badd +13 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/include.sty
@@ -92,16 +92,16 @@ badd +224 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/pset.cls
 badd +69 ~/Documents/Spring-2021/EM_II/Assignments/HW4/HW4.sage
 badd +41 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/macros.sty
 badd +221 ~/Documents/Spring-2021/EM_II/Assignments/HW5/HW5.tex
-badd +1 ~/.config/nvim/UltiSnips/tex/math-environments.snippets
-badd +17 ~/.config/nvim/UltiSnips/tex/annotations.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/context.snippets
-badd +132 ~/.config/nvim/UltiSnips/tex/document.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/equality-operators.snippets
-badd +21 ~/.config/nvim/UltiSnips/tex/special-chars.snippets
-badd +77 ~/.config/nvim/UltiSnips/tex/sup-subscripts.snippets
-badd +24 ~/.config/nvim/UltiSnips/tex/symbol-modifiers.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/text.snippets
-badd +13 ~/.config/nvim/UltiSnips/tex/common-functions.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/math-environments.snippets
+badd +17 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/annotations.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/context.snippets
+badd +132 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/document.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/equality-operators.snippets
+badd +21 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/special-chars.snippets
+badd +77 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/sup-subscripts.snippets
+badd +24 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/symbol-modifiers.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/text.snippets
+badd +13 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/common-functions.snippets
 badd +1 term://.//140648:ranger\ --choosefile=/tmp/nvimrUNkDQ/7\ --selectfile=\"common-functions.snippets\"\ --cmd=\"map\ \<C-o>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ edit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-t>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ tabedit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-s>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ split\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-v>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ vsplit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"
 badd +7 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/freefem/freefem.snippets
 badd +4 snippet_utils.py
@@ -109,26 +109,26 @@ badd +1 ~/.atom/packages/markdown-preview-enhanced/node_modules/@shd101wyy/mume/
 badd +38 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/references.snippets
 badd +3 ~/Documents/Wiki/journal/2021-03-23.wiki
 badd +4229 ~/.atom/packages/markdown-mindmap/node_modules/d3/d3.js
-badd +7 ~/.config/nvim/UltiSnips/tex/arrows.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/derivatives.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/exp.snippets
+badd +7 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/arrows.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/derivatives.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/exp.snippets
 badd +38 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/fractions.snippets
 badd +151 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/greek-letters.snippets
 badd +39 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/integrals.snippets
 badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/limits.snippets
 badd +30 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/list.snippets
-badd +27 ~/.config/nvim/UltiSnips/tex/quantum.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/sums.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/theorems.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/trig.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/units.snippets
+badd +27 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/quantum.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/sums.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/theorems.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/trig.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/units.snippets
 badd +5 term://.//484525:ranger\ --choosefile=/tmp/nvimsDIcJl/7\ /home/user/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex\ --cmd=\"map\ \<C-o>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ edit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-t>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ tabedit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-s>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ split\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-v>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ vsplit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"
-badd +57 ~/.config/nvim/init.vimtex
+badd +57 ~/.dotfiles/host-work/config/nvim/init.vimtex
 badd +15 ~/Documents/Spring-2021/EM_II/Assignments/HW5/HW5.sage
 badd +50 term://.//739021:sage
-badd +1 ~/.config/nvim/UltiSnips/tex/__vista__
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/__vista__
 badd +50 term://.//143824:sage
-badd +205 ~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt
+badd +205 ~/Source/vim-plug/vim-pydocstring/doc/pydocstring.txt
 badd +107 ~/Documents/Spring-2021/EM_II/Assignments/HW5/math_helpers.sage
 badd +1 query.sage
 badd +50 term://.//221410:sage
@@ -159,9 +159,9 @@ badd +1 term://.//33379:/usr/bin/zsh;\#neoterm-1
 badd +758 term://.//71212:sage
 badd +124 term://.//114709:sage
 badd +175 math_helpers.py
-badd +0 \[~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex:156-328]
-badd +0 term://.//33791:sage
-badd +0 term://.//33986:ipython
+badd +1 \[~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex:156-328]
+badd +48 term://.//875582:sage
+badd +1 term://.//875552:ipython
 argglobal
 %argdel
 set stal=2
@@ -286,7 +286,7 @@ normal! 0
 lcd ~/Documents/Python
 wincmd w
 argglobal
-if bufexists("term://.//33986:ipython") | buffer term://.//33986:ipython | else | edit term://.//33986:ipython | endif
+if bufexists("term://.//875552:ipython") | buffer term://.//875552:ipython | else | edit term://.//875552:ipython | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -335,14 +335,6 @@ normal! 05|
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-wincmd _ | wincmd |
-split
-1wincmd k
-wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -350,11 +342,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 103 + 105) / 210)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 106 + 105) / 210)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 106 + 105) / 210)
 argglobal
 setlocal fdm=expr
 setlocal fde=vimtex#fold#level(v:lnum)
@@ -370,46 +357,12 @@ silent! normal! zo
 silent! normal! zo
 339
 silent! normal! zo
-let s:l = 176 - ((18 * winheight(0) + 25) / 50)
+let s:l = 153 - ((152 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-176
+153
 normal! 0
-wincmd w
-argglobal
-enew
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=99
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-wincmd w
-argglobal
-if bufexists("term://.//33791:sage") | buffer term://.//33791:sage | else | edit term://.//33791:sage | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=99
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 27 - ((14 * winheight(0) + 7) / 15)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-27
-normal! 0
-wincmd w
-exe 'vert 1resize ' . ((&columns * 103 + 105) / 210)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 106 + 105) / 210)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 106 + 105) / 210)
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW6/radiation_fields.sage
 set splitbelow splitright
@@ -429,15 +382,14 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 67 - ((25 * winheight(0) + 25) / 50)
+let s:l = 63 - ((21 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-67
+63
 normal! 0
-lcd ~/Documents/Python
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabnext 4
+tabnext 3
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -455,7 +407,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 4
+tabnext 3
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
