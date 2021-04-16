@@ -1,0 +1,205 @@
+print "hello world"
+print("hello world")
+q
+end
+help
+help()
+quit
+help('quit')
+q
+exit()
+tuple(None)
+tuple([1, 2, 3])
+none_list = None
+none_list[1]
+test_dict = {"k1":1, "k2":2, "k3":3}
+test_dict["k1"]
+test_dict["not_a_key"]
+test_dict.get("k1")
+test_dict.get("not_a_key")
+None
+tuple(None)
+test_dict.get("not_a_key", "not_a_key")
+tuple([])
+struct = None
+struct = struct or {}
+struct
+struct.get("key", "not_there")
+import Nonlinear_Regression.py
+import Nonlinear_Regression
+import Spreadsheet_Data_Import
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+struct = {"Sheet1": ['Drive Current (mA)', 'Average Power (mW)', 'Error Bars']}
+data = get_data_from_workbook(filename, struct)
+import Spreadsheet_Data_Import as sheet
+sheet.get_data_from_workbook(filename, struct)
+data = sheet.get_data_from_workbook(filename, struct)
+data
+struct
+sheet.get_sheets_from_workbook(filename)
+data_reader.get_book(file_name = filename).to_dict()
+sheet.data_reader.get_book(file_name = filename).to_dict()
+sheet.get_sheets_from_workbook(filename, None)
+sheet.get_sheets_from_workbook(filename, "Sheet1")
+sheet.get_sheets_from_workbook(filename, "Sheet 1")
+sheet.filter_dict_by_key_list({"k1":v1, "k2":v2, "k3":v3}, "k1")
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, "k1")
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ["k1"])
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ("k1"))
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, None)
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, [])
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ())
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"})
+bool(())
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"})
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ())
+import Spreadsheet_Data_Import as sheet
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ())
+bool(*[])
+bool(*())
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ())
+import Spreadsheet_Data_Import as sheet
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, ())
+sheet.filter_dict_by_key_list({"k1":"v1", "k2":"v2", "k3":"v3"}, None)
+q
+exit
+exit()
+import Import_Spreadsheet_Data as sheet
+import Spreadsheet_Data_Import as sheet
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+struct = {'Sheet1': ['Drive Current (mA)', 'Average Power (mW)', 'Error Bars']
+}
+struct
+data = sheet.get_data_from_workbook(filename, struct)
+data
+sheet.get_sheets_from_workbook(filename)
+raw_book = sheet.get_sheets_from_workbook(filename, struct.keys())
+raw_book
+struct.keys()
+sheet.get_sheets_from_workbook(filename)
+sheet.get_sheets_from_workbook(filename, None)
+sheet.get_sheets_from_workbook(filename, 'Sheet1')
+raw_book = sheet.get_sheets_from_workbook(filename)
+raw_book
+filtered_book = sheet.filter_dict_by_key_list(raw_book.to_dict(), 'Sheet1')
+filtered_book = sheet.filter_dict_by_key_list(raw_book, 'Sheet1')
+filtered_book
+filtered_book = sheet.filter_dict_by_key_list(raw_book, ('Sheet1'))
+filtered_boo
+filtered_book = sheet.filter_dict_by_key_list(raw_book, ['Sheet1'])
+filtered_book
+sheet.get_sheets_from_workbook(filename, 'Sheet1')
+sheet.get_sheets_from_workbook(filename, ('Sheet1'))
+import Spreadsheet_Data_Import as sheet2
+sheet2.get_sheets_from_workbook(filename)
+sheet2.get_sheets_from_workbook(filename, 'Sheet1')
+exit()
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+import Diode_Laser_Analysis as analysis
+import Spreadsheet_Data_Import as sheet
+sheet.get_sheets_from_workbook(filename)
+sheet.get_sheets_from_workbook(filename, 'Sheet1')
+struct = {'Sheet1': ['Drive Current (mA)', 'Average Power (mW)', 'Error Bars']}
+sheet.get_data_from_workbook(filename)
+sheet.get_data_from_workbook(filename, struct)
+sheet.get_sheets_from_workbook(filename, 'Sheet1')
+exit()
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+import Spreadsheet_Data_Import as sheet
+sheet.get_data_from_workbook(filename)
+sheet.get_sheets_from_workbook(filename)
+s = sheet.get_sheets_from_workbook(filename)
+s
+exit()
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+import Spreadsheet_Data_Import as sheet
+sheet.get_sheets_from_workbook(filename)
+exit()
+import Spreadsheet_Data_Import as sheet
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+struct = {'Sheet1':[]}
+sheet.get_sheets_from_workbook(filename)
+sheet.get_sheets_from_workbook(filename, 'Sheet1')
+sheet.get_data_from_workbook(filename, struct)
+struct = {'Sheet1':['Drive Current (mA)', 'Average Power (mW)', 'Error Bars']}
+sheet.get_data_from_workbook(filename, struct)
+exit()
+import Spreadsheet_Data_Import as sheet
+filename = '/home/hactar/Documents/Spring 2020/Lasers/Diode Lasers Lab/Diode_Lasers_Power_Data_02132020.ods'
+struct = {'Sheet1':['Drive Current (mA)', 'Average Power (mW)', 'Error Bars']}
+sheet.get_data_from_workbook(filename, struct)
+exit()
+import math
+sqrt(5343.61)
+math.sqrt(5343.61)
+math.sqrt(1232/01)
+math.sqrt(1232.01)
+math.sqrt(392.04)
+exit()
+import infix
+exit
+exit()
+def f(x, y, z): return x + y + z
+pass
+def f(x, y, z):
+return x + y + z
+def f(x, y, z):
+	return x + y + z
+f(1, 1, 1)
+print(f(1, 1, 1))
+def f(x, y, z):
+	return x + y + z
+print(str(f(1 + 1 + 1))
+print(str(f(1 + 1 + 1)))
+def f(x, y, z):print(str(f(1 + 1 + 1)))
+def f(x, y, z):
+	print(x + y + z)
+f('hi', 'hello', 'bonjour')
+def f(x):
+	return x + 1
+print(str(1))
+print('hi')
+print(str(1))
+def f(x):
+	return x + 1
+f(1)
+def g(x, y, z):
+	return x + y + z
+g(x: 1, y: 2, z: 3)
+g(x=1, y=2, z=3)
+g(**{x:1, y:2, z:3})
+g(**{'x':1, 'y':2, 'z':3})
+g(**{'x':1, 'y':2, 'z':3, 'w':4})
+exit
+exit()
+sys.path
+import sys
+sys.path
+exit
+exit()
+import IPython
+ip = IPython.get_ipython()
+ip.Completer
+ip
+print(ip)
+IPython
+IPython.get_ipython()?
+exit()
+dict = {"boopy": "shadoopy"}
+dict.
+str = "string"
+"s" <= "string"
+"str" <= "string"
+"boo" <= "string"
+substring
+slice
+"str" in "string"
+"boo" in "string"
+filter(lambda key: "boo" in key, dict)
+f = _
+f.enumerate()
+enumerate(f)
+dict(f)
+filtered = {k: v for k, v in f}
+filtered = {k: v for k in f.keys()}
+exit()

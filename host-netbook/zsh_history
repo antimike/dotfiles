@@ -1,0 +1,1369 @@
+: 1614990474:0;source ~/.zshrc
+: 1614990486:0;cat ~/.zshrc | grep user
+: 1614990496:0;cat ~/.zshrc | grep zshrc
+: 1614990523:0;cd ~/.dotfiles
+: 1614990525:0;tig
+: 1614990600:0;ranger
+: 1614990769:0;ls ~ -la | grep zsh
+: 1614990812:0;cp ~/.zshrc ~/.zshrc.default-oh-my-zsh
+: 1614990845:0;rm ~/.zshrc; mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
+: 1614990851:0;ls ~ -la | grep zsh
+: 1614990908:0;source ~/.zshrc
+: 1614991137:0;log-installed 'boopy'
+: 1614991171:0;log-installed
+: 1614991530:0;source ~/.zshrc
+: 1614991557:0;unsetopt HIST_VERIFY
+: 1614991639:0;source ~/.zshrc
+: 1614991663:0;source ~/.zshrc >> $INSTALLED
+: 1614991681:0;echo "source ~/.zshrc >> $INSTALLED" >> $INSTALLED
+: 1614991741:0;source ~/.zshrc
+: 1614991750:0;log-installed
+: 1614991777:0;source ~/.zshrc
+: 1614991785:0;log-installed
+: 1614991836:0;source ~/.zshrc
+: 1614991840:0;log-installed
+: 1614991859:0;source ~/.zshrc
+: 1614991862:0;log-installed
+: 1614991950:0;source ~/.zshrc
+: 1614991953:0;log-installed
+: 1614991996:0;echo log-installed >> $INSTALLED
+: 1614992035:0;echo log-installed >> $INSTALLED >> $INSTALLED
+: 1614992057:0;echo "echo log-installed >> $INSTALLED >> $INSTALLED" >> $INSTALLED
+: 1614992078:0;echo "echo "echo log-installed >> $INSTALLED >> $INSTALLED" >> $INSTALLED" >> "$INSTALLED"
+: 1614992088:0;echo $INSTALLED
+: 1614992117:0;echo "Hi there" >> "$INSTALLED"
+: 1614992131:0;echo "echo "Hi there" >> "$INSTALLED"" >> "$INSTALLED"
+: 1614992162:0;echo "echo "Hi there" >> "$INSTALLED"" >> "$INSTALLED" >> "$INSTALLED"
+: 1614992224:0;source ~/.zshrc
+: 1614992233:0;log-installed
+: 1614992612:0;echo $_
+: 1614992637:0;echo $!
+: 1614992992:0;tail -n1 < ~/.zsh_history
+: 1614993059:0;sed -n "$p" ~/.zsh_history
+: 1614993074:0;sed -n '$p' ~/.zsh_history
+: 1614993097:0;nvim ~/.zsh_history
+: 1614993158:0;sed -n '$p' ~/.zsh_history | sed 's/^;//'
+: 1614993169:0;sed -n '$p' ~/.zsh_history | sed 's/.*;//'
+: 1614993178:0;sed -n '$p' ~/.zsh_history | sed 's/.*;/'
+: 1614993241:0;sed -n '$p' ~/.zsh_history | sed 's/^.*;//'
+: 1614993346:0;sed -n '$p' ~/.zsh_history | sed 's/^\(\d\+\):\d;//'
+: 1614993357:0;sed -n '$p' ~/.zsh_history | sed 's/^\(\d+\):\d;//'
+: 1614993378:0;sed -n '$p' ~/.zsh_history | sed 's/^\d+:\d;//'
+: 1614993388:0;sed -n '$p' ~/.zsh_history | sed 's/^:\d+:\d;//'
+: 1614993398:0;sed -n '$p' ~/.zsh_history | sed 's/^: \d+:\d;//'
+: 1614993438:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s+\d+:\d;//'
+: 1614993445:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+\d\+:\d;//'
+: 1614993462:0;sed -n '$p' ~/.zsh_history | sed 's/^://'
+: 1614993472:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s+//'
+: 1614993477:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+//'
+: 1614993491:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+\d\+//'
+: 1614993537:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+[0-9]\+//'
+: 1614993553:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614993632:0;echo "sed -n '$p' ~/.zsh_history | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'" >> ~/.local-aliases.sh
+: 1614993817:0;source ~/.zshrc
+: 1614993822:0;log-installed
+: 1614993862:0;source ~/.zshrc
+: 1614993865:0;log-installed
+: 1614993910:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614994034:0;vim ~/.zsh_history
+: 1614994054:0;sed -n '$p' ~/.zsh_history | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614994073:0;sed -n '$p' ~/.zsh_history
+: 1614994104:0;vim ~/.zsh_history
+: 1614994166:0;tail -n2 ~/.zsh_history
+: 1614994195:0;tail -n2 ~/.zsh_history | sed -n '$1' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614994241:0;tail -n2 ~/.zsh_history | sed -n '1p' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614994261:0;echo 'shadoopy'
+: 1614994264:0;tail -n2 ~/.zsh_history | sed -n '1p' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'
+: 1614994292:0;echo "tail -n2 ~/.zsh_history | sed -n '1p' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//'" >> ~/.local-aliases.sh
+: 1614994330:0;source ~/.zshrc
+: 1614994335:0;log-installed
+: 1614994368:0;source ~/.zshrc
+: 1614994373:0;log-installed
+: 1614994727:0;sudo find /usr -name "*fzf*"
+: 1614994757:0;sudo find / -name "*fzf*"
+: 1614994782:0;fzf --version
+: 1614994822:0;apt search fuzzy
+: 1614994929:0;sudo apt-get install fzf -y
+: 1614995074:0;apt search dev font
+: 1614995090:0;apt search powerline font
+: 1614995101:0;sudo apt-get install fonts-powerline -y
+: 1614995131:0;source ~/.zshrc
+: 1614995149:0;echo "source ~/.zshrc" >> $INSTALLED
+: 1614995166:0;echo "sudo apt-get install fonts-powerline -y"
+: 1614995199:0;echo "sudo apt-get install fonts-powerline -y" >> $INSTALLED
+: 1614995279:0;apt search devicos
+: 1614995283:0;apt search devicons
+: 1614995288:0;apt search dev icons
+: 1614995306:0;apt search nerd font
+: 1614995754:0;git clone https://github.com/ryanoasis/nerd-fonts ~/Source
+: 1614995768:0;git clone https://github.com/ryanoasis/nerd-fonts ~/Source/nerd-fonts
+: 1615004586:0;echo "git clone https://github.com/ryanoasis/nerd-fonts ~/Source" >> $INSTALLED
+: 1615004856:0;cd ~/Source/nerd-fonts
+: 1615004862:0;ls | grep install
+: 1615004873:0;./install.sh Iosevka
+: 1615004880:0;nvim
+: 1615004897:0;install.sh
+: 1615004901:0;./install.sh
+: 1615005329:0;nvim
+: 1615006825:0;apt search jedi language
+: 1615006850:0;sudo apt-get install python-jedi python3-jedi -y
+: 1615006872:0;log-installed
+: 1615006909:0;jedi-language-server
+: 1615007049:0;pip3 install -U jedi-language-server --user
+: 1615007097:0;jedi-language-server -h
+: 1615007160:0;sudo chown -R hactar:hactar ~/.config
+: 1615070108:0;sudo apt-get install hugs -y
+: 1615070134:0;log-installed
+: 1615070160:0;hugs
+: 1615074128:0;apt search idris
+: 1615082625:0;sudo find / -name "pset.cls"
+: 1615085514:0;ssh-agent -h
+: 1615085521:0;ssh-agent --list
+: 1615085532:0;ssh-agent ls
+: 1615085545:0;man ssh-agent
+: 1615085636:0;ssh-add -l
+: 1615085665:0;ssh-add
+: 1615085669:0;ssh-agent
+: 1615085674:0;ssh-add -l
+: 1615085690:0;ssh-add -h
+: 1615085745:0;eval "$(ssh-agent)"
+: 1615085750:0;ssh-add -l
+: 1615086128:0;ipconfig
+: 1615086133:0;ifconfig
+: 1615086337:0;ls ~/.ssh
+: 1615086342:0;ls -a ~/.ssh
+: 1615086519:0;ssh-add -l
+: 1615086525:0;ssh-agent
+: 1615086570:0;ssh-add -l
+: 1615086577:0;ssh-agent -l
+: 1615086621:0;ssh-add -l
+: 1615086629:0;ssh-agent quit
+: 1615086632:0;ssh-agent -h
+: 1615086641:0;ssh-agent kill
+: 1615086658:0;ssh-add kill
+: 1615086662:0;ssh-add -h
+: 1615086683:0;ssh-agent -h
+: 1615086691:0;man ssh-agent
+: 1615086700:0;ssh-agent -k
+: 1615086719:0;ssh-add -l
+: 1615086769:0;gita ll
+: 1615086787:0;gita rename .dotfiles dotfiles
+: 1615086795:0;gita rename bash-scripts bash
+: 1615086803:0;gita rename python-github python
+: 1615086813:0;gita rename Papis-Imports papis
+: 1615086822:0;gita pull dotfiles spring-2021 python
+: 1615086846:0;gita fetch python
+: 1615086854:0;gita pull python
+: 1615086862:0;gita fetch python origin
+: 1615086882:0;gita push dotfiles spring-2021 python
+: 1615097732:0;vim /etc/pam.d/sudo
+: 1615099430:0;exit
+: 1615159874:1;notmuch config get database.path
+: 1615163463:10;sudo apt-get install i3xrocks-battery -y
+: 1615163476:0;log-installed
+: 1615163492:0;ls -la ~ | grep zsh
+: 1615163528:0;sudo chown hactar:hactar ~/.zsh*
+: 1615163531:0;ls -la ~ | grep zsh
+: 1615163562:0;sudo apt-get install i3xrocks-battery -y
+: 1615163576:0;echo "sudo apt-get install i3xrocks-battery -y" >> $INSTALLED
+: 1615163586:0;regolith-look refresh
+: 1615163597:0;log-installed
+: 1615169674:0;apt search yubikey-luks
+: 1615169845:0;shred -h
+: 1615169849:0;shred --help
+: 1615170161:0;apt search luksipc
+: 1615170301:0;apt search cryptsetup
+: 1615170930:0;papis open
+: 1615170968:0;ls ~/Downloads | grep graph
+: 1615171063:0;papis add ~/Downloads/graphQM.pdf \\
+--set author "Pavel Mnev" \\
+--set title "Graph Quantum Mechanics" \\
+--set tags "path-integral graph-theory networks"
+: 1615171070:0;papis open
+: 1615171120:0;ranger ~/Downloads
+: 1615171296:0;papis add ~/Downloads/particle_propagators_discrete_spacetime.pdf \\
+--set author "Steve Johnston" \\
+--set title "Particle Propagators on Discrete Spacetime" \\
+--set tags "path-integral discrete-qm qft"
+: 1615171454:0;gita ll
+: 1615171465:0;gita super dotfiles status
+: 1615171475:0;cd ~/.dotfiles
+: 1615171478:0;tig
+: 1615171856:0;git push
+: 1615202884:0;cd .dotfiles
+: 1615202886:0;tig
+: 1615202893:0;git fetch origin
+: 1615202911:0;git pull
+: 1615202917:0;tig
+: 1615203084:0;calcurse
+: 1615275671:0;nvim
+: 1615275691:0;gpg --list-secret-keys --keyid-format 0xshort
+: 1615275749:0;echo "hi there" | gpg -a -e -r 0x210A3233 | gpg -d
+: 1615275783:0;gpg --card-status
+: 1615275815:0;ccccccrtuhgbkuknurtrvgiknfkecnctctgkcbbkuecf
+: 1615275824:0;gpg --card-status
+: 1615275901:0;:qa
+: 1615275912:0;gpg --card-status
+: 1615308510:0;cabal install taskell
+: 1615308519:0;cabal update
+: 1615124703:1;mbsync csu
+: 1615124919:0;gpg -q --no-tty --batch -d ~/csu-password.gpg
+: 1615125058:0;rm ~/csu-password.gpg
+: 1615308550:0;apt search taskell
+: 1615308557:0;cabal install taskell
+: 1615308594:0;stack search taskell
+: 1615308607:0;cabal list taskell
+: 1615308630:0;cabal install taskell
+: 1615308670:0;ghc --version
+: 1615125865:50;sudo find / -name "notmuch_abook.py"
+: 1615161433:1;abook
+: 1615124392:5;neomutt
+: 1615124447:0;notmuch restore --input=/home/hactar/notmuch_dump
+: 1615124454:0;ls ~ | grep not
+: 1615124458:1;notmuch restore --input=/home/hactar/notmuch_dumpfile.gz
+: 1615125186:425;neomutt
+: 1615125645:0;notmuch restore --input=~/notmuch_dumpfile.gz
+: 1615125657:21;notmuch restore --input=/home/hactar/notmuch_dumpfile.gz
+: 1615125682:8;neomutt
+: 1615125760:0;cd ~/mail
+: 1615125762:0;ls
+: 1615125764:0;ls -a
+: 1615125766:1;cd .notmuch
+: 1615125767:0;ls
+: 1615125769:1;cd hooks
+: 1615125770:0;ls
+: 1615125777:183209;nvim post-new
+: 1615308988:0;ranger
+: 1615316573:0;gpg --card-status
+: 1615316671:0;git pull
+: 1615316682:0;git fetch
+: 1615316686:0;git pull
+: 1615316690:0;tig
+: 1615316740:0;git fetch origin
+: 1615316744:0;git tag
+: 1615316750:0;tig
+: 1615316777:0;git tag
+: 1615316831:0;git fetch --tags
+: 1615316874:0;ssh-add -l
+: 1615316889:0;gpg --card-status
+: 1615316944:0;ssh-add -l
+: 1615316979:0;tig
+: 1615317071:0;ssh-add -l
+: 1615317077:0;git push
+: 1615317128:0;stack -h
+: 1615317188:0;apt search cabal-install
+: 1615317198:0;sudo apt-get install cabal-install -y
+: 1615317234:0;cabal sandbox --help
+: 1615317271:0;cabal info
+: 1615317276:0;cabal list
+: 1615317507:0;ls ~/.ghc
+: 1615317517:0;ls ~/.ghc/x86_64-linux-8.0.2
+: 1615317524:0;ls ~/.ghc/x86_64-linux-8.0.2/package.conf.d
+: 1615317556:0;cabal install taskell --allow-newer
+: 1615317613:0;HsColour
+: 1615317649:0;rm -fr ~/.ghc
+: 1615317656:0;cabal install taskell
+: 1615323466:0;ipython
+: 1615323623:0;free
+: 1615323674:0;ipython
+: 1615323730:0;df
+: 1615323753:0;ipython
+: 1615323781:0;sage
+: 1615323836:0;echo $PYTHONPATH
+: 1615323973:0;sage --version
+: 1615323978:0;python --version
+: 1615323982:0;python3
+: 1615324008:0;apt search sage
+: 1615324017:0;apt search sage math
+: 1615324094:0;which python
+: 1615324100:0;which python3
+: 1615324109:0;ipython --version
+: 1615324214:0;pip3 install ipython --user
+: 1615324235:0;python3 -m pip install --upgrade pip
+: 1615324244:0;pip3 install ipython --user
+: 1615324251:0;ipython3
+: 1615324417:0;pip3 install jedi --user
+: 1615324423:0;pip2 install jedi --user
+: 1615324516:0;curl -fsSl https://raw.githubusercontent.com/tridactyl/native_messenger/master/installers/install.sh -o /tmp/trinativeinstall.sh && sh /tmp/trinativeinstall.sh 1.21.0
+: 1615324535:0;log-installed
+: 1615324591:0;ipython
+: 1615324969:0;python3
+: 1615325113:0;ipython3
+: 1615325443:0;python3
+: 1615326601:0;ipython3
+: 1615328504:0;cabal install taskell
+: 1615328520:0;stack install taskell
+: 1615328597:0;cd ~/Source
+: 1615328599:0;ls
+: 1615328603:0;mkdir taskell
+: 1615328606:0;cd taskell
+: 1615328614:0;cabal sandbox init
+: 1615328653:0;cabal update
+: 1615328722:0;cabal install taskell
+: 1615328758:0;apt search ghc
+: 1615328850:0;cabal list taskell
+: 1615328866:0;cabal info taskell
+: 1615328900:0;cabal install taskell-1.9
+: 1615328966:0;cabal install taskell-1.8
+: 1615328971:0;cabal install taskell-1.7
+: 1615328983:0;cabal install taskell-1.6
+: 1615328987:0;cabal install taskell-1.5
+: 1615328992:0;cabal install taskell-1.4
+: 1615328997:0;cabal install taskell-1.3
+: 1615329004:0;cabal install taskell-1.2
+: 1615329008:0;cabal install taskell-1.1
+: 1615329014:0;cabal install taskell-1.0
+: 1615329073:0;apt search taskell
+: 1615329165:0;sudo apt-get install libtinfo5 -y
+: 1615329185:0;sudo dpkg -i ~/Downloads/taskell-1.10.1_x86-64-linux.deb
+: 1615329194:0;cd ~/.dotfiles
+: 1615329195:0;taskell
+: 1615329838:0;tig
+: 1615330103:0;git branch reorganize-netbook
+: 1615330110:0;git branch
+: 1615330117:0;git checkout reorganize-netbook
+: 1615330121:0;git status
+: 1615330133:0;ranger
+: 1615330176:0;nvim
+: 1615330207:0;tig
+: 1615330223:0;git status
+: 1615330225:0;git push
+: 1615330236:0;git pull --tags
+: 1615330258:0;rcdn
+: 1615332278:0;git branch
+: 1615332289:0;git checkout work
+: 1615332297:0;ranger
+: 1615334284:0;git status
+: 1615334290:0;cd ~/.dotfiles
+: 1615334293:0;git status
+: 1615334323:0;git stash create-netbook-host-dir
+: 1615334347:0;git stash save --include-untracked
+: 1615334386:0;mkrc -t git
+: 1615334390:0;git stash save --include-untracked
+: 1615334401:0;git status
+: 1615334410:0;rcup -t git
+: 1615334419:0;git stash save --include-untracked
+: 1615334430:0;git status
+: 1615334439:0;git branch reorganize-netbook
+: 1615334448:0;git checkout reorganize-netbook
+: 1615334454:0;git stash apply
+: 1615334460:0;git status
+: 1615334471:0;git add host-netbook/
+: 1615334484:0;git commit -m "Added 'host-netbook' dir with rcrc file"
+: 1615334548:0;git checkout netbook config/nvim/Sessions
+: 1615334554:0;ranger
+: 1615334594:0;git status
+: 1615334631:0;git add .
+: 1615334633:0;git status
+: 1615334648:0;git reset HEAD host-work/rcrc
+: 1615334653:0;git status
+: 1615334670:0;git commit -m "Added Vim sessions to 'host-netbook'"
+: 1615334732:0;ranger
+: 1615334826:0;git checkout netbook local/share/zathura
+: 1615334831:0;ranger
+: 1615334902:0;git checkout netbook local
+: 1615334904:0;ranger
+: 1615334966:0;git checkout work local
+: 1615334968:0;ranger
+: 1615334976:0;git status
+: 1615334984:0;git diff host-work/rcrc
+: 1615334998:0;vim host-work/rcrc
+: 1615335005:0;git status
+: 1615335020:0;git add .
+: 1615335021:0;git status
+: 1615335041:0;git commit -m "Added host-specific Zathura bookmarks and history"
+: 1615335049:0;ranger
+: 1615335479:0;git status
+: 1615335489:0;git diff host-netbook/rcrc
+: 1615335501:0;git add .
+: 1615335525:0;git commit -m "Removed host-specific Zathura bookmarks; added 'debian' tag to host-netbook rcrc file"
+: 1615335528:0;git status
+: 1615335618:0;git checkout netbook local-install.sh local-aliases.sh install.sh
+: 1615335632:0;ranger
+: 1615335654:0;git checkout netbook local.config
+: 1615335657:0;ranger
+: 1615335725:0;git checkout work local-install.sh local-aliases.sh local.config
+: 1615335731:0;ranger
+: 1615335742:0;git checkout work local-install.sh
+: 1615335750:0;git checkout work install.sh
+: 1615335752:0;ranger
+: 1615335758:0;git status
+: 1615335765:0;git add .
+: 1615335782:0;git commit -m "Added local-* files to host-netbook directory"
+: 1615335786:0;ranger
+: 1615335976:0;git checkout work tag-tex --recursive
+: 1615335996:0;git checkout work tag-tex --recurse-submodules
+: 1615335999:0;ranger
+: 1615336013:0;git status
+: 1615336032:0;git checkout origin/work --recurse-submodules
+: 1615336065:0;ranger
+: 1615336083:0;git pull --recurse-submodules
+: 1615336099:0;git checkout reorganize-netbook
+: 1615336104:0;git status
+: 1615336114:0;rcup -t git
+: 1615336124:0;git status
+: 1615336137:0;git pull --recurse-submodules
+: 1615336181:0;git push -u origin reorganize-netbook
+: 1615336198:0;git pull --recurse-submodules
+: 1615336203:0;ranger
+: 1615336219:0;git fetch --recurse-submodules
+: 1615336226:0;git pull --recurse-submodules
+: 1615336229:0;ranger
+: 1615336239:0;git submodule
+: 1615336289:0;git submodule --update --init --recursive
+: 1615336299:0;git submodule update --init --recursive
+: 1615336303:0;ranger
+: 1615336402:0;git mv tag-tex/texmf/tex/latex/local/local tag-tex/texmf/tex/latex/antimike
+: 1615336405:0;ranger
+: 1615336420:0;git submodule
+: 1615336441:0;ranger
+: 1615336510:0;git checkout work tag-tex
+: 1615336529:0;ranger
+: 1615336593:0;git mv tag-tex/texmf host-netbook
+: 1615336603:0;git submodule
+: 1615336615:0;ranger
+: 1615336649:0;git submodule
+: 1615336670:0;git status
+: 1615336718:0;git checkout work tag-tex
+: 1615336720:0;git status
+: 1615336780:0;tig
+: 1615336816:0;git checkout master .gitmodules
+: 1615336817:0;git status
+: 1615336822:0;tig
+: 1615336845:0;git checkout work .gitmodules
+: 1615336848:0;git status
+: 1615336852:0;tig
+: 1615336863:0;ranger
+: 1615336885:0;tig
+: 1615336925:0;git checkout reorganize-netbook
+: 1615336935:0;rm -r tag-tex
+: 1615336938:0;git status
+: 1615336948:0;git checkout reorganize-netbook
+: 1615336952:0;git status
+: 1615336962:0;git checkout reorganize-netbook --hard
+: 1615336975:0;git reset reorganize-netbook --hard
+: 1615336979:0;git status
+: 1615336982:0;ranger
+: 1615337037:0;git cp tag-tex/texmf host-netbook
+: 1615337174:0;git mv tag-tex/texmf/tex/latex/local/ tag-tex/texmf/tex/latex/antimike
+: 1615337176:0;ranger
+: 1615337226:0;git mv tag-tex/texmf/tex/latex/antimike/ tag-tex/texmf/tex/latex/local
+: 1615337259:0;git mv tag-tex/texmf/tex/latex/local/local tag-tex/texmf/tex/latex/antimike
+: 1615337261:0;ranger
+: 1615337281:0;git submodule
+: 1615337679:0;git mv tag-tex/texmf host-netbook/
+: 1615337682:0;git status
+: 1615337703:0;ranger
+: 1615337734:0;git commit -m "Moved tex submodule to 'host-netbook'"
+: 1615337802:0;ranger
+: 1615337836:0;git status
+: 1615337854:0;git add .; git commit -m "Removed 'qubes' tag from 'host-netbook' rcrc file"
+: 1615337868:0;ranger
+: 1615337889:0;git checkout netbook/mutt
+: 1615337900:0;git checkout netbook mutt
+: 1615337903:0;ranger
+: 1615337979:0;git checkout netbook mailcap msmtp mbsync procmailrc
+: 1615337987:0;ranger
+: 1615338025:0;git checkout netbook mailcap msmtprc mbsyncrc procmailrc notmuch-config
+: 1615338028:0;ranger
+: 1615338236:0;git checkout netbook pubsrc
+: 1615338238:0;ranger
+: 1615338254:0;git status
+: 1615338260:0;git add .
+: 1615338262:0;git status
+: 1615338316:0;git reset HEAD host-netbook/pubsrc
+: 1615338318:0;git status
+: 1615338348:0;git reset HEAD host-netbook/config/papis/
+: 1615338350:0;git status
+: 1615338369:0;git commit -m "Added mail-related files to 'host-netbook'"
+: 1615338371:0;git add .
+: 1615338374:0;git status
+: 1615338389:0;git commit -m "Added library-related files to 'host-netbook'"
+: 1615338396:0;ranger
+: 1615338505:0;git checkout netbook config/nvim
+: 1615338508:0;ranger
+: 1615338569:0;git status
+: 1615338575:0;git add .; git status
+: 1615338581:0;git push
+: 1615338602:0;rcup -B netbook
+: 1615338704:0;nvim
+: 1615338714:0;git status
+: 1615338723:0;ranger
+: 1615338788:0;rcup -B netbook -t nvim
+: 1615338795:0;ls ~/.config/nvim
+: 1615338805:0;ranger
+: 1615338833:0;ls ~ | grep -i tex
+: 1615338841:0;ls -la | grep tex
+: 1615338855:0;ls -la ~ | grep tex
+: 1615338873:0;ls -la ~/texmf/tex/latex/antimike | grep tex
+: 1615338894:0;ranger
+: 1615339142:0;git checkout netbook config/nvim
+: 1615339144:0;ranger
+: 1615339175:0;rcup -B netbook
+: 1615339186:0;ls ~/.config/nvim
+: 1615339197:0;rcup -B 'netbook'
+: 1615339200:0;ls ~/.config/nvim
+: 1615339212:0;rcdn
+: 1615339227:0;rcdn -B netbook
+: 1615339232:0;git status
+: 1615339237:0;ranger
+: 1615339258:0;rcdn -h
+: 1615339275:0;rcdn -B netbook
+: 1615339315:0;ls | -la | grep local
+: 1615339325:0;ls -la ~ | grep local
+: 1615339452:0;man rcdn
+: 1615339518:0;lsrc
+: 1615339535:0;cat ~/.dotfiles/host-netbook/rcrc
+: 1615339578:0;ranger
+: 1615339654:0;git status
+: 1615339656:0;git add .
+: 1615339658:0;git status
+: 1615339679:0;git commit -m "Corrected typo in home directory in host-netbook/rcrc"
+: 1615339690:0;rcup -B netbook
+: 1615339723:0;ranger
+: 1615339771:0;git submodule update --init --recursive --remote
+: 1615339807:0;git submodule
+: 1615339865:0;git submodule update --init --recursive
+: 1615339881:0;git submodule update --recursive --remote
+: 1615339897:0;git pull --recurse-submodules
+: 1615339905:0;ranger
+: 1615340006:0;git submodule update --recursive --remote
+: 1615340011:0;git pull
+: 1615340015:0;git fetch
+: 1615340026:0;git submodule update --recursive --remote
+: 1615340080:0;git submodule foreach git pull origin master
+: 1615340089:0;git submodule foreach git pull origin
+: 1615340104:0;git branch
+: 1615340130:0;git submodule foreach git pull origin reorganize-netbook
+: 1615340158:0;git submodule foreach git pull origin main
+: 1615340184:0;git submodule update --remote --recursive
+: 1615340220:0;ls host-netbook/texmf/tex/latex/antimike
+: 1615340240:0;git submodule foreach git pull
+: 1615340278:0;git submodule update --init --recursive
+: 1615340293:0;git submodule update --remote --recursive
+: 1615340303:0;git submodule update --init --recursive
+: 1615340311:0;git submodule foreach git pull
+: 1615340327:0;git submodule foreach git pull origin main
+: 1615340362:0;git submodule foreach git checkout origin/main
+: 1615340374:0;ranger
+: 1615340396:0;nvim
+: 1615340445:0;rcdn config/nvim/init.vim
+: 1615340457:0;ranger
+: 1615340576:0;rcup -B netbook config/nvim/init.vim
+: 1615340579:0;nvim
+: 1615340592:0;tig
+: 1615117346:222218;nvim
+: 1615410439:0;ranger
+: 1615451103:0;nvim ~/.TOTRY.md
+: 1615600027:0;git fetch origin
+: 1615600323:0;tig
+: 1615600627:0;ranger
+: 1615601856:0;tig
+: 1615602106:0;nvim
+: 1615602119:0;tig
+: 1615602197:0;nvim
+: 1615602258:0;nvim ~/.gitconfig
+: 1615602351:0;tig
+: 1615602606:0;nvim .gitignore
+: 1615602883:0;git check-ignore host-netbook/venv
+: 1615603059:0;nvim .gitibnore
+: 1615603065:0;nvim .gitignore
+: 1615603133:0;git check-ignore host-netbook/mozilla/firefox/499ynfff.default-release/datareporting/boopy
+: 1615603176:0;git check-ignore host-netbook/mozilla/firefox/499ynfff.default-release/datareporting/boopy/shadoopy
+: 1615603208:0;git check-ignore ../host-netbook/mozilla/firefox/499ynfff.default-release/datareporting/boopy/shadoopy
+: 1615603232:0;git check-ignore ~/Documents
+: 1615603303:0;mkrc -B netbook -S mozilla ~/.mozilla
+: 1615603320:0;ls -la ~ | grep moz
+: 1615603338:0;mkrc -B netbook ~/.mozilla
+: 1615603353:0;ranger
+: 1615759504:0;git fetch origin
+: 1615760412:0;git pull
+: 1615760418:0;tig
+: 1615761832:0;ranger
+: 1615762034:0;git checkout origin/netbook zshrc
+: 1615762038:0;ranger
+: 1615762173:0;rcdn -t terminal
+: 1615762354:0;rcup -B netbook -t terminal
+: 1615762462:0;ranger
+: 1615762507:0;nvim .gitignore
+: 1615762531:0;tig
+: 1615762933:0;ranger
+: 1615762950:0;gpg card-status
+: 1615762986:0;man gpg
+: 1615762993:0;gpg --card-status
+: 1615763005:0;ls -a ~ | grep gpg
+: 1615763043:0;nvim
+: 1615768617:0;gpg --card-status
+: 1615768624:0;gpg --list-secret-keys
+: 1615768699:0;nvim switch-encryption-keys.sh
+: 1615769401:0;sudo chmod +x switch-encryption-keys.sh
+: 1615769445:0;./switch-encryption-keys.sh ./*.gpg
+: 1615769668:0;gpg -d ~/.csu-password.gpg
+: 1615769728:0;taskell
+: 1615769751:0;git checkout origin/netbook taskell.md
+: 1615769755:0;taskell
+: 1615769764:0;tig
+: 1615769879:0;git push
+: 1615770068:0;git checkout origin/netbook calcurse/conf
+: 1615770082:0;ranger
+: 1615770120:0;git checkout origin/work tag-crypto
+: 1615770124:0;ranger
+: 1615770315:0;nvim switch-encryption-keys.sh
+: 1615770383:0;sudo chmod +x ./switch-encryption-keys.sh
+: 1615770435:0;./switch-encryption-keys.sh ./tag-crypto/*.gpg ./tag-crypto/*.asc
+: 1615770448:0;ranger
+: 1615770488:0;rm ./tag-crypto/*.gpg_ ./tag-crypto/*.asc_
+: 1615770492:0;ranger
+: 1615770508:0;rm ./tag-crypto/*.gpg_
+: 1615770510:0;ranger
+: 1615770582:0;rcup -t crypto
+: 1615770733:0;rcup -B netbook
+: 1615770748:0;ranger
+: 1615770976:0;calcurse
+: 1615771025:0;ranger
+: 1615771120:0;nvim
+: 1615771249:0;pip3 install pint --user
+: 1615771283:0;ipython3
+: 1615771330:0;pip3 install mendeleev --user
+: 1615771473:0;pip2 install mendeleev --user
+: 1615771491:0;pip3 install mendeleev --user
+: 1615771561:0;pip3 install pandas --user
+: 1615771803:0;python3 -m venv ~/.dotfiles/host-netbook/venv
+: 1615771824:0;sudo apt-get install python3-venv -y
+: 1615771856:0;log-installed
+: 1615771862:0;ranger
+: 1615772055:0;source ~/.zshrc
+: 1615772080:0;echo "sudo apt-get install python3-venv -y" >> $INSTALLED
+: 1615772086:0;ranger
+: 1615772104:0;git status
+: 1615772130:0;ranger
+: 1615772174:0;python3 -m venv ~/.dotfiles/host-netbook/venv
+: 1615772361:0;rcup -B netbook venv
+: 1615772365:0;ranger
+: 1615772439:0;rcup -B netbook -t crypto
+: 1615772461:0;rcup -t crypto
+: 1615772546:0;~/.venv/bin/activate
+: 1615772591:0;la -la ~/.venv/bin
+: 1615772624:0;sudo ~/.venv/bin/activate
+: 1615772652:0;~/.venv/bin/activate
+: 1615772663:0;~/.venv/bin/activate.csh
+: 1615772666:0;~/.venv/bin/activate.fish
+: 1615772686:0;~/.dotfiles/host-netbook/venv/activate
+: 1615772708:0;~/.dotfiles/host-netbook/venv/bin/activate
+: 1615772737:0;python3 -m venv ~/.venv2
+: 1615772773:0;~/.venv2/bin/activate
+: 1615772786:0;chmod +x ~/.venv/bin/activate
+: 1615772795:0;sudo chmod +x ~/.venv/bin/activate
+: 1615772804:0;~/.venv/bin/activate
+: 1615772815:0;which python
+: 1615772819:0;which python3
+: 1615772838:0;deactivate
+: 1615772859:0;source ~/.venv/bin/activate
+: 1615772864:0;which python
+: 1615772869:0;which pip
+: 1615772874:0;which pip3
+: 1615772941:0;pip3 install numpy scipy mendeleev pint
+: 1615773945:0;rig
+: 1615773948:0;tig
+: 1615774305:0;vim file
+: 1615774308:0;rm file
+: 1615774311:0;git status
+: 1615774326:0;git checkout -- local-install.sh
+: 1615774329:0;git status
+: 1615774344:0;sage
+: 1615774476:0;echo $PATH
+: 1615774556:0;deactivate
+: 1615774559:0;sage
+: 1615162007:0;neomutt
+: 1615897306:0;mail
+: 1615897311:0;neomutt
+: 1615897756:0;gita ll
+: 1615897770:0;gita pull spring-2021
+: 1615897844:0;cd ~/Documents/Spring\ 2021
+: 1615897848:0;cd ~/Documents/Spring-2021
+: 1615897857:0;cd ~/Documents/spring-2021
+: 1615897860:0;tig
+: 1615897946:0;git status
+: 1615897960:0;git checkout -- .
+: 1615897962:0;git status
+: 1615897973:0;git pull
+: 1615897998:0;tig
+: 1615898104:0;ranger
+: 1615898116:0;git status
+: 1615898166:0;ranger
+: 1615907462:0;gita pull spring-2021
+: 1615907474:0;nvim
+: 1615907582:0;gita pull python
+: 1615907934:0;which python
+: 1615907938:0;which python3
+: 1615907973:0;source ~/.venv/bin/activate
+: 1615907976:0;which python
+: 1615907986:0;which pip
+: 1615907988:0;which pip3
+: 1615908028:0;pip3 install numpy scipy sympy pint uncertainties
+: 1615908054:0;python3 --version
+: 1615908212:0;cd ~/.dotfiles
+: 1615908216:0;tig
+: 1615908353:0;git fetch origin
+: 1615908357:0;git pull
+: 1615908366:0;git status
+: 1615908368:0;tig
+: 1615908458:0;sage --version
+: 1615908499:0;apt search sagemath
+: 1615916784:0;ipython
+: 1615971214:0;gita pull spring 2021
+: 1615971229:0;gita super spring-2021 fetch origin
+: 1615971242:0;gita pull spring-2021
+: 1615971335:0;gita super spring-2021 status
+: 1615971351:0;gita super spring-2021 checkout -- .
+: 1615971362:0;gita pull spring-2021
+: 1615971376:0;gita super spring-2021 status
+: 1615971389:0;gita super spring-2021 checkout -- .
+: 1615971397:0;gita super spring-2021 status
+: 1615971416:0;gita super spring-2021 pull
+: 1615971547:0;lljjjldD
+: 1615971574:0;jjjjjjjjjjkkkq\sx
+: 1615971590:0;\xs
+: 1615971594:0;/return
+: 1615971622:0;gita ll
+: 1615971634:0;gita super python fetch origin
+: 1615971642:0;gita super python pull
+: 1616028124:0;python2
+: 1616028199:0;sage
+: 1616028510:0;apt search sagemath-jupyter
+: 1616028578:0;lsb_release -a
+: 1616195354:0;apt search tilix
+: 1616195366:0;sudo apt-get install tilix -y
+: 1616195393:0;man tilix
+: 1616195437:0;tilix -h
+: 1616195461:0;tilix -h | grep quake
+: 1616195495:0;tilix --help-all | grep quake
+: 1616195501:0;tilix
+: 1616195708:0;tilix --quake
+: 1616195724:0;ranger
+: 1616195815:0;gita fetch
+: 1616195831:0;gita pull
+: 1616195858:0;~/Documents/spring-2021
+: 1616195860:0;tig
+: 1616195901:0;git status
+: 1616195908:0;git checkout -- .
+: 1616195911:0;git status
+: 1616195943:0;git checkout -- .
+: 1616195946:0;git status
+: 1616195950:0;git pull
+: 1616195956:0;git status
+: 1616196066:0;apt search onedrive
+: 1616196094:0;sudo apt-get install onedrive -y
+: 1616196110:0;onedrive -h
+: 1616196124:0;ranger
+: 1616198692:0;tig
+: 1616425874:0;calcurse
+: 1616425903:0;ranger
+: 1616472568:0;gita pull
+: 1616472640:0;ranger
+: 1616472731:0;.dotfiles/host-netbook/texmf/tex/latex/antimike/
+: 1616472738:0;git checkout main
+: 1616472742:0;git pull
+: 1616472748:0;gita pull tex
+: 1616472778:0;~/Documents/spring-2021 
+: 1616472781:0;tig
+: 1616472788:0;git status
+: 1616472796:0;git checkout -- .
+: 1616472798:0;git status
+: 1616472800:0;git pull
+: 1616473051:0;papis open sage
+: 1616473057:0;papis open
+: 1616473071:0;man papis
+: 1616473123:0;papis -cc
+: 1616473136:0;man papis
+: 1616473146:0;papis --clear-cache
+: 1616473154:0;papis open sage
+: 1616473946:0;E<x, y, z> = EuclideanSpace()
+: 1616473948:0;sage
+: 1616474770:0;~/.venv/bin/activate
+: 1616474777:0;source ~/.venv/bin/activate
+: 1616474783:0;which pip3
+: 1616474786:0;pip3 install tabulate
+: 1616474794:0;man tabulate
+: 1616474798:0;tabulate -h
+: 1616475483:0;ipython
+: 1616475896:0;echo 'pip3 install tabulate --user' >> ~/$INSTALLED
+: 1616475910:0;papis open sage
+: 1616515076:0;neomutt
+: 1616615907:0;ranger
+: 1617118925:0;gita ll
+: 1617119004:0;cd .dotfiles
+: 1617119009:0;tig
+: 1617119232:0;isympy
+: 1617119282:0;cd host-netbook/texmf/tex/latex/antimike
+: 1617119286:0;tig
+: 1617119299:0;git status
+: 1617119305:0;git branch
+: 1617119311:0;git fetch origin
+: 1617119315:0;git pull
+: 1617119324:0;cd ~/.dotfiles
+: 1617119328:0;git status
+: 1617119342:0;git add host-netbook/texmf/
+: 1617119346:0;git status
+: 1617119365:0;git commit -m "Pulled updates for LaTeX subrepo"
+: 1617119368:0;git push
+: 1617119381:0;git fetch origin
+: 1617119387:0;git pull
+: 1617119425:0;gita super spring-2021 status
+: 1617119451:0;cd ~/Documents/spring-2021
+: 1617119452:0;tig
+: 1617119543:0;git status
+: 1617119551:0;git push
+: 1617203858:0;calcurse
+: 1617204213:0;gita pull spring-2021
+: 1617204249:0;nvim
+: 1617206539:0;gita pull github-python
+: 1617206542:0;gita ll
+: 1617206549:0;gita pull python
+: 1617206563:0;gita super python fetch origin
+: 1617206570:0;gita pull python
+: 1617206579:0;gita pull papis
+: 1617206844:0;gita ll
+: 1617206868:0;gita super dotfiles fetch origin
+: 1617206938:0;gita super dotfiles status
+: 1617206949:0;gita super dotfiles add host-netbook/mozilla
+: 1617206965:0;gita super dotfiles commit -m "Firefox updates for host-netbook"
+: 1617206970:0;gita super dotfiles status
+: 1617206977:0;gita pull dotfiles
+: 1617206985:0;gita push dotfiles
+: 1617207025:0;cd ~/.dotfiles
+: 1617207026:0;tig
+: 1617207638:0;gita super dotfiles submodule update
+: 1617207652:0;gita super dotfiles status
+: 1617207668:0;gita super tex status
+: 1617207678:0;gita super tex pull
+: 1617207695:0;gita super dotfiles status
+: 1617207828:0;pip3 install papis-scihub --user
+: 1617207843:0;log-installed
+: 1617207995:0;sudo apt-get install jq -y
+: 1617208025:0;log-installed
+: 1617208415:0;rcup -B netbook -t nvim
+: 1617208699:0;nvim
+: 1617301332:0;neomutt
+: 1617301430:0;ls ~ | grep csu
+: 1617301438:0;ls -a ~ | grep csu
+: 1617301618:0;gpg --card-status
+: 1617301780:0;gpg -d ~/.csu-password.gpg | gpg -a -o ~/.csu-password-mathgeek.gpg -e -r mathgeek101@gmail.com
+: 1617301806:0;cat ~/.csu-password-mathgeek.gpg
+: 1617301904:0;gpg -d ~/.csu-password-mathgeek.gpg
+: 1617301948:0;rm ~/.csu-password-mathgeek.gpg
+: 1617301957:0;rm ~/.csu-password.gpg
+: 1617302079:0;read -s -p "CSU password: " csu-passwd
+: 1617302091:0;man read
+: 1617302131:0;read -s csu-passwd
+: 1617302228:0;read -s CSUPASS
+: 1617302264:0;gpg -e -a -o ~/.csu-password.gpg -r mathgeek101@gmail.com
+: 1617302297:0;echo $CSUPASS | gpg -e -a -o ~/.csu-password.gpg -r mathgeek101@gmail.com
+: 1617302585:0;msmtp --serverinfo --host=smtp.office365.com --tls=on --tls-certcheck=off
+: 1617307720:0;man msmtp
+: 1617308248:0;ranger
+: 1617375504:0;nvim
+: 1617375878:0;gita super python fetch origin
+: 1617375895:0;gita pull python
+: 1617376265:0;nvim
+: 1617376525:0;ranger
+: 1617376597:0;cd ~/Source/python-github
+: 1617376604:0;tig
+: 1617376650:0;git pull
+: 1617376667:0;nvim
+: 1617377167:0;ranger
+: 1617377714:0;pip3 install vim --user
+: 1617377779:0;nvim
+: 1617378585:0;papis open spin
+: 1617378590:0;papis open
+: 1617378605:0;papis -h | grep cache
+: 1617378613:0;papis --clear-cache
+: 1617378618:0;papis open spin
+: 1617381804:0;nvim
+: 1617391681:0;cd ~/Downloads
+: 1617391686:0;ls | grep vim
+: 1617391694:0;gunzip tex.vim.gz
+: 1617391701:0;ls | grep vim
+: 1617391747:0;nvim
+: 1617724494:0;ranger
+: 1617947613:0;gita pull
+: 1617948631:0;ipython
+: 1617995829:0;nvim
+: 1617996192:0;sage --version
+: 1617996477:0;gita super python fetch origin
+: 1617996552:0;gpg --card-status
+: 1617996570:0;gpg --list-secret-keys
+: 1617996582:0;sudo bash
+: 1617996613:0;gpg --card-status
+: 1617996624:0;gita super python fetch origin
+: 1617996640:0;gita super dotfiles fetch origin
+: 1617996649:0;gita super dotfiles pull
+: 1617996656:0;tig
+: 1617996731:0;apt search jupytext
+: 1617997023:0;pip3 install jupytext --user
+: 1617997031:0;log-installed
+: 1617997042:0;pip3 install jupyterlab --user
+: 1617997552:0;nvim
+: 1617997637:0;log-installed
+: 1617997850:0;lsb_release -a
+: 1618007395:0;cd ~/Downloads
+: 1618007468:0;ranger
+: 1618007494:0;cd ~/Source
+: 1618007515:0;tar -xjf *.tar.bz2
+: 1618008515:0;cd SageMath
+: 1618008531:0;git status
+: 1618008540:0;ls
+: 1618008567:0;./sage --help
+: 1618008584:0;./sage --help | grep -n
+: 1618008603:0;./sage --help | grep "\-n"
+: 1618008616:0;./sage
+: 1618008651:0;sage
+: 1618008708:0;which sage
+: 1618008729:0;ls -la /usr/bin | grep sage
+: 1618008885:0;apt remove sage
+: 1618008893:0;sudo apt remove sage
+: 1618008901:0;sudo apt remove sagemath
+: 1618008943:0;./sage
+: 1618008988:0;sudo ln -s ~/Source/SageMath/sage /usr/local/bin/sage
+: 1618008992:0;cd ~
+: 1618008995:0;sage
+: 1618009014:0;which sage
+: 1618009022:0;cd /usr/bin
+: 1618009027:0;ls -la | grep sage
+: 1618009040:0;rm sage
+: 1618009048:0;sudo rm sage
+: 1618009060:0;which sage
+: 1618009064:0;cd ~
+: 1618009066:0;sage
+: 1618009135:0;pip3 install buku --user
+: 1618009144:0;log-installed
+: 1618009158:0;cd ~/.dotfiles
+: 1618009161:0;tig
+: 1618009367:0;man rcup
+: 1618009420:0;ranger
+: 1618009448:0;rcup -t firefox
+: 1618009762:0;rcup -t firefox -d local/share/buku
+: 1618009769:0;buku
+: 1618009795:0;buku o
+: 1618009813:0;ls ~/.local/share/buku
+: 1618009824:0;buku -h
+: 1618009828:0;buku -h | grep list
+: 1618009841:0;buku -h | grep explore
+: 1618009850:0;buku -h | grep search
+: 1618009860:0;buku teleparallel
+: 1618009883:0;buku -r
+: 1618009899:0;buku --oa
+: 1618009912:0;buku -h | grep database
+: 1618009918:0;buku -h | grep open
+: 1618009927:0;buku -o
+: 1618009940:0;buku -h | grep config
+: 1618009944:0;man buku
+: 1618009950:0;buku -h | grep power
+: 1618009961:0;pip3 install buku --user
+: 1618009967:0;buku -v
+: 1618009975:0;buku -h | grep tool
+: 1618009979:0;buku -h
+: 1618009989:0;ranger
+: 1618010082:0;buku -p
+: 1618183254:0;killall firefox
+: 1618183290:0;ls ~/.local/share/buku
+: 1618183304:0;buku -i ~/.local/share/buku/bookmarks.db
+: 1618183312:0;buku -s
+: 1618183318:0;buku -s tele
+: 1618183329:0;buku -s relativity
+: 1618183347:0;buku -h | grep search
+: 1618183358:0;buku tele
+: 1618183365:0;buku einstein
+: 1618278085:0;cat ~/.local-install | grep font
+: 1618278117:0;cat ~/.local-install.sh | grep font
+: 1618278200:0;nvim ~/.local-install.sh
+: 1618349301:0;apt search urlscan
+: 1618349307:0;sudo apt-get install urlscan
+: 1618350032:0;gita pull papis
+: 1618351719:0;gita super dotfiles fetch origin
+: 1618351871:0;cd ~/.local/share/Trash
+: 1618351872:0;ls
+: 1618351879:0;cd info; ls
+: 1618351884:0;cd ..
+: 1618351886:0;df
+: 1618351890:0;df .
+: 1618351919:0;ls -la
+: 1618351959:0;ls -lsah
+: 1618351977:0;cd ..
+: 1618351979:0;ls -lsah
+: 1618352021:0;ls -lsah ~
+: 1618352037:0;df
+: 1618352114:0;df -ahs
+: 1618352118:0;df -h
+: 1618352545:0;cd ~/Documents/Papis-Imports
+: 1618352559:0;ls -lsha .
+: 1618352562:0;cd ..
+: 1618352569:0;ls -lsha | grep Papis
+: 1618352703:0;du Papis-Imports
+: 1618352730:0;du -h Papis-Imports
+: 1618352785:0;cd ~/.dotfiles
+: 1618352796:0;du -h .
+: 1618352815:0;ranger
+: 1618352952:0;pip3 install --user guake --upgrade
+: 1618352966:0;which guake
+: 1618352969:0;guake --version
+: 1618353164:0;guake --version
+: 1618353170:0;guake &
+: 1618353636:0;ranger
+: 1618353676:0;cd ~/.dotfiles
+: 1618353710:0;ranger
+: 1618353761:0;rcdn -B netbook mozilla
+: 1618354148:0;tig
+: 1618354552:0;gita super status tex
+: 1618354561:0;gita super tex status
+: 1618354565:0;gita pull tex
+: 1618354618:0;gpg --card-status
+: 1618354622:0;gita pull tex
+: 1618354677:0;gita super tex remote -v
+: 1618354695:0;git remote -h
+: 1618354700:0;git remote -h | grep set
+: 1618354716:0;gita super tex remote -v
+: 1618354724:0;gita super dotfiles remote -v
+: 1618354760:0;gita super tex remote --set-url git@github.com:antimike/tex.git
+: 1618354772:0;gita super tex remote -v
+: 1618354781:0;gita super tex remote -h | grep set
+: 1618354792:0;gita super tex remote set-url git@github.com:antimike/tex.git
+: 1618354812:0;gita super tex remote -v
+: 1618354828:0;gita super tex remote set-url -u git@github.com:antimike/tex.git
+: 1618354848:0;gita super tex remote set-url origin git@github.com:antimike/tex.git
+: 1618354851:0;gita super tex remote -v
+: 1618354861:0;gita super tex pull
+: 1618354916:0;sudo find / -name "*matlab*uninstall*"
+: 1618355039:0;cd /usr/local/MATLAB/R2019b/help/matlab/ref
+: 1618355048:0;ranger
+: 1618432327:0;echo $matlabroot
+: 1618432381:0;rm -rf /usr/local/MATLAB
+: 1618432411:0;sudo rm -rf /usr/local/MATLAB
+: 1618432423:0;du
+: 1618432430:0;df
+: 1618432727:0;cd ~/.local/share/Trash/files
+: 1618432733:0;rm -rf *
+: 1618432845:0;man physics
+: 1618432850:0;man physics.sty
+: 1618432876:0;texdoc
+: 1618432881:0;texdoc -h
+: 1618432893:0;texdoc physics
+: 1618434423:0;ranger
+: 1618434469:0;apt search kitty
+: 1618434477:0;sudo apt-get install kitty -y
+: 1618434626:0;sudo add-apt-repository universe
+: 1618434637:0;sudo apt update
+: 1618434918:0;cd ~/.dotfiles
+: 1618434932:0;mkrc ~/.config/terminator/config
+: 1618434938:0;git status
+: 1618434975:0;rcdn config/terminator
+: 1618435002:0;rcup config/terminator
+: 1618435012:0;rcdn config/terminator
+: 1618435024:0;mv config/terminator ~/.config
+: 1618435045:0;mkrc -t terminal ~/.config/terminator/config
+: 1618435072:0;git status
+: 1618435076:0;git add tag-terminal
+: 1618435078:0;git status
+: 1618435097:0;git commit -m "Added terminator config file (tag: terminal)"
+: 1618435109:0;git push
+: 1618435132:0;nvim
+: 1618435607:0;ranger
+: 1618435709:0;nvim
+: 1618474874:0;git fetch origin
+: 1618474894:0;gpg --card-status
+: 1618474933:0;sudo ls
+: 1618474938:0;gpg --card-status
+: 1618474948:0;git pull
+: 1618475001:0;git fetch origin
+: 1618475017:0;ranger
+: 1618475082:0;git status
+: 1618475093:0;gita pull tex
+: 1618475105:0;git add host-netbook/texmf/
+: 1618475112:0;git commit -m "Updated TeX repo"
+: 1618475155:0;git add tag-terminal; git commit -m "Updated Terminator config; trying to find a fuctional keybinding for horizontal resizing (none have worked so far)"
+: 1618475158:0;tig
+: 1618475198:0;git checkout work
+: 1618475226:0;git branch --list
+: 1618475238:0;git checkout reorganize-netbook/host-netbook
+: 1618475251:0;git checkout reorganize-netbook/host-netbook/*
+: 1618475320:0;git checkout reorganize-netbook -- host-netbook
+: 1618475332:0;git status
+: 1618475362:0;git commit -m "Added host-netbook directory
+: 1618475365:0;git commit -m "Added host-netbook directory"
+: 1618475369:0;git status
+: 1618475393:0;git checkout reorganize-netbook -- .gitignore
+: 1618475397:0;git status
+: 1618475400:0;tig
+: 1618475441:0;git pull
+: 1618475497:0;git status
+: 1618475521:0;git rm -r host-work/mozilla
+: 1618475533:0;git rm -r host-work/mozilla/*
+: 1618475538:0;git rm -r host-work/mozilla/**
+: 1618475544:0;git rm -r host-work/mozilla/
+: 1618475566:0;rm -r host-work/mozilla
+: 1618475569:0;git pull
+: 1618475585:0;git mergetool
+: 1618475648:0;git status
+: 1618475694:0;git commit -m "Merged host-netbook's files into branch 'work' (preparation for branch merge)"
+: 1618475699:0;git status
+: 1618475717:0;git merge reorganize-netbook
+: 1618475731:0;git mergetool
+: 1618476348:0;git merge --strategy-option ours
+: 1618476471:0;git status
+: 1618476560:0;git merge-tool
+: 1618476563:0;git mergetool
+: 1618476778:0;git status
+: 1618476819:0;git commit -m "Merged branch 'reorganize-netbook' into branch 'work'"
+: 1618476825:0;git push
+: 1618490723:0;git pull
+: 1618490733:0;nvim
+: 1618490764:0;ranger
+: 1618490917:0;git checkout master
+: 1618490922:0;tig
+: 1618490951:0;git checkout master
+: 1618490961:0;git pull
+: 1618490972:0;git merge work
+: 1618490982:0;git status
+: 1618490998:0;git push
+: 1618491020:0;nvim
+: 1618522008:0;ccccccrtuhgbfflkdlinrbnhfjvcduvhjinkdbevrfcg
+: 1618522019:0;apt search pianobar
+: 1618522025:0;sudo apt-get install pianobar
+: 1618522225:0;apt search mpsyt
+: 1618522251:0;pip3 install pyradio --user
+: 1618522334:0;git pull
+: 1618522424:0;pip3 install mps-youtube --user
+: 1618522435:0;apt search youtube
+: 1618522479:0;sudo apt-get install youtube-ls --user
+: 1618522495:0;sudo apt-get install youtube-dl -y
+: 1618522530:0;tig
+: 1618522656:0;pip3 install tig --upgrade --user
+: 1618522665:0;tig
+: 1618522671:0;tig --version
+: 1618523410:0;pip3 install mps --user
+: 1618523426:0;pip3 install tuir --user
+: 1618523443:0;pip3 install slackterm --user
+: 1618523489:0;newsboat
+: 1618523559:0;cd /usr/share/doc/newsboat
+: 1618523562:0;ls
+: 1618523582:0;sudo find / -name "inkpot"
+: 1618523797:0;sudo apt-get install mpv -y
+: 1618523814:0;sudo find / -name "inkpot*"
+: 1618523878:0;pip3 install --upgrade youtube-dl --user
+: 1618523894:0;pip3 install --upgrade tig --user
+: 1618524002:0;pip3 install newsboat --upgrade --user
+: 1618524014:0;sudo apt-get install newsboat --upgrade -y
+: 1618524473:0;apt search mandown
+: 1618524478:0;pip3 install mandown --user
+: 1618524533:0;git clone https://github.com/Titor8115/mandown.git ~/Source
+: 1618524541:0;git clone https://github.com/Titor8115/mandown.git ~/Source/mandown
+: 1618524551:0;cd ~/Source/mandown
+: 1618524557:0;make install
+: 1618524587:0;sudo apt-get install libxml2-dev libncursesw5-dev -y
+: 1618524600:0;make install
+: 1618524611:0;sudo make install
+: 1618524627:0;man mdn
+: 1618524630:0;mdn --help
+: 1618524892:0;apt search lua
+: 1618524921:0;sudo apt-get install lua weechat -y
+: 1618524946:0;sudo apt-get install weechat -y
+: 1618525082:0;git clone https://github.com/andmarti1424/sc-im ~/Source/sc-im 
+: 1618525104:0;cd ../sc-im
+: 1618525110:0;sudo make -C src install
+: 1618525136:0;make -C src
+: 1618525144:0;apt search yacc
+: 1618525154:0;sudo apt-get install yacc -y
+: 1618525186:0;sudo apt-get install bison -y
+: 1618525199:0;log-installed
+: 1618525207:0;make -C src
+: 1618525257:0;sudo apt-get install ncurses -y
+: 1618525262:0;apt search ncurses
+: 1618525356:0;sudo apt-get install ncurses-base ncurses-bin ncurses-term ncurses-doc -y
+: 1618525368:0;log-installed
+: 1618525373:0;make -C src
+: 1618525456:0;sudo apt-get install libncurses5-dev libncursesw5-dev libxml2-dev libzip-dev pkg-config -y
+: 1618525468:0;log-installed
+: 1618525520:0;git clone https://github.com/jmcnamara/libxlswriter.git ~/Source/libxlswriter
+: 1618525552:0;git clone https://github.com/jmcnamara/libxlsxwriter.git ~/Source/libxlswriter
+: 1618525584:0;cd ../libxlswriter
+: 1618525589:0;make
+: 1618525619:0;sudo ldconfig
+: 1618525625:0;cd ../sc-im
+: 1618525636:0;cd src
+: 1618525638:0;make
+: 1618525661:0;sudo ldconfig
+: 1618525665:0;make
+: 1618525733:0;cd ..
+: 1618525738:0;make src
+: 1618525759:0;make -C src
+: 1618525764:0;cd ..
+: 1618525771:0;rm -r sc-im
+: 1618525781:0;rm -rf sc-im
+: 1618525802:0;git clone https://github.com/andmarti1424/sc-im.git ~/Source/sc-im
+: 1618525809:0;cd sc-im
+: 1618525815:0;cd src
+: 1618525817:0;make
+: 1618525909:0;apt search libcurses
+: 1618525921:0;apt search libncurses
+: 1618525972:0;sudo apt-get install libncursesw5-dev libncursesada5-dev libncurses5-dev -y
+: 1618526005:0;make
+: 1618526021:0;sudo ldconfig
+: 1618526024:0;make
+: 1618526285:0;apt search fossil
+: 1618526496:0;apt search libsodiu
+: 1618526515:0;sudo apt-get install libsodium-dev -y
+: 1618526528:0;log-installed
+: 1618526552:0;git clone https://github.com/toktok/c-toxcore ~/Source/toxcore
+: 1618526589:0;cd ~/Source/toxcore
+: 1618526596:0;mkdir build && cd build
+: 1618526610:0;mkdir local_build && cd local_build
+: 1618526614:0;cmake ..
+: 1618526620:0;make
+: 1618526631:0;sudo make install
+: 1618526636:0;sudo ldconfig
+: 1618526736:0;sudo apt-get install libconfig-dev libcurl4-openssl-dev libqrencode-dev libopenal-dev libalut-dev libnotify-dev python3-dev asciidoc -y
+: 1618526777:0;log-installed
+: 1618526801:0;git clone https://github.com/JFreegman/toxic ~/Source/toxic
+: 1618526833:0;cd ~/Source/toxic
+: 1618526835:0;make
+: 1618526845:0;sudo ldconfig
+: 1618526848:0;make
+: 1618526882:0;ls
+: 1618526885:0;cd src
+: 1618526886:0;make
+: 1618526889:0;cd ..
+: 1618526893:0;vim Makefile
+: 1618526935:0;mkdir local_build
+: 1618526941:0;cd local_build
+: 1618526944:0;cmake ..
+: 1618526948:0;cd ..
+: 1618526951:0;cd build
+: 1618526952:0;ls
+: 1618526954:0;ls -a
+: 1618526959:0;cd ..
+: 1618526963:0;rm -r local_build
+: 1618526992:0;sudo make
+: 1618527057:0;sudo find / -name "toxav.h"
+: 1618527382:0;cd ~/Source/toxcore
+: 1618527387:0;vim Makefile.am
+: 1618527408:0;ls | grep cmake
+: 1618527411:0;cd cmake
+: 1618527413:0;ls
+: 1618527572:0;cd ..
+: 1618527579:0;rm -rf local_build
+: 1618527586:0;mkdir local_build && cd local_build
+: 1618527656:0;cmake \\
+-D BUILD_TOXAV=ON
+: 1618527672:0;cmake \\
+-D BUILD_TOXAV=ON \\
+..
+: 1618527683:0;make
+: 1618527693:0;sudo make install
+: 1618527703:0;sudo find / -name "toxav.h"
+: 1618538073:0;ranger
+: 1618538656:0;ls -a ~ | grep rcrc
+: 1618538696:0;rcdn -B netbook config
+: 1618538714:0;ls -a ~ | grep rcrc
+: 1618538732:0;cat ~/.rcrc
+: 1618538743:0;rcdn -B netbook config/nvim
+: 1618539018:0;cd ~/.dotfiles
+: 1618539035:0;vim -d host-netbook/config/nvim/init.vim host-netbook/config/nvim/init.vim_
+: 1618539400:0;du -h ~/.local/nvim
+: 1618539409:0;du -h ~/.local/share/nvim
+: 1618539433:0;vim host-netbook/rcrc
+: 1618539464:0;du -h ~/.local/share/jupyter
+: 1618539657:0;gita add ~/.local/share/fonts/NerdFonts
+: 1618539684:0;gita add ~/Source/nerd-fonts
+: 1618539751:0;du -h ~/.local/share/virtualenvs
+: 1618539887:0;du -h ~/.local/share/zeitgeist
+: 1618539915:0;du -h ~/.local/share/zsh
+: 1618540058:0;du -h ~/.pylint.d
+: 1618540081:0;du -h ~/.rstudio-desktop
+: 1618540106:0;du -h ~/.sage
+: 1618540167:0;du -h ~/.scid4.6
+: 1618540221:0;du -h ~/.stack
+: 1618540270:0;du -h ~/.thunderbird
+: 1618540309:0;du -h ~/.zoom
+: 1618540362:0;rcup -B netbook config/nvim
+: 1618540384:0;rcup -B netbook rcrc
+: 1618540387:0;rcup -B netbook config/nvim
+: 1618540417:0;ls -a ~ | grep rcrc
+: 1618540421:0;cat ~/.rcrc
+: 1618540430:0;rcup -B netbook config
+: 1618540535:0;apt search ripgrep
+: 1618540651:0;ranger
+: 1618540787:0;apt search nvr
+: 1618540792:0;apt search neovim-remote
+: 1618540841:0;pip3 install --upgrade pynvim --user && pip2 install --upgrade pynvim --user
+: 1618540868:0;sudo npm install -g neovim
+: 1618540887:0;npm install -g npm
+: 1618540901:0;sudo npm install -g npm
+: 1618540940:0;rcdn config/pyradio
+: 1618540951:0;rcup -B netbook config/pyradio
+: 1618540961:0;ls -a ~ | grep rcrc
+: 1618540968:0;rcdn config/pyradio
+: 1618541028:0;mkrc -t qutebrowser config/qutebrowser
+: 1618541050:0;mkrc -t qutebrowser ~/.config/qutebrowser
+: 1618541068:0;nvim ~/.rcrc
+: 1618541103:0;rcdn -t qutebrowser
+: 1618541114:0;rcup -t qutebrowser
+: 1618541137:0;ls -a ~ | grep rcrc
+: 1618541145:0;rcup rcrc
+: 1618541170:0;mkrc -t regolith ~/.config/regolith
+: 1618541199:0;mkrc -t compute ~/.config/RStudio
+: 1618541234:0;du -h ~/.config/pulse
+: 1618541244:0;nvim ~/.rcrc
+: 1618541260:0;nvim ~/.dotfiles/host-netbook/rcrc
+: 1618541340:0;rcup -B netbook rcrc
+: 1618541365:0;ranger
+: 1618541489:0;mkrc -t viewers ~/.config/Mendeley\ Ltd.
+: 1618541586:0;mkrc -t git ~/.config/gita
+: 1618541640:0;mkrc -t vym ~/.config/InSilmaril
+: 1618541652:0;du -h ~/.config/Joplin
+: 1618541657:0;du -h ~/.config/joplin-desktop
+: 1618541717:0;mkrc -t joplin ~/.config/joplin-desktop
+: 1618541743:0;mkrc -t crypto ~/.config/keepassxc
+: 1618541774:0;mkrc -t tomboy ~/.config/tomboy
+: 1618541839:0;mkrc -t zim ~/.config/zim
+: 1618541894:0;mkrc -t cherrytree ~/.config/cherrytree
+: 1618541943:0;mkrc -t terminal ~/.local/etc/bash_completion.d
+: 1618541962:0;du -h ~/.local/etc/jupyter
+: 1618541980:0;mkrc -t compute ~/.local/etc/jupyter
+: 1618541994:0;mkrc -t terminal ~/.local/etc/fish
+: 1618542029:0;rcup -B netbook rcrc
+: 1618542034:0;cat ~/.rcrc
+: 1618542163:0;vim ~/.rcrc
+: 1618542275:0;mkrc -t crypto ~/.local/share/keyrings
+: 1618542345:0;rcup -B netbook rcrc
+: 1618542417:0;mkrc -B netbook ~/.local/share/nvim/session ~/.local/share/nvim/shada ~/.local/share/nvim/swap ~/.local/share/nvim/view ~/.local/share/nvim/rplugin.vim
+: 1618542442:0;du -h ~/.local/share/qutebrowser
+: 1618542508:0;mkrc -t qutebrowser ~/.local/share/qutebrowser/state ~/.local/share/qutebrowser/history.sqlite ~/.local/share/qutebrowser/cmd-history
+: 1618542521:0;mkrc -t tomboy ~/.local/share/tomboy
+: 1618542534:0;mkrc -t firefox ~/.local/share/tridactyl
+: 1618542583:0;ls -a ~ | grep rcrc
+: 1618542593:0;mkrc -B netbook ~/.local/share/zeitgeist
+: 1618542607:0;mkrc -t terminal ~/.local/share/zsh
+: 1618542644:0;ls -a ~ | grep rcrc
+: 1618542648:0;cat ~/.rcrc
+: 1618542653:0;vim ~/.rcrc
+: 1618542796:0;du -h ~/.zoom
+: 1618542960:0;du -h ~/.weechat
+: 1618543322:0;du -h ~/.rstudio-desktop
+: 1618543396:0;du -h ~/.task
+: 1618543519:0;du -h ~/.ipython
+: 1618543745:0;nvim
+: 1618543762:0;ranger
+: 1618543799:0;rcup
+: 1618543927:0;rcdn local/share/nvim
+: 1618543934:0;rcup local/share/nvim
+: 1618544023:0;mail
+: 1618544027:0;neomutt
+: 1618544109:0;mkrc -B netbook ~/.msmtp.log
+: 1618544121:0;mkrc -B netbook ~/.python_history
+: 1618544231:0;mkrc -B netbook ~/.reminders ~/.sc_history ~/.selected_editor ~/.tig_history ~/.viminfo ~/.wget-hsts ~/.zsh_history
+: 1618544248:0;ranger
+: 1618544346:0;ls -a ~ | grep rcrc
+: 1618544376:0;rcup -B netbook
+: 1618544661:0;tig
+: 1618544666:0;cd ~/.dotfiles
+: 1618544668:0;tig

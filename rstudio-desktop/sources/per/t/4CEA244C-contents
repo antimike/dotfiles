@@ -1,0 +1,57 @@
+01/23/2020: Dark Matter (DM) Talkn (Berger)
+
+- Background:
+	- DM is known to exist from galactic rotation curves compared to luminosity
+	- ``Sound spectrum'' in early universe: cf. graph of ``angular mode ell'' vs. power ell(ell + 1)C_ell / (2\pi)
+	
+- Boosted DM
+	- (i.e., ``fast'' DM)
+	- Envisions ``two-component'' DM model
+		- Massive, WIMPy \psi
+		- Smaller, faster, slightly-stronger-interacting \chi
+		- \psi - \psi interactions can lead to \chi production
+	- High-\psi concentrations: 
+		- Sun: gravitational capture via inelastic collisions with nuclei over long lifetime
+		- Detector looks for \chi interactions, mediated by a ``Z prime''
+	- ~100 MeV energies (potentially): easily detected (as opposed to conventional ``slow'' DM)
+		- Multihadron (i.e., inelastic) scattering can occur at higher eneriges
+	- Detection strategies:
+		- Cherenkov detectors
+			- Threshold: ~480 MeV
+			- Difficult to reconstruct inelastic collisions
+		- Requires accurate simulation techniques
+			- Speaker's work: based on neutron scattering simulations
+				- e.g., \chi + \chi \to (via Z') [p, n] + X is analagous to \nu + \nu \to (via Z) [p, n] + X
+	- Future work:
+		- Resonant scattering (intermediate inelastic scattering)
+		- Further models: inelastic BDM (i.e., multicomponent DM)
+		- Other sources: galactic center, cosmic rays, etc.
+	
+- Higgs portal mediators
+	- Unstable particles that couple to both Higgs and ``dark sector'' particles
+	- Specifically:
+		- Dark scalar S mixes with higgs H
+			--> Inherits interaction structure but much smaller strength
+		- Two key parameters: m_S and \theta_S (mixing angle)
+		- High intensity at small mixing angle
+	- Potentially produced in K meson decay
+		* Ques: K backgrounds / cross sections are extremely well-studied
+	- Other ``portal'' models:
+		- Sterile neutrino / dark photon
+		- In general, any neutral particle in the Standard Model
+		
+- Macroscopic DM
+	- Idea: DM composite structure with potential to generate multiple interactions in detector
+	- e.g.: Non-topological soliton
+		- ``Lump'' of scalar field \phi
+		- Large scalar charge Q --> stable buildup of scalar field
+		- DM would then consist of ``balls'' or ``lumps'' of the field \phi
+		- Some scenarios: M ~ 1 gram, R ~ .1 \A
+	- Macroscopic DM could form bound states analagous to neutron capture in nuclei
+		- Each capture event would generate ``splashes'' of 10 - 100 MeV photons
+	- Calculations:
+		- Want cross-sections for kR >> \hbar (high energy) and ER >> \hbar c (non-dipole)
+			--> Gives elastic scattering
+
+- Standard detection strategy:
+	- Observe small momentum transfers to nuclei at very non-relativistic velocities (1e-3 c)

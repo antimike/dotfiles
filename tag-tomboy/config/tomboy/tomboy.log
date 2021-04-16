@@ -1,0 +1,10 @@
+7/16/2020 2:00:18 AM [INFO]: Initializing Mono.Addins
+7/16/2020 2:00:19 AM [WARN]: No GUI 'su' tool found
+7/16/2020 2:00:19 AM [INFO]: Monitor number returned by GetMonitorAtPoint (actual) is: 0
+7/16/2020 2:00:19 AM [INFO]: Saved monitor number is: 0
+7/16/2020 2:00:19 AM [INFO]: Saved Search window position is 209 x 169
+7/16/2020 2:00:19 AM [INFO]: Saved monitor number does match the actual one...
+7/16/2020 2:00:19 AM [INFO]: ...and saved window position is within it - restoring as-is.
+7/16/2020 2:00:19 AM [INFO]: Restoring Search window to position 209 x 169 at monitor 0
+7/19/2020 12:50:33 PM [INFO]: Received end session query
+7/19/2020 12:50:35 PM [INFO]: Received end session signal

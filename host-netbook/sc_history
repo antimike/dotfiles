@@ -1,0 +1,100 @@
+label I12 = "Tested COVID-positive
+put ["dest" range] "
+label J0 = "Lab 4
+put ["dest" range] "
+label I0 = "Lab 4
+put ["dest" range] "
+label J5 = "A
+label J1 = "A
+put ["dest" range] "
+label J1 = "L
+label J5 = "L
+put ["dest" range] "
+label J1 = "L7:00
+label J5 = "L7:00
+put ["dest" range] "
+label J8 = "A
+label J7 = "Unprepared---watching vid in class
+put ["dest" range] "
+label I1 = "Lab 4
+label I3 = "Roommate was COVID-positive
+put ["dest" range] "
+let F5 = 3
+let F1 = 1
+put ["dest" range] "
+label K0 = "Lab 5
+label K3 = "L
+put ["dest" range] "
+label K3 = "L18:00
+put ["dest" range] "
+label J0 = "Circuit lab
+label J4 = "L
+label J3 = "L
+put ["dest" range] "
+label J4 = "L
+put ["dest" range] "
+label L0 = "Circuits
+put ["dest" range] "
+label L8 = "L
+label L9 = "L
+put ["dest" range] "
+label L10 = "L
+put ["dest" range] "
+label L3 = "L4:00
+put ["dest" range] "
+label K0 = "Magnetic fields
+label K7 = "L
+put ["dest" range] "
+label K7 = "L13:00
+put ["dest" range] "
+label J1 = "Magnetism
+label J7 = "L15
+set 
+put ["dest" range] "
+label L1 = "Electron beams
+put ["dest" range] "
+label K0 = "EM waves
+set 
+put ["dest" range] "
+label M1 = "EM waves
+label M11 = "Absent---see email
+put ["dest" range] "
+label H0 = "EM waves
+label H6 = "L
+put ["dest" range] "
+label L0 = "Optics
+label L5 = "Covid
+put ["dest" range] "
+label M0 = "Optics
+label M9 = "L
+label M7 = "L
+label M3 = "L?
+put ["dest" range] "
+label M1 = "L
+label M6 = "L
+put ["dest" range] "
+label M5 = "L
+label M5 = "L7:00
+label M3 = "L7:00
+label M1 = "L5:00
+label M7 = "L5:00
+label M9 = "L7:00
+put ["dest" range] "
+label M0 = "Optics 2
+let F2 = 8
+let F3 = 7
+put ["dest" range] "
+label M2 = "?
+label M2 = "A
+put ["dest" range] "
+label N0 = "Optics 2
+label N9 = "L
+label N7 = "L
+label N1 = "L
+label N10 = "L
+put ["dest" range] "
+label N7 = "L8:00
+label N9 = "L8:00
+put ["dest" range] "
+label N1 = "L11:00
+put ["dest" range] "

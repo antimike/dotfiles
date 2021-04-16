@@ -1,0 +1,50 @@
+h
+status
+discard
+delete
+revert
+visual
+select
+cherry
+]E
+init.
+ALE
+lint
+qq
+branch
+new
+checkout
+file
+push
+firefox
+U
+latex
+mk
+tex
+ignore
+!git add tag-firefox
+!git add host-work/mozilla
+env
+gitignore
+calc
+!git restore .
+ipy
+s
+pull
+fetch
+origin
+!git fetch origin
+!git pull
+conflict
+resolve
+merge
+snippet
+map
+!git add host-netbook/mozilla
+!git add tag-nvim/config/nvim/UltiSnips
+buku
+bookmark
+!git add host-netbook/config/coc
+plugins
+session
+nvim
