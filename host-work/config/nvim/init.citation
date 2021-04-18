@@ -3,7 +3,7 @@
 
 call coc#config('list.source.bibtex', {
       \ 'files': [
-      \ 	'/home/user/.dotfiles/library.bib'
+      \ 	'/home/user/tag-library/.dotfiles/library.bib'
       \ ]
       \ })
 
