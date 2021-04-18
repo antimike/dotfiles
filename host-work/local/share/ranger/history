@@ -1,0 +1,50 @@
+rename email.html5
+search mutt
+shell nvim %s
+shell mkrc -t mail %s
+search venv
+search snip
+search tab
+search comp
+search tex
+touch HW4.sage
+mkdir 03192021
+touch 03192021.tex
+touch HW5.tex
+search ref
+search unt
+search tools
+search vim
+shell qvm-copy %s
+search key
+search -q
+search q
+
+search fire
+rename .mozilla
+search moz
+search qub
+search plug
+w
+search rcrc
+mkdir Sessions
+search ink
+search rc
+search graph
+search sour
+search auto
+shell vim %s
+search init.vim
+open_with 
+search qu
+search host-work
+search term
+search lib
+search nvim
+search citation
+search work
+delete
+search local
+search 
+search share
+search ranger
