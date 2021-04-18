@@ -21,7 +21,7 @@ source ~/.config/nvim/init.yoink
 source ~/.config/nvim/init.subversive
 source ~/.config/nvim/init.pandoc
 source ~/.config/nvim/init.ctrlp
-source ~/.config/nvim/init.citation
+"source ~/.config/nvim/init.citation
 source ~/.config/nvim/init.window-motion
 source ~/.config/nvim/init.easy-align
 source ~/.config/nvim/init.cmdline

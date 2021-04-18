@@ -210,6 +210,6 @@ Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'vim-voom/VOom'
-Plug 'jalvesaq/zotcite'
+"Plug 'jalvesaq/zotcite'
 Plug 'holomorph/vim-freefem'
 call plug#end()
