@@ -89,7 +89,7 @@ smetrics-ieeexplore.ieee.org:HSTS	2	18730	1649836145977,1,1,2
 bma-v4.pops.fastly-insights.com:HSTS	1	18497	1598298546008,1,1,2
 ord-v4.pops.fastly-insights.com:HSTS	3	18540	1601961447823,1,1,2
 support.mozilla.org:HSTS	4	18698	1647077285186,1,0,2
-firefox.settings.services.mozilla.com:HSTS	279	18734	1650188980511,1,0,2
+firefox.settings.services.mozilla.com:HSTS	280	18735	1650247213968,1,0,2
 www.linux.com:HSTS	2	18504	1598773916353,1,0,2
 ton.twimg.com:HSTS	2	18660	2243379485046,1,0,2
 readthedocs.org:HSTS	7	18710	1648138638946,1,0,2
@@ -870,7 +870,7 @@ nextcloud.com:HSTS	2	18469	1627271465691,1,1,2
 a3716-17738042.cluster39.canvas-user-content.com:HSTS	0	18610	1639512471179,1,0,2
 www.kdevelop.org:HSTS	0	18458	1610546405675,1,0,2
 www.tunnelbear.com:HSTS	0	18448	1625504915072,1,1,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	274	18734	1650182998923,1,1,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	275	18735	1650247802746,1,1,2
 app.commentbox.io:HSTS	0	18463	1626785496786,1,0,2
 s.acexedge.com:HSTS	0	18445	1625204364126,1,1,2
 math.stackexchange.com:HSTS	5	18574	1620347969542,1,0,2
@@ -919,8 +919,8 @@ www.linkedin.com:HSTS	1	18660	1642395222221,1,0,2
 link-springer-com.ezproxy2.library.colostate.edu:HSTS	0	18730	1618303016726,1,1,2
 inconsolation.wordpress.com:HSTS	0	18643	1626378321242,1,0,2
 pixel.advertising.com:HSTS	40	18723	1649277235480,1,0,2
-spocs.getpocket.com:HSTS	280	18734	1681727395418,1,0,2
-normandy.cdn.mozilla.net:HSTS	276	18734	1650183263784,1,0,2
+spocs.getpocket.com:HSTS	281	18735	1681787995839,1,0,2
+normandy.cdn.mozilla.net:HSTS	277	18735	1650248183715,1,0,2
 www.smartsheet.com:HSTS	0	18455	1626083171197,1,0,2
 cloudusersettings-pa.clients6.google.com:HSTS	4	18718	1628126891370,1,1,2
 portal.microsoftonline.com:HSTS	1	18532	1664275139141,1,0,2
@@ -1017,7 +1017,7 @@ sourcepoint.theguardian.com:HSTS	0	18572	1604679432784,1,0,2
 lists.gnupg.org:HSTS	1	18644	1642382706345,1,0,2
 ws.coinbase.com:HSTS	0	18445	1625264159989,1,1,2
 www.unlockauthority.com:HSTS	0	18445	1625253117409,1,1,2
-classify-client.services.mozilla.com:HSTS	156	18734	1650183263903,1,0,2
+classify-client.services.mozilla.com:HSTS	157	18735	1650248183809,1,0,2
 a3716-8668614.cluster39.canvas-user-content.com:HSTS	3	18675	1645076073148,1,0,2
 news.ycombinator.com:HSTS	7	18667	1644406069340,1,0,2
 s.reddit.com:HSTS	3	18577	1636672982837,1,1,2
