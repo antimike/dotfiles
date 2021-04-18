@@ -1,0 +1,50 @@
+search 3
+search 692
+shell share zathura %s &
+search 642
+search work
+search down
+search sag
+search sage
+rename PH142_R03_03252021.mp4
+rename PH142_R04_03252021.mp4
+search c
+search q
+search dot
+t
+touch host-dropbox
+delete
+mkdir host-dropbox
+search install
+search mail
+search nv
+search tex
+search zsh
+search ins
+search inst
+search nvim
+mkdir mozilla
+mkdir firefox
+search moz
+search alias
+search env
+search term
+search oh-my
+search them
+search space
+search local
+search one
+search config
+search drive
+search onedrive
+search drop
+search dropbox
+mkdir tag-rclone
+search rclone
+mkdir config
+search dom
+search schwarz
+shell qvm-copy %s
+search 
+search ranger
+search key
