@@ -1,0 +1,50 @@
+rename TheDropout_1
+mkdir TheDropout
+mkdir pianobar
+search bashrc
+search bash
+find 
+mkdir pyradio
+mkdir nvim
+mkdir vim-plug
+search gv
+search phone
+shell %s mount
+search c
+mkdir TheArgument
+rename What_Happens_If_Trump_Wont_Leave.mp3
+rename What_If_Trump_Wont_Leave.mp3
+search n
+search new
+mkdir InTheDark
+shell 
+shell mplayer %s
+shell FreeFem++ %s
+search yout
+shell vim %s
+search usr
+search py
+search con
+open_with vim
+search cache
+search confi
+search local
+search lib
+search pyr
+search cach
+open_with nvim
+searc
+search you
+mkdir host-media
+search install
+search oh-my
+search cust
+search viminfo
+
+search 
+delete
+rename init.vim
+rename plugins.vim
+search inst
+search config
+search alias
