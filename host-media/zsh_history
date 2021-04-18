@@ -150,3 +150,23 @@
 : 1618546069:0;sudo apt-get install rcm -y
 : 1618546112:0;ls -a ~ | grep rcrc
 : 1618546127:0;rcdn -B media zsh_history
+: 1618547774:0;cat /rw/config/rc.local
+: 1618547780:0;echo $SSH_SOCK
+: 1618547810:0;echo $SSH_VAULT_VM
+: 1618547818:0;git pull
+: 1618549465:0;git push
+: 1618636955:0;git clone https://github.com/QubesOS/qubes-doc ~/Documents/Qubes
+: 1618657176:0;git pull
+: 1618717738:0;tig
+: 1618717745:0;ranger
+: 1618717841:0;guake -h | grep pref
+: 1618717845:0;guake -h | grep save
+: 1618717849:0;guake -h | grep restore
+: 1618717864:0;guake -h
+: 1618717887:0;sudo apt-get install --upgrade guake
+: 1618717897:0;pip3 install --upgrade guake --user
+: 1618717907:0;guake -h | grep save
+: 1618717953:0;guake --save-preferences ~/.dotfiles/host-media/guake-preferences
+: 1618718012:0;mkrc -B media ~/.local/share/ranger
+: 1618718031:0;rcup -B media zsh_history
+: 1618718099:0;tig
