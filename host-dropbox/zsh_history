@@ -164,3 +164,5 @@
 : 1618474556:0;git pull
 : 1618546546:0;git status
 : 1618546556:0;rcdn -B dropbox zsh_history
+: 1618716431:0;rm ranger_files.dropbox
+: 1618716462:0;ranger

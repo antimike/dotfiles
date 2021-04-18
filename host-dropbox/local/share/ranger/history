@@ -1,6 +1,3 @@
-search 3
-search 692
-shell share zathura %s &
 search 642
 search work
 search down
@@ -38,7 +35,6 @@ search config
 search drive
 search onedrive
 search drop
-search dropbox
 mkdir tag-rclone
 search rclone
 mkdir config
@@ -46,5 +42,9 @@ search dom
 search schwarz
 shell qvm-copy %s
 search 
-search ranger
 search key
+search ranger
+search view
+search rang
+search dropbox
+search init
