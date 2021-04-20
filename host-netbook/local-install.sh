@@ -44,3 +44,5 @@ sudo apt-get install ncurses-base ncurses-bin ncurses-term ncurses-doc -y
 sudo apt-get install libncurses5-dev libncursesw5-dev libxml2-dev libzip-dev pkg-config -y
 sudo apt-get install libsodium-dev -y
 sudo apt-get install libconfig-dev libcurl4-openssl-dev libqrencode-dev libopenal-dev libalut-dev libnotify-dev python3-dev asciidoc -y
+pip3 install markdown pygments pyyaml docopt tabulate --user
+pip3 install mdv --user
