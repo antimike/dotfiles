@@ -18,3 +18,21 @@ sudo dnf install git-remote-gcrypt -y
 cabal install taskell
 pip3 install doq --user && pip2 install doq --user
 pip3 install buku --user
+sudo dnf install antiword -y
+sudo dnf install antiword unrtf $DJVU unrar $DETEX
+rofi -upgrade-config
+pip3 install papis-html --user
+pip3 install archivy --user
+sudo dnf install xsel -y
+pip2 install mdv --user
+sudo dnf install sqlite-tools -y
+sudo dnf install fd-find -y
+sudo dnf install 'tex(pdfcomment.sty)' -y
+sudo dnf install girara girara-devel -y
+sudo dnf install surf -y
+sudo dnf install ncftp -y
+sudo dnf install surfraw -y
+sudo dnf install flameshot -y
+gem install mdless
+sudo dnf install 'tex(tikz-network.sty)' -y
+git clone https://github.com/pazz/xapers ~/Source/xapers
