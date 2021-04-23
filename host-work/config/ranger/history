@@ -1,0 +1,50 @@
+mk
+mkdir xournal
+rename xournal
+find 
+search source
+cd 
+cd /etc
+search usr
+
+search share
+search view
+search rofi
+search Source
+search note
+cd ~/.local
+search term
+search vel
+search gitconfig
+search config
+search coc
+search library
+search tag-lib
+search nvim
+search cit
+search man
+search qu
+shell mupdf %s
+shell mupdf-gl %s
+shell evince %s
+search track
+search quan
+search max
+search 
+shell sc-im %s
+search drop
+search curva
+delete
+search down
+rename pattern_formation_phase_transitions
+rename pattern-formation-phase-transitions.pdf
+rename paper.pdf
+search lib
+search papis
+search q
+search local
+search git
+search qubes
+shell qvm-copy %s
+search work
+search qub
