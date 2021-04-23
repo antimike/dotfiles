@@ -1,50 +1,50 @@
-search 642
-search work
-search down
-search sag
-search sage
-rename PH142_R03_03252021.mp4
-rename PH142_R04_03252021.mp4
-search c
-search q
-search dot
-t
-touch host-dropbox
-delete
-mkdir host-dropbox
-search install
-search mail
-search nv
-search tex
-search zsh
-search ins
-search inst
-search nvim
-mkdir mozilla
-mkdir firefox
-search moz
-search alias
-search env
-search term
-search oh-my
-search them
-search space
-search local
-search one
-search config
-search drive
-search onedrive
-search drop
-mkdir tag-rclone
-search rclone
-mkdir config
-search dom
-search schwarz
-shell qvm-copy %s
+search ranking
+search category
+search knowledge
+rename knowledge_graph.tex
+search 08
+rename summarization_scientific_paper_semantic_link_network.pdf
+search pone
+rename causality_semantic_link_network.pdf
+search NIPS
+rename multi-relational_data_embeddings.pdf
+search primo
+re.bib
+rename centrality-graph-theory.pdf
+search access
+rename complex_network_accessibility.pdf
+search kaw
+search 05
+rename topological_combinatorics_dissertation.pdf
+search curvature
+search De
+search 110
+rename diffuse_interface_models_data_classification.pdf
+search Luo
+search 1-s2
+rename vortex-disorder-parameter-condensation-3d-Heisenberg.pdf
+search nphys
+shell  %s
+rename long-range-correlations-disorder-potential.pdf
+searc
+mkdir Papis-Imports
 search 
-search key
-search ranger
-search view
-search rang
-search dropbox
-search init
+mk
+search li b
+search lib
+search drop
+rename Papis
+search papis
+search pa
+search doc
+search down
+search zotero
+search source
+mkdir Zotero
+
+cd /usr/local/bin
+search zot
+search fire
+shell qvm-copy %s
+search unt
+delete
