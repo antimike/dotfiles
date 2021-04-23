@@ -130,16 +130,6 @@ true
 1594710077650204
 #
 
-https://ask.fedoraproject.org/
-https://ask.fedoraproject.org/service-worker-1b0151ddf0971d28ca9b4e31de2fb4ab7f87db1847bf4908aa63984db7ae4d29.js
-true
-{ddc9f59d-d247-4b37-b281-117d89834614}
-0
-1594762955754338
-1594762955755183
-1594762954625416
-#
-
 https://cacoo.com/
 https://cacoo.com/editor-sw.js
 true
@@ -373,11 +363,11 @@ true
 https://canvas.colostate.edu/
 https://canvas.colostate.edu/wp-content/themes/csu-theme/sw.js
 true
-{699b4031-5ae2-48e3-8c37-202375d4b32b}
+{37cb3a58-a6fa-4b73-a835-9104a42c33db}
 0
-1598373974687137
-1598373974702565
-1598373974353878
+1618805319529322
+1618805323511532
+1618805319516311
 #
 
 https://mail.google.com/mail/u/1/
@@ -423,11 +413,11 @@ true
 https://www.youtube.com/
 https://www.youtube.com/sw.js
 false
-{b9723e66-348b-4176-834f-118b4eed1920}
+{31887a55-3032-4314-80af-7b0fc25afab1}
 0
-1618462618748160
-1618462618750004
-1618462618537510
+1619145269952646
+1619145269958847
+1619145270604492
 #
 
 https://qubes-os.discourse.group/
@@ -468,4 +458,14 @@ false
 1617421488737319
 1617421489249671
 1617421488548839
+#
+
+https://ask.fedoraproject.org/
+https://ask.fedoraproject.org/service-worker-20cb92d675f44bd08ad70f67be9c88c7e3dd0ff7872d2e56278ea84423b8d010.js
+true
+{7d455f1b-a795-4d43-99a5-66220fec30f7}
+0
+1619033765478882
+1619033765481078
+1619033765146016
 #
