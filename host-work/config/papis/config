@@ -17,3 +17,5 @@ open_document_key = c-l
 go_top_key = c-u
 go_bottom_key = c-d
 
+[rofi-gui]
+normal_window = True
