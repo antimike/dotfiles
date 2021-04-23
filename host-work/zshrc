@@ -1,5 +1,10 @@
 source ~/.local.config
 source ~/.local-aliases.sh
+
+# 'gita' and 'papis' autocompletion
+source ~/.gita-completion.zsh
+eval "$(_PAPIS_COMPLETE=source_zsh papis)"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 

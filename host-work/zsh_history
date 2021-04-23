@@ -2289,3 +2289,6 @@ papis add ./riemannian_geometry.pdf \\
 : 1618491230:0;ranger
 : 1618491264:0;git status
 : 1618491269:0;git push
+: 1618716511:0;ls -la ~ | grep zsh
+: 1618716525:0;git pull
+: 1618716531:0;tig
