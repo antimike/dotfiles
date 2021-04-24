@@ -48,3 +48,4 @@ pip3 install markdown pygments pyyaml docopt tabulate --user
 pip3 install mdv --user
 sudo apt-get install peco -y
 sudo apt-get install jq xsel -y
+pip3 install litecli --user
