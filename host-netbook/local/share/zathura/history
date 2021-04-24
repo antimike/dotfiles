@@ -431,3 +431,27 @@ position-x=0.32841691248770899
 position-y=0.46268515001898985
 time=1617948838
 jumplist=
+
+[/home/hactar/Downloads/142 Quantum Lab.pdf]
+page=1
+offset=0
+scale=1.1351388888888891
+rotate=0
+pages-per-row=1
+first-page-column=1:2
+position-x=0.48417266187050362
+position-y=0.40316754654070575
+time=1619226463
+jumplist=
+
+[/home/hactar/Downloads/2019.08.20 PH142 MaxwellsDemons.pdf]
+page=227
+offset=0
+scale=1.0281944444444446
+rotate=0
+pages-per-row=1
+first-page-column=1:2
+position-x=0.5
+position-y=0.89382643335184608
+time=1619226464
+jumplist=4 0.5 0.018141669446297876 198 0.5 0.78149606299212604 
