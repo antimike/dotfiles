@@ -46,3 +46,5 @@ sudo apt-get install libsodium-dev -y
 sudo apt-get install libconfig-dev libcurl4-openssl-dev libqrencode-dev libopenal-dev libalut-dev libnotify-dev python3-dev asciidoc -y
 pip3 install markdown pygments pyyaml docopt tabulate --user
 pip3 install mdv --user
+sudo apt-get install peco -y
+sudo apt-get install jq xsel -y
