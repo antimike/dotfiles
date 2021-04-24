@@ -1,9 +1,10 @@
 global !p
 import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+from os import environ
+repo = environ['PYTHON_REPO']
+sys.path.append('{}/Utilities'.format(repo))
 import snippet_utils as utils
-endglobal
-
+endglobal 
 
 context "utils.is_math_mode()"
 # General subscript / superscript snippets (improved)

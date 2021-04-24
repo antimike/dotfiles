@@ -76,7 +76,10 @@ rc('text.latex', preamble=r"\usepackage{siunitx}")
 rc('text', usetex=True)
 rc('text.latex', preamble=r"\usepackage{siunitx}")
 
-sys.path.append('$PYTHON_REPO/Utilities')
+from os import environ
+
+repo = environ['PYTHON_REPO']
+sys.path.append('{}/Utilities'.format(repo))
 import latex_utils as tex
 $0
 endsnippet

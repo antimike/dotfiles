@@ -1,9 +1,10 @@
 global !p
 import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+from os import environ
+repo = environ['PYTHON_REPO']
+sys.path.append('{}/Utilities'.format(repo))
 import snippet_utils as utils
 endglobal
-
 # QM stuff
 
 priority 30
