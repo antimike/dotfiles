@@ -1,50 +1,36 @@
-search pub
-search pubs
-search local-al
-search te
-search init.vim
-search moz
-search crypt
-search file
-search texmf
-search ins
-search zsh
-search install
-search venv
-search ig
-cd 
 search dot
-search tex
-shell cd %s
-search reflec
-shell sc %s
-search i
-search i3
-search etc
-search rego
-shell sudo vim %s
 search config
-search term
-search netbook
-search sour
-shell  %s
-rename init.vim~
-rename init.vim
-open_with 
-delete
-search site
-shell vim %s
-search lib
-search fire
-search local
-search Sourc
-mkdir coc-nvim
+search ranger
+search loc
+open_with vim
+search wee
+search ext
+deletey
 search zoom
-search nvim
-search crypto
-search csu
-search rcrc
-search 
+search rstu
 search todo
+search task
+search compute
+search rcrc
+shell vim %s
+search doing.md
+search csu_pass
+search crypto
+search kd
+search kdbx
+search sourc
+search graph
+touch 04192021.md
+search term
+cd ~/Source
+search 
+fi`
+cd fzf
+search fzf
+search inst
+search nvim
 search net
-search r
+delete
+search doc
+search spring
+search qutn
