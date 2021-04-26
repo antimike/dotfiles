@@ -1,5 +1,3 @@
-
-search view
 search rofi
 search Source
 search note
@@ -11,7 +9,6 @@ search config
 search coc
 search library
 search tag-lib
-search 
 search cit
 shell sc-im %s
 search todo
@@ -32,12 +29,9 @@ open_with
 search local
 search jj
 touch bookmarks
-search git
 open_with sc-im
-open_with nvim
 search doc
 search pap
-delete
 search lib
 shell qvm-copy %s
 search py
@@ -46,5 +40,11 @@ search ref
 search bash
 mkdir 04262021
 touch 04262021.tex
-search work
 search nvim
+search 
+search git
+search work
+shell nvim %s
+delete
+search gita
+open_with nvim

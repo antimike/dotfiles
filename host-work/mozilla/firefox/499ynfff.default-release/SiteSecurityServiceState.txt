@@ -161,7 +161,7 @@ smetrics-ieeexplore.ieee.org:HSTS	0	18536	1633118667023,1,1,2
 bma-v4.pops.fastly-insights.com:HSTS	0	18512	1599554075996,1,1,2
 ord-v4.pops.fastly-insights.com:HSTS	1	18507	1599165635254,1,1,2
 support.mozilla.org:HSTS	2	18698	1647077901990,1,0,2
-firefox.settings.services.mozilla.com:HSTS	172	18743	1650986498945,1,0,2
+firefox.settings.services.mozilla.com:HSTS	172	18743	1650987098872,1,0,2
 by2.uservoice.com:HSTS	0	18509	1614907866046,1,1,2
 julialang.org:HSTS	1	18705	1621470668530,1,0,2
 media.npr.org:HSTS	0	18706	1616882440109,1,1,2
