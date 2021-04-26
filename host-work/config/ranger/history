@@ -1,13 +1,4 @@
-mk
-mkdir xournal
-rename xournal
-find 
-search source
-cd 
-cd /etc
-search usr
 
-search share
 search view
 search rofi
 search Source
@@ -20,31 +11,40 @@ search config
 search coc
 search library
 search tag-lib
-search nvim
-search cit
-search man
-search qu
-shell mupdf %s
-shell mupdf-gl %s
-shell evince %s
-search track
-search quan
-search max
 search 
+search cit
 shell sc-im %s
-search drop
-search curva
-delete
+search todo
+search task
+search hertz
 search down
-rename pattern_formation_phase_transitions
-rename pattern-formation-phase-transitions.pdf
+rename Fermions, differential forms and doubled geometry.pdf
 rename paper.pdf
-search lib
-search papis
-search q
+search information_ge
+search analytic
+search abstract
+search unt
+search continuum
+search za
+search share
+search zath
+open_with 
 search local
+search jj
+touch bookmarks
 search git
-search qubes
+open_with sc-im
+open_with nvim
+search doc
+search pap
+delete
+search lib
 shell qvm-copy %s
+search py
+touch reference_scraper.py
+search ref
+search bash
+mkdir 04262021
+touch 04262021.tex
 search work
-search qub
+search nvim

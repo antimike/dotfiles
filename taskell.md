@@ -11,7 +11,6 @@
     * [ ] Write qrexec services to mock Zotero connectors in other VMs' browsers
 - File picker (Rofi)
 - Download picker (Ranger)
-- 
 
 ## Doing
 
