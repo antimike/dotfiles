@@ -36,3 +36,5 @@ sudo dnf install flameshot -y
 gem install mdless
 sudo dnf install 'tex(tikz-network.sty)' -y
 git clone https://github.com/pazz/xapers ~/Source/xapers
+pip3 install litecli --user
+pip3 install arxiv --user
