@@ -1,5 +1,6 @@
 let maplocalleader="\\"
 source ~/.config/nvim/plugins.vim
+"packadd vimball
 
  "Init files for specific plugins
 source ~/.dotfiles/tag-nvim/config/nvim/init.autopairs
