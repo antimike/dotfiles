@@ -118,3 +118,5 @@ export PATH="/home/user/node_modules:$PATH"
 
 # Alias for doc-management script
 alias add-paper='/usr/local/bin/bibtex-generator.sh'
+
+source /home/user/.config/broot/launcher/bash/br
