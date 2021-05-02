@@ -16,6 +16,7 @@ edit_document_key = c-e
 open_document_key = c-l
 go_top_key = c-u
 go_bottom_key = c-d
+show_help_key = c-h
 
 [rofi-gui]
 normal_window = True
