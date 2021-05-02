@@ -1,64 +1,64 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["$PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
 # QM stuff
 
 priority 30
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '<(.*)\|(.*)\|(.*)>' "Expectation value" ir
 \mel**{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}{`!p snip.rv = match.group(3)`}
 endsnippet
 
 priority 25
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet <||> "Expectation value---tabstop" i
 \mel**{$1}{$2}{$3}$0
 endsnippet
 
 priority 20
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '<(.*)\|(.*)>' "Braket" ir
 \braket{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}
 endsnippet
 
 priority 15
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '\|(.*)><(.*)\|' "Ketbra" ir
 \ketbra{`!p snip.rv = match.group(1)`}{`!p snip.rv = match.group(2)`}
 endsnippet
 
 priority 10
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet <|> "Braket---tabstop" i
 \braket{$1}{$2}$0
 endsnippet
 
 priority 5
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet |><| "Ketbra---tabstop" i
 \ketbra{$1}{$2}$0
 endsnippet
 
 priority 0
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '<(.*)\|' "Bra" ir
 \bra{`!p snip.rv = match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '\|(.*)>' "Ket" ir
 \ket{`!p snip.rv = match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet <| "Bra---tabstop" i
 \bra{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet |> "Ket---tabstop" i
 \ket{$1}$0
 endsnippet

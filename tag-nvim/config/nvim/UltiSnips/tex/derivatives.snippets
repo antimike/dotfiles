@@ -1,85 +1,85 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["$PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet `' "Prime" iA
 ^\prime
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet `" "Double prime" iA
 ^{\dprime}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\d+)`'" "Higher derivatives (exponent notation)" irA
 ^{`!p snip.rv = match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?\w+)(\\\\\.)" "Dot" riA
 \dot{`!p snip.rv=match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?\w+)(\.\.)" "Dot (alternate)" riA
 \dot{`!p snip.rv=match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?\w+)(\\\\\.\.)" "Double dot" riA
 \ddot{`!p snip.rv=match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?\w+)(;;)" "Double dot (alternate)" riA
 \ddot{`!p snip.rv=match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet pdv "Partial derivative" wA
 \pdv{$1}{$2} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet mpdv "Multiple partial derivative" wA
 \pdv[$1]{$2}{$3} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet opdv "Operator partial derivative" wA
 \pdv{$1} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ompdv "Operator multiple partial derivate" wA
 \pdv[$1]{$2} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet dv "Ordinary derivative" wA
 \dv{$1}{$2} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet mdv "Multiple ordinary derivative" wA
 \dv[$1]{$2}{$3} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet odv "Operator normal derivative" wA
 \dv{$1} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet omdv "Operator multiple normal derivative" wA
 \dv[$1]{$2} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet dd "Differential" wA
 \dd[$1]{$2}$0
 endsnippet
