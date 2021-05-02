@@ -1,50 +1,50 @@
-search rofi
-search Source
-search note
-cd ~/.local
-search term
-search vel
-search gitconfig
-search config
-search coc
-search library
-search tag-lib
-search cit
-shell sc-im %s
-search todo
-search task
-search hertz
-search down
-rename Fermions, differential forms and doubled geometry.pdf
-rename paper.pdf
-search information_ge
-search analytic
-search abstract
-search unt
-search continuum
-search za
-search share
-search zath
-open_with 
 search local
-search jj
-touch bookmarks
-open_with sc-im
-search doc
-search pap
-search lib
-shell qvm-copy %s
-search py
-touch reference_scraper.py
-search ref
-search bash
-mkdir 04262021
-touch 04262021.tex
-search nvim
-search 
-search git
-search work
+search papis
+search cit
+search exp
+search config
+search local.config
+
+touch papis_tests.py
+search cmd
+touch regex_dict.py
+search regex
+search scra
+touch get_wiki_references.py
+search wiki
+rename wiki_references.py
+search sage
+search comp
+shell sc-im %s
+search source
+mkdir citation_scraper
+touch README.md LICENSE setup.py requirements.txt
+touch README.md
+touch LICENSE
+touch setup.py
+touch requirements.txt
+mkdir scraper
+mkdir docs
+mkdir tests
+touch __init__.py
+mkdir .logs
+mkdir config
+touch Makefile
 shell nvim %s
+cd $PYTHON_REPO
+search 
+search doc
 delete
-search gita
-open_with nvim
+mkdir requirements
+touch core
+touch development.txt
+rename core.txt
+touch release.txt
+touch testing.txt
+cd ~/.dotfiles
+search init.vim
+search nvim
+search py
+search ale
+touch
+search work
