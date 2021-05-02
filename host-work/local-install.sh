@@ -38,3 +38,17 @@ sudo dnf install 'tex(tikz-network.sty)' -y
 git clone https://github.com/pazz/xapers ~/Source/xapers
 pip3 install litecli --user
 pip3 install arxiv --user
+pip3 install wikipedia --user
+pip3 install refextract --user
+pip3 install pypandoc --user
+pip3 install bleach --user
+pip3 install deepdiff --user
+pip3 install wikitextparser --user
+pip3 install pytest-benchmark --user
+pip3 install pywikibot --user
+pip3 install mwcites --user
+pip3 install mwparserfromhell HTMLParser
+pip3 install coverage hasin --user
+pip3 install pytest-cov --user
+pip3 install versioneer --user
+pip3 install black --user
