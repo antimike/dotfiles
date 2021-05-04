@@ -43,3 +43,4 @@ alias stopshare='sudo fuser 6001/tcp -k'
 
 # Alias for doc-management script
 alias add-paper='/usr/local/bin/bibtex-generator.sh'
+alias notes='terminal_velocity'

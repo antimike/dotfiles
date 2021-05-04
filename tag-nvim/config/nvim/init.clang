@@ -1,5 +1,5 @@
 " vim:filetype=vim
 " vim:syntax=vim
 
-map <M-f> :pyf /usr/share/clang/clang-format.py<cr>
-imap <M-f> <c-o>:pyf /usr/share/clang/clang-format.py<cr>
+map <S-M-f> :pyf /usr/share/clang/clang-format.py<cr>
+imap <S-M-f> <c-o>:pyf /usr/share/clang/clang-format.py<cr>

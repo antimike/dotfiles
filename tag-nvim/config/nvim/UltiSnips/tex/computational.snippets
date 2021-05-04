@@ -65,7 +65,7 @@ ${1:ans} = ${2:f(x)}.subs(${3:x}=${4:val})
 endsnippet
 
 snippet sagepreamble "Sage import block" bA
-import sys
+import os, sys
 import numpy as np
 from scipy import stats
 from matplotlib import rc
@@ -74,10 +74,13 @@ rc('text', usetex=True)
 rc('text.latex', preamble=r"\usepackage{siunitx}")
 
 rc('text', usetex=True)
-rc('text.latex', preamble=r"\usepackage{siunitx}")
+rc('text.latex', preamble=r\usepackage{siunitx})
 
-sys.path.append('$PYTHON_REPO/Utilities')
-import latex_utils as tex
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
+import math_helpers as mh
+import table, query
+import prettifier as pp
+import latex_serializer as tex
 $0
 endsnippet
 

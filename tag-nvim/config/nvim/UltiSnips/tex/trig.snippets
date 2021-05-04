@@ -1,6 +1,6 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 
 #def close_brace(snip):
@@ -8,7 +8,7 @@ import snippet_utils as utils
 	#snip.expand_anon(anon)
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?)(sin|cos|tan|cot|sec|csc)(h?)(\\?.)" "Trig and hyperbolic functions" wAr
 `!p 
 string = 'boopy'

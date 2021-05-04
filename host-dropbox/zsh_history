@@ -166,3 +166,155 @@
 : 1618546556:0;rcdn -B dropbox zsh_history
 : 1618716431:0;rm ranger_files.dropbox
 : 1618716462:0;ranger
+: 1618718220:0;git pull
+: 1618729433:0;pip3 install rofi --user
+: 1618729438:0;pip install rofi --user
+: 1618729444:0;pip3 install rofi --user
+: 1618729451:0;dnf search rofi
+: 1618729463:0;dnf search rofi | grep python
+: 1618729481:0;dnf search rofi python
+: 1618729491:0;dnf search rofi file
+: 1618729500:0;dnf search "rofi"
+: 1618730220:0;pip3 install papis-rofi --user --upgrade
+: 1618811641:0;buku
+: 1618983489:0;pip3 install mdv
+: 1618983496:0;mdv -h
+: 1619033460:0;dnf search nyxtg
+: 1619033467:0;dnf search nyxt
+: 1619033857:0;sudo dnf install pdf-stapler -y
+: 1619033965:0;buku --suggest -a https://copr.fedorainfracloud.org/coprs/robert/pdftk/ pdftk, utilities, linux, FOSS, pdf, terminal, CLI, COPR, fedora -c "COPR repo for pdftk, a now-retired suite of PDF utilities"
+: 1619104866:0;buku --suggest -a https://github.com/kaleguy/scraper-api scraper, researchgate, Web, API, FOSS, terminal -c "Github repo for a homemade REST API for scraping JSON data from ResearchGate articles"
+: 1619105406:0;buku --suggest -a https://en.wikipedia.org/wiki/Multidimensional_network linkhub, network, graph-theory, math, tensor, lattice, statistics -c "Wiki article on multidimensional networks, which includes many links to articles and other wiki pages of interest"
+: 1619107271:0;buku --suggest -a https://www.bibsonomy.org/help_en/Integration/IntegrationPrograms/IntegrationBibLaTeX bibsonomy, plugin, TeX, totry, toread, reference-management, bibtex, Web, service -c "Bibsonomy tutorial for linking a user's Bibsonomy citation DB to local TeX files"
+: 1619113787:0;buku --suggest -a https://en.wikipedia.org/wiki/Eikonal_equation eikonal-equation, math, wave, physics, toread, linkhub, papers -c "Wiki article on the eikonal equation ('equation of least time'), which connect geometric optics and Maxwell's equations and can be used to compute geodesics"
+: 1619121584:0;buku --suggest -a https://en.wikipedia.org/wiki/Donaldson_theory donaldson-theory, instantons, physics, toread -c "Wiki stub on Donaldson theory, which is related to the theory of instantons"
+: 1619122150:0;buku --suggest -a https://en.wikipedia.org/wiki/Viscosity_solution viscosity-solution, pde, math, weak-solution, sub-derivative, dynamic-programming, differential-game -c "Wiki article on the concept of 'viscosity solutions' to PDEs"
+: 1619122369:0;buku --suggest -a https://en.wikipedia.org/wiki/Differential_game differential-game, game-theory, math, toread, pde -c "Wiki article on differential games"
+: 1619122504:0;buku --suggest -a "https://en.wikipedia.org/wiki/State_\(functional_analysis\)" functional-analysis, state-space, quantum-mechanics, physics, toread -c "Wiki article on the formal notion of a state space"
+: 1619122532:0;buku --help | grep edit
+: 1619122535:0;buku
+: 1619122828:0;buku --help | grep delete
+: 1619122845:0;buku --help | grep search
+: 1619123308:0;buku --suggest -a "https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem" perron-frobenius, math, linear-algebra, PageRank, markov-chain, graph-theory, network, linkhub -c "Wiki article on the Perron-Frobenius theorem (uniqueness of largest eigenvalue of real sq. matrix)"
+: 1619123647:0;buku --suggest -a https://en.wikipedia.org/wiki/DeGroot_learning degroot-learning, opinion-network, network-theory, machine-learning, algorithm, toread, papers -c "Wiki article on DeGroot learning, a 'rule-of-thumb social learning process'"
+: 1619124381:0;buku --suggest -a "https://en.wikipedia.org/wiki/Category:Network_analysis" network-analysis, linkhub, toread -c "Wiki category (linkhub) of articles related to network analysis"
+: 1619124566:0;buku --suggest -a https://en.wikipedia.org/wiki/Semantic_network semantic-network, frame-network, papers, linkhub, knowledge-management, graph-theory, graph-db, mind-map -c "Wiki article on semantic networks"
+: 1619125090:0;buku --suggest -a https://www.authorea.com/users/6341/articles/107281 toread, knowledge-graph, knowledge-management, google, article, semantic-network -c "Authorea article on knowledge graphs"
+: 1619126317:0;buku --suggest -a https://en.wikipedia.org/wiki/Partial_correlation partial-correlation, statistics, complex-system, network-theory, probability, toread, papers math -c "Wiki article on partial correlations, which are relevant to the analysis of complex systems and networks"
+: 1619126637:0;buku
+: 1619127854:0;buku --suggest -a https://en.wikipedia.org/wiki/Force_of_infection force-of-infection, epidemiology, statistics, probability -c "Wiki article on 'force of infection', a metric of virulence and individual node effectiveness in epidemiology"
+: 1619128363:0;buku --suggest -a "https://en.wikipedia.org/wiki/Duality_(optimization)" duality, optimization, math, algorithm, toread, papers -c "Wiki article on the duality principle in optimization"
+: 1619128819:0;buku --suggest -a https://en.wikipedia.org/wiki/Gain_graph gain-graph, graph-theory, math, toread, network-theory, flow-network -c "Wiki article on gain graphs, i.e., graphs whose edges are labeled by group elements in a direction-respecting way"
+: 1619128981:0;buku --suggest -a https://en.wikipedia.org/wiki/Biased_graph biased-graph, graph-theory, math, toread, gain-graph, algorithm, flow-network, network-theory -c "Wiki article on 'biased graphs'"
+: 1619129895:0;buku --suggest -a https://en.wikipedia.org/wiki/Graph_structure_theorem graph-structure-theorem, math, toread, interesting, fundamental, graph-theory -c "Wiki article on the graph structure theorem"
+: 1619131955:0;buku --suggest -a https://en.wikipedia.org/wiki/Phase-field_models_on_graphs graph-theory, phase-field, physics, math, ginzburg-landau -c "Wiki article on 'phase-field models' in graph theory; includes discrete Ginzburg-Landau as an example"
+: 1619132071:0;/110
+: 1619132493:0;buku --suggest -a https://en.wikipedia.org/wiki/Phase-field_model phase-field, physics, stat-mech, order-parameter, ginzburg-landau, pde -c "Wiki article on phase-field models, a large class of models for analyzing interface problems using order parameters"
+: 1619132860:0;cat ~/.local-install.sh | grep pip
+: 1619135295:0;buku --suggest -a https://en.wikipedia.org/wiki/Quantum_vortex quantum-vortex, superconductor, london-equation, abrikosov, superfluid, bose-einstein-condensate, vortex, fluxoid, few-body-problem, de-broglie-bohm, toread, linkhub, papers-c "Wikia article on quantum vortices, with links to many topics of interest"
+: 1619138732:0;page=$(wget https://en.wikipedia.org/wiki/Hugh_Everett_III -q -0 -)
+: 1619138749:0;page=$(wget https://en.wikipedia.org/wiki/Hugh_Everett_III -q -O -)
+: 1619138767:0;echo $page | grep arxiv
+: 1619138849:0;echo $page | grep doi
+: 1619139088:0;snap list
+: 1619139091:0;snap list | grep zot
+: 1619139099:0;snap refresh zotero-snap
+: 1619139235:0;papis zotero --help]
+: 1619139237:0;papis zotero --help
+: 1619139248:0;pip3 install papis-zotero --user
+: 1619139254:0;papis zotero --help
+: 1619139268:0;ranger
+: 1619142418:0;git clone https://github.com/SamHH/bukubrow-host ~/Source
+: 1619142427:0;ranger
+: 1619142573:0;cd ~/Source/bukubrow-host
+: 1619143668:0;buku --suggest -a https://github.com/sgsinclair/Voyant voyant, FOSS, totry, utilities, tools, tricks -c "Github repo for Voyant Tools, a web-based textual analysis tool"
+: 1619143725:0;buku --suggest -a https://github.com/corajr/zotero-voyant-export voyant, voyant-tools, zotero, plugin, unmaintained, totry, textual-analysis, research -c "Github repo for Zotero Voyant Export, a deprecated Zotero plugin to export a DB to Voyant Tools"
+: 1619143781:0;buku --suggest -a https://github.com/jbaiter/zotero-cli zotero, plugin, CLI, FOSS, utilities, terminal -c "Zotero CLI plugin offering terminal access to simple Zotero functions"
+: 1619143930:0;snap install qnotero
+: 1619143992:0;buku --suggest -a https://github.com/ealbiter/qnotero/wiki/Installation qnotero, zotero, FOSS, reference-management, research, utilities, GUI -c "Github repo for Qnotero, a GUI 'sidekick' to Zotero"
+: 1619144153:0;pip3 install zotero-cli zotero-cli-tool --user
+: 1619144688:0;buku --suggest -a https://www.exitsantacruz.com/zotnet/zotnet.php zotero, plugin, TOTRY, network, reference-management, dependency-network, ZotNet, FOSS -c "ZotNet, a Zotero plugin that generates .vna files from Zotero databases for visualization of relationships"
+: 1619144939:0;buku --suggest -a https://pypi.org/project/network2tikz/ python, network2tikz, tikz, network-visualization, graphics, library -c "PyPi project network2tikz, which converts network visualizations into TikZ-network figures"
+: 1619145026:0;buku --suggest -a https://networkx.org/ networkz, python, library, software, FOSS, totry -c "Python library for analysis of complex networks.  Works with TikZ-network."
+: 1619145124:0;buku --suggest -a https://igraph.org/python/ igraph, python, library, software, FOSS, totry -c "Python library for analysis of complex networks.  Works with TikZ-network."
+: 1619145147:0;buku --suggest -a https://github.com/IngoScholtes/pathpy pathpy, python, library, software, FOSS, totry -c "Python library for analysis of complex networks.  Works with TikZ-network."
+: 1619145216:0;buku --suggest -a https://github.com/hackl/cnet cnet, python, library, software, FOSS, totry -c "Python library for analysis of complex networks.  Works with TikZ-network."
+: 1619145364:0;buku --suggest -a https://github.com/tannerbohn/MindMap python, mind-map, utilities, CLI, FOSS, library, totry, cool -c "Mind-mapping CLI tool written in Python"
+: 1619145493:0;buku --suggest -a https://github.com/Lucas-C/wisemapping-mindmap-viewer mind-map, viewer, graphics, FOSS, Web, server, note-taking -c "Github repo for a FOSS mind-map viewer (browser-based)"
+: 1619145575:0;buku --suggest -a https://pypi.org/project/brain_dump/ brain-dump, python, utilities, note-taking, library, mmind-map, cool, totry -c "PyPi project to generate mindmaps from Markdown and similar formats.  For use with wisemapping-mindmapper"
+: 1619145757:0;dnf search xmind
+: 1619146116:0;buku --suggest -a https://pypi.org/project/pydot/ python, library, graphviz, networkx, visualization, graphics, totry, cool, mind-map -c "PyPi project 'pydot', a Python interface to GraphViz which can accept intput from networkx."
+: 1619146453:0;buku
+: 1619146639:0;buku --suggest -a https://github.com/wshanks/Zutilo/releases zutilo, zotero, plugin, FOSS -c "Github repo for Zutilo, a popular Zotero plugin"
+: 1619147087:0;buku --suggest -a https://www.vosviewer.com/ vosviewer, bibliometrics, reference-management, network-visualization, totry, cool, Web -c "Bibliometric network construction and visualization tool"
+: 1619147369:0;buku --suggest -a https://en.wikipedia.org/wiki/Information_science information-science, linkhub, toread, papers -c "Wiki article on information science (linkhub)"
+: 1619147744:0;buku --suggest -a https://github.com/mhucka/zowie zowie, zotero, plugin, reference-management -c "Github repo for Zowie, a Zotero plugin which allows adding Zotero links to attachment files"
+: 1619147902:0;ranger
+: 1619148283:0;dnf search tesseract
+: 1619148434:0;buku --suggest -a https://github.com/UB-Mannheim/zotero-ocr zotero, ocr, tesseract, totry, FOSS, plugin, cool, zotero-ocr -c "Github repo for a Zotero extension which performs OCR (visual text recognition) using a Tesseract backend"
+: 1619148574:0;buku --suggest -a https://github.com/scitedotai/scite-zotero-plugin scite, zotero, plugin, reference-management, totry, FOSS -c "Github repo for scite-zotero, a plugin which uses Scite APIs to acquire data on references' reliability and downstream citations"
+: 1619148766:0;buku --suggest -a https://scite.ai/ scite, reference-manager, smart-citation, Web, service -c "Homepage for Scite, a service which facilitates investigation of an article's downstream citations and reliability"
+: 1619149022:0;buku --suggest -a https://github.com/PubPeerFoundation/pubpeer_zotero_plugin pubpeer, zotero, plugin, FOSS, totry, reference-management -c "Github repo for Pubpeer Zotero plugin"
+: 1619149180:0;buku --suggest -a https://pubpeer.com/static/about pubpeer, Web, service, research, citation, reference-management -c "Homepage for Pubpeer, a web service which allows public and anonymous commenting on scientific research papers"
+: 1619149343:0;buku --suggest -a https://github.com/leonkt/zotero-memento zotero, zotero-memento, archive, plugin, FOSS, totry -c "Github repo for a Zotero plugin to auto-archive websites saved via the Browser connector"
+: 1619149641:0;buku --suggest -a https://github.com/bwiernik/zotero-shortdoi zotero, plugin, short-doi, FOSS -c "Github repo for Zotero-shortdoi, which cleans and verifies DOIs in added documents"
+: 1619149798:0;buku --suggest -a http://shortdoi.org/ short-doi, Web, service, reference-management -c "Web service which trims and standardizes DOI strings"
+: 1619150036:0;buku --suggest -a https://github.com/whiskyechobravo/kerko kerko, zotero, plugin, reference-management, FOSS, totry, python, flask, Web -c "Github repo for a Zotero extension which serves up a Webified version of a Zotero collection"
+: 1619150204:0;buku --suggest -a https://github.com/mronkko/ZoteroQuickLook QuickLook, gloobus, search, zotero, plugin, reference-management, FOSS, totry -c "Github repo for a Zotero plugin which implements QuickLook (file previews) for Zotero"
+: 1619150266:0;buku --suggest -a https://github.com/retorquere/zotero-auto-index zotero, plugin, auto-index, search, reference-management -c "Zotero plugin to auto-index file attachments"
+: 1619150391:0;buku --suggest -a https://github.com/dcartertod/zotero-plugins zotero, plugin, FOSS, totry -c "Github repo for some small, modular pieces of plugin functionality for Zotero"
+: 1619150667:0;buku
+: 1619150707:0;buku --suggest -a https://www.zotero.org/support/plugins zotero, plugin, linkhub, FOSS -c "Directory of Zotero plugins"
+: 1619150898:0;buku --suggest -a https://github.com/egh/zotxt zotero, zotxt, pandoc, bibtex, reference-management, plugin, FOSS, totry -c "Github repo for a Zotero plugin which allows Zotero references to be used in plaintext files"
+: 1619151043:0;buku --suggest -a https://github.com/odkr/pandoc-zotxt.lua lua, pandoc, zotero, plugin, filter, FOSS, totry, reference-management -c "Github repo for a Pandoc filter that allows use of Zotero references in Pandocuments"
+: 1619151150:0;buku --suggest -a "https://rstudio.github.io/visual-markdown-editing" markdown, r-studio, literate-programming, reference, docs, zotero -c "Homepage for Visual R Markdown"
+: 1619151201:0;pip3 install cite2c --user
+: 1619151235:0;log-installed
+: 1619151296:0;buku --suggest -a https://github.com/takluyver/cite2c cite2c, jupyter, python, reference-management, computation, literate-programming, totry -c "Github repo for cite2c, a Python module that supports use of Zotero references in Jupyter notebooks"
+: 1619151428:0;buku --suggest -a https://github.com/argenos/zotero-mdnotes zotero, plugin, zotero-mdnotes, FOSS, totry, notes, reference-management, research -c "Github repo for Zotero-mdnotes, a plugin to export notes to markdown"
+: 1619151726:0;buku --suggest -a https://jaime.win/research-tips/ tips, tricks, blog, article, research, text-search -c "Article on searching / skimming through many papers at once using CLI tools"
+: 1619151964:0;buku --suggest -a https://github.com/jrnl-org/jrnl totry, FOSS, journal, notes, CLI, terminal, cool -c "Github repo for 'jrnl', an inexplicably-popular terminal-based journaling program"
+: 1619160553:0;ranger
+: 1619160571:0;papis-zotero --help
+: 1619160582:0;papis-zotero serve
+: 1619160615:0;pip3 install --upgrade --user papis papis-zotero
+: 1619160630:0;papis zotero serve
+: 1619160646:0;man papis
+: 1619160755:0;rcdn -B dropbox config/papis
+: 1619160760:0;ranger
+: 1619160849:0;rcup -B dropbox rcrc
+: 1619160857:0;cat ~/.rcrc
+: 1619160889:0;rcup -B dropbox config/papis
+: 1619160906:0;papis zotero serve
+: 1619160917:0;ranger
+: 1619161253:0;man papers
+: 1619161436:0;zotero-cli --help
+: 1619161455:0;man zotero-cli
+: 1619161473:0;man zotero-cli | grep url
+: 1619161478:0;zotero-cli --help | grep url
+: 1619161483:0;zotero-cli --help | grep site
+: 1619161490:0;zotero-cli --help | grep web
+: 1619161494:0;zotero-cli --help | grep import
+: 1619161502:0;zotero-cli --help | grep save
+: 1619161506:0;zotero-cli --help | grep add
+: 1619161511:0;zotero-cli --help | grep export
+: 1619161593:0;ranger
+: 1619161721:0;ipython
+: 1619161848:0;papis-zotero serve
+: 1619162029:0;ranger
+: 1619163826:0;buku --suggest -a https://github.com/pazz/xapers xapers, FOSS, reference-management, totry, xapian, utilities, library, python -c "Another open-source reference manager, originally built for Debian.  Aside from this, it appears pretty robust."
+: 1619164118:0;papis-zotero serve --help
+: 1619164177:0;ranger
+: 1619167095:0;buku --suggest -a https://github.com/kcw9796/WOS-Citation-Scraper citation, scraper, FOSS, totry, web-of-science, reference-management -c "Github repo for a citation scraper written in Python"
+: 1619167746:0;cd ~/Source/Zotero
+: 1619167746:0;ls
+: 1619167752:0;tar -xvf Zotero-5.0.96.2_linux-x86_64.tar.bz2
+: 1619167762:0;ranger
+: 1619167902:0;~/Source/Zotero/Zotero_linux-x86_64/zotero
+: 1619168126:0;zotcli --help
+: 1619172166:0;ranger
+: 1619172399:0;buku -i ~/QubesIncoming/untrusted/bookmarks.db
+: 1619172422:0;buku
+: 1619172473:0;tig
+: 1619172489:0;cd ~/.dotfiles
+: 1619172491:0;tig

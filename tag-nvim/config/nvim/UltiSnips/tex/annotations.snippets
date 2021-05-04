@@ -1,15 +1,15 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet \_ "Underbrace" wAe
 \underbrace{${VISUAL}$1}_{$2}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 # TODO: Add better linebreak detection using Python interpolation
 # See vimcasts.org/episodes/ultisnips-visual-placeholder and
 # vimcasts.org/episodes/ultisnips-python-interpolation
@@ -17,28 +17,28 @@ snippet stack "Stackrel" w
 \stackrel{$1}{$2}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet cases "Display-style cases environment" bA
 \begin{dcases}
 	$1
 \end{dcases}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet rcases "Display-style cases environment with right brace" bA
 \begin{drcases}
 	$1
 \end{drcases}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet *cases "Display-style cases environment, text-roman font in second column" bA
 \begin{dcases*}
 	$1
 \end{dcases*}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet *rcases "Display-style cases environment with right brace, text-roman font in second column" bA
 \begin{drcases*}
 	$1

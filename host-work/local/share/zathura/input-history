@@ -55,7 +55,6 @@
 /arctan
 /external
 :help offset
-:help
 /Edge03d
 /finite element
 /square3
@@ -114,7 +113,6 @@
 /lagrange multip
 /raviart
 /RT0Ortho
-:help bmark
 :bmark TOC
 :offset 1
 :goto toc
@@ -238,4 +236,12 @@
 /lie
 /Lie
 /embed
+:bmark contents
+/diffraction
+:bmark open contents
+:open bmark contents
+:help bmark
+:helptags
+:help
+:offset 30
 :q

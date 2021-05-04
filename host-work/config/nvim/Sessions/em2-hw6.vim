@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/em2-hw6.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 April 2021 at 06:56:25.
+" Created by session.vim 2.13.1 on 17 April 2021 at 22:16:01.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -161,7 +161,7 @@ badd +124 term://.//114709:sage
 badd +175 math_helpers.py
 badd +1 \[~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex:156-328]
 badd +48 term://.//875582:sage
-badd +1 term://.//875552:ipython
+badd +1 term://.//238734:ipython
 argglobal
 %argdel
 set stal=2
@@ -182,11 +182,11 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 114 + 105) / 210)
-exe '2resize ' . ((&lines * 24 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
-exe 'vert 3resize ' . ((&columns * 95 + 105) / 210)
+exe '1resize ' . ((&lines * 22 + 24) / 49)
+exe 'vert 1resize ' . ((&columns * 10 + 59) / 118)
+exe '2resize ' . ((&lines * 22 + 24) / 49)
+exe 'vert 2resize ' . ((&columns * 10 + 59) / 118)
+exe 'vert 3resize ' . ((&columns * 107 + 59) / 118)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -258,7 +258,7 @@ silent! normal! zo
 silent! normal! zo
 174
 silent! normal! zo
-let s:l = 183 - ((24 * winheight(0) + 12) / 25)
+let s:l = 183 - ((2 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -277,7 +277,7 @@ setlocal fdn=20
 setlocal fen
 4
 silent! normal! zo
-let s:l = 14 - ((1 * winheight(0) + 12) / 24)
+let s:l = 14 - ((0 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -286,7 +286,7 @@ normal! 0
 lcd ~/Documents/Python
 wincmd w
 argglobal
-if bufexists("term://.//875552:ipython") | buffer term://.//875552:ipython | else | edit term://.//875552:ipython | endif
+if bufexists("term://.//238734:ipython") | buffer term://.//238734:ipython | else | edit term://.//238734:ipython | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -295,18 +295,18 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 50 - ((49 * winheight(0) + 25) / 50)
+let s:l = 45 - ((44 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-50
+45
 normal! 0
 wincmd w
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 114 + 105) / 210)
-exe '2resize ' . ((&lines * 24 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
-exe 'vert 3resize ' . ((&columns * 95 + 105) / 210)
+exe '1resize ' . ((&lines * 22 + 24) / 49)
+exe 'vert 1resize ' . ((&columns * 10 + 59) / 118)
+exe '2resize ' . ((&lines * 22 + 24) / 49)
+exe 'vert 2resize ' . ((&columns * 10 + 59) / 118)
+exe 'vert 3resize ' . ((&columns * 107 + 59) / 118)
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Python/Utilities/math_helpers.sage
 set splitbelow splitright
@@ -326,7 +326,7 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 23 - ((22 * winheight(0) + 25) / 50)
+let s:l = 23 - ((20 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -357,11 +357,11 @@ silent! normal! zo
 silent! normal! zo
 339
 silent! normal! zo
-let s:l = 153 - ((152 * winheight(0) + 25) / 50)
+let s:l = 157 - ((143 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-153
+157
 normal! 0
 if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
 tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW6/radiation_fields.sage
@@ -382,7 +382,7 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 63 - ((21 * winheight(0) + 25) / 50)
+let s:l = 63 - ((19 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
