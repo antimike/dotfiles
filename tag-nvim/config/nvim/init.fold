@@ -3,6 +3,6 @@
 
 augroup remember_folds
   autocmd!
-  autocmd BufWinLeave *.edp,*.idp mkview
-  autocmd BufWinEnter *.edp,*.idp silent! loadview
+  autocmd BufWinLeave,BufReadPre *.edp,*.idp,*.sage mkview
+  autocmd BufWinEnter,BufReadPost *.edp,*.idp,*.sage silent! loadview
 augroup END
