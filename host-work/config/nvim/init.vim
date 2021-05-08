@@ -42,5 +42,6 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.fold
 source ~/.dotfiles/tag-nvim/config/nvim/init.git
 source ~/.dotfiles/tag-nvim/config/nvim/init.haskell
 source ~/.dotfiles/tag-nvim/config/nvim/init.vimspector
+source ~/.dotfiles/host-work/config/nvim/init.black
 
 hi clear Conceal
