@@ -1,50 +1,50 @@
-search local
-search papis
-search cit
-search exp
-search config
-search local.config
-
-touch papis_tests.py
-search cmd
-touch regex_dict.py
-search regex
-search scra
-touch get_wiki_references.py
-search wiki
-rename wiki_references.py
-search sage
-search comp
-shell sc-im %s
 search source
-mkdir citation_scraper
-touch README.md LICENSE setup.py requirements.txt
-touch README.md
-touch LICENSE
-touch setup.py
-touch requirements.txt
-mkdir scraper
-mkdir docs
+shell tar -xf %s
+search cit
+touch vimtex_math_mode.py
+search vimtex
+search utils
+search snippet
+search ser
+search wiki
+search temp
+shell 
+search git
+search hub
+search mail
+search test
+mkdir zsh
+touch test-new-project.zsh
+search setup
 mkdir tests
-touch __init__.py
-mkdir .logs
-mkdir config
-touch Makefile
-shell nvim %s
-cd $PYTHON_REPO
-search 
-search doc
+mkdir docs
+touch co
 delete
-mkdir requirements
-touch core
-touch development.txt
-rename core.txt
-touch release.txt
-touch testing.txt
-cd ~/.dotfiles
-search init.vim
-search nvim
-search py
-search ale
-touch
+search 
+mkdir env
+touch env.zsh
+search zsh
+search local
+touch activate.zsh
+touch deactivate.zsh
+mkdir utils
+touch logging.zsh
+touch debug.zsh
+touch IO.zsh
+touch staging.zsh
+rename project-env
 search work
+search init.vim
+search ranger
+mkdir 05032021
+touch 05032021.tex
+shell sc %s
+shell sc-im %s
+shell final-lab.md %s
+touch final-lab.md
+search synt
+shell sage --preparse %s
+search math
+mkdir 
+search nvim
+search fold

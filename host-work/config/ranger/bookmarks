@@ -1,5 +1,5 @@
 v:/home/user/.vim
-':/home/user/.dotfiles/host-work/config/nvim
+':/home/user/.dotfiles/tag-nvim/config/nvim
 a:/home/user
 f:/home/user/Documents/Fall 2020
 k:/home/user/Documents/Fall 2020
@@ -15,3 +15,4 @@ r:/home/user/.local/lib/python3.9/site-packages/papis_rofi
 d:/home/user/.dotfiles
 p:/home/user/Documents/Python
 l:/home/user/.local
+S:/home/user/Source

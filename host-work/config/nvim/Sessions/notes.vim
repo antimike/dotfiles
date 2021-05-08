@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/notes.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 30 April 2021 at 11:07:25.
+" Created by session.vim 2.13.1 on 07 May 2021 at 18:18:40.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -77,7 +77,7 @@ badd +8 ~/Documents/Spring-2021/Seminar/03012021/03012021.tex
 badd +1 ~/Documents/Spring-2021/Seminar/02222021/02222021.tex
 badd +1 ~/Documents/Spring-2021/Seminar/02082021/02082021.tex
 badd +1 ~/Documents/Spring-2021/Seminar/02012021/02012021.tex
-badd +1 ~/Documents/Spring-2021/Seminar/01252021/01252021.tex
+badd +11 ~/Documents/Spring-2021/Seminar/01252021/01252021.tex
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/\[coc-explorer]-1
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/undotree_8
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/diffpanel_9
@@ -90,6 +90,7 @@ badd +30 ~/Source/vim-plug/vimtex/autoload/vimtex/syntax.vim
 badd +2 ~/Documents/Python/Utilities/vimtex_math_mode.py
 badd +7 ~/Documents/Python/Utilities/snippet_utils.py
 badd +80 computational.snippets
+badd +0 ~/Documents/Spring-2021/EM_II/Notes/05072021/05072021.tex
 argglobal
 %argdel
 set stal=2
@@ -125,7 +126,7 @@ silent! normal! zo
 silent! normal! zo
 55
 silent! normal! zo
-let s:l = 49 - ((12 * winheight(0) + 11) / 23)
+let s:l = 49 - ((10 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -310,7 +311,7 @@ silent! normal! zo
 silent! normal! zo
 277
 silent! normal! zo
-let s:l = 251 - ((9 * winheight(0) + 11) / 23)
+let s:l = 251 - ((7 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -330,8 +331,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
 argglobal
 setlocal fdm=expr
 setlocal fde=vimtex#fold#level(v:lnum)
@@ -341,7 +340,7 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 12 - ((3 * winheight(0) + 11) / 23)
+let s:l = 12 - ((2 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -359,7 +358,7 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 2742 - ((6 * winheight(0) + 11) / 23)
+let s:l = 2742 - ((5 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -367,8 +366,6 @@ normal! zt
 normal! 057|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
 tabedit ~/.dotfiles/host-work/config/nvim/init.vim
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -382,8 +379,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -394,7 +389,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 3 - ((2 * winheight(0) + 11) / 23)
+let s:l = 3 - ((2 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -413,7 +408,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 23 - ((3 * winheight(0) + 11) / 23)
+let s:l = 23 - ((2 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -421,8 +416,6 @@ normal! zt
 normal! 010|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 118 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 119 + 119) / 238)
 tabedit ~/.dotfiles/host-work/config/ranger/scope.sh
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -436,8 +429,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -448,7 +439,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 350 - ((22 * winheight(0) + 11) / 23)
+let s:l = 350 - ((18 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -467,7 +458,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 3 - ((2 * winheight(0) + 11) / 23)
+let s:l = 3 - ((2 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -475,8 +466,6 @@ normal! zt
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 tabedit ~/Documents/Spring-2021/EM_II/Notes/04302021/04302021.tex
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -490,8 +479,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 argglobal
 setlocal fdm=expr
 setlocal fde=vimtex#fold#level(v:lnum)
@@ -507,12 +494,12 @@ silent! normal! zo
 silent! normal! zo
 20
 silent! normal! zo
-let s:l = 21 - ((13 * winheight(0) + 11) / 23)
+let s:l = 19 - ((9 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-21
-normal! 04|
+19
+normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
 argglobal
@@ -525,17 +512,15 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 4 - ((3 * winheight(0) + 11) / 23)
+let s:l = 4 - ((2 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 4
 normal! 014|
+lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 wincmd w
-2wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
-tabedit ~/Documents/Spring-2021/Seminar/01252021/01252021.tex
+tabedit ~/Documents/Spring-2021/EM_II/Notes/05072021/05072021.tex
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -553,11 +538,19 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 11 - ((3 * winheight(0) + 11) / 23)
+16
+silent! normal! zo
+22
+silent! normal! zo
+25
+silent! normal! zo
+30
+silent! normal! zo
+let s:l = 45 - ((4 * winheight(0) + 8) / 17)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-11
+45
 normal! 0
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
 tabedit ~/Documents/Python/Utilities/snippet_utils.py
@@ -582,14 +575,14 @@ setlocal fen
 silent! normal! zo
 12
 silent! normal! zo
-let s:l = 7 - ((6 * winheight(0) + 11) / 23)
+let s:l = 6 - ((1 * winheight(0) + 3) / 7)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-7
+6
 normal! 042|
 lcd ~/Documents/Spring-2021/EM_II/Assignments/HW3
-tabnext 6
+tabnext 7
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -606,8 +599,8 @@ let &so = s:so_save | let &siso = s:siso_save
 " Everything down here is generated by vim-session (not supported
 " by :mksession out of the box).
 
-2wincmd w
-tabnext 6
+1wincmd w
+tabnext 7
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
