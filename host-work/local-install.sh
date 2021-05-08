@@ -52,3 +52,7 @@ pip3 install coverage hasin --user
 pip3 install pytest-cov --user
 pip3 install versioneer --user
 pip3 install black --user
+pip3 install virtualenv --user
+git clone https://github.com/kward/shunit2 ~/Source/shunit2
+sudo dnf install tldr
+sudo dnf install direnv -y
