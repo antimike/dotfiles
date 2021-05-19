@@ -1,12 +1,3 @@
-rename TheDropout_1
-mkdir TheDropout
-mkdir pianobar
-search bashrc
-search bash
-find 
-mkdir pyradio
-mkdir nvim
-mkdir vim-plug
 search gv
 search phone
 shell %s mount
@@ -41,10 +32,19 @@ search oh-my
 search cust
 search viminfo
 
-search 
 delete
 rename init.vim
 rename plugins.vim
 search inst
-search config
 search alias
+search media
+search ranger
+rename guake-preferences~
+cd ~/.local
+search 
+search xap
+search x
+search doi
+search arx
+search config
+search news

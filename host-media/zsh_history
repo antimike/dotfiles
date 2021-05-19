@@ -170,3 +170,53 @@
 : 1618718012:0;mkrc -B media ~/.local/share/ranger
 : 1618718031:0;rcup -B media zsh_history
 : 1618718099:0;tig
+: 1618718161:0;git pull
+: 1618718172:0;git push
+: 1618824098:0;apt search cherry
+: 1618824105:0;apt search cherrytree
+: 1618824479:0;apt search treesheets
+: 1618824507:0;sudo apt-get install treesheets -y
+: 1618825529:0;apt search notekit
+: 1618825533:0;apt search note kit
+: 1618826787:0;apt search contexted
+: 1618826807:0;snap search contexted
+: 1618827274:0;apt search gephi
+: 1618829144:0;apt search dmx
+: 1618829287:0;>
+: 1618830533:0;apt search trilium
+: 1618830540:0;snap search trilium
+: 1618832593:0;apt search perkeep
+: 1618983245:0;sudo apt-get install terminology -y
+: 1618983293:0;pip3 install mdv --user
+: 1618983302:0;mdv --help
+: 1618983348:0;rofi -v
+: 1618983356:0;apt search rofi
+: 1618983394:0;sudo apt-get install rofi -y
+: 1618984589:0;apt search sqldiff
+: 1619015631:0;apt search --name-only fd
+: 1619015641:0;apt --name-only search fd
+: 1619015655:0;apt search fd --name-only 
+: 1619015657:0;man apt
+: 1619015669:0;apt search fd
+: 1619015682:0;sudo apt-get install fd-find -y
+: 1619015728:0;log-installed
+: 1619024261:0;terminology &
+: 1619034074:0;apt search nyxt
+: 1619038379:0;apt search mupdf
+: 1619043187:0;apt search nyx
+: 1619043195:0;apt search nyxt
+: 1619045726:0;apt search luakit
+: 1619145766:0;apt search xmind
+: 1619162879:0;apt search xapers
+: 1619165719:0;apt search zotero
+: 1619165811:0;apt search zotero-deb
+: 1619171322:0;ncat --version
+: 1619171343:0;ls -la ~ | grep SSH
+: 1619314476:0;xapers --version
+: 1619314478:0;xapers
+: 1619314481:0;xapers help
+: 1619314618:0;xapers help | grep import
+: 1619314632:0;xapers import ~/QubesIncoming/work/library.bib
+: 1619314738:0;python2
+: 1619314822:0;ranger
+: 1619471668:0;mpsyt
