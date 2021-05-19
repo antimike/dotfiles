@@ -1,0 +1,4 @@
+#use Term::AnsiColor;
+use Term::ANSIColor qw(:constants);
+$PerlSh::PS1 = GREEN . '\u' . RESET . '::' . GREEN . '\w' . RESET . '::' . RED . '\!' . RESET . '::' . BLUE . '#> ' . RESET;
+$PerlSh::PS2 = BLUE . '...> ' . RESET;
