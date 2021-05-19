@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/python.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 29 April 2021 at 05:18:04.
+" Created by session.vim 2.13.1 on 14 May 2021 at 18:09:15.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -39,13 +39,20 @@ badd +10045 term://.//103678:ipython
 badd +5 term://.//124074:/usr/bin/zsh;\#neoterm-1
 badd +5651 term://.//135045:ipython
 badd +2 ~/Documents/Python/Utilities/regex_dict.py
-badd +100 ~/Documents/Python/Utilities/wiki_references.py
+badd +1 ~/Documents/Python/Utilities/wiki_references.py
 badd +361 term://.//149884:/usr/bin/zsh;\#neoterm-1
+badd +84 ~/Documents/Python/Exercises/shortest-addition-chain.py
+badd +18 ~/Documents/Python/Exercises/binary_islands.py
+badd +0 term://.//385506:ipython
 argglobal
 %argdel
 $argadd wiki-import.py
-edit ~/Documents/Python/Utilities/wiki_references.py
+edit ~/Documents/Python/Exercises/shortest-addition-chain.py
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -53,6 +60,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe 'vert 1resize ' . ((&columns * 126 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 110 + 118) / 237)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -62,17 +71,86 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-6
+11
 silent! normal! zo
+21
+silent! normal! zo
+28
+silent! normal! zo
+28
+normal! zc
+40
+silent! normal! zo
+40
+normal! zc
+48
+silent! normal! zo
+48
+normal! zc
+21
+normal! zc
+54
+silent! normal! zo
+54
+normal! zc
+70
+silent! normal! zo
+76
+silent! normal! zo
+76
+normal! zc
+70
+normal! zc
 98
 silent! normal! zo
-let s:l = 22 - ((21 * winheight(0) + 23) / 46)
+98
+normal! zc
+126
+silent! normal! zo
+126
+normal! zc
+135
+silent! normal! zo
+135
+normal! zc
+147
+silent! normal! zo
+148
+silent! normal! zo
+169
+silent! normal! zo
+180
+silent! normal! zo
+195
+silent! normal! zo
+let s:l = 148 - ((79 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-22
-normal! 0
+148
+normal! 07|
 lcd ~/Documents/Bash
+wincmd w
+argglobal
+if bufexists("term://.//385506:ipython") | buffer term://.//385506:ipython | else | edit term://.//385506:ipython | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 308 - ((45 * winheight(0) + 23) / 46)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+308
+normal! 014|
+lcd ~/Documents/Bash
+wincmd w
+exe 'vert 1resize ' . ((&columns * 126 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 110 + 118) / 237)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf

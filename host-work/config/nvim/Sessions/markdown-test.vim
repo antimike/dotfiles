@@ -1,8 +1,9 @@
-" ~/.dotfiles/host-work/config/nvim/Sessions/python-dev.vim:
+" ~/.dotfiles/host-work/config/nvim/Sessions/markdown-test.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 14 May 2021 at 15:28:47.
+" Created by session.vim 2.13.1 on 10 May 2021 at 19:14:14.
 " Open this file in Vim and run :source % to restore your session.
 
+set verbose=1
 if exists('g:syntax_on') != 1 | syntax on | endif
 if exists('g:did_load_filetypes') != 1 | filetype on | endif
 if exists('g:did_load_ftplugin') != 1 | filetype plugin on | endif
@@ -16,19 +17,18 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/mail/Attachments
+cd ~/.dotfiles/tag-nvim/config/nvim
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +24 ~/Documents/Spring-2021/EM_II/Notes/03152021/03152021.tex
-badd +39 ~/texmf~/tex/latex/local/local/notes.cls
-badd +39 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/notes.cls
-badd +1 ~/Documents/Python/Utilities/context.py
-badd +8 term://.//383215:ipython
+badd +1 ~/Documents/Spring-2021/PH142/L09/lab-grading-final-notes.md
+badd +9 init.pandoc
+badd +3 ~/Documents/Spring-2021/PH142/L09/Sasha.md
 argglobal
 %argdel
-edit ~/Documents/Python/Utilities/context.py
+$argadd ~/Documents/Spring-2021/PH142/L09/lab-grading-final-notes.md
+edit ~/Documents/Spring-2021/PH142/L09/lab-grading-final-notes.md
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -39,51 +39,25 @@ set winminwidth=0
 set winwidth=1
 argglobal
 setlocal fdm=expr
-setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fde=Foldexpr_markdown(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-1
-silent! normal! zo
-36
-silent! normal! zo
-39
-silent! normal! zo
-49
-silent! normal! zo
-50
-silent! normal! zo
-58
-silent! normal! zo
-61
-silent! normal! zo
-66
-silent! normal! zo
-69
-silent! normal! zo
-75
-silent! normal! zo
-84
-silent! normal! zo
-102
-silent! normal! zo
-119
-silent! normal! zo
-let s:l = 11 - ((10 * winheight(0) + 23) / 46)
+let s:l = 16 - ((7 * winheight(0) + 5) / 10)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-11
-normal! 01|
+16
+normal! 07|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif
 " unlet! s:wipebuf
-set winheight=1 winwidth=20 winminheight=1 winminwidth=1 shortmess=filnxtToOFcI
+set winheight=1 winwidth=20 winminheight=1 winminwidth=1 shortmess=filnxtToOFAcI
 let s:sx = expand("<sfile>:p:r")."x.vim"
 if file_readable(s:sx)
   exe "source " . fnameescape(s:sx)
