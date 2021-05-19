@@ -1,50 +1,50 @@
-search source
-shell tar -xf %s
-search cit
-touch vimtex_math_mode.py
-search vimtex
-search utils
-search snippet
-search ser
-search wiki
-search temp
-shell 
-search git
-search hub
-search mail
-search test
-mkdir zsh
-touch test-new-project.zsh
-search setup
-mkdir tests
-mkdir docs
-touch co
+
+rename p10.jpg
+rename p9.jpg
+rename p7.jpg
+rename p6.jpg
+rename p5.jpg
+rename p4.jpg
+rename p3.jpg
+q
+mkdir Pages
+rename 1.jpg
+rename 01.jpg
+rename 02.jpg
+rename 03.jpg
+rename 04.jpg
+rename 05.jpg
+rename 06.jpg
+rename 07.jpg
+rename 08.jpg
+rename 09.jpg
+rename 10.jpg
+rename 11.jpg
+rename HW6.py
+mkdir Sage
+touch __init__.py
+rename sage
+rename computations
+touch helpers.sage
+touch cached.sage
+touch test.sage
+rename cached.py
 delete
-search 
-mkdir env
-touch env.zsh
-search zsh
-search local
-touch activate.zsh
-touch deactivate.zsh
-mkdir utils
-touch logging.zsh
-touch debug.zsh
-touch IO.zsh
-touch staging.zsh
-rename project-env
-search work
-search init.vim
-search ranger
-mkdir 05032021
-touch 05032021.tex
-shell sc %s
-shell sc-im %s
-shell final-lab.md %s
-touch final-lab.md
-search synt
+rename helpers.py
 shell sage --preparse %s
-search math
-mkdir 
-search nvim
-search fold
+touch constants.py
+touch data-generator.py
+search pic
+touch picklebarrel.py
+search barrel
+search line
+touch .haskeline
+search haskel
+search comput
+search compute
+search 
+mkdir Perl
+search perl
+search compu
+search term
+search input
