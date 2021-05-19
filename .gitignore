@@ -8,3 +8,4 @@ repos.json
 /**/mozilla/firefox/499ynfff.default-release/datareporting/**
 /**/mozilla/firefox/499ynfff.default-release/crashes/store.json.mozlz4
 /**/cookie
+tag-viewers/w3m/cookie
