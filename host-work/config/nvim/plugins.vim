@@ -209,8 +209,9 @@ Plug 'vimoutliner/vimoutliner'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
-Plug 'vimwiki/vimwiki'
+"Plug 'vimwiki/vimwiki'
 Plug 'vim-voom/VOom'
-Plug 'jalvesaq/zotcite'
+"Plug 'jalvesaq/zotcite'
 Plug 'holomorph/vim-freefem'
+Plug 'vim-perl/vim-perl'
 call plug#end()
