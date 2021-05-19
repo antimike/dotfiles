@@ -56,3 +56,6 @@ pip3 install virtualenv --user
 git clone https://github.com/kward/shunit2 ~/Source/shunit2
 sudo dnf install tldr
 sudo dnf install direnv -y
+pip3 install deprecation --user
+pip3 install python-constraint --user --upgrade
+sudo dnf install rlwrap -y
