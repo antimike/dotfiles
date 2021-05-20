@@ -1,7 +1,3 @@
-rename twistor_theory_quantization_stem_paper.pdf
-search 8431
-rename geodesic_computation.pdf
-search spectral
 search ranking
 search category
 search knowledge
@@ -16,7 +12,6 @@ search primo
 re.bib
 rename centrality-graph-theory.pdf
 search access
-delete
 rename complex_network_accessibility.pdf
 search kaw
 search 05
@@ -36,8 +31,6 @@ searc
 mkdir Papis-Imports
 mk
 search li b
-search lib
-search drop
 rename Papis
 cd ~/.local
 search papis
@@ -48,3 +41,10 @@ mkdir hackerrank
 touch extra-long-factorial.py
 w 
 touch 
+search lib
+search drop
+rename bookmarks.db.backup
+delete
+open_with e
+search fire
+open_with 
