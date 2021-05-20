@@ -97,7 +97,7 @@ ord-v4.pops.fastly-insights.com:HSTS	1	18507	1599165635254,1,1,2
 support.mozilla.org:HSTS	2	18698	1647077901990,1,0,2
 avatars.githubusercontent.com:HSTS	13	18727	1649579983930,1,0,2
 2p66nmmycsj3.statuspage.io^partitionKey=%28http%2Cpypi.org%29:HSTS	1	18746	1619925141956,1,0,2
-firefox.settings.services.mozilla.com:HSTS	183	18766	1652986063501,1,0,2
+firefox.settings.services.mozilla.com:HSTS	183	18766	1652991564678,1,0,2
 julialang.org:HSTS	1	18705	1621470668530,1,0,2
 ton.twimg.com:HSTS	1	18498	2229393535774,1,0,2
 readthedocs.org:HSTS	12	18691	1646457248588,1,0,2
@@ -110,7 +110,6 @@ secure.insightexpressai.com:HSTS	8	18691	1646454138239,1,1,2
 verizonwireless.demdex.net:HSTS	5	18693	1646182379955,1,1,2
 unix.stackexchange.com:HSTS	16	18686	1630105479534,1,0,2
 statefarmmutualautomobileinsurancecompany.demdex.net:HSTS	2	18698	1647068187650,1,1,2
-stats.g.doubleclick.net:HSTS	18	18698	1626427779168,1,1,2
 www.reddit.com:HSTS	13	18727	1633577121897,1,1,2
 castel.dev:HSTS	4	18707	1647668579672,1,0,2
 www.mozilla.org:HSTS	2	18471	1627485984384,1,0,2
@@ -455,7 +454,7 @@ client.crisp.im:HSTS	0	18471	1627447422333,1,1,2
 copr.fedorainfracloud.org:HSTS	0	18504	1630294129538,1,0,2
 dn6mqn7xvzz3.statuspage.io:HSTS	0	18501	1598780899023,1,0,2
 cdnjs.cloudflare.com^partitionKey=%28http%2Coreilly.com%29:HSTS	0	18766	1637231983288,1,0,2
-apis.google.com^partitionKey=%28http%2Cquora.com%29:HSTS	7	18765	1652901901145,1,0,2
+apis.google.com^partitionKey=%28http%2Cquora.com%29:HSTS	8	18766	1652989863215,1,0,2
 bogofilter.sourceforge.io:HSTS	0	18509	1630788100997,1,0,2
 c.disquscdn.com:HSTS	0	18705	1616132851497,1,1,2
 aip.scitation.org:HSTS	0	18472	1598639832012,1,0,2
@@ -495,11 +494,10 @@ lists.nongnu.org:HSTS	0	18500	1661539462543,1,1,2
 raw.githubusercontent.com^partitionKey=%28http%2Cgithub.com%29:HSTS	1	18766	1652986139483,1,0,2
 travis-ci.org^partitionKey=%28http%2Chaskell.org%29:HSTS	0	18764	1637015645254,1,1,2
 api.ncbi.nlm.nih.gov:HSTS	0	18472	1627583260367,1,1,2
-www.youtube.com^partitionKey=%28http%2Copensource.com%29:HSTS	0	18746	1651199826306,1,0,2
 www.acns.colostate.edu:HSTS	2	18639	1642029886744,1,0,2
 analytics.llnl.gov:HSTS	0	18474	1627719688222,1,1,2
 gitlab.kuleuven.be:HSTS	0	18472	1627550798875,1,0,2
-spocs.getpocket.com:HSTS	185	18766	1684524652393,1,0,2
+spocs.getpocket.com:HSTS	185	18766	1684528852385,1,0,2
 www.slant.co:HSTS	4	18693	1630807759190,1,0,2
 f1076cbb-0bee-4d7a-b7bf-96d8713ea183.us.u.fastly-insights.com:HSTS	0	18507	1599165632854,1,1,2
 storage.live.com:HSTS	0	18646	1642619136111,1,1,2
@@ -751,7 +749,6 @@ s.update.sharethru.com:HSTS	3	18687	1646163747731,1,1,2
 upload.wikimedia.org^partitionKey=%28http%2Cwikipedia.org%29:HSTS	7	18766	1727835659259,1,1,2
 mci-v4.pops.fastly-insights.com:HSTS	0	18697	1615592822624,1,1,2
 pixel.mediaiqdigital.com:HSTS	0	18696	1646898848601,1,1,2
-8296686.fls.doubleclick.net:HSTS	0	18696	1615384447881,1,0,2
 www.apple.com:HSTS	1	18503	1630261138327,1,1,2
 www.mindmeister.com:HSTS	1	18670	1644707548183,1,1,2
 learn.perl.org^partitionKey=%28http%2Cperl.org%29:HSTS	0	18765	1637149646760,1,0,2
@@ -765,7 +762,7 @@ travis-ci.org:HSTS	2	18693	1630821788822,1,1,2
 fonts.googleapis.com^partitionKey=%28http%2Cfedoraproject.org%29:HSTS	5	18764	1652814893268,1,0,2
 www.fastly-insights.com^partitionKey=%28http%2Cpypi.org%29:HSTS	1	18746	1619752341780,1,1,2
 creativecommons.org:HSTS	4	18678	1623614046346,1,1,2
-www.quora.com^partitionKey=%28http%2Cquora.com%29:HSTS	12	18766	1684482469298,1,1,2
+www.quora.com^partitionKey=%28http%2Cquora.com%29:HSTS	12	18766	1684530553021,1,1,2
 r-login.wordpress.com:HSTS	3	18509	1614793182954,1,0,2
 l9ld9ghgqj-dsn.algolia.net:HSTS	0	18471	1627448089689,1,1,2
 platform.tumblr.com:HSTS	9	18686	1628092208528,1,0,2
@@ -808,7 +805,6 @@ dd.nytimes.com:HSTS	0	18528	1616661106767,1,0,2
 cdn3.mindmeister.com:HSTS	1	18670	1644707243368,1,1,2
 www.asciidocfx.com:HSTS	0	18471	1627446651892,1,1,2
 mdapi.fedoraproject.org:HSTS	0	18459	1626458673752,1,1,2
-10276905.fls.doubleclick.net:HSTS	0	18693	1615120242919,1,0,2
 ogs.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	12	18766	1652988794978,1,0,2
 fnal.zoom.us:HSTS	9	18706	1636664028177,1,1,2
 cdn.rawgit.com:HSTS	10	18513	1631134319145,1,0,2
@@ -882,7 +878,6 @@ colostate.instructure.com:HSTS	23	18707	1647536630436,1,0,2
 cdn.jsdelivr.net^partitionKey=%28http%2Cspringer.com%29:HSTS	0	18746	1651190632574,1,1,2
 appleid.cdn-apple.com:HSTS	0	18498	1629819308787,1,1,2
 www.azonetwork.com:HSTS	0	18677	1629319359307,1,0,2
-5406241.fls.doubleclick.net:HSTS	0	18693	1615104620294,1,0,2
 api.getdrip.com:HSTS	4	18691	1646454005361,1,1,2
 pao-v4.pops.fastly-insights.com:HSTS	1	18512	1599554080517,1,1,2
 philpeople.org:HSTS	0	18472	1627547131309,1,1,2

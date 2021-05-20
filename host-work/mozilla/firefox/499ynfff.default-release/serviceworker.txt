@@ -440,16 +440,6 @@ false
 1617817487985035
 #
 
-https://www.youtube.com/
-https://www.youtube.com/sw.js
-false
-{6ba839b8-73aa-424e-97b4-958e4f6c1986}
-0
-1621450160529016
-1621450160531115
-1621450160323651
-#
-
 https://clojureverse.org/
 https://clojureverse.org/service-worker-5c5116c563f7e7c837b3088ac0a1cbaf4e5682b1a6f55598ff83093d55575218.js
 true
