@@ -1,3 +1,7 @@
+rename twistor_theory_quantization_stem_paper.pdf
+search 8431
+rename geodesic_computation.pdf
+search spectral
 search ranking
 search category
 search knowledge
@@ -12,6 +16,7 @@ search primo
 re.bib
 rename centrality-graph-theory.pdf
 search access
+delete
 rename complex_network_accessibility.pdf
 search kaw
 search 05
@@ -26,25 +31,20 @@ rename vortex-disorder-parameter-condensation-3d-Heisenberg.pdf
 search nphys
 shell  %s
 rename long-range-correlations-disorder-potential.pdf
+shell qvm-copy %s
 searc
 mkdir Papis-Imports
-search 
 mk
 search li b
 search lib
 search drop
 rename Papis
+cd ~/.local
 search papis
-search pa
-search doc
-search down
-search zotero
+search 
 search source
-mkdir Zotero
-
-cd /usr/local/bin
-search zot
-search fire
-shell qvm-copy %s
-search unt
-delete
+mkdir Practice
+mkdir hackerrank
+touch extra-long-factorial.py
+w 
+touch 
