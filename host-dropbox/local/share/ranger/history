@@ -26,25 +26,25 @@ rename vortex-disorder-parameter-condensation-3d-Heisenberg.pdf
 search nphys
 shell  %s
 rename long-range-correlations-disorder-potential.pdf
+shell qvm-copy %s
 searc
 mkdir Papis-Imports
-search 
 mk
 search li b
+rename Papis
+cd ~/.local
+search papis
+search 
+search source
+mkdir Practice
+mkdir hackerrank
+touch extra-long-factorial.py
+w 
+touch 
 search lib
 search drop
-rename Papis
-search papis
-search pa
-search doc
-search down
-search zotero
-search source
-mkdir Zotero
-
-cd /usr/local/bin
-search zot
-search fire
-shell qvm-copy %s
-search unt
+rename bookmarks.db.backup
 delete
+open_with e
+search fire
+open_with 

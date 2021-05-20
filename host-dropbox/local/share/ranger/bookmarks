@@ -1,4 +1,4 @@
-':/home/user/QubesIncoming/untrusted
+':/home/user/.dotfiles
 q:/home/user/QubesIncoming
 h:/home/user
 s:/home/user/Documents/Spring-2021
@@ -7,3 +7,4 @@ o:/home/user/OneDrive
 c:/home/user/.config
 l:/home/user/.local
 g:/home/user/Google
+S:/home/user/Source

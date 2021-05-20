@@ -318,3 +318,12 @@
 : 1619172473:0;tig
 : 1619172489:0;cd ~/.dotfiles
 : 1619172491:0;tig
+: 1619172628:0;git pull
+: 1619172646:0;git push
+: 1619173117:0;ranger
+: 1619173311:0;buku -e ~/.bmarks-dropbox.md
+: 1619173322:0;qvm-copy ~/.bmarks-dropbox.md
+: 1619173745:0;gita ll
+: 1619537624:0;screenshare
+: 1619537692:0;ranger
+: 1619537737:0;stopshare

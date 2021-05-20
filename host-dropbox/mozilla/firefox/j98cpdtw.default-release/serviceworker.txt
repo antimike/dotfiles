@@ -310,16 +310,6 @@ true
 1597635952896116
 #
 
-https://dev.to/
-https://dev.to/serviceworker.js
-true
-{a0553af4-539b-451a-ad9f-f69d1e614dc9}
-0
-1597682263331910
-1597682263333832
-1597682263132911
-#
-
 https://www.compart.com/en/unicode/
 https://www.compart.com/en/unicode/service-worker.js
 true
@@ -413,11 +403,11 @@ true
 https://www.youtube.com/
 https://www.youtube.com/sw.js
 false
-{31887a55-3032-4314-80af-7b0fc25afab1}
+{5dc94bf9-de2d-4dc4-b15a-1a036a9de86c}
 0
-1619145269952646
-1619145269958847
-1619145270604492
+1620406386380433
+1620406386391222
+1620406374211908
 #
 
 https://qubes-os.discourse.group/
@@ -468,4 +458,14 @@ true
 1619033765478882
 1619033765481078
 1619033765146016
+#
+
+https://covid.colostate.edu/
+https://covid.colostate.edu/wp-content/themes/csu-theme/sw.js
+true
+{78a159e7-1209-471d-b2a9-ceda90050cb3}
+0
+1619912449003052
+1619912449004309
+1619912448795455
 #
