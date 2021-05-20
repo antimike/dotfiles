@@ -104,6 +104,7 @@ Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'vim-python/python-syntax'
 Plug 'tmhedberg/SimpylFold'
 Plug 'jeetsukumaran/vim-pythonsense'
+Plug 'psf/black', { 'branch': 'stable' }
 Plug 'davidhalter/jedi-vim', { 'on': [] }
 Plug 'petRUShka/vim-sage'
 Plug 'tpope/vim-capslock'
@@ -208,8 +209,9 @@ Plug 'vimoutliner/vimoutliner'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
-Plug 'vimwiki/vimwiki'
+"Plug 'vimwiki/vimwiki'
 Plug 'vim-voom/VOom'
-Plug 'jalvesaq/zotcite'
+"Plug 'jalvesaq/zotcite'
 Plug 'holomorph/vim-freefem'
+Plug 'vim-perl/vim-perl'
 call plug#end()

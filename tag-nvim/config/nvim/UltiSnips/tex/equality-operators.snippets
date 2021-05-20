@@ -1,65 +1,65 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet == "Equivalence" iA
 \equiv
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ~= "Simeq" iA
 \simeq
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ~~ "Sim" iA
 \sim
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet =~ "Approx" iA
 \approx
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet != "Neq" iA
 \neq
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet >= "Geq" iA
 \geq
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet <= "Leq" iA
 \leq
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet << "Much less than" iA
 \ll
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet >> "Much greater than" iA
 \gg
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet := "Defined to be" iA
 \coloneqq
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet +- "Plus / minus" iA
 \pm
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet -+ "Minus / plus" iA
 \mp
 endsnippet

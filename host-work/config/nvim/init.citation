@@ -3,10 +3,9 @@
 
 call coc#config('list.source.bibtex', {
       \ 'files': [
-      \ 	'/home/user/tag-library/.dotfiles/library.bib'
+      \ 	'/home/user/.dotfiles/tag-library/library.bib'
       \ ]
       \ })
-
 " The below maps are suggested by citation.vim, which has been disabled
 "let g:citation_vim_bibtex_file=""
 "let g:citation_vim_mode="zotero"

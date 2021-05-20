@@ -1,0 +1,508 @@
+author: "Cvetkovi\u0107, Drago\u0161 and Simi\u0107, Slobodan"
+author_list:
+- affiliation: []
+  family: "Cvetkovi\u0107"
+  given: "Drago\u0161"
+- affiliation: []
+  family: "Simi\u0107"
+  given: Slobodan
+citations:
+- article-title: A survey on integral graphs
+  author: "Bali\u0144ska"
+  first-page: '42'
+  journal-title: Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat.
+  volume: '13'
+  year: '2002'
+- article-title: Some classes of integral circulant graphs allowing and not allowing
+    perfect state transfer
+  author: "Ba\u0161i\u0107"
+  doi: 10.1016/j.aml.2009.04.007
+  first-page: '1609'
+  journal-title: Appl. Math. Lett.
+  volume: '22'
+  year: '2009'
+- article-title: Perfect state transfer in integral circulant graphs
+  author: "Ba\u0161i\u0107"
+  doi: 10.1016/j.aml.2008.11.005
+  first-page: '1117'
+  journal-title: Appl. Math. Lett.
+  volume: '22'
+  year: '2009'
+- article-title: Trees with minimal index and diameter at most four
+  author: Belardo
+  doi: 10.1016/j.disc.2009.11.022
+  first-page: '1708'
+  journal-title: Discrete Math.
+  volume: '310'
+  year: '2010'
+- article-title: Laplacian eigenmaps for dimensionality reduction and data representation
+  author: Belkin
+  doi: 10.1162/089976603321780317
+  first-page: '1373'
+  journal-title: Neural Comput.
+  volume: '15'
+  year: '2000'
+- article-title: On the index of broken wheels
+  author: Bell
+  doi: 10.1080/03081089508818385
+  first-page: '137'
+  journal-title: Linear and Multilinear Algebra
+  volume: '39'
+  year: '1995'
+- author: Biggs
+  series-title: Algebraic Graph Theory
+  year: '1993'
+- article-title: 'Power and centrality: A family of measures'
+  author: Bonacich
+  doi: 10.1086/228631
+  first-page: '1170'
+  journal-title: Amer. J. Soc.
+  volume: '92'
+  year: '1987'
+- unstructured: "L. Brankovi\u0107, Usability of secure statistical data bases, Ph.D.\
+    \ Thesis, Newcastle, Australia, 1998."
+- article-title: The eigenspace of the eigenvalue -2 in generalized line graphs and
+    a problem in security of statistical data bases
+  author: "Brankovi\u0107"
+  first-page: '37'
+  journal-title: Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat.
+  volume: '14'
+  year: '2003'
+- article-title: Graphs, (0,1)-matrices and usability of statistical data bases
+  author: "Brankovi\u0107"
+  first-page: '186'
+  journal-title: Congr. Numer.
+  volume: '120'
+  year: '1996'
+- doi: 10.1016/S0169-7552(98)00110-X
+  unstructured: 'S. Brin, L. Page, The Anatomy of Large-Scale Hypertextual Web Search
+    Engine, in: Proceedings of the Seventh International WWW Conference, 1998.'
+- article-title: There are exactly 13 connected, cubic, integral graphs
+  author: Bussemaker
+  first-page: '43'
+  journal-title: Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat. Fiz.
+  volume: 544-576
+  year: '1976'
+- doi: 10.1145/511334.511380
+  unstructured: "H. Chang, R. Govindan, S. Jamin, S. Shenker, W. Willinger, Towards\
+    \ capturing representative AS-level Internet topologies, in: Proceedings of the\
+    \ ACM SIGMETRICS Performance Evaluation Review, vol. 30(1), New York, NY, June\
+    \ 2002, pp. 280\u2013281."
+- doi: 10.1109/ISCAS.2004.1329082
+  unstructured: "J. Chen, L. Trajkovi\u0107, Analysis of Internet topology data, in:\
+    \ Proceedings of the IEEE International Symponisum, Circuits and Systems, ISCAS\
+    \ 2004, Vancouver, BC, May 2004, pp. 629\u2013632."
+- unstructured: "Q. Chen , H. Chang, R. Govindan, S. Jamin, S. Shenker, W. Willinger\
+    \ , The origin of power laws in Internet topologies revisited, in: Proceedings\
+    \ of INFOCOM, New York, NY, USA, April 2002, pp. 608\u2013617."
+- article-title: Perfect state transfer in quantum spin networks
+  author: Christandl
+  doi: 10.1103/PhysRevLett.92.187902
+  first-page: '187902'
+  journal-title: Phys. Rev. Lett.
+  volume: '92'
+  year: '2004'
+- author: Chung
+  series-title: Spectral Graph Theory
+  year: '1997'
+- author: Chung
+  series-title: Complex Graphs and Networks
+  year: '2006'
+- unstructured: "D. Cvetkovi\u0107, Problems 2, 3 (Graphs, Hypergraphs and Applications,\
+    \ in: H. Sachs (Ed.), Proceedings of the Conference Graph Theory Held in Eyba,\
+    \ October 1984, Teubner, Leipzig, 1985, p. 211."
+- unstructured: "D. Cvetkovi\u0107, Applications of Graph Spectra: An introduction\
+    \ to the literature, Applications of Graph Spectra, Zbornik radova 13(21), ed.\
+    \ D.Cvetkovi\u0107, I. Gutman, Mathematical Institute SANU, Belgrade, 2009, pp.\
+    \ 7\u201331."
+- doi: 10.1007/3-540-48777-8_10
+  unstructured: "D. Cvetkovi\u0107, M. \u010Cangalovi\u0107 and V. Kova\u010Devi\u0107\
+    -Vuj\u010Di\u0107, Semidefinite programming methods for the symmetric traveling\
+    \ salesman problem, in: Integer Programming and Combinatorial Optimization, Proc.\
+    \ 7th Internat. IPCO Conf., Graz, Austria, June 1999 (G.\_Cornuejols, R.\_E.\_\
+    Burkard and G.\_J.\_Woeginger, eds.), Lecture Notes Comp.Sci.1610, Springer, Berlin\
+    \ (1999), pp. 126\u2013136."
+- article-title: Applications of some graph invariants to the analysis of multiprocessor
+    topologies
+  author: "Cvetkovi\u0107"
+  doi: 10.2298/YJOR0802173C
+  first-page: '173'
+  issue: '2'
+  journal-title: YUJOR
+  volume: '18'
+  year: '2008'
+- article-title: Multiprocessor interconnection networks with small tightness
+  author: "Cvetkovi\u0107"
+  doi: 10.1142/S0129054109006978
+  first-page: '941'
+  issue: '5'
+  journal-title: Internat. J. Found. Comput. Sci.
+  volume: '20'
+  year: '2009'
+- unstructured: "Cvetkovi\u0107 D., Davidovi\u0107 T., Multiprocessor interconnection\
+    \ networks, Applications of Graph Spectra, Zbornik radova 13(21), ed. D.Cvetkovi\u0107\
+    , I.Gutman, Mathematical Institute SANU, Belgrade, 2009, 33\u201363."
+- article-title: Graphs for small multiprocessor interconnection networks
+  author: "Cvetkovi\u0107"
+  doi: 10.1016/j.amc.2010.07.058
+  first-page: '2468'
+  journal-title: Appl. Math. Comput.
+  volume: '217'
+  year: '2010'
+- author: "Cvetkovi\u0107"
+  series-title: Recent Results in the Theory of Graph Spectra
+  year: '1988'
+- author: "Cvetkovi\u0107"
+  series-title: Spectra of Graphs
+  year: '1995'
+- article-title: Generalized Line Graphs
+  author: "Cvetkovi\u0107"
+  doi: 10.1002/jgt.3190050408
+  first-page: '385'
+  issue: '4'
+  journal-title: J. Graph Theory
+  volume: '5'
+  year: '1981'
+- unstructured: "D. Cvetkovi\u0107, I. Gutman, (Eds.,), Applications of Graph Spectra,\
+    \ Zbornik radova 13(21), Mathematical Institute SANU, Belgrade, 2009."
+- author: "Cvetkovi\u0107"
+  series-title: Eigenspaces of Graphs
+  year: '1997'
+- article-title: 'Graphs with least eigenvalue -2: the star complement technique'
+  author: "Cvetkovi\u0107"
+  doi: 10.1023/A:1011209801191
+  first-page: '5'
+  journal-title: J. Algebraic Combin.
+  volume: '14'
+  year: '2001'
+- author: "Cvetkovi\u0107"
+  series-title: Spectral Generalizations of Line Graphs, on Graphs with Least Eigenvalue
+    -2
+  year: '2004'
+- author: "Cvetkovi\u0107"
+  series-title: An Introduction to the Theory of Graph Spectra
+  year: '2009'
+- article-title: Signless Laplacians of finite graphs
+  author: "Cvetkovi\u0107"
+  doi: 10.1016/j.laa.2007.01.009
+  first-page: '155'
+  issue: '1'
+  journal-title: Linear Algebra Appl.
+  volume: '423'
+  year: '2007'
+- unstructured: "Cvetkovi\u0107 D., Simi\u0107 S., The second largest eigenvalue of\
+    \ a graph \u2013 a survey, Filomat, 9 (1995), No.3, Int. Conf. Algebra, Logic\
+    \ Discrete Math., Ni\u0161, April 14\u201316, 1995, (ed. S. Bogdanovi\u0107, M.\
+    \ \u0106iri\u0107, \u017D. Perovi\u0107), 449\u2013472."
+- article-title: Towards a spectral theory of graphs based on the signless Laplacian,
+    II
+  author: "Cvetkovi\u0107"
+  doi: 10.1016/j.laa.2009.05.020
+  first-page: '2257'
+  journal-title: Linear Algebra Appl.
+  volume: '432'
+  year: '2010'
+- article-title: The minimal spectral radius of graphs with a given diameter
+  author: van Dam
+  doi: 10.1016/j.laa.2007.01.011
+  first-page: '408'
+  journal-title: Linear Algebra Appl.
+  volume: '423'
+  year: '2007'
+- unstructured: "Decker T., Monien B., Preis R., Towards optimal load balancing topologies,\
+    \ Proc. 6th EuroPar Conf., Lect. Notes Comput. Sci. 1900, Springer, Berlin, 277\u2013\
+    287."
+- article-title: Efficient schemes for nearest neighbor load balancing
+  author: Dickmann
+  doi: 10.1016/S0167-8191(99)00018-6
+  first-page: '789'
+  journal-title: Parallel Comput.
+  volume: '25'
+  year: '1999'
+- article-title: An interrelation between line graphs, eigenvalues, and matroids
+  author: Doob
+  doi: 10.1016/0095-8956(73)90030-0
+  first-page: '40'
+  journal-title: J. Combin. Theory Ser. B
+  volume: '15'
+  year: '1973'
+- article-title: Sparse topologies with small spectrum size
+  author: "Els\xE4sser"
+  doi: 10.1016/S0304-3975(03)00237-8
+  first-page: '549'
+  journal-title: Theor. Comput. Sci.
+  volume: '307'
+  year: '2003'
+- doi: 10.1145/316188.316229
+  unstructured: "Faloutsos M., Faloutsos P., Faloutsos C., On power-low relationships\
+    \ of the Internet topology, Proc. ACM SIGCOMM \u201999, ACM Press, New York, 1999,\
+    \ 251\u2013262."
+- article-title: Algebraic connectivity of graphs
+  author: Fiedler
+  first-page: '298'
+  issue: '98'
+  journal-title: Czechoslovak J. Math.
+  volume: '23'
+  year: '1973'
+- article-title: A property of eigenvectors of nonnegative symmetric matrices and
+    its application to graph theory
+  author: Fiedler
+  first-page: '619'
+  issue: '100'
+  journal-title: Czechoslovak J. Math.
+  volume: '25'
+  year: '1975'
+- author: Fowler
+  series-title: An Atlas of Fullerenes
+  year: '1995'
+- unstructured: "Gago S., Spectral techniques in complex networks, Selected Topics\
+    \ on Applications of Graph Spectra, Zbornik radova, ed. D.Cvetkovi\u0107, I.Gutman,\
+    \ Mathematical Institute SANU, Belgrade, to appear."
+- doi: 10.1145/237502.237509
+  unstructured: "Ghosh B., Muthukrishnan S., Schultz M.\_H., First and second order\
+    \ diffusive methods for rapid, coarse, distributed load balancing, Proc. 8th Annual\
+    \ ACM Symposium on Parallel Algorithms and Architectures (SPAA\u201996), ACM Press,\
+    \ 1996, 72\u201381; Theory Comput. Systems, 31(1998), 331\u2013354."
+- unstructured: "Gkantsisis C., Mihail M., Zegura E., Spectral analysis of internet\
+    \ topologies, Proc. INFOCOM2003, San Francisco, CA, Vol. 1, march 2003, 364\u2013\
+    374."
+- unstructured: 'Godsil C., Periodic graphs, arXiv: 0806.2704 [math.CO].'
+- unstructured: 'Godsil C., When can perfect state transfer occur ?, arXiv: 1001.0231v1
+    [math.CO].'
+- article-title: An r-dimensional quadratic placement algorithm
+  author: Hall
+  doi: 10.1287/mnsc.17.3.219
+  first-page: '219'
+  journal-title: Management Sci.
+  volume: '17'
+  year: '1970'
+- article-title: On the spectral radii of topologically equivalent graphs
+  author: Hoffman
+  first-page: '273'
+  series-title: Recent Advances in Graph Theory
+  year: '1975'
+- article-title: Polyhedral object recognition by indexing
+  author: Horaud
+  doi: 10.1016/0031-3203(95)00048-8
+  first-page: '1855'
+  issue: '12'
+  journal-title: Pattern Recognition
+  volume: '28'
+  year: '1995'
+- article-title: An improved diffusion algorithm for dymanic load balancing
+  author: Hu
+  doi: 10.1016/S0167-8191(99)00002-2
+  first-page: '417'
+  journal-title: Parallel Comput.
+  volume: '25'
+  year: '1999'
+- article-title: An optimal migration algorithm for dymanic load balancing
+  author: Hu
+  doi: 10.1002/(SICI)1096-9128(199805)10:6<467::AID-CPE325>3.0.CO;2-A
+  first-page: '467'
+  journal-title: Concurrency Pract. Exp.
+  volume: '10'
+  year: '1998'
+- unstructured: Kar S., Moura J.M.F., Ramanujan topologies for decision making in
+    sensor networks, 44th Annual Allerton Conference on Communications, Control, and
+    Computing, Allerton, Monticello, IL, Sep. 27-29, 2006.
+- article-title: Authoratitive sources in a hyperlinked environment
+  author: Kleinberg
+  doi: 10.1145/324133.324140
+  first-page: '604'
+  journal-title: J. ACM
+  volume: '48'
+  year: '1999'
+- unstructured: "K\xF6nig, M.D., Battiston S., Napoletano M., Schweityer F., The efficiency\
+    \ and evolution of R&D networks, Working Paper 08/95, Economics Working Paper\
+    \ Series, Eidgen\xF6ssische Technische Hochschule Z\xFCrich, Zr\xA8ich, 2008."
+- article-title: On algebraic graph theory and the dynamics of innovation networks
+  author: "K\xF6nig"
+  doi: 10.3934/nhm.2008.3.201
+  first-page: '201'
+  issue: '2'
+  journal-title: Networks and Heterogenous Media
+  volume: '3'
+  year: '2008'
+- article-title: 'Drawing graphs by eigenvectors: theory and practice'
+  author: Koren
+  doi: 10.1016/j.camwa.2004.08.015
+  first-page: '1867'
+  journal-title: Comput. Math. Appl.
+  volume: '49'
+  year: '2005'
+- article-title: A survey of eigenvector methods for Web information retrieval
+  author: Langville
+  doi: 10.1137/S0036144503424786
+  first-page: '135'
+  issue: '1'
+  journal-title: SIAM Rev.
+  volume: '47'
+  year: '2005'
+- article-title: Ramanujan graphs
+  author: Lubotzky
+  doi: 10.1007/BF02126799
+  first-page: '261'
+  journal-title: Combinatorica
+  volume: '8'
+  year: '1988'
+- article-title: Spectral embedding of graphs
+  author: Luo
+  doi: 10.1016/S0031-3203(03)00084-0
+  first-page: '2213'
+  journal-title: Pattern Recognition
+  volume: '36'
+  year: '2003'
+- article-title: A tutorial on spectral clustering
+  author: Luxburg
+  doi: 10.1007/s11222-007-9033-z
+  first-page: '395'
+  journal-title: Statist. Comput.
+  volume: '17'
+  year: '2007'
+- doi: 10.1007/3-540-45726-7_20
+  unstructured: "Mihail M. Papadimitrou C.H., On the eigenvalue power-low, RANDOM\
+    \ 2002, LNCS 2483, Springer, Berlin, 2002, 254\u2013262."
+- article-title: Eigenvalues in combinatorial optimization
+  author: Mohar
+  first-page: '107'
+  series-title: Combinatorial and Graph-Theoretical Problems in Linear Algebra
+  year: '1993'
+- doi: 10.1109/ISCAS.2009.5118101
+  unstructured: "Najiminaini M., Subedi L., Trajkovi\u0107 Lj., Analysis of Internet\
+    \ topologies: a historical view, Proc. IEEE Int. Symp. Circuits and Systems, Taipei,\
+    \ Taiwan, May 2009, 1697\u20131700."
+- unstructured: "Quantum Information Technology, NEC Research & Developments, 44(3)\
+    \ (2003) 263\u2013306."
+- article-title: Nonlinear dimensionality reduction by locally linear embedding
+  author: Roweis
+  doi: 10.1126/science.290.5500.2323
+  first-page: '2323'
+  journal-title: Science
+  volume: '290'
+  year: '2000'
+- article-title: 'Quantitative measures of change based on feature organization: Eigenvalues
+    and eigenvectors'
+  author: Sarkar
+  doi: 10.1006/cviu.1997.0637
+  first-page: '110'
+  journal-title: Comput. Vision Image Understanding
+  volume: '71'
+  year: '1998'
+- unstructured: "Sawilla R.,A survey of data mining of graphs using spectral graph\
+    \ theory, Defence R&D Canada \u2019 Ottawa, Technical Memorandum TM 2008-317,\
+    \ Ottawa, 2008."
+- article-title: Parameters of integral circulant graphs and periodic quantum dynamics
+  author: Saxena
+  doi: 10.1142/S0219749907002918
+  first-page: '417'
+  issue: '3'
+  journal-title: Internat. J. Quantum Inf.
+  volume: '5'
+  year: '2007'
+- unstructured: 'Severini, S., The 3-dimensional cube is the only connected cubic
+    graph with perfect state transfer, arXiv: 1001.0674v2 [quant-ph].'
+- unstructured: "Shi J., Malik J., Normalized cuts and image segmentation, Proc. IEEE\
+    \ Conf. Computer Vision and Pattern Recognition, 1997, 731-737; IEEE Trans. Pattern\
+    \ Analysis Machine Intell., 28(2000), 888\u2013905."
+- article-title: Indexing using a spectral encoding of topological structure
+  author: Shokoufandeh
+  first-page: '491'
+  journal-title: IEEE Trans. Comput. Vision Pattern Recognition
+  volume: '2'
+  year: '1999'
+- article-title: Power-laws and the AS-level Internet topology
+  author: Siganos
+  doi: 10.1109/TNET.2003.815300
+  first-page: '514'
+  issue: '4'
+  journal-title: IEEE/ACM Trans. Netw.
+  volume: '11'
+  year: '2003'
+- article-title: On the largest eigenvalue of bicyclic graphs
+  author: "Simi\u0107"
+  first-page: '1'
+  issue: '60'
+  journal-title: Publ. Inst. Math. (Beograd)
+  volume: '46'
+  year: '1989'
+- unstructured: "S.K. Simi\u0107, Connected graphs of fixed order and size with minimal\
+    \ index, in preparation."
+- article-title: On the largest eigenvalue of some homeomorphic graphs
+  author: "Simi\u0107"
+  first-page: '3'
+  issue: '54'
+  journal-title: Publ. Inst. Math. (Beograd)
+  volume: '40'
+  year: '1986'
+- author: Skilicorn
+  series-title: 'Understanding Complex Data Bases: Data Mining with Matrix Decompositions'
+  year: '2007'
+- doi: 10.1109/FOCS.2007.56
+  unstructured: "D.A. Spielman, Spectral Graph Theory and its Applications, in: 48th\
+    \ Annual IEEE Symposium on Foundations of Computer Science, IEEE, 2007, pp. 29\u2013\
+    38."
+- doi: 10.1109/SFCS.1996.548468
+  unstructured: "D.A. Spielman, S. Teng, Spectral partitioning works: planar graphs\
+    \ and finite element meshes, in: 37th Annual Symposium on Foundations of Computer\
+    \ Science, Burlington, VT, 1996, pp. 96\u2013105."
+- unstructured: "D. Stevanovi\u0107, Applications of graph spectra in quantum physics,\
+    \ in: D. Cvetkovi\u0107, I. Gutman (Eds.), Selected Topics on Applications of\
+    \ Graph Spectra, Zbornik radova, Mathematical Institute SANU, Belgrade, in press."
+- article-title: How to draw a graph
+  author: Tutte
+  doi: 10.1112/plms/s3-13.1.743
+  first-page: '743'
+  journal-title: Proc. London Math. Soc.
+  volume: '13'
+  year: '1963'
+- author: Van Mieghem
+  series-title: Performance Analysis of Communications Networks and Systems
+  year: '2006'
+- doi: 10.1017/CBO9780511921681
+  unstructured: P. Van Mieghem, Graph Spectra for Complex Networks, Cambridge University
+    Press, Cambridge, 2010.
+- article-title: Virus spread in networks
+  author: Van Mieghem
+  doi: 10.1109/TNET.2008.925623
+  first-page: '1'
+  journal-title: IEEE/ACM Trans. Netw.
+  volume: '17'
+  year: '2009'
+- unstructured: "D. Vukadinovi\u0107, P. Huang, T. Erlebach, A spectral analysis of\
+    \ the Internet topology, Technical Report 118, TIK Institute, ETH Z\xFCrich 2001."
+- doi: 10.1007/3-540-48080-3_8
+  unstructured: "D. Vukadinovi\u0107, P. Huang, T. Erlebach, On the spectrum and structure\
+    \ of the Internet topology graphs, in: Proceeding of the Second International\
+    \ Workshop on Innovative Internet Computing systems, IICS \u201902, vol. 2346,\
+    \ 2002, pp. 83\u201395."
+- doi: 10.1109/RELDIS.2003.1238052
+  unstructured: "Y. Wang, D. Chakrabarti, C. Wang, C. Faloutsos, Epidemic spreading\
+    \ in real networks: an eigenvalue viewpoint, in: 22nd Symp. Reliable Distributed\
+    \ Computing, Florence, Italy, 6\u20138 October, 2003."
+- unstructured: T.H. Wei , The Algebraic Foundations of Ranking Theory, Thesis, Cambridge,
+    1952.
+- article-title: Pattern vectors from algebraic graph theory
+  author: Wilson
+  doi: 10.1109/TPAMI.2005.145
+  first-page: '1112'
+  journal-title: IEEE Trans. Pattern Anal. Mach. Intell.
+  volume: '27'
+  year: '2005'
+- doi: 10.1137/1.9781611972788.67
+  unstructured: "X. Ying, X. Wu, Randomizing social networks: a spectrum preserving\
+    \ approach, in: Proc. SIAM Internat. Conf. Data Mining, SDM2008, April 24\u2013\
+    26, 2008, Atlanta, Georgia, USA, SIAM, 2008, pp. 739\u2013750."
+doc_url: https://api.elsevier.com/content/article/PII:S0024379510006117?httpAccept=text/plain
+doi: 10.1016/j.laa.2010.11.035
+issue: '6'
+journal: Linear Algebra and its Applications
+language: en
+month: 3
+pages: 1545--1562
+publisher: Elsevier BV
+title: Graph spectra in Computer Science
+type: article
+url: http://dx.doi.org/10.1016/j.laa.2010.11.035
+volume: '434'
+year: 2011

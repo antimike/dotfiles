@@ -2292,3 +2292,19 @@ papis add ./riemannian_geometry.pdf \\
 : 1618716511:0;ls -la ~ | grep zsh
 : 1618716525:0;git pull
 : 1618716531:0;tig
+: 1618718282:0;nvim ~/.config/kitty/kitty.conf
+: 1618718442:0;ls -la ~/.local/share/buku/bookmarks.db
+: 1618718460:0;buku
+: 1618718508:0;fc-list
+: 1618718517:0;fc-list | grep sev
+: 1618718567:0;rcdn config/kitty/kitty.conf
+: 1618718576:0;ranger
+: 1618718609:0;rcup -B work config/kitty/kitty.conf
+: 1618718612:0;ranger
+: 1618718762:0;kitty + list-fonts --psnames | grep Iosevka
+: 1618718912:0;nvim
+: 1618719050:0;kitty + list-fonts --psnames | grep Iosevka | grep Italic
+: 1618719062:0;kitty + list-fonts --psnames | grep Iosevka | grep Italic | grep Medium
+: 1618719070:0;kitty + list-fonts --psnames | grep Iosevka | grep Italic | grep Medium | grep Nerd
+: 1618719128:0;kitty + list-fonts --psnames | grep Iosevka | grep Italic | grep Heavy | grep Nerd
+: 1618719211:0;nvim

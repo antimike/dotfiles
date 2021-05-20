@@ -1,31 +1,31 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 # Arrows
 snippet -> "Short arrow" wA
 \to
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet => "Implies" wA
 \Longrightarrow
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet iff "Iff" wA
 \Longleftrightarrow
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet --> "Right-arrow" wA
 \longrightarrow
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet <-- "Left arrow" wA
 \longleftarrow
 endsnippet

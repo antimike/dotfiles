@@ -1,6 +1,6 @@
 global !p
-import sys
-sys.path.append('$PYTHON_REPO/Utilities')
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
@@ -24,27 +24,27 @@ snippet bd "Bold" i
 \textbf{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet tx "Text in math mode" wA
 \tx{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet intx "Intertext" bA
 \intertext{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ctx "Center-justified text (mathtools)" wA
 \mathclap{$1} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ltx "Left-justified text (mathtools)" wA
 \mathllap{$1} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet rtx "Right-justified text (mathtools)" wA
 \mathrlap{$1} $0
 endsnippet

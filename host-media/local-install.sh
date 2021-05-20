@@ -19,3 +19,4 @@ cabal install taskell
 pip3 install doq --user && pip2 install doq --user
 pip3 install buku --user
 pip3 install socli --user
+sudo apt-get install fd-find -y

@@ -1,0 +1,9 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+" Location of plugin's virtualenv:
+let g:black_virtualenv='~/.vim/black'
+" Run Black on save:
+"autocmd BufWritePre *.py execute ':Black'
+" Keybinding to run Black (Python formatter):
+nnoremap <M-f> :Black<CR>

@@ -1,6 +1,6 @@
-" ~/.config/nvim/Sessions/config.vim:
+" ~/.dotfiles/host-work/config/nvim/Sessions/config.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 11 March 2021 at 22:17:11.
+" Created by session.vim 2.13.1 on 18 May 2021 at 17:39:33.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,17 +16,28 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.dotfiles
+cd ~/.dotfiles/host-work/config/nvim
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +27 tag-nvim/config/nvim/init.vim
-badd +0 host-work/rcrc
+badd +24 ~/.dotfiles/tag-nvim/config/nvim/init.vim
+badd +6 ~/.dotfiles/host-work/rcrc
+badd +0 ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt
+badd +27 ~/.dotfiles/tag-nvim/config/nvim/init.syntax-range
+badd +6 ~/Documents/Spring-2021/PH142/L06/lab-grading-notes-final.md
+badd +12 ~/Documents/Spring-2021/PH142/L09/lab-grading-final-notes.md
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/markdown/markdown.snippets
+badd +9 ~/Documents/Spring-2021/PH142/L15/lab-grading-final-notes.md
+badd +6 ~/.dotfiles/tag-nvim/config/nvim/init.pandoc
+badd +2 init.vim
+badd +5 ~/Source/vim-plug/coc-snippets/syntax/snippets.vim
+badd +12 ~/Source/vim-plug/vim-snippets/snippets/markdown.snippets
+badd +1 ~/.dotfiles/host-work/config/nvim/plugins.vim
+badd +0 ~/.haskeline
 argglobal
 %argdel
-set stal=2
-edit tag-nvim/config/nvim/init.vim
+edit ~/.dotfiles/host-work/config/nvim/plugins.vim
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -40,70 +51,18 @@ setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 27 - ((24 * winheight(0) + 14) / 28)
+let s:l = 216 - ((12 * winheight(0) + 7) / 14)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-27
-normal! 030|
-tabnew
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-if bufexists("~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt") | buffer ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | else | edit ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-silent! normal! zE
-let s:l = 267 - ((1 * winheight(0) + 14) / 29)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-267
-normal! 059|
-tabedit host-work/rcrc
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 6 - ((5 * winheight(0) + 14) / 29)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-6
-normal! 024|
+216
+normal! 05|
 tabnext 1
-set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif

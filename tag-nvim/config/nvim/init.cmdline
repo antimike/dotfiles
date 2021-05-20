@@ -4,6 +4,7 @@
 
 let cmdline_follow_colorscheme = 1
 let cmdline_in_buffer = 1
+let cmdline_vsplit = 1
 "let cmdline_external_term_cmd = 'kitty %s &'
 
 " Maps: 'ex' == 'execute'

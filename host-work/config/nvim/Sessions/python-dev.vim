@@ -1,6 +1,6 @@
-" ~/.config/nvim/Sessions/python-dev.vim:
+" ~/.dotfiles/host-work/config/nvim/Sessions/python-dev.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 March 2021 at 22:27:52.
+" Created by session.vim 2.13.1 on 14 May 2021 at 15:28:47.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -24,16 +24,12 @@ set shortmess=aoO
 badd +24 ~/Documents/Spring-2021/EM_II/Notes/03152021/03152021.tex
 badd +39 ~/texmf~/tex/latex/local/local/notes.cls
 badd +39 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/notes.cls
-badd +100 ~/Documents/Python/Utilities/context.py
-badd +0 term://.//175281:ipython
+badd +1 ~/Documents/Python/Utilities/context.py
+badd +8 term://.//383215:ipython
 argglobal
 %argdel
 edit ~/Documents/Python/Utilities/context.py
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -41,8 +37,6 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -58,7 +52,7 @@ silent! normal! zo
 silent! normal! zo
 39
 silent! normal! zo
-50
+49
 silent! normal! zo
 50
 silent! normal! zo
@@ -66,7 +60,7 @@ silent! normal! zo
 silent! normal! zo
 61
 silent! normal! zo
-67
+66
 silent! normal! zo
 69
 silent! normal! zo
@@ -78,32 +72,12 @@ silent! normal! zo
 silent! normal! zo
 119
 silent! normal! zo
-let s:l = 70 - ((13 * winheight(0) + 24) / 48)
+let s:l = 11 - ((10 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-70
-normal! 023|
-wincmd w
-argglobal
-if bufexists("term://.//175281:ipython") | buffer term://.//175281:ipython | else | edit term://.//175281:ipython | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 222 - ((9 * winheight(0) + 24) / 48)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-222
-normal! 014|
-wincmd w
-exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
-exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
+11
+normal! 01|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
