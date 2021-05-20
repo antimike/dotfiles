@@ -1,9 +1,8 @@
 v:/home/user/.vim
-':/home/user/.dotfiles
+':/home/user/.dotfiles/host-work/local/share/buku
 a:/home/user
 f:/home/user/Documents/Fall 2020
 k:/home/user/Documents/Fall 2020
-m:/home/user/mail/Attachments
 q:/home/user/QubesIncoming
 n:/home/user/.config/nvim
 h:/home/user
@@ -16,3 +15,4 @@ d:/home/user/.dotfiles
 p:/home/user/Documents/Python
 l:/home/user/.local
 S:/home/user/Source
+m:/home/user/mail/Attachments

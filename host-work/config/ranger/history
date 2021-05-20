@@ -1,3 +1,21 @@
+mkdir HW9
+search 642
+shell tar -cf %s
+mkdir papers
+shell tar -czf paper.tar.gz --directory=./%s
+rename pap
+shell tar -czf paper.tar.gz --directory=./%s .
+mkdir HW10
+mkdir HW11
+mkdir HW12
+mkdir HW13
+mkdir Final
+search sprin
+search Fall
+rename p1.jpg
+rename p12.jpg
+rename p2.jpg
+rename p11.jpg
 
 rename p10.jpg
 rename p9.jpg
@@ -7,6 +25,7 @@ rename p5.jpg
 rename p4.jpg
 rename p3.jpg
 q
+delete
 mkdir Pages
 rename 1.jpg
 rename 01.jpg
@@ -20,31 +39,12 @@ rename 08.jpg
 rename 09.jpg
 rename 10.jpg
 rename 11.jpg
-rename HW6.py
-mkdir Sage
-touch __init__.py
-rename sage
-rename computations
-touch helpers.sage
-touch cached.sage
-touch test.sage
-rename cached.py
-delete
-rename helpers.py
-shell sage --preparse %s
-touch constants.py
-touch data-generator.py
-search pic
-touch picklebarrel.py
-search barrel
-search line
-touch .haskeline
-search haskel
-search comput
-search compute
+search source
+search hask
 search 
-mkdir Perl
-search perl
-search compu
-search term
-search input
+search spring
+search fire
+shell qvm-copy %s
+search work
+mkdir `
+shell  %s
