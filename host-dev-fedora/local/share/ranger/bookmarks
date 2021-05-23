@@ -1,6 +1,6 @@
 q:/home/user/QubesIncoming
 c:/home/user/.config
-':/home/user/.dotfiles
+':/home/user/.dotfiles/host-work/config/nvim
 h:/home/user
 s:/home/user/Source
 d:/home/user/.dotfiles

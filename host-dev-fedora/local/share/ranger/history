@@ -1,7 +1,3 @@
-touch octaverc
-search octave
-touch .octaverc
-search c
 search pubs
 rename Maxwell_FEM_Notes.pdf
 rename dealii_Assembling_Matrices.pdf
@@ -22,7 +18,6 @@ search sess
 open_with nvim
 search tex
 search zal
-search work
 search moz
 search boo
 shell unzip %s
@@ -33,9 +28,6 @@ search mark
 search pandoc
 search syntax
 search n
-search rcrc
-delete
-search nvim
 search viminfo
 search guake
 search qu
@@ -47,4 +39,12 @@ search view
 search local
 search rang
 search ranger
+open_with 
+search rcrc
+search Source
+search plug
+search work
 search 
+delete
+search nvim
+search dev
