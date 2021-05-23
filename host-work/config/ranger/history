@@ -25,7 +25,6 @@ rename p5.jpg
 rename p4.jpg
 rename p3.jpg
 q
-delete
 mkdir Pages
 rename 1.jpg
 rename 01.jpg
@@ -41,10 +40,11 @@ rename 10.jpg
 rename 11.jpg
 search source
 search hask
-search 
 search spring
-search fire
-shell qvm-copy %s
 search work
-mkdir `
-shell  %s
+search media
+search inst
+search install
+search 
+open_with nvim
+delete
