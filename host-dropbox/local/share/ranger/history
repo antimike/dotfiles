@@ -26,7 +26,6 @@ rename vortex-disorder-parameter-condensation-3d-Heisenberg.pdf
 search nphys
 shell  %s
 rename long-range-correlations-disorder-potential.pdf
-shell qvm-copy %s
 searc
 mkdir Papis-Imports
 mk
@@ -46,5 +45,6 @@ search drop
 rename bookmarks.db.backup
 delete
 open_with e
-search fire
 open_with 
+search fire
+shell qvm-copy %s
