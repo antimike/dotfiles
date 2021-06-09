@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=papis-tmsu-vfs
+Exec=/usr/local/bin/papis-tmsu-vfs.sh
+Type=Application
