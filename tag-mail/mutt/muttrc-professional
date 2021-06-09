@@ -60,7 +60,7 @@ color status green default
 
 ## Account-specific macros
 
-macro index o "<shell-escape>check-mail professional<enter>" "run mbsync to sync mail for this account"
+macro index o "<shell-escape>/usr/bin/check-mail.sh professional<enter>" "run mbsync to sync mail for this account"
 
 #macro index,pager J \
   #"<enter-command>set my_old_resolve=\$resolve noresolve<enter>\
