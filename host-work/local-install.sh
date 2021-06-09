@@ -61,3 +61,8 @@ pip3 install python-constraint --user --upgrade
 sudo dnf install rlwrap -y
 pip3 install document-your-code --user --upgrade
 sudo dnf install elixir -y
+sudo npm install -g typescript
+sudo npm install -g ts-node
+sudo npm install -g tslib @types/node
+sudo npm install -g node-help
+pip3 install datacite --user --upgrade
