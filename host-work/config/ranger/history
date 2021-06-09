@@ -1,50 +1,50 @@
-mkdir HW9
-search 642
-shell tar -cf %s
-mkdir papers
-shell tar -czf paper.tar.gz --directory=./%s
-rename pap
-shell tar -czf paper.tar.gz --directory=./%s .
-mkdir HW10
-mkdir HW11
-mkdir HW12
-mkdir HW13
-mkdir Final
-search sprin
-search Fall
-rename p1.jpg
-rename p12.jpg
-rename p2.jpg
-rename p11.jpg
-
-rename p10.jpg
-rename p9.jpg
-rename p7.jpg
-rename p6.jpg
-rename p5.jpg
-rename p4.jpg
-rename p3.jpg
-q
-mkdir Pages
-rename 1.jpg
-rename 01.jpg
-rename 02.jpg
-rename 03.jpg
-rename 04.jpg
-rename 05.jpg
-rename 06.jpg
-rename 07.jpg
-rename 08.jpg
-rename 09.jpg
-rename 10.jpg
-rename 11.jpg
-search source
-search hask
-search spring
-search work
-search media
-search inst
-search install
-search 
-open_with nvim
+mkdir zsh
+touch document_type.py
+search const
+touch arxiv.py
+touch doi.py
+touch urldoc.py
+rename string_helpers.py
+touch pdf_helpers.py
+search repl
+search cmd
+search test
+touch test_arxiv.py
+touch __init__.py
+touch document_fixture.py
+search arxiv
+rename document.py
+search config
+search down
+mkdir js-repl
+search drop
 delete
+
+touch timer.sh
+touch blank_script.sh
+search blank
+search nerd
+touch init.comment
+search comment
+search init.vim
+search shell
+bash-utils
+mkdir bash-utils
+rename script_template.sh
+search local
+cd /usr/local/bin
+search git
+cd /usr/bin
+cd ~/.local
+search hub
+touch get_todos.sh
+touch docstring.sh
+touch parse_options.sh
+touch var_expand.sh
+search tim
+touch init.markdown
+search nvim
+search 
+search work
+search mark
+rename init.markdown.vim
