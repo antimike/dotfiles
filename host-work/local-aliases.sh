@@ -47,3 +47,6 @@ alias notes='terminal_velocity'
 
 # Languages and REPLs
 alias lisp='sbcl'
+
+# New (to try)
+alias tagfile='tmsu'
