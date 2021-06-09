@@ -1,0 +1,251 @@
+http://dx.doi.org/10.1016/j.entcs.2012.08.017
+"A Simply Typed Lambda-Calculus of Forward Auto..." (Manzyuk)
+--set tags "differentiable-programming lambda-calculus type-theory automatic-differentiation deep-learning networks programming machine-learning"
+
+???
+"Lazy Time Reversal, and Automatic Differentiation" (Karczmarczuk, Jerzy)
+--set tags "differentiable-programming automatic-differentiation time-reversal deep-learning programming machine-learning"
+
+				1811.05031v2 (ArXiv)
+				"A Review of Auto..." (Margossian, Charles)
+				--set tags "differentiable-programming automatic-differentiation review deep-learning machine-learning"
+
+https://arxiv.org/abs/2011.14709
+"Monadic Pavlovian associative..." (Tan, James and ...)
+--set tags "differentiable-programming monad functional-programming automatic-differentiation machine-learning deep-learning haskell"
+
+1803.10228v3 (ArXiV)
+"Demystifying Differentiable Programming:..." (Wang, Fei and ...)
+--set tags "differentiable-programming automatic-differentiation intro review programming machine-learning deep-learning"
+
+arXiv:1702.02181v2
+"Deep Learning with Dynamic Computation Graphs" (Looks, Moshe and ...)
+--set tags "differentiable-programming automatic-differentiation machine-learning deep-learning dynamic computation-graph"
+
+10.1016/0001-8708(91)90003-P
+"The Geometry of Tensor Calculus" (Andre, Joyal)
+--set tags "geometry tensor category-theory categorical-quantum-mechanics foundation string-diagram monoid"
+--set wiki "https://en.wikipedia.org/wiki/String_diagram"
+
+https://arxiv.org/abs/0908.3347
+"A Survey of Graphical Languages for Monoidaal Categories"
+--set tags "notation penrose-notation geometry category-theory categorical-quantum-mechanics foundation string-diagram monoid"
+--set wiki "https://en.wikipedia.org/wiki/String_diagram"
+
+https://arxiv.org/abs/quant-ph/0401052
+"Evidence for the epistemic view of quantum states: A toy theory" (Spekkens, Robert W.)
+--set tags "consciousness nonlocality hidden-variable quantum-mechanics toread stem-paper spekkens-toy-model entropy information-theory foundations"
+--set wiki "https://en.wikipedia.org/wiki/Spekkens_toy_model"
+
+https://arxiv.org/abs/0905.2292
+"Information causality as a physical principle" (Zukowski, Marek)
+--set tags "nonlocality information-theory information-causality causality foundations physics entropy consciousness"
+--set wiki "https://en.wikipedia.org/wiki/Information_causality"
+
+https://doi.org/10.1103%2Fphysrevlett.107.210403
+"Quantum Correlations Require Multipartite Information Principles"
+--set tags "nonlocality information-theory information-causality causality foundations physics entropy consciousness quantum-mechanics multipartite"
+--set wiki "https://en.wikipedia.org/wiki/Information_causality"
+
+arXiv:1010.4840v2
+"Categorical Quantum Circuits"
+--set tags "quantum-circuit category-theory categorical-quantum-mechanics foundations quantum-computation"
+
+???
+"The Categorical Language of Quantum Physics" (Rabinovich, Eugene: 2016)
+--set tags "category-theory quantum-mechanics foundations monad physics"
+
+???
+"Introduction to Categorical Quantum Mechanics" (Heunen, Chris and Vicary, Jamie: 2013)
+--set tags "notes reference summary intro quantum-mechanics category-theory complementarity complete-positivity categorical-quantum-mechanics"
+--set url "http://www.cs.ox.ac.uk/people/jamie.vicary/IntroductionToCategoricalQuantumMechanics.pdf"
+
+???
+"Categorical Quantum Mechanics: An Introduction" (Reutter, David and Vicary, Jamie: 2019)
+--set tags "notes lecture summary intro quantum-mechanics category-theory categorical-quantum-mechanics"
+--set url "https://www.cs.ox.ac.uk/files/10510/notes.pdf"
+
+https://arxiv.org/abs/1701.00660
+"Ambiguity and Incomplete Information..."
+--set tags "category-theory natural-language sellinger-CPM quantum-computation information-theory"
+
+???
+"The Expecation Monad in Quantum Foundations"
+--set tags "monad functional-programming quantum-mechanics foundations physics expectation-monad"
+--set url "http://www.cs.ru.nl/~mandemak/expectation.pdf"
+
+???
+"Quantum Double of Hopf Monads and Categorical Centers"
+--set tags "quantum-mechanics foundations hopf-monad categorical-center category-theory categorical-quantum-mechanics"
+--set url "https://www.ams.org/journals/tran/2012-364-03/S0002-9947-2011-05342-0/S0002-9947-2011-05342-0.pdf"
+
+???
+"Monads on Dagger Categories" (Heunen, Chris and Karvonen, Martti: 2010)
+--set tags "dagger-category category-theory categorical-quantum-mechanics monad frobenius-law kleisli-algebra"
+--set url "https://homepages.inf.ed.ac.uk/cheunen/publications/2016/dagger/dagger.pdf"
+
+???
+"Category Theory by Example"
+--set author "Murashko, Ivan and Radkov, Alexey and Minshin, Marat"
+--set year 2021
+--set tags "category-theory text reference book applied math functional-programming"
+--set url "https://nbviewer.jupyter.org/github/CatTheoryByExample/book/blob/master/cattheory.pdf"
+
+https://arxiv.org/abs/quant-ph/0502053
+"The role of the rigged Hilbert space..."
+--set tags "rigged-hilbert-space quantum-mechanics foundations math"
+
+https://arxiv.org/abs/1501.04921
+"Monadic Dynamics"
+--set tags "monad dynamics physics foundations ellenberg-moore-category category-theory dynamical-system kleisli-category compositionality path-space state-space"
+
+???
+"Monadology, Information and Physics Part 1: Metaphysics and Dynamics"
+--set tags "monad monadology metaphysics philosophy leibniz physics foundations dynamics"
+--set url "http://philsci-archive.pitt.edu/10599/"
+--set url "http://philsci-archive.pitt.edu/10599/1/Monad.Inf._Physics.pdf"
+
+???
+"Quarks, Bootstraps and Monads" (Harrison, David M.)
+--set tags "monad quark bootstrap leibniz monadology quantum-mechanics foundations metaphysics string-theory survey philosophy"
+--set url "https://faraday.physics.utoronto.ca/PVB/Harrison/HighEnergy/Neuroquantology/NQ.pdf"
+
+https://doi.org/10.5840/idstudies201912587
+"Quantum Monadology" (McDonnell, Jane F.)
+--set tags "quantum-monadology philosophy metaphysics leibniz"
+
+10.1007/BF02228845
+"Quantum monadology: A world model to interpret quantum mechanics and relativity" (Nakagomi, T.)
+--set url "https://link.springer.com/content/pdf/10.1007/BF02228845.pdf"
+
+10.1103/PhysRevE.103.022106
+https://arxiv.org/abs/2010.07953
+"Stochastic fractal and Noether's theorem" (Rahman, Rakibur and ...)
+--set tags "noether-theorem symmetry stochastic-fractal algorithm computation fractal-dimension"
+
+arXiv:2102.01503v1
+"A Survey on (Stochastic Fractal Search)..."
+--set tags "stochastic-fractal computation survey search algorithm"
+
+10.1109/CEC.2016.7744188
+"Differential evolution with stochastic fractal search algorithm for global numerical optimization"
+--set tags "differentiable-programming stochastic-fractal search algorithm computation numerics optimization"
+--set url "https://ieeexplore.ieee.org/document/7744188"
+
+https://link.springer.com/article/10.1007/s00500-019-04080-6
+"Multi-Objective Stochastic Fractal Search: A powerful algorithm..."
+--set tags "stochastic-fractal search algorithm optimization multi-objective computation numerics"
+--set url "https://www.researchgate.net/publication/333149591_Multi-Objective_Stochastic_Fractal_Search_A_powerful_algorithm_for_solving_complex_multi-objective_optimization_problems"
+
+https://arxiv.org/abs/1904.09322v2
+"Compositionality of Rewriting Rules with Conditions" (Behr, Nicolas and Krivine, Jean)
+--set tags "compositionality category-theory associative-rewriting rule-algebra"
+
+https://arxiv.org/abs/2005.04735v4
+"Categorical stochastic processes..."
+--set tags "compositionality category-theory probabilitic computation optimization gradient-descent stochastic-process kleisli-category lawvere-theory pushforward"
+
+https://arxiv.org/abs/1912.02769v5
+"Infinite products and zero-one laws..."
+--set tags "compositionality zero-one-laws probability markov-category statistics kolmogorov-extension-theorem"
+
+https://arxiv.org/abs/1904.03550v4
+"Network models from petri nets..."
+--set tags "networks petri-nets compositionality category-theory"
+
+https://arxiv.org/abs/1801.05798v6
+"An effect-theoretic reconstruction..."
+--set tags "compositionality quantum-mechanics foundations effectus-theory c-star-algebra pure-effect-theory dagger-category category-theory jordan-algebra monoid"
+
+???
+"A Survey of Geometric Algebra and Geometric Calculus" (Macdonald, Alan: 2015)
+--set tags "geometric-algebra survey intro spinor multivector exterior-calculus"
+--set url "http://www.faculty.luther.edu/~macdonal/GA&GC.pdf"
+
+???
+"Monad Geometry - A new differential calculus" (Krantz, Thomas: 2020)
+--set tags "monad geometry differential-geometry ehresmann-connection parallel-transport"
+--set url "https://www.researchgate.net/publication/343639574_Monad_Geometry_-_A_new_differential_calculus"
+
+???
+"Probability Monads"
+--set tags "thesis probability monad functional-programming intro survey"
+--set url "https://www.math.harvard.edu/media/JulianAsilisThesis.pdf"
+
+https://arxiv.org/abs/1401.0940
+"The Tangent Functor Monad and Foliations"
+--set tags "monad functor category-theory foliation affine-manifold differential-geometry"
+
+arXiv:1804.00746v4
+"The simple essence..."
+--set tags "automatic-differentiation differentiable-programming algorithm machine-learning deep-learning intro"
+
+arXiv:2101.06757v1
+"Higher order automatic..."
+--set tags "automatic-differentiation differentiable-programming machine-learning deep-learning higher-order-function functional-programming"
+
+???
+"A mathematical model for automatic differentiation in machine learning"
+--set tags "automatic-differentiation differentiable-programming machine-learning deep-learning"
+--set url "https://proceedings.neurips.cc//paper/2020/file/7a674153c63cff1ad7f0e261c369ab2c-Paper.pdf"
+
+10.1007/s10822-012-9591-9
+"Derivatives in discrete mathematics: a novel graph-theoretical invariant..." (Marrero-Ponce, Yovani and ...)
+--set url "https://link.springer.com/article/10.1007/s10822-012-9591-9"
+--set tags "discrete-math graph-derivative algebraic-data-structure type-theory"
+
+???
+--set url "http://strictlypositive.org/diff.pdf"
+--set title "The Derivative of a Regular Type is its Type of One-Hole Contexts"
+--set author "McBride, Conor"
+--set tags "regular-type type-theory algebraic-data-structure datatype graph-derivative intro functional-programming one-hole-context"
+
+???
+--set title "Clowns to the Left of me, Jokers to the Right"
+--set author "McBride, Conor"
+--set year 2017
+--set url "http://strictlypositive.org/CJ.pdf"
+--set tags "regular-type type-theory algebraic-data-structure datatype graph-derivative zipper functional-programming one-hole-context"
+
+???
+"Type Theory and Functional Programming" (Thompson, Simon: 1999)
+--set tags "functional-programming book reference text type-theory"
+--set author "Thompson, Simon"
+--set year 1999
+--set url "http://www.cs.cornell.edu/courses/cs4860/2018fa/Thompson-type-theory"
+
+???
+--set author "Elliott, Conal M."
+--set title "Beautiful Differentiation (extended version)"
+--set tags "type-derivative algebraic-datatype type-theory one-hole-context automatic-differentiation machine-leaerning deep-learning algorithm"
+--set url "http://conal.net/papers/beautiful-differentiation/beautiful-differentiation-long.pdf"
+
+???
+--set author "Elliott, Conal M."
+--set title "Push-Pull Functional Reactive Programming"
+--set tags "functional-programming reactive-programming push-pull implementation algorithm FRP"
+--set url "http://conal.net/papers/push-pull-frp/push-pull-frp.pdf"
+
+https://doi.org/10.1080%2F0025570X.2004.11953236
+"Geometry of Generalized Complex Numbers"
+--set tags "hypercomplex-number clifford-algebra geometric-algebra screw-theory dual-complex-number biquaternion quaternion grassman-number"
+--set wiki "https://en.wikipedia.org/wiki/Dual_number"
+
+https://doi.org/10.1007%2F978-3-662-03729-4_1
+"The Application of Dual Algebra to Kinematic Analysis"
+--set tags "dual-algebra hypercomplex-number kinematics biquaternion screw-theory"
+--set wiki "https://en.wikipedia.org/wiki/Dual_number"
+
+## TOPICS
+
+* Information-theoretic path integral
+
+## TAGS
+
+differentiable-programming automatic-differentiation machine-learning deep-learning
+programming
+functional-programming monad
+type-theory
+
+TO CHECK (CSU libraries):
+https://www.cambridge.org/core/books/an-invitation-to-applied-category-theory/D4C5E5C2B019B2F9B8CE9A4E9E84D6BC
