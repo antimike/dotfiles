@@ -2,7 +2,11 @@ let maplocalleader="\\"
 source ~/.config/nvim/plugins.vim
 "packadd vimball
 
- "Init files for specific plugins
+" Source files for this VM only (work)
+source ~/.config/nvim/init.vimwiki
+source ~/.config/nvim/init.markdown
+
+" Source files for specific plugins
 source ~/.dotfiles/tag-nvim/config/nvim/init.autopairs
 source ~/.dotfiles/tag-nvim/config/nvim/init.coc-nvim
 source ~/.dotfiles/tag-nvim/config/nvim/init.inkscape
@@ -13,7 +17,6 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.spellcheck
 source ~/.dotfiles/tag-nvim/config/nvim/init.standard
 source ~/.dotfiles/tag-nvim/config/nvim/init.ultisnips
 source ~/.dotfiles/tag-nvim/config/nvim/init.vimtex
-source ~/.config/nvim/init.vimwiki
 source ~/.dotfiles/tag-nvim/config/nvim/init.zettel
 source ~/.dotfiles/tag-nvim/config/nvim/init.undotree
 source ~/.dotfiles/tag-nvim/config/nvim/init.cutlass
@@ -43,5 +46,6 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.git
 source ~/.dotfiles/tag-nvim/config/nvim/init.haskell
 source ~/.dotfiles/tag-nvim/config/nvim/init.vimspector
 source ~/.dotfiles/host-work/config/nvim/init.black
+source ~/.dotfiles/tag-nvim/config/nvim/init.comment
 
 hi clear Conceal

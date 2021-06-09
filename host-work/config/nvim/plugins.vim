@@ -35,6 +35,8 @@ Plug 'ryanoasis/vim-devicons'
 "let g:lightline = { 'colorscheme': 'one dark' }
 
 "" New plugins
+Plug 'Konfekt/FastFold'
+Plug 'zhimsel/vim-stay'
 Plug 'AndrewRadev/inline_edit.vim'
 Plug 'amiorin/vim-fenced-code-blocks', { 'for': ['markdown'] } 
 Plug 'goerz/jupytext.vim' 
@@ -89,6 +91,7 @@ Plug 'glts/vim-radical'
 Plug 'glts/vim-magnum'
 Plug 'tpope/vim-tbone'
 Plug 'jalvesaq/vimcmdline'
+Plug 'sillybun/vim-repl'
 Plug 'LucHermitte/vim-refactor'
 Plug 'svermeulen/vim-subversive'
 Plug 'alvan/vim-indexer'
