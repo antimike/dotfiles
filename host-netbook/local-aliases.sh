@@ -14,3 +14,7 @@ alias reddit='tuir'
 alias spotify='spt'
 alias wikipedia='wikit'
 alias weather='wego'
+
+if [ $(command -v rlwrap) ]; then
+	alias node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap node'
+fi
