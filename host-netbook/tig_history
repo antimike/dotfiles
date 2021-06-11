@@ -68,3 +68,6 @@ zsh
 bash
 shell
 sh
+!git add tag-nvim
+alias
+install

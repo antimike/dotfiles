@@ -10,7 +10,6 @@ search zoom
 search rstu
 search todo
 search task
-search compute
 search rcrc
 shell vim %s
 search doing.md
@@ -21,16 +20,30 @@ search kdbx
 search sourc
 search graph
 touch 04192021.md
-search term
 cd ~/Source
-search 
 fi`
 cd fzf
 search fzf
 search inst
-search nvim
-search net
 delete
 search doc
 search spring
 search qutn
+search netbook
+search nvim
+search source
+mkdir evolution
+search evo
+touch evolution.py
+search gh
+search compute
+search ghci
+search hask
+search buku
+search glow
+search term
+search work
+search 
+search input
+search net
+search alias

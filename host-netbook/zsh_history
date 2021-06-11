@@ -1564,3 +1564,28 @@
 : 1619227041:0;git commit -m "host-netbook: Firefox"
 : 1619227068:0;tig
 : 1619227240:0;cat ~/.zsh_history | grep go
+: 1619227850:0;buku --help | grep merge
+: 1619228042:0;sqlite3
+: 1619228592:0;pip3 install litecli --user
+: 1619228601:0;log-installed
+: 1619228613:0;litecli ~/.local/share/buku/bookmarks.db
+: 1619228633:0;man litecli
+: 1619228640:0;litecli --help | grep color
+: 1619228644:0;litecli --help | grep config
+: 1619228649:0;litecli --help
+: 1619229395:0;buku -a https://litecli.com/ litecli, cli, sqlite, repl, terminal, docs -c "Homepage for LiteCLI, a lightweight CLI for SQLite"
+: 1619229484:0;mkrc -t compute ~/.config/litecli
+: 1619229533:0;ls -la ~ | grep rcrc
+: 1619229562:0;rcup -B netbook config/litecli/log
+: 1619229658:0;ls -la ~/.config/litecli
+: 1619229696:0;tig
+: 1619229707:0;cd ~/.dotfiles
+: 1619229710:0;tig
+: 1619229805:0;litecli ~/.local/share/buku/bookmarks.db
+: 1619231548:0;man sqlite3
+: 1619231646:0;buku --help | grep list
+: 1619286418:0;ranger
+: 1619288427:0;buku --help
+: 1619288653:0;buku -e tag-firefox/local/share/buku/test.json
+: 1619490893:0;apt search xapers
+: 1619490946:0;apt search researcher
