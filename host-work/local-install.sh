@@ -66,3 +66,27 @@ sudo npm install -g ts-node
 sudo npm install -g tslib @types/node
 sudo npm install -g node-help
 pip3 install datacite --user --upgrade
+sudo npm install -g purescript
+sudo npm install -g ts-node
+sudo npm install -g spago
+sudo npm i -g purescript-psa
+npm audit fix
+sudo npm i -g purescript pulp bower
+sudo npm i -g pscid
+sudo gem install pry pry-doc
+sudo gem install coolline
+sudo gem install pry-coolline
+sudo gem install pry-theme awesome_print coderay
+sudo gem install railscasts
+sudo npm i -g purescript-language-server
+sudo npm i -g purty
+sudo npm i -g elm elm-test spa-http-server
+npm audit fix
+sudo npm i -g @elm-tooling/elm-language-server
+sudo npm i -g elm-format
+sudo npm i -g elm-test elm-oracle
+sudo npm -g i elm-format
+julia
+julia> ]
+pkg> add IJulia
+sudo dnf install idris -y
