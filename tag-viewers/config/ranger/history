@@ -1,4 +1,3 @@
-search dot
 search config
 search ranger
 search loc
@@ -47,3 +46,5 @@ search
 search input
 search net
 search alias
+search merge
+search firef
