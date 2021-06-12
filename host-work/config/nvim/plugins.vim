@@ -35,13 +35,21 @@ Plug 'ryanoasis/vim-devicons'
 "let g:lightline = { 'colorscheme': 'one dark' }
 
 "" New plugins
+" Plug 'heavenshell/vim-jsdoc'	" coc-jsdoc seems to offer the same
+" functionality
+Plug 'bfredl/nvim-ipy'
+Plug 'elmcast/elm-vim'		" Not sure if this is necessary (Coc.nvim already has most of this functionality)
+Plug 'Shougo/deol.nvim'
+Plug 'idris-hackers/idris-vim'
+Plug 'purescript-contrib/purescript-vim'
+Plug 'FrigoEU/psc-ide-vim'
 Plug 'Konfekt/FastFold'
 Plug 'zhimsel/vim-stay'
 Plug 'AndrewRadev/inline_edit.vim'
 Plug 'amiorin/vim-fenced-code-blocks', { 'for': ['markdown'] } 
 Plug 'goerz/jupytext.vim' 
-Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
-Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
+" Plug 'jpalardy/vim-slime', { 'for': ['python', 'julia'] }
+" Plug 'hanschen/vim-ipython-cell', { 'for': ['python', 'julia'] }
 Plug 'puremourning/vimspector'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 let g:pydocstring_enable_mapping=0
@@ -77,7 +85,7 @@ Plug 'jmcantrell/vim-virtualenv'
 
 Plug 'jreybert/vimagit'
 Plug 'sheerun/vim-polyglot'
-let g:polyglot_disabled = ['tex']
+let g:polyglot_disabled = ['tex', 'elm']
 Plug 'Yggdroot/LeaderF'
 Plug 'justinmk/vim-sneak'
 Plug 'sbdchd/neoformat'
