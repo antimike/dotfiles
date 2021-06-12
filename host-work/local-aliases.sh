@@ -47,6 +47,12 @@ alias notes='terminal_velocity'
 
 # Languages and REPLs
 alias lisp='sbcl'
+alias node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap node'
+alias ts-node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap ts-node'
+alias purescript='spago repl'
+alias debug-purescript='pscid'
+alias ruby='pry'
+alias julia-repl='jupyter console --kernel $(read -A words <<< "$(jupyter kernelspec list | grep julia)"; echo "${words[1]}")'
 
 # New (to try)
 alias tagfile='tmsu'
