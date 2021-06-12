@@ -1,0 +1,7 @@
+:color prompt blue italic bold
+:color implicit red italic
+:color keyword cyan noitalic
+:color boundvar green noitalic
+:color function magenta noitalic
+:color type white noitalic bold
+:color data yellow noitalic
