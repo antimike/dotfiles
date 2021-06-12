@@ -1,10 +1,13 @@
 " vim: syntax=vim
 " vim: filetype=vim
 
+" Send 'Esc' to the interpreter
+" Allows use of 'vi mode' in REPLs
+let cmdline_esc_term = 0
 
 let cmdline_follow_colorscheme = 1
-let cmdline_in_buffer = 1
-let cmdline_vsplit = 1
+let cmdline_in_buffer          = 1
+let cmdline_vsplit             = 1
 "let cmdline_external_term_cmd = 'kitty %s &'
 
 " Maps: 'ex' == 'execute'
@@ -26,6 +29,14 @@ let cmdline_app['tex']         = 'sage'
 let cmdline_app['freefem']     = 'octave'
 let cmdline_app['haskell']     = 'ghci-color'
 let cmdline_app['markdown']    = 'ipython'
+let cmdline_app['typescript']  = 'ts-node'
+let cmdline_app['javascript']  = 'node'
+let cmdline_app['purescript']  = 'spago repl'
+let cmdline_app['perl']        = 'perlsh'
+let cmdline_app['ruby']        = 'pry'
+let cmdline_app['elm']         = 'elm repl'
+let cmdline_app['julia']       = 'julia-repl'
+let cmdline_app['idris']       = 'idris'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
@@ -54,29 +65,29 @@ xmap     <Leader>el :SlimeRegionSend
 nnoremap <Leader>Q :IPythonCellRestart<CR>
 
 
- "For vim-repl
- "This plugin doesn't seem to work, and its functionality is replicated by
- "vimcmdline anyway
-nnoremap <leader>,R :REPLToggle<CR>
-nnoremap <leader>,E :REPLSendSession<CR>
-let g:repl_program = {
-												\ 'python': 'ipython',
-												\ 'sage': 'sage',
-												\ 'tex': 'sage',
-												\ 'octave': 'octave',
-												\ 'default': 'zsh',
-												\ 'vim': 'vim -e',
-												\ 'lua': 'lua'
-												\ }
-let g:repl_exit_commands = {
-												\ 'python': 'quit()',
-												\ 'zsh': 'exit',
-												\ 'default': 'exit',
-												\ 'haskell': 'quit'
-												\ }                        
-let g:repl_predefine_python = {
-												\ 'numpy': 'import numpy as np',
-												\ 'matplotlib': 'from matplotlib import pyplot as plt',
-												\ 'pint': 'from pint import UnitRegistry',
-												\ 'ureg': 'ureg = UnitRegistry()'
-												\ }                        
+" For vim-repl
+" This plugin doesn't seem to work, and its functionality is replicated by
+" vimcmdline anyway
+" nnoremap <leader>,R :REPLToggle<CR>
+" nnoremap <leader>,E :REPLSendSession<CR>
+" let g:repl_program = {
+"                         \ 'python': 'ipython',
+"                         \ 'sage': 'sage',
+"                         \ 'tex': 'sage',
+"                         \ 'octave': 'octave',
+"                         \ 'default': 'zsh',
+"                         \ 'vim': 'vim -e',
+"                         \ 'lua': 'lua'
+"                         \ }
+" let g:repl_exit_commands = {
+"                         \ 'python': 'quit()',
+"                         \ 'zsh': 'exit',
+"                         \ 'default': 'exit',
+"                         \ 'haskell': 'quit'
+"                         \ }                        
+" let g:repl_predefine_python = {
+"                         \ 'numpy': 'import numpy as np',
+"                         \ 'matplotlib': 'from matplotlib import pyplot as plt',
+"                         \ 'pint': 'from pint import UnitRegistry',
+"                         \ 'ureg': 'ureg = UnitRegistry()'
+"                         \ }                        

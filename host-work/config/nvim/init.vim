@@ -4,7 +4,7 @@ source ~/.config/nvim/plugins.vim
 
 " Source files for this VM only (work)
 source ~/.config/nvim/init.vimwiki
-source ~/.config/nvim/init.markdown
+source ~/.config/nvim/init.markdown.vim
 
 " Source files for specific plugins
 source ~/.dotfiles/tag-nvim/config/nvim/init.autopairs
@@ -47,5 +47,6 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.haskell
 source ~/.dotfiles/tag-nvim/config/nvim/init.vimspector
 source ~/.dotfiles/host-work/config/nvim/init.black
 source ~/.dotfiles/tag-nvim/config/nvim/init.comment
+source ~/.dotfiles/tag-nvim/config/nvim/init.ipython.vim
 
 hi clear Conceal

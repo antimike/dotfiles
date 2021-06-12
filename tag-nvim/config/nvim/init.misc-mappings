@@ -19,11 +19,13 @@ let g:wheel#map#down = '<M-S-J>'
 
 " For ALE (linter)
 " BAD IDEA---this conflicts with the 'follow link' mapping for help files
+" Moved to init.ale
+" TODO: Source this file in all hosts' init.vim
 "nmap <silent> <C-]> <Plug>(ale_next)
 "nmap <silent> <C-[> <Plug>(ale_previous)
-nmap <silent> <C-space> <Plug>(ale_next)
-nmap <silent> <C-S-space> <Plug>(ale_previous)
-nmap <silent> ]E <Plug>(ale_next_error)
-nmap <silent> [E <Plug>(ale_previous_error)
-nmap <silent> ]w <Plug>(ale_next_warning)
-nmap <silent> [w <Plug>(ale_previous_warning)
+" nmap <silent> <C-space> <Plug>(ale_next)
+" nmap <silent> <C-S-space> <Plug>(ale_previous)
+" nmap <silent> ]E <Plug>(ale_next_error)
+" nmap <silent> [E <Plug>(ale_previous_error)
+" nmap <silent> ]w <Plug>(ale_next_warning)
+" nmap <silent> [w <Plug>(ale_previous_warning)
