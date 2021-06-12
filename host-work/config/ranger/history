@@ -1,24 +1,8 @@
-mkdir zsh
-touch document_type.py
-search const
-touch arxiv.py
-touch doi.py
-touch urldoc.py
-rename string_helpers.py
-touch pdf_helpers.py
-search repl
-search cmd
-search test
-touch test_arxiv.py
-touch __init__.py
-touch document_fixture.py
-search arxiv
 rename document.py
 search config
 search down
 mkdir js-repl
 search drop
-delete
 
 touch timer.sh
 touch blank_script.sh
@@ -42,9 +26,25 @@ touch docstring.sh
 touch parse_options.sh
 touch var_expand.sh
 search tim
-touch init.markdown
-search nvim
-search 
-search work
 search mark
-rename init.markdown.vim
+delete
+touch init.markdown
+search repl
+search 
+search nvim
+search cmd
+mkdir Purescript
+mkdir test-project
+search local.conf
+search python
+search has
+touch init
+shell nvim %s
+search idris
+search work
+search alias
+search compute
+search gh
+search py
+search ut
+search col

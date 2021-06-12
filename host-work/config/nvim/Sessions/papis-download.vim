@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/papis-download.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 June 2021 at 17:17:46.
+" Created by session.vim 2.13.1 on 12 June 2021 at 02:59:11.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,35 +16,73 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd /usr/local/bin
+cd ~/Source/Python/citation-scraper/scraper/parsing
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +36 get-crossref-data
-badd +35 extract-refs.sh
-badd +1 export-papis.sh
-badd +209 wikit
+badd +36 /usr/local/bin/get-crossref-data
+badd +35 /usr/local/bin/extract-refs.sh
+badd +1 /usr/local/bin/export-papis.sh
+badd +209 /usr/local/bin/wikit
 badd +1006 ~/Source/get-dois.py
 badd +8 ~/Source/scihubget.py
 badd +66 ~/Source/vim-plug/SimpylFold/doc/SimpylFold.txt
 badd +3 ~/Source/get-papis-tags.py
 badd +1104 ~/Source/test.py
 badd +883 ~/Source/download-and-add-papers.py.py
-badd +0 term://.//25403:ipython
-badd +185 ~/.local/lib/python3.9/site-packages/papis/arxiv.py
-badd +0 ~/.local/lib/python3.9/site-packages/papis/downloaders/__init__.py
-badd +0 ~/Source/download-and-add-papers.py
+badd +45 term://.//50107:ipython
+badd +285 ~/.local/lib/python3.9/site-packages/papis/arxiv.py
+badd +52 ~/.local/lib/python3.9/site-packages/papis/downloaders/__init__.py
+badd +35 ~/Source/download-and-add-papers.py
+badd +55 ~/Source/citation-scraper/scraper/base_classes/test.py
+badd +1321 term://.//52253:/usr/bin/zsh;\#neoterm-1
+badd +135 ~/Source/citation-scraper/scraper/base_classes/document.py
+badd +97 ~/Source/citation-scraper/scraper/base_classes/taglist.py
+badd +6 ~/Source/citation-scraper/scraper/base_classes/document_type.py
+badd +1 ~/Source/citation-scraper/scraper/__init__.py
+badd +577 ~/Source/citation-scraper/scraper/base_classes/arxiv.py
+badd +20 ~/Source/citation-scraper/scraper/base_classes/doi.py
+badd +14 ~/Source/citation-scraper/scraper/base_classes/urldoc.py
+badd +1 ~/Source/citation-scraper/scraper/utils/string_helpers
+badd +40 ~/Source/citation-scraper/scraper/utils/string_helpers.py
+badd +2 ~/Source/citation-scraper/scraper/utils/__init__.py
+badd +14 ~/Source/citation-scraper/scraper/parsing/url.py
+badd +6 ~/Source/citation-scraper/scraper/parsing/__init__.py
+badd +1 ~/Source/citation-scraper/scraper/base_classes/__init__.py
+badd +2 ~/Source/citation-scraper/scraper/utils/pdf_helpers.py
+badd +2 ~/Source/citation-scraper/scraper/apis/__init__.py
+badd +1 ~/.dotfiles/host-work/local.config
+badd +1 ~/Source/citation-scraper/tests/test_arxiv.py
+badd +5 ~/Source/citation-scraper/scraper/tests/test_arxiv.py
+badd +1 ~/Source/citation-scraper/scraper/tests/document_fixture.py
+badd +2 ~/Source/citation-scraper/scraper/tests/__init__.py
+badd +5 ~/Source/citation-scraper/scraper/config.py
+badd +1 ~/Source/citation-scraper/scraper/base_classes/event.py
+badd +8 ~/Documents/Python/Utilities/abstractions/state.py
+badd +1 ~/Source/state/state/__init__.py
+badd +11 ~/Source/state/state/state.py
+badd +35 ~/Documents/Python/Utilities/abstractions/base_classes.py
+badd +35 ~/Documents/Python/Utilities/abstractions/decorators.py
+badd +4 ~/Source/citation-scraper/scraper/utils/decorators.py
+badd +65 ~/Documents/Python/Utilities/abstractions/functional_junk.py
+badd +2 ~/Documents/Python/Utilities/abstractions/functional_base_classes.py
+badd +2 ~/Documents/Python/Utilities/tests/decorator_tests.py
+badd +121 ~/Documents/Python/Utilities/context.py
+badd +0 ~/Source/benchmark/README.md
+badd +1 ~/Source/benchmark/bench/__init__.py
+badd +56 ~/Source/benchmark/bench/bench_compare.py
+badd +37 ~/Source/Shell/bash-utils/parse_options.sh
+badd +24 ~/Source/Shell/bash-utils/colors.sh
+badd +0 ~/Source/Python/citation-scraper/scraper/utils/decorators.py
+badd +0 ~/Source/Python/citation-scraper/scraper/base_classes/arxiv.py
+badd +0 ~/Source/Python/benchmark/bench/bench_compare.py
 argglobal
 %argdel
-$argadd get-crossref-data
+$argadd /usr/local/bin/get-crossref-data
 set stal=2
-edit ~/Source/download-and-add-papers.py
+edit ~/Source/Python/citation-scraper/scraper/utils/decorators.py
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -52,10 +90,67 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 136 + 118) / 237)
-exe 'vert 2resize ' . ((&columns * 100 + 118) / 237)
+argglobal
+setlocal fdm=expr
+setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
+lcd ~/Source/citation-scraper
+tabedit ~/Source/Python/citation-scraper/scraper/base_classes/arxiv.py
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
 argglobal
 setlocal fdm=manual
+setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+1,6fold
+8,17fold
+545,546fold
+550,559fold
+549,565fold
+568,570fold
+576,577fold
+573,582fold
+20,582fold
+let s:l = 5 - ((4 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+5
+normal! 0
+tabedit ~/Source/Python/benchmark/bench/bench_compare.py
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
@@ -63,63 +158,24 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-3,18fold
-24,28fold
-35,39fold
-42,336fold
-41,341fold
-344,464fold
-343,465fold
-468,659fold
-467,665fold
-668,680fold
-667,686fold
-689,702fold
-688,708fold
-711,725fold
-710,735fold
-738,751fold
-737,757fold
-760,782fold
-759,784fold
-786,789fold
-793,825fold
-847,848fold
-851,852fold
-855,856fold
-859,860fold
-863,864fold
-867,868fold
-870,871fold
-873,874fold
-876,883fold
-885,887fold
-889,891fold
-893,897fold
-792,897fold
-901,905fold
-906,906fold
-900,907fold
-910,921fold
-924,924fold
-909,937fold
-940,959fold
-960,960fold
-939,970fold
-973,981fold
-972,988fold
-994,995fold
-let s:l = 3 - ((2 * winheight(0) + 22) / 45)
+let s:l = 9 - ((8 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-3
+9
 normal! 0
-wincmd w
+lcd ~/Source/Python/benchmark/bench
+tabedit ~/Source/Shell/bash-utils/colors.sh
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
 argglobal
-if bufexists("term://.//25403:ipython") | buffer term://.//25403:ipython | else | edit term://.//25403:ipython | endif
-setlocal fdm=expr
+setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
 setlocal fdi=#
@@ -127,91 +183,15 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 3254 - ((14 * winheight(0) + 22) / 45)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-3254
-normal! 015|
-wincmd w
-exe 'vert 1resize ' . ((&columns * 136 + 118) / 237)
-exe 'vert 2resize ' . ((&columns * 100 + 118) / 237)
-tabedit ~/.local/lib/python3.9/site-packages/papis/downloaders/__init__.py
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-setlocal fdm=manual
-setlocal fde=SimpylFold#FoldExpr(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
 silent! normal! zE
-1,16fold
-21,22fold
-30,31fold
-36,36fold
-34,39fold
-41,43fold
-45,46fold
-48,49fold
-25,49fold
-57,85fold
-88,91fold
-87,119fold
-121,134fold
-136,138fold
-141,143fold
-145,147fold
-149,154fold
-156,157fold
-160,166fold
-159,168fold
-171,176fold
-170,179fold
-182,189fold
-181,195fold
-198,204fold
-197,206fold
-209,211fold
-208,213fold
-216,222fold
-215,224fold
-227,232fold
-226,235fold
-238,245fold
-237,251fold
-254,261fold
-262,266fold
-253,288fold
-52,288fold
-292,293fold
-291,296fold
-300,307fold
-299,319fold
-323,329fold
-322,332fold
-339,347fold
-335,362fold
-52
-silent! normal! zo
-121
-silent! normal! zo
-let s:l = 54 - ((53 * winheight(0) + 22) / 45)
+let s:l = 24 - ((22 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-54
+24
 normal! 0
-tabnext 1
+lcd ~/Source/Shell/bash-utils
+tabnext 4
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -229,7 +209,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 1
+tabnext 4
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')
