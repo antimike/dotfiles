@@ -1,27 +1,3 @@
-search config
-search ranger
-search loc
-open_with vim
-search wee
-search ext
-deletey
-search zoom
-search rstu
-search todo
-search task
-search rcrc
-shell vim %s
-search doing.md
-search csu_pass
-search crypto
-search kd
-search kdbx
-search sourc
-search graph
-touch 04192021.md
-cd ~/Source
-fi`
-cd fzf
 search fzf
 search inst
 delete
@@ -29,7 +5,6 @@ search doc
 search spring
 search qutn
 search netbook
-search nvim
 search source
 mkdir evolution
 search evo
@@ -37,14 +12,39 @@ touch evolution.py
 search gh
 search compute
 search ghci
-search hask
-search buku
 search glow
 search term
 search work
 search 
 search input
-search net
-search alias
 search merge
 search firef
+rename buku-backup.sh
+touch buku-merge.sh
+rename buku-merge-restore.sh
+touch log_test.sh
+search log
+touch format-string.sh
+searc`
+touch logging.sh
+touch parse-opts.sh
+touch unit-test.sh
+touch string-utils.sh
+search buku
+search back
+search lib
+search fire
+search string
+search test
+search string-
+mkdir
+search cmd
+search alias
+search psy
+touch config.php
+search hask
+mkdir Practice
+touch NNHP-lists.hs
+search net
+search nvim
+search coc
