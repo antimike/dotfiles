@@ -50,3 +50,5 @@ sudo apt-get install peco -y
 sudo apt-get install jq xsel -y
 pip3 install litecli --user
 sudo apt-get install rlwrap -y
+sudo apt-get install php -y
+sudo apt-get install composer -y
