@@ -16,7 +16,7 @@ let cmdline_map_send_block     = '<leader>Rb'
 let cmdline_map_quit           = '<leader>Rq'
 let cmdline_app                = {}
 let cmdline_app['python']      = 'ipython'
-let cmdline_app['sh']          = 'zsh'
+let cmdline_app['sh']          = 'bash'
 let cmdline_app['zsh']         = 'zsh'
 let cmdline_app['sage']        = 'sage'
 let cmdline_app['sage.python'] = 'sage'
@@ -25,6 +25,9 @@ let cmdline_app['tex']         = 'sage'
 let cmdline_app['freefem']     = 'octave'
 let cmdline_app['haskell']     = 'ghci-color'
 let cmdline_app['markdown']    = 'ipython'
+let cmdline_app['php']         = 'psysh'
+let cmdline_app['sql']         = 'litecli'
+let cmdline_app['R']           = 'R'
 
 " For neoterm---default terminal positioning
 " Default size is half the current window
