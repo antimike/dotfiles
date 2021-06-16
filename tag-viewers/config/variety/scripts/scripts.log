@@ -1,0 +1,88 @@
+[Wed Jun 16 14:43:56 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: 'Variety is already running. Sending the command to the running instance.
+/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527963562_b3d3206940_o.jpg')
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+ABNORMAL SCRIPT TERMINATION
+ERROR MSG: SIGINT
+================================================================================
+[Wed Jun 16 15:23:14 MDT 2021] :: select-wallpaper.sh :: /usr/share/backgrounds/El_Haouaria_by_Nusi_Nusi.jpg
+ABNORMAL SCRIPT TERMINATION
+ERROR MSG: SIGINT
+================================================================================
+[Wed Jun 16 15:26:06 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Spices_in_Athens_by_Makis_Chourdakis.jpg')
+ABNORMAL SCRIPT TERMINATION
+ERROR MSG: SIGINT
+================================================================================
+[Wed Jun 16 15:28:03 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Spices_in_Athens_by_Makis_Chourdakis.jpg')
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 15:30:59 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '')
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 15:32:04 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '')
+    /dev/fd/63
+
+[Wed Jun 16 15:33:07 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '')
+    Running command 'variety --selector':
+    /dev/fd/63
+
+[Wed Jun 16 15:34:49 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/Bing/th.jpg')
+    Running command 'variety --selector':
+    
+
+[Wed Jun 16 15:41:49 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg')
+
+[Wed Jun 16 15:43:02 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg')
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 15:43:56 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg')
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 15:54:24 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/nasa_apod/Ganymede_JunoGill_2217.jpg')
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 16:10:14 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/luca-bravo-xnqVGsbXgV4-unsplash.jpg')
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 16:12:32 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper '/usr/share/backgrounds/luca-bravo-xnqVGsbXgV4-unsplash.jpg'
+    Running command 'variety --trash':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 16:25:05 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/usr/share/backgrounds/themer-wallpaper-burst-light-2880x1800.png' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 16:31:50 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jun 16 16:32:12 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg')
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
