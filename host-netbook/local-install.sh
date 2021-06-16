@@ -52,3 +52,7 @@ pip3 install litecli --user
 sudo apt-get install rlwrap -y
 sudo apt-get install php -y
 sudo apt-get install composer -y
+sudo apt-get install lua5.3 -y
+sudo apt-get install screen -y
+pip3 install pyinotify --user --upgrade
+sudo apt-get install tmux -y
