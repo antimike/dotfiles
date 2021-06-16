@@ -1,9 +1,11 @@
 #!/bin/bash
 
 source $HOME/Source/bash-scripts/logging.sh
+source $HOME/Source/bash-scripts/string-utils.sh
+source $HOME/Source/bash-scripts/io-utils.sh
 
 BACKUP_FILENAME="buku_backup.md"
-__CONFIRM__=0
+__CONFIRM__=1
 
 # Script options
 declare -A __OPTS__=(
@@ -31,21 +33,12 @@ usage() {
 			-b, --backup			Path to write backup to (default: /tmp/buku_backup.md)
 												Defaults to $BUKU_BACKUP if set
 			-q, --quiet				Suppress output
+			-v, --verbose			Increase verbosity and logging level by 1
 			-f, --force				Force overwrite of existing backup file if it exists (no confirmation)
+			-h, --help				Display this message and exit
+			-T, --test				Run tests (not implemented)
+			-D, --debug				Set verbosity / logging level to "DEBUG"
 	EOF
-}
-
-log() {
-	"$__START__ :: $(date) :: $__NAME__ :: $(date) :: $__TIMESTAMP__ :: $1" >> $LOGFILE && shift
-	while (( $# > 0 )); do
-		"\t$1" >> $LOGFILE && shift
-	done
-}
-
-goboom() {
-	(( ${OPTS[quiet]} == 0 )) && echo "$1" 1>&2
-	log "ERROR" "$@[@]"
-	exit 1
 }
 
 parse_opts() {
@@ -55,10 +48,10 @@ parse_opts() {
 				usage
 				;;
 			-q|--quiet)
-				OPTS[quiet]=1
+				exec ${FLAGS["-q|--quiet"]}
 				;;
 			-f|--force)
-				OPTS[force]=1
+				exec ${FLAGS["-f|--force"]}
 				;;
 			-b|--backup)
 				shift
@@ -69,7 +62,7 @@ parse_opts() {
 				OPTS[db]="$1"
 				;;
 			--)
-				shift && break
+				break
 				;;
 			*)
 				goboom "Unknown option '$1'"
@@ -79,25 +72,7 @@ parse_opts() {
 	done
 }
 
-confirm() {
-	while :; do
-		read -s -p "$1" -n 1 r
-		echo
-		case "$REPLY" in
-			nN)
-				exit 1
-				;;
-			yY)
-				exit 0
-				;;
-			*)								# Keep waiting for input of the form [nN|yY]
-				;;
-		esac
-	done
-}
-
 get_writable_filename() {
-
 	local filename="$1"
 
 	# First check if file already exists and ask for confirmation if it does
@@ -117,7 +92,8 @@ get_writable_filename() {
 	fi
 
 	# Return filename and handle random errors
-	[[ -f "$filename" ]] && echo "$filename" && exit 1 || goboom "Unknwon error creating file '$filename'"
+	[[ -f "$filename" ]] && echo "$filename" && return 0 \
+		|| goboom "Unknwon error creating file '$filename'"
 }
 
 check_opts() {
