@@ -1,28 +1,26 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
 # Modifiers (hats, overlines, tildes, etc.)
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet til "Widetilde" w
 \til{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet hat "Widetilde" w
 \hat{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '([^\s]+)hat' "Hat" wr
 \hat{`!p snip.rv = match.group(1)`}
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '([^\s}{]+)til' "Tilde" wr
 \til{`!p snip.rv = match.group(1)`}
 endsnippet
@@ -30,7 +28,7 @@ endsnippet
 # TODO: Finish adding 'hat' macros
 
 # Vector postfix
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet "(\\?\w+)(,\.)" "Vector" riA
 `!p 
 cmd = r"\vb"
@@ -41,7 +39,7 @@ snip.rv=cmd
 `
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 # Unit vector postfix
 snippet "(\\?\w+)(,,)" "Unit vector" riA
 `!p 
@@ -53,7 +51,7 @@ snip.rv=cmd
 `
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 # Calligraphic math font
 snippet mcal "Mathcal" wA
 \mathcal{$1}$0

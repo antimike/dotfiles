@@ -81,3 +81,142 @@
 : 1618469895:0;rcup -B media config/nvim/plugins.vim
 : 1618469993:0;mkrc -B media ~/.bash_history ~/.bash_logout ~/.viminfo ~/.zsh_history
 : 1618470022:0;tig
+: 1618470425:0;cd ~/.dotfiles
+: 1618470426:0;git pull
+: 1618470477:0;ranger
+: 1618470537:0;ls -la ~/.config/nvim | grep plugins
+: 1618470556:0;nvim host-media/config/nvim/plugins.vim
+: 1618471022:0;nvim
+: 1618471320:0;fc-list | grep Io
+: 1618471351:0;mkdir ~/.fonts
+: 1618471357:0;cd Source
+: 1618471359:0;ls
+: 1618471363:0;cd complete; ls
+: 1618471377:0;cp *.ttf ~/.fonts
+: 1618471482:0;sudo fc-cache -f -v
+: 1618471531:0;fc-list | grep Io
+: 1618471702:0;youtube
+: 1618471749:0;pyradio -s ~/.config/pyradio/stations.csv
+: 1618471758:0;pianobar
+: 1618471777:0;newsboat
+: 1618471799:0;ranger
+: 1618471908:0;mpsyt
+: 1618471999:0;reddit
+: 1618472074:0;cd ~/.dotfiles
+: 1618472105:0;ls -lsha ~ | grep font
+: 1618472143:0;ls -lsha ~/Source
+: 1618472173:0;du -h ~ | grep font
+: 1618472199:0;ranger
+: 1618472288:0;du -h ~/Source/complete
+: 1618472356:0;cd ~/.dotfiles
+: 1618472357:0;tig
+: 1618472388:0;sudo apt-get install tig -y
+: 1618472394:0;tig
+: 1618474544:0;git pull
+: 1618545440:0;pyradio
+: 1618545454:0;pyradio -s ~/.config/pyradio/stations.csv
+: 1618545459:0;pianobar
+: 1618545528:0;youtube
+: 1618545548:0;cat ~/.local.config 
+: 1618545577:0;nvim ~/.local.config
+: 1618545619:0;ls -la ~ | grep local.config
+: 1618545629:0;ranger
+: 1618545656:0;ls -la ~ | grep alias
+: 1618545663:0;youtube
+: 1618545680:0;man youtube
+: 1618545686:0;mpsyt
+: 1618545697:0;reddit
+: 1618545708:0;news
+: 1618545720:0;weather
+: 1618545727:0;stack-verflow
+: 1618545732:0;stack-overflow
+: 1618545763:0;pip3 install socli --user
+: 1618545768:0;log-installed
+: 1618545802:0;ranger
+: 1618545816:0;mpsyt
+: 1618545826:0;reddit
+: 1618545854:0;newsboat
+: 1618545861:0;stack-overflow
+: 1618545869:0;reddit
+: 1618545900:0;pip3 install mps --user
+: 1618545920:0;cd ~/.dotfiles
+: 1618545922:0;git sstatus
+: 1618545926:0;git status
+: 1618545941:0;tig
+: 1618545975:0;git pull
+: 1618546028:0;git fetch origin
+: 1618546043:0;git status
+: 1618546055:0;rcdn -B media zsh_history
+: 1618546069:0;sudo apt-get install rcm -y
+: 1618546112:0;ls -a ~ | grep rcrc
+: 1618546127:0;rcdn -B media zsh_history
+: 1618547774:0;cat /rw/config/rc.local
+: 1618547780:0;echo $SSH_SOCK
+: 1618547810:0;echo $SSH_VAULT_VM
+: 1618547818:0;git pull
+: 1618549465:0;git push
+: 1618636955:0;git clone https://github.com/QubesOS/qubes-doc ~/Documents/Qubes
+: 1618657176:0;git pull
+: 1618717738:0;tig
+: 1618717745:0;ranger
+: 1618717841:0;guake -h | grep pref
+: 1618717845:0;guake -h | grep save
+: 1618717849:0;guake -h | grep restore
+: 1618717864:0;guake -h
+: 1618717887:0;sudo apt-get install --upgrade guake
+: 1618717897:0;pip3 install --upgrade guake --user
+: 1618717907:0;guake -h | grep save
+: 1618717953:0;guake --save-preferences ~/.dotfiles/host-media/guake-preferences
+: 1618718012:0;mkrc -B media ~/.local/share/ranger
+: 1618718031:0;rcup -B media zsh_history
+: 1618718099:0;tig
+: 1618718161:0;git pull
+: 1618718172:0;git push
+: 1618824098:0;apt search cherry
+: 1618824105:0;apt search cherrytree
+: 1618824479:0;apt search treesheets
+: 1618824507:0;sudo apt-get install treesheets -y
+: 1618825529:0;apt search notekit
+: 1618825533:0;apt search note kit
+: 1618826787:0;apt search contexted
+: 1618826807:0;snap search contexted
+: 1618827274:0;apt search gephi
+: 1618829144:0;apt search dmx
+: 1618829287:0;>
+: 1618830533:0;apt search trilium
+: 1618830540:0;snap search trilium
+: 1618832593:0;apt search perkeep
+: 1618983245:0;sudo apt-get install terminology -y
+: 1618983293:0;pip3 install mdv --user
+: 1618983302:0;mdv --help
+: 1618983348:0;rofi -v
+: 1618983356:0;apt search rofi
+: 1618983394:0;sudo apt-get install rofi -y
+: 1618984589:0;apt search sqldiff
+: 1619015631:0;apt search --name-only fd
+: 1619015641:0;apt --name-only search fd
+: 1619015655:0;apt search fd --name-only 
+: 1619015657:0;man apt
+: 1619015669:0;apt search fd
+: 1619015682:0;sudo apt-get install fd-find -y
+: 1619015728:0;log-installed
+: 1619024261:0;terminology &
+: 1619034074:0;apt search nyxt
+: 1619038379:0;apt search mupdf
+: 1619043187:0;apt search nyx
+: 1619043195:0;apt search nyxt
+: 1619045726:0;apt search luakit
+: 1619145766:0;apt search xmind
+: 1619162879:0;apt search xapers
+: 1619165719:0;apt search zotero
+: 1619165811:0;apt search zotero-deb
+: 1619171322:0;ncat --version
+: 1619171343:0;ls -la ~ | grep SSH
+: 1619314476:0;xapers --version
+: 1619314478:0;xapers
+: 1619314481:0;xapers help
+: 1619314618:0;xapers help | grep import
+: 1619314632:0;xapers import ~/QubesIncoming/work/library.bib
+: 1619314738:0;python2
+: 1619314822:0;ranger
+: 1619471668:0;mpsyt

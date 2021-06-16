@@ -4,7 +4,7 @@ Host imap.gmail.com
 Port 993
 User antihaynes@gmail.com
 #PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
-PassCmd "gpg -q --no-tty --batch -d ~/.professional-appkey.gpg"
+PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
 SSLType IMAPS
 AuthMechs LOGIN
 #UseIMAPS yes

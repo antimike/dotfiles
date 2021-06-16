@@ -1,4 +1,29 @@
 {
 	"explorer.icon.enableNerdfont": true,
-	"explorer.icon.enableVimDevicons": true 
+	"explorer.icon.enableVimDevicons": true,
+	"languageserver": {
+    "purescript": {
+      "command": "purescript-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["purescript"],
+      "trace.server": "off",
+      "rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"],
+      "settings": {
+        "purescript": {
+          "addSpagoSources": true,
+          "addNpmPath": true
+        }
+      }
+    },
+    "elmLS": {
+      "command": "elm-language-server",
+      "filetypes": ["elm"],
+      "rootPatterns": ["elm.json"]
+    }
+  },
+	"coc.preferences.formatOnSaveFiletypes": [
+		"purescript",
+    "elm"
+	],
+  "codeLens.enable": true
 }

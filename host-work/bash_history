@@ -2603,3 +2603,302 @@ exec /usr/lib64/sagemath/local/bin/sage "$@"
 #!/usr/bin/bash -i
 source /usr/lib64/sagemath/local/bin/sage-env
 exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+#!/usr/bin/bash -i
+source /usr/lib64/sagemath/local/bin/sage-env
+exec /usr/lib64/sagemath/local/bin/sage "$@"
+hypertag
+exit
+arr=( 'hi' 'there' )
+echo $arr
+echo ${*arr}
+echo ${arr[*]}
+echo "${arr[*]}"
+echo "${arr[@]}"
+exit
+declare -A parse_order=()
+echo "${parse_order[0]}"
+man readarray
+exit
+. /tmp/cmdline_1622848670_user/lines.sh
+echo "${#_params[@]}"
+echo "${!_params[@]}"
+for key in "${!_params[@]}"; do echo "(${key}, ${_params[$key]}"; done
+for key in "${!_params[@]}"; do echo "(${key}, ${_params[$key]})"; done
+'boopy' in "${_params[@]}"
+test="a=b"
+echo $test
+test+="cd"
+echo "$test"
+IFS="="
+echo "$test"
+echo "${test[0]}"
+echo "$IFS"
+declare -a test_arr=("$test")
+echo "${test_arr[0]}"
+test_arr=($test)
+echo "${test_arr[0]}"
+[ "a=b" = *=* ] && echo "yep"
+[ "a=b" =~ *=* ] && echo "yep"
+[[ "a=b" =~ *=* ]] && echo "yep"
+[[ "a=b" = *=* ]] && echo "yep"
+[[ "a=b" =~ "=" ]] && echo "yep"
+unset $_params
+. /tmp/cmdline_1622848670_user/lines.sh
+      ${_params[verbose]}=$(( verbose + 1 )) # Increment verbosity by 1
+      _params[verbose]=$(( verbose + 1 )) # Increment verbosity by 1
+echo "${_params[verbose]}"
+      _params[verbose]=$(( _params[verbose] + 1 )) # Increment verbosity by 1
+echo "${_params[verbose]}"
+declare -a parse_order=() # To maintain the parse order
+      parse_order+=("verbose")
+echo "${parse_order[*]}"
+      assign_next "$@" verbose && $parse_order+=("verbose")
+      assign_next "$@" verbose && ${parse_order[@]}+=("verbose")
+echo $parse_ordder
+echo $parse_order
+. /tmp/cmdline_1622848670_user/lines.sh
+echo $test
+ind="test"
+echo <<< exec \$$ind
+exec "echo \$$ind"
+exec 'echo \$$ind'
+exec echo \$$ind
+declare test_arr=("hi" "there")
+echo ${test_arr[*]}
+echo ${test_arr[1:]}
+echo ${test_arr[1:1]}
+echo ${tes_arr:1:1}
+echo ${test_arr:1:1}
+echo ${test_arr:1:2}
+echo ${test_arr:1}
+echo ${test_arr[1]}
+echo ${test_arr:0:2}
+unset test_arr
+declare -a test_arr=("hi" "there")
+echo ${test_arr:0:2}
+echo ${test_arr:1:1}
+echo "${test_arr[@]:0:2}"
+echo "${test_arr[@]:1:}"
+echo "${test_arr[@]:0:}"
+echo "${test_arr[@]:0: }"
+echo "${test_arr[@]:1: -1}"
+echo "${test_arr[@]:1:-1}"
+echo "${test_arr[@]:1}"
+test_arr+=("you" "silly" "person")
+echo ${test_arr[@]}
+echo "${test_arr[@]:1}"
+echo $@
+declare -A assoc=( [one]=1 [two]=2 [three]=3 [four]=4 )
+echo "${assoc[!]}"
+echo "${assoc[@]}"
+echo "${!assoc[@]}"
+[[ "key" = "*key*" ]] && echo "yep"
+[[ key = *key* ]] && echo "yep"
+[[ "key" = *key* ]] && echo "yep"
+echo $assoc
+echo ${associ[@]}
+echo ${assoc[@]}
+echo $assoc
+echo "$assoc"
+echo "$assoc[*]"
+echo "${assoc[*]}"
+$boopy
+echo $($boopy || "hi")
+$boopy || "hi"
+echo $("${assoc[boopy]}" || "damn")
+echo <<< "${assoc[boopy]}" || "damn"
+if [[ -n "${assoc[boopy]}" ]]; then echo "damn"; fi
+echo ${assoc[boopy]}
+if [[ "${assoc[boopy]}" ]]; then echo "damn"; fi
+array_contains() { return [[ -n "${1[$2]}" ]]; }
+array_contains $assoc "boopy"
+array_contains() { local _keys="${!1[@]}"
+test="${assoc[boopy]}" || test="${assoc[one]}"
+echo $test
+exit
+test="test"
+test="testing indirection"
+ind="test"
+echo \$$ind
+echo "${!ind}"
+exit

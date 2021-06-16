@@ -4,3 +4,6 @@
 [submodule "tag-tex/tex/latex/local/local"]
 	path = host-netbook/texmf/tex/latex/antimike
 	url = https://github.com/antimike/tex
+[submodule "tag-qubes/Qubes-docs"]
+	path = tag-qubes/Qubes-docs
+	url = https://github.com/QubesOS/qubes-doc

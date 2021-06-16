@@ -1,8 +1,6 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
@@ -17,7 +15,7 @@ snippet ref "Autoref" w
 \autoref{$1} $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet nn "Nonumber" wA
 \nonumber
 endsnippet
@@ -52,7 +50,7 @@ snip.rv = prev + r"~" if (prev := match.group(1)) else ''
 `\eqref{$1}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet tg "Tag" wA
 \tag{$1}$0
 endsnippet

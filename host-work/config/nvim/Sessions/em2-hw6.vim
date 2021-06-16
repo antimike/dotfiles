@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-work/config/nvim/Sessions/em2-hw6.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 April 2021 at 06:31:03.
+" Created by session.vim 2.13.1 on 19 May 2021 at 18:42:41.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,14 +16,15 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/Documents/Python/Utilities
+cd ~/Documents/Spring-2021/EM_II/Assignments/HW6
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
+badd +179 HW6.tex
 badd +32 ~/Documents/Spring-2021/EM_II/Assignments/HW3/HW3.tex
 badd +38 term://.//205864:/usr/bin/zsh;\#neoterm-1
-badd +185 latex_utils.py
+badd +185 ~/Documents/Python/Utilities/latex_utils.py
 badd +27 ~/.dotfiles/config/nvim/UltiSnips/tex/figures.snippets
 badd +30 ~/.dotfiles/config/nvim/UltiSnips/tex/computational.snippets
 badd +13 ~/.dotfiles/config/nvim/init.syntax-range
@@ -36,36 +37,37 @@ badd +17 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Element.sage
 badd +1 term://.//278266:/usr/bin/zsh;\#neoterm-1
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Element.sage.py
 badd +7 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/Element.py
-badd +23 latex_serializer.py
+badd +23 ~/Documents/Python/Utilities/latex_serializer.py
 badd +44 term://.//331014:sage
 badd +4 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/notes.md
 badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/Analysis/Element.sage
 badd +62 ~/.dotfiles/config/nvim/init.coc-nvim
 badd +1 ~/.dotfiles/config/nvim/init.misc-mappings
-badd +3194 ~/.config/nvim/vim-plug/ale/doc/ale.txt
+badd +3194 ~/Source/vim-plug/ale/doc/ale.txt
 badd +19 term://.//421770:sage
 badd +3 ~/.dotfiles/config/nvim/init.explorer
 badd +13 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/include.sty
-badd +16 latex_serializer.sage
+badd +16 ~/Documents/Python/Utilities/latex_serializer.sage
 badd +1 term://.//472358:/usr/bin/zsh;\#neoterm-1
 badd +326 term://.//483770:/usr/bin/zsh;\#neoterm-2
-badd +1 sandbox.sage
+badd +1 ~/Documents/Python/Utilities/sandbox.sage
 badd +82 ~/Documents/Spring-2021/EM_II/Notes/03012021/03012021.tex
 badd +49 term://.//702047:ipython
-badd +236 functional_base_classes.py
+badd +236 ~/Documents/Python/Utilities/functional_base_classes.py
 badd +37 term://.//701955:sage
 badd +37 ~/Documents/Spring-2021/Seminar/03012021/03012021.tex
+badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__
 badd +1 term://.//706239:/usr/bin/zsh;\#neoterm-1
-badd +25 abstractions/base_classes.py
+badd +25 ~/Documents/Python/Utilities/abstractions/base_classes.py
 badd +46 term://.//774675:ipython
 badd +3 ~/Documents/Wiki/journal/2021-03-03.wiki
-badd +10 abstractions/decorators.py
-badd +8 abstractions/random_functions.py
+badd +10 ~/Documents/Python/Utilities/abstractions/decorators.py
+badd +8 ~/Documents/Python/Utilities/abstractions/random_functions.py
 badd +49 term://.//1994183:sage
-badd +171 table.sage
+badd +171 ~/Documents/Python/Utilities/table.sage
 badd +1 term://.//779338:/usr/bin/zsh;\#neoterm-1
-badd +10 element.sage
-badd +51 integer_map.py
+badd +10 ~/Documents/Python/Utilities/element.sage
+badd +51 ~/Documents/Python/Utilities/integer_map.py
 badd +13 ~/Documents/Wiki/journal/2021-03-05.wiki
 badd +49 term://.//893005:ipython
 badd +49 term://.//1994426:ipython
@@ -78,102 +80,184 @@ badd +1 ~/Documents/Wiki/journal/2021-03-11.wiki
 badd +30 ~/.dotfiles/tag-nvim/config/nvim/init.vim
 badd +50 term://.//8876:ipython
 badd +22 term://.//36568:/usr/bin/zsh;\#neoterm-1
-badd +108 table.py
+badd +108 ~/Documents/Python/Utilities/table.py
 badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/figures.snippets
 badd +80 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/computational.snippets
 badd +1 ~/Documents/Fall\ 2020/EM/HW/HW8/HW8.tex
 badd +76 ~/Documents/Fall\ 2020/EM/HW/HW10/HW10.tex
-badd +74 element.py
+badd +74 ~/Documents/Python/Utilities/element.py
 badd +88 ~/Documents/Spring-2021/EM_II/Assignments/HW4/HW4.tex
-badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW3/__vista__
 badd +13 ~/Documents/Spring-2021/EM_II/Assignments/HW4/HW4.sagetex.sout
 badd +1 ~/Documents/Python/\[coc-explorer]-2
 badd +224 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/pset.cls
 badd +69 ~/Documents/Spring-2021/EM_II/Assignments/HW4/HW4.sage
 badd +41 ~/.dotfiles/tag-tex/texmf/tex/latex/local/local/macros.sty
 badd +221 ~/Documents/Spring-2021/EM_II/Assignments/HW5/HW5.tex
-badd +1 ~/.config/nvim/UltiSnips/tex/math-environments.snippets
-badd +17 ~/.config/nvim/UltiSnips/tex/annotations.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/context.snippets
-badd +132 ~/.config/nvim/UltiSnips/tex/document.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/equality-operators.snippets
-badd +21 ~/.config/nvim/UltiSnips/tex/special-chars.snippets
-badd +77 ~/.config/nvim/UltiSnips/tex/sup-subscripts.snippets
-badd +24 ~/.config/nvim/UltiSnips/tex/symbol-modifiers.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/text.snippets
-badd +13 ~/.config/nvim/UltiSnips/tex/common-functions.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/math-environments.snippets
+badd +17 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/annotations.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/context.snippets
+badd +132 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/document.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/equality-operators.snippets
+badd +21 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/special-chars.snippets
+badd +77 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/sup-subscripts.snippets
+badd +24 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/symbol-modifiers.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/text.snippets
+badd +13 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/common-functions.snippets
 badd +1 term://.//140648:ranger\ --choosefile=/tmp/nvimrUNkDQ/7\ --selectfile=\"common-functions.snippets\"\ --cmd=\"map\ \<C-o>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ edit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-t>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ tabedit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-s>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ split\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"\ --cmd=\"map\ \<C-v>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ vsplit\ \%d/\%s\ /tmp/nvimrUNkDQ/6\ /tmp/nvimrUNkDQ/7\"
 badd +7 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/freefem/freefem.snippets
-badd +4 snippet_utils.py
+badd +4 ~/Documents/Python/Utilities/snippet_utils.py
 badd +1 ~/.atom/packages/markdown-preview-enhanced/node_modules/@shd101wyy/mume/dependencies/katex/contrib/mhchem.min.js
 badd +38 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/references.snippets
 badd +3 ~/Documents/Wiki/journal/2021-03-23.wiki
 badd +4229 ~/.atom/packages/markdown-mindmap/node_modules/d3/d3.js
-badd +7 ~/.config/nvim/UltiSnips/tex/arrows.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/derivatives.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/exp.snippets
+badd +7 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/arrows.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/derivatives.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/exp.snippets
 badd +38 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/fractions.snippets
 badd +151 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/greek-letters.snippets
 badd +39 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/integrals.snippets
 badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/limits.snippets
 badd +30 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/list.snippets
-badd +27 ~/.config/nvim/UltiSnips/tex/quantum.snippets
-badd +10 ~/.config/nvim/UltiSnips/tex/sums.snippets
-badd +1 ~/.config/nvim/UltiSnips/tex/theorems.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/trig.snippets
-badd +12 ~/.config/nvim/UltiSnips/tex/units.snippets
+badd +27 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/quantum.snippets
+badd +10 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/sums.snippets
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/theorems.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/trig.snippets
+badd +12 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/units.snippets
 badd +5 term://.//484525:ranger\ --choosefile=/tmp/nvimsDIcJl/7\ /home/user/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex\ --cmd=\"map\ \<C-o>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ edit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-t>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ tabedit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-s>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ split\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"\ --cmd=\"map\ \<C-v>\ shell\ -c\ /home/user/.config/nvim/vim-plug/ranger-explorer.vim/script/kill_parent_ranger.sh\ vsplit\ \%d/\%s\ /tmp/nvimsDIcJl/6\ /tmp/nvimsDIcJl/7\"
-badd +57 ~/.config/nvim/init.vimtex
-badd +15 ~/Documents/Spring-2021/EM_II/Assignments/HW5/HW5.sage
+badd +57 ~/.dotfiles/host-work/config/nvim/init.vimtex
+badd +138 ~/Documents/Spring-2021/EM_II/Assignments/HW5/HW5.sage
 badd +50 term://.//739021:sage
-badd +1 ~/.config/nvim/UltiSnips/tex/__vista__
+badd +1 ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/__vista__
 badd +50 term://.//143824:sage
-badd +205 ~/.config/nvim/vim-plug/vim-pydocstring/doc/pydocstring.txt
+badd +205 ~/Source/vim-plug/vim-pydocstring/doc/pydocstring.txt
 badd +107 ~/Documents/Spring-2021/EM_II/Assignments/HW5/math_helpers.sage
-badd +1 query.sage
+badd +1 ~/Documents/Python/Utilities/query.sage
 badd +50 term://.//221410:sage
 badd +1 term://.//178618:/usr/bin/zsh;\#neoterm-1
 badd +144 ~/Documents/Spring-2021/EM_II/Assignments/HW5/math_helpers.py
-badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex
 badd +50 term://.//29188:ipython
-badd +14 ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.sage
+badd +18 HW6.sage
 badd +50 term://.//29299:sage
-badd +52 ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.aux
-badd +4 ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.sagetex.sout
+badd +52 HW6.aux
+badd +4 HW6.sagetex.sout
 badd +1 ~/Documents/Python/__vista__
-badd +56 prettifier.sage
+badd +56 ~/Documents/Python/Utilities/prettifier.sage
 badd +1 term://.//38105:/usr/bin/zsh;\#neoterm-1
-badd +1 query.py
+badd +1 ~/Documents/Python/Utilities/query.py
 badd +50 term://.//475554:ipython
-badd +67 ~/Documents/Spring-2021/EM_II/Assignments/HW6/radiation_fields.sage
+badd +1 radiation_fields.sage
 badd +50 term://.//475452:sage
-badd +22 math_helpers.sage
-badd +1 debugger.py
-badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW6/__vista__
+badd +553 ~/Documents/Python/Utilities/math_helpers.sage
+badd +183 ~/Documents/Python/Utilities/debugger.py
 badd +50 term://.//475818:sage
-badd +2 tests/decorator_tests.py
+badd +2 ~/Documents/Python/Utilities/tests/decorator_tests.py
 badd +50 term://.//33362:ipython
-badd +2 tests/debugger_tests.py
-badd +13 tests/math_helper_tests.sage
+badd +2 ~/Documents/Python/Utilities/tests/debugger_tests.py
+badd +13 ~/Documents/Python/Utilities/tests/math_helper_tests.sage
 badd +1 term://.//33379:/usr/bin/zsh;\#neoterm-1
 badd +758 term://.//71212:sage
 badd +124 term://.//114709:sage
-badd +175 math_helpers.py
-badd +0 \[~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex:156-328]
-badd +0 term://.//33791:sage
-badd +0 term://.//33986:ipython
+badd +1 ~/Documents/Python/Utilities/math_helpers.py
+badd +48 term://.//875582:sage
+badd +45 term://.//7146:ipython
+badd +1 term://.//10541:/usr/bin/zsh;\#neoterm-1
+badd +1 __vista__
+badd +1 term://.//63963:/usr/bin/zsh;\#neoterm-1
+badd +1 ~/Documents/Python/Utilities/unit_helpers.sage
+badd +8 ~/Documents/Python/Utilities/sage_helpers/math_helpers.sage
+badd +5 ~/Documents/Python/Utilities/sage_helpers/convenience.sage
+badd +1 ~/Documents/Python/Utilities/sage_helpers/em.sage
+badd +1 ~/Documents/Python/Utilities/sage_helpers/math.sage
+badd +4 ~/Documents/Python/Utilities/sage_helpers/debug.sage
+badd +17 ~/Documents/Python/Utilities/sage_helpers/units.sage
+badd +19 ~/Documents/Python/Utilities/sage_helpers/test.sage
+badd +12 ~/Documents/Python/Utilities/sage_helpers/direction.sage
+badd +3 ~/Documents/Python/Utilities/sage_helpers/__init__.py
+badd +7 ~/Documents/Python/Utilities/__init__.py
+badd +24 ~/Documents/Python/Utilities/sage_helpers/direction..py
+badd +190 ~/Documents/Python/Exercises/shortest-addition-chain.py
+badd +32 ~/Documents/Python/Utilities/abstractions/state.py
+badd +0 \[~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex:156-327]
+badd +194 HW6.sagetex.sage
+badd +768 term://.//409772:sage
+badd +19 computations/HW6.sage
+badd +23 computations/cached.sage
+badd +1 computations/test.sage
+badd +29 computations/helpers.sage
+badd +1 computations/constants.py
+badd +3 computations/data-generator.py
+badd +1 ~/Documents/Spring-2021/EM_II/Assignments/HW5/modes.p
+badd +55 ~/Documents/Python/Utilities/picklebarrel.py
+badd +0 term://.//424417:ipython
+badd +47 ~/Documents/Python/Utilities/bench_compare.py
 argglobal
 %argdel
 set stal=2
-edit debugger.py
+edit HW6.tex
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=expr
+setlocal fde=vimtex#fold#level(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+14
+silent! normal! zo
+85
+silent! normal! zo
+123
+silent! normal! zo
+128
+silent! normal! zo
+131
+silent! normal! zo
+135
+silent! normal! zo
+140
+silent! normal! zo
+142
+silent! normal! zo
+148
+silent! normal! zo
+155
+silent! normal! zo
+339
+silent! normal! zo
+346
+silent! normal! zo
+350
+silent! normal! zo
+356
+silent! normal! zo
+363
+silent! normal! zo
+364
+silent! normal! zo
+370
+silent! normal! zo
+373
+silent! normal! zo
+let s:l = 239 - ((38 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+239
+normal! 02|
+tabedit ~/Documents/Python/Utilities/picklebarrel.py
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
 1wincmd h
-wincmd _ | wincmd |
-split
-1wincmd k
-wincmd w
 wincmd w
 set nosplitbelow
 set nosplitright
@@ -182,11 +266,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 114 + 105) / 210)
-exe '2resize ' . ((&lines * 24 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
-exe 'vert 3resize ' . ((&columns * 95 + 105) / 210)
+exe 'vert 1resize ' . ((&columns * 126 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 110 + 118) / 237)
 argglobal
 setlocal fdm=expr
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
@@ -198,95 +279,53 @@ setlocal fdn=20
 setlocal fen
 1
 silent! normal! zo
-7
-silent! normal! zo
-8
-silent! normal! zo
-15
-silent! normal! zo
-19
-silent! normal! zo
 20
 silent! normal! zo
-29
+35
 silent! normal! zo
-31
+39
 silent! normal! zo
-46
+40
 silent! normal! zo
-61
+49
 silent! normal! zo
-65
+70
 silent! normal! zo
-69
+71
 silent! normal! zo
-77
+98
 silent! normal! zo
-79
+102
 silent! normal! zo
-84
+103
 silent! normal! zo
-86
-silent! normal! zo
-91
-silent! normal! zo
-104
-silent! normal! zo
-106
-silent! normal! zo
-109
-silent! normal! zo
-120
-silent! normal! zo
-123
+126
 silent! normal! zo
 131
 silent! normal! zo
-135
+132
 silent! normal! zo
-137
+140
 silent! normal! zo
-149
+141
 silent! normal! zo
 152
 silent! normal! zo
-155
+153
 silent! normal! zo
-157
+159
 silent! normal! zo
-160
+162
 silent! normal! zo
-174
-silent! normal! zo
-let s:l = 183 - ((24 * winheight(0) + 12) / 25)
+let s:l = 1 - ((0 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-183
-normal! 016|
+1
+normal! 027|
 wincmd w
 argglobal
-if bufexists("tests/debugger_tests.py") | buffer tests/debugger_tests.py | else | edit tests/debugger_tests.py | endif
-setlocal fdm=expr
-setlocal fde=SimpylFold#FoldExpr(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-4
-silent! normal! zo
-let s:l = 14 - ((1 * winheight(0) + 12) / 24)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-14
-normal! 0
-lcd ~/Documents/Python
-wincmd w
-argglobal
-if bufexists("term://.//33986:ipython") | buffer term://.//33986:ipython | else | edit term://.//33986:ipython | endif
+if bufexists("term://.//424417:ipython") | buffer term://.//424417:ipython | else | edit term://.//424417:ipython | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -295,19 +334,157 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 50 - ((49 * winheight(0) + 25) / 50)
+let s:l = 3380 - ((42 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-50
+3380
 normal! 0
 wincmd w
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe 'vert 1resize ' . ((&columns * 114 + 105) / 210)
-exe '2resize ' . ((&lines * 24 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 114 + 105) / 210)
-exe 'vert 3resize ' . ((&columns * 95 + 105) / 210)
-if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
+exe 'vert 1resize ' . ((&columns * 126 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 110 + 118) / 237)
+tabedit ~/Documents/Python/Utilities/bench_compare.py
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+exe 'vert 1resize ' . ((&columns * 118 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 118 + 118) / 237)
+argglobal
+setlocal fdm=expr
+setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+1
+silent! normal! zo
+12
+silent! normal! zo
+19
+silent! normal! zo
+26
+silent! normal! zo
+33
+silent! normal! zo
+36
+silent! normal! zo
+40
+silent! normal! zo
+44
+silent! normal! zo
+47
+silent! normal! zo
+50
+silent! normal! zo
+52
+silent! normal! zo
+91
+silent! normal! zo
+98
+silent! normal! zo
+110
+silent! normal! zo
+131
+silent! normal! zo
+132
+silent! normal! zo
+137
+silent! normal! zo
+138
+silent! normal! zo
+145
+silent! normal! zo
+146
+silent! normal! zo
+176
+silent! normal! zo
+177
+silent! normal! zo
+183
+silent! normal! zo
+let s:l = 48 - ((3 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+48
+normal! 051|
+wincmd w
+argglobal
+if bufexists("term://.//424417:ipython") | buffer term://.//424417:ipython | else | edit term://.//424417:ipython | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 3420 - ((44 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+3420
+normal! 015|
+wincmd w
+exe 'vert 1resize ' . ((&columns * 118 + 118) / 237)
+exe 'vert 2resize ' . ((&columns * 118 + 118) / 237)
+tabedit ~/Documents/Python/Utilities/abstractions/state.py
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=expr
+setlocal fde=SimpylFold#FoldExpr(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+11
+silent! normal! zo
+18
+silent! normal! zo
+44
+silent! normal! zo
+57
+silent! normal! zo
+60
+silent! normal! zo
+66
+silent! normal! zo
+67
+silent! normal! zo
+74
+silent! normal! zo
+78
+silent! normal! zo
+89
+silent! normal! zo
+94
+silent! normal! zo
+let s:l = 10 - ((1 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+10
+normal! 0
 tabedit ~/Documents/Python/Utilities/math_helpers.sage
 set splitbelow splitright
 set nosplitbelow
@@ -318,126 +495,200 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-setlocal fdm=expr
+setlocal fdm=manual
 setlocal fde=SimpylFold#FoldExpr(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 23 - ((22 * winheight(0) + 25) / 50)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-23
-normal! 05|
-if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW6/HW6.tex
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-wincmd _ | wincmd |
-split
-1wincmd k
-wincmd w
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-exe 'vert 1resize ' . ((&columns * 103 + 105) / 210)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 106 + 105) / 210)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 106 + 105) / 210)
-argglobal
-setlocal fdm=expr
-setlocal fde=vimtex#fold#level(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-128
+silent! normal! zE
+1,14fold
+17,22fold
+24,59fold
+62,102fold
+105,147fold
+150,163fold
+166,169fold
+172,182fold
+186,215fold
+219,259fold
+17,259fold
+263,280fold
+262,306fold
+310,315fold
+318,323fold
+327,335fold
+344,347fold
+339,347fold
+350,358fold
+361,366fold
+370,383fold
+387,397fold
+400,405fold
+410,420fold
+423,427fold
+431,435fold
+437,450fold
+431,464fold
+309,464fold
+469,472fold
+475,484fold
+488,493fold
+497,504fold
+507,523fold
+468,523fold
+527,540fold
+543,553fold
+556,587fold
+590,601fold
+604,614fold
+617,627fold
+630,640fold
+526,640fold
+644,649fold
+652,660fold
+663,672fold
+675,689fold
+692,706fold
+723,764fold
+710,770fold
+774,784fold
+787,797fold
+800,810fold
+643,810fold
+814,822fold
+813,822fold
+467,822fold
+830,846fold
+849,865fold
+825,865fold
+825,865fold
+1
+normal! zc
+17
 silent! normal! zo
-154
+17
+normal! zc
+24
+normal! zc
+62
+normal! zc
+105
+normal! zc
+150
+normal! zc
+166
+normal! zc
+172
+normal! zc
+186
+normal! zc
+219
+normal! zc
+17
+normal! zc
+262
 silent! normal! zo
+263
+normal! zc
+309
+silent! normal! zo
+310
+normal! zc
+318
+normal! zc
+327
+normal! zc
 339
 silent! normal! zo
-let s:l = 176 - ((18 * winheight(0) + 25) / 50)
+344
+normal! zc
+339
+normal! zc
+350
+normal! zc
+361
+normal! zc
+370
+normal! zc
+387
+normal! zc
+400
+normal! zc
+410
+normal! zc
+423
+normal! zc
+431
+silent! normal! zo
+431
+normal! zc
+467
+silent! normal! zo
+468
+silent! normal! zo
+469
+normal! zc
+475
+normal! zc
+488
+normal! zc
+526
+silent! normal! zo
+543
+normal! zc
+556
+normal! zc
+590
+normal! zc
+604
+normal! zc
+617
+normal! zc
+630
+normal! zc
+643
+silent! normal! zo
+644
+normal! zc
+652
+normal! zc
+663
+normal! zc
+675
+normal! zc
+692
+normal! zc
+710
+silent! normal! zo
+723
+normal! zc
+800
+normal! zc
+813
+silent! normal! zo
+814
+normal! zc
+813
+normal! zc
+825
+silent! normal! zo
+825
+silent! normal! zo
+830
+normal! zc
+849
+normal! zc
+let s:l = 282 - ((281 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-176
-normal! 0
-wincmd w
-argglobal
-enew
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=99
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-wincmd w
-argglobal
-if bufexists("term://.//33791:sage") | buffer term://.//33791:sage | else | edit term://.//33791:sage | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=99
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 27 - ((14 * winheight(0) + 7) / 15)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-27
-normal! 0
-wincmd w
-exe 'vert 1resize ' . ((&columns * 103 + 105) / 210)
-exe '2resize ' . ((&lines * 34 + 27) / 54)
-exe 'vert 2resize ' . ((&columns * 106 + 105) / 210)
-exe '3resize ' . ((&lines * 15 + 27) / 54)
-exe 'vert 3resize ' . ((&columns * 106 + 105) / 210)
-if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabedit ~/Documents/Spring-2021/EM_II/Assignments/HW6/radiation_fields.sage
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-setlocal fdm=expr
-setlocal fde=SimpylFold#FoldExpr(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 67 - ((25 * winheight(0) + 25) / 50)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-67
-normal! 0
+282
+normal! 010|
 lcd ~/Documents/Python
-if exists(':tcd') == 2 | tcd ~/Documents/Python | endif
-tabnext 4
+tabnext 3
 set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -455,7 +706,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 4
+tabnext 3
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')

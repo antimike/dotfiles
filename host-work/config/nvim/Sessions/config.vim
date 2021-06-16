@@ -1,6 +1,6 @@
-" ~/.config/nvim/Sessions/config.vim:
+" ~/.dotfiles/host-work/config/nvim/Sessions/config.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 11 March 2021 at 22:17:11.
+" Created by session.vim 2.13.1 on 11 June 2021 at 21:52:29.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,18 +16,48 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.dotfiles
+cd ~/.dotfiles/tag-nvim/config/nvim
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +27 tag-nvim/config/nvim/init.vim
-badd +0 host-work/rcrc
+badd +24 init.vim
+badd +6 ~/.dotfiles/host-work/rcrc
+badd +1 ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt
+badd +27 init.syntax-range
+badd +6 ~/Documents/Spring-2021/PH142/L06/lab-grading-notes-final.md
+badd +12 ~/Documents/Spring-2021/PH142/L09/lab-grading-final-notes.md
+badd +1 UltiSnips/markdown/markdown.snippets
+badd +9 ~/Documents/Spring-2021/PH142/L15/lab-grading-final-notes.md
+badd +6 init.pandoc
+badd +50 ~/.dotfiles/host-work/config/nvim/init.vim
+badd +5 ~/Source/vim-plug/coc-snippets/syntax/snippets.vim
+badd +12 ~/Source/vim-plug/vim-snippets/snippets/markdown.snippets
+badd +56 ~/.dotfiles/host-work/config/nvim/plugins.vim
+badd +1 ~/.haskeline
+badd +63 ~/.dotfiles/tag-mail/mutt/muttrc-professional
+badd +9 ~/.dotfiles/tag-mail/mbsyncrc
+badd +1 ~/.dotfiles/dois_to_download.txt
+badd +4 init.comment
+badd +5 ~/.dotfiles/host-work/config/nvim/init.markdown
+badd +16 ~/.dotfiles/host-work/config/coc/extensions/package.json
+badd +5 init.cmdline
+badd +1 ~/.dotfiles/tag-compute/perlshrc
+badd +1 ~/.dotfiles/tag-compute/octaverc
+badd +27 ~/.dotfiles/host-work/config/nvim/coc-settings.json
+badd +150 init.coc-nvim
+badd +5 init.ale
+badd +23 init.misc-mappings
+badd +9 ~/Source/Python/benchmark/bench/bench_compare.py
+badd +2 init.ipython.vim
 argglobal
 %argdel
-set stal=2
-edit tag-nvim/config/nvim/init.vim
+edit init.ipython.vim
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
@@ -35,6 +65,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -45,48 +77,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 27 - ((24 * winheight(0) + 14) / 28)
+let s:l = 3 - ((2 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-27
-normal! 030|
-tabnew
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
+3
+normal! 0
+lcd ~/.dotfiles
+wincmd w
 argglobal
-if bufexists("~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt") | buffer ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | else | edit ~/.config/nvim/vim-plug/vdebug/doc/Vdebug.txt | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-silent! normal! zE
-let s:l = 267 - ((1 * winheight(0) + 14) / 29)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-267
-normal! 059|
-tabedit host-work/rcrc
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
+if bufexists("~/.dotfiles/dois_to_download.txt") | buffer ~/.dotfiles/dois_to_download.txt | else | edit ~/.dotfiles/dois_to_download.txt | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -96,14 +96,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 6 - ((5 * winheight(0) + 14) / 29)
+let s:l = 114 - ((1 * winheight(0) + 9) / 18)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-6
-normal! 024|
+114
+normal! 041|
+wincmd w
+exe 'vert 1resize ' . ((&columns * 119 + 119) / 238)
+exe 'vert 2resize ' . ((&columns * 118 + 119) / 238)
 tabnext 1
-set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif

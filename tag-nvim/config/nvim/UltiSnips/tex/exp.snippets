@@ -1,12 +1,10 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet exp "Exponential---parens (delimiters can be adjusted)" w
 \exp \left( $1 \right) $0
 endsnippet

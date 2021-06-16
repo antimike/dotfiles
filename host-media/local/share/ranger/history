@@ -1,0 +1,50 @@
+search gv
+search phone
+shell %s mount
+search c
+mkdir TheArgument
+rename What_Happens_If_Trump_Wont_Leave.mp3
+rename What_If_Trump_Wont_Leave.mp3
+search n
+search new
+mkdir InTheDark
+shell 
+shell mplayer %s
+shell FreeFem++ %s
+search yout
+shell vim %s
+search usr
+search py
+search con
+open_with vim
+search cache
+search confi
+search local
+search lib
+search pyr
+search cach
+open_with nvim
+searc
+search you
+mkdir host-media
+search install
+search oh-my
+search cust
+search viminfo
+
+delete
+rename init.vim
+rename plugins.vim
+search inst
+search alias
+search media
+search ranger
+rename guake-preferences~
+cd ~/.local
+search 
+search xap
+search x
+search doi
+search arx
+search config
+search news

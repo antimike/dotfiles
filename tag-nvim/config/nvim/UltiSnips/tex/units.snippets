@@ -1,17 +1,15 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet num "Generalized 'number' snippet" wA
 \SI{$1}{$2}$0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet '(\d*\.?\d+(e-?\d+\.?\d+)?)u' "Units and scientific notation" wrA
 \SI{`!p snip.rv = match.group(1)`}{$1}$0
 endsnippet

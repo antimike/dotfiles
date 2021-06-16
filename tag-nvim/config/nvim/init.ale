@@ -1,0 +1,17 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+let g:ale_linters = { 'elm': ['elm_ls'] }
+" Uncomment if necessary; see https://github.com/elm-tooling/elm-language-server#cocnvim
+" let g:ale_elm_ls_use_global = 1
+" let g:ale_elm_ls_executable = "/path/to/elm-language-server"
+" let g:ale_elm_ls_elm_path = "/path/to/elm"
+" let g:ale_elm_ls_elm_format_path = "/path/to/elm-format"
+" let g:ale_elm_ls_elm_test_path = "/path/to/elm-test"
+
+nmap <silent> <C-space> <Plug>(ale_next)
+nmap <silent> <C-S-space> <Plug>(ale_previous)
+nmap <silent> ]E <Plug>(ale_next_error)
+nmap <silent> [E <Plug>(ale_previous_error)
+nmap <silent> ]w <Plug>(ale_next_warning)
+nmap <silent> [w <Plug>(ale_previous_warning)

@@ -1,40 +1,38 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet int "Integral" w
 \int $1 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 priority 5 
 snippet int_ "Definite integral" wA
 \int_{ $1 }^{ $2 } $3 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 priority 10
 snippet int__ "Definite integral with lower limit only" wA
 \int_{ $1 } $2 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet oint "Closed integral" w
 \oint $1 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 priority 5
 snippet oint_ "Definite closed integral" wA
 \oint_{ $1 }^{ $2 } $3 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 priority 10
 snippet oint__ "Definite integral with lower limit only" wA
 \oint_{ $1 } $2 $0

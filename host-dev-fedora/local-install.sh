@@ -23,3 +23,6 @@ pip3 install fenics-ffc --upgrade --user
 sudo pip3 install fenics-ffc --upgrade
 jupyter nbextension install --user --py ngsolve
 jupyter nbextension enable ngsolve --user --py
+pip3 install papis-rofi --user --upgrade
+sudo dnf install fd-find -y
+pip3 install document-your-code --user --upgrade

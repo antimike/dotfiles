@@ -1,0 +1,50 @@
+search pubs
+rename Maxwell_FEM_Notes.pdf
+rename dealii_Assembling_Matrices.pdf
+rename CutFEM_Dirichlet_Neumann_unfitted_meshes.pdf
+search h
+search dot
+shell vimiv %s
+shell inkscape %s
+shell display %s
+search install
+search python
+search dotfiles
+search fire
+search bash_prof
+search zsh_his
+search local-
+search sess
+open_with nvim
+search tex
+search zal
+search moz
+search boo
+shell unzip %s
+search cabal
+search patch
+search down
+search mark
+search pandoc
+search syntax
+search n
+search viminfo
+search guake
+search qu
+search config
+search zsh
+search fed
+search term
+search view
+search local
+search rang
+search ranger
+open_with 
+search rcrc
+search Source
+search plug
+search work
+search 
+delete
+search nvim
+search dev

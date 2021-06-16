@@ -1,8 +1,6 @@
 global !p
-import sys
-from os import environ
-repo = environ['PYTHON_REPO']
-sys.path.append('{}/Utilities'.format(repo))
+import os, sys
+sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
 # Inline math snippet
@@ -34,7 +32,7 @@ snippet \[ "Display math---literal" bA
 $0
 endsnippet
 
-context "utils.is_math_mode()"
+context "utils.is_math_mode(vim)"
 snippet ds "Displaystyle (visual)" w
 \displaystyle ${VISUAL} $0
 endsnippet

@@ -1,0 +1,50 @@
+rename document.py
+search config
+search down
+mkdir js-repl
+search drop
+
+touch timer.sh
+touch blank_script.sh
+search blank
+search nerd
+touch init.comment
+search comment
+search init.vim
+search shell
+bash-utils
+mkdir bash-utils
+rename script_template.sh
+search local
+cd /usr/local/bin
+search git
+cd /usr/bin
+cd ~/.local
+search hub
+touch get_todos.sh
+touch docstring.sh
+touch parse_options.sh
+touch var_expand.sh
+search tim
+search mark
+delete
+touch init.markdown
+search repl
+search 
+search nvim
+search cmd
+mkdir Purescript
+mkdir test-project
+search local.conf
+search python
+search has
+touch init
+shell nvim %s
+search idris
+search work
+search alias
+search compute
+search gh
+search py
+search ut
+search col

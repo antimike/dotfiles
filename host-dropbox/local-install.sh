@@ -25,3 +25,5 @@ sudo gem install neovim
 sudo dnf install latexmk -y
 sudo dnf install xdotool -y
 sudo npm install -g neovim -y
+sudo dnf install rclone -y
+pip3 install cite2c --user

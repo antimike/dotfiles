@@ -1,0 +1,9 @@
+" vim: syntax=vim
+" vim: filetype=vim
+
+let NERDSpaceDelims=1
+"let g:NERDCustomDelimiters = {
+      "\ 'py' : { 'left': '# ', 'leftAlt': '', 'rightAlt': '' },
+      "\ 'sh' : { 'left': '# ', 'leftAlt': '', 'rightAlt': '' },
+      "\ 'sage': { 'left': '# ', 'leftAlt': '', 'rightAlt': '' }
+      "\ }
