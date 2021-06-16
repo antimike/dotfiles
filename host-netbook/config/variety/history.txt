@@ -1,4 +1,5 @@
 0
+/usr/share/backgrounds/Definitive_Light_Zen_Orange_by_Pierre_Cante.jpg
 /usr/share/backgrounds/Crocus_Wallpaper_by_Roy_Tanck.jpg
 /usr/share/backgrounds/themer-wallpaper-burst-light-2880x1800.png
 /home/hactar/.config/variety/Downloaded/nasa_apod/ZhurongRover_CNSA_1920.jpg

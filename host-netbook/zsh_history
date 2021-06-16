@@ -1589,3 +1589,55 @@
 : 1619288653:0;buku -e tag-firefox/local/share/buku/test.json
 : 1619490893:0;apt search xapers
 : 1619490946:0;apt search researcher
+: 1623817069:0;. $HOME/.local.config
+: 1623817074:0;echo $GOPATH
+: 1623817083:0;which gosh
+: 1623817086:0;gosh
+: 1623817113:0;rlwrap gosh
+: 1623817200:0;cd ~/mail
+: 1623817209:0;ls
+: 1623817223:0;mkdir Attachments
+: 1623817401:0;source /home/hactar/.local-aliases.sh
+: 1623817407:0;cd $HOME
+: 1623817434:0;go get github.com/motemen/gore/cmd/gore
+: 1623817649:0;which gore
+: 1623817667:0;go get github.com/motemen/gore/cmd/gore
+: 1623817730:0;buku -a https://github.com/motemen/gore gore, golang, language, REPL, totry, programming, terminal -c "Another REPL for golang"
+: 1623817817:0;apt-cache search '^julia'
+: 1623817960:0;sudo apt-get install julia -y
+: 1623818055:0;nvim
+: 1623818093:0;cd $SOURCE_DIR/glow
+: 1623818098:0;go build
+: 1623818136:0;echo $GOROOT
+: 1623818140:0;echo $GOPATH
+: 1623818217:0;cat .go
+: 1623818224:0;ls -la | grep go
+: 1623818227:0;ranger
+: 1623818352:0;go get help
+: 1623818359:0;go help get
+: 1623818366:0;go help get | less
+: 1623818423:0;cat $HISTFILE | grep 'go get'
+: 1623818446:0;go get github.com/charmbracelet/glow
+: 1623818650:0;which glow
+: 1623818654:0;go get
+: 1623818664:0;go version
+: 1623818689:0;apt-cache search golang1.13
+: 1623818696:0;apt-cache search '^golang'
+: 1623818707:0;sudo apt-get install golang-1.13 -y
+: 1623818716:0;which go
+: 1623818723:0;readlink /usr/bin/go
+: 1623818851:0;apt remove golang-1.10
+: 1623818859:0;sudo apt remove golang-1.10
+: 1623818871:0;sudo apt autoremove
+: 1623819076:0;buku -a https://wiki.haskell.org/How_to_write_a_Haskell_program haskell, programming, functional-programming, interview-prep, language, tooling, projects, howto, tutorial -c "Article on how to write and develop a Haskell project"
+: 1623819171:0;which go
+: 1623819191:0;sudo apt-get install golang-1.13 -y
+: 1623819251:0;cat $HISTFILE | grep 'go get' | tail -3
+: 1623819269:0;cat $HISTFILE | grep 'go get' | tail -3 | head -1
+: 1623819290:0;cat $HISTFILE | grep 'go get*github' | tail -3 | head -1
+: 1623819307:0;cat $HISTFILE | grep 'go get'
+: 1623819366:0;cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1
+: 1623819498:0;cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1 | cut -d ';' -f 2
+: 1623819525:0;cmd="$(cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1 | cut -d ';' -f 2)"
+: 1623819533:0;$cmd
+: 1623819542:0;exec "$cmd"

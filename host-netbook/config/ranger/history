@@ -1,18 +1,14 @@
-search doc
-search spring
-search qutn
-search netbook
-search source
-mkdir evolution
 search evo
 touch evolution.py
 search gh
 search compute
 search ghci
+search hask
 search glow
 search term
 search work
 search input
+search alias
 search merge
 search firef
 rename buku-backup.sh
@@ -26,25 +22,29 @@ touch logging.sh
 touch parse-opts.sh
 touch unit-test.sh
 touch string-utils.sh
+search buku
 search back
 search lib
 search fire
 search string
 search test
 search string-
-mkdir
-search cmd
-search alias
 search psy
-touch config.php
-search hask
-mkdir Practice
-touch NNHP-lists.hs
-search coc
-search 
-search rcrc
-search ranger
+mkdir
 search net
-search nvim
-search b
-search buku
+search zshrc
+search config
+search etc
+search i3
+search 
+search xres
+search reglith
+search rego
+cd /etc/regolith
+touch favorite-wallpaper.sh
+touch trash-wallpaper.sh
+touch select-wallpaper.sh
+search var
+touch variety-logger.sh
+search view
+search variety
