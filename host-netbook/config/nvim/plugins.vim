@@ -35,6 +35,7 @@ Plug 'ryanoasis/vim-devicons'
 "let g:lightline = { 'colorscheme': 'one dark' }
 
 "" New plugins
+Plug 'fatih/vim-go'
 Plug 'AndrewRadev/inline_edit.vim'
 Plug 'amiorin/vim-fenced-code-blocks', { 'for': ['markdown'] } 
 Plug 'goerz/jupytext.vim' 
