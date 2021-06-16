@@ -70,5 +70,6 @@ sh
 !git add tag-nvim
 alias
 install
-!git add host-netbook/vim/backups
 tldr
+!git add host-netbook/vim/backups
+!git add host-netbook

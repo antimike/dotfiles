@@ -1,4 +1,3 @@
-delete
 search doc
 search spring
 search qutn
@@ -27,7 +26,6 @@ touch logging.sh
 touch parse-opts.sh
 touch unit-test.sh
 touch string-utils.sh
-search buku
 search back
 search lib
 search fire
@@ -42,9 +40,11 @@ touch config.php
 search hask
 mkdir Practice
 touch NNHP-lists.hs
-search nvim
 search coc
 search 
-search net
 search rcrc
 search ranger
+search net
+search nvim
+search b
+search buku
