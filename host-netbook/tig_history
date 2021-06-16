@@ -48,7 +48,6 @@ bookmark
 plugins
 session
 nvim
-!git add host-netbook/vim/backups
 !git add rstudio-desktop
 !git add tag-compute
 !git add tag-regolith
@@ -71,3 +70,5 @@ sh
 !git add tag-nvim
 alias
 install
+!git add host-netbook/vim/backups
+tldr
