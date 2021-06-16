@@ -72,30 +72,6 @@ parse_opts() {
 	done
 }
 
-get_writable_filename() {
-	local filename="$1"
-
-	# First check if file already exists and ask for confirmation if it does
-	if [[ -f "$filename" ]]; then
-		if (( ${OPTS[confirm]} == 1 )); then
-			(( ${OPTS[quiet]} == 1 )) && goboom "Aborted" "Could not ask for confirmation for overwrite of '$filename' due to '--quiet' option"
-			confirm "Overwrite existing file '$filename'?" || goboom "Aborted" "User aborted overwrite of '$filename'"
-		fi
-	fi
-
-	# Now check if path is writable
-	[[ $(touch "$filename") ]] || goboom "Path '$filename' is not writable!"
-
-	# Finally, append filename if path is a directory
-	if [[ -d "$filename" ]]; then
-		filename+="/$BACKUP_FILENAME"
-	fi
-
-	# Return filename and handle random errors
-	[[ -f "$filename" ]] && echo "$filename" && return 0 \
-		|| goboom "Unknwon error creating file '$filename'"
-}
-
 check_opts() {
 	[[ -e "${OPTS[db]}" ]] || goboom "Database file '${OPTS[db]}' does not exist"
 	[[ -e "${OPTS[backup]}" ]] || goboom "Backup file '${OPTS[backup]}' does not exist"
