@@ -8,6 +8,17 @@
 alias log-installed="tail -n2 ~/.zsh_history | sed -n '1p' | sed 's/^:\s\+[0-9]\+:[0-9]\+;//' >> $INSTALLED"
 alias remove-history-prefix="sed 's/^:\s\+[0-9]\+:[0-9]\+;//'"
 
+# Mail
+alias mail='cd ~/mail/Attachments && neomutt'
+alias check-mail='/usr/bin/check-mail.sh'
+alias get_oauth_token='/usr/local/bin/get_oauth_token.sh'
+
+# PDF readers
+alias mupdf='mupdf-gl'
+
+# Notes
+alias notes='terminal_velocity'
+
 # Terminal applications
 alias stack-overflow='socli'
 alias reddit='tuir'
@@ -15,6 +26,14 @@ alias spotify='spt'
 alias wikipedia='wikit'
 alias weather='wego'
 
+# Languages and REPLs
+alias lisp='sbcl'
+alias ts-node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap ts-node'
+alias purescript='spago repl'
+alias debug-purescript='pscid'
+alias ruby='pry'
+alias julia-repl='jupyter console --kernel $(read -A words <<< "$(jupyter kernelspec list | grep julia)"; echo "${words[1]}")'
 if [ $(command -v rlwrap) ]; then
 	alias node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap node'
 fi
+alias gosh='rlwrap gosh'
