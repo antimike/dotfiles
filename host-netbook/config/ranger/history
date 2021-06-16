@@ -45,6 +45,6 @@ touch NNHP-lists.hs
 search nvim
 search coc
 search 
-search ranger
 search net
 search rcrc
+search ranger
