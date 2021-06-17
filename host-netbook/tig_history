@@ -48,3 +48,28 @@ bookmark
 plugins
 session
 nvim
+!git add rstudio-desktop
+!git add tag-compute
+!git add tag-regolith
+!git add tag-joplin
+!git add tag-qutebrowser
+!git add tag-terminal
+!git add tag-git
+!git add tag-tomboy
+!git add tag-todo
+!git add tag-crypto
+!git add tag-zoom
+!git add tag-viewers
+fish
+ulti
+Ulti
+zsh
+bash
+shell
+sh
+!git add tag-nvim
+alias
+install
+tldr
+!git add host-netbook/vim/backups
+!git add host-netbook

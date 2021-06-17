@@ -22,7 +22,7 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.yoink
 source ~/.dotfiles/tag-nvim/config/nvim/init.subversive
 source ~/.dotfiles/tag-nvim/config/nvim/init.pandoc
 source ~/.dotfiles/tag-nvim/config/nvim/init.ctrlp
-source ~/.dotfiles/tag-nvim/config/nvim/init.citation
+"source ~/.dotfiles/tag-nvim/config/nvim/init.citation
 source ~/.dotfiles/tag-nvim/config/nvim/init.window-motion
 source ~/.dotfiles/tag-nvim/config/nvim/init.easy-align
 source ~/.dotfiles/tag-nvim/config/nvim/init.cmdline
@@ -42,5 +42,7 @@ source ~/.dotfiles/tag-nvim/config/nvim/init.fold
 source ~/.dotfiles/tag-nvim/config/nvim/init.git
 source ~/.dotfiles/tag-nvim/config/nvim/init.haskell
 source ~/.dotfiles/tag-nvim/config/nvim/init.vimspector
+source ~/.dotfiles/tag-nvim/config/nvim/init.comment
+source ~/.dotfiles/tag-nvim/config/nvim/init.ipython.vim
 
 hi clear Conceal

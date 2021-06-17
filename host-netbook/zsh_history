@@ -1367,3 +1367,277 @@
 : 1618544661:0;tig
 : 1618544666:0;cd ~/.dotfiles
 : 1618544668:0;tig
+: 1618844840:0;mail
+: 1618844843:0;neomutt
+: 1618845157:0;ls -la ~ | grep kdb
+: 1618845286:0;calcurse
+: 1618845320:0;ranger
+: 1618845398:0;ls -la ~ | grep calcurse
+: 1618845484:0;calcurse
+: 1618845872:0;p
+: 1618845878:0;calcurse
+: 1618845997:0;man calcurse
+: 1618846066:0;sudo find / -name "*calcurse*"
+: 1618846149:0;calcurse-upgrade --help
+: 1618846167:0;calcurse --version
+: 1618846198:0;calcurse
+: 1618847135:0;xargs --help
+: 1618847139:0;man xargs
+: 1618847158:0;ls
+: 1618847160:0;ls | rofi
+: 1618847202:0;ls | rofi -show drun
+: 1618847217:0;man rofi
+: 1618847269:0;ls | rofi -dmenu
+: 1618847422:0;apt search fzf
+: 1618847437:0;apt search ripgrep
+: 1618847444:0;pip3 install fzf --user
+: 1618848379:0;buku --suggest -a https://github.com/atsepkov/Graphene graphene, browser, terminal, TUI, linux, totry -c "Github repo for Graphene, a FOSS minimalistic terminal web browser"
+: 1618848670:0;buku --suggest -a https://github.com/wvanlint/twf tree-viewer, utilities, terminal, linux, totry, FOSS -c "Github repo for TWF, a tree viewer designed for FZF integration but which looks like it could be creatively repurposed"
+: 1618848714:0;apt search go
+: 1618848723:0;sudo apt-get install go
+: 1618848778:0;apt search ^go
+: 1618848794:0;apt search ^go$
+: 1618848802:0;apt search ^go.*$
+: 1618848816:0;apt search --names-only go
+: 1618848837:0;sort --help
+: 1618848839:0;man sort
+: 1618848865:0;apt search --names-only go | sort -r
+: 1618848889:0;apt search --names-only go > go-packages
+: 1618848911:0;sort -r go-packages
+: 1618848927:0;cat go-packages
+: 1618848938:0;cat go-packages| grep go
+: 1618848946:0;cat go-packages | sort
+: 1618848951:0;cat go-packages | sort --reverse
+: 1618848958:0;man sort
+: 1618849035:0;go
+: 1618849049:0;sudo apt-get install golang-go -y
+: 1618850414:0;buku --suggest -a https://github.com/go-shiori/shiori/wiki/API shori, bookmarks, utilities, FOSS, totry, web, productivity -c "Github wiki for Shori, a self-hosted bookmark server that with a full REST API"
+: 1618850478:0;apt search ArchiveBox
+: 1618850486:0;apt search archive box
+: 1618850514:0;apt search archive box | grep box
+: 1618850544:0;pip3 install archivebox --user
+: 1618850648:0;pip3 search archive
+: 1618850656:0;pip3 install archive-box --user
+: 1618850708:0;pip3 install archivebox
+: 1618850745:0;which pip2
+: 1618850750:0;pip2 install archivebox --user
+: 1618851332:0;buku --suggest -a https://github.com/uriel1998/newsbeuter-dangerzone newsbeuter-dangerzone, FOSS, utilities, awesome, totry, bookmarks, tricks -c "Github repo for newsbeuter-dangerzone, a fairly basic bookmark manager for newsboat 'or anything that can spit out a URL and a string'."
+: 1618851456:0;apt search docker
+: 1618851475:0;docker
+: 1618851551:0;buku --suggest -a https://github.com/mike-engel/bkmrkd bookmarks, web, server, FOSS, utilities, knowledge-management -c "Github repo for yet another lightweight, self-hosted bookmark manager"
+: 1618852751:0;buku --suggest -a https://github.com/cfenollosa/bashblog bashblog, terminal, markdown, personal-wiki, knowledge-management, utilities, CLI, totry -c "Github repo for bashblog, a command-line utility for serving Markdown files as HTML"
+: 1618853049:0;buku
+: 1618853128:0;npm install puppeteer
+: 1618853315:0;tig
+: 1618853497:0;gpg --card-status
+: 1618853963:0;buku --suggest -a https://github.com/pabloariasal/zfm zsh, plugin, fzf, utilities -c "Github repo for zfm, a FZF integration for zsh"
+: 1618854107:0;buku --suggest -a https://github.com/edi9999/path-extractor linux, terminal, cli, utilities, programming, pipeline -c "Github repo for path-extractor, a useful pipeline element that accepts, processes, and outputs lists of filepaths"
+: 1618854447:0;apt search phantom
+: 1618854492:0;apt search foxit
+: 1618854540:0;snap search foxit
+: 1618854545:0;snap search xournal
+: 1618854551:0;apt search xournal
+: 1618863486:0;gpg --card-status
+: 1618863601:0;ls -la ~ | grep kdbx
+: 1618864426:0;ranger
+: 1618864477:0;ipython
+: 1618864611:0;ranger
+: 1618864992:0;man zoom-client
+: 1618864997:0;zoom-client --help
+: 1618865130:0;sudo find / -name "*zoom-client*"
+: 1618866677:0;apt search regolith-look
+: 1618866694:0;sudo apt-get install regolith-look-*
+: 1618866773:0;sudo apt-get install 'regolith-look-*'
+: 1618866819:0;sudo apt-get install regolith-look-pop-os
+: 1618866830:0;sudo apt-get install pop-gtk-theme -y
+: 1618866964:0;apt search glow
+: 1618867091:0;pip3 install markdown pygments pyyaml docopt tabulate --user
+: 1618867106:0;log-installed
+: 1618867128:0;pip3 install mdv --user
+: 1618867136:0;log-installed
+: 1618867139:0;mdv
+: 1618867395:0;man papis
+: 1618867904:0;buku --suggest -a https://sr.ht/\~seirdy/term-dmenu/ rofi, dmenu, file-picker, fzf, totry, FOSS, utilities -c "Repo for a dmenu replacement using a floating terminal and FZF"
+: 1618868414:0;buku --suggest -a https://github.com/Biont/sway-launcher-desktop sway-launcher, fzf, terminal, linux, totry, cool -c "Github repo for Sway-Launcher, a floating-terminal-based filepicker"
+: 1618868621:0;git clone https://github.com/paul-g/bibgraph ~/Source/bibgraph
+: 1618868664:0;man biber
+: 1618868686:0;pip3 install terminal_velocity --user
+: 1618868716:0;papis open
+: 1618868722:0;papis list
+: 1618868739:0;pip2 install terminal_velocity --user
+: 1618868752:0;pip3 remove terminal_velocity
+: 1618868759:0;pip3 uninstall terminal_velocity
+: 1618868767:0;which terminal_velocity
+: 1618868775:0;which pip2
+: 1618868780:0;pip2 install terminal_velocity --user
+: 1618868788:0;pip3 install papis
+: 1618868793:0;papis open
+: 1618868808:0;pip3 install papis --upgrade --user
+: 1618868815:0;terminal_velocity
+: 1618868882:0;ranger
+: 1618869304:0;mail
+: 1618869307:0;neomutt
+: 1618869367:0;calcurse
+: 1618869418:0;nvim
+: 1618869524:0;rcup -B netbook config/nvim/UltiSnips
+: 1618869529:0;ranger
+: 1618869612:0;echo $PYTHON_REPO
+: 1618869618:0;cd $PYTHON_REPO
+: 1618869625:0;ls
+: 1618869649:0;ipython
+: 1618869663:0;pip3 install uncertainties --user
+: 1618869746:0;ranger
+: 1618871802:0;mdn ~/Documents/spring-2021/Seminar/04192021/04192021.md
+: 1618872347:0;man mdn
+: 1618872356:0;mdn --help | grep color
+: 1618872361:0;mdn --help
+: 1618872371:0;mdn --help | grep config
+: 1618872449:0;mdn --help
+: 1618872472:0;mdn
+: 1618872506:0;cat $INSTALLED| grep mdn
+: 1618872511:0;cat $INSTALLED
+: 1618872518:0;man mdv
+: 1618872524:0;mdv --help | grep color
+: 1618872548:0;mdv ~/Documents/spring-2021/Seminar/04192021/04192021.md
+: 1618872560:0;mdv --help | grep math
+: 1618872565:0;mdv --help | grep latex
+: 1618872568:0;mdv --help | grep tex
+: 1618872769:0;buku --help | grep log
+: 1618873118:0;buku
+: 1618874098:0;mdv --help | grep diagram
+: 1618874102:0;mdv --help | grep fence
+: 1618874106:0;mdv --help | grep code
+: 1618874605:0;buku --suggest -a https://github.com/MattNer0/epiphany epiphany, markdown, notes, utilities, FOSS, software, totry, knowledge-management -c "Github repo for epiphany, a FOSS note-taking system with built-in markdown editor, outliner, DB, encryption, etc."
+: 1618874933:0;buku --suggest -a https://www.npmjs.com/package/nd nd, tools, tricks, node, npm, software, utilities, markdown, tree-viewer -c "NPM documentation viewer, which looks like it could be adapted for tree- and / or markdown viewing in a terminal"
+: 1618876012:0;apt search terminology
+: 1618876483:0;sudo apt-get install terminology -y
+: 1618876537:0;ranger
+: 1618876555:0;man terminology
+: 1618876773:0;git clone https://github.com/junegunn/fzf ~/Sourc/fzf
+: 1618876789:0;ranger
+: 1618876882:0;sudo find ~ -name "fzf"
+: 1618877076:0;~/Source/fzf/install
+: 1618877102:0;tig
+: 1618877366:0;ranger
+: 1618879368:0;cd ~/.dotfiles
+: 1618879370:0;tig
+: 1618880953:0;buku
+: 1618881084:0;buku --suggest -a https://www.enlightenment.org/start terminology, terminal, software, FOSS, ubuntu, eye-candy, graphics -c "Homepage for Enlightenment project, which includes Terminology (a terminal emulator which emphasizes prettiness)"
+: 1618882101:0;buku --suggest -a https://github.com/peco/peco filter, utilities, terminal, library, totry -c "Github repo for peco, a 'simplistic interactive filtering tool'"
+: 1618882148:0;apt search peco
+: 1618882167:0;sudo apt-get install peco -y
+: 1618882220:0;log-installed
+: 1618882270:0;sudo apt-get install jp xsel getopt -y
+: 1618882282:0;sudo apt-get install jp xsel -y
+: 1618882291:0;sudo apt-get install jq xsel -y
+: 1618882295:0;log-installed
+: 1618882363:0;git clone https://github.com/AndreiUlmeyda/oil ~/Source/buku-terminal
+: 1618882387:0;cd ~/Source/buku-terminal
+: 1618882389:0;ls
+: 1618882392:0;ranger
+: 1618882405:0;make install
+: 1618882411:0;sudo make install
+: 1618882415:0;oil
+: 1618882458:0;cat /usr/bin/env | grep jq
+: 1618882537:0;cat /usr/bin/env
+: 1618882542:0;oil
+: 1618882597:0;oil boopy
+: 1618882609:0;oil terminology
+: 1618882623:0;oil spinor
+: 1618882651:0;oil -T
+: 1618882664:0;oil -t
+: 1618882862:0;buku
+: 1618882905:0;cd ~/Source/fzf
+: 1618882906:0;ls
+: 1618882910:0;install
+: 1618882934:0;source ~/.zshrc
+: 1618882939:0;which fzf
+: 1618882944:0;fzf
+: 1618934925:0;ranger
+: 1619226963:0;gpg --card-status
+: 1619226968:0;git status
+: 1619226993:0;git add host-netbook/vim
+: 1619226997:0;git status
+: 1619227010:0;git commit -m "host-netbook: Vim backups
+: 1619227012:0;git commit -m "host-netbook: Vim backups"
+: 1619227033:0;git add host-netbook/mozilla
+: 1619227041:0;git commit -m "host-netbook: Firefox"
+: 1619227068:0;tig
+: 1619227240:0;cat ~/.zsh_history | grep go
+: 1619227850:0;buku --help | grep merge
+: 1619228042:0;sqlite3
+: 1619228592:0;pip3 install litecli --user
+: 1619228601:0;log-installed
+: 1619228613:0;litecli ~/.local/share/buku/bookmarks.db
+: 1619228633:0;man litecli
+: 1619228640:0;litecli --help | grep color
+: 1619228644:0;litecli --help | grep config
+: 1619228649:0;litecli --help
+: 1619229395:0;buku -a https://litecli.com/ litecli, cli, sqlite, repl, terminal, docs -c "Homepage for LiteCLI, a lightweight CLI for SQLite"
+: 1619229484:0;mkrc -t compute ~/.config/litecli
+: 1619229533:0;ls -la ~ | grep rcrc
+: 1619229562:0;rcup -B netbook config/litecli/log
+: 1619229658:0;ls -la ~/.config/litecli
+: 1619229696:0;tig
+: 1619229707:0;cd ~/.dotfiles
+: 1619229710:0;tig
+: 1619229805:0;litecli ~/.local/share/buku/bookmarks.db
+: 1619231548:0;man sqlite3
+: 1619231646:0;buku --help | grep list
+: 1619286418:0;ranger
+: 1619288427:0;buku --help
+: 1619288653:0;buku -e tag-firefox/local/share/buku/test.json
+: 1619490893:0;apt search xapers
+: 1619490946:0;apt search researcher
+: 1623817069:0;. $HOME/.local.config
+: 1623817074:0;echo $GOPATH
+: 1623817083:0;which gosh
+: 1623817086:0;gosh
+: 1623817113:0;rlwrap gosh
+: 1623817200:0;cd ~/mail
+: 1623817209:0;ls
+: 1623817223:0;mkdir Attachments
+: 1623817401:0;source /home/hactar/.local-aliases.sh
+: 1623817407:0;cd $HOME
+: 1623817434:0;go get github.com/motemen/gore/cmd/gore
+: 1623817649:0;which gore
+: 1623817667:0;go get github.com/motemen/gore/cmd/gore
+: 1623817730:0;buku -a https://github.com/motemen/gore gore, golang, language, REPL, totry, programming, terminal -c "Another REPL for golang"
+: 1623817817:0;apt-cache search '^julia'
+: 1623817960:0;sudo apt-get install julia -y
+: 1623818055:0;nvim
+: 1623818093:0;cd $SOURCE_DIR/glow
+: 1623818098:0;go build
+: 1623818136:0;echo $GOROOT
+: 1623818140:0;echo $GOPATH
+: 1623818217:0;cat .go
+: 1623818224:0;ls -la | grep go
+: 1623818227:0;ranger
+: 1623818352:0;go get help
+: 1623818359:0;go help get
+: 1623818366:0;go help get | less
+: 1623818423:0;cat $HISTFILE | grep 'go get'
+: 1623818446:0;go get github.com/charmbracelet/glow
+: 1623818650:0;which glow
+: 1623818654:0;go get
+: 1623818664:0;go version
+: 1623818689:0;apt-cache search golang1.13
+: 1623818696:0;apt-cache search '^golang'
+: 1623818707:0;sudo apt-get install golang-1.13 -y
+: 1623818716:0;which go
+: 1623818723:0;readlink /usr/bin/go
+: 1623818851:0;apt remove golang-1.10
+: 1623818859:0;sudo apt remove golang-1.10
+: 1623818871:0;sudo apt autoremove
+: 1623819076:0;buku -a https://wiki.haskell.org/How_to_write_a_Haskell_program haskell, programming, functional-programming, interview-prep, language, tooling, projects, howto, tutorial -c "Article on how to write and develop a Haskell project"
+: 1623819171:0;which go
+: 1623819191:0;sudo apt-get install golang-1.13 -y
+: 1623819251:0;cat $HISTFILE | grep 'go get' | tail -3
+: 1623819269:0;cat $HISTFILE | grep 'go get' | tail -3 | head -1
+: 1623819290:0;cat $HISTFILE | grep 'go get*github' | tail -3 | head -1
+: 1623819307:0;cat $HISTFILE | grep 'go get'
+: 1623819366:0;cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1
+: 1623819498:0;cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1 | cut -d ';' -f 2
+: 1623819525:0;cmd="$(cat $HISTFILE | grep 'go get' | grep -v 'grep' | tail -2 | head -1 | cut -d ';' -f 2)"
+: 1623819533:0;$cmd
+: 1623819542:0;exec "$cmd"

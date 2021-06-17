@@ -3,7 +3,6 @@ import os, sys
 sys.path.append('{}/Utilities'.format(os.environ["PYTHON_REPO"]))
 import snippet_utils as utils
 endglobal
-
 # Inline math snippet
 # Expands automatically if "mt" is typed at the beginning of a word
 # Includes logic to determine if content should be followed by a space
@@ -24,14 +23,6 @@ endsnippet
 # Final inline math snippet
 snippet $$ "Inline math---automatic" iA
 $\displaystyle $1$$2
-endsnippet
-
-priority 10
-snippet md "Display math" wA
-\[
-	$1
-\] 
-$0
 endsnippet
 
 snippet \[ "Display math---literal" bA

@@ -1,0 +1,3 @@
+i3-wm.program.1: /home/hactar/.config/variety/scripts/select-wallpaper.sh
+i3-wm.program.2: /home/hactar/.config/variety/scripts/favorite-wallpaper.sh
+i3-wm.program.3: /home/hactar/.config/variety/scripts/trash-wallpaper.sh
