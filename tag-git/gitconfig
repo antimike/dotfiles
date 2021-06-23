@@ -24,3 +24,5 @@ vtag = !git tag -v `git describe`
 [core]
 	editor = nvim
 	pager = most
+[pager]
+	diff = delta
