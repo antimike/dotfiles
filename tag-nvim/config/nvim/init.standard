@@ -49,3 +49,7 @@ set number
 nnoremap <C-M-j> gT
 nnoremap <C-M-k> gt
 nnoremap <Space> :cnext
+
+" Display tabs as >-...-
+set list
+set listchars=tab:>-
