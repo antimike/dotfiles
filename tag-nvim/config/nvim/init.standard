@@ -53,3 +53,6 @@ nnoremap <Space> :cnext
 " Display tabs as >-...-
 set list
 set listchars=tab:>-
+
+" relative line numbers
+set relativenumber
