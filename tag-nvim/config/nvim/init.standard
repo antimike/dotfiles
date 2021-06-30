@@ -15,7 +15,7 @@ set wildmenu
 " shows partial commands on last screen line
 set showcmd
 " search highlighting
-set hlsearch
+set nohlsearch
 " case-insensitive search except when using capitals
 set ignorecase
 set smartcase
