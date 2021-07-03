@@ -1,3 +1,18 @@
+# Generic install script goals:
+# * Fedora repo software
+#   * shallow-backup (?)
+# * Specific language package managers:
+#   * Ruby
+#   * Python
+#   * Haskell
+#   * Node
+#   * Cargo
+# * Things to install, in order, for each package:
+#   * Software
+#   * Docs
+#   * Examples, if applicable / desired
+#   * Completion scripts, if applicable / desired
+
 # Haskell
 sudo dnf install cabal-install -y
 sudo dnf install hugs98 -y
@@ -92,7 +107,7 @@ pkg> add IJulia
 sudo dnf install idris -y
 sudo dnf install miller -y
 sudo dnf install exa
-cheat -l
+sudo dnf install cheat -y
 sudo dnf copr enable atim/choose
 sudo dnf install choose -y
 sudo dnf install lsd exa -y
@@ -102,3 +117,36 @@ sudo dnf copr enable atim/gping -y && sudo dnf install gping -y
 cargo install xh
 # cargo install dog
 # Packages from ibraheemdev/modern-unix
+cargo install sd
+cargo install mcfly
+sudo dnf install most && export pager='most'
+sudo dnf install ncdu htop -y
+sudo dnf install incron -y
+sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
+sudo dnf install trash-cli -y
+cargo install fselect
+# Install peco by cloning and building (golang) manually...
+# Pain in the ass, but it's worth it
+sudo dnf install progress -y
+sudo dnf install pipx -y
+sudo dnf install pgcli -y
+sudo dnf install syncthing -y
+pip3 install jrnl --user
+watson
+pip3 install td-watson --user --upgrade
+sudo npm i --global idea
+cargo install eureka
+pip3 install td-cli --user --upgrade
+sudo npm i --global taskbook
+go get -v github.com/zquestz/s
+pip3 install shallow-backup --user --upgrade
+sudo npm i --global stegcloak
+sudo npm install -g doctoc
+pip3 install howdoi --user --upgrade
+sudo npm i -g jp-cli
+sudo npm i -g ramda-cli
+pip3 install yq --user --upgrade
+sudo npm i -g strip-json-comments-cli underscore-cli groq-cli jp-cli fx ymlx parse-columns-cli
+gem install vj
+cargo install tre-command
+git clone https://github.com/facebook/PathPicker.git $SOURCE_DIR/Python/PathPicker

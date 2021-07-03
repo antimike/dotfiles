@@ -1,4 +1,3 @@
-bash-utils
 mkdir bash-utils
 rename script_template.sh
 search local
@@ -36,7 +35,6 @@ search nvim
 search cmd
 search has
 search disp
-delete
 shell qvm-copy %s
 search 
 search shell
@@ -45,6 +43,8 @@ search go
 search pec
 mkdir peco
 search make
-search work
 search zshrc
 search config
+search work
+search install
+delete
