@@ -1,3 +1,5 @@
+shopt -s extglob
+
 __NAME__="$(basename "$0")"
 __LOGFILE__="$(dirname "$0")/scripts.log"
 __DELIM__=" :: "
@@ -41,13 +43,25 @@ variety_logentry_header() {
 # 	$2: Template string to pass to `printf`.  Used to construct header message.
 # 	$@[@]:2: All other params are passed to `printf` along with the template.
 log_variety_command() {
-	cmd="$1" && shift
-	template="$1" && shift
-	msg=$(printf "$template" $@)
+	if [[ "$1" =~ (-n|--notify) ]]; then
+		local notify="$2" && shift && shift
+		[[ ! "$1" == "--" ]] \
+			&& goboom "'variety' logger encountered malformed command or option" \
+			|| shift
+	else
+		local notify=
+	fi
+	local cmd="$1" && shift
+	local template="$1" && shift
+	local msg=$(printf "$template" $@)
 	echo "$(variety_logentry_header "$msg")" >> "$__LOGFILE__"
 	variety_append_log "Running command '$cmd':"
 	variety_append_log "$($cmd 2>&1 &)"
 	echo >> "$__LOGFILE__"
+	if [[ -n "$notify" ]]; then
+		notify-send "$notify"
+	fi
+	return 0
 }
 
 # Indents all lines of the passed text and appends to the Variety script log
