@@ -79,7 +79,15 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C258F79DCC02E369
 sudo apt update
 sudo apt install archivebox
 sudo python3 -m pip install --upgrade --ignore-installed archivebox   # pip needed because apt only provides a broken older version of Django
-: 1625087300:0;sudo apt-get install sshpass -y
+sudo apt-get install sshpass -y
 pip3 install pudb --user --upgrade
 cargo install taskwarrior-tui
 sudo apt-get install visidata -y
+sudo apt-get install moreutils -y
+sudo apt-get install sox -y
+sudo apt-get install miller -y
+sudo npm i --global stegcloak
+sudo npm install -g doctoc
+sudo npm i -g jp-cli
+sudo npm i -g ramda-cli
+sudo npm i -g strip-json-comments-cli underscore-cli groq-cli jp-cli fx ymlx parse-columns-cli
