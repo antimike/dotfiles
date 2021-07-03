@@ -19,6 +19,11 @@ alias mupdf='mupdf-gl'
 # Notes
 alias notes='terminal_velocity'
 
+# Grep/ripgrep/silver-searcher with colors for piping
+alias grepc='grep --color-always'
+alias rgc='rg --color-always'
+# agc='ag --color-always'
+
 # Terminal applications
 alias stack-overflow='socli'
 alias reddit='tuir'
