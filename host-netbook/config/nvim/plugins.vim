@@ -35,6 +35,7 @@ Plug 'ryanoasis/vim-devicons'
 "let g:lightline = { 'colorscheme': 'one dark' }
 
 "" New plugins
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'fatih/vim-go'
 Plug 'AndrewRadev/inline_edit.vim'
 Plug 'amiorin/vim-fenced-code-blocks', { 'for': ['markdown'] } 
@@ -157,7 +158,7 @@ Plug 'mcchrish/nnn.vim'
 Plug 'powerline/powerline', { 'on': [] }
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-Plug 'tools-life/taskwiki'
+" Plug 'tools-life/taskwiki'
 Plug 'edkolev/tmuxline.vim'
 Plug 'mbbill/undotree'
 Plug 'vim-scripts/utl.vim'

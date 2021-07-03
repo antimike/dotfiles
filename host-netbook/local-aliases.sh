@@ -19,6 +19,11 @@ alias mupdf='mupdf-gl'
 # Notes
 alias notes='terminal_velocity'
 
+# Grep/ripgrep/silver-searcher with colors for piping
+alias grepc='grep --color-always'
+alias rgc='rg --color-always'
+# agc='ag --color-always'
+
 # Terminal applications
 alias stack-overflow='socli'
 alias reddit='tuir'
@@ -37,3 +42,12 @@ if [ $(command -v rlwrap) ]; then
 	alias node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap node'
 fi
 alias gosh='rlwrap gosh'
+alias go="go${GO_VERSION}"
+
+# Vim less-like pager
+alias vimpager="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
+
+# Web archive
+alias archive-server='archivebox server 0.0.0.0:8000'
+# completely optional, CLI can always be used without running a server
+# archivebox [subcommand] [--args]

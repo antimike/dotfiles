@@ -43,5 +43,6 @@ set termguicolors
 "colorscheme termschool
 "colorscheme two-firewatch
 "colorscheme vividchalk
-colorscheme ayu
+" colorscheme ayu
+colorscheme apprentice
 let g:pencil_higher_contrast_ui = 0

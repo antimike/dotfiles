@@ -50,7 +50,6 @@ session
 nvim
 !git add rstudio-desktop
 !git add tag-compute
-!git add tag-regolith
 !git add tag-joplin
 !git add tag-qutebrowser
 !git add tag-terminal
@@ -69,7 +68,21 @@ shell
 sh
 !git add tag-nvim
 alias
-install
 tldr
-!git add host-netbook/vim/backups
 !git add host-netbook
+rego
+!git add tag-regolith
+variety
+!git add tag-viewers/config/variety
+!git add host-netbook/vim/backups
+dunst
+python
+compute
+init.stand
+color
+standard
+sage
+install
+vimpag
+!git add host-netbook/vim host-netbook/config/nvim/Sessions
+!git add .
