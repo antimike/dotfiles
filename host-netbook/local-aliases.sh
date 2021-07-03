@@ -42,6 +42,7 @@ if [ $(command -v rlwrap) ]; then
 	alias node='export NODE_PATH=$(npm root --quiet -g) && NODE_NO_READLINE=1 rlwrap node'
 fi
 alias gosh='rlwrap gosh'
+alias go="go${GO_VERSION}"
 
 # Vim less-like pager
 alias vimpager="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
