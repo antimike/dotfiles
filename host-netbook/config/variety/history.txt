@@ -1,4 +1,5 @@
 0
+/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527880844_f810b9255f_o.jpg
 /usr/share/backgrounds/Definitive_Light_Zen_Orange_by_Pierre_Cante.jpg
 /home/hactar/.config/variety/Favorites/Ganymede_JunoGill_2217.jpg
 /home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527967668_4fe8d66c54_o.jpg
@@ -98,4 +99,3 @@
 /home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527878436_fdd7b3909b_o.jpg
 /home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527955776_15f2b7c8c8_o.jpg
 /home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527945144_92531e2de5_o.jpg
-/home/hactar/.config/variety/Favorites/Spices_in_Athens_by_Makis_Chourdakis.jpg
