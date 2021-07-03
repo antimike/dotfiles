@@ -90,3 +90,15 @@ julia
 julia> ]
 pkg> add IJulia
 sudo dnf install idris -y
+sudo dnf install miller -y
+sudo dnf install exa
+cheat -l
+sudo dnf copr enable atim/choose
+sudo dnf install choose -y
+sudo dnf install lsd exa -y
+sudo dnf copr enable atim/bottom -y && sudo dnf install bottom -y
+sudo npm install gtop -g
+sudo dnf copr enable atim/gping -y && sudo dnf install gping -y
+cargo install xh
+# cargo install dog
+# Packages from ibraheemdev/modern-unix

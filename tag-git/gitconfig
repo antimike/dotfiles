@@ -23,3 +23,6 @@ vtag = !git tag -v `git describe`
 	gpgSign = true
 [core]
 	editor = nvim
+	pager = most
+[pager]
+	diff = delta
