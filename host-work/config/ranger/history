@@ -1,11 +1,5 @@
-touch timer.sh
-touch blank_script.sh
-search blank
-search nerd
-touch init.comment
 search comment
 search init.vim
-search shell
 bash-utils
 mkdir bash-utils
 rename script_template.sh
@@ -23,7 +17,6 @@ search tim
 search mark
 touch init.markdown
 search repl
-search 
 mkdir Purescript
 mkdir test-project
 search local.conf
@@ -48,3 +41,10 @@ search has
 search disp
 delete
 shell qvm-copy %s
+search 
+search shell
+search peco
+search go
+search pec
+mkdir peco
+search make

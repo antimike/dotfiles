@@ -53,6 +53,8 @@ alias purescript='spago repl'
 alias debug-purescript='pscid'
 alias ruby='pry'
 alias julia-repl='jupyter console --kernel $(read -A words <<< "$(jupyter kernelspec list | grep julia)"; echo "${words[1]}")'
+alias go='go1.16.5'
 
 # New (to try)
 alias tagfile='tmsu'
+alias bottom='btm'

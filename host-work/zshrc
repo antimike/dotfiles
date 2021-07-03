@@ -117,3 +117,6 @@ source $ZSH/oh-my-zsh.sh
 unsetopt HIST_VERIFY
 
 source /home/user/.config/broot/launcher/bash/br
+eval "$(mcfly init zsh)"
+source $SOURCE_DIR/Shell/forgit/forgit.plugin.zsh
+eval "$(direnv hook zsh)"

@@ -2902,3 +2902,697 @@ ind="test"
 echo \$$ind
 echo "${!ind}"
 exit
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1:}" }
+NTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}" }; ;
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]}" }
+fn() { echo "hi there" }
+fn() { echo "hi there"; }
+fn
+arr=("hi" "there")
+echo "${arr[1]}"
+echo "${arr[@]:1}"
+arr+=("buddy")
+echo "${arr[@]:1}"
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${*:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+echo
+echo $arr
+echo "${arr[@]}"
+clear
+echo "${arr[@]}"
+pop arr
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "${arr[@]}"
+get_element_index "there" arr
+. /tmp/cmdline_1623983334_user/lines.sh
+get_element_index "there" arr
+get_element_index "boopy" arr
+echo "hi" "there"
+echo "${boopy+x}"
+echo "${arr+x}"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -L DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+__prepend "hi there"
+__prepend "    " "hi there"
+echo __LOGILFE__
+echo $__LOGFILE__
+__LOGFILE__=$SOURCE_DIR/Shell/bash-utils/test.log
+report -L DEBUG "hi there"
+echo $__VERBOSITY__
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+echo "$__VERBOSITY__"
+. /tmp/cmdline_1623983334_user/lines.sh
+set_verbosity_global DEBUG
+echo "$__VERBOSITY__"
+notify DEBUG "hi there"
+notify -L DEBUG "hi there"
+notify -p "\t" "hi there"
+notify -p "    " "hi there"
+__prepend "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+notify -p "    " -L "hi there"
+echo $__VERBOSITY__
+echo $__DEFAULT_LOGLEVEL__
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+notify -p "    " -L "hi there"
+echo "$__DEFAULT_LOGLEVEL"
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+__VERBOSITY__= && set_verbosity_global INFO && __DEFAULT_LOGLEVEL__=$__VERBOSITY__
+echo "$__DEFAULT_LOGLEVEL"
+echo "$__DEFAULT_LOGLEVEL__"
+notify -p "    " -L "hi there"
+notify -p "    " -L "hi there" "shadoopy"
+echo $(( 1 + 3 % 2 ))
+echo $(( 1 + 3 % 3 ))
+echo $(( (1+3)%2 ))
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "$__LOGFILE__"
+report -L DEBUG "testing..."
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1:}" }
+NTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}" }; ;
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]}" }
+fn() { echo "hi there" }
+fn() { echo "hi there"; }
+fn
+arr=("hi" "there")
+echo "${arr[1]}"
+echo "${arr[@]:1}"
+arr+=("buddy")
+echo "${arr[@]:1}"
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${*:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+echo
+echo $arr
+echo "${arr[@]}"
+clear
+echo "${arr[@]}"
+pop arr
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "${arr[@]}"
+get_element_index "there" arr
+. /tmp/cmdline_1623983334_user/lines.sh
+get_element_index "there" arr
+get_element_index "boopy" arr
+echo "hi" "there"
+echo "${boopy+x}"
+echo "${arr+x}"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -L DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+__prepend "hi there"
+__prepend "    " "hi there"
+echo __LOGILFE__
+echo $__LOGFILE__
+__LOGFILE__=$SOURCE_DIR/Shell/bash-utils/test.log
+report -L DEBUG "hi there"
+echo $__VERBOSITY__
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+echo "$__VERBOSITY__"
+. /tmp/cmdline_1623983334_user/lines.sh
+set_verbosity_global DEBUG
+echo "$__VERBOSITY__"
+notify DEBUG "hi there"
+notify -L DEBUG "hi there"
+notify -p "\t" "hi there"
+notify -p "    " "hi there"
+__prepend "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+notify -p "    " -L "hi there"
+echo $__VERBOSITY__
+echo $__DEFAULT_LOGLEVEL__
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+notify -p "    " -L "hi there"
+echo "$__DEFAULT_LOGLEVEL"
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+__VERBOSITY__= && set_verbosity_global INFO && __DEFAULT_LOGLEVEL__=$__VERBOSITY__
+echo "$__DEFAULT_LOGLEVEL"
+echo "$__DEFAULT_LOGLEVEL__"
+notify -p "    " -L "hi there"
+notify -p "    " -L "hi there" "shadoopy"
+echo $(( 1 + 3 % 2 ))
+echo $(( 1 + 3 % 3 ))
+echo $(( (1+3)%2 ))
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "$__LOGFILE__"
+report -L DEBUG "testing..."
+. /tmp/cmdline_1623983334_user/lines.sh
+report -L DEBUG "testing..."
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1:}" }
+NTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}" }; ;
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]}" }
+fn() { echo "hi there" }
+fn() { echo "hi there"; }
+fn
+arr=("hi" "there")
+echo "${arr[1]}"
+echo "${arr[@]:1}"
+arr+=("buddy")
+echo "${arr[@]:1}"
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${*:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+echo
+echo $arr
+echo "${arr[@]}"
+clear
+echo "${arr[@]}"
+pop arr
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "${arr[@]}"
+get_element_index "there" arr
+. /tmp/cmdline_1623983334_user/lines.sh
+get_element_index "there" arr
+get_element_index "boopy" arr
+echo "hi" "there"
+echo "${boopy+x}"
+echo "${arr+x}"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -L DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+__prepend "hi there"
+__prepend "    " "hi there"
+echo __LOGILFE__
+echo $__LOGFILE__
+__LOGFILE__=$SOURCE_DIR/Shell/bash-utils/test.log
+report -L DEBUG "hi there"
+echo $__VERBOSITY__
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+echo "$__VERBOSITY__"
+. /tmp/cmdline_1623983334_user/lines.sh
+set_verbosity_global DEBUG
+echo "$__VERBOSITY__"
+notify DEBUG "hi there"
+notify -L DEBUG "hi there"
+notify -p "\t" "hi there"
+notify -p "    " "hi there"
+__prepend "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+notify -p "    " -L "hi there"
+echo $__VERBOSITY__
+echo $__DEFAULT_LOGLEVEL__
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+notify -p "    " -L "hi there"
+echo "$__DEFAULT_LOGLEVEL"
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+__VERBOSITY__= && set_verbosity_global INFO && __DEFAULT_LOGLEVEL__=$__VERBOSITY__
+echo "$__DEFAULT_LOGLEVEL"
+echo "$__DEFAULT_LOGLEVEL__"
+notify -p "    " -L "hi there"
+notify -p "    " -L "hi there" "shadoopy"
+echo $(( 1 + 3 % 2 ))
+echo $(( 1 + 3 % 3 ))
+echo $(( (1+3)%2 ))
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "$__LOGFILE__"
+report -L DEBUG "testing..."
+. /tmp/cmdline_1623983334_user/lines.sh
+report -L DEBUG "testing..."
+cat $__LOGFILE__
+x=1
+let x+=1
+echo $x
+(( x+=1 ))
+echo $x
+date +%m:%s
+date +%M:%s
+now=$(date +%s%3N)
+nownow=$(date +%s%3N)
+since=$(( nownow - now ))
+date +%M:%s -d@${since}
+date +%M:%s -d@$(bc <<< "range=3; ${since}/1000")
+bc <<< "range=0; 123456/1000"
+bc <<< "range=1; 123456/1000"
+bc <<< "range=2; 123456/1000"
+bc <<< "range=3; 123456/1000"
+bc <<< "range=4; 123456/1000"
+bc <<< "range=5; 123456/1000"
+bc <<< "range=6; 123456/1000"
+bc <<< "range=7; 123456/1000"
+bc <<< "range=8; 123456/1000"
+bc <<< "scale=0; 123456/1000"
+bc <<< "scale=1; 123456/1000"
+bc <<< "scale=-1; 123456/1000"
+date +%s%6N
+date +%s%3N
+date -d@${since} +%T
+let since /= 1000
+let since = since/1000
+(( since = since / 1000 ))
+echo "$since"
+date -d@${since} +%T
+date -u -d@${since} +'%-Mm %-Ss'
+date -u -d@${since} +'%H:%M:%s'
+date +%s:%ms
+echo $SECONDS
+date +%s%N
+date +%s
+bc <<< 10^6
+bc <<< $(date +%s%N)/10^9
+bc <<< "scale=3; $(date +%s%N)/10^9"
+num=0
+let num=0
+echo $num
+let num=num/2
+echo $NUM
+echo $num
+bc <<< "scale=3; 3124/(10^3*2)"
+. /tmp/cmdline_1623983334_user/lines.sh
+__START__=(( date +%s%N ))
+__START__=$(( date +%s%N ))
+__START__=$(( $(date +%s%N) ))
+echo $__START__
+execution_time
+execution_time -ms
+execution_time -ms -p 1
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1:}" }
+NTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}" }; ;
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]}" }
+fn() { echo "hi there" }
+fn() { echo "hi there"; }
+fn
+arr=("hi" "there")
+echo "${arr[1]}"
+echo "${arr[@]:1}"
+arr+=("buddy")
+echo "${arr[@]:1}"
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@[@]:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${@:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+INTERNAL_ERROR() { printf "Internal error encountered in function call '%s %s'" "$1" "${*:1}"; }
+INTERNAL_ERROR some_fn arg1 arg2 arg3
+echo
+echo $arr
+echo "${arr[@]}"
+clear
+echo "${arr[@]}"
+pop arr
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "${arr[@]}"
+get_element_index "there" arr
+. /tmp/cmdline_1623983334_user/lines.sh
+get_element_index "there" arr
+get_element_index "boopy" arr
+echo "hi" "there"
+echo "${boopy+x}"
+echo "${arr+x}"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -L DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+__prepend "hi there"
+__prepend "    " "hi there"
+echo __LOGILFE__
+echo $__LOGFILE__
+__LOGFILE__=$SOURCE_DIR/Shell/bash-utils/test.log
+report -L DEBUG "hi there"
+echo $__VERBOSITY__
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify DEBUG "hi there"
+echo "$__VERBOSITY__"
+. /tmp/cmdline_1623983334_user/lines.sh
+set_verbosity_global DEBUG
+echo "$__VERBOSITY__"
+notify DEBUG "hi there"
+notify -L DEBUG "hi there"
+notify -p "\t" "hi there"
+notify -p "    " "hi there"
+__prepend "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+notify -p "    " "hi there"
+notify -p "    " -L "hi there"
+echo $__VERBOSITY__
+echo $__DEFAULT_LOGLEVEL__
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+notify -p "    " -L "hi there"
+echo "$__DEFAULT_LOGLEVEL"
+__DEFAULT_LOGLEVEL__=$(( __LOGLEVELS[INFO] ))
+__VERBOSITY__= && set_verbosity_global INFO && __DEFAULT_LOGLEVEL__=$__VERBOSITY__
+echo "$__DEFAULT_LOGLEVEL"
+echo "$__DEFAULT_LOGLEVEL__"
+notify -p "    " -L "hi there"
+notify -p "    " -L "hi there" "shadoopy"
+echo $(( 1 + 3 % 2 ))
+echo $(( 1 + 3 % 3 ))
+echo $(( (1+3)%2 ))
+. /tmp/cmdline_1623983334_user/lines.sh
+echo "$__LOGFILE__"
+report -L DEBUG "testing..."
+. /tmp/cmdline_1623983334_user/lines.sh
+report -L DEBUG "testing..."
+cat $__LOGFILE__
+x=1
+let x+=1
+echo $x
+(( x+=1 ))
+echo $x
+date +%m:%s
+date +%M:%s
+now=$(date +%s%3N)
+nownow=$(date +%s%3N)
+since=$(( nownow - now ))
+date +%M:%s -d@${since}
+date +%M:%s -d@$(bc <<< "range=3; ${since}/1000")
+bc <<< "range=0; 123456/1000"
+bc <<< "range=1; 123456/1000"
+bc <<< "range=2; 123456/1000"
+bc <<< "range=3; 123456/1000"
+bc <<< "range=4; 123456/1000"
+bc <<< "range=5; 123456/1000"
+bc <<< "range=6; 123456/1000"
+bc <<< "range=7; 123456/1000"
+bc <<< "range=8; 123456/1000"
+bc <<< "scale=0; 123456/1000"
+bc <<< "scale=1; 123456/1000"
+bc <<< "scale=-1; 123456/1000"
+date +%s%6N
+date +%s%3N
+date -d@${since} +%T
+let since /= 1000
+let since = since/1000
+(( since = since / 1000 ))
+echo "$since"
+date -d@${since} +%T
+date -u -d@${since} +'%-Mm %-Ss'
+date -u -d@${since} +'%H:%M:%s'
+date +%s:%ms
+echo $SECONDS
+date +%s%N
+date +%s
+bc <<< 10^6
+bc <<< $(date +%s%N)/10^9
+bc <<< "scale=3; $(date +%s%N)/10^9"
+num=0
+let num=0
+echo $num
+let num=num/2
+echo $NUM
+echo $num
+bc <<< "scale=3; 3124/(10^3*2)"
+. /tmp/cmdline_1623983334_user/lines.sh
+__START__=(( date +%s%N ))
+__START__=$(( date +%s%N ))
+__START__=$(( $(date +%s%N) ))
+echo $__START__
+execution_time
+execution_time -ms
+execution_time -ms -p 1
+. /tmp/cmdline_1623983334_user/lines.sh
+__START__=$(( $(date +%s%N ) ))
+execution_time
+execution_time -p 1
+execution_time -p 2
+execution_time -p 4
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+echo $(( 10^4 ))
+echo $(( 10**4 ))
+echo $(( 10**9 ))
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+execution_time
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+date -d@$(( ($(date +%s%N) - __START__)/10^9 )) +%M:%s
+date -d@$(( ($(date +%s%N) - __START__)/10^9 )) +%M:%S
+date -d@$(( ($(date +%s%N) - __START__)/10^9 )) +%T
+date -u -d@$(( ($(date +%s%N) - __START__)/10^9 )) +%T
+time_since() { echo $(( $(date +%s%N) - __START )); }
+time_since
+echo $(( $(time_since) / 10**9 ))
+secs=$(( $(time_since) / 10**9 ))
+date -d@${secs} +%M:%s
+echo "$(( secs/60 )):$(( secs % 60 ))"
+time_since() { echo $(( $(date +%s%N) - __START__ )); }
+time_since
+secs=$(( $(time_since) / 10**9 ))
+echo $secs
+date -d@${secs} +%M:%s
+date -d@${secs} +%T
+date -u -d@${secs} +%T
+date -u -d@${secs} +%m:%s
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+bc <<< "scale=3; 1524.445 % 1000
+"
+bc <<< "scale=3; 1524.445 mod 1000"
+bc <<< "scale=3; 15.5 % 10"
+bc <<< "scale=3; 15 % 10"
+bc <<< "scale=3; 15 %% 10"
+bc <<< "1524.56 % 10"
+bc <<< "1524.56 % 1000"
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+. /tmp/cmdline_1623983334_user/lines.sh
+execution_time -c
+execution_time -c -p 2
+execution_time -ns
+. /tmp/cmdline_1623983334_user/lines.sh
+__LOGFILE__=$SOURCE_DIR/Shell/bash-utils/test.log 
+__LOGINDENT__=""
+log_text "hi there"
+cat $__LOGFILE__
+log_text "hi there" || echo "nope"
+cat $__LOGFILE__
+. /tmp/cmdline_1623983334_user/lines.sh
+log_text "hi there" || echo "nope"
+cat $__LOGFILE__
+__LOGINDENT__="    "
+log_text "hi there" || echo "nope"
+cat $__LOGFILE__
+exit
+. /tmp/cmdline_1623983334_user/lines.sh
+source $SOURCE_DIR/Shell/bash-utils/logging.sh
+source $SOURCE_DIR/Shell/bash-utils/parse_optsions_v2.sh
+source \$SOURCE_DIR/Shell/bash-utils/array_utils.sh
+echo $SOURCE_DIR
+source \$HOME/Source/Shell/bash-utils/colors.sh
+echo $HOME
+cd $HOME
+cd Source/Shell/bash-utils/
+ls | grep array
+source ./array_utils.sh
+source /home/user/Source/Shell/bash-utils/array_utils.sh 
+source $SOURCE_DIR/Shell/bash-utils/logging.sh
+source $SOURCE_DIR/Shell/bash-utils/parse_optsions_v2.sh
+. /tmp/cmdline_1623983334_user/lines.sh
+get_opts opts params flags -u -f -n -p --snap
+. /tmp/cmdline_1623983334_user/lines.sh
+exit
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+__DEBUG__=1
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+. /tmp/cmdline_1623983334_user/lines.sh
+log_text "hi there"
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+echo "__LOGFILE__"
+echo $__LOGFILE__
+cat $__LOGFILE__
+log_text "testing..."
+cat $__LOGFILE__
+log_text <<-LOGTEXT
+This is a text of 'heredoc' addition to the log
+LOGTEXT
+
+cat $__LOGFILE__
+echo $?
+log_text <<-LOGTEXT
+This is a text of 'heredoc' addition to the log
+LOGTEXT
+
+echo $?
+echo #!
+echo $!
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+$?
+cat $__LOGFILE__
+log_text <<< cat <<-LOGENTRY
+This is some text in a heredoc
+LOGENTRY
+
+cat $__LOGFILE__
+log_text <<< "some text" && cat $__LOGFILE__
+prepend "    " "some text"
+prepend <<-EOF
+Some heredoc text
+EOF
+
+prepend <<< "some text"
+prepend "    " <<< "some text"
+prepend "    " <<< echo "some text"
+prepend "    " <<< cat <<-LOGTEXT
+mmmmm...heredoc
+LOGTEXT
+
+prepend "    " < <<-LOGTEXT
+mmmmm...heredoc
+LOGTEXT
+prepend "    " <$__LOGFILE__
+prepend "    " <<< cat <$__LOGFILE__
+prepend "    " <<< (cat <$__LOGFILE__)
+prepend "    " <<< $(cat <$__LOGFILE__)
+prepend "    " <<< $(cat $__LOGFILE__)
+prepend "    " $(cat $__LOGFILE__)
+prepend "    " "$(cat $__LOGFILE__)"
+prepend <($__LOGFILE__)
+help printf
+exit
+Log
+type "string"
+type printf
+x="string"
+type $x
+type x
+man script
+exit
+getopt --test
+man getopt
+getopt --test > /dev/null
+echo ${PIPESTATUS[0]}
+exit
+man script
+exit
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+echo "${FUNCNAME[@]}"
+prepend "    " $__LOGFILE__
+isfile() { [[ -f "$1" ]] && echo "It's a file!" || echo "It's not a file!"; }
+isfile <<-EOF
+This is a heredoc.
+EOF
+
+echo <<< "hi"
+echo <<< cat <<-EOF
+This is also a heredoc.
+EOF
+
+cat <<-EOF >>> echo
+This is also a heredoc.
+EOF
+
+echo <<< $(cat <<-EOF
+This is also a heredoc.
+EOF)
+. /tmp/cmdline_1623983334_user/lines.sh
+use_logger "$SOURCE_DIR/Shell/bash-utils/test.log"
+cat $__LOGFILE__
+log_text "Testing logger functionality"
+cat $__LOGFILE__
+close_logentry 
+cat $__LOGFILE__
+echo $__LOGFILE__
+touch $__LOGFILE__ && echo "yep"
+$TESTDIR=$SOURCE_DIR/Shell/bash-utils/
+TESTDIR=$SOURCE_DIR/Shell/bash-utils/
+[[ -d $TESTDIR ]] && echo "yep"
+sudo chmod +x \$TESTDIR/test_script.sh 
+sudo chmod +x $TESTDIR/test_script.sh 
+$TESTDIR/test_script.sh
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo 
+echo
+delim=+++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+echo $delim
+cat $__LOGFILE__
+delim=++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+$TESTDIR/test_script.sh
+echo $delim
+cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+echo $delim && cat $__LOGFILE__
+$TESTDIR/test_script.sh
+mkdir .log
+$TESTDIR/test_script.sh
+cat .log/2021\'06\'19_21\'12\'48\'\'620.myscript.log 
+$TESTDIR/test_script.sh
+cat .log/2021\'06\'19_21\'13\'52\'\'495.myscript.log 
+$TESTDIR/test_script.sh
+cat .log/*.test_script*
+echo $SHLVL
+pstree -s $$
+pstree -s $$ | grep sh- -o | wc -l
+ptree $$
+echo $DATE
+echo $(DATE "+$Y")
+date +'%Y-%m-%d_%H-%M-%S_'
+date +'%Y-%m-%d_%H:%M:%S_'
+$SOURCE_DIR/Shell/bash-utils/test_script.sh 
+(( BOOPY++ ))
+echo $BOOPY
+man get_opt
+man get_opts
+man getopt
+$SOURCE_DIR/Shell/bash-utils/test_script.sh 
