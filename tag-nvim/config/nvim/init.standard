@@ -50,9 +50,10 @@ nnoremap <C-M-j> gT
 nnoremap <C-M-k> gt
 nnoremap <Space> :cnext
 
-" Display tabs as >-...-
+" Display tabs as >-...- and trailing whitespace using UTF center-dot
+" character
 set list
-set listchars=tab:>-
+set listchars=tab:>-,trail:·
 
 " relative line numbers
 set relativenumber
