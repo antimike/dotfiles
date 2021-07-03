@@ -47,3 +47,7 @@ alias go="go${GO_VERSION}"
 # Vim less-like pager
 alias vimpager="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
 
+# Web archive
+alias archive-server='archivebox server 0.0.0.0:8000'
+# completely optional, CLI can always be used without running a server
+# archivebox [subcommand] [--args]
