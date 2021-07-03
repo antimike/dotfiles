@@ -10,3 +10,6 @@ repos.json
 /**/cookie
 tag-viewers/w3m/cookie
 tag-crypto/config/keepassxc/keepassxc.ini
+tag-compute/sage/ipython-5.0.0/profile_default/history.sqlite
+tag-compute/sage/cache/*
+host-netbook/config/coc/list-marketplace-history.json
