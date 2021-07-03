@@ -56,3 +56,30 @@ sudo apt-get install lua5.3 -y
 sudo apt-get install screen -y
 pip3 install pyinotify --user --upgrade
 sudo apt-get install tmux -y
+sudo apt-get install dunst -y
+sudo apt-get install stylish-haskell -y
+pip3 install shallow-backup --user --upgrade
+sudo add-apt-repository ppa:x4121/ripgrep && sudo apt-get update
+sudo apt-get install ripgrep -y
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CC86BB64
+sudo add-apt-repository ppa:rmescandon/yq
+sudo apt update
+sudo apt install yq -y
+gover=1.16.5
+go get "golang.org/dl/go${gover}"
+go${gover} download
+GO111MODULE=on go get github.com/mikefarah/yq/v4
+sudo apt-get install recoll -y
+sudo add-apt-repository ppa:tmsu/ppa
+sudo apt-get update
+pip3 install dynmen --user --upgrade
+cargo install sd
+echo "deb http://ppa.launchpad.net/archivebox/archivebox/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/archivebox.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C258F79DCC02E369
+sudo apt update
+sudo apt install archivebox
+sudo python3 -m pip install --upgrade --ignore-installed archivebox   # pip needed because apt only provides a broken older version of Django
+: 1625087300:0;sudo apt-get install sshpass -y
+pip3 install pudb --user --upgrade
+cargo install taskwarrior-tui
+sudo apt-get install visidata -y

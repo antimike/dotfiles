@@ -1,1 +1,5 @@
-{"dependencies":{}}
+{
+  "dependencies": {
+    "coc-marketplace": ">=1.8.1"
+  }
+}
