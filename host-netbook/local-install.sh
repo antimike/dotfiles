@@ -91,3 +91,28 @@ sudo npm install -g doctoc
 sudo npm i -g jp-cli
 sudo npm i -g ramda-cli
 sudo npm i -g strip-json-comments-cli underscore-cli groq-cli jp-cli fx ymlx parse-columns-cli
+sudo gem install pry pry-doc
+sudo gem install coolline
+sudo gem install pry-coolline
+sudo gem install pry-theme awesome_print coderay
+sudo gem install railscasts
+sudo gem install vj
+git clone https://github.com/haskell/haskell-language-server --recurse-submodules /home/hactar/Source/Haskell/haskell-language-server
+cd /home/hactar/Source/Haskell/haskell-language-server
+stack ./install.hs hls
+sudo apt-get install nmap -y
+wget -O /home/hactar/Source/bash-scripts/update-community-cheatsheets.sh https://raw.githubusercontent.com/cheat/cheat/master/scripts/git/cheatsheets
+sudo chmod +x /home/hactar/Source/bash-scripts/update-community-cheatsheets.sh && sudo ln -s /home/hactar/Source/bash-scripts/update-community-cheatsheets.sh /usr/local/bin/update-cheatsheets
+sudo apt-get install festival festvox-us-slt-hts espeak
+sudo apt-get install flite
+cargo install hyperfine
+cargo install -f --git https://github.com/jez/as-tree
+sudo apt-get install dict dict-devil dict-elements -y
+sudo apt-get install dict-freedict-all -y
+sudo apt-get install vera -y  # Dictionary of computer-related acronyms
+sudo apt-get install dictd -y # Dict server
+sudo apt-get install dict-wn  # Elecronic lexical DB of English
+sudo apt-get install dict-vera # Same as `vera`, but in dict format
+sudo apt-get install dict-moby-thesaurus # Largest, most comprehensive thesaurus
+sudo apt-get install dict-jargon -y # The Jargon Lexicon, in dict format
+sudo apt-get install dict-gazetteer2k -y # Gazetteer DB of place-related info, in dict format
