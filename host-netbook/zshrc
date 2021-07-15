@@ -112,5 +112,15 @@ source $ZSH/oh-my-zsh.sh
 # Necessary for ~/local-aliases.sh to work properly, as it relies on hisotry expanion
 unsetopt HIST_VERIFY
 
+# This allows bypassing history logging by prepending a space to a command
+# see man zshoptions
+setopt HIST_IGNORE_SPACE
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source $SOURCE_DIR/forgit/forgit.plugin.zsh
 # eval "$(mcfly init zsh)"
+# Something to consider: Adding personal zsh completion/functions dir
+# See https://superuser.com/questions/431758/adding-a-trigger-command-to-autocomplete-function-in-zsh
+# fpath=($DOTFILES/tag-terminal/functions-personal $fpath)
+source ${SOURCE_DIR}/forgit/forgit.plugin.zsh
+_dotbare_completion_cmd
