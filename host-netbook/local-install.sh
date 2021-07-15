@@ -116,3 +116,46 @@ sudo apt-get install dict-vera # Same as `vera`, but in dict format
 sudo apt-get install dict-moby-thesaurus # Largest, most comprehensive thesaurus
 sudo apt-get install dict-jargon -y # The Jargon Lexicon, in dict format
 sudo apt-get install dict-gazetteer2k -y # Gazetteer DB of place-related info, in dict format
+
+# xsv
+cargo install xsv
+
+# jd
+go get github.com/josephburnett/jd
+
+# spruce
+# See https://github.com/geofffranks/spruce for build instructions
+go get github.com/geofffranks/spruce
+
+# zeal
+sudo apt-get install zeal -y
+
+# q: Query structured text with SQL
+# Download RPM / DEB at http://harelba.github.io/q/
+sudo dpkg -i $HOME/Downloads/q-text-as-data_2.0.19-2_amd64.deb
+
+# TODO: Review the following installer script for Tizonia
+curl -kL https://github.com/tizonia/tizonia-openmax-il/raw/master/tools/install.sh \
+    --output $HOME/Downloads/tizonia-install.sh
+
+# patat
+sudo apt-get install patat -y
+
+# Dependencies for googlit
+# See https://github.com/peterjschroeder/googlit
+sudo apt-get install antiword -y
+sudo apt-get install fim -y
+sudo apt-get install timg -y
+pip3 install MarkdownTools --user --upgrade
+gem install mdl # Markdown linter
+
+# Repo for bashblog, a dead-simple Markdown-based blogging script
+git clone https://github.com/cfenollosa/bashblog $SOURCE_DIR/bashblog
+
+# Replace Regolith's rofication system with dunst
+sudo apt-get install dunst -y
+sudo apt purge regolith-rofication
+
+# forgit: FZF-based git management
+git clone ${SOURCE_DIR}/forgit https://github.com/wfxr/forgit
+sed -i '/$/asource ${SOURCE_DIR}/forgit/forgit.plugin.zsh' "${ZSHRC}"
