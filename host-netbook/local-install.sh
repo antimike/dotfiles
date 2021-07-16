@@ -159,3 +159,337 @@ sudo apt purge regolith-rofication
 # forgit: FZF-based git management
 git clone ${SOURCE_DIR}/forgit https://github.com/wfxr/forgit
 sed -i '/$/asource ${SOURCE_DIR}/forgit/forgit.plugin.zsh' "${ZSHRC}"
+
+# dotbare: Dotfiles management
+git clone https://github.com/kazhala/dotbare.git ${ZSH}/custom/plugins/dotbare
+cd ${DOTFILES} && git add "$(realpath ${ZSHRC})" && {
+	git commit -m "Backup .zshrc before sed command"
+}
+sed -i '/plugins\s*\=\s*([\W]\+)/s/\s{0,1})/ dotbare )/' $ZSHRC
+cat <<-"DOTBARE_CONFIG" >>$CONFIG
+
+	# Dotbare config
+	export DOTBARE_DIR="${DOTFILES}/.git"
+	export DOTBARE_TREE="$DOTFILES"
+	# Defaults---see FZF docs for more options
+	export DOTBARE_KEY="
+	  --bind=alt-a:toggle-all       # toggle all selection
+	  --bind=alt-j:jump             # label jump mode, sort of like vim-easymotion
+	  --bind=alt-0:top              # set cursor back to top
+	  --bind=alt-s:toggle-sort      # toggle sorting
+	  --bind=alt-t:toggle-preview   # toggle preview
+	"
+	export DOTBARE_DIFF_PAGER="delta"
+	DOTBARE_CONFIG
+# Zsh completion for dotbare
+cat <<-"DOTBARE_COMPLETION" >>$ZSHRC
+	_dotbare_completion_cmd
+	DOTBARE_COMPLETION
+
+# Improved Zsh vi-mode plugin
+git clone https://github.com/jeffreytse/zsh-vi-mode \
+  $ZSH/custom/plugins/zsh-vi-mode
+cd $DOTFILES && git add "$(realpath $ZSHRC)" && {
+	git commit -m "Backup .zshrc before adding zsh-vi-mode plugin"
+}
+sed -i '/plugins\s*\=/s/\s{0,1})/ zsh-vi-mode )/' $ZSHRC
+cat <<-"ZVM_INIT" >>$CONFIG
+	
+	function zvm_init() {
+		[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+	}
+	ZVM_INIT
+cat <<-"ZVM_INIT" >>$ZSHRC
+	
+	zvm_after_init_commands+=(zvm_init)
+	ZVM_INIT
+
+# Suckless terminal
+# Useful for FZF popups, e.g.
+sudo apt-get install stterm
+
+# Bibtex source for FZF
+go get github.com/msprev/fzf-bibtex/cmd/bibtex-ls
+go install github.com/msprev/fzf-bibtex/cmd/bibtex-ls
+go install github.com/msprev/fzf-bibtex/cmd/bibtex-markdown
+go install github.com/msprev/fzf-bibtex/cmd/bibtex-cite
+cat <<-"CONFIG" >>$CONFIG
+	
+	# Bibtex source for FZF
+	export FZF_BIBTEX_CACHEDIR="$HOME/.fzf_bibtex_cache"
+	export FZF_BIBTEX_SOURCES="$PAPIS_LIBRARY/library.bib"
+	CONFIG
+# Vim integration for FZF bibtex source
+config_file="${DOTFILES}/tag-nvim/config/nvim/init.fzf-bibtex.vim"
+cat <<-"FZF_BIBTEX" >>"${config_file}"
+	" These should already be set
+	" let $FZF_BIBTEX_CACHEDIR = '${cache_dir}'
+	" let $FZF_BIBTEX_SOURCES = '${bibtex_file}'
+	
+	function! s:bibtex_cite_sink(lines)
+	    let r=system("bibtex-cite ", a:lines)
+	    execute ':normal! a' . r
+	endfunction
+	
+	function! s:bibtex_markdown_sink(lines)
+	    let r=system("bibtex-markdown ", a:lines)
+	    execute ':normal! a' . r
+	endfunction
+	
+	nnoremap <silent> <leader>c :call fzf#run({
+	                        \ 'source': 'bibtex-ls',
+	                        \ 'sink*': function('<sid>bibtex_cite_sink'),
+	                        \ 'up': '40%',
+	                        \ 'options': '--ansi --layout=reverse-list --multi --prompt "Cite> "'})<CR>
+	
+	nnoremap <silent> <leader>m :call fzf#run({
+	                        \ 'source': 'bibtex-ls',
+	                        \ 'sink*': function('<sid>bibtex_markdown_sink'),
+	                        \ 'up': '40%',
+	                        \ 'options': '--ansi --layout=reverse-list --multi --prompt "Markdown> "'})<CR>
+	FZF_BIBTEX
+
+# Fast-p, a FZF-based PDF opener (!)
+go get github.com/bellecp/fast-p
+# Convenience function to open PDF from terminal
+# TODO: Consider an i3 keybinding / hotkey instead
+# TODO: Check for zsh compatibility
+script="${SOURCE_DIR}/bash-scripts/search-open-pdf"
+cat <<-"BASH" >>"$script"
+	#!/bin/bash
+	
+	p () {
+	    open=xdg-open   # this will open pdf file withthe default PDF viewer on KDE, xfce, LXDE and perhaps on other desktops.
+	
+	    ag -U -g ".pdf$" \
+	    | fast-p \
+	    | fzf --read0 --reverse -e -d $'\t'  \
+	        --preview-window down:80% --preview '
+	            v=$(echo {q} | tr " " "|"); 
+	            echo -e {1}"\n"{2} | grep -E "^|$v" -i --color=always;
+	        ' \
+	    | cut -z -f 1 -d $'\t' | tr -d '\n' | xargs -r --null $open > /dev/null 2> /dev/null
+	}
+	BASH
+sudo ln -s "${script}" /usr/local/bin/search-open-pdf && sudo chmod +x "${script}"
+cat <<-"ALIAS" >>$ALIAS
+	
+	# FZF-based PDF search and open
+	alias p='search-open-pdf'
+	ALIAS
+
+# Marker, a command bookmarking and templating utility written in Python
+git clone --depth=1 https://github.com/pindexis/marker "${SOURCE_DIR}/Python/marker"
+        [[ $? -eq 0 ]] && "${SOURCE_DIR}/marker/install.py}"
+
+# NPF, a FZF source for NPM packages
+sudo npm install -g npm-fzf
+
+# fasd, a fuzzy "autojump"-like tool based on a frecency metric
+sudo apt-get install fasd -y
+# TODO: Determine if this conflicts with any other Zsh plugins
+echo 'eval "$(fasd --init auto)"' >>$ZSHRC
+cat <<-"CHEAT" >>$CHEAT/personal/fasd
+	# list frecent files matching foo
+	f foo           
+
+	# list frecent files and directories matching foo and bar
+	a foo bar       
+
+	# list frecent files that ends in js
+	f js$           
+
+	# run vim on the most frecent file matching foo
+	f -e vim foo    
+
+	# run mplayer on the most frecent file matching bar
+	mplayer `f bar` 
+
+	# cd into the most frecent directory matching foo
+	z foo           
+
+	# interactively select a file matching pdf and launch `open`
+	open `sf pdf`   
+	CHEAT
+
+# Github repo for `inxi`, a CLI system information tool
+# Works with FZF
+git clone https://github.com/smxi/inxi --branch master --single-branch
+
+# Greenclip, a clipboard manager written in Haskell and usable with FZF
+greenclip_dir="${SOURCE_DIR}/Haskell/greenclip"
+git clone https://github.com/erebe/greenclip "${greenclip_dir}"
+cd "${greenclip_dir}" && stack init && stack install
+
+# BATS: Bash/Unix testing framework
+bats_dir="${SOURCE_DIR}/bats"
+git clone https://github.com/bats-core/bats-core "$bats_dir"
+cd "${bats_dir}" && echo "Run installer script?"
+bats_install_opts=()
+bats_install_opts+=( "Yes, go ahead and run 'install.sh'" )
+bats_install_opts+=( "Show me what's in 'install.sh' first" )
+bats_install_opts+=( "Don't run the install script!" )
+select opt in "${bats_install_opts[@]}"; do
+    case "$REPLY" in
+        1) ./install.sh; break ;;
+        2) bat ./install.sh; continue ;;
+        3) echo "Cancelling" >&2 && break ;;
+        *) echo "Invalid selection---try again" ;;
+    esac
+done
+
+# pkm: shell wrapper for various package managers
+pkm_dir="${SOURCE_DIR}/pkm"
+git clone https://github.com/silvernode/pkm "$pkm_dir"
+
+# pipe-viewer: Youtube FZF client written in Perl
+pviewer_dir="${SOURCE_DIR}/pipe-viewer"
+git clone https://github.com/trizen/pipe-viewer "$pviewer_dir"
+cd "$pviewer_dir" && perl Build.PL
+pviewer_choices=(
+    "Run installer"
+    "Skip installation"
+)
+select opt in "${pviewer_choices[@]}"; do
+    case "$REPLY" in
+        1) sudo ./Build installdeps && sudo ./Build install; break ;;
+        2) break ;;
+        *) echo "Invalid selection---try again" && continue ;;
+    esac
+done
+
+# Graphene: A text-based browser
+graphene_dir="${SOURCE_DIR}/graphene"
+git clone https://github.com/atsepkov/Graphene "$graphene_dir"
+sudo npm i -g puppeteer     # For crawling websites
+sudo ln -s "${graphene_dir}/graphene" /usr/local/bin/graphene
+
+# pick: fuzzy finder
+if command -v apt; then
+    sudo apt-get install pick -y
+elif command -v dnf; then
+    sudo dnf install -y dnf-plugins-core && \
+    sudo dnf copr enable -y freedomben/pick && \
+    sudo dnf install -y pick
+fi
+
+# fzy: Claims to be faster than FZF
+if command -v apt; then
+    sudo apt-get install fzy -y
+elif command -v dnf; then
+    fzy_dir="${SOURCE_DIR}/fzy"
+    git clone https://github.com/jhawthorn/fzy "$fzy_dir"
+    fzy_opts=(
+        "Build and install fzy"
+        "Skip installation for now"
+    )
+    select opt in "${fzy_opts[@]}"; do
+        case "$REPLY" in
+            1)
+                echo "Building and installing fzy"
+                cd "$fzy_dir" && make
+                sudo make install
+                break ;;
+            2)
+                echo "Skipping fzy installation" >&2
+                break ;;
+        esac
+    done
+fi
+
+# vim-picker: Alternative to vim-fzf
+vimpicker_ghub="srstevenson/vim-picker"
+read -n 1 -sp \
+    "Press [p/P] to preview changes to ${NVIM_PLUGINS}, [y/Y] to proceed " \
+    && echo
+case "$REPLY" in
+    [pP])
+        sed -e "/call plug#end/iPlug '${vimpicker_ghub}'" \
+            "${NVIM_PLUGINS}" | bat
+        continue ;;
+    [yY])
+        sed -i "/call plug#end/iPlug 'srstevenson/vim-picker'" \
+            "${NVIM_PLUGINS}"
+        continue ;;
+    *)
+        echo "Invalid choice, please try again" >&2
+        ;;
+esac
+cat <<-"CONFIG" >>"${DOTFILES}/tag-nvim/config/nvim/init.vim-picker.vim"
+	nmap <silent> qpe <Plug>(PickerEdit)
+	nmap <silent> qps <Plug>(PickerSplit)
+	nmap <silent> qpt <Plug>(PickerTabedit)
+	nmap <silent> qpv <Plug>(PickerVsplit)
+	nmap <silent> qpb <Plug>(PickerBuffer)
+	nmap <silent> qpBs <Plug>(PickerBufferSplit)
+	nmap <silent> qpBv <Plug>(PickerBufferVsplit)
+	nmap <silent> qpT <Plug>(PickerTag)
+	" nmap <silent> qp <Plug>(PickerStag)
+	nmap <silent> qpBT <Plug>(PickerBufferTag)
+	nmap <silent> qpH <Plug>(PickerHelp)
+	CONFIG
+sed -i -e '$isource $DOTFILES/tag-nvim/config/nvim/init.vim-picker.vim' \
+    "$NVIM_INIT"
+
+# sad: interactive batch editor based on sd
+curl https://github.com/ms-jpq/sad/releases/download/ci_0.4.8_2021-06-20_20-59/x86_64-unknown-linux-gnu.deb -o "${HOME}/Downloads/sad-installer.deb"
+sudo dpkg -i "${HOME}/Downloads/sad-installer.deb"
+
+# fuzzy-fs: FZF-based fuzzy filesystem
+fuzzyfs_dir="${SOURCE_DIR}/fuzzy-fs"
+git clone https://github.com/SleepyBag/fuzzy-fs "$fuzzyfs_dir"
+sedcmd="\$asource '${fuzzfs_dir}/fuzzy-fs'"
+while :; do
+    read -n 1 -sp "Edit sed command and preview changes to .zshrc?" && echo
+    case "$REPLY" in
+        [yY])
+            read -r -d '' sedcmd < <(echo "$sedcmd" | vipe)
+            sed -e "$sedcmd" "$ZSHRC" | bat ;;
+        [nN])
+            sed -i -e "$sedcmd" "$ZSHRC" || $EDITOR "$ZSHRC"
+            break ;;
+    esac
+done
+
+# Github repo: interactively
+# Uses FZF to interactively run and edit commands
+git clone https://github.com/bigH/interactively "${SOURCE_DIR}/FZF-scripts/interactively"
+
+# fzf-quickfix: Vim plugin allowing FZF searching of quickfix list
+sedcmd="/call plug#end/iPlug 'fszymanski/fzf-quickfix', {'on': 'Quickfix'}"
+while :; do
+    read -n 1 -sp "Edit sed command and preview changes to $NVIM_PLUGINS? " \
+        && echo
+    case "$REPLY" in
+        [yY])
+            read -r -d '' sedcmd < <(echo $sedcmd | vipe)
+            sed -e "$sedcmd" "$NVIM_PLUGINS" | bat ;;
+        [nN])
+            sed -i -e "$sedcmd" "$NVIM_PLUGINS" || nvim "$NVIM_PLUGINS"
+            break ;;
+    esac
+done
+qfix_config="${DOTFILES}/tag-nvim/config/nvim/init.quickfix.vim"
+cat <<-"QFIX_CONFIG" >>"${qfix_config}"
+	nnoremap ,q :Quickfix<CR>
+	nnoremap ,Q :Quickfix!<CR>
+	QFIX_CONFIG
+sed -i "$(printf '$isource %s' "${qfix_config}")" "$NVIM_INIT"
+
+# `par` utility
+sudo apt-get install par -y
+
+# atool: One tool to rule them all for file archives
+sudo apt-get install atool -y
+
+# util-linux version of `column` command
+# Much better than the BSD version installed on Ubuntu 18.04 by default
+cd ~/Downloads/
+# wget https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.35/util-linux-2.35-rc1.tar.gz
+aunpack util-linux-2.35-rc1.tar.gz
+cd util-linux-2.35-rc1/
+./configure
+make column
+sudo cp .libs/column /usr/bin/column2
+cd ..
+rm -rf util-linux-2.35-rc1*
