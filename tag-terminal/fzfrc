@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export FZF_DEFAULT_OPTS='-m --height 50% --border'
+export FZF_DEFAULT_OPTS='-m --height 50% --border --ansi'
 if type fd &> /dev/null; then
     export FZF_DEFAULT_COMMAND="fd --type file --follow --hidden --color=always"
 elif type rg &> /dev/null; then
