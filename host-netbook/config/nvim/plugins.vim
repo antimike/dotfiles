@@ -82,6 +82,7 @@ Plug 'Yggdroot/LeaderF'
 Plug 'justinmk/vim-sneak'
 Plug 'sbdchd/neoformat'
 Plug 'lambdalisue/vim-backslash'
+let g:vim_backslash_disable_default_mappings=1
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'neomake/neomake'
 
@@ -210,8 +211,11 @@ Plug 'vimoutliner/vimoutliner'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim'
-Plug 'vimwiki/vimwiki'
+" Plug 'vimwiki/vimwiki'
 Plug 'vim-voom/VOom'
 Plug 'jalvesaq/zotcite'
 Plug 'holomorph/vim-freefem'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+Plug 'srstevenson/vim-picker'
+Plug 'fszymanski/fzf-quickfix', {'on': 'Quickfix'}
 call plug#end()
