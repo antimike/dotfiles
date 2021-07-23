@@ -337,3 +337,288 @@ ERROR MSG: SIGINT
       RequestsDependencyWarning)
     Variety is already running. Sending the command to the running instance.
 
+[Sat Jul  3 16:51:17 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/M31_Abolfath_3000.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sat Jul  3 16:54:05 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527880212_6160c0dfdf_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sat Jul  3 20:46:41 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527883686_cc7131bf37_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sat Jul  3 20:46:47 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527883686_cc7131bf37_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Mon Jul  5 12:50:21 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/Walk_Milkyway.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Mon Jul  5 23:56:28 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527946418_2a60508dff_o.jpg'
+[Mon Jul  5 23:56:28 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527946418_2a60508dff_o.jpg' to favorites
+    Running command 'variety --trash':
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Mon Jul  5 23:56:34 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527791418_608746f18c_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Mon Jul  5 23:56:59 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527791418_608746f18c_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul  6 00:06:00 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Favorites/IMG_3915.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Wed Jul  7 19:33:31 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Favorites/7527885694_edd352158c_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sun Jul 11 16:07:40 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/nasa_apod/LightningVolcano_Montufar_1440.jpg')
+[Sun Jul 11 16:07:40 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/LightningVolcano_Montufar_1440.jpg' to favorites
+    Running command 'variety --selector':
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sun Jul 11 16:07:41 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/LightningVolcano_Montufar_1440.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sun Jul 11 16:07:46 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/LightningVolcano_Montufar_1440.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Sun Jul 11 18:05:34 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/SaturnAndMoons_Ranjbaran_2692.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Mon Jul 12 15:18:18 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/saturnplane_cassini_1004.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 13 15:15:39 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527829258_631f4e73ec_o.jpg' to favorites
+    Running command 'variety --favorite':
+[Tue Jul 13 15:15:39 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527829258_631f4e73ec_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 13 15:15:40 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527829258_631f4e73ec_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 13 15:16:10 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527939300_a331fe7166_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 13 20:32:20 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/Medulla_Croman_1200.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 13 20:32:22 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/Medulla_Croman_1200.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Thu Jul 15 02:14:12 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527826976_54df43ce4f_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Thu Jul 15 11:49:23 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527791114_5a1cb36d20_o.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Thu Jul 15 17:55:40 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper ''
+    Running command 'variety --trash':
+    Unable to init server: Could not connect: Connection refused
+    Unable to init server: Could not connect: Connection refused
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    
+    (variety:17702): Gtk-CRITICAL **: 17:55:41.366: gtk_clipboard_get_for_display: assertion 'display != NULL' failed
+    Traceback (most recent call last):
+      File "/usr/bin/variety", line 39, in <module>
+        variety.main()
+      File "/usr/lib/python2.7/dist-packages/variety/__init__.py", line 218, in main
+        window.start(arguments)
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 159, in start
+        self.register_clipboard()
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 341, in register_clipboard
+        self.clipboard.connect("owner-change", clipboard_changed)
+    AttributeError: 'NoneType' object has no attribute 'connect'
+
+[Thu Jul 15 19:06:53 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper '/home/hactar/.config/variety/Favorites/This_Is_Bionic_Beaver_by_Pierre_Cante.jpg'
+[Thu Jul 15 19:06:53 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Favorites/This_Is_Bionic_Beaver_by_Pierre_Cante.jpg')
+    Running command 'variety --trash':
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Thu Jul 15 22:35:37 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/JupiterShadow_JunoGill_3535.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Thu Jul 15 23:35:40 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/MeteorStreak_Kuszaj_5341.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Fri Jul 16 10:12:36 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/demo-2_crewedlaunchIR.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Fri Jul 16 21:25:30 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '' to favorites
+    Running command 'variety --favorite':
+    Unable to init server: Could not connect: Connection refused
+    Unable to init server: Could not connect: Connection refused
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    
+    (variety:5811): Gtk-CRITICAL **: 21:25:31.082: gtk_clipboard_get_for_display: assertion 'display != NULL' failed
+    Traceback (most recent call last):
+      File "/usr/bin/variety", line 39, in <module>
+        variety.main()
+      File "/usr/lib/python2.7/dist-packages/variety/__init__.py", line 218, in main
+        window.start(arguments)
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 159, in start
+        self.register_clipboard()
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 341, in register_clipboard
+        self.clipboard.connect("owner-change", clipboard_changed)
+    AttributeError: 'NoneType' object has no attribute 'connect'
+
+[Sat Jul 17 11:03:07 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527885988_9a480cb101_o.jpg'
+[Sat Jul 17 11:03:07 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527885988_9a480cb101_o.jpg' to favorites
+    Running command 'variety --trash':
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 20 09:33:47 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527891322_0860e90255_o.jpg')
+[Tue Jul 20 09:33:47 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527891322_0860e90255_o.jpg'
+    Running command 'variety --trash':
+    Running command 'variety --selector':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Tue Jul 20 10:34:50 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/NGC1055_MP.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Fri Jul 23 00:52:29 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '' to favorites
+    Running command 'variety --favorite':
+    Unable to init server: Could not connect: Connection refused
+    Unable to init server: Could not connect: Connection refused
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    
+    (variety:20937): Gtk-CRITICAL **: 00:52:30.591: gtk_clipboard_get_for_display: assertion 'display != NULL' failed
+    Traceback (most recent call last):
+      File "/usr/bin/variety", line 39, in <module>
+        variety.main()
+      File "/usr/lib/python2.7/dist-packages/variety/__init__.py", line 218, in main
+        window.start(arguments)
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 159, in start
+        self.register_clipboard()
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 341, in register_clipboard
+        self.clipboard.connect("owner-change", clipboard_changed)
+    AttributeError: 'NoneType' object has no attribute 'connect'
+
+[Fri Jul 23 08:29:11 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527830888_584bb95446_o.jpg' to favorites
+[Fri Jul 23 08:29:11 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527830888_584bb95446_o.jpg')
+    Running command 'variety --selector':
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+[Fri Jul 23 08:34:58 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/usr/share/backgrounds/El_Haouaria_by_Nusi_Nusi.jpg' to favorites
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
