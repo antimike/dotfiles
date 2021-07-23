@@ -73,9 +73,9 @@ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "spaceship" )
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
+# Example format: plugins=(rails git textmate ruby lighthouse zsh-vi-mode)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize command-not-found copybuffer copydir copyfile dnf extract github git-prompt pip safe-paste sudo taskwarrior themes vi-mode web-search z zsh_reload zsh-syntax-highlighting colored-man-pages)
+plugins=(fzf vi-mode zsh-vi-mode git colorize command-not-found copybuffer copydir copyfile dnf extract github git-prompt pip safe-paste sudo taskwarrior themes web-search autojump zsh_reload zsh-syntax-highlighting colored-man-pages dotbare z)
 # Plugins to consider:
 # globalias (globbing triggered by <space>)
 # thefuck (corrects previous command with Esc-Esc; conflicts with 'sudo' plugin)
@@ -116,7 +116,6 @@ unsetopt HIST_VERIFY
 # see man zshoptions
 setopt HIST_IGNORE_SPACE
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $SOURCE_DIR/forgit/forgit.plugin.zsh
 # eval "$(mcfly init zsh)"
 # Something to consider: Adding personal zsh completion/functions dir
@@ -124,3 +123,10 @@ source $SOURCE_DIR/forgit/forgit.plugin.zsh
 # fpath=($DOTFILES/tag-terminal/functions-personal $fpath)
 source ${SOURCE_DIR}/forgit/forgit.plugin.zsh
 _dotbare_completion_cmd
+
+zvm_after_init_commands+=(zvm_init zvm_init_fzf)
+[[ -s "$MARKER_SOURCE" ]] && source "$MARKER_SOURCE"
+eval "$(fasd --init auto)"
+source "$SOURCE_DIR/fuzzy-fs/fuzzy-fs"
+source /usr/share/autojump/autojump.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
