@@ -1,50 +1,50 @@
-search include
-search compute
-search py
-search has
-search inst
-delete
-mkdir Rust
-search rust
-mkdir C
-search oil
-search bash
-search pack
-search most
-search package
-search hyper
-search alias
-cd $GOPATH
-cd /home/user/go
-cd /home/hactar/go
-open_with 
-search yq
-search q
-search local
-search shallow
-search backup
-touch
-search recoll
-search log
-touch index.log
-cd /usr/local/share/fonts
-cd /usr/share
-search nerd
-cd $HOME/.local/share/fonts
-cd $HOME
-cd 
-search font
-search python
-search zz
-search read
-search arch
-mkdir Archivebox
-search jup
-search buku
-search shal
-search zshrc
+touch npm.sh
+touch zsh.sh
+info.yaml
+touch info.yaml
+touch get-info.sh
+touch 
+mkdir installer
+rename installers
+mkdir templates
+mkdir installed
+touch h
+touch helptext.md
+rename data
+mkdir vim
+touch queue.json
+rename queue.csv
+rename graph-DB-ideas.md
 search 
-search nvim
-search coc
-search net
-search hask
+search log
+search include
+search dunst
+mkdir examples
+mkdir papis
+mkdir utils
+mkdir include
+search queue
+search install
+mkdir misc
+mkdir antiscripts
+search fzf
+search FZF
+search pap
+mkdir network
+mkdir notify
+
+rename IO
+mkdir dev
+rename pitch.tsv
+touch castle.tsv
+rename castle.txt
+touch music-parser.sh
+touch bach.txt
+touch x-files.txt
+touch jurassic-park.txt
+search jur
+touch mozart-40.txt
+search music
+search util
+search dict
+delete

@@ -2,6 +2,6 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 packages.microsoft.com	0	1	1584740980	31536000
-raw.githubusercontent.com	0	0	1594570564	31536000
+raw.githubusercontent.com	0	0	1625533115	31536000
 api.github.com	0	1	1594570565	31536000
 github.com	0	1	1594570565	31536000

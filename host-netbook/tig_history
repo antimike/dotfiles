@@ -69,7 +69,6 @@ sh
 !git add tag-nvim
 alias
 tldr
-!git add host-netbook
 rego
 !git add tag-regolith
 variety
@@ -82,7 +81,18 @@ init.stand
 color
 standard
 sage
-install
 vimpag
 !git add host-netbook/vim host-netbook/config/nvim/Sessions
 !git add .
+cheat
+git
+fzfrc
+config
+dotbare
+zshrc
+install
+!git add host-netbook/vim
+!git add host-netbook/config/nvim/Sessions
+remove
+calcurse
+!git add host-netbook
