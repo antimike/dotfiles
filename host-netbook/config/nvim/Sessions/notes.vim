@@ -1,6 +1,6 @@
-" ~/.config/nvim/Sessions/notes.vim:
+" ~/.dotfiles/host-netbook/config/nvim/Sessions/notes.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 06 April 2021 at 10:03:53.
+" Created by session.vim 2.13.1 on 16 July 2021 at 21:24:48.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'molokai' | colorscheme molokai | endif
+if !exists('g:colors_name') || g:colors_name != 'apprentice' | colorscheme apprentice | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -21,15 +21,14 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +18 ~/Documents/spring-2021/EM_II/Notes/04022021/04022021.tex
-badd +7 tag-nvim/config/nvim/UltiSnips/tex/annotations.snippets
-badd +33 tag-nvim/config/nvim/UltiSnips/tex/symbol-modifiers.snippets
-badd +1 ~/Source/python-github/Utilities/snippet_utils.py
-badd +1 ~/.config/nvim/vim-plug/ultisnips/doc/UltiSnips.txt
+badd +1 ~/Notes/graph\ DB\ ideas.txt
+badd +4 ~/Notes/graph-DB-ideas.md
+badd +223 ~/.dotfiles/host-work/config/nvim/plugins.vim
+badd +212 ~/.dotfiles/host-netbook/config/nvim/plugins.vim
 argglobal
 %argdel
-set stal=2
-edit ~/Documents/spring-2021/EM_II/Notes/04022021/04022021.tex
+$argadd ~/Notes/graph\ DB\ ideas.txt
+edit ~/Notes/graph-DB-ideas.md
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -40,108 +39,20 @@ set winminwidth=0
 set winwidth=1
 argglobal
 setlocal fdm=expr
-setlocal fde=vimtex#fold#level(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-14
-silent! normal! zo
-18
-silent! normal! zo
-let s:l = 19 - ((4 * winheight(0) + 6) / 12)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-19
-normal! 0
-lcd ~/Documents/spring-2021/EM_II/Notes/04022021
-tabedit ~/.dotfiles/tag-nvim/config/nvim/UltiSnips/tex/symbol-modifiers.snippets
-set splitbelow splitright
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-setlocal fdm=syntax
-setlocal fde=0
+setlocal fde=Foldexpr_markdown(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
 setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 42 - ((8 * winheight(0) + 6) / 12)
+let s:l = 17 - ((16 * winheight(0) + 17) / 35)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-42
-normal! 02|
-lcd ~/Documents/spring-2021/EM_II/Notes/04022021
-tabedit ~/Source/python-github/Utilities/snippet_utils.py
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-set nosplitbelow
-set nosplitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-exe 'vert 1resize ' . ((&columns * 116 + 96) / 193)
-exe 'vert 2resize ' . ((&columns * 76 + 96) / 193)
-argglobal
-setlocal fdm=expr
-setlocal fde=SimpylFold#FoldExpr(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-1
-silent! normal! zo
-13
-silent! normal! zo
-let s:l = 23 - ((6 * winheight(0) + 6) / 12)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-23
-normal! 010|
-lcd ~/Documents/spring-2021/EM_II/Notes/04022021
-wincmd w
-argglobal
-if bufexists("~/.config/nvim/vim-plug/ultisnips/doc/UltiSnips.txt") | buffer ~/.config/nvim/vim-plug/ultisnips/doc/UltiSnips.txt | else | edit ~/.config/nvim/vim-plug/ultisnips/doc/UltiSnips.txt | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal nofen
-silent! normal! zE
-let s:l = 1448 - ((1 * winheight(0) + 6) / 12)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1448
-normal! 0
-lcd ~/Documents/spring-2021/EM_II/Notes/04022021
-wincmd w
-exe 'vert 1resize ' . ((&columns * 116 + 96) / 193)
-exe 'vert 2resize ' . ((&columns * 76 + 96) / 193)
-tabnext 3
-set stal=1
+17
+normal! 0213|
+tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif
@@ -158,7 +69,7 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
-tabnext 3
+tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
 if !getbufvar(s:wipebuf, '&modified')

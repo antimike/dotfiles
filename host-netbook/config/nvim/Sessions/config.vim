@@ -1,6 +1,6 @@
 " ~/.dotfiles/host-netbook/config/nvim/Sessions/config.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 16 June 2021 at 14:40:43.
+" Created by session.vim 2.13.1 on 15 July 2021 at 17:50:54.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -10,7 +10,7 @@ if exists('g:did_indent_on') != 1 | filetype indent on | endif
 if &background != 'dark'
 	set background=dark
 endif
-if !exists('g:colors_name') || g:colors_name != 'molokai' | colorscheme molokai | endif
+if !exists('g:colors_name') || g:colors_name != 'apprentice' | colorscheme apprentice | endif
 call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
@@ -21,11 +21,14 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 host-netbook/config/nvim/init.vim
-badd +50 host-work/config/nvim/init.vim
+badd +75 ~/.local.config
+badd +5 tag-nvim/config/nvim/init.bash.vim
+badd +8 tag-terminal/fzfrc
+badd +98 host-work/bashrc
 argglobal
 %argdel
-edit host-netbook/config/nvim/init.vim
+$argadd ~/.local.config
+edit tag-terminal/fzfrc
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -44,12 +47,13 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 4 - ((3 * winheight(0) + 15) / 30)
+let s:l = 11 - ((2 * winheight(0) + 5) / 10)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-4
-normal! 0
+11
+normal! 02|
+lcd ~/.dotfiles
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
