@@ -31,10 +31,12 @@ mkdir Practice
 touch project_euler.hs
 search comp
 search ghc
+search work
 search nvim
 search cmd
 search has
 search disp
+delete
 shell qvm-copy %s
 search 
 search shell
@@ -43,8 +45,6 @@ search go
 search pec
 mkdir peco
 search make
-search zshrc
-search config
-search work
-search install
-delete
+search term
+search buku
+mkdir C
