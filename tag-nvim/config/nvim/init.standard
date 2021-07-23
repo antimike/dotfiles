@@ -55,5 +55,9 @@ nnoremap <Space> :cnext
 set list
 set listchars=tab:>-,trail:·
 
+" Tabstop
+" TODO: If I don't include this, something is setting tabstop=2
+set tabstop=8
+
 " relative line numbers
 set relativenumber
