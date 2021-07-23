@@ -30,3 +30,4 @@ general.systemdialogs=yes
 notification.command=notify-send 'Upcoming Appointment' '\a'
 notification.notifyall=all
 notification.warning=300
+general.progressbar=yes
