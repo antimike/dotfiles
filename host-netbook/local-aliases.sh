@@ -20,8 +20,8 @@ alias mupdf='mupdf-gl'
 alias notes='terminal_velocity'
 
 # Grep/ripgrep/silver-searcher with colors for piping
-alias grepc='grep --color-always'
-alias rgc='rg --color-always'
+alias grepc='grep --color=always'
+alias rgc='rg --color=always'
 # agc='ag --color-always'
 
 # Terminal applications
@@ -51,3 +51,10 @@ alias vimpager="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu 
 alias archive-server='archivebox server 0.0.0.0:8000'
 # completely optional, CLI can always be used without running a server
 # archivebox [subcommand] [--args]
+festival_say() {
+    festival -b '(voice_cmu_us_slt_arctic_hts)' \
+        "(SayText 'zle_bracketed_paste')"
+}
+
+# FZF-based PDF search and open
+alias p='search-open-pdf'
