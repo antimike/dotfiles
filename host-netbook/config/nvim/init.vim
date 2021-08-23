@@ -53,3 +53,5 @@ source $DOTFILES/tag-nvim/config/nvim/init.whitespace.vim
 source $DOTFILES/tag-nvim/config/nvim/init.vim-picker.vim
 source /home/hactar/.dotfiles/tag-nvim/config/nvim/init.quickfix.vim
 hi clear Conceal
+
+" source $DOTFILES/tag-nvim/config/nvim/secure-edit.vim
