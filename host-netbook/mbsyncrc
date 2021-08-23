@@ -1,33 +1,33 @@
 # vim:filetype=conf
 # vim:syntax=conf
 ##########
-#IMAPAccount professional
-#Host imap.gmail.com
-#Port 993
-#User antihaynes@gmail.com
-##PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
-#PassCmd "gpg -q --no-tty --batch -d ~/professional-appkey.gpg"
-#SSLType IMAPS
-#AuthMechs LOGIN
-##UseIMAPS yes
+IMAPAccount professional
+Host imap.gmail.com
+Port 993
+User antihaynes@gmail.com
+#PassCmd "qubes-gpg-client -q --no-tty --batch -d ~/.mail-professional-appkey.gpg"
+PassCmd "gpg -q --no-tty --batch -d ~/.professional-appkey.gpg"
+SSLType IMAPS
+AuthMechs LOGIN
+#UseIMAPS yes
 
-#IMAPStore professional-remote
-#Account professional
+IMAPStore professional-remote
+Account professional
 
-#MaildirStore professional-local
-#Subfolders Verbatim
-#Path ~/mail/professional/
-#Inbox ~/mail/professional/Inbox
+MaildirStore professional-local
+Subfolders Verbatim
+Path ~/mail/professional/
+Inbox ~/mail/professional/Inbox
 
-#Channel professional
-#Master :professional-remote:
-#Slave :professional-local:
-##Patterns * !Archives !Lists
-#Patterns *
+Channel professional
+Master :professional-remote:
+Slave :professional-local:
+#Patterns * !Archives !Lists
+Patterns *
 
-#Create Both
-##Expunge Both
-#SyncState *
+Create Both
+#Expunge Both
+SyncState *
 
 # Need to use separate channel for each synced mailbox?
 
