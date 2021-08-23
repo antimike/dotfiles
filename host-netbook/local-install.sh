@@ -493,3 +493,37 @@ make column
 sudo cp .libs/column /usr/bin/column2
 cd ..
 rm -rf util-linux-2.35-rc1*
+
+# gcrypt: Encrypted git repos
+sudo apt-get install git-remote-gcrypt -y
+
+# git-annex: Track large files with symlinks using git
+sudo apt-get install git-annex git-annex-remote-rclone -y
+
+# git-lfs: Large-file storage protocol for git (compatible with Github)
+sudo apt-get install git-lfs -ygit lfs install
+
+# at: Delayed job execution (one-time crontab)
+sudo apt-get install at -y
+
+# GNU Interactive Tools: File browser + process viewer / killer
+sudo apt-get install gnuit -y
+
+# libfuse: FUSE library and headers
+sudo apt-get install libfuse2 libfuse-dev -y
+
+# Upgrading to Python 3.8
+sudo apt-get install python3.8 python3.8-dev -y
+
+# pass-extension-tail: pass extension to avoid printing plaintext passwords
+sudo apt-get install pass-extension-tail -y
+
+# pass-otp: pass extension to one-time passwords
+git clone https://github.com/tadfisher/pass-otp $SOURCE_DIR/pass-otp
+cd $SOURCE_DIR/pass-otp
+sudo make install
+
+# tomb: directory encryption based on keyfiles
+sudo apt-get install tomb -y
+# zbar: barcode scanner and decoder (QR codes?)
+sudo apt-get install zbar-tools -y
