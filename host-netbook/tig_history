@@ -96,3 +96,23 @@ install
 remove
 calcurse
 !git add host-netbook
+!git add antiscripts
+saniti
+print-a
+white
+!git add include
+io-utils
+string
+papis
+!git add papis
+tag
+bibtex
+!git add installer
+markdown
+setup
+!git add examples
+!git add utils/IO
+!git add utils/network
+!git add utils/dev
+!git add utils
+!git add misc
