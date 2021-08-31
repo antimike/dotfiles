@@ -1,6 +1,0 @@
-regolith-compositor-picom-glx/bionic,now 1.1.3-1 amd64 [installed]
-regolith-i3xrocks-config/now 3.5.7-1 amd64 [installed,upgradable to: 3.6.4-1]
-regolith-rofi-config/bionic,now 1.3.1-1 amd64 [installed]
-regolith-styles/now 2.6.16-1 amd64 [installed,upgradable to: 2.9.7-1]
-rofi/now 1.5.4-1~ubuntu18.04 amd64 [installed,upgradable to: 1.6.1-1regolith1]
-rofi-dev/now 1.5.4-1~ubuntu18.04 amd64 [installed,upgradable to: 1.6.1-1regolith1]
