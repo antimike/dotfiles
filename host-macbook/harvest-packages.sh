@@ -1,6 +1,8 @@
 #!/bin/bash
 # Collects packages from local install files in dotfiles repo
 
+source ~/.installed/lib.sh
+
 declare OUTFILE="${PACKAGE_LOGFILE:-$HOME/.packages.log}"
 
 _get_packages() {
@@ -40,7 +42,24 @@ _search_dnf() {
     return $?
 }
 
+_harvest_packages_usage() {
+    cat <<-USAGE
+	
+	harvest-packages.sh
+	===================
+    
+	SUMMARY:
+	    Searches for commands of the form "<command> <package-names>" in a given
+	    file, and returns a newline-delimited list of packages.
+	
+	USAGE:
+	    harvest-packages.sh -o \$OUTFILE \$SCRIPT <command>
+	
+	USAGE
+}
+
 main() {
+    trap "_harvest_packages_usage" ERR
     local -a notfound=( )
     local outfile=
     if [ "$1" = "-o" ]; then
