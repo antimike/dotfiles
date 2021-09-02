@@ -82,4 +82,11 @@ main() {
     exit ${#notfound[@]}
 }
 
+_main() {
+    local -a errors=( )
+    local -a notfound=( )
+
+    local parsed="$(getopt -a -n harvest-packages \
+        -o "s::n:" --long "summary::,name-out:" -- "$@")"
+
 main "$@"
