@@ -797,3 +797,34 @@ ERROR MSG: SIGINT
       RequestsDependencyWarning)
     Variety is already running. Sending the command to the running instance.
 
+[Sat Aug 28 18:15:35 MDT 2021] :: trash-wallpaper.sh :: Trashing wallpaper ''
+    Running command 'variety --trash':
+    Unable to init server: Could not connect: Connection refused
+    Unable to init server: Could not connect: Connection refused
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    
+    (variety:17347): Gtk-CRITICAL **: 18:15:36.056: gtk_clipboard_get_for_display: assertion 'display != NULL' failed
+    Traceback (most recent call last):
+      File "/usr/bin/variety", line 39, in <module>
+        variety.main()
+      File "/usr/lib/python2.7/dist-packages/variety/__init__.py", line 218, in main
+        window.start(arguments)
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 159, in start
+        self.register_clipboard()
+      File "/usr/lib/python2.7/dist-packages/variety/VarietyWindow.py", line 341, in register_clipboard
+        self.clipboard.connect("owner-change", clipboard_changed)
+    AttributeError: 'NoneType' object has no attribute 'connect'
+
+[Tue Aug 31 08:47:07 MDT 2021] :: select-wallpaper.sh :: Opening wallpaper selector (current: '/home/hactar/.config/variety/Downloaded/nasa_apod/NightOfThePerseids_Horalek_1800.jpg')
+[Tue Aug 31 08:47:07 MDT 2021] :: favorite-wallpaper.sh :: Adding wallpaper '/home/hactar/.config/variety/Downloaded/nasa_apod/NightOfThePerseids_Horalek_1800.jpg' to favorites
+    Running command 'variety --selector':
+    Running command 'variety --favorite':
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
+    /usr/lib/python2.7/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.22) or chardet (2.1.1) doesn't match a supported version!
+      RequestsDependencyWarning)
+    Variety is already running. Sending the command to the running instance.
+
