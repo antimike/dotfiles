@@ -46,8 +46,6 @@ buku
 bookmark
 !git add host-netbook/config/coc
 plugins
-session
-nvim
 !git add rstudio-desktop
 !git add tag-compute
 !git add tag-joplin
@@ -91,7 +89,6 @@ config
 dotbare
 zshrc
 install
-!git add host-netbook/vim
 !git add host-netbook/config/nvim/Sessions
 remove
 calcurse
@@ -116,3 +113,8 @@ setup
 !git add utils/dev
 !git add utils
 !git add misc
+!git add host-netbook/vim
+!git add tag-nvim/config/nvim/secure-edit.vim
+nvim
+session
+Session

@@ -1,5 +1,3 @@
-search bash
-
 search passwor
 mkdir .extensions
 touch dmenu
@@ -12,7 +10,6 @@ touch jrnl.bash
 touch lib.bash
 mkdir lib
 touch ensure_symlink.bash
-search jrnl
 touch prefill.bash
 touch secure-edit.bash
 search pass
@@ -48,3 +45,6 @@ touch pass_error.py
 mkdir python
 search scr
 search store
+touch setup.sh
+search fzf
+search jrnl
