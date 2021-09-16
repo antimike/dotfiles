@@ -1,3 +1,0 @@
-# Crypto
-set pgp_sign_as = "antimike.haynes@colostate.edu"
-#send-hook "~t @some\.domain\.name\.com" set crypt_autoencrypt=no

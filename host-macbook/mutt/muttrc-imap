@@ -1,3 +1,0 @@
-unset imap_passive
-set imap_check_subscribed
-

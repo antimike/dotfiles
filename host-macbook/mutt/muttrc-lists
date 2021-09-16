@@ -1,6 +1,0 @@
-# Lists
-lists .*@googlegroups\.com
-
-subscribe (qubes-(users|devel)|othergroup)@googlegroups\.com
-fcc-save-hook qubes-users@googlegroups\.com =list/qubes-users/
-fcc-save-hook qubes-devel@googlegroupos\.com =list/qubes-devel/
